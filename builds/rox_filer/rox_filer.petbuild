@@ -8,7 +8,7 @@ SPECIAL_VER=02d78b9dbece4dd36df91a1bba4a196149f418d2
 VER=$TODAY
 COMP=tar.gz
 DESC="Light weight gtk file manager"
-DEPS=+gtk2+
+DEPS=+gtk+2
 CAT=Filesystem
 DESKTOP=ROX-Filer-file-manager.desktop
 

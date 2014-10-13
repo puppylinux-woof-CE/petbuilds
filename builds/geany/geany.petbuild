@@ -6,7 +6,7 @@ PKG=geany
 VER=1.24.1
 COMP=tar.bz2
 DESC="Light weight powerful gtk text editor and IDE"
-DEPS=+gtk2+
+DEPS=+gtk+2
 CAT=Document
 DESKTOP=geany.desktop
 

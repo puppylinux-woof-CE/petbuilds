@@ -6,7 +6,7 @@ PKG=gtkdialog
 VER=0.8.4
 COMP=tar.xz
 DESC="gtkialog is a small utility for fast and easy GUI building"
-DEPS=+gtk2+
+DEPS=+gtk+2
 CAT=BuildingBlocck
 
 ARCH=`uname -m`

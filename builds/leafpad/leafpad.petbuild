@@ -6,7 +6,7 @@ PKG=leafpad
 VER=0.8.17
 COMP=tar.gz
 DESC="Light weight gtk text editor"
-DEPS=+gtk2+
+DEPS=+gtk+2
 CAT=Document
 DESKTOP=leafpad.desktop
 

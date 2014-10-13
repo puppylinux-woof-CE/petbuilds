@@ -9,12 +9,12 @@ operate. They will be included in puppy soon after some more testing.
 
 usage
 -----
--it is suggested if you cloned this repo to copy it somewhere else so 
+- it is suggested if you cloned this repo to copy it somewhere else so 
 you can pull or fetch without issue
--just cd into `build` and run `./build_all.sh`. Hopefully all packages
+- just cd into `build` and run `./build_all.sh`. Hopefully all packages
 will download and build successfully. The idea is "code goes in, package
 comes out".
--if you want to build individual packages just cd into the package dir
+- if you want to build individual packages just cd into the package dir
 and run its build recipe.EXAMPLE `sh rox_filer.petbuild`
 
 recipes

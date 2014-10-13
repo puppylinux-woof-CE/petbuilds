@@ -1,14 +1,14 @@
-# Xdialog
+# didiwiki
 # this file requires new2dir and dir2pet updated @ 141012
 
-URL=http://distro.ibiblio.org/puppylinux/sources/x/
-PKG=Xdialog
-VER=131231-patched_JB
-FOSSIL_VER=ec30703399f1ea0f ## see http://chiselapp.com/user/jamesbond/repository/xdialog/home
+URL=http://distro.ibiblio.org/puppylinux/sources/d/
+PKG=didiwiki
+VER=0.8
 COMP=tar.gz
-DESC="Xdialog is designed to be a drop in replacement for the dialog or cdialog programs"
-DEPS=+gtk+2
-CAT=BuildingBlocck
+DESC="DidiWiki personal wiki"
+DEPS=+gtk2+
+CAT=Document
+DESKTOP=DidiWiki-personal-wiki.desktop
 
 ARCH=`uname -m`
 case $ARCH in
@@ -19,13 +19,19 @@ esac
 retrieve() {
 	[ -f "${PKG}-${VER}.${COMP}" ] ||\
 	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
-	 
 }
 
 extract() {
 	tar -xvf ${PKG}-${VER}.${COMP}
 	[ "$?" -eq 0 ] || exit
-	mv ${PKG}-${FOSSIL_VER} ${PKG}-${VER}
+}
+
+patch_me(){
+	for i in *.patch; do
+		echo "applying $i"
+		patch -p0 < $i
+		[ $? -ne 0 ] && echo "failed to apply $i" #&& exit 1
+	done
 }
 
 build() {
@@ -34,11 +40,10 @@ build() {
 	./configure --prefix=/usr \
 				--localstatedir=/var \
 				--sysconfdir=/etc \
-				--libdir=/usr/${LIBDIR} \
-				--with-gtk2
-	[ "$?" -eq 0 ] || exit 1
+				--libdir=/usr/${LIBDIR}
+	[ "$?" -eq 0 ] || exit
 	make
-	[ "$?" -eq 0 ] || exit 1
+	[ "$?" -eq 0 ] || exit
 	newer2dir make install
 	make clean
 	cd -
@@ -47,11 +52,16 @@ build() {
 package() {
 	# add this recipe
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
+	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/sbin
+	install -m 0755 didiwiki-gui ./$PKG-$VER-$ARCH/usr/sbin
+	install -m 0644 didiwiki.htm ./$PKG-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
 	if [ "$DESKTOP" ];then
 		install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/applications
 		cat $DESKTOP > ./$PKG-$VER-$ARCH/usr/share/applications/$DESKTOP
 	fi
+	# delete any icon cache or library cache
+	find ./$PKG-$VER-$ARCH -type f -name '*cache' -delete
 	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./$PKG-$VER-$ARCH/
 	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./$PKG-$VER-$ARCH/
 	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
@@ -60,12 +70,13 @@ package() {
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
 			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
 		esac	
-		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p}
 	done
 }
 
 # main
 retrieve
 extract
+patch_me
 build
 package	

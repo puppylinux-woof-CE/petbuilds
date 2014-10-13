@@ -1,0 +1,93 @@
+# hug
+# this file requires new2dir and dir2pet updated @ 141012
+
+URL=http://www.basic-converter.org/
+PKG=hug
+VER=0.96
+COMP=bac
+DESC="HUG - High Level Universal GUI library for BaCon"
+DEPS=+bacon
+CAT=BuildingBlock
+DESKTOP=
+CWD=`pwd`
+HUG_IMPORT=hug_imports.bac
+GTK=gtk.bac
+GDK=gdk.bac
+KO=./hug.so
+VIM=bacon.vim
+SYNTAX=bacon.lang
+
+BAC_VER=`bacon -v|awk '{print $3}'|grep [0-9]|cut -d '.' -f1`
+[ "$BAC_VER" -lt 3 ] && echo "bacon verion is too old" && exit 0
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+retrieve() {
+	[ -f "${PKG}.${COMP}" ] ||\
+	 wget -t0 -c ${URL}/${PKG}.${COMP}
+	[ -f "$HUG_IMPORT" ] ||\
+	 wget -t0 -c ${URL}/$HUG_IMPORT
+	[ -f "$GTK" ] ||\
+	 wget -t0 -c ${URL}/$GTK
+	[ -f "$GDK" ] ||\
+	 wget -t0 -c ${URL}/$GDK
+	[ -f "$VIM" ] ||\
+	 wget -t0 -c ${URL}/$VIM
+	[ -f "$SYNTAX" ] ||\
+	 wget -t0 -c ${URL}/$SYNTAX
+}
+
+extract() {
+	echo nothing to do
+}
+
+build() {
+	# this is all very specific for HUG
+	bacon -d build -f hug.bac
+	[ "$?" -eq 0 ] || exit
+	strip --strip-unneeded build/hug.so
+	install -d -m 0755 $CWD/${PKG}-$VER-$ARCH/usr/$LIBDIR
+	install -d -m 0755 $CWD/${PKG}-$VER-$ARCH/usr/share/BaCon
+	install -m 0755 build/hug.so $CWD/${PKG}-$VER-$ARCH/usr/$LIBDIR
+	install -m 0644 $GTK $CWD/${PKG}-$VER-$ARCH/usr/share/BaCon
+	install -m 0644 $GDK $CWD/${PKG}-$VER-$ARCH/usr/share/BaCon
+	install -m 0644 ${PKG}.${COMP} $CWD/${PKG}-$VER-$ARCH/usr/share/BaCon
+	install -m 0644 $VIM $CWD/${PKG}-$VER-$ARCH/usr/share/BaCon
+	install -m 0644 $SYNTAX $CWD/${PKG}-$VER-$ARCH/usr/share/BaCon
+	sed -i "s%$KO%\/usr\/$LIBDIR\/hug.so%" $HUG_IMPORT
+	[ "$?" -eq 0 ] || exit 1
+	install -m 0644 $HUG_IMPORT $CWD/${PKG}-$VER-$ARCH/usr/share/BaCon
+	rm -r build
+}
+	
+package() {
+	echo packaging...
+	# add this recipe
+	install -d -m 0755 ./${PKG}-$VER-$ARCH/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-$VER-$ARCH/usr/share/applications
+		cat $DESKTOP > ./${PKG}-$VER-$ARCH/usr/share/applications/$DESKTOP
+	fi
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-$VER-$ARCH/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-$VER-$ARCH/
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="${PKG} development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="${PKG} documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="${PKG} locales"; DEPS=+${PKG} ;;
+		esac	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+	done
+	echo done
+}
+
+# main
+retrieve
+extract
+build
+package	

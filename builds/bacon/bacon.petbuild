@@ -46,7 +46,7 @@ build() {
 	install -m 0755 bacon.sh $CWD/${PKG}_DEV-$VER-$ARCH/usr/bin
 	install -m 0755 build/libbacon.a $CWD/${PKG}_DEV-$VER-$ARCH/usr/$LIBDIR
 	install -m 0644 bacon.1 $CWD/${PKG}_DEV-$VER-$ARCH/usr/share/man/man1
-	#make clean
+	make clean
 	cd -
 }
 	

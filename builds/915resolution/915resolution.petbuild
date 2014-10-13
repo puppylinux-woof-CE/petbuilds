@@ -33,6 +33,7 @@ build() {
 	[ "$?" -eq 0 ] || exit
 	install -d -m 0755 $CWD/${PKG}-${VER}-${ARCH}/usr/bin
 	install -m 0755 $PKG $CWD/${PKG}-${VER}-${ARCH}/usr/bin
+	strip --strip-unneeded $CWD/${PKG}-${VER}-${ARCH}/usr/bin/$PKG
 	install -m 0755 dump_bios $CWD/${PKG}-${VER}-${ARCH}/usr/bin
 	make clean
 	cd -

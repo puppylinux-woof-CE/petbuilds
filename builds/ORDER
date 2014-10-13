@@ -12,3 +12,5 @@ caps
 alsaequal
 bbc_provided
 bcrypt
+curlftpfs
+ddcprobe

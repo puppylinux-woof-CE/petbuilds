@@ -35,7 +35,7 @@ build() {
 	install -m 0755 and $CWD/${PKG}-${VER}-${ARCH}/usr/bin
 	install -m 0755 or $CWD/${PKG}-${VER}-${ARCH}/usr/bin
 	install -m 0755 dotquad $CWD/${PKG}-${VER}-${ARCH}/usr/bin
-	strip --strip unneeded $CWD/${PKG}-${VER}-${ARCH}/usr/bin/*
+	strip --strip-unneeded $CWD/${PKG}-${VER}-${ARCH}/usr/bin/*
 	make clean
 	cd -
 }

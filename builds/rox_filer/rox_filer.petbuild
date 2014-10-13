@@ -1,0 +1,89 @@
+# rox_filer
+# this file requires new2dir and dir2pet updated @ 141012
+
+TODAY=`date +%y%m%d`
+URL=http://repo.or.cz/w/rox-filer.git/snapshot/
+PKG=rox_filer
+SPECIAL_VER=02d78b9dbece4dd36df91a1bba4a196149f418d2
+VER=$TODAY
+COMP=tar.gz
+DESC="Light weight gtk file manager"
+DEPS=+gtk2+
+CAT=Filesystem
+DESKTOP=ROX-Filer-file-manager.desktop
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+retrieve() {
+	[ -f "${SPECIAL_VER}.${COMP}" ] ||\
+	 wget -t0 -c ${URL}/${SPECIAL_VER}.${COMP}
+}
+
+extract() {
+	tar -xvf ${SPECIAL_VER}.${COMP}
+	[ "$?" -eq 0 ] || exit 1
+}
+
+patch_and_move(){
+	mv rox-filer $PKG
+	cd $PKG
+	for i in ../*.patch; do
+		echo "applying $i"
+		patch -p0 < $i
+		[ $? -ne 0 ] && echo "failed to apply $i" #&& exit 1
+	done
+	cd -
+}
+
+build() {
+	# since not X compiling forget build triplet
+	cd ${PKG}
+	./ROX-Filer/AppRun
+	[ "$?" -eq 0 ] || exit 1
+	cd -
+	EXEC=`find ./${PKG}/ROX-Filer -type f -name 'ROX-Filer'`
+	if [ "$EXEC" ];then 
+		strip --strip-unneeded $EXEC
+		cp -arf rox_filer-template $PKG-$VER-$ARCH
+		cp -af $EXEC $PKG-$VER-$ARCH/usr/local/apps/ROX-Filer/
+		chmod 755 $PKG-$VER-$ARCH/usr/local/apps/ROX-Filer/ROX-Filer
+	else
+		exit 1
+	fi
+	
+	rm -r $PKG #clean up
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
+	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/applications
+		cat $DESKTOP > ./$PKG-$VER-$ARCH/usr/share/applications/$DESKTOP
+	fi
+	# delete any icon cache or library cache
+	find ./$PKG-$VER-$ARCH -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./$PKG-$VER-$ARCH/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./$PKG-$VER-$ARCH/
+	### AT THIS POINT you could add custom puppypin or mime types/icons ###
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p}
+	done
+}
+
+# main
+retrieve
+extract
+patch_and_move
+build
+package	

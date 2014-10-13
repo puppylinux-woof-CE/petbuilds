@@ -1,0 +1,67 @@
+# jwm
+# this file requires new2dir and dir2pet updated @ 141012
+
+URL=http://joewing.net/projects/jwm/snapshots/
+PKG=jwm
+VER=976
+COMP=tar.xz
+DESC="Joes Window Manager for X"
+DEPS=+cairo,+rsvg,+libpng,+libjpeg,+xpm,+fribidi
+CAT=Desktop
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+retrieve() {
+	[ -f "${PKG}-${VER}.${COMP}" ] ||\
+	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
+}
+
+extract() {
+	tar -xvf ${PKG}-${VER}.${COMP}
+	[ "$?" -eq 0 ] || exit
+}
+
+build() {
+	# since not X compiling forget build triplet
+	cd ${PKG}-${VER}
+	./configure --prefix=/usr \
+				--localstatedir=/var \
+				--sysconfdir=/etc \
+				--libdir=/usr/${LIBDIR}
+	[ "$?" -eq 0 ] || exit
+	make
+	[ "$?" -eq 0 ] || exit
+	newer2dir make install
+	make clean
+	cd -
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
+	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/applications
+		cat $DESKTOP > ./$PKG-$VER-$ARCH/usr/share/applications/$DESKTOP
+	fi
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./$PKG-$VER-$ARCH/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./$PKG-$VER-$ARCH/
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+	done
+}
+
+# main
+retrieve
+extract
+build
+package	

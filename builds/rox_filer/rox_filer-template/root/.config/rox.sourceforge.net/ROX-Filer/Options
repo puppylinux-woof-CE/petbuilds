@@ -10,7 +10,7 @@
   <Option name="menu_xterm">xterm</Option>
   <Option name="display_show_hidden">0</Option>
   <Option name="display_colour_types">1</Option>
-  <Option name="label_font">DejaVu Sans 12</Option>
+  <Option name="label_font">DejaVu Sans 10</Option>
   <Option name="pinboard_right_margin">0</Option>
   <Option name="toolbar_disable">gtk-close</Option>
   <Option name="override_redirect">1</Option>

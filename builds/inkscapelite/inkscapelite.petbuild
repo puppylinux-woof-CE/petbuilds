@@ -1,0 +1,73 @@
+# inkscapelite
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+URL=http://distro.ibiblio.org/puppylinux/sources/i/
+PKG=inkscapelite
+VER=0.36.3_patched-glib
+COMP=tar.xz
+DESC="Light weight vector graphics editor"
+DEPS=+freetype2,+pango,+libxml2,+gtk+2,+cairo,+libpng,+atk
+CAT=Graphic
+DESKTOP=inkscape.desktop
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+retrieve() {
+	[ -f "${PKG}-${VER}.${COMP}" ] ||\
+	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
+}
+
+extract() {
+	tar -xvf ${PKG}-${VER}.${COMP}
+	[ "$?" -eq 0 ] || exit
+}
+
+build() {
+	# since not X compiling forget build triplet
+	cd ${PKG}-${VER}
+	./configure --prefix=/usr \
+				--localstatedir=/var \
+				--sysconfdir=/etc \
+				--libdir=/usr/${LIBDIR}
+	[ "$?" -eq 0 ] || exit
+	sed -i 's%\-\-export-dynamic%%' src/Makefile #legacy
+	make
+	[ "$?" -eq 0 ] || exit
+	newer2dir make install
+	make clean
+	cd -
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
+	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/applications
+		cat $DESKTOP > ./$PKG-$VER-$ARCH/usr/share/applications/$DESKTOP
+	fi
+	(cd ./$PKG-$VER-$ARCH/usr/bin; ln -sf inkscape inkscapelite)
+	# delete any icon cache or library cache
+	find ./$PKG-$VER-$ARCH -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./$PKG-$VER-$ARCH/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./$PKG-$VER-$ARCH/
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p}
+	done
+}
+
+# main
+retrieve
+extract
+patch_me
+build
+package	

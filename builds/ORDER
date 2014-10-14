@@ -25,5 +25,8 @@ elspci
 gcolor2
 getcurpos
 gexec
+gnome-menus
+guess_fstype
 hotplug2stdout
 ifplugd
+inkscapelite

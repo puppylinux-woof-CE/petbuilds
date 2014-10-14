@@ -1,5 +1,5 @@
 # bcrypt
-# this file requires new2dir and dir2pet updated @ 141012
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
 URL=http://distro.ibiblio.org/puppylinux/sources/b/
 PKG=bcrypt

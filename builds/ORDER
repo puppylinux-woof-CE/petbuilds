@@ -16,10 +16,14 @@ bcrypt
 cddetect
 curlftpfs
 ddcprobe
-didwiki
+dictd
+didiwiki
 djvulibre
 disktype
 evince
 elspci
+gcolor2
+getcurpos
+gexec
 hotplug2stdout
 ifplugd

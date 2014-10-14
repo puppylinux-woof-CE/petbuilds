@@ -8,7 +8,7 @@ FOSSIL_VER=ec30703399f1ea0f ## see http://chiselapp.com/user/jamesbond/repositor
 COMP=tar.gz
 DESC="Xdialog is designed to be a drop in replacement for the dialog or cdialog programs"
 DEPS=+gtk+2
-CAT=BuildingBlocck
+CAT=BuildingBlock
 
 ARCH=`uname -m`
 case $ARCH in

@@ -4,6 +4,7 @@ geany
 gtkdialog
 Xdialog
 leafpad
+musl
 915resolution
 bacon
 hug
@@ -12,8 +13,13 @@ caps
 alsaequal
 bbc_provided
 bcrypt
+cddetect
 curlftpfs
 ddcprobe
 didwiki
 djvulibre
+disktype
 evince
+elspci
+hotplug2stdout
+ifplugd

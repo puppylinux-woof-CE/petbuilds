@@ -7,7 +7,7 @@ VER=0.8.4
 COMP=tar.xz
 DESC="gtkialog is a small utility for fast and easy GUI building"
 DEPS=+gtk+2
-CAT=BuildingBlocck
+CAT=BuildingBlock
 
 ARCH=`uname -m`
 case $ARCH in

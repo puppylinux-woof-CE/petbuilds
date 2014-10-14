@@ -64,7 +64,7 @@ package() {
 	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}_DEV-$VER-$ARCH/
 	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
 		case $p in
-			*_DEV*) DESC="${PKG}_DEV development"; DEPS=+${PKG} ;;
+#			*_DEV*) DESC="${PKG}_DEV development"; DEPS=+${PKG} ;;
 			*_DOC*) DESC="${PKG}_DEV documentation"; DEPS=+${PKG} ;;
 			*_NLS*) DESC="${PKG}_DEV locales"; DEPS=+${PKG} ;;
 		esac	

@@ -1,13 +1,14 @@
-# alsaequal
+# musl
 # this file requires new2dir and dir2pet updated @ 141012
 
-URL=http://www.thedigitalmachine.net/tools/
-PKG=alsaequal
-VER=0.6
-COMP=tar.bz2
-DESC="Alsaequal is a real-time adjustable equalizer plugin for ALSA"
-DEPS=+alsa-lib,+caps
+URL=http://www.musl-libc.org/releases/
+PKG=musl
+VER=1.1.4
+COMP=tar.gz
+DESC=""
+DEPS=
 CAT=BuildingBlock
+CWD=`pwd`
 
 ARCH=`uname -m`
 case $ARCH in
@@ -24,15 +25,18 @@ retrieve() {
 extract() {
 	tar -xvf ${PKG}-${VER}.${COMP}
 	[ "$?" -eq 0 ] || exit
-	mv ${PKG} ${PKG}-${VER}
 }
 
 build() {
 	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}
+	./configure
+	[ "$?" -eq 0 ] || exit 1
 	make
 	[ "$?" -eq 0 ] || exit 1
-	newer2dir make install
+	make DESTDIR=$CWD/$PKG-$VER-$ARCH install
+	install -d -m 0755 $CWD/$PKG-$VER-$ARCH/usr/local/bin
+	( cd $CWD/$PKG-$VER-$ARCH/usr/local/bin; ln -sf ../musl/bin/musl-gcc . )
 	make clean
 	cd -
 }
@@ -40,10 +44,6 @@ build() {
 package() {
 	echo "wait..."
 	# add this recipe
-	case $ARCH in
-	 *64)LIB=`find ./$PKG-$VER-$ARCH -type d -name 'lib'`
-		mv $LIB ${LIB}64 ;;
-	esac
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
 	if [ "$DESKTOP" ];then

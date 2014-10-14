@@ -7,7 +7,7 @@ VER=0.9.23
 COMP=tar.bz2
 DESC="CAPS is a collection of audio plugins"
 DEPS=+alsa-lib,+alsaequal
-CAT=BuildingBlocck
+CAT=BuildingBlock
 
 ARCH=`uname -m`
 case $ARCH in

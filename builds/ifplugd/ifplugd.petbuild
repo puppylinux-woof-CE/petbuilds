@@ -1,13 +1,14 @@
-# alsaequal
+# ifplugd
 # this file requires new2dir and dir2pet updated @ 141012
 
-URL=http://www.thedigitalmachine.net/tools/
-PKG=alsaequal
-VER=0.6
+URL=http://distro.ibiblio.org/puppylinux/sources/i/
+PKG=ifplugd
+VER=0.28
 COMP=tar.bz2
-DESC="Alsaequal is a real-time adjustable equalizer plugin for ALSA"
-DEPS=+alsa-lib,+caps
+DESC="utilities CD detection and hotplug detection"
+DEPS=
 CAT=BuildingBlock
+CWD=`pwd`
 
 ARCH=`uname -m`
 case $ARCH in
@@ -18,50 +19,50 @@ esac
 retrieve() {
 	[ -f "${PKG}-${VER}.${COMP}" ] ||\
 	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
-	 
 }
 
 extract() {
 	tar -xvf ${PKG}-${VER}.${COMP}
 	[ "$?" -eq 0 ] || exit
-	mv ${PKG} ${PKG}-${VER}
 }
 
 build() {
 	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}
+	./configure --prefix=/ \
+				--bindir=/sbin \
+				--disable-lynx
+	[ "$?" -eq 0 ] || exit
 	make
-	[ "$?" -eq 0 ] || exit 1
+	[ "$?" -eq 0 ] || exit
 	newer2dir make install
 	make clean
 	cd -
 }
 	
 package() {
-	echo "wait..."
 	# add this recipe
-	case $ARCH in
-	 *64)LIB=`find ./$PKG-$VER-$ARCH -type d -name 'lib'`
-		mv $LIB ${LIB}64 ;;
-	esac
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
 	if [ "$DESKTOP" ];then
 		install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/applications
 		cat $DESKTOP > ./$PKG-$VER-$ARCH/usr/share/applications/$DESKTOP
 	fi
+	# remove unneeded
+	rm -r ./$PKG-$VER-$ARCH/etc #ifplugd
+	# delete any icon cache or library cache
+	find ./$PKG-$VER-$ARCH -type f -name '*cache' -delete
 	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./$PKG-$VER-$ARCH/
 	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./$PKG-$VER-$ARCH/
-	find ./$PKG-$VER-$ARCH -type f -name '*cache' -delete
 	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
 		case $p in
 			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
 			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
 		esac	
-		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2 >/dev/null
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
 	done
-	echo "done!"
+	echo "done"
 }
 
 # main

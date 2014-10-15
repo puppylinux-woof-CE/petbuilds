@@ -50,8 +50,7 @@ build() {
 	cd -
 }
 	
-package() {
-	echo packaging...
+package() {.
 	# add this recipe #_DEV is special for bacon only
 	install -d -m 0755 ./${PKG}_DEV-$VER-$ARCH/usr/share/doc
 	install -m 0644 BaCon.png ./${PKG}_DEV-$VER-$ARCH/usr/share/pixmaps
@@ -68,9 +67,10 @@ package() {
 			*_DOC*) DESC="${PKG}_DEV documentation"; DEPS=+${PKG} ;;
 			*_NLS*) DESC="${PKG}_DEV locales"; DEPS=+${PKG} ;;
 		esac	
+		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
 	done
-	echo done
+	echo "done!"
 }
 
 # main

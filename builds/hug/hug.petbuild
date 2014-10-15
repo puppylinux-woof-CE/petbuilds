@@ -65,7 +65,6 @@ build() {
 }
 	
 package() {
-	echo packaging...
 	# add this recipe
 	install -d -m 0755 ./${PKG}-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./${PKG}-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
@@ -81,9 +80,10 @@ package() {
 			*_DOC*) DESC="${PKG} documentation"; DEPS=+${PKG} ;;
 			*_NLS*) DESC="${PKG} locales"; DEPS=+${PKG} ;;
 		esac	
+		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
 	done
-	echo done
+	echo "done!"
 }
 
 # main

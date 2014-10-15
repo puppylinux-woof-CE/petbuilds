@@ -1,10 +1,10 @@
 # alsaequal
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
-URL=http://quitte.de/dsp/
-PKG=caps # note ver delim is underscore
-VER=0.9.23
-COMP=tar.bz2
+URL=http://distro.ibiblio.org/fatdog/arm/sources/beta/
+PKG=caps
+VER=0.4.5
+COMP=tar.gz
 DESC="CAPS is a collection of audio plugins"
 DEPS=+alsa-lib,+alsaequal
 CAT=BuildingBlock
@@ -16,13 +16,13 @@ case $ARCH in
 esac
 
 retrieve() {
-	[ -f "${PKG}_${VER}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${PKG}_${VER}.${COMP}
+	[ -f "${PKG}-${VER}.${COMP}" ] ||\
+	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
 	 
 }
 
 extract() {
-	tar -xvf ${PKG}_${VER}.${COMP}
+	tar -xvf ${PKG}-${VER}.${COMP}
 	[ "$?" -eq 0 ] || exit
 }
 
@@ -31,6 +31,11 @@ build() {
 	cd ${PKG}-${VER}
 	./configure.py
 	[ "$?" -eq 0 ] || exit 1
+	# stupid configure script, patch Makefile
+	sed -i 's%\/local%%' Makefile
+	case $ARCH in
+		*64) sed -i 's%lib%lib64%' Makefile ;;
+	esac
 	make
 	[ "$?" -eq 0 ] || exit 1
 	newer2dir make install
@@ -56,7 +61,8 @@ package() {
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
 			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
 		esac	
-		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2 >/dev/null
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
 	done
 	echo "done!"
 }

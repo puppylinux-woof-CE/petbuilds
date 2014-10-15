@@ -1,0 +1,59 @@
+# acpid
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+URL=http://sourceforge.net/projects/acpid2/files/
+PKG=acpid
+VER=2.0.23
+COMP=tar.xz
+DESC="A daemon for delivering ACPI events"
+DEPS=
+CAT=BuildingBlock
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+retrieve() {
+	[ -f "${PKG}-${VER}.${COMP}" ] ||\
+	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
+	 
+}
+
+extract() {
+	tar -xvf ${PKG}-${VER}.${COMP}
+	[ "$?" -eq 0 ] || exit
+}
+
+build() {
+	cd ${PKG}-${VER}
+	./configure --prefix=/usr
+	make
+	[ 0 -ne $? ] && exit 1
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
+	install -m 644 ../${PKG}.petbuild ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
+	make DESTDIR="$(pwd)/$PKG-$VER-$ARCH" install
+	install -D -d -m 755 ${PKG}_DOC-$VER-$ARCH/usr
+	mv $PKG-$VER-$ARCH/usr/share ${PKG}_DOC-$VER-$ARCH/usr
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+	done
+	echo "done!"
+}
+
+# main
+retrieve
+extract
+build
+package	

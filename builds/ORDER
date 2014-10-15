@@ -26,7 +26,10 @@ gcolor2
 getcurpos
 gexec
 gnome-menus
+gpicview
 guess_fstype
+gxmessage
 hotplug2stdout
 ifplugd
 inkscapelite
+mtp_phone_connect

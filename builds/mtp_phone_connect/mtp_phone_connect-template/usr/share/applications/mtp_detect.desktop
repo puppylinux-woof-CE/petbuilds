@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Connect Your Android Phone
+Icon=go.svg
+Comment=Connect Your Android Phone
+Exec=mtpdevice
+Terminal=false
+Type=Application
+Categories=X-Filesystem-mount
+GenericName=Connect Your Android Phone

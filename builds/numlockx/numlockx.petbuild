@@ -1,31 +1,23 @@
 # numlockx
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../func
+. ../build.conf
+
 URL=http://pkgs.fedoraproject.org/repo/pkgs/numlockx/numlockx-1.2.tar.gz/be9109370447eae23f6f3f8527bb1a67/
 PKG=numlockx
 VER=1.2
 COMP=tar.gz
 DESC="lock the numlock key"
-DEPS=+alsa-lib,+caps
-CAT=BuildingBlocck
+DEPS=
+CAT=BuildingBlock
+CWD=`pwd`
 
 ARCH=`uname -m`
 case $ARCH in
  *64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
 esac
-
-retrieve() {
-	[ -f "${PKG}-${VER}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
-	 
-}
-
-extract() {
-	tar -xvf ${PKG}-${VER}.${COMP}
-	[ "$?" -eq 0 ] || exit
-	mv ${PKG} ${PKG}-${VER}
-}
 
 build() {
 	# since not X compiling forget build triplet
@@ -37,8 +29,8 @@ build() {
 	[ "$?" -eq 0 ] || exit
 	make
 	[ "$?" -eq 0 ] || exit 1
-	newer2dir make install
-	make clean
+	install -d -m 0755 $CWD/$PKG-$VER-$ARCH/usr/bin
+	install -s -m 0755 $PKG $CWD/$PKG-$VER-$ARCH/usr/bin 
 	cd -
 }
 	
@@ -60,13 +52,18 @@ package() {
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
 			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
 		esac	
-		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2 >/dev/null
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
 	done
+	rm -r ${PKG}-${VER}
+	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve
-extract
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
 build
 package	

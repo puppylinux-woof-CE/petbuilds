@@ -1,12 +1,15 @@
 # hug
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../func
+. ../build.conf
+
 URL=http://www.basic-converter.org/
 PKG=hug
 VER=0.96
 COMP=bac
 DESC="HUG - High Level Universal GUI library for BaCon"
-DEPS=+bacon,+gtk2+
+DEPS=+bacon,+gtk+2
 CAT=BuildingBlock
 DESKTOP=
 CWD=`pwd`
@@ -26,23 +29,21 @@ case $ARCH in
  *) LIBDIR=lib ;;
 esac
 
-retrieve() {
-	[ -f "${PKG}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${PKG}.${COMP}
-	[ -f "$HUG_IMPORT" ] ||\
-	 wget -t0 -c ${URL}/$HUG_IMPORT
-	[ -f "$GTK" ] ||\
-	 wget -t0 -c ${URL}/$GTK
-	[ -f "$GDK" ] ||\
-	 wget -t0 -c ${URL}/$GDK
-	[ -f "$VIM" ] ||\
-	 wget -t0 -c ${URL}/$VIM
-	[ -f "$SYNTAX" ] ||\
-	 wget -t0 -c ${URL}/$SYNTAX
+retrieve_custom() {
+	if [ -f "../0sources/hug-extras-$VER.tar.gz" ];then
+		cp -a ../0sources/hug-extras-$VER.tar.gz .
+	else
+		wget -t0 -c ${URL}/${PKG}.${COMP}
+		wget -t0 -c ${URL}/$HUG_IMPORT
+		wget -t0 -c ${URL}/$GTK
+		wget -t0 -c ${URL}/$GDK
+		wget -t0 -c ${URL}/$VIM
+		wget -t0 -c ${URL}/$SYNTAX
+	fi
 }
 
-extract() {
-	echo nothing to do
+extract_custom() {
+	[ -f hug-extras-$VER.tar.gz ] && tar -xvf hug-extras-$VER.tar.gz
 }
 
 build() {
@@ -74,6 +75,15 @@ package() {
 	fi
 	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-$VER-$ARCH/
 	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-$VER-$ARCH/
+	# pack up the src files
+	tar -czvf hug-extras-$VER.tar.gz ${PKG}.${COMP} \
+									$HUG_IMPORT \
+									$GTK \
+									$GDK \
+									$VIM \
+									$SYNTAX
+	mv -f hug-extras-$VER.tar.gz ../0sources
+	rm *.bac *.vim *.lang
 	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
 		case $p in
 			*_DEV*) DESC="${PKG} development"; DEPS=+${PKG} ;;
@@ -82,12 +92,16 @@ package() {
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
 	done
+	rm -r ${PKG}-${VER} 2>/dev/null
+	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve
-extract
+retrieve_custom
+extract_custom
 build
 package	

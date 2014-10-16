@@ -1,6 +1,9 @@
 # gnome-menus
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../func
+. ../build.conf
+
 PKG=gnome-menus
 VER=2.14.3
 URL=http://distro.ibiblio.org/puppylinux/sources/g/
@@ -14,16 +17,6 @@ case $ARCH in
  *64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
 esac
-
-retrieve() {
-	[ -f "${PKG}-${VER}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
-}
-
-extract() {
-	tar -xvf ${PKG}-${VER}.${COMP}
-	[ "$?" -eq 0 ] || exit
-}
 
 build() {
 	# since not X compiling forget build triplet
@@ -61,12 +54,16 @@ echo "please wait..."
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
 	done
+	rm -r ${PKG}-${VER}
+	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve
-extract
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
 build
 package	

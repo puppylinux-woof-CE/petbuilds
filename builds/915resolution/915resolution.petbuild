@@ -2,6 +2,9 @@
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
 
+. ../func
+. ../build.conf
+
 URL=http://distro.ibiblio.org/puppylinux/sources/0/
 PKG=915resolution
 VER=0.5.3-patched20110617
@@ -17,16 +20,6 @@ case $ARCH in
  *) LIBDIR=lib ;;
 esac
 
-retrieve() {
-	[ -f "${PKG}-${VER}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
-}
-
-extract() {
-	tar -xvf ${PKG}-${VER}.${COMP}
-	[ "$?" -eq 0 ] || exit
-}
-
 build() {
 	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}
@@ -36,8 +29,8 @@ build() {
 	install -m 0755 $PKG $CWD/${PKG}-${VER}-${ARCH}/usr/bin
 	strip --strip-unneeded $CWD/${PKG}-${VER}-${ARCH}/usr/bin/$PKG
 	install -m 0755 dump_bios $CWD/${PKG}-${VER}-${ARCH}/usr/bin
-	make clean
 	cd -
+	rm -r ${PKG}-${VER}
 }
 	
 package() {
@@ -58,12 +51,15 @@ package() {
 		esac
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
 	done
+	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve
-extract
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
 build
 package	

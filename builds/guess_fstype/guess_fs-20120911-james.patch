@@ -1,0 +1,179 @@
+Changes:
+1. Update Makefile for compiling with musl
+2. Fix Makefile warning and remove strict-aliasing
+2. Fix missing loff_t in recent kernels
+3. Fix 32-bit/64-bit type difference
+4. Add squashfs detection type (won't work on big endian machines - anyway the whole stuff used to break on 64-bit anyway!)
+
+diff -Nur guess_fs-20120911/dosfsck.h guess_fs-20120911-james/dosfsck.h
+--- guess_fs-20120911/dosfsck.h	2005-05-05 21:43:59.000000000 +1000
++++ guess_fs-20120911-james/dosfsck.h	2013-01-17 22:44:31.000000000 +1100
+@@ -24,14 +24,37 @@
+ #endif
+ 
+ #ifndef __u8
++#ifdef __i386__
++/* defines for ILP32 32-bit systems (Unix) */
+ #	define __u8 unsigned char
+ #	define __u16 unsigned short
+-#	define __u32 unsigned long
++#	define __u32 unsigned int
+ #	define __u64 unsigned long long
+ #	define __s8 signed char
+ #	define __s16 signed short
+-#	define __s32 signed long
++#	define __s32 signed int
+ #	define __s64 signed long long
++#elif defined(__amd64__) || defined(__x86_64__) 
++/* defines for LP64 32-bit systems (Unix) */
++#	define __u8 unsigned char
++#	define __u16 unsigned short
++#	define __u32 unsigned int
++#	define __u64 unsigned long
++#	define __s8 signed char
++#	define __s16 signed short
++#	define __s32 signed int
++#	define __s64 signed long
++#endif
++#endif
++
++#ifndef loff_t
++#ifdef __i386__
++/* defines for ILP32 32-bit systems (Unix) */
++#define loff_t long long
++#elif defined(__amd64__) || defined(__x86_64__) 
++#	define loff_t long
++/* defines for LP64 32-bit systems (Unix) */
++#endif
+ #endif
+ 
+ #define VFAT_LN_ATTR (ATTR_RO | ATTR_HIDDEN | ATTR_SYS | ATTR_VOLUME)
+@@ -103,8 +126,8 @@
+ } DOS_FILE;
+ 
+ typedef struct {
+-    unsigned long value;
+-    unsigned long reserved;
++    unsigned int value;
++    unsigned int reserved;
+     DOS_FILE *owner;
+     int prev; /* number of previous clusters */
+ } FAT_ENTRY;
+@@ -137,7 +160,7 @@
+ 
+ /* value to use as end-of-file marker */
+ #define FAT_EOF(fs)	((atari_format ? 0xfff : 0xff8) | FAT_EXTD(fs))
+-#define FAT_IS_EOF(fs,v) ((unsigned long)(v) >= (0xff8|FAT_EXTD(fs)))
++#define FAT_IS_EOF(fs,v) ((unsigned int)(v) >= (0xff8|FAT_EXTD(fs)))
+ /* value to mark bad clusters */
+ #define FAT_BAD(fs)	(0xff7 | FAT_EXTD(fs))
+ /* range of values used for bad clusters */
+diff -Nur guess_fs-20120911/error.h guess_fs-20120911-james/error.h
+--- guess_fs-20120911/error.h	2011-09-07 05:47:21.000000000 +1000
++++ guess_fs-20120911-james/error.h	2013-01-18 12:04:43.569510968 +1100
+@@ -23,7 +23,7 @@
+ #include <features.h>
+ 
+ 
+-__BEGIN_DECLS
++//__BEGIN_DECLS
+ 
+ /* Print a message with `fprintf (stderr, FORMAT, ...)';
+    if ERRNUM is nonzero, follow it with ": " and strerror (ERRNUM).
+@@ -53,6 +53,6 @@
+ # include <bits/error.h>
+ #endif
+ 
+-__END_DECLS
++//__END_DECLS
+ 
+ #endif /* error.h */
+Binary files guess_fs-20120911/guess_fstype and guess_fs-20120911-james/guess_fstype differ
+diff -Nur guess_fs-20120911/guess_fstype.c guess_fs-20120911-james/guess_fstype.c
+--- guess_fs-20120911/guess_fstype.c	2012-09-15 06:58:13.000000000 +1000
++++ guess_fs-20120911-james/guess_fstype.c	2013-01-18 12:32:34.256056785 +1100
+@@ -420,7 +420,7 @@
+ 		struct xiafs_super_block xiasb;
+ 		char romfs_magic[8];
+ 		char qnx4fs_magic[10];	/* ignore first 4 bytes */
+-		long bfs_magic;
++		int bfs_magic;
+ 		struct ntfs_super_block ntfssb;
+ 		struct fat_super_block fatsb;
+ 		struct xfs_super_block xfsb;
+@@ -428,6 +428,7 @@
+ 		struct ocfs_volume_header ovh;
+ 		struct efs_volume_header efsvh;
+ 		struct efs_super efssb;
++		struct sqsh_super_block squashfssb;
+ 	} xsb;			/* stuff at 0 */
+ 	union {
+ 		struct minix_super_block ms;
+@@ -466,7 +467,7 @@
+ 
+ //printf("int fatcheck(int fd) = '%s'\n", fatcheck(fd) ? "OK":"BAD");
+ 
+-		
++
+ 		if (xiafsmagic(xsb.xiasb) == _XIAFS_SUPER_MAGIC)
+ 			type = "xiafs";
+ 		else if(!strncmp(xsb.romfs_magic, "-rom1fs-", 8))
+@@ -484,6 +485,9 @@
+ 		else if(cramfsmagic(xsb.cramfssb) == CRAMFS_SUPER_MAGIC ||
+ 			cramfsmagic(xsb.cramfssb) == CRAMFS_SUPER_MAGIC_BE)
+ 				type = "cramfs";
++		else if (xsb.squashfssb.s_magic == SQUASHFS_SUPER_MAGIC1 || 
++				 xsb.squashfssb.s_magic == SQUASHFS_SUPER_MAGIC2 )
++			type = "squashfs";
+ 		else if (assemble4be((unsigned char *)xsb.efsvh.vh_magic) == EFS_VHMAGIC)
+ 			type = "efs";		/* EFS volume header */
+ 						/* might check checksum here */
+Binary files guess_fs-20120911/guess_fstype-V201200705 and guess_fs-20120911-james/guess_fstype-V201200705 differ
+diff -Nur guess_fs-20120911/linux_fs.h guess_fs-20120911-james/linux_fs.h
+--- guess_fs-20120911/linux_fs.h	2012-09-10 22:08:46.000000000 +1000
++++ guess_fs-20120911-james/linux_fs.h	2013-01-18 12:32:10.606058498 +1100
+@@ -333,3 +333,20 @@
+ assemble4be(unsigned char *p) {
+ 	return (p[3] | (p[2] << 8) | (p[1] << 16) | (p[0] << 24));
+ }
++
++/* from squashfs.c in util-linux */
++#define SQUASHFS_SUPER_MAGIC1 'sqsh'
++#define SQUASHFS_SUPER_MAGIC2 'qshs'
++#define SQUASHFS_SUPER_MAGIC1_BE 'hsqs'
++#define SQUASHFS_SUPER_MAGIC2_BE 'shsq'
++struct sqsh_super_block {
++	uint32_t	s_magic;
++	uint32_t	inodes;
++	uint32_t	bytes_used_2;
++	uint32_t	uid_start_2;
++	uint32_t	guid_start_2;
++	uint32_t	inode_table_start_2;
++	uint32_t	directory_table_start_2;
++	uint16_t	s_major;
++	uint16_t	s_minor;
++} __attribute__((packed));
+diff -Nur guess_fs-20120911/Makefile guess_fs-20120911-james/Makefile
+--- guess_fs-20120911/Makefile	2012-09-10 22:57:24.000000000 +1000
++++ guess_fs-20120911-james/Makefile	2013-01-18 12:32:19.299391201 +1100
+@@ -1,10 +1,10 @@
+-CC = diet gcc -nostdinc
+-CFLAGS = -W -Wall -Os
++CC = musl-gcc
++CFLAGS = -W -Wall -Os -D_GNU_SOURCE -fno-strict-aliasing -Wno-multichar
+ EXE = guess_fstype
+ 
+ default: $(EXE) tidy
+ 
+-$(EXE):
++$(EXE): guess_fstype.c main.c Makefile
+ 	@echo "Single compile for guess_fstype ..."
+ 	@$(CC) -o $@ guess_fstype.c main.c $(CFLAGS) -s
+ 	@ls -l $@
+@@ -15,6 +15,3 @@
+ clean: tidy
+ 	@rm -f $(EXE)
+ install:
+-
+-
+-

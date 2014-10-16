@@ -1,6 +1,9 @@
 # gcolor2
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../func
+. ../build.conf
+
 URL=http://distro.ibiblio.org/puppylinux/sources/g/
 PKG=gcolor2
 VER=1.0.0
@@ -18,16 +21,6 @@ case $ARCH in
  *) LIBDIR=lib ;;
 esac
 
-retrieve() {
-	[ -f "${SRC}-${VER}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${SRC}-${VER}.${COMP}
-}
-
-extract() {
-	tar -xvf ${SRC}-${VER}.${COMP}
-	[ "$?" -eq 0 ] || exit
-}
-
 build() {
 	# since not X compiling forget build triplet
 	cd ${SRC}-${VER}
@@ -36,7 +29,6 @@ build() {
 	install -d -m 0755 $CWD/${PKG}-${VER}-${ARCH}/usr/bin
 	install -m 0755 $SRC $CWD/${PKG}-${VER}-${ARCH}/usr/bin
 	strip --strip-unneeded $CWD/${PKG}-${VER}-${ARCH}/usr/bin/*
-	make clean
 	cd -
 }
 	
@@ -64,12 +56,16 @@ package() {
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
 	done
+	rm -r ${SRC}-${VER}
+	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve
-extract
+retrieve ${SRC}-${VER}.${COMP}
+extract ${SRC}-${VER}.${COMP}
 build
 package	

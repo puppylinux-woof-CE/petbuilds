@@ -1,6 +1,9 @@
 # alsaequal
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../func
+. ../build.conf
+
 URL=http://www.thedigitalmachine.net/tools/
 PKG=alsaequal
 VER=0.6
@@ -15,20 +18,9 @@ case $ARCH in
  *) LIBDIR=lib ;;
 esac
 
-retrieve() {
-	[ -f "${PKG}-${VER}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
-	 
-}
-
-extract() {
-	tar -xvf ${PKG}-${VER}.${COMP}
-	[ "$?" -eq 0 ] || exit
-	mv ${PKG} ${PKG}-${VER}
-}
-
 build() {
 	# since not X compiling forget build triplet
+	mv ${PKG} ${PKG}-${VER}
 	cd ${PKG}-${VER}
 	make
 	[ "$?" -eq 0 ] || exit 1
@@ -61,12 +53,16 @@ package() {
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
 	done
+	rm -r ${PKG}-${VER}
+	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve
-extract
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
 build
 package	

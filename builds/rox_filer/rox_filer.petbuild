@@ -1,6 +1,9 @@
 # rox_filer
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../func
+. ../build.conf
+
 TODAY=`date +%y%m%d`
 URL=http://repo.or.cz/w/rox-filer.git/snapshot/
 PKG=rox_filer
@@ -17,16 +20,6 @@ case $ARCH in
  *64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
 esac
-
-retrieve() {
-	[ -f "${SPECIAL_VER}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${SPECIAL_VER}.${COMP}
-}
-
-extract() {
-	tar -xvf ${SPECIAL_VER}.${COMP}
-	[ "$?" -eq 0 ] || exit 1
-}
 
 patch_and_move(){
 	mv rox-filer $PKG
@@ -79,13 +72,17 @@ package() {
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
 	done
+	rm -r ${PKG}-${VER} 2>/dev/null
+	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve
-extract
+retrieve ${SPECIAL_VER}.${COMP}
+extract ${SPECIAL_VER}.${COMP}
 patch_and_move
 build
 package	

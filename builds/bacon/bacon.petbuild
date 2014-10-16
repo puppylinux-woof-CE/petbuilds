@@ -1,6 +1,9 @@
 # bacon
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../func
+. ../build.conf
+
 URL=http://www.basic-converter.org/stable/
 PKG=bacon
 VER=3.0.1
@@ -16,16 +19,6 @@ case $ARCH in
  *64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
 esac
-
-retrieve() {
-	[ -f "${PKG}-${VER}.${COMP}" ] ||\
-	 wget -t0 -c ${URL}/${PKG}-${VER}.${COMP}
-}
-
-extract() {
-	tar -xvf ${PKG}-${VER}.${COMP}
-	[ "$?" -eq 0 ] || exit
-}
 
 build() {
 	# since not X compiling forget build triplet
@@ -46,11 +39,10 @@ build() {
 	install -m 0755 bacon.sh $CWD/${PKG}_DEV-$VER-$ARCH/usr/bin
 	install -m 0755 build/libbacon.a $CWD/${PKG}_DEV-$VER-$ARCH/usr/$LIBDIR
 	install -m 0644 bacon.1 $CWD/${PKG}_DEV-$VER-$ARCH/usr/share/man/man1
-	make clean
 	cd -
 }
 	
-package() {.
+package() {
 	# add this recipe #_DEV is special for bacon only
 	install -d -m 0755 ./${PKG}_DEV-$VER-$ARCH/usr/share/doc
 	install -m 0644 BaCon.png ./${PKG}_DEV-$VER-$ARCH/usr/share/pixmaps
@@ -69,12 +61,16 @@ package() {.
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
 	done
+	rm -r ${PKG}-${VER}
+	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve
-extract
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
 build
 package	

@@ -66,7 +66,7 @@ package() {
 		rm -r $p
 		mv ${p}.pet ../0pets_out
 	done
-	rm -r ${PKG}-${VER}
+	rm -r ${SRC}-${VER}
 	rm *.files 2>/dev/null
 	echo "done!"
 }

@@ -5,13 +5,36 @@
 #sh rox_filer.petbuild
 # inside of the rox_filer dir
 
-CWD=`pwd`
+. ./build.conf
 
 for pkg in `cat ORDER`; do
+	pkg_exits=`ls ./0pets_out|grep "^$pkg"|grep "pet$"`
+	if [ "$pkg_exits" ];then
+		echo "$pkg exists ... skipping"
+		sleep 1
+		continue
+	fi
+	echo
 	cd $pkg
-	sh ${pkg}.petbuild
-	[ "$?" -eq 1 ] && echo "$pkg build failure" && exit 1
+	echo "
++=============================================================================+
+
+building $pkg"
+	sleep 1 
+	sh ${pkg}.petbuild 2>&1 | tee ../0logs/${pkg}build.log
+	if [ "$?" -eq 1 ];then 
+		echo "$pkg build failure"
+		case $HALT_ERRS in
+			0) exit 1 ;;
+		esac
+	fi
 	cd -
 done
+echo "
++=============================================================================+
+
+getting specs"
+# get the specs
+./get_specs.sh
 
 echo "all done!" && exit 0

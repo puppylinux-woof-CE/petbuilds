@@ -1,0 +1,20 @@
+# functions library
+
+. ../build.conf
+
+retrieve() {
+	[ -f ../0sources/"$1" ] &&\
+	cp -a ../0sources/${1} . ||\
+	wget -t0 -c ${URL}/${1}
+	[ "$?" -eq 0 ] || exit 1
+	if [ "$DLD_ONLY" -eq 0 ];then
+		mv -f ${1} ../0sources
+		exit 0
+	fi
+}
+
+extract() {
+	tar -xvf ${1}
+	[ "$?" -eq 0 ] || exit
+	mv -f ${1} ../0sources
+}

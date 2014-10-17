@@ -35,15 +35,18 @@ build() {
 	make oldconfig
 	make CC="musl-gcc -static" $MKFLG 
 	[ "$?" -eq 0 ] || exit 1
-	make install
-	cp -af _install/sbin/* _install/bin
-	rm -r _install/sbin
-	mv _install ../$PKG-$VER-$ARCH
 	cd -
 }
 	
 package() {
 	echo "wait..."
+	# install
+	install -d -m 0755 ./$PKG-$VER-$ARCH/bin
+	install -d -m 0755 ./$PKG-$VER-$ARCH/sbin
+	install -m 0755 ${SRC_PKG}-${VER}/busybox ./$PKG-$VER-$ARCH/bin
+	(cd ./$PKG-$VER-$ARCH; sh ../bb-symlinks.sh install)
+	mv -f ./$PKG-$VER-$ARCH/sbin/* ./$PKG-$VER-$ARCH/bin
+	rm -r ./$PKG-$VER-$ARCH/sbin
 	# add this recipe
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe

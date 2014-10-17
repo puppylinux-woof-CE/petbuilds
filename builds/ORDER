@@ -5,6 +5,8 @@ alsaequal
 bacon
 bbc_provided
 bcrypt
+busybox
+busybox_static
 caps
 cddetect
 curlftpfs

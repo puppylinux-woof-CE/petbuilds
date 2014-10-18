@@ -6,7 +6,6 @@ bacon
 bbc_provided
 bcrypt
 busybox
-busybox_static
 caps
 cddetect
 curlftpfs
@@ -43,4 +42,6 @@ numlockx
 osmo
 parcellite
 rox_filer
+xarchive
+xarchiver
 Xdialog

@@ -62,7 +62,7 @@ package() {
 }
 
 # main
-retrieve ${PKG}-${VER}.${COMP}
+retrieve "${PKG}-${VER}.${COMP} --no-check-certificate"
 extract ${PKG}-${VER}.${COMP}
 build
 package	

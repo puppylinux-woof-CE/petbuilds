@@ -3,12 +3,14 @@
 . ../build.conf
 
 retrieve() {
-	[ -f ../0sources/"$1" ] &&\
-	cp -a ../0sources/${1} . ||\
-	wget -t0 -c ${URL}/${1}
+	SRCS=${1%% *}
+	CERT=${1##* }
+	[ -f ../0sources/"$SRCS" ] &&\
+	cp -a ../0sources/${SRCS} . ||\
+	wget -t0 -c ${URL}/${SRCS} $CERT
 	[ "$?" -eq 0 ] || exit 1
 	if [ "$DLD_ONLY" -eq 0 ];then
-		mv -f ${1} ../0sources
+		mv -f ${SRCS} ../0sources
 		exit 0
 	fi
 }
@@ -17,4 +19,17 @@ extract() {
 	tar -xvf ${1}
 	[ "$?" -eq 0 ] || exit
 	mv -f ${1} ../0sources
+}
+
+alert () {
+	echo "
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                              ATTENTION!                                     
+
+  $1 needs to be installed now if it is not on your system.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+"
+	sleep 5
 }

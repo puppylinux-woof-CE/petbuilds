@@ -7,11 +7,23 @@
 
 . ./build.conf
 
+get_specs() {
+	[ -f 0pets_out.specs ] && rm 0pets_out.specs
+	cd 0pets_out
+	for pet in *.pet; do 
+		echo -n "$pet "
+		specs=`tar -xvJf "$pet" --no-anchored 'pet.specs' 2>/dev/null`
+		cat $specs >> ../0pets_out.specs
+		rm -r ${pet%.*}
+	done
+	cd -
+}
+
 for pkg in `cat ORDER`; do
 	pkg_exits=`ls ./0pets_out|grep "^$pkg"|grep "pet$"`
 	if [ "$pkg_exits" ];then
 		echo "$pkg exists ... skipping"
-		sleep 1
+		sleep 0.5
 		continue
 	fi
 	echo
@@ -35,6 +47,8 @@ echo "
 
 getting specs"
 # get the specs
-./get_specs.sh
+get_specs
+echo
+
 
 echo "all done!" && exit 0

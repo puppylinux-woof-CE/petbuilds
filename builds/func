@@ -4,7 +4,8 @@
 
 retrieve() {
 	SRCS=${1%% *}
-	CERT=${1##* }
+	WC=`echo "$1" | wc -w`
+	[ "$WC" -eq 2 ] && CERT=${1##* }
 	[ -f ../0sources/"$SRCS" ] &&\
 	cp -a ../0sources/${SRCS} . ||\
 	wget -t0 -c ${URL}/${SRCS} $CERT

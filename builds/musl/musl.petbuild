@@ -29,7 +29,6 @@ build() {
 	make DESTDIR=$CWD/$PKG-$VER-$ARCH install
 	install -d -m 0755 $CWD/$PKG-$VER-$ARCH/usr/local/bin
 	( cd $CWD/$PKG-$VER-$ARCH/usr/local/bin; ln -sf ../musl/bin/musl-gcc . )
-	make clean
 	cd -
 }
 	
@@ -64,4 +63,5 @@ package() {
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 build
-package	
+package
+alert $PKG

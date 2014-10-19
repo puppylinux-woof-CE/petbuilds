@@ -24,18 +24,17 @@ build() {
 	cd ${PKG}-${VER}
 	make
 	[ "$?" -eq 0 ] || exit 1
-	newer2dir make install
-	make clean
 	cd -
 }
 	
 package() {
-	echo "wait..."
+	install -d -m 0755 $PKG-$VER-$ARCH/usr/$LIBDIR/alsa-lib
+	install -m 0644 ${PKG}-${VER}/libasound_module_ctl_equal.so $PKG-$VER-$ARCH/usr/$LIBDIR/alsa-lib/
+	install -m 0644 ${PKG}-${VER}/libasound_module_pcm_equal.so $PKG-$VER-$ARCH/usr/$LIBDIR/alsa-lib/
+	install -d -m 0755 ${PKG}_DEV-$VER-$ARCH/usr/include
+	install -m 0644 ${PKG}-${VER}/ladspa.h ${PKG}_DEV-$VER-$ARCH/usr/include
+	install -m 0644 ${PKG}-${VER}/ladspa_utils.h ${PKG}_DEV-$VER-$ARCH/usr/include
 	# add this recipe
-	case $ARCH in
-	 *64)LIB=`find ./$PKG-$VER-$ARCH -type d -name 'lib'`
-		mv $LIB ${LIB}64 ;;
-	esac
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
 	if [ "$DESKTOP" ];then

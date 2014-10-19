@@ -5,6 +5,8 @@
 #sh rox_filer.petbuild
 # inside of the rox_filer dir
 
+export MWD=`pwd`
+
 . ./build.conf
 
 get_specs() {

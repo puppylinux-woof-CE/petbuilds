@@ -11,6 +11,7 @@ COMP=tar.gz
 DESC="CAPS is a collection of LADSPA audio plugins"
 DEPS=+alsa-lib,+alsaequal
 CAT=BuildingBlock
+CWD=`pwd`
 
 ARCH=`uname -m`
 case $ARCH in
@@ -23,20 +24,16 @@ build() {
 	cd ${PKG}-${VER}
 	./configure.py
 	[ "$?" -eq 0 ] || exit 1
-	# stupid configure script, patch Makefile
-	sed -i 's%\/local%%' Makefile
-	case $ARCH in
-		*64) sed -i 's%lib%lib64%' Makefile ;;
-	esac
 	make
 	[ "$?" -eq 0 ] || exit 1
-	newer2dir make install
-	make clean
+	install -d -m 0755 $CWD/$PKG-$VER-$ARCH/usr/$LIBDIR/ladspa
+	install -m 0644 ${PKG}.so $CWD/$PKG-$VER-$ARCH/usr/$LIBDIR/ladspa
+	install -d -m 0755 $CWD/$PKG-$VER-$ARCH/usr/share/ladspa/rdf
+	install -m 0644 ${PKG}.rdf $CWD/$PKG-$VER-$ARCH/usr/share/ladspa/rdf
 	cd -
 }
 	
 package() {
-	echo "wait..."
 	# add this recipe
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe

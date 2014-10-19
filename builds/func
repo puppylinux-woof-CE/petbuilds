@@ -37,6 +37,7 @@ alert () {
 
 get_files() {
 	find "$1" -type f -name '*' > ${2}.files.tmp
+	find "$1" -type l -name '*' >> ${2}.files.tmp
 	find "$1" -type d -empty >> ${2}.files.tmp
 	cat ${2}.files.tmp | sort -u > ${2}.files
 	rm ${2}.files.tmp

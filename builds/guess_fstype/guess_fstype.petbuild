@@ -26,7 +26,7 @@ patch() {
 	case $? in
 		0) #patch Makefile for static
 			sed -i 's%^#CC%CC%' Makefile ;;
-		*) cd -; echo "No muscles, too weak, bailing out!" && exit 1 ;;
+		*) echo "using gcc" ;;
 	esac
 	cd -
 }

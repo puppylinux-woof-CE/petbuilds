@@ -20,6 +20,7 @@ elspci
 evince
 gcolor2
 geany
+geany-plugins
 getcurpos
 gexec
 gnome-menus
@@ -34,7 +35,11 @@ ifplugd
 inkscapelite
 jwm
 leafpad
+libgphoto2
+gphotofs
+gphoto2
 libgtkhtml
+libspectre
 mhwaveedit
 mpscan
 mtp_phone_connect

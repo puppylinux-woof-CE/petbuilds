@@ -4,8 +4,11 @@ petbuilds
 recipes for pet package building
 
 see http://www.murga-linux.com/puppy/viewtopic.php?t=96027 for more info
-and the files `new2dir` and `dir2pet` which are required for this system to
+and the files ~~`new2dir` and~~ `dir2pet` which are required for this system to
 operate. They will be included in puppy soon after some more testing.
+
+NB: `new2dir` is replaced by `split.sh` which works by splitting the files generated
+by `make DESTDIR=/path/to/package install`.
 
 usage
 -----

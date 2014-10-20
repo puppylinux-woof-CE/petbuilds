@@ -11,6 +11,8 @@ COMP=tar.bz2
 DESC="gnome-menus controls the heirarchy of the menu system"
 DEPS=
 CAT=BuildingBlock
+CWD=`pwd`
+[ -z "$MWD" ] && MWD=`dirname $CWD`	
 
 ARCH=`uname -m`
 case $ARCH in
@@ -27,15 +29,21 @@ build() {
 				--libdir=/usr/${LIBDIR} \
 				--disable-python
 	[ "$?" -eq 0 ] || exit
-	make
+	make $MKFLG
 	[ "$?" -eq 0 ] || exit
-	newer2dir make install
-	make clean
+	make DESTDIR=$CWD/$PKG-install install
 	cd -
 }
 	
 package() {
 echo "please wait..."
+	get_files $PKG-install $PKG-$VER-$ARCH
+	(cd ${PKG}-${VER}; $MWD/split.sh ../$PKG-install)
+	# SPECIAL for gnome-menus
+	rm -r $PKG-$VER-$ARCH/etc
+	[ -d "$PKG-$VER-$ARCH/usr/share" ] && \
+	rm -r $PKG-$VER-$ARCH/usr/share
+	mv $PKG-$VER-$ARCH/usr/bin ${PKG}_DEV-$VER-$ARCH/usr
 	# add this recipe
 	rm -r ./$PKG-$VER-$ARCH/usr/share/* #remove some crud
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
@@ -57,8 +65,9 @@ echo "please wait..."
 		rm -r $p
 		mv ${p}.pet ../0pets_out
 	done
+	rm -r $PKG-install
 	rm -r ${PKG}-${VER}
-	rm *.files 2>/dev/null
+	mv -f *.files ../0logs
 	echo "done!"
 }
 

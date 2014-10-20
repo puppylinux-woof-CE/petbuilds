@@ -12,6 +12,8 @@ DESC="Xarchiver is a lightweight desktop independent archive manager built with 
 DEPS=+gtk+2
 CAT=Utility
 DESKTOP=${PKG}.desktop
+CWD=`pwd`
+[ -z "$MWD" ] && MWD=`dirname $CWD`	
 
 ARCH=`uname -m`
 case $ARCH in
@@ -20,7 +22,7 @@ case $ARCH in
 esac
 
 build() {
-	mv ${PKG}-${VER} ${PKG}-${VER}
+	#mv ${PKG}-${VER} ${PKG}-${VER}
 	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}
 	./configure --prefix=/usr \
@@ -28,13 +30,15 @@ build() {
 				--sysconfdir=/etc \
 				--libdir=/usr/${LIBDIR}
 	[ "$?" -eq 0 ] || exit
-	make
+	make $MKFLG
 	[ "$?" -eq 0 ] || exit
-	newer2dir make install
+	make DESTDIR=$CWD/$PKG-install install
 	cd -
 }
 	
 package() {
+	get_files $PKG-install $PKG-$VER-$ARCH
+	(cd ${PKG}-${VER}; $MWD/split.sh ../$PKG-install)
 	# add this recipe
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
@@ -57,8 +61,9 @@ package() {
 		rm -r $p
 		mv ${p}.pet ../0pets_out
 	done
+	rm -r $PKG-install
 	rm -r ${PKG}-${VER}
-	rm *.files 2>/dev/null
+	mv -f *.files ../0logs
 	echo "done!"
 }
 

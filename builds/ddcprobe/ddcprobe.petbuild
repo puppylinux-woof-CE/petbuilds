@@ -19,6 +19,14 @@ case $ARCH in
  *) LIBDIR=lib ;;
 esac
 
+patch_me () {
+	for i in *.patch; do
+		echo "applying $i"
+		patch -p0 < $i
+		[ $? -ne 0 ] && echo "failed to apply $i" #&& exit 1
+	done
+}
+
 build() {
 	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}

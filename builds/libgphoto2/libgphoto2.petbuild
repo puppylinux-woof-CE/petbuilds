@@ -70,3 +70,4 @@ retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 build
 package	
+alert $PKG

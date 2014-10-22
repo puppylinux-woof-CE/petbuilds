@@ -25,6 +25,9 @@ geany-plugins
 getcurpos
 gexec
 gnome-menus
+goffice
+gnumeric
+abiword
 gpicview
 gtkdialog
 guess_fstype
@@ -43,6 +46,13 @@ libgtkhtml
 libspectre
 mhwaveedit
 mingetty
+mm-common
+atkmm_static
+cairomm_static
+glibmm_static
+gtkmm_static
+pangomm_static
+gparted
 mplayer
 mpscan
 mtp_phone_connect

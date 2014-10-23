@@ -25,6 +25,8 @@ geany-plugins
 getcurpos
 gexec
 gnome-menus
+hunspell
+enchant
 goffice
 gnumeric
 abiword
@@ -68,8 +70,11 @@ parcellite
 pipepanic
 retrovol
 rox_filer
+rxvt-unicode
 sfontview
+streamripper
 sylpheed
+transmission
 xarchive
 xarchiver
 Xdialog

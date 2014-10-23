@@ -50,7 +50,7 @@ DOCSPLIT=yes
 DEVSPLIT=yes
 EXESPLIT=yes
 
-mkdir "$EXE_TARGETDIR"
+mkdir "$EXE_TARGETDIR" 2>/dev/null
 
 #cat ${RELPATH}/${EXE_PKGNAME}.files |
 while read ONEFILE
@@ -61,7 +61,7 @@ do
  echo "Processing ${ONEFILE}"
  #echo $ONEPATH
  NEWPATH="`echo $ONEPATH|sed "s%$tgt%%"`"
- echo $NEWPATH
+ #echo $NEWPATH
  [ "$ONEFILE" = "$tgt" ] && continue
  #strip the file...
  if [ ! -h "$ONEFILE" ];then #make sure it isn't a symlink
@@ -74,7 +74,7 @@ do
   #find out if this is an international language file...
   NLSFILE="`echo -n "$ONEFILE" | grep -E '/locale|/nls|/i18n'`"
   if [ "$NLSFILE" ];then
-   mkdir -p "${NLS_TARGETDIR}/${NEWPATH}"
+   mkdir -p "${NLS_TARGETDIR}/${NEWPATH}" 2>/dev/null
    cp -af "$ONEFILE" "${NLS_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
   fi
@@ -84,7 +84,7 @@ do
   #find out if this is a documentation file...
   DOCFILE="`echo "$ONEFILE" | grep -E '/man|/doc|/docs|/info|/gtk-doc|/faq|/manual|/examples|/help|/htdocs'`"
   if [ "$DOCFILE" != "" ];then
-   mkdir -p "${DOC_TARGETDIR}/${NEWPATH}"
+   mkdir -p "${DOC_TARGETDIR}/${NEWPATH}" 2>/dev/null
    cp -af "$ONEFILE" "${DOC_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
   fi
@@ -94,22 +94,15 @@ do
   #find out if this is development file...
   DEVFILE="`echo -n "$ONEFILE" | grep -E '/include/|/pkgconfig/|/aclocal|/cvs/|/svn/'`"
   if [ "$DEVFILE" ];then
-   mkdir -p "${DEV_TARGETDIR}/${NEWPATH}"
+   mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
    cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
   fi
   
-  #find various config files...
-  CONFILE="`echo -n "$ONEBASE" | grep -E '\-config$|config.sh$|Conf.sh$'`"
-  if [ "$CONFILE" ];then
-    mkdir -p "${DEV_TARGETDIR}/${NEWPATH}"
-    cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
-    continue
-  fi
   #all .a and .la files... and any stray .m4 files...
   LAFILE="`echo -n "$ONEBASE" | grep --extended-regexp '\.a$|\.la$|\.m4$'`"
   if [ "$LAFILE" ];then
-    mkdir -p "${DEV_TARGETDIR}/${NEWPATH}"
+    mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
     cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
   fi  
@@ -117,7 +110,7 @@ do
 
  #anything left over goes into the main 'executable' package...
  if [ "$EXESPLIT" = "yes" ];then
-  mkdir -p "${EXE_TARGETDIR}/${NEWPATH}"
+  mkdir -p "${EXE_TARGETDIR}/${NEWPATH}" 2>/dev/null
   cp -af "$ONEFILE" "${EXE_TARGETDIR}/${NEWPATH}/" 2>/dev/null
  fi
 done < ${RELPATH}/${EXE_PKGNAME}.files
@@ -128,7 +121,7 @@ pnPTN="/${xNAMEONLY}.pot"
 if [ "`grep "$pnPTN" ${RELPATH}/${EXE_PKGNAME}.files`" = "" ];then
  FNDPOT="$(find ${CURRDIR}/ -type f -name "${xNAMEONLY}.pot" | head -n 1)"
  if [ "$FNDPOT" ];then
-  mkdir -p ${EXE_TARGETDIR}/usr/share/doc/nls/${xNAMEONLY}
+  mkdir -p ${EXE_TARGETDIR}/usr/share/doc/nls/${xNAMEONLY} 2>/dev/null
   cp -f "$FNDPOT" ${EXE_TARGETDIR}/usr/share/doc/nls/${xNAMEONLY}/
   echo "${tgt#*/}/usr/share/doc/nls/${xNAMEONLY}/" >> ${RELPATH}/${EXE_PKGNAME}.files
   echo "${tgt#*/}/usr/share/doc/nls/${xNAMEONLY}/${xNAMEONLY}.pot" >> ${RELPATH}/${EXE_PKGNAME}.files

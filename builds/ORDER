@@ -53,6 +53,7 @@ glibmm_static
 gtkmm_static
 pangomm_static
 gparted
+minidlna
 mplayer
 mpscan
 mtp_phone_connect

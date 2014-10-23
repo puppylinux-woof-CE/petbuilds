@@ -25,6 +25,7 @@ geany
 geany-plugins
 getcurpos
 gexec
+gmeasures
 gnome-menus
 hunspell
 enchant
@@ -92,6 +93,7 @@ vobcopy
 x264
 xarchive
 xarchiver
+xdelta
 Xdialog
 xinvaders3d
 xlockmore

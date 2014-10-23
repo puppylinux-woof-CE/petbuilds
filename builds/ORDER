@@ -55,6 +55,10 @@ pangomm_static
 gparted
 minidlna
 mplayer
+gmtk
+gnome-mplayer
+npapi-sdk
+gecko-mediaplayer
 mpscan
 mtp_phone_connect
 ntpdate

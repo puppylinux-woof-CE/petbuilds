@@ -43,6 +43,7 @@ jimtcl
 jwm
 leafpad
 libgphoto2
+libvpx
 gphotofs
 gphoto2
 libgtkhtml
@@ -82,8 +83,10 @@ usb-modeswitch-data
 usbutils
 vamps
 vobcopy
+x264
 xarchive
 xarchiver
 Xdialog
 xinvaders3d
 xlockmore
+xvidcore

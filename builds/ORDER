@@ -39,6 +39,7 @@ htop
 hug
 ifplugd
 inkscapelite
+jimtcl
 jwm
 leafpad
 libgphoto2
@@ -76,6 +77,8 @@ streamripper
 sylpheed
 sysvinit
 transmission
+usb-modeswitch
+usb-modeswitch-data
 usbutils
 xarchive
 xarchiver

@@ -19,6 +19,7 @@ djvulibre
 elspci
 evince
 ffmpeg
+galculator
 gcolor2
 geany
 geany-plugins
@@ -46,6 +47,7 @@ libgphoto2
 libvpx
 gphotofs
 gphoto2
+libdvdplay
 libgtkhtml
 libspectre
 mhwaveedit
@@ -72,12 +74,16 @@ parcellite
 pipepanic
 retrovol
 rox_filer
+rp-pppoe
+rubix
 rxvt-unicode
 sfontview
+shared-mime-info
 streamripper
 sylpheed
 sysvinit
 transmission
+truncate
 usb-modeswitch
 usb-modeswitch-data
 usbutils

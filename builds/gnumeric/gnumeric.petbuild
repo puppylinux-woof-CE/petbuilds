@@ -31,6 +31,8 @@ build() {
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit
 	make DESTDIR=$CWD/${PKG}-install install
+	#[ "$?" -ne 0 ] && exit
+	#install BUGS, we carry on as its only some docs
 	cd -
 }
 	

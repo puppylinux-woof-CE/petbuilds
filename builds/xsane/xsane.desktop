@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Xsane image scanner
+Comment=Acquire images from a scanner
+Exec=xsaneshell
+Icon=xsane.xpm
+Terminal=false
+Type=Application
+Categories=X-GraphicUtility

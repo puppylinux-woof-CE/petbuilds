@@ -21,6 +21,34 @@ get_specs() {
 	cd -
 }
 
+OLD_PATH=$PATH 
+
+petbuilds_trap_exit() {    
+   export PATH=$OLD_PATH 
+} 
+
+trap petbuilds_trap_exit EXIT 
+
+petbuilds_bootstrap() { 
+	# Get this scripts path so we use our modified scripts rather than the 
+	# original ones 
+	SDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" 
+	echo "\$SDIR:=$SDIR" 
+	if [[ $PATH != *$SDIR* ]]; then 
+		export PATH=$SDIR:$PATH 
+		DIRTOPET=`which dir2pet` 
+		AGE=$(date +%s -r  $DIRTOPET) # =1413022441 is current verion 
+		if [ "$AGE" -lt  1413022441 ];then 
+			echo "dir2pet  is built before $(date -r $DIRTOPET) ." 
+			echo "Get the corresponding one from ..."
+			echo "http://distro.ibiblio.org/puppylinux/pet_packages-noarch/dir2pet-0.0.1-noarch.pet"
+			exit 1
+		fi      
+	fi 
+
+} 
+petbuilds_bootstrap
+
 for pkg in `cat ORDER`; do
 	pkg_exits=`ls ./0pets_out|grep "^$pkg"|grep "pet$"`
 	if [ "$pkg_exits" ];then
@@ -39,7 +67,7 @@ building $pkg"
 	if [ "$?" -eq 1 ];then 
 		echo "$pkg build failure"
 		case $HALT_ERRS in
-			0) exit 1 ;;
+			0)cd - ; exit 1 ;;
 		esac
 	fi
 	cd -

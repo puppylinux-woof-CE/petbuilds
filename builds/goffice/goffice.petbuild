@@ -24,8 +24,10 @@ esac
 patch_me() {
 	for i in *.patch; do
 		echo "Applying $i"
-		patch -p0 < $i || exit 1
+		patch -p0 < $i || build_fail $PKG 1
 	done
+	#DAMN!!! ubuntu misses pcretest so configure fails; patch it
+	sed -i 's%as_fn_error \$? "The installed PCRE.*%	LIBS=\"\$LIBS \-lpcre\"\n	EXTRA_LIBS=\"\$EXTRA_LIBS \-lpcre\"%'  ${PKG}-${VER}/configure
 }
 
 build() {
@@ -34,10 +36,11 @@ build() {
 				--localstatedir=/var \
 				--sysconfdir=/etc \
 				--libdir=/usr/${LIBDIR}
-	[ "$?" -eq 0 ] || exit
+	[ "$?" -eq 0 ] || build_fail $PKG
 	make $MKFLG
-	[ "$?" -eq 0 ] || exit
+	[ "$?" -eq 0 ] || build_fail $PKG
 	make DESTDIR=$CWD/${PKG}-install install
+	[ "$?" -ne 0 ] && build_fail 
 	cd -
 }
 	

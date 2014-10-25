@@ -16,9 +16,12 @@ dictd
 didiwiki
 disktype
 djvulibre
+dropbear
 elspci
 evince
-ffmpeg
+f2fs-tools
+fltk
+flsynclient
 galculator
 gcolor2
 geany
@@ -27,6 +30,7 @@ getcurpos
 gexec
 gmeasures
 gnome-menus
+hardinfo
 hunspell
 enchant
 goffice
@@ -50,9 +54,13 @@ gphotofs
 gphoto2
 libdvdplay
 libgtkhtml
+libsigc++
 libspectre
+libxdg-basedir
+dunst
 mhwaveedit
 mingetty
+minixcal
 mm-common
 atkmm_static
 cairomm_static
@@ -61,6 +69,7 @@ gtkmm_static
 pangomm_static
 gparted
 minidlna
+rtmpdump
 mplayer
 gmtk
 gnome-mplayer
@@ -78,9 +87,11 @@ rox_filer
 rp-pppoe
 rubix
 rxvt-unicode
+sane-backends
 sfontview
 shared-mime-info
 streamripper
+squashfs
 sylpheed
 sysvinit
 transmission
@@ -88,8 +99,11 @@ truncate
 usb-modeswitch
 usb-modeswitch-data
 usbutils
+util-linux
 vamps
 vobcopy
+wvstreams
+wvdial
 x264
 xarchive
 xarchiver
@@ -97,4 +111,7 @@ xdelta
 Xdialog
 xinvaders3d
 xlockmore
+xsane
+xsoldier
 xvidcore
+ffmpeg

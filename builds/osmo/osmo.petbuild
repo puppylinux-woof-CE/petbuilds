@@ -29,11 +29,14 @@ build() {
 	./configure --prefix=/usr \
 				--localstatedir=/var \
 				--sysconfdir=/etc \
-				--libdir=/usr/${LIBDIR}
-	[ "$?" -eq 0 ] || exit
+				--libdir=/usr/${LIBDIR} #LIBS=-lm 
+	[ "$?" -eq 0 ] || build_fail $PKG
+	#damn LIBS no work, hack configure.ac
+	sed -i 's%\-ltar%\-ltar \-lm%' src/Makefile
 	make $MKFLG
-	[ "$?" -eq 0 ] || exit
+	[ "$?" -eq 0 ] || build_fail $PKG
 	make DESTDIR=$CWD/$PKG-install install
+	[ "$?" -ne 0 ] && build_fail 
 	cd -
 }
 	

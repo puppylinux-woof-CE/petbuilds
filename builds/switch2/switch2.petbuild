@@ -23,7 +23,8 @@ esac
 
 build() {
 	cd ${PKG}-${VER}
-	[ "$?" -eq 0 ] || exit
+	# fix path
+	sed -i 's%\/usr\/local%\/usr%' Makefile
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit
 	make DESTDIR=$CWD/${PKG}-install install

@@ -22,6 +22,7 @@ evince
 f2fs-tools
 fltk
 flsynclient
+fpm2
 galculator
 gcolor2
 geany
@@ -30,6 +31,7 @@ getcurpos
 gexec
 gmeasures
 gnome-menus
+gtksourceview
 hardinfo
 hunspell
 enchant
@@ -77,6 +79,8 @@ npapi-sdk
 gecko-mediaplayer
 mpscan
 mtp_phone_connect
+netpbm
+notecase
 ntpdate
 numlockx
 osmo

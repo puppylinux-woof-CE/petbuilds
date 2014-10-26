@@ -1,0 +1,78 @@
+This patch disables the built-in zlib (which is old) and use system zlib
+instead, it comments out code that causes DrawGrayText to hang 
+(infinite loop), then fixes the Makefile by adding -lX11 and -lz to 
+the build.
+
+James 2014
+
+diff -ur notecase-1.9.8/Makefile notecase-1.9.8-new/Makefile
+--- notecase-1.9.8/Makefile	2008-12-09 17:07:06.000000000 +0700
++++ notecase-1.9.8-new/Makefile	2014-06-22 15:26:35.415208707 +0700
+@@ -216,7 +216,7 @@
+ ifdef OSX_BUILD
+  LDFLAGS=-Os -Wl -bind_at_load
+ else
+- LDFLAGS=-Os -Wl,--as-needed
++ LDFLAGS=-Os -Wl,--as-needed -lX11 -lz
+ endif
+ 
+ ifneq ($(NOKIA_MAEMO_BUILD),)
+@@ -251,7 +251,6 @@
+ 
+ #
+ # list of all objects to build (notecase dependencies)
+-# WARNING: link can fail on Mingw if you put libz.a before IOLayerZlib.o (who dependes on libz.a)
+ #
+ 
+ OBJS= $(OBJ)/main.o $(OBJ)/support.o $(OBJ)/callbacks.o $(OBJ)/interface.o $(OBJ)/mru.o \
+@@ -268,8 +267,7 @@
+  $(OBJ)/IOLayerRedirect.o $(OBJ)/FileExportDlg.o $(OBJ)/FormatIOTxt.o $(OBJ)/FindReplaceDlg.o \
+  $(OBJ)/FindReplaceInfo.o $(OBJ)/LinkInfo.o $(OBJ)/LinkPropertiesDlg.o $(OBJ)/ExecuteFile.o \
+  $(OBJ)/FileSaveAsDlg.o $(OBJ)/CircularBuffer.o $(OBJ)/FormatIOMMLX.o \
+- $(OBJ)/libz.a \
+- $(OBJ)/ProgressDlg.o $(OBJ)/DocActionPix.o $(OBJ)/DocActionFinish.o $(OBJ)/DocActionFmt.o $(OBJ)/FmtInfo.o \
++  $(OBJ)/ProgressDlg.o $(OBJ)/DocActionPix.o $(OBJ)/DocActionFinish.o $(OBJ)/DocActionFmt.o $(OBJ)/FmtInfo.o \
+  $(OBJ)/FileAttachmentDlg.o $(OBJ)/DocActionAtt.o $(OBJ)/PixPropertiesDlg.o $(OBJ)/DocActionFinishDel.o \
+  $(OBJ)/ShortcutsList.o $(OBJ)/ShortcutsListDlg.o $(OBJ)/DateTimeDlg.o $(OBJ)/AboutDlg.o $(OBJ)/EditDlg.o \
+  $(OBJ)/Thread.o
+@@ -535,9 +533,6 @@
+ $(OBJ)/DocActionFinishDel.o: $(GUIPATH)/DocActionFinishDel.cpp $(GUIPATH)/DocActionFinishDel.h
+ 	$(CC) $(FLAGS) -c $(GUIPATH)/DocActionFinishDel.cpp -o $(OBJ)/DocActionFinishDel.o $(GTKCFLAGS)
+ 	
+-$(OBJ)/libz.a:
+-	@cd ./src/lib/zlib/; $(MAKE); cp ./libz.a ../../../$(OBJ)/
+-
+ $(OBJ)/ShortcutsList.o: $(GUIPATH)/ShortcutsList.cpp $(GUIPATH)/ShortcutsList.h
+ 	$(CC) $(FLAGS) -c $(GUIPATH)/ShortcutsList.cpp -o $(OBJ)/ShortcutsList.o  $(GTKCFLAGS)
+ 
+diff -ur notecase-1.9.8/src/callbacks.cpp notecase-1.9.8-new/src/callbacks.cpp
+--- notecase-1.9.8/src/callbacks.cpp	2008-12-09 00:15:48.000000000 +0700
++++ notecase-1.9.8-new/src/callbacks.cpp	2014-06-22 15:23:31.515222010 +0700
+@@ -6535,10 +6535,11 @@
+ 		cairo_destroy (cr);
+ 	}
+ 
+-	GtkWidget *margin1   = lookup_widget(window1, "margin1");
+-	gtk_widget_queue_draw(margin1);
+-	GtkWidget *margin2   = lookup_widget(window1, "margin2");
+-	gtk_widget_queue_draw(margin2);
++	//james: causes infinite loop, so disable
++	//GtkWidget *margin1   = lookup_widget(window1, "margin1");
++	//gtk_widget_queue_draw(margin1);
++	//GtkWidget *margin2   = lookup_widget(window1, "margin2");
++	//gtk_widget_queue_draw(margin2);
+ #endif
+ 
+ 	return FALSE;	// propagate
+diff -ur notecase-1.9.8/src/lib/IOLayerZlib.h notecase-1.9.8-new/src/lib/IOLayerZlib.h
+--- notecase-1.9.8/src/lib/IOLayerZlib.h	2008-10-25 01:54:50.000000000 +0700
++++ notecase-1.9.8-new/src/lib/IOLayerZlib.h	2014-06-22 14:59:50.818658111 +0700
+@@ -18,7 +18,7 @@
+ #endif // _MSC_VER > 1000
+ 
+ #include "IOLayerBase.h"
+-#include "zlib/zlib.h"
++#include <zlib.h>
+ 
+ class IOLayerZlib : public IOLayerBase
+ {

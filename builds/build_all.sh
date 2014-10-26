@@ -1,13 +1,28 @@
 #!/bin/sh
 
 # packages can be built individually if you wish
-# to do so just run (for example)
-#sh rox_filer.petbuild
-# inside of the rox_filer dir
 
 export MWD=`pwd`
 
 . ./build.conf
+
+usage() {
+	echo
+	echo "Usage:-"
+	echo
+	echo "Just run ${0##*/}"
+	echo "All petbuilds in the queue will be run and hopefully built"
+	echo
+	echo "If you only want to build a single package, then use"
+	echo "the generic  package name as the argument to ${0##*/}"
+	echo
+	echo "eg; 	${0##*/} rox-filer"
+	
+	echo
+	echo "	Licenced under the GPLv2"
+	echo "	report bugs to https://github.com/puppylinux-woof-CE/petbuilds"
+	exit 0
+}
 
 get_specs() {
 	[ -f 0pets_out.specs ] && rm 0pets_out.specs
@@ -49,29 +64,51 @@ petbuilds_bootstrap() {
 } 
 petbuilds_bootstrap
 
-for pkg in `cat ORDER`; do
-	pkg_exits=`ls ./0pets_out|grep "^$pkg"|grep "pet$"`
-	if [ "$pkg_exits" ];then
-		echo "$pkg exists ... skipping"
-		sleep 0.5
-		continue
-	fi
-	echo
-	cd $pkg
+build_it() {
+	pkg=$1
+	case "$1" in
+		-h|-help|--help) usage ;;
+	esac
+	[ -d "$1" ] || usage
 	echo "
 +=============================================================================+
 
 building $pkg"
-	sleep 1 
+	cd $pkg
 	sh ${pkg}.petbuild 2>&1 | tee ../0logs/${pkg}build.log
-	if [ "$?" -eq 1 ];then 
-		echo "$pkg build failure"
-		case $HALT_ERRS in
-			0)cd - ; exit 1 ;;
-		esac
-	fi
 	cd -
-done
+	echo "done building $pkg"
+	exit
+}
+
+build_all() {
+	for pkg in `cat ORDER`; do
+		pkg_exits=`ls ./0pets_out|grep "^$pkg"|grep "pet$"`
+		if [ "$pkg_exits" ];then
+			echo "$pkg exists ... skipping"
+			sleep 0.5
+			continue
+		fi
+		echo
+		cd $pkg
+		echo "
++=============================================================================+
+
+building $pkg"
+		sleep 1 
+		sh ${pkg}.petbuild 2>&1 | tee ../0logs/${pkg}build.log
+		if [ "$?" -eq 1 ];then 
+			echo "$pkg build failure"
+			case $HALT_ERRS in
+				0)cd - ; exit 1 ;;
+			esac
+		fi
+		cd -
+	done
+}
+
+[ "$1" ] && build_it "$1" || build_all
+
 echo "
 +=============================================================================+
 

@@ -6,7 +6,7 @@
 
 URL=http://busybox.net/downloads/
 PKG=busybox
-VER=1.22.1
+VER=1.23.1
 COMP=tar.bz2
 DESC="BusyBox - The Swiss Army Knife of Embedded Linux"
 DEPS=
@@ -35,6 +35,7 @@ package() {
 	# add this recipe
 	install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/doc
 	cat ${PKG}.petbuild > ./$PKG-$VER-$ARCH/usr/share/doc/$PKG-build-recipe
+	cp -af ${PKG}-${VER}/.config DOTconfig
 	install -m 0644 DOTconfig ./$PKG-$VER-$ARCH/usr/share/doc
 	if [ "$DESKTOP" ];then
 		install -d -m 0755 ./$PKG-$VER-$ARCH/usr/share/applications

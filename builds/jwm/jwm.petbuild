@@ -4,9 +4,10 @@
 . ../func
 . ../build.conf
 
-URL=http://joewing.net/projects/jwm/snapshots/
+#URL=http://joewing.net/projects/jwm/snapshots/
+URL=http://www.joewing.net/projects/jwm/releases/
 PKG=jwm
-VER=976
+VER=2.3.0
 COMP=tar.xz
 DESC="Joes Window Manager for X"
 DEPS=+cairo,+rsvg,+libpng,+libjpeg,+xpm,+fribidi

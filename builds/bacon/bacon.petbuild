@@ -6,7 +6,7 @@
 
 URL=http://www.basic-converter.org/stable/
 PKG=bacon
-VER=3.0.1
+VER=3.0.3
 COMP=tar.gz
 DESC="BaCon - Basic to C converter"
 DEPS=

@@ -82,7 +82,7 @@ do
 
  if [ "$DOCSPLIT" = "yes" ];then
   #find out if this is a documentation file...
-  DOCFILE="`echo "$ONEFILE" | grep -E '/man|/doc|/docs|/info|/gtk-doc|/faq|/manual|/examples|/help|/htdocs'`"
+  DOCFILE="`echo "$ONEFILE" | grep -E '/man|/doc|/docs|/info|/gtk-doc|/faq|/manual|/examples|/help|/htdocs'|grep -v '\.h'`" #eg 'documents.h' in geany
   if [ "$DOCFILE" != "" ];then
    mkdir -p "${DOC_TARGETDIR}/${NEWPATH}" 2>/dev/null
    cp -af "$ONEFILE" "${DOC_TARGETDIR}/${NEWPATH}/" 2>/dev/null

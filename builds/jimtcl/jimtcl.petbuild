@@ -4,10 +4,10 @@
 . ../func
 . ../build.conf
 
-URL=http://pkgs.fedoraproject.org/lookaside/pkgs/jimtcl/jimtcl-0.75-769d198.tar.gz/93982d4a72924842fabfaaa6ee58a1d5
+URL=http://pkgs.fedoraproject.org/lookaside/pkgs/jimtcl/jimtcl-0.76-51f65c6.tar.gz/b8506c2849ad69722267050cb253c022/
 PKG=jimtcl
-SRC_VER=0.75-769d198
-VER=0.75
+SRC_VER=0.76-51f65c6
+VER=0.76
 COMP=tar.gz
 DESC="a tiny TCL interpreter"
 DEPS=

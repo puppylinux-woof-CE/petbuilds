@@ -1,3 +1,4 @@
+automake
 musl
 kernel_headers_musl
 915resolution
@@ -87,7 +88,7 @@ osmo
 parcellite
 pipepanic
 retrovol
-rox_filer
+rox-filer
 rp-pppoe
 rubix
 rxvt-unicode

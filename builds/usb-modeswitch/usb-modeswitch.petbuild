@@ -6,7 +6,7 @@
 
 URL=http://www.draisberghof.de/usb_modeswitch
 PKG=usb-modeswitch
-VER=2.2.0
+VER=2.2.1
 COMP=tar.bz2
 DESC="Utility for switching usb modems"
 DEPS=+jimtcl

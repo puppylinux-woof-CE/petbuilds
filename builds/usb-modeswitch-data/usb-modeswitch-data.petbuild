@@ -6,7 +6,7 @@
 
 URL=http://www.draisberghof.de/usb_modeswitch
 PKG=usb-modeswitch-data
-VER=20140529
+VER=20150115
 COMP=tar.bz2
 DESC="Data for usb_modeswitch"
 DEPS=+usb-modeswitch,+jimtcl

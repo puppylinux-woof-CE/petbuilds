@@ -94,6 +94,7 @@ numlockx
 opencore-amr
 orc
 osmo
+p7zip
 parcellite
 pipepanic
 retrovol
@@ -119,6 +120,7 @@ usbutils
 util-linux
 vamps
 vobcopy
+wv
 wvstreams
 wvdial
 x264

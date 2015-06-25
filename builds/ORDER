@@ -21,6 +21,8 @@ dropbear
 elspci
 evince
 f2fs-tools
+faac
+faad2
 fltk
 flsynclient
 fpm2
@@ -55,7 +57,12 @@ libgphoto2
 libvpx
 gphotofs
 gphoto2
+lame
+libdv
+libdvdcss
+libdvdnav
 libdvdplay
+libgnomecanvas
 libgtkhtml
 libsigc++
 libspectre
@@ -84,6 +91,8 @@ netpbm
 notecase
 ntpdate
 numlockx
+opencore-amr
+orc
 osmo
 parcellite
 pipepanic
@@ -93,9 +102,11 @@ rp-pppoe
 rubix
 rxvt-unicode
 sane-backends
+schroedinger
 sfontview
 shared-mime-info
 streamripper
+speex
 squashfs
 switch2
 sylpheed

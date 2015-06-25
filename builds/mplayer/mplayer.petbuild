@@ -4,11 +4,15 @@
 . ../func
 . ../build.conf
 
+
+#mplayer-checkout-snapshot.tar.bz2
 TODAY=$(date +%y%m%d)
-TODAY_VER=$(date +%Y-%m-%d)
+#TODAY_VER=$(date +%Y-%m-%d)
+TODAY_VER=$(ls|grep export|sed 's/mplayer\-export\-//')
 URL=http://www.mplayerhq.hu/MPlayer/releases
 PKG=mplayer
-SRC=mplayer-export
+#SRC=mplayer-export
+SRC=mplayer-checkout
 SVER=snapshot
 VER=$TODAY
 COMP=tar.bz2

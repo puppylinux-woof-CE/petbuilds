@@ -1,0 +1,11 @@
+diff -rupN libgnomeprint-2.18.8.orig/libgnomeprint/modules/cups/gnome-print-cups-transport.c libgnomeprint-2.18.8/libgnomeprint/modules/cups/gnome-print-cups-transport.c
+--- libgnomeprint-2.18.8.orig/libgnomeprint/modules/cups/gnome-print-cups-transport.c	2010-02-09 22:32:51.000000000 +1000
++++ libgnomeprint-2.18.8/libgnomeprint/modules/cups/gnome-print-cups-transport.c	2015-06-27 17:12:31.362312518 +1000
+@@ -36,6 +36,7 @@
+ #include <fcntl.h>
+ #include <unistd.h>
+ #include <locale.h>
++#include <stdio.h>
+ 
+ #include <cups/cups.h>
+ #include <libgnomeprint/gnome-print.h>

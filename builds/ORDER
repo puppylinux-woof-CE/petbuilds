@@ -34,6 +34,7 @@ getcurpos
 gexec
 gmeasures
 gnome-menus
+gtklp
 gtksourceview
 hardinfo
 hunspell
@@ -58,11 +59,16 @@ libvpx
 gphotofs
 gphoto2
 lame
+libdc1394
 libdv
 libdvdcss
 libdvdnav
 libdvdplay
+libexif-gtk
 libgnomecanvas
+libgnomecups
+libgnomeprint
+libgnomeprintui
 libgtkhtml
 libsigc++
 libspectre

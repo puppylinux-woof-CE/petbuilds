@@ -1,0 +1,463 @@
+rxvt-unicode-9.21/
+rxvt-unicode-9.21/INSTALL
+rxvt-unicode-9.21/libev/
+rxvt-unicode-9.21/libev/ev++.h
+rxvt-unicode-9.21/libev/Changes
+rxvt-unicode-9.21/libev/ev_epoll.c
+rxvt-unicode-9.21/libev/ev_port.c
+rxvt-unicode-9.21/libev/ev_win32.c
+rxvt-unicode-9.21/libev/ev_poll.c
+rxvt-unicode-9.21/libev/ev_kqueue.c
+rxvt-unicode-9.21/libev/ev.c
+rxvt-unicode-9.21/libev/ev_vars.h
+rxvt-unicode-9.21/libev/ev_wrap.h
+rxvt-unicode-9.21/libev/ev.h
+rxvt-unicode-9.21/libev/ev_select.c
+rxvt-unicode-9.21/libev/libev.m4
+rxvt-unicode-9.21/Makefile.in
+rxvt-unicode-9.21/configure.ac
+rxvt-unicode-9.21/README.configure
+rxvt-unicode-9.21/config.guess
+rxvt-unicode-9.21/Changes
+rxvt-unicode-9.21/doc/
+rxvt-unicode-9.21/doc/changes.txt
+rxvt-unicode-9.21/doc/podtbl
+rxvt-unicode-9.21/doc/rxvt-tabbed
+rxvt-unicode-9.21/doc/Makefile.in
+rxvt-unicode-9.21/doc/rxvt.7.pod
+rxvt-unicode-9.21/doc/rxvtd.1.man.in
+rxvt-unicode-9.21/doc/rxvtd.1.pod
+rxvt-unicode-9.21/doc/.cvsignore
+rxvt-unicode-9.21/doc/rxvt.1.man.in
+rxvt-unicode-9.21/doc/wcwidth.patch
+rxvt-unicode-9.21/doc/rxvt.1.pod
+rxvt-unicode-9.21/doc/rxvtc.1.pod
+rxvt-unicode-9.21/doc/embed-tk
+rxvt-unicode-9.21/doc/README.xvt
+rxvt-unicode-9.21/doc/pty-fd
+rxvt-unicode-9.21/doc/etc/
+rxvt-unicode-9.21/doc/etc/rxvt-unicode.termcap
+rxvt-unicode-9.21/doc/etc/rxvt-unicode.terminfo
+rxvt-unicode-9.21/doc/rxvtc.1.man.in
+rxvt-unicode-9.21/doc/rxvt.7.man.in
+rxvt-unicode-9.21/doc/extensions.pod.top
+rxvt-unicode-9.21/doc/extensions.pod.bot
+rxvt-unicode-9.21/doc/embed
+rxvt-unicode-9.21/install-sh
+rxvt-unicode-9.21/config.h.in
+rxvt-unicode-9.21/.cvsignore
+rxvt-unicode-9.21/COPYING
+rxvt-unicode-9.21/autogen.sh
+rxvt-unicode-9.21/README.FAQ
+rxvt-unicode-9.21/src/
+rxvt-unicode-9.21/src/typemap
+rxvt-unicode-9.21/src/rxvtd.C
+rxvt-unicode-9.21/src/gencompose
+rxvt-unicode-9.21/src/Makefile.in
+rxvt-unicode-9.21/src/rxvtc.C
+rxvt-unicode-9.21/src/gentables
+rxvt-unicode-9.21/src/encoding.C
+rxvt-unicode-9.21/src/scrollbar-rxvt.C
+rxvt-unicode-9.21/src/urxvt.pm
+rxvt-unicode-9.21/src/rxvt.h
+rxvt-unicode-9.21/src/fdpass_wrapper.C
+rxvt-unicode-9.21/src/feature.h
+rxvt-unicode-9.21/src/rxvtimg.C
+rxvt-unicode-9.21/src/rsinc.h
+rxvt-unicode-9.21/src/rxvtutil.h
+rxvt-unicode-9.21/src/rxvtfont.h
+rxvt-unicode-9.21/src/xdefaults.C
+rxvt-unicode-9.21/src/command.C
+rxvt-unicode-9.21/src/version.h
+rxvt-unicode-9.21/src/scrollbar-next.C
+rxvt-unicode-9.21/src/hookinc.h
+rxvt-unicode-9.21/src/rxvtimg.h
+rxvt-unicode-9.21/src/.cvsignore
+rxvt-unicode-9.21/src/typemap.iom
+rxvt-unicode-9.21/src/emman.h
+rxvt-unicode-9.21/src/genlinedraw
+rxvt-unicode-9.21/src/table/
+rxvt-unicode-9.21/src/table/iso8859_15.h
+rxvt-unicode-9.21/src/table/ksc5601_1987_0.h
+rxvt-unicode-9.21/src/table/iso8859_13.h
+rxvt-unicode-9.21/src/table/big5.h
+rxvt-unicode-9.21/src/table/iso8859_1.h
+rxvt-unicode-9.21/src/table/cns11643_1992_2.h
+rxvt-unicode-9.21/src/table/cns11643_1992_4.h
+rxvt-unicode-9.21/src/table/cns11643_1992_7.h
+rxvt-unicode-9.21/src/table/iso8859_7.h
+rxvt-unicode-9.21/src/table/iso8859_4.h
+rxvt-unicode-9.21/src/table/jis0208_1990_0.h
+rxvt-unicode-9.21/src/table/iso8859_11.h
+rxvt-unicode-9.21/src/table/iso8859_14.h
+rxvt-unicode-9.21/src/table/cns11643_1992_f.h
+rxvt-unicode-9.21/src/table/koi8_u.h
+rxvt-unicode-9.21/src/table/iso8859_5.h
+rxvt-unicode-9.21/src/table/iso8859_6.h
+rxvt-unicode-9.21/src/table/gbk_0.h
+rxvt-unicode-9.21/src/table/iso8859_16.h
+rxvt-unicode-9.21/src/table/linedraw.h
+rxvt-unicode-9.21/src/table/iso8859_9.h
+rxvt-unicode-9.21/src/table/jis0213_1.h
+rxvt-unicode-9.21/src/table/iso8859_8.h
+rxvt-unicode-9.21/src/table/big5_ext.h
+rxvt-unicode-9.21/src/table/iso8859_3.h
+rxvt-unicode-9.21/src/table/cns11643_1992_3.h
+rxvt-unicode-9.21/src/table/iso8859_2.h
+rxvt-unicode-9.21/src/table/jis0212_1990_0.h
+rxvt-unicode-9.21/src/table/jis0213_2.h
+rxvt-unicode-9.21/src/table/iso8859_10.h
+rxvt-unicode-9.21/src/table/cns11643_1992_6.h
+rxvt-unicode-9.21/src/table/jis0201_1976_0.h
+rxvt-unicode-9.21/src/table/cns11643_1992_5.h
+rxvt-unicode-9.21/src/table/gb2312_1980_0.h
+rxvt-unicode-9.21/src/table/viscii.h
+rxvt-unicode-9.21/src/table/cns11643_1992_1.h
+rxvt-unicode-9.21/src/table/category.h
+rxvt-unicode-9.21/src/table/compose.h
+rxvt-unicode-9.21/src/table/koi8_r.h
+rxvt-unicode-9.21/src/table/big5_plus.h
+rxvt-unicode-9.21/src/ev_cpp.h
+rxvt-unicode-9.21/src/keyboard.C
+rxvt-unicode-9.21/src/emman.c
+rxvt-unicode-9.21/src/main.C
+rxvt-unicode-9.21/src/command.h
+rxvt-unicode-9.21/src/rxvtdaemon.h
+rxvt-unicode-9.21/src/rxvt.C
+rxvt-unicode-9.21/src/init.h
+rxvt-unicode-9.21/src/keyboard.h
+rxvt-unicode-9.21/src/rxvttoolkit.h
+rxvt-unicode-9.21/src/ev_cpp.C
+rxvt-unicode-9.21/src/scrollbar.C
+rxvt-unicode-9.21/src/perl/
+rxvt-unicode-9.21/src/perl/digital-clock
+rxvt-unicode-9.21/src/perl/option-popup
+rxvt-unicode-9.21/src/perl/eval
+rxvt-unicode-9.21/src/perl/remote-clipboard
+rxvt-unicode-9.21/src/perl/background
+rxvt-unicode-9.21/src/perl/example-refresh-hooks
+rxvt-unicode-9.21/src/perl/bell-command
+rxvt-unicode-9.21/src/perl/block-graphics-to-ascii
+rxvt-unicode-9.21/src/perl/selection
+rxvt-unicode-9.21/src/perl/overlay-osc
+rxvt-unicode-9.21/src/perl/searchable-scrollback
+rxvt-unicode-9.21/src/perl/urxvt-popup
+rxvt-unicode-9.21/src/perl/clipboard-osc
+rxvt-unicode-9.21/src/perl/tabbed
+rxvt-unicode-9.21/src/perl/readline
+rxvt-unicode-9.21/src/perl/keysym-list
+rxvt-unicode-9.21/src/perl/selection-autotransform
+rxvt-unicode-9.21/src/perl/kuake
+rxvt-unicode-9.21/src/perl/confirm-paste
+rxvt-unicode-9.21/src/perl/xim-onthespot
+rxvt-unicode-9.21/src/perl/matcher
+rxvt-unicode-9.21/src/perl/selection-pastebin
+rxvt-unicode-9.21/src/perl/selection-popup
+rxvt-unicode-9.21/src/perl/selection-to-clipboard
+rxvt-unicode-9.21/src/init.C
+rxvt-unicode-9.21/src/rxvtperl.xs
+rxvt-unicode-9.21/src/rxvtutil.C
+rxvt-unicode-9.21/src/encoding.h
+rxvt-unicode-9.21/src/rxvtperl.h
+rxvt-unicode-9.21/src/iom_perl.xs
+rxvt-unicode-9.21/src/scrollbar-xterm.C
+rxvt-unicode-9.21/src/scrollbar.h
+rxvt-unicode-9.21/src/iom_perl.h
+rxvt-unicode-9.21/src/ptytty_wrapper.C
+rxvt-unicode-9.21/src/rxvtfont.C
+rxvt-unicode-9.21/src/callback.h
+rxvt-unicode-9.21/src/optinc.h
+rxvt-unicode-9.21/src/screen.C
+rxvt-unicode-9.21/src/scrollbar-plain.C
+rxvt-unicode-9.21/src/rxvttoolkit.C
+rxvt-unicode-9.21/src/misc.C
+rxvt-unicode-9.21/src/rxvtdaemon.C
+rxvt-unicode-9.21/src/background.C
+rxvt-unicode-9.21/config.sub
+rxvt-unicode-9.21/configure
+rxvt-unicode-9.21/libptytty/
+rxvt-unicode-9.21/libptytty/Changes
+rxvt-unicode-9.21/libptytty/src/
+rxvt-unicode-9.21/libptytty/src/proxy.C
+rxvt-unicode-9.21/libptytty/src/ptytty_conf.h
+rxvt-unicode-9.21/libptytty/src/ptytty.h
+rxvt-unicode-9.21/libptytty/src/estl.h
+rxvt-unicode-9.21/libptytty/src/logging.C
+rxvt-unicode-9.21/libptytty/src/libptytty.h
+rxvt-unicode-9.21/libptytty/src/fdpass.C
+rxvt-unicode-9.21/libptytty/src/ptytty.C
+rxvt-unicode-9.21/libptytty/src/ecb.h
+rxvt-unicode-9.21/libptytty/ptytty.m4
+rxvt-unicode-9.21/aclocal.m4
+rxvt-unicode-9.21/MANIFEST
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+
+configuring for rxvt 9.21
+
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for working libsupc++... ok
+checking for library containing setlocale... none required
+checking for library containing gethostbyname... none required
+checking for library containing socket... none required
+checking how to run the C++ preprocessor... g++ -E
+checking sys/inotify.h usability... yes
+checking sys/inotify.h presence... yes
+checking for sys/inotify.h... yes
+checking sys/epoll.h usability... yes
+checking sys/epoll.h presence... yes
+checking for sys/epoll.h... yes
+checking sys/event.h usability... no
+checking sys/event.h presence... no
+checking for sys/event.h... no
+checking port.h usability... no
+checking port.h presence... no
+checking for port.h... no
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/eventfd.h usability... yes
+checking sys/eventfd.h presence... yes
+checking for sys/eventfd.h... yes
+checking sys/signalfd.h usability... yes
+checking sys/signalfd.h presence... yes
+checking for sys/signalfd.h... yes
+checking for inotify_init... yes
+checking for epoll_ctl... yes
+checking for kqueue... no
+checking for port_create... no
+checking for poll... yes
+checking for select... yes
+checking for eventfd... yes
+checking for signalfd... yes
+checking for clock_gettime... yes
+checking for nanosleep... yes
+checking for library containing floor... none required
+checking for tic... /usr/bin/tic
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking for gdk-pixbuf... ok
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking for libstartup-notification... ok
+checking sys/byteorder.h usability... no
+checking sys/byteorder.h presence... no
+checking for sys/byteorder.h... no
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/sockio.h usability... no
+checking sys/sockio.h presence... no
+checking for sys/sockio.h... no
+checking sys/strredir.h usability... no
+checking sys/strredir.h presence... no
+checking for sys/strredir.h... no
+checking for stdint.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking for XLIB_ILLEGAL_ACCESS... yes
+checking for mode_t... yes
+checking for pid_t... yes
+checking for uid_t in sys/types.h... yes
+checking for int16_t... yes
+checking for uint16_t... yes
+checking for int32_t... yes
+checking for uint32_t... yes
+checking for unsetenv... yes
+checking for updwtmp... yes
+checking for updwtmpx... yes
+checking for updlastlogx... no
+checking lastlog.h usability... yes
+checking lastlog.h presence... yes
+checking for lastlog.h... yes
+checking utmp.h usability... yes
+checking utmp.h presence... yes
+checking for utmp.h... yes
+checking for struct utmp... yes
+checking for struct utmp.ut_host... yes
+checking for struct utmp.ut_pid... yes
+checking utmpx.h usability... yes
+checking utmpx.h presence... yes
+checking for utmpx.h... yes
+checking for struct utmpx... yes
+checking for struct utmpx.ut_host... yes
+checking for struct lastlog... yes
+checking for struct lastlogx... no
+checking for a fallback location of utmp... /var/run/utmp
+checking for a fallback location of wtmp... /var/log/wtmp
+checking for a fallback location of wtmpx... 
+checking for a fallback location of lastlog... 
+checking for a fallback location of lastlogx... 
+checking for working Xlocale... yes
+checking for broken XIM callback... no
+checking for working X setlocale... no
+checking for working nl_langinfo... yes
+checking for unix-compliant filehandle passing ability... yes
+checking pty.h usability... yes
+checking pty.h presence... yes
+checking for pty.h... yes
+checking util.h usability... no
+checking util.h presence... no
+checking for util.h... no
+checking libutil.h usability... no
+checking libutil.h presence... no
+checking for libutil.h... no
+checking for sys/ioctl.h... (cached) yes
+checking stropts.h usability... yes
+checking stropts.h presence... yes
+checking for stropts.h... yes
+checking for revoke... no
+checking for _getpty... no
+checking for getpt... yes
+checking for posix_openpt... yes
+checking for isastream... yes
+checking for setuid... yes
+checking for seteuid... yes
+checking for setreuid... yes
+checking for setresuid... yes
+checking for UNIX98 ptys... yes
+checking for tty group... no
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking X11/extensions/Xrender.h usability... yes
+checking X11/extensions/Xrender.h presence... yes
+checking for X11/extensions/Xrender.h... yes
+checking for XRenderFindStandardFormat... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking X11/Xft/Xft.h usability... yes
+checking X11/Xft/Xft.h presence... yes
+checking for X11/Xft/Xft.h... yes
+checking fontconfig/fontconfig.h usability... yes
+checking fontconfig/fontconfig.h presence... yes
+checking for fontconfig/fontconfig.h... yes
+checking for XftDrawString32... yes
+checking for FcPatternGet... yes
+checking for Render >= 0.11... ok
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: WARNING:  'Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating doc/Makefile
+config.status: WARNING:  'doc/Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating src/Makefile
+config.status: WARNING:  'src/Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+Configuration:
+
+  Rxvt version:               9.21 : 2014-12-31
+  Source code location:       .
+  Install path:               /usr/bin
+  Compiler:                   g++
+  Compiler flags:             -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w
+  Linker:                     gcc
+  default resource name:      urxvt
+  resource class:             URxvt
+  resource class fallback:    Rxvt
+
+  embedded perl:              no
+  image library:              gdk-pixbuf
+
+*** Optionally check src/feature.h for further, rarely used options ***
+
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-9.21/src'
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c rxvt.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c background.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c command.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c rxvtfont.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c init.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c main.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c misc.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c screen.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c scrollbar.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c scrollbar-next.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c scrollbar-rxvt.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c scrollbar-xterm.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c scrollbar-plain.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c xdefaults.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c encoding.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c rxvttoolkit.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c rxvtutil.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c keyboard.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c rxvtimg.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c ev_cpp.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c fdpass_wrapper.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c ptytty_wrapper.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c rxvtd.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c rxvtdaemon.C
+g++ -I.. -I. -I. -I./../libev -I./../libptytty/src -DHAVE_CONFIG_H -I/usr/include/freetype2     -g -O3 -fno-rtti -fvisibility-inlines-hidden -fno-threadsafe-statics -fno-enforce-eh-specs -w -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng14 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/startup-notification-1.0   -c rxvtc.C
+gcc  -o rxvt rxvt.o background.o command.o rxvtfont.o init.o main.o misc.o screen.o scrollbar.o scrollbar-next.o scrollbar-rxvt.o scrollbar-xterm.o scrollbar-plain.o xdefaults.o encoding.o rxvttoolkit.o rxvtutil.o keyboard.o rxvtimg.o ev_cpp.o fdpass_wrapper.o ptytty_wrapper.o  -lsupc++ -lm -lfontconfig   -lXft   -lXrender -lX11    -lX11  -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0   -lstartup-notification-1   
+gcc  -o rxvtc rxvtc.o rxvtdaemon.o fdpass_wrapper.o -lsupc++ -lm
+gcc  -o rxvtd rxvtd.o background.o command.o rxvtfont.o init.o main.o misc.o screen.o scrollbar.o scrollbar-next.o scrollbar-rxvt.o scrollbar-xterm.o scrollbar-plain.o xdefaults.o encoding.o rxvttoolkit.o rxvtutil.o keyboard.o rxvtimg.o ev_cpp.o fdpass_wrapper.o ptytty_wrapper.o  rxvtdaemon.o -lsupc++ -lm -lfontconfig   -lXft   -lXrender -lX11    -lX11  -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0   -lstartup-notification-1   
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-9.21/src'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-9.21/doc'
+sed -e 's%@@RXVT_VERSION@@%9.21%g;' -e 's%@@RXVT_NAME@@%urxvt%g;' -e 's%@@RXVT_DATE@@%2014-12-31%g;' -e 's%@@RXVT_LIBDIR@@%/usr/lib%g;' -e 's%@@URXVT_NAME@@%urxvt%g;' < ./rxvt.1.man.in  >rxvt.1.man
+sed -e 's%@@RXVT_VERSION@@%9.21%g;' -e 's%@@RXVT_NAME@@%urxvt%g;' -e 's%@@RXVT_DATE@@%2014-12-31%g;' -e 's%@@RXVT_LIBDIR@@%/usr/lib%g;' -e 's%@@URXVT_NAME@@%urxvt%g;' < ./rxvtc.1.man.in >rxvtc.1.man
+sed -e 's%@@RXVT_VERSION@@%9.21%g;' -e 's%@@RXVT_NAME@@%urxvt%g;' -e 's%@@RXVT_DATE@@%2014-12-31%g;' -e 's%@@RXVT_LIBDIR@@%/usr/lib%g;' -e 's%@@URXVT_NAME@@%urxvt%g;' < ./rxvtd.1.man.in >rxvtd.1.man
+sed -e 's%@@RXVT_VERSION@@%9.21%g;' -e 's%@@RXVT_NAME@@%urxvt%g;' -e 's%@@RXVT_DATE@@%2014-12-31%g;' -e 's%@@RXVT_LIBDIR@@%/usr/lib%g;' -e 's%@@URXVT_NAME@@%urxvt%g;' < ./rxvt.7.man.in  >rxvt.7.man
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-9.21/doc'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-9.21/src'
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/bin
+/usr/bin/ginstall -c -m 755 rxvt  /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/bin/urxvt
+/usr/bin/ginstall -c -m 755 rxvtc /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/bin/urxvtc
+/usr/bin/ginstall -c -m 755 rxvtd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/bin/urxvtd
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-9.21/src'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-9.21/doc'
+sed -e 's%@@RXVT_VERSION@@%9.21%g;' -e 's%@@RXVT_NAME@@%urxvt%g;' -e 's%@@RXVT_DATE@@%2014-12-31%g;' -e 's%@@RXVT_LIBDIR@@%/usr/lib%g;' -e 's%@@URXVT_NAME@@%urxvt%g;' < ./rxvt.1.man.in  >rxvt.1.man
+sed -e 's%@@RXVT_VERSION@@%9.21%g;' -e 's%@@RXVT_NAME@@%urxvt%g;' -e 's%@@RXVT_DATE@@%2014-12-31%g;' -e 's%@@RXVT_LIBDIR@@%/usr/lib%g;' -e 's%@@URXVT_NAME@@%urxvt%g;' < ./rxvtc.1.man.in >rxvtc.1.man
+sed -e 's%@@RXVT_VERSION@@%9.21%g;' -e 's%@@RXVT_NAME@@%urxvt%g;' -e 's%@@RXVT_DATE@@%2014-12-31%g;' -e 's%@@RXVT_LIBDIR@@%/usr/lib%g;' -e 's%@@URXVT_NAME@@%urxvt%g;' < ./rxvtd.1.man.in >rxvtd.1.man
+sed -e 's%@@RXVT_VERSION@@%9.21%g;' -e 's%@@RXVT_NAME@@%urxvt%g;' -e 's%@@RXVT_DATE@@%2014-12-31%g;' -e 's%@@RXVT_LIBDIR@@%/usr/lib%g;' -e 's%@@URXVT_NAME@@%urxvt%g;' < ./rxvt.7.man.in  >rxvt.7.man
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/share/man/man1
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/share/man/man7
+/usr/bin/ginstall -c -m 644 rxvt.1.man  /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/share/man/man1/urxvt.1
+/usr/bin/ginstall -c -m 644 rxvtc.1.man /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/share/man/man1/urxvtc.1
+/usr/bin/ginstall -c -m 644 rxvtd.1.man /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/share/man/man1/urxvtd.1
+/usr/bin/ginstall -c -m 644 rxvt.7.man  /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-install/usr/share/man/man7/urxvt.7
+/usr/bin/tic ./etc/rxvt-unicode.terminfo
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode/rxvt-unicode-9.21/doc'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rxvt-unicode
+Found 'i686'
+Processing ../rxvt-unicode-install/usr/bin/urxvt
+Processing ../rxvt-unicode-install/usr/share/man/man1/urxvt.1
+Processing ../rxvt-unicode-install/usr/share/man/man1/urxvtc.1
+Processing ../rxvt-unicode-install/usr/share/man/man1/urxvtd.1
+Processing ../rxvt-unicode-install/usr/share/man/man7/urxvt.7
+all done
+packaging rxvt-unicode-9.21-i686_slk600
+packaging rxvt-unicode_DOC-9.21-i686_slk600
+done!

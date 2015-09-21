@@ -1,0 +1,270 @@
+xsoldier-1.8/
+xsoldier-1.8/README
+xsoldier-1.8/configure.ac
+xsoldier-1.8/aclocal.m4
+xsoldier-1.8/Makefile.am
+xsoldier-1.8/Makefile.in
+xsoldier-1.8/config.h.in
+xsoldier-1.8/configure
+xsoldier-1.8/COPYING
+xsoldier-1.8/ChangeLog
+xsoldier-1.8/INSTALL
+xsoldier-1.8/depcomp
+xsoldier-1.8/install-sh
+xsoldier-1.8/missing
+xsoldier-1.8/mkinstalldirs
+xsoldier-1.8/boss.c
+xsoldier-1.8/callback.c
+xsoldier-1.8/common.c
+xsoldier-1.8/ending.c
+xsoldier-1.8/enemy.c
+xsoldier-1.8/enemyshot.c
+xsoldier-1.8/game.c
+xsoldier-1.8/graphic.c
+xsoldier-1.8/image.c
+xsoldier-1.8/input.c
+xsoldier-1.8/joystick.c
+xsoldier-1.8/main.c
+xsoldier-1.8/manage.c
+xsoldier-1.8/opening.c
+xsoldier-1.8/player.c
+xsoldier-1.8/score.c
+xsoldier-1.8/sin.c
+xsoldier-1.8/star.c
+xsoldier-1.8/boss.h
+xsoldier-1.8/callback.h
+xsoldier-1.8/common.h
+xsoldier-1.8/ending.h
+xsoldier-1.8/enemy.h
+xsoldier-1.8/enemyshot.h
+xsoldier-1.8/extern.h
+xsoldier-1.8/game.h
+xsoldier-1.8/graphic.h
+xsoldier-1.8/image.h
+xsoldier-1.8/input.h
+xsoldier-1.8/joystick.h
+xsoldier-1.8/key.h
+xsoldier-1.8/manage.h
+xsoldier-1.8/opening.h
+xsoldier-1.8/player.h
+xsoldier-1.8/score.h
+xsoldier-1.8/sin.h
+xsoldier-1.8/star.h
+xsoldier-1.8/version.h
+xsoldier-1.8/xsoldier.h
+xsoldier-1.8/GPL
+xsoldier-1.8/LICENSE
+xsoldier-1.8/old-doc/
+xsoldier-1.8/old-doc/ChangeLog.jp
+xsoldier-1.8/old-doc/CONDITION
+xsoldier-1.8/old-doc/COPYING
+xsoldier-1.8/old-doc/README.1st
+xsoldier-1.8/old-doc/README.joystick
+xsoldier-1.8/old-doc/README.score
+xsoldier-1.8/pixmap/
+xsoldier-1.8/pixmap/Boss1.xpm
+xsoldier-1.8/pixmap/Boss2.xpm
+xsoldier-1.8/pixmap/Boss3.xpm
+xsoldier-1.8/pixmap/Boss4.xpm
+xsoldier-1.8/pixmap/Boss5.xpm
+xsoldier-1.8/pixmap/Boss6.xpm
+xsoldier-1.8/pixmap/Boss7.xpm
+xsoldier-1.8/pixmap/Enemy1.xpm
+xsoldier-1.8/pixmap/Enemy2.xpm
+xsoldier-1.8/pixmap/Enemy3.xpm
+xsoldier-1.8/pixmap/Enemy4.xpm
+xsoldier-1.8/pixmap/Enemy5.xpm
+xsoldier-1.8/pixmap/Enemy6.xpm
+xsoldier-1.8/pixmap/Enemy7.xpm
+xsoldier-1.8/pixmap/EnemyBound.xpm
+xsoldier-1.8/pixmap/EnemyLaser.xpm
+xsoldier-1.8/pixmap/EnemyMiss.xpm
+xsoldier-1.8/pixmap/EnemyRing.xpm
+xsoldier-1.8/pixmap/EnemyShot.xpm
+xsoldier-1.8/pixmap/ExpLarge.xpm
+xsoldier-1.8/pixmap/ExpSmall.xpm
+xsoldier-1.8/pixmap/font.xpm
+xsoldier-1.8/pixmap/font1.xpm
+xsoldier-1.8/pixmap/font2.xpm
+xsoldier-1.8/pixmap/font3.xpm
+xsoldier-1.8/pixmap/font4.xpm
+xsoldier-1.8/pixmap/font5.xpm
+xsoldier-1.8/pixmap/font6.xpm
+xsoldier-1.8/pixmap/Item.xpm
+xsoldier-1.8/pixmap/PlayerShot3.xpm
+xsoldier-1.8/pixmap/PlayerShot2.xpm
+xsoldier-1.8/pixmap/Player.xpm
+xsoldier-1.8/pixmap/PlayerShot1.xpm
+xsoldier-1.8/pixmap/Star1.xpm
+xsoldier-1.8/pixmap/Star2.xpm
+xsoldier-1.8/pixmap/Title.xpm
+xsoldier-1.8/scorefile.txt
+xsoldier-1.8/xsoldier.6
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to create a ustar tar archive... gnutar
+checking for gawk... (cached) gawk
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking whether gcc needs -traditional... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for atexit... yes
+checking for memset... yes
+checking for strrchr... yes
+checking for rand... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make  all-am
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-1.8'
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT boss.o -MD -MP -MF .deps/boss.Tpo -c -o boss.o boss.c
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT callback.o -MD -MP -MF .deps/callback.Tpo -c -o callback.o callback.c
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT common.o -MD -MP -MF .deps/common.Tpo -c -o common.o common.c
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT ending.o -MD -MP -MF .deps/ending.Tpo -c -o ending.o ending.c
+mv -f .deps/callback.Tpo .deps/callback.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT enemy.o -MD -MP -MF .deps/enemy.Tpo -c -o enemy.o enemy.c
+mv -f .deps/common.Tpo .deps/common.Po
+mv -f .deps/ending.Tpo .deps/ending.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT enemyshot.o -MD -MP -MF .deps/enemyshot.Tpo -c -o enemyshot.o enemyshot.c
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT game.o -MD -MP -MF .deps/game.Tpo -c -o game.o game.c
+mv -f .deps/enemyshot.Tpo .deps/enemyshot.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT graphic.o -MD -MP -MF .deps/graphic.Tpo -c -o graphic.o graphic.c
+mv -f .deps/game.Tpo .deps/game.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT image.o -MD -MP -MF .deps/image.Tpo -c -o image.o image.c
+mv -f .deps/enemy.Tpo .deps/enemy.Po
+mv -f .deps/image.Tpo .deps/image.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT input.o -MD -MP -MF .deps/input.Tpo -c -o input.o input.c
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT joystick.o -MD -MP -MF .deps/joystick.Tpo -c -o joystick.o joystick.c
+mv -f .deps/joystick.Tpo .deps/joystick.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+mv -f .deps/graphic.Tpo .deps/graphic.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT manage.o -MD -MP -MF .deps/manage.Tpo -c -o manage.o manage.c
+mv -f .deps/boss.Tpo .deps/boss.Po
+mv -f .deps/input.Tpo .deps/input.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT opening.o -MD -MP -MF .deps/opening.Tpo -c -o opening.o opening.c
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT player.o -MD -MP -MF .deps/player.Tpo -c -o player.o player.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT score.o -MD -MP -MF .deps/score.Tpo -c -o score.o score.c
+mv -f .deps/opening.Tpo .deps/opening.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT sin.o -MD -MP -MF .deps/sin.Tpo -c -o sin.o sin.c
+mv -f .deps/manage.Tpo .deps/manage.Po
+gcc -DHAVE_CONFIG_H -I.  -DDATADIR=\"/usr/share\" -DLOCALSTATEDIR=\"/var\"    -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2 -MT star.o -MD -MP -MF .deps/star.Tpo -c -o star.o star.c
+mv -f .deps/sin.Tpo .deps/sin.Po
+mv -f .deps/player.Tpo .deps/player.Po
+mv -f .deps/score.Tpo .deps/score.Po
+mv -f .deps/star.Tpo .deps/star.Po
+gcc   -Wall -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Winline -pedantic -Wno-long-long -g -O2   -o xsoldier boss.o callback.o common.o ending.o enemy.o enemyshot.o game.o graphic.o image.o input.o joystick.o main.o manage.o opening.o player.o score.o sin.o star.o  -lSM -lICE -lX11 -lXpm  
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-1.8'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-1.8'
+test -z "/usr/bin" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/usr/bin"
+  /usr/bin/ginstall -c xsoldier '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/usr/bin'
+/bin/sh ./mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/usr/share/games/xsoldier/
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/usr/share/games/xsoldier/
+/usr/bin/ginstall -c -m 644 pixmap/*.xpm \
+  /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/usr/share/games/xsoldier/
+/bin/sh ./mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/var/games/xsoldier/
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/var/games/xsoldier/
+test -e /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/var/games/xsoldier/xsoldier.scores \
+  || /usr/bin/ginstall -c -m 644 scorefile.txt \
+  /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/var/games/xsoldier/xsoldier.scores
+test -z "/usr/share/man/man6" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/usr/share/man/man6"
+ /usr/bin/ginstall -c -m 644 xsoldier.6 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-install/usr/share/man/man6'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier/xsoldier-1.8'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xsoldier
+Processing ../xsoldier-install/usr/bin/xsoldier
+Processing ../xsoldier-install/usr/share/games/xsoldier/Boss1.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Boss2.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Boss3.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Boss4.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Boss5.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Boss6.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Boss7.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Enemy1.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Enemy2.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Enemy3.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Enemy4.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Enemy5.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Enemy6.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Enemy7.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/EnemyBound.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/EnemyLaser.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/EnemyMiss.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/EnemyRing.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/EnemyShot.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/ExpLarge.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/ExpSmall.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/font1.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/font2.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/font3.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/font4.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/font5.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/font6.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/font.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Item.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/PlayerShot1.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/PlayerShot2.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/PlayerShot3.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Player.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Star1.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Star2.xpm
+Processing ../xsoldier-install/usr/share/games/xsoldier/Title.xpm
+Processing ../xsoldier-install/usr/share/man/man6/xsoldier.6
+Processing ../xsoldier-install/var/games/xsoldier/xsoldier.scores
+all done
+packaging xsoldier-1.8-i686_slk600
+packaging xsoldier_DOC-1.8-i686_slk600
+done!

@@ -1,0 +1,712 @@
+--2015-06-29 10:02:40--  http://kcat.strangesoft.net/openal-releases/openal-soft-1.16.0.tar.bz2
+Resolving kcat.strangesoft.net (kcat.strangesoft.net)... 107.170.232.238
+Connecting to kcat.strangesoft.net (kcat.strangesoft.net)|107.170.232.238|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 393280 (384K) [application/x-bzip2]
+Saving to: ‘openal-soft-1.16.0.tar.bz2’
+
+     0K .......... .......... .......... .......... .......... 13% 18.7K 18s
+    50K .......... .......... .......... .......... .......... 26% 12.9K 19s
+   100K .......... .......... .......... .......... .......... 39% 11.9K 17s
+   150K .......... .......... .......... .......... .......... 52% 23.5K 12s
+   200K .......... .......... .......... .......... .......... 65% 23.1K 8s
+   250K .......... .......... .......... .......... .......... 78% 37.5K 5s
+   300K .......... .......... .......... .......... .......... 91% 66.7K 2s
+   350K .......... .......... .......... ....                 100% 51.8K=18s
+
+2015-06-29 10:03:01 (21.6 KB/s) - ‘openal-soft-1.16.0.tar.bz2’ saved [393280/393280]
+
+openal-soft-1.16.0/
+openal-soft-1.16.0/.gitignore
+openal-soft-1.16.0/Alc/
+openal-soft-1.16.0/Alc/ALc.c
+openal-soft-1.16.0/Alc/ALu.c
+openal-soft-1.16.0/Alc/alcConfig.c
+openal-soft-1.16.0/Alc/alcRing.c
+openal-soft-1.16.0/Alc/alstring.h
+openal-soft-1.16.0/Alc/backends/
+openal-soft-1.16.0/Alc/backends/alsa.c
+openal-soft-1.16.0/Alc/backends/base.c
+openal-soft-1.16.0/Alc/backends/base.h
+openal-soft-1.16.0/Alc/backends/coreaudio.c
+openal-soft-1.16.0/Alc/backends/dsound.c
+openal-soft-1.16.0/Alc/backends/loopback.c
+openal-soft-1.16.0/Alc/backends/mmdevapi.c
+openal-soft-1.16.0/Alc/backends/null.c
+openal-soft-1.16.0/Alc/backends/opensl.c
+openal-soft-1.16.0/Alc/backends/oss.c
+openal-soft-1.16.0/Alc/backends/portaudio.c
+openal-soft-1.16.0/Alc/backends/pulseaudio.c
+openal-soft-1.16.0/Alc/backends/qsa.c
+openal-soft-1.16.0/Alc/backends/sndio.c
+openal-soft-1.16.0/Alc/backends/solaris.c
+openal-soft-1.16.0/Alc/backends/wave.c
+openal-soft-1.16.0/Alc/backends/winmm.c
+openal-soft-1.16.0/Alc/bs2b.c
+openal-soft-1.16.0/Alc/compat.h
+openal-soft-1.16.0/Alc/effects/
+openal-soft-1.16.0/Alc/effects/autowah.c
+openal-soft-1.16.0/Alc/effects/chorus.c
+openal-soft-1.16.0/Alc/effects/compressor.c
+openal-soft-1.16.0/Alc/effects/dedicated.c
+openal-soft-1.16.0/Alc/effects/distortion.c
+openal-soft-1.16.0/Alc/effects/echo.c
+openal-soft-1.16.0/Alc/effects/equalizer.c
+openal-soft-1.16.0/Alc/effects/flanger.c
+openal-soft-1.16.0/Alc/effects/modulator.c
+openal-soft-1.16.0/Alc/effects/null.c
+openal-soft-1.16.0/Alc/effects/reverb.c
+openal-soft-1.16.0/Alc/evtqueue.h
+openal-soft-1.16.0/Alc/helpers.c
+openal-soft-1.16.0/Alc/hrtf.c
+openal-soft-1.16.0/Alc/hrtf.h
+openal-soft-1.16.0/Alc/midi/
+openal-soft-1.16.0/Alc/midi/base.c
+openal-soft-1.16.0/Alc/midi/base.h
+openal-soft-1.16.0/Alc/midi/dummy.c
+openal-soft-1.16.0/Alc/midi/fluidsynth.c
+openal-soft-1.16.0/Alc/midi/sf2load.c
+openal-soft-1.16.0/Alc/midi/soft.c
+openal-soft-1.16.0/Alc/mixer.c
+openal-soft-1.16.0/Alc/mixer_c.c
+openal-soft-1.16.0/Alc/mixer_defs.h
+openal-soft-1.16.0/Alc/mixer_inc.c
+openal-soft-1.16.0/Alc/mixer_neon.c
+openal-soft-1.16.0/Alc/mixer_sse.c
+openal-soft-1.16.0/Alc/mixer_sse2.c
+openal-soft-1.16.0/Alc/mixer_sse41.c
+openal-soft-1.16.0/Alc/panning.c
+openal-soft-1.16.0/Alc/vector.h
+openal-soft-1.16.0/CMakeLists.txt
+openal-soft-1.16.0/COPYING
+openal-soft-1.16.0/ChangeLog
+openal-soft-1.16.0/OpenAL32/
+openal-soft-1.16.0/OpenAL32/Include/
+openal-soft-1.16.0/OpenAL32/Include/alAuxEffectSlot.h
+openal-soft-1.16.0/OpenAL32/Include/alBuffer.h
+openal-soft-1.16.0/OpenAL32/Include/alEffect.h
+openal-soft-1.16.0/OpenAL32/Include/alError.h
+openal-soft-1.16.0/OpenAL32/Include/alFilter.h
+openal-soft-1.16.0/OpenAL32/Include/alListener.h
+openal-soft-1.16.0/OpenAL32/Include/alMain.h
+openal-soft-1.16.0/OpenAL32/Include/alMidi.h
+openal-soft-1.16.0/OpenAL32/Include/alSource.h
+openal-soft-1.16.0/OpenAL32/Include/alThunk.h
+openal-soft-1.16.0/OpenAL32/Include/alu.h
+openal-soft-1.16.0/OpenAL32/Include/bs2b.h
+openal-soft-1.16.0/OpenAL32/Include/sample_cvt.h
+openal-soft-1.16.0/OpenAL32/alAuxEffectSlot.c
+openal-soft-1.16.0/OpenAL32/alBuffer.c
+openal-soft-1.16.0/OpenAL32/alEffect.c
+openal-soft-1.16.0/OpenAL32/alError.c
+openal-soft-1.16.0/OpenAL32/alExtension.c
+openal-soft-1.16.0/OpenAL32/alFilter.c
+openal-soft-1.16.0/OpenAL32/alFontsound.c
+openal-soft-1.16.0/OpenAL32/alListener.c
+openal-soft-1.16.0/OpenAL32/alMidi.c
+openal-soft-1.16.0/OpenAL32/alPreset.c
+openal-soft-1.16.0/OpenAL32/alSoundfont.c
+openal-soft-1.16.0/OpenAL32/alSource.c
+openal-soft-1.16.0/OpenAL32/alState.c
+openal-soft-1.16.0/OpenAL32/alThunk.c
+openal-soft-1.16.0/OpenAL32/sample_cvt.c
+openal-soft-1.16.0/README
+openal-soft-1.16.0/XCompile.txt
+openal-soft-1.16.0/alsoftrc.sample
+openal-soft-1.16.0/build/
+openal-soft-1.16.0/build/.empty
+openal-soft-1.16.0/cmake/
+openal-soft-1.16.0/cmake/CheckFileOffsetBits.c
+openal-soft-1.16.0/cmake/CheckFileOffsetBits.cmake
+openal-soft-1.16.0/cmake/CheckSharedFunctionExists.cmake
+openal-soft-1.16.0/cmake/FindALSA.cmake
+openal-soft-1.16.0/cmake/FindAudioIO.cmake
+openal-soft-1.16.0/cmake/FindDSound.cmake
+openal-soft-1.16.0/cmake/FindFFmpeg.cmake
+openal-soft-1.16.0/cmake/FindFluidSynth.cmake
+openal-soft-1.16.0/cmake/FindOSS.cmake
+openal-soft-1.16.0/cmake/FindPortAudio.cmake
+openal-soft-1.16.0/cmake/FindPulseAudio.cmake
+openal-soft-1.16.0/cmake/FindQSA.cmake
+openal-soft-1.16.0/cmake/FindSDL2.cmake
+openal-soft-1.16.0/cmake/FindSDL_sound.cmake
+openal-soft-1.16.0/cmake/FindSoundIO.cmake
+openal-soft-1.16.0/common/
+openal-soft-1.16.0/common/atomic.c
+openal-soft-1.16.0/common/rwlock.c
+openal-soft-1.16.0/common/threads.c
+openal-soft-1.16.0/common/uintmap.c
+openal-soft-1.16.0/config.h.in
+openal-soft-1.16.0/env-vars.txt
+openal-soft-1.16.0/examples/
+openal-soft-1.16.0/examples/alffplay.c
+openal-soft-1.16.0/examples/allatency.c
+openal-soft-1.16.0/examples/alloopback.c
+openal-soft-1.16.0/examples/alreverb.c
+openal-soft-1.16.0/examples/alstream.c
+openal-soft-1.16.0/examples/common/
+openal-soft-1.16.0/examples/common/alhelpers.c
+openal-soft-1.16.0/examples/common/alhelpers.h
+openal-soft-1.16.0/examples/common/sdl_sound.c
+openal-soft-1.16.0/examples/common/sdl_sound.h
+openal-soft-1.16.0/hrtf.txt
+openal-soft-1.16.0/hrtf/
+openal-soft-1.16.0/hrtf/default-44100.mhr
+openal-soft-1.16.0/hrtf/default-48000.mhr
+openal-soft-1.16.0/include/
+openal-soft-1.16.0/include/AL/
+openal-soft-1.16.0/include/AL/al.h
+openal-soft-1.16.0/include/AL/alc.h
+openal-soft-1.16.0/include/AL/alext.h
+openal-soft-1.16.0/include/AL/efx-creative.h
+openal-soft-1.16.0/include/AL/efx-presets.h
+openal-soft-1.16.0/include/AL/efx.h
+openal-soft-1.16.0/include/align.h
+openal-soft-1.16.0/include/atomic.h
+openal-soft-1.16.0/include/bool.h
+openal-soft-1.16.0/include/rwlock.h
+openal-soft-1.16.0/include/static_assert.h
+openal-soft-1.16.0/include/threads.h
+openal-soft-1.16.0/include/uintmap.h
+openal-soft-1.16.0/openal.pc.in
+openal-soft-1.16.0/utils/
+openal-soft-1.16.0/utils/CIAIR.def
+openal-soft-1.16.0/utils/IRC_1005.def
+openal-soft-1.16.0/utils/MIT_KEMAR.def
+openal-soft-1.16.0/utils/alsoft-config/
+openal-soft-1.16.0/utils/alsoft-config/CMakeLists.txt
+openal-soft-1.16.0/utils/alsoft-config/main.cpp
+openal-soft-1.16.0/utils/alsoft-config/mainwindow.cpp
+openal-soft-1.16.0/utils/alsoft-config/mainwindow.h
+openal-soft-1.16.0/utils/alsoft-config/mainwindow.ui
+openal-soft-1.16.0/utils/makehrtf.c
+openal-soft-1.16.0/utils/openal-info.c
+-- The C compiler identification is GNU 4.8.2
+-- The CXX compiler identification is GNU 4.8.2
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Checking _FILE_OFFSET_BITS for large files
+-- Checking _FILE_OFFSET_BITS for large files - 64
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Performing Test HAVE_STD_C99
+-- Performing Test HAVE_STD_C99 - Success
+-- Performing Test INLINE_IS_C99
+-- Performing Test INLINE_IS_C99 - Success
+-- Performing Test HAVE_C99_VLA
+-- Performing Test HAVE_C99_VLA - Success
+-- Performing Test HAVE_C99_BOOL
+-- Performing Test HAVE_C99_BOOL - Success
+-- Performing Test HAVE_C11_STATIC_ASSERT
+-- Performing Test HAVE_C11_STATIC_ASSERT - Success
+-- Performing Test HAVE_C11_ALIGNAS
+-- Performing Test HAVE_C11_ALIGNAS - Success
+-- Performing Test HAVE_C11_ATOMIC
+-- Performing Test HAVE_C11_ATOMIC - Failed
+-- Performing Test HAVE_W_EXTRA
+-- Performing Test HAVE_W_EXTRA - Success
+-- Performing Test HAVE_FPIC_SWITCH
+-- Performing Test HAVE_FPIC_SWITCH - Success
+-- Performing Test HAVE_GCC_DESTRUCTOR
+-- Performing Test HAVE_GCC_DESTRUCTOR - Success
+-- Performing Test HAVE_GCC_PROTECTED_VISIBILITY
+-- Performing Test HAVE_GCC_PROTECTED_VISIBILITY - Success
+-- Performing Test HAVE_VISIBILITY_HIDDEN_SWITCH
+-- Performing Test HAVE_VISIBILITY_HIDDEN_SWITCH - Success
+-- Performing Test HAVE_ATTRIBUTE_ALIGNED
+-- Performing Test HAVE_ATTRIBUTE_ALIGNED - Success
+-- Performing Test HAVE_MSSE_SWITCH
+-- Performing Test HAVE_MSSE_SWITCH - Success
+-- Performing Test HAVE_MSSE2_SWITCH
+-- Performing Test HAVE_MSSE2_SWITCH - Success
+-- Performing Test HAVE_MSSE4_1_SWITCH
+-- Performing Test HAVE_MSSE4_1_SWITCH - Success
+-- Performing Test HAVE_GCC_FORMAT
+-- Performing Test HAVE_GCC_FORMAT - Success
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Looking for stdalign.h
+-- Looking for stdalign.h - found
+-- Looking for malloc.h
+-- Looking for malloc.h - found
+-- Looking for ftw.h
+-- Looking for ftw.h - found
+-- Looking for io.h
+-- Looking for io.h - not found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for cpuid.h
+-- Looking for cpuid.h - found
+-- Looking for intrin.h
+-- Looking for intrin.h - not found
+-- Looking for sys/sysconf.h
+-- Looking for sys/sysconf.h - not found
+-- Looking for fenv.h
+-- Looking for fenv.h - found
+-- Looking for float.h
+-- Looking for float.h - found
+-- Looking for ieeefp.h
+-- Looking for ieeefp.h - not found
+-- Looking for guiddef.h
+-- Looking for guiddef.h - not found
+-- Looking for initguid.h
+-- Looking for initguid.h - not found
+-- Performing Test HAVE_GCC_GET_CPUID
+-- Performing Test HAVE_GCC_GET_CPUID - Success
+-- Looking for pow in m
+-- Looking for pow in m - found
+-- Looking for aligned_alloc
+-- Looking for aligned_alloc - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for _aligned_malloc
+-- Looking for _aligned_malloc - not found
+-- Looking for lrintf
+-- Looking for lrintf - found
+-- Looking for _controlfp
+-- Looking for _controlfp - not found
+-- Looking for __control87_2
+-- Looking for __control87_2 - not found
+-- Looking for ftw
+-- Looking for ftw - found
+-- Looking for strtof
+-- Looking for strtof - found
+-- Looking for stat
+-- Looking for stat - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for strncasecmp
+-- Looking for strncasecmp - found
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for isfinite
+-- Looking for isfinite - found
+-- Looking for isnan
+-- Looking for isnan - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for windows.h
+-- Looking for windows.h - not found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for nanosleep
+-- Looking for nanosleep - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for include files pthread.h, pthread_np.h
+-- Looking for include files pthread.h, pthread_np.h - not found
+-- Performing Test HAVE_PTHREAD
+-- Performing Test HAVE_PTHREAD - Success
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Looking for pthread_setschedparam
+-- Looking for pthread_setschedparam - found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - found
+-- Looking for pthread_mutex_timedlock
+-- Looking for pthread_mutex_timedlock - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for xmmintrin.h
+-- Looking for xmmintrin.h - found
+-- Looking for emmintrin.h
+-- Looking for emmintrin.h - found
+-- Looking for smmintrin.h
+-- Looking for smmintrin.h - found
+-- Looking for arm_neon.h
+-- Looking for arm_neon.h - not found
+-- Could NOT find FluidSynth (missing:  FLUIDSYNTH_LIBRARIES FLUIDSYNTH_INCLUDE_DIR) 
+-- Found ALSA: /usr/lib/libasound.so (found version "1.0.27.2") 
+-- Found OSS: /usr/include  
+-- Could NOT find AudioIO (missing:  AUDIOIO_INCLUDE_DIR) 
+-- Could NOT find SoundIO (missing:  SOUNDIO_LIBRARY SOUNDIO_INCLUDE_DIR) 
+-- Could NOT find QSA (missing:  QSA_LIBRARY QSA_INCLUDE_DIR) 
+-- Could NOT find PortAudio (missing:  PORTAUDIO_LIBRARY PORTAUDIO_INCLUDE_DIR) 
+-- Could NOT find PulseAudio (missing:  PULSEAUDIO_LIBRARY PULSEAUDIO_INCLUDE_DIR) 
+-- Looking for include files SLES/OpenSLES.h, SLES/OpenSLES_Android.h
+-- Looking for include files SLES/OpenSLES.h, SLES/OpenSLES_Android.h - not found
+-- Found unsuitable Qt version "" from NOTFOUND
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Could NOT find SDL2 (missing:  SDL2_LIBRARY SDL2_INCLUDE_DIR) 
+-- 
+-- Building OpenAL with support for the following backends:
+--      ALSA, OSS, WaveFile, Null
+-- 
+-- Building with support for CPU extensions:
+--     Default, SSE, SSE2, SSE4.1
+-- 
+-- Installing sample configuration
+-- 
+-- Installing HRTF definitions
+-- 
+-- Building utility programs
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build
+/usr/bin/cmake -H/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 -B/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/common.dir/build.make CMakeFiles/common.dir/depend
+make -f CMakeFiles/makehrtf.dir/build.make CMakeFiles/makehrtf.dir/depend
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/common.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/makehrtf.dir/DependInfo.cmake --color=
+Scanning dependencies of target common
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/common.dir/build.make CMakeFiles/common.dir/build
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 1
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 2
+[  1%] Scanning dependencies of target makehrtf
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/makehrtf.dir/build.make CMakeFiles/makehrtf.dir/build
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 3
+[  3%] make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 5
+Building C object CMakeFiles/common.dir/common/atomic.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/common.dir/common/atomic.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/common/atomic.c
+[  5%] [  7%] Building C object CMakeFiles/common.dir/common/rwlock.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/common.dir/common/rwlock.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/common/rwlock.c
+Building C object CMakeFiles/common.dir/common/threads.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/common.dir/common/threads.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/common/threads.c
+Building C object CMakeFiles/makehrtf.dir/utils/makehrtf.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/makehrtf.dir/utils/makehrtf.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/utils/makehrtf.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 4
+[  8%] Building C object CMakeFiles/common.dir/common/uintmap.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/common.dir/common/uintmap.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/common/uintmap.c
+Linking C static library libcommon.a
+/usr/bin/cmake -P CMakeFiles/common.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=1
+/usr/bin/ar cr libcommon.a  CMakeFiles/common.dir/common/atomic.c.o CMakeFiles/common.dir/common/rwlock.c.o CMakeFiles/common.dir/common/threads.c.o CMakeFiles/common.dir/common/uintmap.c.o
+/usr/bin/ranlib libcommon.a
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles  1 2 3 4
+[  8%] Built target common
+make -f CMakeFiles/openal.dir/build.make CMakeFiles/openal.dir/depend
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/openal.dir/DependInfo.cmake --color=
+Scanning dependencies of target openal
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/openal.dir/build.make CMakeFiles/openal.dir/build
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 6
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 7
+[ 10%] [ 12%] Building C object CMakeFiles/openal.dir/OpenAL32/alAuxEffectSlot.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alAuxEffectSlot.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alAuxEffectSlot.c
+Building C object CMakeFiles/openal.dir/OpenAL32/alBuffer.c.o
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 8
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alBuffer.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alBuffer.c
+[ 14%] Building C object CMakeFiles/openal.dir/OpenAL32/alEffect.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alEffect.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alEffect.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 9
+[ 16%] Building C object CMakeFiles/openal.dir/OpenAL32/alError.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alError.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alError.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 10
+[ 17%] Building C object CMakeFiles/openal.dir/OpenAL32/alExtension.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alExtension.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alExtension.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 11
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 12
+[ 19%] [ 21%] /usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 13
+Building C object CMakeFiles/openal.dir/OpenAL32/alFontsound.c.o
+Building C object CMakeFiles/openal.dir/OpenAL32/alFilter.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alFilter.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alFilter.c
+[ 23%] /usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alFontsound.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alFontsound.c
+Building C object CMakeFiles/openal.dir/OpenAL32/alListener.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alListener.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alListener.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 14
+[ 25%] Building C object CMakeFiles/openal.dir/OpenAL32/alMidi.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alMidi.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alMidi.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 15
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 16
+[ 26%] [ 28%] Building C object CMakeFiles/openal.dir/OpenAL32/alPreset.c.o
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 17
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alPreset.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alPreset.c
+[ 30%] Building C object CMakeFiles/openal.dir/OpenAL32/alSoundfont.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alSoundfont.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alSoundfont.c
+Building C object CMakeFiles/openal.dir/OpenAL32/alSource.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alSource.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alSource.c
+Linking C executable makehrtf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/makehrtf.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99  -O2 -fomit-frame-pointer -DNDEBUG    CMakeFiles/makehrtf.dir/utils/makehrtf.c.o  -o makehrtf -rdynamic -lm 
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles  5
+[ 30%] Built target makehrtf
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 18
+[ 32%] /usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 19
+Building C object CMakeFiles/openal.dir/OpenAL32/alState.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alState.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alState.c
+[ 33%] Building C object CMakeFiles/openal.dir/OpenAL32/alThunk.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/alThunk.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/alThunk.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 20
+[ 35%] Building C object CMakeFiles/openal.dir/OpenAL32/sample_cvt.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/OpenAL32/sample_cvt.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/sample_cvt.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 21
+[ 37%] Building C object CMakeFiles/openal.dir/Alc/ALc.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/ALc.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/ALc.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 22
+[ 39%] Building C object CMakeFiles/openal.dir/Alc/ALu.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/ALu.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/ALu.c
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/ALc.c: In function ‘LockLists’:
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/ALc.c:778:9: warning: unused variable ‘lockret’ [-Wunused-variable]
+     int lockret = almtx_lock(&ListLock);
+         ^
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/ALc.c: In function ‘UnlockLists’:
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/ALc.c:783:9: warning: unused variable ‘unlockret’ [-Wunused-variable]
+     int unlockret = almtx_unlock(&ListLock);
+         ^
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/ALc.c: In function ‘alc_init’:
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/ALc.c:855:9: warning: variable ‘ret’ set but not used [-Wunused-but-set-variable]
+     int ret;
+         ^
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 23
+[ 41%] Building C object CMakeFiles/openal.dir/Alc/alcConfig.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/alcConfig.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/alcConfig.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 24
+[ 42%] Building C object CMakeFiles/openal.dir/Alc/alcRing.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/alcRing.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/alcRing.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 25
+[ 44%] Building C object CMakeFiles/openal.dir/Alc/bs2b.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/bs2b.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/bs2b.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 26
+[ 46%] Building C object CMakeFiles/openal.dir/Alc/effects/autowah.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/autowah.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/autowah.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 27
+[ 48%] Building C object CMakeFiles/openal.dir/Alc/effects/chorus.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/chorus.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/chorus.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 28
+[ 50%] Building C object CMakeFiles/openal.dir/Alc/effects/compressor.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/compressor.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/compressor.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 29
+[ 51%] Building C object CMakeFiles/openal.dir/Alc/effects/dedicated.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/dedicated.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/dedicated.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 30
+[ 53%] Building C object CMakeFiles/openal.dir/Alc/effects/distortion.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/distortion.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/distortion.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 31
+[ 55%] Building C object CMakeFiles/openal.dir/Alc/effects/echo.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/echo.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/echo.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 32
+[ 57%] Building C object CMakeFiles/openal.dir/Alc/effects/equalizer.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/equalizer.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/equalizer.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 33
+[ 58%] Building C object CMakeFiles/openal.dir/Alc/effects/flanger.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/flanger.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/flanger.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 34
+[ 60%] Building C object CMakeFiles/openal.dir/Alc/effects/modulator.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/modulator.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/modulator.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 35
+[ 62%] Building C object CMakeFiles/openal.dir/Alc/effects/null.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/null.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/null.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 36
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 37
+[ 64%] [ 66%] Building C object CMakeFiles/openal.dir/Alc/effects/reverb.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/effects/reverb.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/effects/reverb.c
+Building C object CMakeFiles/openal.dir/Alc/helpers.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/helpers.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/helpers.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 38
+[ 67%] Building C object CMakeFiles/openal.dir/Alc/hrtf.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/hrtf.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/hrtf.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 39
+[ 69%] Building C object CMakeFiles/openal.dir/Alc/panning.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/panning.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/panning.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 40
+[ 71%] Building C object CMakeFiles/openal.dir/Alc/mixer.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/mixer.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/mixer.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 41
+[ 73%] /usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 42
+Building C object CMakeFiles/openal.dir/Alc/mixer_c.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/mixer_c.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/mixer_c.c
+[ 75%] Building C object CMakeFiles/openal.dir/Alc/mixer_sse.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -msse -o CMakeFiles/openal.dir/Alc/mixer_sse.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/mixer_sse.c
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/mixer_c.c: In function ‘Resample_copy32_C’:
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/mixer_c.c:19:10: warning: unused parameter ‘increment’ [-Wunused-parameter]
+   ALuint increment, ALfloat *restrict dst, ALuint numsamples)
+          ^
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 43
+[ 76%] Building C object CMakeFiles/openal.dir/Alc/mixer_sse2.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -msse2 -o CMakeFiles/openal.dir/Alc/mixer_sse2.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/mixer_sse2.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 44
+[ 78%] Building C object CMakeFiles/openal.dir/Alc/mixer_sse41.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -msse4.1 -o CMakeFiles/openal.dir/Alc/mixer_sse41.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/mixer_sse41.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 45
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 46
+[ 80%] [ 82%] Building C object CMakeFiles/openal.dir/Alc/midi/base.c.o
+Building C object CMakeFiles/openal.dir/Alc/midi/sf2load.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/midi/sf2load.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/midi/sf2load.c
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/midi/base.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/midi/base.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 47
+[ 83%] Building C object CMakeFiles/openal.dir/Alc/midi/dummy.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/midi/dummy.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/midi/dummy.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 48
+[ 85%] Building C object CMakeFiles/openal.dir/Alc/midi/fluidsynth.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/midi/fluidsynth.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/midi/fluidsynth.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 49
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 50
+[ 87%] [ 89%] Building C object CMakeFiles/openal.dir/Alc/midi/soft.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/midi/soft.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/midi/soft.c
+Building C object CMakeFiles/openal.dir/Alc/backends/base.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/backends/base.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/base.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 51
+[ 91%] Building C object CMakeFiles/openal.dir/Alc/backends/loopback.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/backends/loopback.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/loopback.c
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/base.c: In function ‘ALCbackend_Construct’:
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/base.c:14:9: warning: variable ‘ret’ set but not used [-Wunused-but-set-variable]
+     int ret;
+         ^
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/base.c: In function ‘ALCbackend_lock’:
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/base.c:47:9: warning: unused variable ‘ret’ [-Wunused-variable]
+     int ret = almtx_lock(&self->mMutex);
+         ^
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/base.c: In function ‘ALCbackend_unlock’:
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/base.c:53:9: warning: unused variable ‘ret’ [-Wunused-variable]
+     int ret = almtx_unlock(&self->mMutex);
+         ^
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 52
+[ 92%] /usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 53
+Building C object CMakeFiles/openal.dir/Alc/backends/null.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/backends/null.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/null.c
+[ 94%] /usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 54
+Building C object CMakeFiles/openal.dir/Alc/backends/alsa.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/backends/alsa.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/alsa.c
+[ 96%] Building C object CMakeFiles/openal.dir/Alc/backends/oss.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/backends/oss.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/oss.c
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 55
+[ 98%] Building C object CMakeFiles/openal.dir/Alc/backends/wave.c.o
+/usr/bin/cc  -DAL_ALEXT_PROTOTYPES -DAL_BUILD_LIBRARY -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -Dopenal_EXPORTS -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -fPIC -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/OpenAL32/Include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal.dir/Alc/backends/wave.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/Alc/backends/wave.c
+Linking C shared library libopenal.so
+/usr/bin/cmake -E cmake_link_script CMakeFiles/openal.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -std=c99  -O2 -fomit-frame-pointer -DNDEBUG   -shared -Wl,-soname,libopenal.so.1 -o libopenal.so.1.16.0 CMakeFiles/openal.dir/OpenAL32/alAuxEffectSlot.c.o CMakeFiles/openal.dir/OpenAL32/alBuffer.c.o CMakeFiles/openal.dir/OpenAL32/alEffect.c.o CMakeFiles/openal.dir/OpenAL32/alError.c.o CMakeFiles/openal.dir/OpenAL32/alExtension.c.o CMakeFiles/openal.dir/OpenAL32/alFilter.c.o CMakeFiles/openal.dir/OpenAL32/alFontsound.c.o CMakeFiles/openal.dir/OpenAL32/alListener.c.o CMakeFiles/openal.dir/OpenAL32/alMidi.c.o CMakeFiles/openal.dir/OpenAL32/alPreset.c.o CMakeFiles/openal.dir/OpenAL32/alSoundfont.c.o CMakeFiles/openal.dir/OpenAL32/alSource.c.o CMakeFiles/openal.dir/OpenAL32/alState.c.o CMakeFiles/openal.dir/OpenAL32/alThunk.c.o CMakeFiles/openal.dir/OpenAL32/sample_cvt.c.o CMakeFiles/openal.dir/Alc/ALc.c.o CMakeFiles/openal.dir/Alc/ALu.c.o CMakeFiles/openal.dir/Alc/alcConfig.c.o CMakeFiles/openal.dir/Alc/alcRing.c.o CMakeFiles/openal.dir/Alc/bs2b.c.o CMakeFiles/openal.dir/Alc/effects/autowah.c.o CMakeFiles/openal.dir/Alc/effects/chorus.c.o CMakeFiles/openal.dir/Alc/effects/compressor.c.o CMakeFiles/openal.dir/Alc/effects/dedicated.c.o CMakeFiles/openal.dir/Alc/effects/distortion.c.o CMakeFiles/openal.dir/Alc/effects/echo.c.o CMakeFiles/openal.dir/Alc/effects/equalizer.c.o CMakeFiles/openal.dir/Alc/effects/flanger.c.o CMakeFiles/openal.dir/Alc/effects/modulator.c.o CMakeFiles/openal.dir/Alc/effects/null.c.o CMakeFiles/openal.dir/Alc/effects/reverb.c.o CMakeFiles/openal.dir/Alc/helpers.c.o CMakeFiles/openal.dir/Alc/hrtf.c.o CMakeFiles/openal.dir/Alc/panning.c.o CMakeFiles/openal.dir/Alc/mixer.c.o CMakeFiles/openal.dir/Alc/mixer_c.c.o CMakeFiles/openal.dir/Alc/mixer_sse.c.o CMakeFiles/openal.dir/Alc/mixer_sse2.c.o CMakeFiles/openal.dir/Alc/mixer_sse41.c.o CMakeFiles/openal.dir/Alc/midi/base.c.o CMakeFiles/openal.dir/Alc/midi/sf2load.c.o CMakeFiles/openal.dir/Alc/midi/dummy.c.o CMakeFiles/openal.dir/Alc/midi/fluidsynth.c.o CMakeFiles/openal.dir/Alc/midi/soft.c.o CMakeFiles/openal.dir/Alc/backends/base.c.o CMakeFiles/openal.dir/Alc/backends/loopback.c.o CMakeFiles/openal.dir/Alc/backends/null.c.o CMakeFiles/openal.dir/Alc/backends/alsa.c.o CMakeFiles/openal.dir/Alc/backends/oss.c.o CMakeFiles/openal.dir/Alc/backends/wave.c.o libcommon.a -lrt -lpthread -ldl -lm -pthread 
+/usr/bin/cmake -E cmake_symlink_library libopenal.so.1.16.0 libopenal.so.1 libopenal.so
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55
+[ 98%] Built target openal
+make -f CMakeFiles/openal-info.dir/build.make CMakeFiles/openal-info.dir/depend
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/openal-info.dir/DependInfo.cmake --color=
+Scanning dependencies of target openal-info
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/openal-info.dir/build.make CMakeFiles/openal-info.dir/build
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 56
+[100%] Building C object CMakeFiles/openal-info.dir/utils/openal-info.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE=1 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -std=c99  -O2 -fomit-frame-pointer -DNDEBUG -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/include -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build    -Winline -Wall -Wextra -fPIC -fvisibility=hidden -pthread -o CMakeFiles/openal-info.dir/utils/openal-info.c.o   -c /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/utils/openal-info.c
+Linking C executable openal-info
+/usr/bin/cmake -E cmake_link_script CMakeFiles/openal-info.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99  -O2 -fomit-frame-pointer -DNDEBUG    CMakeFiles/openal-info.dir/utils/openal-info.c.o  -o openal-info -rdynamic libopenal.so.1.16.0 libcommon.a -lrt -lpthread -ldl -lm -pthread -Wl,-rpath,/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build: 
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles  56
+[100%] Built target openal-info
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_start /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 0
+/usr/bin/cmake -H/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 -B/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/common.dir/build.make CMakeFiles/common.dir/depend
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/common.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/common.dir/build.make CMakeFiles/common.dir/build
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make[2]: Nothing to be done for `CMakeFiles/common.dir/build'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles  1 2 3 4
+[  7%] Built target common
+make -f CMakeFiles/makehrtf.dir/build.make CMakeFiles/makehrtf.dir/depend
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/makehrtf.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/makehrtf.dir/build.make CMakeFiles/makehrtf.dir/build
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make[2]: Nothing to be done for `CMakeFiles/makehrtf.dir/build'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles  5
+[  8%] Built target makehrtf
+make -f CMakeFiles/openal.dir/build.make CMakeFiles/openal.dir/depend
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/openal.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/openal.dir/build.make CMakeFiles/openal.dir/build
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make[2]: Nothing to be done for `CMakeFiles/openal.dir/build'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55
+[ 98%] Built target openal
+make -f CMakeFiles/openal-info.dir/build.make CMakeFiles/openal-info.dir/depend
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles/openal-info.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make -f CMakeFiles/openal-info.dir/build.make CMakeFiles/openal-info.dir/build
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make[2]: Nothing to be done for `CMakeFiles/openal-info.dir/build'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_report /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles  56
+[100%] Built target openal-info
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+/usr/bin/cmake -E cmake_progress_start /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build/CMakeFiles 0
+make -f CMakeFiles/Makefile2 preinstall
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+make[1]: Nothing to be done for `preinstall'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-1.16.0/build'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/lib/libopenal.so.1.16.0
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/lib/libopenal.so.1
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/lib/libopenal.so
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/include/AL/al.h
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/include/AL/alc.h
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/include/AL/alext.h
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/include/AL/efx.h
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/include/AL/efx-creative.h
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/include/AL/efx-presets.h
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/lib/pkgconfig/openal.pc
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/share/openal/alsoftrc.sample
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/share/openal/hrtf/default-44100.mhr
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/share/openal/hrtf/default-48000.mhr
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/bin/openal-info
+-- Removed runtime path from "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/bin/openal-info"
+-- Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft/openal-soft-install/usr/bin/makehrtf
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/openal-soft
+Processing ../openal-soft-install/usr/bin/makehrtf
+Processing ../openal-soft-install/usr/bin/openal-info
+Processing ../openal-soft-install/usr/include/AL/alc.h
+Processing ../openal-soft-install/usr/include/AL/alext.h
+Processing ../openal-soft-install/usr/include/AL/al.h
+Processing ../openal-soft-install/usr/include/AL/efx-creative.h
+Processing ../openal-soft-install/usr/include/AL/efx.h
+Processing ../openal-soft-install/usr/include/AL/efx-presets.h
+Processing ../openal-soft-install/usr/lib/libopenal.so
+Processing ../openal-soft-install/usr/lib/libopenal.so.1
+Processing ../openal-soft-install/usr/lib/libopenal.so.1.16.0
+Processing ../openal-soft-install/usr/lib/pkgconfig/openal.pc
+Processing ../openal-soft-install/usr/share/openal/alsoftrc.sample
+Processing ../openal-soft-install/usr/share/openal/hrtf/default-44100.mhr
+Processing ../openal-soft-install/usr/share/openal/hrtf/default-48000.mhr
+all done
+packaging openal-soft-1.16.0-i686_slk600
+packaging openal-soft_DEV-1.16.0-i686_slk600
+done!

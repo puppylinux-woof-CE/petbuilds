@@ -1,0 +1,2870 @@
+transmission-2.60/
+transmission-2.60/INSTALL
+transmission-2.60/configure
+transmission-2.60/autogen.sh
+transmission-2.60/qt/
+transmission-2.60/qt/app.cc
+transmission-2.60/qt/prefs-dialog.cc
+transmission-2.60/qt/add-data.h
+transmission-2.60/qt/watchdir.h
+transmission-2.60/qt/prefs.cc
+transmission-2.60/qt/tracker-model.cc
+transmission-2.60/qt/utils.h
+transmission-2.60/qt/types.h
+transmission-2.60/qt/relocate.cc
+transmission-2.60/qt/torrent-model.cc
+transmission-2.60/qt/torrent-delegate-min.h
+transmission-2.60/qt/formatter.h
+transmission-2.60/qt/license.h
+transmission-2.60/qt/squeezelabel.h
+transmission-2.60/qt/stats-dialog.cc
+transmission-2.60/qt/tracker-model.h
+transmission-2.60/qt/watchdir.cc
+transmission-2.60/qt/filterbar.cc
+transmission-2.60/qt/favicon.h
+transmission-2.60/qt/filters.cc
+transmission-2.60/qt/dbus-adaptor.h
+transmission-2.60/qt/torrent-delegate.cc
+transmission-2.60/qt/README.txt
+transmission-2.60/qt/triconpushbutton.h
+transmission-2.60/qt/torrent-delegate.h
+transmission-2.60/qt/mainwin.ui
+transmission-2.60/qt/options.h
+transmission-2.60/qt/torrent-delegate-min.cc
+transmission-2.60/qt/my-valgrind.sh
+transmission-2.60/qt/license.cc
+transmission-2.60/qt/session.cc
+transmission-2.60/qt/speed.h
+transmission-2.60/qt/transmission_en.qm
+transmission-2.60/qt/dbus-adaptor.cc
+transmission-2.60/qt/session.h
+transmission-2.60/qt/hig.h
+transmission-2.60/qt/application.qrc
+transmission-2.60/qt/torrent.cc
+transmission-2.60/qt/mainwin.h
+transmission-2.60/qt/file-tree.cc
+transmission-2.60/qt/tracker-model-filter.h
+transmission-2.60/qt/transmission-qt.desktop
+transmission-2.60/qt/qtr.pro
+transmission-2.60/qt/add-data.cc
+transmission-2.60/qt/squeezelabel.cc
+transmission-2.60/qt/session-dialog.cc
+transmission-2.60/qt/triconpushbutton.cc
+transmission-2.60/qt/about.cc
+transmission-2.60/qt/tracker-delegate.cc
+transmission-2.60/qt/translations/
+transmission-2.60/qt/translations/transmission_pt_BR.ts
+transmission-2.60/qt/translations/transmission_ru.ts
+transmission-2.60/qt/translations/transmission_en.ts
+transmission-2.60/qt/translations/transmission_lt.ts
+transmission-2.60/qt/translations/transmission_eu.ts
+transmission-2.60/qt/translations/transmission_kk.ts
+transmission-2.60/qt/translations/transmission_es.ts
+transmission-2.60/qt/file-tree.h
+transmission-2.60/qt/tracker-model-filter.cc
+transmission-2.60/qt/app.h
+transmission-2.60/qt/prefs.h
+transmission-2.60/qt/make-dialog.cc
+transmission-2.60/qt/qtr.rc
+transmission-2.60/qt/torrent-filter.h
+transmission-2.60/qt/torrent-filter.cc
+transmission-2.60/qt/config.pri
+transmission-2.60/qt/filterbar.h
+transmission-2.60/qt/formatter.cc
+transmission-2.60/qt/hig.cc
+transmission-2.60/qt/make-dialog.h
+transmission-2.60/qt/transmission-qt.1
+transmission-2.60/qt/prefs-dialog.h
+transmission-2.60/qt/filters.h
+transmission-2.60/qt/favicon.cc
+transmission-2.60/qt/tracker-delegate.h
+transmission-2.60/qt/details.cc
+transmission-2.60/qt/stats-dialog.h
+transmission-2.60/qt/mainwin.cc
+transmission-2.60/qt/session-dialog.h
+transmission-2.60/qt/qtr.ico
+transmission-2.60/qt/relocate.h
+transmission-2.60/qt/options.cc
+transmission-2.60/qt/details.h
+transmission-2.60/qt/config.pri.in
+transmission-2.60/qt/torrent.h
+transmission-2.60/qt/about.h
+transmission-2.60/qt/icons/
+transmission-2.60/qt/icons/hicolor_apps_48x48_transmission.png
+transmission-2.60/qt/icons/transmission.png
+transmission-2.60/qt/icons/hicolor_apps_24x24_transmission.png
+transmission-2.60/qt/icons/hicolor_apps_16x16_transmission.png
+transmission-2.60/qt/icons/ratio.png
+transmission-2.60/qt/icons/utilities.png
+transmission-2.60/qt/icons/lock.png
+transmission-2.60/qt/icons/hicolor_apps_22x22_transmission.png
+transmission-2.60/qt/icons/hicolor_apps_32x32_transmission.png
+transmission-2.60/qt/icons/turtle-grey.png
+transmission-2.60/qt/icons/turtle-blue.png
+transmission-2.60/qt/utils.cc
+transmission-2.60/qt/torrent-model.h
+transmission-2.60/ltmain.sh
+transmission-2.60/m4/
+transmission-2.60/m4/libtool.m4
+transmission-2.60/m4/ltoptions.m4
+transmission-2.60/m4/ltsugar.m4
+transmission-2.60/m4/glib-gettext.m4
+transmission-2.60/m4/acx-pthread.m4
+transmission-2.60/m4/check-ssl.m4
+transmission-2.60/m4/zlib.m4
+transmission-2.60/m4/pkg.m4
+transmission-2.60/m4/lt~obsolete.m4
+transmission-2.60/m4/ltversion.m4
+transmission-2.60/aclocal.m4
+transmission-2.60/AUTHORS
+transmission-2.60/install-sh
+transmission-2.60/config.sub
+transmission-2.60/daemon/
+transmission-2.60/daemon/watch.h
+transmission-2.60/daemon/transmission-daemon.1
+transmission-2.60/daemon/Makefile.in
+transmission-2.60/daemon/transmission-remote.1
+transmission-2.60/daemon/Makefile.am
+transmission-2.60/daemon/daemon.c
+transmission-2.60/daemon/watch.c
+transmission-2.60/daemon/remote.c
+transmission-2.60/COPYING
+transmission-2.60/Makefile.in
+transmission-2.60/depcomp
+transmission-2.60/update-version-h.sh
+transmission-2.60/missing
+transmission-2.60/libtransmission/
+transmission-2.60/libtransmission/blocklist.h
+transmission-2.60/libtransmission/history.h
+transmission-2.60/libtransmission/json-test.c
+transmission-2.60/libtransmission/announcer.c
+transmission-2.60/libtransmission/torrent-ctor.c
+transmission-2.60/libtransmission/net.h
+transmission-2.60/libtransmission/announcer-http.c
+transmission-2.60/libtransmission/inout.h
+transmission-2.60/libtransmission/rpcimpl.c
+transmission-2.60/libtransmission/rpc-server.h
+transmission-2.60/libtransmission/resume.h
+transmission-2.60/libtransmission/magnet.h
+transmission-2.60/libtransmission/trevent.h
+transmission-2.60/libtransmission/net.c
+transmission-2.60/libtransmission/upnp.c
+transmission-2.60/libtransmission/ptrarray.c
+transmission-2.60/libtransmission/utils.h
+transmission-2.60/libtransmission/list.h
+transmission-2.60/libtransmission/port-forwarding.h
+transmission-2.60/libtransmission/JSON_parser.h
+transmission-2.60/libtransmission/tr-getopt.h
+transmission-2.60/libtransmission/ptrarray.h
+transmission-2.60/libtransmission/test-peer-id.c
+transmission-2.60/libtransmission/stats.c
+transmission-2.60/libtransmission/tr-udp.c
+transmission-2.60/libtransmission/bencode.h
+transmission-2.60/libtransmission/tr-lpd.h
+transmission-2.60/libtransmission/resume.c
+transmission-2.60/libtransmission/peer-io.c
+transmission-2.60/libtransmission/history-test.c
+transmission-2.60/libtransmission/bitfield.h
+transmission-2.60/libtransmission/session.c
+transmission-2.60/libtransmission/fdlimit.h
+transmission-2.60/libtransmission/metainfo.c
+transmission-2.60/libtransmission/ConvertUTF.h
+transmission-2.60/libtransmission/magnet-test.c
+transmission-2.60/libtransmission/tr-getopt.c
+transmission-2.60/libtransmission/web.c
+transmission-2.60/libtransmission/tr-dht.c
+transmission-2.60/libtransmission/Makefile.in
+transmission-2.60/libtransmission/platform.h
+transmission-2.60/libtransmission/upnp.h
+transmission-2.60/libtransmission/tr-utp.h
+transmission-2.60/libtransmission/clients.c
+transmission-2.60/libtransmission/tr-udp.h
+transmission-2.60/libtransmission/tr-utp.c
+transmission-2.60/libtransmission/cache.c
+transmission-2.60/libtransmission/tr-dht.h
+transmission-2.60/libtransmission/port-forwarding.c
+transmission-2.60/libtransmission/peer-common.h
+transmission-2.60/libtransmission/announcer-udp.c
+transmission-2.60/libtransmission/session.h
+transmission-2.60/libtransmission/crypto.c
+transmission-2.60/libtransmission/makemeta.h
+transmission-2.60/libtransmission/rpc-test.c
+transmission-2.60/libtransmission/ConvertUTF.c
+transmission-2.60/libtransmission/natpmp_local.h
+transmission-2.60/libtransmission/handshake.h
+transmission-2.60/libtransmission/utils.c
+transmission-2.60/libtransmission/completion.c
+transmission-2.60/libtransmission/peer-mgr.h
+transmission-2.60/libtransmission/handshake.c
+transmission-2.60/libtransmission/tr-lpd.c
+transmission-2.60/libtransmission/history.c
+transmission-2.60/libtransmission/crypto.h
+transmission-2.60/libtransmission/version.h
+transmission-2.60/libtransmission/json.c
+transmission-2.60/libtransmission/clients-test.c
+transmission-2.60/libtransmission/bitfield.c
+transmission-2.60/libtransmission/metainfo.h
+transmission-2.60/libtransmission/makemeta.c
+transmission-2.60/libtransmission/blocklist-test.c
+transmission-2.60/libtransmission/torrent.c
+transmission-2.60/libtransmission/rpc-server.c
+transmission-2.60/libtransmission/webseed.h
+transmission-2.60/libtransmission/rpcimpl.h
+transmission-2.60/libtransmission/verify.c
+transmission-2.60/libtransmission/peer-mgr.c
+transmission-2.60/libtransmission/peer-msgs-test.c
+transmission-2.60/libtransmission/list.c
+transmission-2.60/libtransmission/bencode-test.c
+transmission-2.60/libtransmission/stats.h
+transmission-2.60/libtransmission/blocklist.c
+transmission-2.60/libtransmission/torrent-magnet.h
+transmission-2.60/libtransmission/bencode.c
+transmission-2.60/libtransmission/cache.h
+transmission-2.60/libtransmission/announcer.h
+transmission-2.60/libtransmission/verify.h
+transmission-2.60/libtransmission/clients.h
+transmission-2.60/libtransmission/trevent.c
+transmission-2.60/libtransmission/transmission.h
+transmission-2.60/libtransmission/Makefile.am
+transmission-2.60/libtransmission/fdlimit.c
+transmission-2.60/libtransmission/natpmp.c
+transmission-2.60/libtransmission/json.h
+transmission-2.60/libtransmission/web.h
+transmission-2.60/libtransmission/peer-msgs.h
+transmission-2.60/libtransmission/inout.c
+transmission-2.60/libtransmission/completion.h
+transmission-2.60/libtransmission/webseed.c
+transmission-2.60/libtransmission/torrent-magnet.c
+transmission-2.60/libtransmission/magnet.c
+transmission-2.60/libtransmission/wildmat.c
+transmission-2.60/libtransmission/utils-test.c
+transmission-2.60/libtransmission/bandwidth.c
+transmission-2.60/libtransmission/JSON_parser.c
+transmission-2.60/libtransmission/announcer-common.h
+transmission-2.60/libtransmission/platform.c
+transmission-2.60/libtransmission/torrent.h
+transmission-2.60/libtransmission/bandwidth.h
+transmission-2.60/libtransmission/peer-io.h
+transmission-2.60/libtransmission/peer-msgs.c
+transmission-2.60/po/
+transmission-2.60/po/ml.po
+transmission-2.60/po/ug.po
+transmission-2.60/po/LINGUAS
+transmission-2.60/po/ja.po
+transmission-2.60/po/nn.po
+transmission-2.60/po/eu.po
+transmission-2.60/po/bo.po
+transmission-2.60/po/it.po
+transmission-2.60/po/el.po
+transmission-2.60/po/sl.po
+transmission-2.60/po/oc.po
+transmission-2.60/po/ro.po
+transmission-2.60/po/hr.po
+transmission-2.60/po/en_GB.po
+transmission-2.60/po/bn.po
+transmission-2.60/po/hi.po
+transmission-2.60/po/mt.po
+transmission-2.60/po/POTFILES.skip
+transmission-2.60/po/mr.po
+transmission-2.60/po/fa.po
+transmission-2.60/po/pa.po
+transmission-2.60/po/tr.po
+transmission-2.60/po/ca@valencia.po
+transmission-2.60/po/ta_LK.po
+transmission-2.60/po/lv.po
+transmission-2.60/po/ga.po
+transmission-2.60/po/ar.po
+transmission-2.60/po/fr.po
+transmission-2.60/po/be@latin.po
+transmission-2.60/po/ckb.po
+transmission-2.60/po/eo.po
+transmission-2.60/po/pl.po
+transmission-2.60/po/ast.po
+transmission-2.60/po/ru.po
+transmission-2.60/po/lt.po
+transmission-2.60/po/cs.po
+transmission-2.60/po/pt.po
+transmission-2.60/po/fil.po
+transmission-2.60/po/uk.po
+transmission-2.60/po/Makefile.in.in
+transmission-2.60/po/fi.po
+transmission-2.60/po/tl.po
+transmission-2.60/po/bs.po
+transmission-2.60/po/hu.po
+transmission-2.60/po/es.po
+transmission-2.60/po/be.po
+transmission-2.60/po/zh_CN.po
+transmission-2.60/po/en_CA.po
+transmission-2.60/po/li.po
+transmission-2.60/po/ia.po
+transmission-2.60/po/si.po
+transmission-2.60/po/sv.po
+transmission-2.60/po/ceb.po
+transmission-2.60/po/kk.po
+transmission-2.60/po/hy.po
+transmission-2.60/po/vi.po
+transmission-2.60/po/nl.po
+transmission-2.60/po/ku.po
+transmission-2.60/po/mk.po
+transmission-2.60/po/ka.po
+transmission-2.60/po/et.po
+transmission-2.60/po/an.po
+transmission-2.60/po/ChangeLog
+transmission-2.60/po/te.po
+transmission-2.60/po/ca.po
+transmission-2.60/po/pt_BR.po
+transmission-2.60/po/nb.po
+transmission-2.60/po/br.po
+transmission-2.60/po/gv.po
+transmission-2.60/po/th.po
+transmission-2.60/po/az.po
+transmission-2.60/po/sr.po
+transmission-2.60/po/ur.po
+transmission-2.60/po/bg.po
+transmission-2.60/po/en_AU.po
+transmission-2.60/po/fo.po
+transmission-2.60/po/nds.po
+transmission-2.60/po/is.po
+transmission-2.60/po/ko.po
+transmission-2.60/po/da.po
+transmission-2.60/po/zh_TW.po
+transmission-2.60/po/uz.po
+transmission-2.60/po/sq.po
+transmission-2.60/po/sk.po
+transmission-2.60/po/id.po
+transmission-2.60/po/de.po
+transmission-2.60/po/POTFILES.in
+transmission-2.60/po/gl.po
+transmission-2.60/po/he.po
+transmission-2.60/po/ms.po
+transmission-2.60/cli/
+transmission-2.60/cli/Makefile.in
+transmission-2.60/cli/cli.c
+transmission-2.60/cli/transmission-cli.1
+transmission-2.60/cli/Makefile.am
+transmission-2.60/config.guess
+transmission-2.60/ChangeLog
+transmission-2.60/README
+transmission-2.60/utils/
+transmission-2.60/utils/transmission-create.1
+transmission-2.60/utils/create.c
+transmission-2.60/utils/Makefile.in
+transmission-2.60/utils/transmission-edit.1
+transmission-2.60/utils/transmission-show.1
+transmission-2.60/utils/show.c
+transmission-2.60/utils/edit.c
+transmission-2.60/utils/Makefile.am
+transmission-2.60/Makefile.am
+transmission-2.60/transmission-gtk.spec.in
+transmission-2.60/gtk/
+transmission-2.60/gtk/makemeta-ui.h
+transmission-2.60/gtk/tr-prefs.h
+transmission-2.60/gtk/makemeta-ui.c
+transmission-2.60/gtk/icon-turtle.h
+transmission-2.60/gtk/tr-window.c
+transmission-2.60/gtk/dialogs.h
+transmission-2.60/gtk/actions.h
+transmission-2.60/gtk/msgwin.c
+transmission-2.60/gtk/transmission-gtk.desktop.in
+transmission-2.60/gtk/torrent-cell-renderer.h
+transmission-2.60/gtk/details.c
+transmission-2.60/gtk/msgwin.h
+transmission-2.60/gtk/stats.c
+transmission-2.60/gtk/notify.c
+transmission-2.60/gtk/main.c
+transmission-2.60/gtk/icons.h
+transmission-2.60/gtk/transmission.png
+transmission-2.60/gtk/favicon.h
+transmission-2.60/gtk/tr-window.h
+transmission-2.60/gtk/transmission-gtk.1
+transmission-2.60/gtk/Makefile.in
+transmission-2.60/gtk/tr-icon.c
+transmission-2.60/gtk/torrent-cell-renderer.c
+transmission-2.60/gtk/icon-lock.h
+transmission-2.60/gtk/favicon.c
+transmission-2.60/gtk/util.c
+transmission-2.60/gtk/hig.h
+transmission-2.60/gtk/filter.c
+transmission-2.60/gtk/icon-logo-48.h
+transmission-2.60/gtk/tr-core.h
+transmission-2.60/gtk/util.h
+transmission-2.60/gtk/tr-prefs.c
+transmission-2.60/gtk/actions.c
+transmission-2.60/gtk/file-list.h
+transmission-2.60/gtk/filter.h
+transmission-2.60/gtk/tr-core.c
+transmission-2.60/gtk/conf.h
+transmission-2.60/gtk/icon-ratio.h
+transmission-2.60/gtk/tr-icon.h
+transmission-2.60/gtk/icon-utilities.h
+transmission-2.60/gtk/stats.h
+transmission-2.60/gtk/open-dialog.h
+transmission-2.60/gtk/hig.c
+transmission-2.60/gtk/ui.h
+transmission-2.60/gtk/dialogs.c
+transmission-2.60/gtk/open-dialog.c
+transmission-2.60/gtk/Makefile.am
+transmission-2.60/gtk/icon-logo-24.h
+transmission-2.60/gtk/relocate.c
+transmission-2.60/gtk/relocate.h
+transmission-2.60/gtk/details.h
+transmission-2.60/gtk/notify.h
+transmission-2.60/gtk/conf.c
+transmission-2.60/gtk/icons/
+transmission-2.60/gtk/icons/hicolor_apps_22x22_transmission.svg
+transmission-2.60/gtk/icons/hicolor_apps_48x48_transmission.png
+transmission-2.60/gtk/icons/hicolor_apps_16x16_transmission.svg
+transmission-2.60/gtk/icons/Makefile.in
+transmission-2.60/gtk/icons/hicolor_apps_24x24_transmission.png
+transmission-2.60/gtk/icons/hicolor_apps_16x16_transmission.png
+transmission-2.60/gtk/icons/hicolor_apps_256x256_transmission.png
+transmission-2.60/gtk/icons/hicolor_apps_32x32_transmission.svg
+transmission-2.60/gtk/icons/Makefile.am
+transmission-2.60/gtk/icons/hicolor_apps_22x22_transmission.png
+transmission-2.60/gtk/icons/hicolor_apps_32x32_transmission.png
+transmission-2.60/gtk/icons/transmission.svg
+transmission-2.60/gtk/icons/hicolor_apps_scalable_transmission.svg
+transmission-2.60/gtk/icons.c
+transmission-2.60/gtk/file-list.c
+transmission-2.60/extras/
+transmission-2.60/extras/rpc-spec.txt
+transmission-2.60/extras/Makefile.in
+transmission-2.60/extras/send-email-when-torrent-done.sh
+transmission-2.60/extras/Makefile.am
+transmission-2.60/macosx/
+transmission-2.60/macosx/ToolbarSegmentedCell.h
+transmission-2.60/macosx/InfoWindow.xib
+transmission-2.60/macosx/FilePriorityCell.h
+transmission-2.60/macosx/InfoFileViewController.m
+transmission-2.60/macosx/InfoTextField.m
+transmission-2.60/macosx/CreatorWindowController.h
+transmission-2.60/macosx/PiecesView.h
+transmission-2.60/macosx/URLSheetWindow.xib
+transmission-2.60/macosx/GroupsController.m
+transmission-2.60/macosx/InfoGeneralViewController.h
+transmission-2.60/macosx/main.m
+transmission-2.60/macosx/AddMagnetWindowController.m
+transmission-2.60/macosx/Badger.h
+transmission-2.60/macosx/AddMagnetWindowController.h
+transmission-2.60/macosx/pt.lproj/
+transmission-2.60/macosx/pt.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/pt.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/pt.lproj/InfoActivityView.xib
+transmission-2.60/macosx/pt.lproj/InfoPlist.strings
+transmission-2.60/macosx/pt.lproj/PrefsWindow.xib
+transmission-2.60/macosx/pt.lproj/Localizable.strings
+transmission-2.60/macosx/pt.lproj/MainMenu.xib
+transmission-2.60/macosx/pt.lproj/AddWindow.xib
+transmission-2.60/macosx/pt.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/pt.lproj/GroupRules.xib
+transmission-2.60/macosx/pt.lproj/Creator.xib
+transmission-2.60/macosx/pt.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/PeerProgressIndicatorCell.m
+transmission-2.60/macosx/ColorTextField.h
+transmission-2.60/macosx/Transmission_Prefix.pch
+transmission-2.60/macosx/FilterBarController.m
+transmission-2.60/macosx/UKKQueue/
+transmission-2.60/macosx/UKKQueue/UKFileWatcher.h
+transmission-2.60/macosx/UKKQueue/UKFNSubscribeFileWatcher.h
+transmission-2.60/macosx/UKKQueue/UKKQueue.h
+transmission-2.60/macosx/UKKQueue/UKFNSubscribeFileWatcher.m
+transmission-2.60/macosx/UKKQueue/Readme.txt
+transmission-2.60/macosx/UKKQueue/UKMainThreadProxy.m
+transmission-2.60/macosx/UKKQueue/UKKQueue.m
+transmission-2.60/macosx/UKKQueue/UKFileWatcher.m
+transmission-2.60/macosx/UKKQueue/UKMainThreadProxy.h
+transmission-2.60/macosx/PredicateEditorRowTemplateAny.m
+transmission-2.60/macosx/NSStringAdditions.m
+transmission-2.60/macosx/PortChecker.m
+transmission-2.60/macosx/PeerTableView.m
+transmission-2.60/macosx/StatsWindowController.m
+transmission-2.60/macosx/BonjourController.m
+transmission-2.60/macosx/DragOverlayView.h
+transmission-2.60/macosx/ToolbarSegmentedCell.m
+transmission-2.60/macosx/InfoActivityViewController.h
+transmission-2.60/macosx/TrackerCell.m
+transmission-2.60/macosx/FilterBarView.h
+transmission-2.60/macosx/FilterBar.xib
+transmission-2.60/macosx/Badger.m
+transmission-2.60/macosx/BlocklistStatusWindow.xib
+transmission-2.60/macosx/ButtonToolbarItem.h
+transmission-2.60/macosx/BlocklistDownloader.m
+transmission-2.60/macosx/NSMutableArrayAdditions.m
+transmission-2.60/macosx/it.lproj/
+transmission-2.60/macosx/it.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/it.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/it.lproj/InfoActivityView.xib
+transmission-2.60/macosx/it.lproj/InfoPlist.strings
+transmission-2.60/macosx/it.lproj/PrefsWindow.xib
+transmission-2.60/macosx/it.lproj/Localizable.strings
+transmission-2.60/macosx/it.lproj/MainMenu.xib
+transmission-2.60/macosx/it.lproj/AddWindow.xib
+transmission-2.60/macosx/it.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/it.lproj/GroupRules.xib
+transmission-2.60/macosx/it.lproj/Creator.xib
+transmission-2.60/macosx/it.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/DragOverlayWindow.m
+transmission-2.60/macosx/Torrent.m
+transmission-2.60/macosx/InfoPeersView.xib
+transmission-2.60/macosx/ProgressGradients.m
+transmission-2.60/macosx/TrackerNode.m
+transmission-2.60/macosx/InfoTabButtonCell.h
+transmission-2.60/macosx/InfoTextField.h
+transmission-2.60/macosx/BlocklistScheduler.m
+transmission-2.60/macosx/FileOutlineView.h
+transmission-2.60/macosx/Info.plist
+transmission-2.60/macosx/fr.lproj/
+transmission-2.60/macosx/fr.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/fr.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/fr.lproj/InfoActivityView.xib
+transmission-2.60/macosx/fr.lproj/InfoPlist.strings
+transmission-2.60/macosx/fr.lproj/PrefsWindow.xib
+transmission-2.60/macosx/fr.lproj/Localizable.strings
+transmission-2.60/macosx/fr.lproj/MainMenu.xib
+transmission-2.60/macosx/fr.lproj/AddWindow.xib
+transmission-2.60/macosx/fr.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/fr.lproj/GroupRules.xib
+transmission-2.60/macosx/fr.lproj/Creator.xib
+transmission-2.60/macosx/fr.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/ButtonToolbarItem.m
+transmission-2.60/macosx/DragOverlayView.m
+transmission-2.60/macosx/InfoActivityViewController.m
+transmission-2.60/macosx/Makefile.in
+transmission-2.60/macosx/InfoWindowController.m
+transmission-2.60/macosx/ExpandedPathToPathTransformer.h
+transmission-2.60/macosx/pt_PT.lproj/
+transmission-2.60/macosx/pt_PT.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/pt_PT.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/pt_PT.lproj/InfoActivityView.xib
+transmission-2.60/macosx/pt_PT.lproj/InfoPlist.strings
+transmission-2.60/macosx/pt_PT.lproj/PrefsWindow.xib
+transmission-2.60/macosx/pt_PT.lproj/Localizable.strings
+transmission-2.60/macosx/pt_PT.lproj/MainMenu.xib
+transmission-2.60/macosx/pt_PT.lproj/AddWindow.xib
+transmission-2.60/macosx/pt_PT.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/pt_PT.lproj/GroupRules.xib
+transmission-2.60/macosx/pt_PT.lproj/Creator.xib
+transmission-2.60/macosx/pt_PT.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/GlobalOptionsPopoverViewController.h
+transmission-2.60/macosx/PredicateEditorRowTemplateAny.h
+transmission-2.60/macosx/Defaults.plist
+transmission-2.60/macosx/ExpandedPathToPathTransformer.m
+transmission-2.60/macosx/NSImageAdditions.h
+transmission-2.60/macosx/zh_CN.lproj/
+transmission-2.60/macosx/zh_CN.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/zh_CN.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/zh_CN.lproj/InfoActivityView.xib
+transmission-2.60/macosx/zh_CN.lproj/InfoPlist.strings
+transmission-2.60/macosx/zh_CN.lproj/PrefsWindow.xib
+transmission-2.60/macosx/zh_CN.lproj/Localizable.strings
+transmission-2.60/macosx/zh_CN.lproj/MainMenu.xib
+transmission-2.60/macosx/zh_CN.lproj/AddWindow.xib
+transmission-2.60/macosx/zh_CN.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/zh_CN.lproj/GroupRules.xib
+transmission-2.60/macosx/zh_CN.lproj/Creator.xib
+transmission-2.60/macosx/zh_CN.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/Credits.rtf
+transmission-2.60/macosx/ExpandedPathToIconTransformer.m
+transmission-2.60/macosx/InfoTrackersView.xib
+transmission-2.60/macosx/PrefsWindow.h
+transmission-2.60/macosx/AddWindowController.h
+transmission-2.60/macosx/FilterBarController.h
+transmission-2.60/macosx/TorrentTableView.m
+transmission-2.60/macosx/InfoGeneralViewController.m
+transmission-2.60/macosx/PrefsWindow.m
+transmission-2.60/macosx/InfoOptionsViewController.h
+transmission-2.60/macosx/StatusBar.xib
+transmission-2.60/macosx/FileOutlineView.m
+transmission-2.60/macosx/AboutWindowController.h
+transmission-2.60/macosx/StatsWindowController.h
+transmission-2.60/macosx/BlocklistDownloader.h
+transmission-2.60/macosx/GroupsPrefsController.m
+transmission-2.60/macosx/MessageWindowController.m
+transmission-2.60/macosx/TorrentGroup.h
+transmission-2.60/macosx/DragOverlayWindow.h
+transmission-2.60/macosx/FilterButton.h
+transmission-2.60/macosx/AboutWindow.xib
+transmission-2.60/macosx/URLSheetWindowController.m
+transmission-2.60/macosx/GroupsController.h
+transmission-2.60/macosx/InfoTabButtonCell.m
+transmission-2.60/macosx/BlocklistDownloaderViewController.h
+transmission-2.60/macosx/TorrentGroup.m
+transmission-2.60/macosx/GroupToolbarItem.h
+transmission-2.60/macosx/AboutWindowController.m
+transmission-2.60/macosx/TrackerTableView.m
+transmission-2.60/macosx/Controller.h
+transmission-2.60/macosx/Controller.m
+transmission-2.60/macosx/es.lproj/
+transmission-2.60/macosx/es.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/es.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/es.lproj/InfoActivityView.xib
+transmission-2.60/macosx/es.lproj/InfoPlist.strings
+transmission-2.60/macosx/es.lproj/PrefsWindow.xib
+transmission-2.60/macosx/es.lproj/Localizable.strings
+transmission-2.60/macosx/es.lproj/MainMenu.xib
+transmission-2.60/macosx/es.lproj/AddWindow.xib
+transmission-2.60/macosx/es.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/es.lproj/GroupRules.xib
+transmission-2.60/macosx/es.lproj/Creator.xib
+transmission-2.60/macosx/es.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/GlobalOptionsPopoverViewController.m
+transmission-2.60/macosx/FileOutlineController.h
+transmission-2.60/macosx/TransmissionHelp/
+transmission-2.60/macosx/TransmissionHelp/index.html
+transmission-2.60/macosx/TransmissionHelp/styles/
+transmission-2.60/macosx/TransmissionHelp/styles/TransBody.css
+transmission-2.60/macosx/TransmissionHelp/styles/task_style.css
+transmission-2.60/macosx/TransmissionHelp/styles/TransIndex.css
+transmission-2.60/macosx/TransmissionHelp/styles/indexpage.css
+transmission-2.60/macosx/TransmissionHelp/gfx/
+transmission-2.60/macosx/TransmissionHelp/gfx/scheduler.png
+transmission-2.60/macosx/TransmissionHelp/gfx/queue.png
+transmission-2.60/macosx/TransmissionHelp/gfx/fileselection.png
+transmission-2.60/macosx/TransmissionHelp/gfx/TransmissionIcon.png
+transmission-2.60/macosx/TransmissionHelp/gfx/creation.png
+transmission-2.60/macosx/TransmissionHelp/gfx/TransWindow.png
+transmission-2.60/macosx/TransmissionHelp/gfx/group.png
+transmission-2.60/macosx/TransmissionHelp/gfx/inspector.png
+transmission-2.60/macosx/TransmissionHelp/gfx/open.png
+transmission-2.60/macosx/TransmissionHelp/html/
+transmission-2.60/macosx/TransmissionHelp/html/Index2.html
+transmission-2.60/macosx/TransmissionHelp/html/gettingstarted.html
+transmission-2.60/macosx/TransmissionHelp/html/pffirewall.html
+transmission-2.60/macosx/TransmissionHelp/html/troubleshoot.html
+transmission-2.60/macosx/TransmissionHelp/html/portforward.html
+transmission-2.60/macosx/TransmissionHelp/html/pfrouter.html
+transmission-2.60/macosx/TransmissionHelp/html/usingt.html
+transmission-2.60/macosx/TransmissionHelp/html/network.html
+transmission-2.60/macosx/TransmissionHelp/html/peers.html
+transmission-2.60/macosx/TransmissionHelp/html/remote.html
+transmission-2.60/macosx/TransmissionHelp/html/check.html
+transmission-2.60/macosx/TransmissionHelp/html/FAQ.html
+transmission-2.60/macosx/TransmissionHelp/html/tracker.html
+transmission-2.60/macosx/TransmissionHelp/html/Speed.html
+transmission-2.60/macosx/TransmissionHelp/html/scripts.html
+transmission-2.60/macosx/TransmissionHelp/TransmissionHelp.helpindex
+transmission-2.60/macosx/InfoOptionsViewController.m
+transmission-2.60/macosx/Images/
+transmission-2.60/macosx/Images/ResumeNoWaitOff.png
+transmission-2.60/macosx/Images/PriorityControlHigh@2x.png
+transmission-2.60/macosx/Images/PurpleDot.png
+transmission-2.60/macosx/Images/PriorityControlNormal@2x.png
+transmission-2.60/macosx/Images/ToolbarFilterTemplate.png
+transmission-2.60/macosx/Images/ToolbarPauseSelectedTemplate@2x.png
+transmission-2.60/macosx/Images/PriorityControlLow.png
+transmission-2.60/macosx/Images/PriorityControlNormal.png
+transmission-2.60/macosx/Images/Globe@2x.png
+transmission-2.60/macosx/Images/TurtleTemplate.png
+transmission-2.60/macosx/Images/ToolbarOpenWebTemplate@2x.png
+transmission-2.60/macosx/Images/InfoGeneral@2x.png
+transmission-2.60/macosx/Images/ResumeOn@2x.png
+transmission-2.60/macosx/Images/RevealHover@2x.png
+transmission-2.60/macosx/Images/InfoTracker.png
+transmission-2.60/macosx/Images/DownArrowGroupTemplate.png
+transmission-2.60/macosx/Images/RevealOn@2x.png
+transmission-2.60/macosx/Images/InfoGeneral.png
+transmission-2.60/macosx/Images/RevealOff.png
+transmission-2.60/macosx/Images/CreateLarge.png
+transmission-2.60/macosx/Images/ToolbarRemoveTemplate.png
+transmission-2.60/macosx/Images/YingYangGroupTemplate.png
+transmission-2.60/macosx/Images/ToolbarInfoTemplate@2x.png
+transmission-2.60/macosx/Images/TransmissionDocument.icns
+transmission-2.60/macosx/Images/ToolbarFilterTemplate@2x.png
+transmission-2.60/macosx/Images/PurpleDot@2x.png
+transmission-2.60/macosx/Images/ToolbarInfoTemplate.png
+transmission-2.60/macosx/Images/Lock.png
+transmission-2.60/macosx/Images/PriorityLowTemplate.png
+transmission-2.60/macosx/Images/ToolbarPauseAllTemplate@2x.png
+transmission-2.60/macosx/Images/ToolbarOpenTemplate.png
+transmission-2.60/macosx/Images/UpArrowTemplate.png
+transmission-2.60/macosx/Images/QuitBadge.png
+transmission-2.60/macosx/Images/RevealOn.png
+transmission-2.60/macosx/Images/ToolbarResumeSelectedTemplate@2x.png
+transmission-2.60/macosx/Images/ToolbarPauseSelectedTemplate.png
+transmission-2.60/macosx/Images/Transmission.icns
+transmission-2.60/macosx/Images/RevealOff@2x.png
+transmission-2.60/macosx/Images/PauseHover.png
+transmission-2.60/macosx/Images/ToolbarCreateTemplate.png
+transmission-2.60/macosx/Images/ToolbarResumeSelectedTemplate.png
+transmission-2.60/macosx/Images/ActionOn.png
+transmission-2.60/macosx/Images/Groups@2x.png
+transmission-2.60/macosx/Images/ResumeNoWaitHover@2x.png
+transmission-2.60/macosx/Images/YellowDot.png
+transmission-2.60/macosx/Images/RedDot.png
+transmission-2.60/macosx/Images/Magnet@2x.png
+transmission-2.60/macosx/Images/UploadBadge.png
+transmission-2.60/macosx/Images/YingYangTemplate.png
+transmission-2.60/macosx/Images/ResumeOn.png
+transmission-2.60/macosx/Images/PriorityControlLow@2x.png
+transmission-2.60/macosx/Images/TurtleTemplate@2x.png
+transmission-2.60/macosx/Images/ResumeNoWaitHover.png
+transmission-2.60/macosx/Images/ToolbarResumeAllTemplate@2x.png
+transmission-2.60/macosx/Images/ResumeOff.png
+transmission-2.60/macosx/Images/FavIcon.png
+transmission-2.60/macosx/Images/DownArrowTemplate.png
+transmission-2.60/macosx/Images/InfoOptions@2x.png
+transmission-2.60/macosx/Images/CompleteCheck@2x.png
+transmission-2.60/macosx/Images/PinTemplate@2x.png
+transmission-2.60/macosx/Images/CleanupTemplate@2x.png
+transmission-2.60/macosx/Images/PauseOn.png
+transmission-2.60/macosx/Images/Lock@2x.png
+transmission-2.60/macosx/Images/ResumeHover@2x.png
+transmission-2.60/macosx/Images/Globe.png
+transmission-2.60/macosx/Images/InfoPeers@2x.png
+transmission-2.60/macosx/Images/PriorityHighTemplate@2x.png
+transmission-2.60/macosx/Images/ToolbarOpenTemplate@2x.png
+transmission-2.60/macosx/Images/InfoTracker@2x.png
+transmission-2.60/macosx/Images/ActionHover.png
+transmission-2.60/macosx/Images/ActionHover@2x.png
+transmission-2.60/macosx/Images/GreenDot.png
+transmission-2.60/macosx/Images/ToolbarResumeAllTemplate.png
+transmission-2.60/macosx/Images/ResumeNoWaitOn.png
+transmission-2.60/macosx/Images/ToolbarRemoveTemplate@2x.png
+transmission-2.60/macosx/Images/UpArrowGroupTemplate@2x.png
+transmission-2.60/macosx/Images/DownloadBadge.png
+transmission-2.60/macosx/Images/YingYangTemplate@2x.png
+transmission-2.60/macosx/Images/PriorityNormalTemplate.png
+transmission-2.60/macosx/Images/UpArrowGroupTemplate.png
+transmission-2.60/macosx/Images/ToolbarOpenWebTemplate.png
+transmission-2.60/macosx/Images/CompleteCheck.png
+transmission-2.60/macosx/Images/Remote@2x.png
+transmission-2.60/macosx/Images/DownArrowGroupTemplate@2x.png
+transmission-2.60/macosx/Images/PauseOff.png
+transmission-2.60/macosx/Images/PriorityLowTemplate@2x.png
+transmission-2.60/macosx/Images/CreateLarge@2x.png
+transmission-2.60/macosx/Images/RevealHover.png
+transmission-2.60/macosx/Images/GroupsNoneTemplate@2x.png
+transmission-2.60/macosx/Images/ToolbarCreateTemplate@2x.png
+transmission-2.60/macosx/Images/CleanupTemplate.png
+transmission-2.60/macosx/Images/ResumeOff@2x.png
+transmission-2.60/macosx/Images/PauseHover@2x.png
+transmission-2.60/macosx/Images/Magnet.png
+transmission-2.60/macosx/Images/InfoFiles@2x.png
+transmission-2.60/macosx/Images/YingYangGroupTemplate@2x.png
+transmission-2.60/macosx/Images/ResumeNoWaitOff@2x.png
+transmission-2.60/macosx/Images/UpArrowTemplate@2x.png
+transmission-2.60/macosx/Images/DownArrowTemplate@2x.png
+transmission-2.60/macosx/Images/PriorityControlHigh.png
+transmission-2.60/macosx/Images/Bandwidth@2x.png
+transmission-2.60/macosx/Images/GreenDot@2x.png
+transmission-2.60/macosx/Images/FavIcon@2x.png
+transmission-2.60/macosx/Images/YellowDot@2x.png
+transmission-2.60/macosx/Images/InfoPeers.png
+transmission-2.60/macosx/Images/PriorityHighTemplate.png
+transmission-2.60/macosx/Images/ResumeNoWaitOn@2x.png
+transmission-2.60/macosx/Images/Transfers@2x.png
+transmission-2.60/macosx/Images/RedDot@2x.png
+transmission-2.60/macosx/Images/Remote.png
+transmission-2.60/macosx/Images/ResumeHover.png
+transmission-2.60/macosx/Images/Bandwidth.png
+transmission-2.60/macosx/Images/ToolbarPauseAllTemplate.png
+transmission-2.60/macosx/Images/InfoOptions.png
+transmission-2.60/macosx/Images/PauseOn@2x.png
+transmission-2.60/macosx/Images/PriorityNormalTemplate@2x.png
+transmission-2.60/macosx/Images/Transfers.png
+transmission-2.60/macosx/Images/GroupsNoneTemplate.png
+transmission-2.60/macosx/Images/InfoActivity@2x.png
+transmission-2.60/macosx/Images/PinTemplate.png
+transmission-2.60/macosx/Images/ActionOn@2x.png
+transmission-2.60/macosx/Images/InfoActivity.png
+transmission-2.60/macosx/Images/InfoFiles.png
+transmission-2.60/macosx/Images/PauseOff@2x.png
+transmission-2.60/macosx/Images/Groups.png
+transmission-2.60/macosx/CreatorWindowController.m
+transmission-2.60/macosx/PrefsController.h
+transmission-2.60/macosx/InfoFileViewController.h
+transmission-2.60/macosx/TrackerTableView.h
+transmission-2.60/macosx/FileOutlineController.m
+transmission-2.60/macosx/InfoViewController.h
+transmission-2.60/macosx/PortChecker.h
+transmission-2.60/macosx/ExpandedPathToIconTransformer.h
+transmission-2.60/macosx/sparkle_dsa_pub.pem
+transmission-2.60/macosx/InfoTabButtonBack.h
+transmission-2.60/macosx/BonjourController.h
+transmission-2.60/macosx/NSApplicationAdditions.m
+transmission-2.60/macosx/TorrentTableView.h
+transmission-2.60/macosx/InfoTrackersViewController.h
+transmission-2.60/macosx/TrackerNode.h
+transmission-2.60/macosx/StatusBarController.h
+transmission-2.60/macosx/PeerTableView.h
+transmission-2.60/macosx/ru.lproj/
+transmission-2.60/macosx/ru.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/ru.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/ru.lproj/InfoActivityView.xib
+transmission-2.60/macosx/ru.lproj/InfoPlist.strings
+transmission-2.60/macosx/ru.lproj/PrefsWindow.xib
+transmission-2.60/macosx/ru.lproj/Localizable.strings
+transmission-2.60/macosx/ru.lproj/MainMenu.xib
+transmission-2.60/macosx/ru.lproj/AddWindow.xib
+transmission-2.60/macosx/ru.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/ru.lproj/GroupRules.xib
+transmission-2.60/macosx/ru.lproj/Creator.xib
+transmission-2.60/macosx/ru.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/NSImageAdditions.m
+transmission-2.60/macosx/Torrent.h
+transmission-2.60/macosx/TorrentCell.m
+transmission-2.60/macosx/StatusBarView.h
+transmission-2.60/macosx/PrefsController.m
+transmission-2.60/macosx/NSStringAdditions.h
+transmission-2.60/macosx/de.lproj/
+transmission-2.60/macosx/de.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/de.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/de.lproj/InfoActivityView.xib
+transmission-2.60/macosx/de.lproj/InfoPlist.strings
+transmission-2.60/macosx/de.lproj/PrefsWindow.xib
+transmission-2.60/macosx/de.lproj/Localizable.strings
+transmission-2.60/macosx/de.lproj/MainMenu.xib
+transmission-2.60/macosx/de.lproj/AddWindow.xib
+transmission-2.60/macosx/de.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/de.lproj/GroupRules.xib
+transmission-2.60/macosx/de.lproj/Creator.xib
+transmission-2.60/macosx/de.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/Makefile.am
+transmission-2.60/macosx/InfoWindowController.h
+transmission-2.60/macosx/GroupsPrefsController.h
+transmission-2.60/macosx/MessageWindowController.h
+transmission-2.60/macosx/InfoTrackersViewController.m
+transmission-2.60/macosx/InfoFileView.xib
+transmission-2.60/macosx/FileNameCell.h
+transmission-2.60/macosx/InfoTabButtonBack.m
+transmission-2.60/macosx/nl.lproj/
+transmission-2.60/macosx/nl.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/nl.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/nl.lproj/InfoActivityView.xib
+transmission-2.60/macosx/nl.lproj/InfoPlist.strings
+transmission-2.60/macosx/nl.lproj/PrefsWindow.xib
+transmission-2.60/macosx/nl.lproj/Localizable.strings
+transmission-2.60/macosx/nl.lproj/MainMenu.xib
+transmission-2.60/macosx/nl.lproj/AddWindow.xib
+transmission-2.60/macosx/nl.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/nl.lproj/GroupRules.xib
+transmission-2.60/macosx/nl.lproj/Creator.xib
+transmission-2.60/macosx/nl.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/ProgressGradients.h
+transmission-2.60/macosx/ColorTextField.m
+transmission-2.60/macosx/FilterBarView.m
+transmission-2.60/macosx/PiecesView.m
+transmission-2.60/macosx/InfoPeersViewController.m
+transmission-2.60/macosx/URLSheetWindowController.h
+transmission-2.60/macosx/StatusBarController.m
+transmission-2.60/macosx/BadgeView.h
+transmission-2.60/macosx/StatsWindow.xib
+transmission-2.60/macosx/FilePriorityCell.m
+transmission-2.60/macosx/BlocklistDownloaderViewController.m
+transmission-2.60/macosx/TrackerCell.h
+transmission-2.60/macosx/PeerProgressIndicatorCell.h
+transmission-2.60/macosx/TorrentCell.h
+transmission-2.60/macosx/GroupToolbarItem.m
+transmission-2.60/macosx/AddWindowController.m
+transmission-2.60/macosx/StatusBarView.m
+transmission-2.60/macosx/FileNameCell.m
+transmission-2.60/macosx/BadgeView.m
+transmission-2.60/macosx/Growl.framework/
+transmission-2.60/macosx/Growl.framework/Resources/
+transmission-2.60/macosx/Growl.framework/Resources/Info.plist
+transmission-2.60/macosx/Growl.framework/Growl
+transmission-2.60/macosx/Growl.framework/Headers/
+transmission-2.60/macosx/Growl.framework/Headers/GrowlDefines.h
+transmission-2.60/macosx/Growl.framework/Headers/Growl.h
+transmission-2.60/macosx/Growl.framework/Headers/GrowlApplicationBridge.h
+transmission-2.60/macosx/Growl.framework/Versions/
+transmission-2.60/macosx/Growl.framework/Versions/A/
+transmission-2.60/macosx/Growl.framework/Versions/A/_CodeSignature/
+transmission-2.60/macosx/Growl.framework/Versions/A/_CodeSignature/CodeResources
+transmission-2.60/macosx/Growl.framework/Versions/A/Resources/
+transmission-2.60/macosx/Growl.framework/Versions/A/Resources/Info.plist
+transmission-2.60/macosx/Growl.framework/Versions/A/Growl
+transmission-2.60/macosx/Growl.framework/Versions/A/Headers/
+transmission-2.60/macosx/Growl.framework/Versions/A/Headers/GrowlDefines.h
+transmission-2.60/macosx/Growl.framework/Versions/A/Headers/Growl.h
+transmission-2.60/macosx/Growl.framework/Versions/A/Headers/GrowlApplicationBridge.h
+transmission-2.60/macosx/Growl.framework/Versions/Current/
+transmission-2.60/macosx/Growl.framework/Versions/Current/_CodeSignature/
+transmission-2.60/macosx/Growl.framework/Versions/Current/_CodeSignature/CodeResources
+transmission-2.60/macosx/Growl.framework/Versions/Current/Resources/
+transmission-2.60/macosx/Growl.framework/Versions/Current/Resources/Info.plist
+transmission-2.60/macosx/Growl.framework/Versions/Current/Growl
+transmission-2.60/macosx/Growl.framework/Versions/Current/Headers/
+transmission-2.60/macosx/Growl.framework/Versions/Current/Headers/GrowlDefines.h
+transmission-2.60/macosx/Growl.framework/Versions/Current/Headers/Growl.h
+transmission-2.60/macosx/Growl.framework/Versions/Current/Headers/GrowlApplicationBridge.h
+transmission-2.60/macosx/FileListNode.h
+transmission-2.60/macosx/NSMutableArrayAdditions.h
+transmission-2.60/macosx/en.lproj/
+transmission-2.60/macosx/en.lproj/InfoOptionsView.xib
+transmission-2.60/macosx/en.lproj/InfoGeneralView.xib
+transmission-2.60/macosx/en.lproj/InfoActivityView.xib
+transmission-2.60/macosx/en.lproj/InfoPlist.strings
+transmission-2.60/macosx/en.lproj/PrefsWindow.xib
+transmission-2.60/macosx/en.lproj/Localizable.strings
+transmission-2.60/macosx/en.lproj/MainMenu.xib
+transmission-2.60/macosx/en.lproj/AddWindow.xib
+transmission-2.60/macosx/en.lproj/GlobalOptionsPopover.xib
+transmission-2.60/macosx/en.lproj/GroupRules.xib
+transmission-2.60/macosx/en.lproj/Creator.xib
+transmission-2.60/macosx/en.lproj/AddMagnetWindow.xib
+transmission-2.60/macosx/BlocklistScheduler.h
+transmission-2.60/macosx/Sparkle.framework/
+transmission-2.60/macosx/Sparkle.framework/Resources/
+transmission-2.60/macosx/Sparkle.framework/Resources/SUModelTranslation.plist
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/it.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr_CA.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/Info.plist
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/fr.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/License.txt
+transmission-2.60/macosx/Sparkle.framework/Resources/SUStatus.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/SUStatus.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/SUStatus.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/SUStatus.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/sv.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/es.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUUpdatePermissionPrompt.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUUpdateAlert.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/SUAutomaticUpdateAlert.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/da.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/ru.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/de.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/nl.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Resources/relaunch
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Resources/en.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Headers/
+transmission-2.60/macosx/Sparkle.framework/Headers/SUAppcast.h
+transmission-2.60/macosx/Sparkle.framework/Headers/SUUpdater.h
+transmission-2.60/macosx/Sparkle.framework/Headers/Sparkle.h
+transmission-2.60/macosx/Sparkle.framework/Headers/SUVersionComparisonProtocol.h
+transmission-2.60/macosx/Sparkle.framework/Headers/SUAppcastItem.h
+transmission-2.60/macosx/Sparkle.framework/Sparkle
+transmission-2.60/macosx/Sparkle.framework/Versions/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/SUModelTranslation.plist
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/it.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr_CA.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/Info.plist
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/fr.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/License.txt
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/SUStatus.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/SUStatus.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/SUStatus.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/SUStatus.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/sv.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/es.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdatePermissionPrompt.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUUpdateAlert.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/SUAutomaticUpdateAlert.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/da.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/ru.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/de.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/nl.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/relaunch
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Resources/en.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Headers/
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Headers/SUAppcast.h
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Headers/SUUpdater.h
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Headers/Sparkle.h
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Headers/SUAppcastItem.h
+transmission-2.60/macosx/Sparkle.framework/Versions/A/Sparkle
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/SUModelTranslation.plist
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/it.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr_CA.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/Info.plist
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/fr.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/License.txt
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/SUStatus.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/SUStatus.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/SUStatus.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/SUStatus.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/sv.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/es.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUUpdatePermissionPrompt.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUUpdateAlert.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/SUAutomaticUpdateAlert.nib/designable.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/da.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/ru.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/de.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/nl.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/relaunch
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdatePermissionPrompt.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdatePermissionPrompt.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdatePermissionPrompt.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdatePermissionPrompt.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUAutomaticUpdateAlert.nib/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUAutomaticUpdateAlert.nib/classes.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUAutomaticUpdateAlert.nib/keyedobjects.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/SUAutomaticUpdateAlert.nib/info.nib
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Resources/en.lproj/Sparkle.strings
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Headers/
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Headers/SUAppcast.h
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Headers/SUUpdater.h
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Headers/Sparkle.h
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Headers/SUVersionComparisonProtocol.h
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Headers/SUAppcastItem.h
+transmission-2.60/macosx/Sparkle.framework/Versions/Current/Sparkle
+transmission-2.60/macosx/NSApplicationAdditions.h
+transmission-2.60/macosx/InfoPeersViewController.h
+transmission-2.60/macosx/FileListNode.m
+transmission-2.60/macosx/MessageWindow.xib
+transmission-2.60/macosx/FilterButton.m
+transmission-2.60/third-party/
+transmission-2.60/third-party/miniupnp/
+transmission-2.60/third-party/miniupnp/upnpreplyparse.h
+transmission-2.60/third-party/miniupnp/updateminiupnpcstrings.sh
+transmission-2.60/third-party/miniupnp/upnpcommands.h
+transmission-2.60/third-party/miniupnp/miniupnpc.h
+transmission-2.60/third-party/miniupnp/minissdpc.h
+transmission-2.60/third-party/miniupnp/minisoap.c
+transmission-2.60/third-party/miniupnp/miniwget.c
+transmission-2.60/third-party/miniupnp/receivedata.c
+transmission-2.60/third-party/miniupnp/minixml.c
+transmission-2.60/third-party/miniupnp/Makefile.in
+transmission-2.60/third-party/miniupnp/minisoap.h
+transmission-2.60/third-party/miniupnp/LICENSE
+transmission-2.60/third-party/miniupnp/receivedata.h
+transmission-2.60/third-party/miniupnp/minissdpc.c
+transmission-2.60/third-party/miniupnp/igd_desc_parse.h
+transmission-2.60/third-party/miniupnp/miniwget.h
+transmission-2.60/third-party/miniupnp/upnpcommands.c
+transmission-2.60/third-party/miniupnp/bsdqueue.h
+transmission-2.60/third-party/miniupnp/miniupnpcstrings.h.in
+transmission-2.60/third-party/miniupnp/upnpreplyparse.c
+transmission-2.60/third-party/miniupnp/miniupnpctypes.h
+transmission-2.60/third-party/miniupnp/codelength.h
+transmission-2.60/third-party/miniupnp/portlistingparse.h
+transmission-2.60/third-party/miniupnp/igd_desc_parse.c
+transmission-2.60/third-party/miniupnp/declspec.h
+transmission-2.60/third-party/miniupnp/connecthostport.h
+transmission-2.60/third-party/miniupnp/README
+transmission-2.60/third-party/miniupnp/miniupnpc.c
+transmission-2.60/third-party/miniupnp/Makefile.am
+transmission-2.60/third-party/miniupnp/connecthostport.c
+transmission-2.60/third-party/miniupnp/portlistingparse.c
+transmission-2.60/third-party/miniupnp/minixml.h
+transmission-2.60/third-party/Makefile.in
+transmission-2.60/third-party/libnatpmp/
+transmission-2.60/third-party/libnatpmp/wingettimeofday.c
+transmission-2.60/third-party/libnatpmp/natpmp.h
+transmission-2.60/third-party/libnatpmp/Makefile.in
+transmission-2.60/third-party/libnatpmp/LICENSE
+transmission-2.60/third-party/libnatpmp/wingettimeofday.h
+transmission-2.60/third-party/libnatpmp/getgateway.h
+transmission-2.60/third-party/libnatpmp/getgateway.c
+transmission-2.60/third-party/libnatpmp/declspec.h
+transmission-2.60/third-party/libnatpmp/README
+transmission-2.60/third-party/libnatpmp/Makefile.am
+transmission-2.60/third-party/libnatpmp/natpmp.c
+transmission-2.60/third-party/dht/
+transmission-2.60/third-party/dht/dht.h
+transmission-2.60/third-party/dht/Makefile.in
+transmission-2.60/third-party/dht/LICENCE
+transmission-2.60/third-party/dht/CHANGES
+transmission-2.60/third-party/dht/dht-example.c
+transmission-2.60/third-party/dht/README
+transmission-2.60/third-party/dht/Makefile.am
+transmission-2.60/third-party/dht/dht.c
+transmission-2.60/third-party/libutp/
+transmission-2.60/third-party/libutp/utp_config_example.h
+transmission-2.60/third-party/libutp/Makefile.in
+transmission-2.60/third-party/libutp/utypes.h
+transmission-2.60/third-party/libutp/LICENSE
+transmission-2.60/third-party/libutp/utp.h
+transmission-2.60/third-party/libutp/StdAfx.h
+transmission-2.60/third-party/libutp/utp.cpp
+transmission-2.60/third-party/libutp/utp_utils.cpp
+transmission-2.60/third-party/libutp/utp_utils.h
+transmission-2.60/third-party/libutp/templates.h
+transmission-2.60/third-party/libutp/Makefile.am
+transmission-2.60/third-party/libutp/utp_config.h
+transmission-2.60/third-party/libutp/README.md
+transmission-2.60/third-party/macosx-libevent-event-config.h
+transmission-2.60/third-party/Makefile.am
+transmission-2.60/third-party/macosx-libevent-config.h
+transmission-2.60/Transmission.xcodeproj/
+transmission-2.60/Transmission.xcodeproj/project.pbxproj
+transmission-2.60/NEWS
+transmission-2.60/configure.ac
+transmission-2.60/web/
+transmission-2.60/web/index.html
+transmission-2.60/web/Makefile.in
+transmission-2.60/web/LICENSE
+transmission-2.60/web/javascript/
+transmission-2.60/web/javascript/torrent-row.js
+transmission-2.60/web/javascript/common.js
+transmission-2.60/web/javascript/torrent.js
+transmission-2.60/web/javascript/dialog.js
+transmission-2.60/web/javascript/remote.js
+transmission-2.60/web/javascript/file-row.js
+transmission-2.60/web/javascript/jquery/
+transmission-2.60/web/javascript/jquery/json2.min.js
+transmission-2.60/web/javascript/jquery/jquery.form.js
+transmission-2.60/web/javascript/jquery/Makefile.in
+transmission-2.60/web/javascript/jquery/jquery.contextmenu.min.js
+transmission-2.60/web/javascript/jquery/jquery.form.min.js
+transmission-2.60/web/javascript/jquery/jqueryui-1.8.16.min.js
+transmission-2.60/web/javascript/jquery/Makefile.am
+transmission-2.60/web/javascript/jquery/jquery.min.js
+transmission-2.60/web/javascript/jquery/jquery.transmenu.min.js
+transmission-2.60/web/javascript/Makefile.in
+transmission-2.60/web/javascript/formatter.js
+transmission-2.60/web/javascript/transmission.js
+transmission-2.60/web/javascript/prefs-dialog.js
+transmission-2.60/web/javascript/Makefile.am
+transmission-2.60/web/javascript/notifications.js
+transmission-2.60/web/javascript/inspector.js
+transmission-2.60/web/Makefile.am
+transmission-2.60/web/style/
+transmission-2.60/web/style/jqueryui/
+transmission-2.60/web/style/jqueryui/Makefile.in
+transmission-2.60/web/style/jqueryui/jqueryui-1.8.16.css
+transmission-2.60/web/style/jqueryui/Makefile.am
+transmission-2.60/web/style/jqueryui/images/
+transmission-2.60/web/style/jqueryui/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+transmission-2.60/web/style/jqueryui/images/ui-icons_222222_256x240.png
+transmission-2.60/web/style/jqueryui/images/Makefile.in
+transmission-2.60/web/style/jqueryui/images/ui-bg_flat_75_ffffff_40x100.png
+transmission-2.60/web/style/jqueryui/images/ui-icons_454545_256x240.png
+transmission-2.60/web/style/jqueryui/images/ui-bg_glass_65_ffffff_1x400.png
+transmission-2.60/web/style/jqueryui/images/Makefile.am
+transmission-2.60/web/style/jqueryui/images/ui-bg_glass_75_e6e6e6_1x400.png
+transmission-2.60/web/style/jqueryui/images/ui-bg_glass_75_dadada_1x400.png
+transmission-2.60/web/style/Makefile.in
+transmission-2.60/web/style/transmission/
+transmission-2.60/web/style/transmission/Makefile.in
+transmission-2.60/web/style/transmission/common.css
+transmission-2.60/web/style/transmission/mobile.css
+transmission-2.60/web/style/transmission/mobile.scss
+transmission-2.60/web/style/transmission/Makefile.am
+transmission-2.60/web/style/transmission/images/
+transmission-2.60/web/style/transmission/images/inspector-trackers.png
+transmission-2.60/web/style/transmission/images/toolbar-info.png
+transmission-2.60/web/style/transmission/images/compact.png
+transmission-2.60/web/style/transmission/images/inspector-files.png
+transmission-2.60/web/style/transmission/images/filter_icon.png
+transmission-2.60/web/style/transmission/images/toolbar-close.png
+transmission-2.60/web/style/transmission/images/file-priority-normal.png
+transmission-2.60/web/style/transmission/images/arrow-down.png
+transmission-2.60/web/style/transmission/images/file-priority-low.png
+transmission-2.60/web/style/transmission/images/settings.png
+transmission-2.60/web/style/transmission/images/Makefile.in
+transmission-2.60/web/style/transmission/images/inspector-peers.png
+transmission-2.60/web/style/transmission/images/turtle.png
+transmission-2.60/web/style/transmission/images/filter_bar.png
+transmission-2.60/web/style/transmission/images/arrow-up.png
+transmission-2.60/web/style/transmission/images/toolbar-start-all.png
+transmission-2.60/web/style/transmission/images/inspector-info.png
+transmission-2.60/web/style/transmission/images/progress.png
+transmission-2.60/web/style/transmission/images/file-priority-high.png
+transmission-2.60/web/style/transmission/images/lock_icon.png
+transmission-2.60/web/style/transmission/images/buttons/
+transmission-2.60/web/style/transmission/images/buttons/Makefile.in
+transmission-2.60/web/style/transmission/images/buttons/torrent_buttons.png
+transmission-2.60/web/style/transmission/images/buttons/Makefile.am
+transmission-2.60/web/style/transmission/images/logo.png
+transmission-2.60/web/style/transmission/images/blue-turtle.png
+transmission-2.60/web/style/transmission/images/Makefile.am
+transmission-2.60/web/style/transmission/images/toolbar-folder.png
+transmission-2.60/web/style/transmission/images/wrench.png
+transmission-2.60/web/style/transmission/images/toolbar-pause-all.png
+transmission-2.60/web/style/transmission/images/toolbar-start.png
+transmission-2.60/web/style/transmission/images/toolbar-pause.png
+transmission-2.60/web/style/transmission/common.scss
+transmission-2.60/web/style/Makefile.am
+transmission-2.60/web/images/
+transmission-2.60/web/images/favicon.ico
+transmission-2.60/web/images/Makefile.in
+transmission-2.60/web/images/favicon.png
+transmission-2.60/web/images/webclip-icon.png
+transmission-2.60/web/images/Makefile.am
+checking whether make supports nested variables... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to create a pax tar archive... gnutar
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for g++... yes
+checking for inline... inline
+checking gcc version... 4.8.2
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking stdbool.h usability... yes
+checking stdbool.h presence... yes
+checking for stdbool.h... yes
+checking for iconv_open... yes
+checking for pread... yes
+checking for pwrite... yes
+checking for lrintf... no
+checking for strlcpy... no
+checking for daemon... yes
+checking for dirname... yes
+checking for basename... yes
+checking for strcasecmp... yes
+checking for localtime_r... yes
+checking for fallocate64... yes
+checking for posix_fallocate... yes
+checking for memmem... yes
+checking for strsep... yes
+checking for strtold... yes
+checking for syslog... yes
+checking for valloc... yes
+checking for getpagesize... yes
+checking for posix_memalign... yes
+checking for statvfs... yes
+checking for htonll... no
+checking for ntohll... no
+checking for mkdtemp... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for library containing cos... -lm
+checking for library containing socket... none required
+checking for library containing gethostbyname... none required
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for OPENSSL... yes
+checking for LIBCURL... yes
+checking for LIBEVENT... yes
+checking for /tmp/dummy1_zlib.h... yes
+checking for library containing gzopen... -lz
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for lseek64... yes
+checking whether posix_fadvise is declared... yes
+checking for posix_fadvise... yes
+checking sys/inotify.h usability... yes
+checking sys/inotify.h presence... yes
+checking for sys/inotify.h... yes
+checking for inotify_init... yes
+checking sys/event.h usability... no
+checking sys/event.h presence... no
+checking for sys/event.h... no
+checking sys/statvfs.h usability... yes
+checking sys/statvfs.h presence... yes
+checking for sys/statvfs.h... yes
+checking xfs/xfs.h usability... no
+checking xfs/xfs.h presence... no
+checking for xfs/xfs.h... no
+checking how to copy va_list... va_copy
+checking for clock_gettime in -lrt... yes
+checking µTP... yes
+checking supported miniupnp library... none
+checking for GTK... yes
+checking for LIBAPPINDICATOR... no
+configure: using GTK+ 2
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.50.2 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.18.1
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking for libintl.h... (cached) yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating transmission-gtk.spec
+config.status: creating cli/Makefile
+config.status: creating daemon/Makefile
+config.status: creating extras/Makefile
+config.status: creating libtransmission/Makefile
+config.status: creating utils/Makefile
+config.status: creating third-party/Makefile
+config.status: creating third-party/dht/Makefile
+config.status: creating third-party/libutp/Makefile
+config.status: creating third-party/libnatpmp/Makefile
+config.status: creating third-party/miniupnp/Makefile
+config.status: creating macosx/Makefile
+config.status: creating gtk/Makefile
+config.status: creating gtk/icons/Makefile
+config.status: creating qt/config.pri
+config.status: creating web/Makefile
+config.status: creating web/images/Makefile
+config.status: creating web/style/Makefile
+config.status: creating web/style/jqueryui/Makefile
+config.status: creating web/style/jqueryui/images/Makefile
+config.status: creating web/style/transmission/Makefile
+config.status: creating web/style/transmission/images/Makefile
+config.status: creating web/style/transmission/images/buttons/Makefile
+config.status: creating web/javascript/Makefile
+config.status: creating web/javascript/jquery/Makefile
+config.status: creating po/Makefile.in
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+
+Configuration:
+
+   Source code location:                              .
+   Compiler:                                          g++
+
+   Build libtransmission:                             yes
+      * optimized for low-resource systems:           no
+      * µTP enabled:                                  yes
+
+   Build Command-Line client:                         yes
+
+   Build GTK+ client:                                 yes (GTK+ 2)
+      * libappindicator for an Ubuntu-style tray:     no
+
+   Build Daemon:                                      yes
+
+   Build Mac client:                                  no
+
+
+Making all in extras
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/extras'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/extras'
+Making all in third-party
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party'
+Making all in dht
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/dht'
+  CC     dht.o
+  AR     libdht.a
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/dht'
+Making all in libnatpmp
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/libnatpmp'
+  CC     getgateway.o
+  CC     natpmp.o
+  CC     wingettimeofday.o
+natpmp.c:105:5: warning: no previous declaration for ‘sendpendingrequest’ [-Wmissing-declarations]
+ int sendpendingrequest(natpmp_t * p)
+     ^
+natpmp.c:121:5: warning: no previous declaration for ‘sendnatpmprequest’ [-Wmissing-declarations]
+ int sendnatpmprequest(natpmp_t * p)
+     ^
+natpmp.c: In function ‘sendnewportmappingrequest’:
+natpmp.c:179:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((uint16_t *)(p->pending_request + 4)) = htons(privateport);
+  ^
+natpmp.c:180:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((uint16_t *)(p->pending_request + 6)) = htons(publicport);
+  ^
+natpmp.c:181:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((uint32_t *)(p->pending_request + 8)) = htonl(lifetime);
+  ^
+natpmp.c: At top level:
+natpmp.c:186:13: warning: no previous declaration for ‘readnatpmpresponse’ [-Wmissing-declarations]
+ LIBSPEC int readnatpmpresponse(natpmp_t * p, natpmpresp_t * response)
+             ^
+  AR     libnatpmp.a
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/libnatpmp'
+Making all in miniupnp
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/miniupnp'
+./updateminiupnpcstrings.sh ./VERSION ./miniupnpcstrings.h.in miniupnpcstrings.h
+Detected OS [Linux] version [3.4.94]
+cat: ./VERSION: No such file or directory
+MiniUPnPc version []
+setting OS_STRING macro value to Linux/3.4.94 in miniupnpcstrings.h.
+setting MINIUPNPC_VERSION_STRING macro value to  in miniupnpcstrings.h.
+make  all-am
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/miniupnp'
+  CC     connecthostport.o
+  CC     minissdpc.o
+  CC     minisoap.o
+  CC     igd_desc_parse.o
+  CC     miniupnpc.o
+  CC     miniwget.o
+  CC     minixml.o
+miniupnpc.c:115:8: warning: no previous declaration for ‘simpleUPnPcommand2’ [-Wmissing-declarations]
+ char * simpleUPnPcommand2(int s, const char * url, const char * service,
+        ^
+  CC     portlistingparse.o
+portlistingparse.c: In function ‘endelt’:
+portlistingparse.c:71:31: warning: unused parameter ‘name’ [-Wunused-parameter]
+ endelt(void * d, const char * name, int l)
+                               ^
+portlistingparse.c:71:41: warning: unused parameter ‘l’ [-Wunused-parameter]
+ endelt(void * d, const char * name, int l)
+                                         ^
+  CC     receivedata.o
+  CC     upnpcommands.o
+  CC     upnpreplyparse.o
+  AR     libminiupnp.a
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/miniupnp'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/miniupnp'
+Making all in libutp
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/libutp'
+  CXX    utp.o
+  CXX    utp_utils.o
+In file included from utp.cpp:78:0:
+utp_config.h:8:2: warning: #warning implement this in libtransmission [-Wcpp]
+ #warning implement this in libtransmission
+  ^
+  AR     libutp.a
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party/libutp'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party'
+Making all in libtransmission
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/libtransmission'
+  CC     announcer-http.o
+  CC     bandwidth.o
+  CC     announcer.o
+  CC     announcer-udp.o
+bandwidth.c: In function ‘tr_bandwidthSetParent’:
+bandwidth.c:135:16: warning: variable ‘removed’ set but not used [-Wunused-but-set-variable]
+         void * removed;
+                ^
+  CC     bencode.o
+  CC     bitfield.o
+  CC     blocklist.o
+  CC     cache.o
+  CC     clients.o
+  CC     completion.o
+  CC     ConvertUTF.o
+  CC     crypto.o
+  CC     fdlimit.o
+  CC     handshake.o
+  CC     history.o
+  CC     inout.o
+  CC     json.o
+  CC     JSON_parser.o
+  CC     list.o
+  CC     magnet.o
+  CC     makemeta.o
+  CC     metainfo.o
+  CC     natpmp.o
+  CC     net.o
+  CC     peer-io.o
+  CC     peer-mgr.o
+peer-io.c:512:1: warning: initialization from incompatible pointer type [enabled by default]
+ };
+ ^
+peer-io.c:512:1: warning: (near initialization for ‘utp_function_table.on_overhead’) [enabled by default]
+peer-io.c:567:1: warning: initialization from incompatible pointer type [enabled by default]
+ };
+ ^
+peer-io.c:567:1: warning: (near initialization for ‘dummy_utp_function_table.on_overhead’) [enabled by default]
+peer-mgr.c: In function ‘myHandshakeDoneCB’:
+peer-mgr.c:1953:24: warning: variable ‘ours’ set but not used [-Wunused-but-set-variable]
+     tr_handshake     * ours;
+                        ^
+  CC     peer-msgs.o
+  CC     platform.o
+peer-msgs.c: In function ‘myDebug’:
+peer-msgs.c:250:9: warning: function might be possible candidate for ‘gnu_printf’ format attribute [-Wsuggest-attribute=format]
+         evbuffer_add_vprintf( buf, fmt, args );
+         ^
+  CC     port-forwarding.o
+  CC     ptrarray.o
+  CC     resume.o
+  CC     rpcimpl.o
+  CC     rpc-server.o
+  CC     session.o
+  CC     stats.o
+  CC     torrent.o
+  CC     torrent-ctor.o
+  CC     torrent-magnet.o
+  CC     tr-dht.o
+  CC     tr-lpd.o
+  CC     tr-udp.o
+  CC     tr-utp.o
+  CC     tr-getopt.o
+  CC     trevent.o
+  CC     upnp.o
+  CC     utils.o
+  CC     verify.o
+  CC     web.o
+  CC     webseed.o
+  CC     wildmat.o
+  CC     blocklist-test.o
+  CC     bencode-test.o
+  CC     clients-test.o
+  CC     history-test.o
+  CC     json-test.o
+  CC     magnet-test.o
+  CC     peer-msgs-test.o
+  CC     rpc-test.o
+  CC     test-peer-id.o
+  CC     utils-test.o
+  AR     libtransmission.a
+  CCLD   blocklist-test
+  CCLD   bencode-test
+  CCLD   clients-test
+In file included from utils-test.c:6:0:
+utils-test.c: In function ‘main’:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:100:30: warning: called from here [-Winline]
+         check( tr_bitfieldHas( &field, i ) == ( !( i % 7 ) ) );
+                              ^
+utils-test.c:41:16: note: in definition of macro ‘check’
+         if( !( A ) ){ \
+                ^
+In file included from utils-test.c:6:0:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:105:30: warning: called from here [-Winline]
+         check( tr_bitfieldHas( &field, i ) );
+                              ^
+utils-test.c:41:16: note: in definition of macro ‘check’
+         if( !( A ) ){ \
+                ^
+In file included from utils-test.c:6:0:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:110:30: warning: called from here [-Winline]
+         check( tr_bitfieldHas( &field, i ) == ( ( i < 4 ) || ( i >= 21 ) ) );
+                              ^
+utils-test.c:41:16: note: in definition of macro ‘check’
+         if( !( A ) ){ \
+                ^
+In file included from utils-test.c:6:0:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:116:30: warning: called from here [-Winline]
+         check( tr_bitfieldHas( &field, i ) == ( ( i < 8 ) || ( i >= 24 ) ) );
+                              ^
+utils-test.c:41:16: note: in definition of macro ‘check’
+         if( !( A ) ){ \
+                ^
+In file included from utils-test.c:6:0:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:122:30: warning: called from here [-Winline]
+         check( tr_bitfieldHas( &field, i ) == ( ( i < 4 ) || ( i >= 5 ) ) );
+                              ^
+utils-test.c:41:16: note: in definition of macro ‘check’
+         if( !( A ) ){ \
+                ^
+In file included from utils-test.c:6:0:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:128:30: warning: called from here [-Winline]
+         check( tr_bitfieldHas( &field, i ) == ( ( 4 <= i ) && ( i < 21 ) ) );
+                              ^
+utils-test.c:41:16: note: in definition of macro ‘check’
+         if( !( A ) ){ \
+                ^
+In file included from utils-test.c:6:0:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:134:30: warning: called from here [-Winline]
+         check( tr_bitfieldHas( &field, i ) == ( ( 8 <= i ) && ( i < 24 ) ) );
+                              ^
+utils-test.c:41:16: note: in definition of macro ‘check’
+         if( !( A ) ){ \
+                ^
+In file included from utils-test.c:6:0:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:140:30: warning: called from here [-Winline]
+         check( tr_bitfieldHas( &field, i ) == ( ( 4 <= i ) && ( i < 5 ) ) );
+                              ^
+utils-test.c:41:16: note: in definition of macro ‘check’
+         if( !( A ) ){ \
+                ^
+In file included from utils-test.c:6:0:
+bitfield.h:102:1: warning: inlining failed in call to ‘tr_bitfieldHas’: call is unlikely and code size would grow [-Winline]
+ tr_bitfieldHas( const tr_bitfield * b, size_t n )
+ ^
+utils-test.c:77:27: warning: called from here [-Winline]
+         if( tr_bitfieldHas( &bf, i ) )
+                           ^
+  CCLD   history-test
+  CCLD   json-test
+  CCLD   magnet-test
+  CCLD   peer-msgs-test
+  CCLD   rpc-test
+  CCLD   test-peer-id
+  CCLD   utils-test
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/libtransmission'
+Making all in utils
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/utils'
+  CC     edit.o
+  CC     create.o
+  CC     show.o
+  CCLD   transmission-create
+  CCLD   transmission-edit
+  CCLD   transmission-show
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/utils'
+Making all in daemon
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/daemon'
+  CC     watch.o
+  CC     daemon.o
+  CC     remote.o
+  CCLD   transmission-daemon
+  CCLD   transmission-remote
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/daemon'
+Making all in cli
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/cli'
+  CC     cli.o
+  CCLD   transmission-cli
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/cli'
+Making all in gtk
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+make  all-recursive
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+Making all in icons
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk/icons'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk/icons'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+  CC     conf.o
+  CC     actions.o
+  CC     details.o
+  CC     dialogs.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from actions.c:16:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from tr-prefs.h:16,
+                 from conf.c:40:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from dialogs.c:25:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from details.c:17:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  CC     favicon.o
+  CC     file-list.o
+  CC     filter.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from favicon.c:14:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from file-list.c:17:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from filter.c:15:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  CC     hig.o
+  CC     icons.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from hig.c:13:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  CC     main.o
+  CC     makemeta-ui.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from icons.c:11:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  CC     msgwin.o
+  CC     notify.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from main.c:35:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+main.c: In function ‘on_rpc_changed’:
+main.c:377:5: warning: enumeration value ‘TR_RPC_SESSION_QUEUE_POSITIONS_CHANGED’ not handled in switch [-Wswitch]
+     switch( type )
+     ^
+main.c: In function ‘main’:
+main.c:614:5: warning: ‘g_thread_init’ is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:260) [-Wdeprecated-declarations]
+     g_thread_init (NULL);
+     ^
+main.c:615:5: warning: ‘g_type_init’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init ();
+     ^
+main.c: In function ‘on_app_exit’:
+main.c:962:5: warning: ‘g_thread_create’ is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:100): Use 'g_thread_new' instead [-Wdeprecated-declarations]
+     g_thread_create( session_close_threadfunc, vdata, TRUE, NULL );
+     ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from makemeta-ui.c:14:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from msgwin.c:18:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from tr-core.h:28,
+                 from notify.h:16,
+                 from notify.c:19:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  CC     open-dialog.o
+  CC     relocate.o
+  CC     stats.o
+  CC     torrent-cell-renderer.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from open-dialog.c:14:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from relocate.c:16:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from stats.c:14:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from torrent-cell-renderer.c:13:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  CC     tr-core.o
+  CC     tr-icon.o
+  CC     tr-prefs.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from tr-icon.c:14:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from tr-core.c:28:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  CC     tr-window.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from tr-prefs.c:18:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  CC     util.o
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from tr-window.c:27:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:234:0,
+                 from util.c:18:
+/usr/include/gtk-2.0/gtk/gtkitemfactory.h:47:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef void (*GtkItemFactoryCallback)  ();
+ ^
+  ITMRG  transmission-gtk.desktop
+  CCLD   transmission-gtk
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+Making all in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/po'
+  MSGFMT an.gmo
+  MSGFMT ast.gmo
+  MSGFMT ar.gmo
+  MSGFMT az.gmo
+  MSGFMT be.gmo
+  MSGFMT be@latin.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT bo.gmo
+  MSGFMT br.gmo
+  MSGFMT bs.gmo
+  MSGFMT ca.gmo
+  MSGFMT ca@valencia.gmo
+  MSGFMT ceb.gmo
+  MSGFMT ckb.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_CA.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT et.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT fa.gmo
+  MSGFMT fi.gmo
+  MSGFMT fil.gmo
+  MSGFMT fo.gmo
+  MSGFMT fr.gmo
+  MSGFMT ga.gmo
+  MSGFMT gl.gmo
+  MSGFMT gv.gmo
+  MSGFMT he.gmo
+  MSGFMT hi.gmo
+  MSGFMT hr.gmo
+  MSGFMT hy.gmo
+  MSGFMT hu.gmo
+  MSGFMT ia.gmo
+  MSGFMT id.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT ka.gmo
+  MSGFMT kk.gmo
+  MSGFMT ku.gmo
+  MSGFMT ko.gmo
+  MSGFMT li.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT mk.gmo
+  MSGFMT ml.gmo
+  MSGFMT mr.gmo
+  MSGFMT ms.gmo
+  MSGFMT mt.gmo
+  MSGFMT nb.gmo
+  MSGFMT nds.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT si.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT ta_LK.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tl.gmo
+  MSGFMT tr.gmo
+  MSGFMT ur.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT uz.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_TW.gmo
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/po'
+Making all in web
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+Making all in images
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/images'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/images'
+Making all in style
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+Making all in jqueryui
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+Making all in images
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui/images'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui/images'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+Making all in transmission
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+Making all in images
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+Making all in buttons
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images/buttons'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images/buttons'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+Making all in javascript
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+Making all in jquery
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript/jquery'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript/jquery'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60'
+Making install in extras
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/extras'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/extras'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/extras'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/extras'
+Making install in third-party
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/third-party'
+Making install in libtransmission
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/libtransmission'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/libtransmission'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/libtransmission'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/libtransmission'
+Making install in utils
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/utils'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/utils'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c transmission-create transmission-edit transmission-show '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c transmission-create /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin/transmission-create
+libtool: install: /usr/bin/ginstall -c transmission-edit /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin/transmission-edit
+libtool: install: /usr/bin/ginstall -c transmission-show /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin/transmission-show
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 transmission-create.1 transmission-edit.1 transmission-show.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/man/man1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/utils'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/utils'
+Making install in daemon
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/daemon'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/daemon'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c transmission-daemon transmission-remote '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c transmission-daemon /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin/transmission-daemon
+libtool: install: /usr/bin/ginstall -c transmission-remote /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin/transmission-remote
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 transmission-daemon.1 transmission-remote.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/man/man1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/daemon'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/daemon'
+Making install in cli
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/cli'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/cli'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c transmission-cli '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c transmission-cli /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin/transmission-cli
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 transmission-cli.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/man/man1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/cli'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/cli'
+Making install in gtk
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+make  install-recursive
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+Making install in icons
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk/icons'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk/icons'
+make[4]: Nothing to be done for `install-exec-am'.
+for icon in hicolor_apps_16x16_transmission.png hicolor_apps_22x22_transmission.png hicolor_apps_24x24_transmission.png hicolor_apps_32x32_transmission.png hicolor_apps_48x48_transmission.png hicolor_apps_256x256_transmission.png hicolor_apps_scalable_transmission.svg ; do \
+	THEME=`echo $icon | cut -d_ -f1`; \
+	CONTEXT=`echo $icon | cut -d_ -f2`; \
+	SIZE=`echo $icon | cut -d_ -f3`; \
+	ICONFILE=`echo $icon | cut -d_ -f4`; \
+	mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/icons/$THEME/$SIZE/$CONTEXT; \
+	/usr/bin/ginstall -c -m 644 ./$icon /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/icons/$THEME/$SIZE/$CONTEXT/$ICONFILE; \
+done; \
+for icon in ; do \
+	THEME=`echo $icon | cut -d_ -f1`; \
+	CONTEXT=`echo $icon | cut -d_ -f2`; \
+	SIZE=`echo $icon | cut -d_ -f3`; \
+	ICONFILE=`echo $icon | cut -d_ -f4`; \
+	mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/icons/$THEME/$SIZE/$CONTEXT; \
+	/usr/bin/ginstall -c -m 644 ./$icon /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/icons/$THEME/$SIZE/$CONTEXT/$ICONFILE; \
+done
+*** Icon cache not updated.  After (un)install, run this:
+***   gtk-update-icon-cache -f -t /usr/share/icons/hicolor
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk/icons'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk/icons'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c transmission-gtk '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c transmission-gtk /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/bin/transmission-gtk
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/applications'
+ /usr/bin/ginstall -c -m 644 transmission-gtk.desktop '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/applications'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/pixmaps'
+ /usr/bin/ginstall -c -m 644 transmission.png '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/pixmaps'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 transmission-gtk.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/man/man1'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/gtk'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/po'
+linguas="an ar ast az be be@latin bg bn bo br bs ca ca@valencia ceb ckb cs da de el en_AU en_CA en_GB eo es et eu fa fi fil fo fr ga gl gv he hi hr hu hy ia id is it ja ka kk ko ku li lt lv mk ml mr ms mt nb nds nl nn oc pa pl pt pt_BR ro ru si sk sl sq sr sv ta_LK te th tl tr ur ug uk uz vi zh_CN zh_TW "; \
+for lang in $linguas; do \
+  dir=/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo $dir/transmission-gtk.mo; \
+    echo "installing $lang.gmo as $dir/transmission-gtk.mo"; \
+  else \
+    /usr/bin/ginstall -c -m 644 ./$lang.gmo $dir/transmission-gtk.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/transmission-gtk.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo.m $dir/transmission-gtk.mo.m; \
+    echo "installing $lang.gmo.m as $dir/transmission-gtk.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/ginstall -c -m 644 ./$lang.gmo.m \
+	$dir/transmission-gtk.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/transmission-gtk.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing an.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/an/LC_MESSAGES/transmission-gtk.mo
+installing ar.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ar/LC_MESSAGES/transmission-gtk.mo
+installing ast.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ast/LC_MESSAGES/transmission-gtk.mo
+installing az.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/az/LC_MESSAGES/transmission-gtk.mo
+installing be.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/be/LC_MESSAGES/transmission-gtk.mo
+installing be@latin.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/be@latin/LC_MESSAGES/transmission-gtk.mo
+installing bg.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/bg/LC_MESSAGES/transmission-gtk.mo
+installing bn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/bn/LC_MESSAGES/transmission-gtk.mo
+installing bo.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/bo/LC_MESSAGES/transmission-gtk.mo
+installing br.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/br/LC_MESSAGES/transmission-gtk.mo
+installing bs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/bs/LC_MESSAGES/transmission-gtk.mo
+installing ca.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ca/LC_MESSAGES/transmission-gtk.mo
+installing ca@valencia.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ca@valencia/LC_MESSAGES/transmission-gtk.mo
+installing ceb.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ceb/LC_MESSAGES/transmission-gtk.mo
+installing ckb.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ckb/LC_MESSAGES/transmission-gtk.mo
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/cs/LC_MESSAGES/transmission-gtk.mo
+installing da.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/da/LC_MESSAGES/transmission-gtk.mo
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/de/LC_MESSAGES/transmission-gtk.mo
+installing el.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/el/LC_MESSAGES/transmission-gtk.mo
+installing en_AU.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/en_AU/LC_MESSAGES/transmission-gtk.mo
+installing en_CA.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/en_CA/LC_MESSAGES/transmission-gtk.mo
+installing en_GB.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/en_GB/LC_MESSAGES/transmission-gtk.mo
+installing eo.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/eo/LC_MESSAGES/transmission-gtk.mo
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/es/LC_MESSAGES/transmission-gtk.mo
+installing et.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/et/LC_MESSAGES/transmission-gtk.mo
+installing eu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/eu/LC_MESSAGES/transmission-gtk.mo
+installing fa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/fa/LC_MESSAGES/transmission-gtk.mo
+installing fi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/fi/LC_MESSAGES/transmission-gtk.mo
+installing fil.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/fil/LC_MESSAGES/transmission-gtk.mo
+installing fo.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/fo/LC_MESSAGES/transmission-gtk.mo
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/fr/LC_MESSAGES/transmission-gtk.mo
+installing ga.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ga/LC_MESSAGES/transmission-gtk.mo
+installing gl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/gl/LC_MESSAGES/transmission-gtk.mo
+installing gv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/gv/LC_MESSAGES/transmission-gtk.mo
+installing he.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/he/LC_MESSAGES/transmission-gtk.mo
+installing hi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/hi/LC_MESSAGES/transmission-gtk.mo
+installing hr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/hr/LC_MESSAGES/transmission-gtk.mo
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/hu/LC_MESSAGES/transmission-gtk.mo
+installing hy.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/hy/LC_MESSAGES/transmission-gtk.mo
+installing ia.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ia/LC_MESSAGES/transmission-gtk.mo
+installing id.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/id/LC_MESSAGES/transmission-gtk.mo
+installing is.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/is/LC_MESSAGES/transmission-gtk.mo
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/it/LC_MESSAGES/transmission-gtk.mo
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ja/LC_MESSAGES/transmission-gtk.mo
+installing ka.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ka/LC_MESSAGES/transmission-gtk.mo
+installing kk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/kk/LC_MESSAGES/transmission-gtk.mo
+installing ko.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ko/LC_MESSAGES/transmission-gtk.mo
+installing ku.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ku/LC_MESSAGES/transmission-gtk.mo
+installing li.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/li/LC_MESSAGES/transmission-gtk.mo
+installing lt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/lt/LC_MESSAGES/transmission-gtk.mo
+installing lv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/lv/LC_MESSAGES/transmission-gtk.mo
+installing mk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/mk/LC_MESSAGES/transmission-gtk.mo
+installing ml.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ml/LC_MESSAGES/transmission-gtk.mo
+installing mr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/mr/LC_MESSAGES/transmission-gtk.mo
+installing ms.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ms/LC_MESSAGES/transmission-gtk.mo
+installing mt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/mt/LC_MESSAGES/transmission-gtk.mo
+installing nb.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/nb/LC_MESSAGES/transmission-gtk.mo
+installing nds.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/nds/LC_MESSAGES/transmission-gtk.mo
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/nl/LC_MESSAGES/transmission-gtk.mo
+installing nn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/nn/LC_MESSAGES/transmission-gtk.mo
+installing oc.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/oc/LC_MESSAGES/transmission-gtk.mo
+installing pa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/pa/LC_MESSAGES/transmission-gtk.mo
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/pl/LC_MESSAGES/transmission-gtk.mo
+installing pt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/pt/LC_MESSAGES/transmission-gtk.mo
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/pt_BR/LC_MESSAGES/transmission-gtk.mo
+installing ro.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ro/LC_MESSAGES/transmission-gtk.mo
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ru/LC_MESSAGES/transmission-gtk.mo
+installing si.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/si/LC_MESSAGES/transmission-gtk.mo
+installing sk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/sk/LC_MESSAGES/transmission-gtk.mo
+installing sl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/sl/LC_MESSAGES/transmission-gtk.mo
+installing sq.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/sq/LC_MESSAGES/transmission-gtk.mo
+installing sr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/sr/LC_MESSAGES/transmission-gtk.mo
+installing sv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/sv/LC_MESSAGES/transmission-gtk.mo
+installing ta_LK.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ta_LK/LC_MESSAGES/transmission-gtk.mo
+installing te.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/te/LC_MESSAGES/transmission-gtk.mo
+installing th.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/th/LC_MESSAGES/transmission-gtk.mo
+installing tl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/tl/LC_MESSAGES/transmission-gtk.mo
+installing tr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/tr/LC_MESSAGES/transmission-gtk.mo
+installing ur.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ur/LC_MESSAGES/transmission-gtk.mo
+installing ug.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/ug/LC_MESSAGES/transmission-gtk.mo
+installing uk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/uk/LC_MESSAGES/transmission-gtk.mo
+installing uz.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/uz/LC_MESSAGES/transmission-gtk.mo
+installing vi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/vi/LC_MESSAGES/transmission-gtk.mo
+installing zh_CN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/zh_CN/LC_MESSAGES/transmission-gtk.mo
+installing zh_TW.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/locale/zh_TW/LC_MESSAGES/transmission-gtk.mo
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/po'
+Making install in web
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+Making install in images
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/images'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/images'
+make[3]: Nothing to be done for `install-exec-am'.
+ ../.././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/images'
+ /usr/bin/ginstall -c -m 644 favicon.ico favicon.png webclip-icon.png '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/images'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/images'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/images'
+Making install in style
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+Making install in jqueryui
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+Making install in images
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui/images'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui/images'
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../../.././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/jqueryui/images'
+ /usr/bin/ginstall -c -m 644 ui-bg_flat_75_ffffff_40x100.png ui-bg_glass_65_ffffff_1x400.png ui-bg_glass_75_dadada_1x400.png ui-bg_glass_75_e6e6e6_1x400.png ui-bg_highlight-soft_75_cccccc_1x100.png ui-icons_222222_256x240.png ui-icons_454545_256x240.png '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/jqueryui/images'
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui/images'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui/images'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../.././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/jqueryui'
+ /usr/bin/ginstall -c -m 644 jqueryui-1.8.16.css '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/jqueryui'
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/jqueryui'
+Making install in transmission
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+Making install in images
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+Making install in buttons
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images/buttons'
+make[6]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images/buttons'
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../../../.././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/transmission/images/buttons'
+ /usr/bin/ginstall -c -m 644 torrent_buttons.png '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/transmission/images/buttons'
+make[6]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images/buttons'
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images/buttons'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+make[6]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+make[6]: Nothing to be done for `install-exec-am'.
+ ../../../.././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/transmission/images'
+ /usr/bin/ginstall -c -m 644 arrow-down.png arrow-up.png blue-turtle.png compact.png file-priority-high.png file-priority-low.png file-priority-normal.png filter_bar.png filter_icon.png inspector-files.png inspector-info.png inspector-peers.png inspector-trackers.png lock_icon.png logo.png progress.png settings.png toolbar-close.png toolbar-folder.png toolbar-info.png toolbar-pause.png toolbar-start.png toolbar-pause-all.png toolbar-start-all.png turtle.png wrench.png '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/transmission/images'
+make[6]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission/images'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+make[5]: Nothing to be done for `install-exec-am'.
+ ../../.././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/transmission'
+ /usr/bin/ginstall -c -m 644 common.css mobile.css '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/style/transmission'
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style/transmission'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/style'
+Making install in javascript
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+Making install in jquery
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript/jquery'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript/jquery'
+make[4]: Nothing to be done for `install-exec-am'.
+ ../../.././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/javascript/jquery'
+ /usr/bin/ginstall -c -m 644 jqueryui-1.8.16.min.js jquery.min.js jquery.contextmenu.min.js jquery.form.js jquery.form.min.js jquery.transmenu.min.js json2.min.js '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/javascript/jquery'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript/jquery'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript/jquery'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+make[4]: Nothing to be done for `install-exec-am'.
+ ../.././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/javascript'
+ /usr/bin/ginstall -c -m 644 common.js dialog.js file-row.js formatter.js inspector.js notifications.js prefs-dialog.js remote.js torrent.js torrent-row.js transmission.js '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web/javascript'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web/javascript'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+make[3]: Nothing to be done for `install-exec-am'.
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web'
+ /usr/bin/ginstall -c -m 644 index.html LICENSE '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-install/usr/share/transmission/web'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60/web'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission/transmission-2.60'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/transmission
+Found 'i686'
+Processing ../transmission-install/usr/bin/transmission-cli
+Processing ../transmission-install/usr/bin/transmission-create
+Processing ../transmission-install/usr/bin/transmission-daemon
+Processing ../transmission-install/usr/bin/transmission-edit
+Processing ../transmission-install/usr/bin/transmission-gtk
+Processing ../transmission-install/usr/bin/transmission-remote
+Processing ../transmission-install/usr/bin/transmission-show
+Processing ../transmission-install/usr/share/applications/transmission-gtk.desktop
+Processing ../transmission-install/usr/share/icons/hicolor/16x16/apps/transmission.png
+Processing ../transmission-install/usr/share/icons/hicolor/22x22/apps/transmission.png
+Processing ../transmission-install/usr/share/icons/hicolor/24x24/apps/transmission.png
+Processing ../transmission-install/usr/share/icons/hicolor/256x256/apps/transmission.png
+Processing ../transmission-install/usr/share/icons/hicolor/32x32/apps/transmission.png
+Processing ../transmission-install/usr/share/icons/hicolor/48x48/apps/transmission.png
+Processing ../transmission-install/usr/share/icons/hicolor/scalable/apps/transmission.svg
+Processing ../transmission-install/usr/share/locale/an/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ar/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ast/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/az/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/be@latin/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/be/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/bg/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/bn/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/bo/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/br/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/bs/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ca/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ca@valencia/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ceb/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ckb/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/cs/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/da/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/de/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/el/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/en_AU/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/en_CA/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/en_GB/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/eo/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/es/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/et/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/eu/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/fa/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/fi/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/fil/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/fo/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/fr/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ga/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/gl/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/gv/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/he/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/hi/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/hr/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/hu/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/hy/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ia/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/id/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/is/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/it/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ja/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ka/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/kk/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ko/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ku/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/li/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/lt/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/lv/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/mk/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ml/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/mr/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ms/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/mt/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/nb/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/nds/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/nl/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/nn/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/oc/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/pa/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/pl/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/pt_BR/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/pt/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ro/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ru/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/si/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/sk/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/sl/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/sq/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/sr/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/sv/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ta_LK/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/te/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/th/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/tl/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/tr/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ug/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/uk/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/ur/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/uz/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/vi/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/zh_CN/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/locale/zh_TW/LC_MESSAGES/transmission-gtk.mo
+Processing ../transmission-install/usr/share/man/man1/transmission-cli.1
+Processing ../transmission-install/usr/share/man/man1/transmission-create.1
+Processing ../transmission-install/usr/share/man/man1/transmission-daemon.1
+Processing ../transmission-install/usr/share/man/man1/transmission-edit.1
+Processing ../transmission-install/usr/share/man/man1/transmission-gtk.1
+Processing ../transmission-install/usr/share/man/man1/transmission-remote.1
+Processing ../transmission-install/usr/share/man/man1/transmission-show.1
+Processing ../transmission-install/usr/share/pixmaps/transmission.png
+Processing ../transmission-install/usr/share/transmission/web/images/favicon.ico
+Processing ../transmission-install/usr/share/transmission/web/images/favicon.png
+Processing ../transmission-install/usr/share/transmission/web/images/webclip-icon.png
+Processing ../transmission-install/usr/share/transmission/web/index.html
+Processing ../transmission-install/usr/share/transmission/web/javascript/common.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/dialog.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/file-row.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/formatter.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/inspector.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/jquery/jquery.contextmenu.min.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/jquery/jquery.form.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/jquery/jquery.form.min.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/jquery/jquery.min.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/jquery/jquery.transmenu.min.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/jquery/jqueryui-1.8.16.min.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/jquery/json2.min.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/notifications.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/prefs-dialog.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/remote.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/torrent.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/torrent-row.js
+Processing ../transmission-install/usr/share/transmission/web/javascript/transmission.js
+Processing ../transmission-install/usr/share/transmission/web/LICENSE
+Processing ../transmission-install/usr/share/transmission/web/style/jqueryui/images/ui-bg_flat_75_ffffff_40x100.png
+Processing ../transmission-install/usr/share/transmission/web/style/jqueryui/images/ui-bg_glass_65_ffffff_1x400.png
+Processing ../transmission-install/usr/share/transmission/web/style/jqueryui/images/ui-bg_glass_75_dadada_1x400.png
+Processing ../transmission-install/usr/share/transmission/web/style/jqueryui/images/ui-bg_glass_75_e6e6e6_1x400.png
+Processing ../transmission-install/usr/share/transmission/web/style/jqueryui/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Processing ../transmission-install/usr/share/transmission/web/style/jqueryui/images/ui-icons_222222_256x240.png
+Processing ../transmission-install/usr/share/transmission/web/style/jqueryui/images/ui-icons_454545_256x240.png
+Processing ../transmission-install/usr/share/transmission/web/style/jqueryui/jqueryui-1.8.16.css
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/common.css
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/arrow-down.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/arrow-up.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/blue-turtle.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/buttons/torrent_buttons.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/compact.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/file-priority-high.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/file-priority-low.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/file-priority-normal.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/filter_bar.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/filter_icon.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/inspector-files.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/inspector-info.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/inspector-peers.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/inspector-trackers.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/lock_icon.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/logo.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/progress.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/settings.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/toolbar-close.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/toolbar-folder.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/toolbar-info.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/toolbar-pause-all.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/toolbar-pause.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/toolbar-start-all.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/toolbar-start.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/turtle.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/images/wrench.png
+Processing ../transmission-install/usr/share/transmission/web/style/transmission/mobile.css
+all done
+packaging transmission-2.60-i686_slk600
+packaging transmission_DOC-2.60-i686_slk600
+packaging transmission_NLS-2.60-i686_slk600
+done!

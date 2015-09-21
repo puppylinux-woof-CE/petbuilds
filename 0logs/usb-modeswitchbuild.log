@@ -1,0 +1,120 @@
+usb-modeswitch-2.2.1/
+usb-modeswitch-2.2.1/usb_modeswitch.1
+usb-modeswitch-2.2.1/README
+usb-modeswitch-2.2.1/usb_modeswitch.c
+usb-modeswitch-2.2.1/usb_modeswitch_dispatcher.1
+usb-modeswitch-2.2.1/ChangeLog
+usb-modeswitch-2.2.1/usb_modeswitch.h
+usb-modeswitch-2.2.1/Makefile
+usb-modeswitch-2.2.1/usb_modeswitch@.service
+usb-modeswitch-2.2.1/COPYING
+usb-modeswitch-2.2.1/usb-modeswitch-upstart.conf
+usb-modeswitch-2.2.1/jim/
+usb-modeswitch-2.2.1/jim/jimregexp.c
+usb-modeswitch-2.2.1/jim/jim-load.c
+usb-modeswitch-2.2.1/jim/tclcompat.tcl
+usb-modeswitch-2.2.1/jim/Makefile.in
+usb-modeswitch-2.2.1/jim/rlprompt.tcl
+usb-modeswitch-2.2.1/jim/jim-package.c
+usb-modeswitch-2.2.1/jim/autosetup/
+usb-modeswitch-2.2.1/jim/autosetup/find-tclsh
+usb-modeswitch-2.2.1/jim/autosetup/system.tcl
+usb-modeswitch-2.2.1/jim/autosetup/cc-shared.tcl
+usb-modeswitch-2.2.1/jim/autosetup/README.autosetup
+usb-modeswitch-2.2.1/jim/autosetup/autosetup
+usb-modeswitch-2.2.1/jim/autosetup/LICENSE
+usb-modeswitch-2.2.1/jim/autosetup/config.guess
+usb-modeswitch-2.2.1/jim/autosetup/cc-lib.tcl
+usb-modeswitch-2.2.1/jim/autosetup/config.sub
+usb-modeswitch-2.2.1/jim/autosetup/test-tclsh
+usb-modeswitch-2.2.1/jim/autosetup/cc.tcl
+usb-modeswitch-2.2.1/jim/README
+usb-modeswitch-2.2.1/jim/jim-eventloop.c
+usb-modeswitch-2.2.1/jim/make-bootstrap-jim
+usb-modeswitch-2.2.1/jim/utf8.c
+usb-modeswitch-2.2.1/jim/bootstrap.tcl
+usb-modeswitch-2.2.1/jim/jim-subcmd.c
+usb-modeswitch-2.2.1/jim/LICENSE
+usb-modeswitch-2.2.1/jim/README.usb_modeswitch
+usb-modeswitch-2.2.1/jim/jimautoconf.h.in
+usb-modeswitch-2.2.1/jim/regtest.tcl
+usb-modeswitch-2.2.1/jim/make-index
+usb-modeswitch-2.2.1/jim/linenoise.c
+usb-modeswitch-2.2.1/jim/jim-array.c
+usb-modeswitch-2.2.1/jim/make-load-static-exts.tcl
+usb-modeswitch-2.2.1/jim/parse-unidata.tcl
+usb-modeswitch-2.2.1/jim/AUTHORS
+usb-modeswitch-2.2.1/jim/make-c-ext.tcl
+usb-modeswitch-2.2.1/jim/auto.def
+usb-modeswitch-2.2.1/jim/jim-interactive.c
+usb-modeswitch-2.2.1/jim/configure.ac
+usb-modeswitch-2.2.1/jim/jim-nvp.c
+usb-modeswitch-2.2.1/jim/linenoise.h
+usb-modeswitch-2.2.1/jim/jim-file.c
+usb-modeswitch-2.2.1/jim/glob.tcl
+usb-modeswitch-2.2.1/jim/jim-exec.c
+usb-modeswitch-2.2.1/jim/jim-nvp.h
+usb-modeswitch-2.2.1/jim/jimsh.c
+usb-modeswitch-2.2.1/jim/jim.c
+usb-modeswitch-2.2.1/jim/configure
+usb-modeswitch-2.2.1/jim/jim-subcmd.h
+usb-modeswitch-2.2.1/jim/jim-readdir.c
+usb-modeswitch-2.2.1/jim/jim.h
+usb-modeswitch-2.2.1/jim/jim-config.h.in
+usb-modeswitch-2.2.1/jim/jim-clock.c
+usb-modeswitch-2.2.1/jim/jim-regexp.c
+usb-modeswitch-2.2.1/jim/tree.tcl
+usb-modeswitch-2.2.1/jim/freebsd/
+usb-modeswitch-2.2.1/jim/freebsd/duane.txt
+usb-modeswitch-2.2.1/jim/freebsd/andrew.txt
+usb-modeswitch-2.2.1/jim/freebsd/clemens.txt
+usb-modeswitch-2.2.1/jim/freebsd/pat.txt
+usb-modeswitch-2.2.1/jim/freebsd/salvatore.txt
+usb-modeswitch-2.2.1/jim/freebsd/uwe.txt
+usb-modeswitch-2.2.1/jim/freebsd/oharboe.txt
+usb-modeswitch-2.2.1/jim/jim-posix.c
+usb-modeswitch-2.2.1/jim/jim-aio.c
+usb-modeswitch-2.2.1/jim/initjimsh.tcl
+usb-modeswitch-2.2.1/jim/jim-signal.h
+usb-modeswitch-2.2.1/jim/jim-signal.c
+usb-modeswitch-2.2.1/jim/tcl.license.terms
+usb-modeswitch-2.2.1/jim/jim-readline.c
+usb-modeswitch-2.2.1/jim/jim-sdl.c
+usb-modeswitch-2.2.1/jim/stdlib.tcl
+usb-modeswitch-2.2.1/jim/jim-format.c
+usb-modeswitch-2.2.1/jim/jimregexp.h
+usb-modeswitch-2.2.1/jim/jim-win32compat.h
+usb-modeswitch-2.2.1/jim/jim-eventloop.h
+usb-modeswitch-2.2.1/jim/utf8.h
+usb-modeswitch-2.2.1/jim/jim-pack.c
+usb-modeswitch-2.2.1/jim/jim-syslog.c
+usb-modeswitch-2.2.1/usb_modeswitch.tcl
+usb-modeswitch-2.2.1/usb_modeswitch.sh
+usb-modeswitch-2.2.1/usb_modeswitch.conf
+usb-modeswitch-2.2.1/dispatcher.c
+usb-modeswitch-2.2.1/make_string.tcl
+No installed jimsh or tclsh, building local bootstrap jimsh0
+cc -o usb_modeswitch usb_modeswitch.c -Wall `pkg-config --libs --cflags libusb-1.0` 
+sed 's_!/usr/bin/tclsh_!'"/usr/bin/tclsh"'_' < usb_modeswitch.tcl > usb_modeswitch_dispatcher
+sed 's_!/usr/bin/tclsh_!'"/usr/bin/tclsh"'_' < usb_modeswitch.tcl > usb_modeswitch_dispatcher
+install -D --mode=755 usb_modeswitch /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/usr/sbin/usb_modeswitch
+install -D --mode=755 usb_modeswitch.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/lib/udev/usb_modeswitch
+install -D --mode=644 usb_modeswitch.conf /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/etc/usb_modeswitch.conf
+install -D --mode=644 usb_modeswitch.1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/usr/share/man/man1/usb_modeswitch.1
+install -D --mode=644 usb_modeswitch_dispatcher.1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/usr/share/man/man1/usb_modeswitch_dispatcher.1
+install -D --mode=755 usb_modeswitch_dispatcher /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/usr/sbin/usb_modeswitch_dispatcher
+install -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/var/lib/usb_modeswitch
+test -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/etc/init -a -e /sbin/initctl && install --mode=644 usb-modeswitch-upstart.conf /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/etc/init || test 1
+test -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/etc/systemd/system -a -e /usr/bin/systemctl && install --mode=644 usb_modeswitch@.service /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch/usb-modeswitch-install/etc/systemd/system || test 1
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usb-modeswitch
+Processing ../usb-modeswitch-install/etc/usb_modeswitch.conf
+Processing ../usb-modeswitch-install/lib/udev/usb_modeswitch
+Processing ../usb-modeswitch-install/usr/sbin/usb_modeswitch
+Processing ../usb-modeswitch-install/usr/sbin/usb_modeswitch_dispatcher
+Processing ../usb-modeswitch-install/usr/share/man/man1/usb_modeswitch.1
+Processing ../usb-modeswitch-install/usr/share/man/man1/usb_modeswitch_dispatcher.1
+Processing ../usb-modeswitch-install/var/lib/usb_modeswitch
+all done
+packaging usb-modeswitch-2.2.1-i686_slk600
+packaging usb-modeswitch_DOC-2.2.1-i686_slk600
+done!

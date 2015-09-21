@@ -1,0 +1,14 @@
+libspectre-install/usr/include/libspectre/spectre-document.h
+libspectre-install/usr/include/libspectre/spectre-exporter.h
+libspectre-install/usr/include/libspectre/spectre.h
+libspectre-install/usr/include/libspectre/spectre-macros.h
+libspectre-install/usr/include/libspectre/spectre-page.h
+libspectre-install/usr/include/libspectre/spectre-render-context.h
+libspectre-install/usr/include/libspectre/spectre-status.h
+libspectre-install/usr/include/libspectre/spectre-version.h
+libspectre-install/usr/lib/libspectre.a
+libspectre-install/usr/lib/libspectre.la
+libspectre-install/usr/lib/libspectre.so
+libspectre-install/usr/lib/libspectre.so.1
+libspectre-install/usr/lib/libspectre.so.1.1.7
+libspectre-install/usr/lib/pkgconfig/libspectre.pc

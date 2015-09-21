@@ -1,0 +1,803 @@
+x264-20131101-2245/
+x264-20131101-2245/x264.h
+x264-20131101-2245/extras/
+x264-20131101-2245/extras/avxsynth_c.h
+x264-20131101-2245/extras/cl_platform.h
+x264-20131101-2245/extras/avisynth_c.h
+x264-20131101-2245/extras/getopt.h
+x264-20131101-2245/extras/inttypes.h
+x264-20131101-2245/extras/gas-preprocessor.pl
+x264-20131101-2245/extras/windowsPorts/
+x264-20131101-2245/extras/windowsPorts/windows2linux.h
+x264-20131101-2245/extras/windowsPorts/basicDataTypeConversions.h
+x264-20131101-2245/extras/cl.h
+x264-20131101-2245/extras/stdint.h
+x264-20131101-2245/extras/getopt.c
+x264-20131101-2245/Makefile
+x264-20131101-2245/config.guess
+x264-20131101-2245/input/
+x264-20131101-2245/input/timecode.c
+x264-20131101-2245/input/input.h
+x264-20131101-2245/input/lavf.c
+x264-20131101-2245/input/input.c
+x264-20131101-2245/input/ffms.c
+x264-20131101-2245/input/avs.c
+x264-20131101-2245/input/raw.c
+x264-20131101-2245/input/y4m.c
+x264-20131101-2245/input/thread.c
+x264-20131101-2245/version.sh
+x264-20131101-2245/configure
+x264-20131101-2245/x264res.rc
+x264-20131101-2245/x264.c
+x264-20131101-2245/config.sub
+x264-20131101-2245/x264dll.c
+x264-20131101-2245/COPYING
+x264-20131101-2245/x264cli.h
+x264-20131101-2245/output/
+x264-20131101-2245/output/matroska_ebml.h
+x264-20131101-2245/output/output.h
+x264-20131101-2245/output/mp4.c
+x264-20131101-2245/output/matroska.c
+x264-20131101-2245/output/flv.c
+x264-20131101-2245/output/matroska_ebml.c
+x264-20131101-2245/output/flv_bytestream.c
+x264-20131101-2245/output/flv_bytestream.h
+x264-20131101-2245/output/raw.c
+x264-20131101-2245/.gitignore
+x264-20131101-2245/tools/
+x264-20131101-2245/tools/digress/
+x264-20131101-2245/tools/digress/constants.py
+x264-20131101-2245/tools/digress/cli.py
+x264-20131101-2245/tools/digress/scm/
+x264-20131101-2245/tools/digress/scm/dummy.py
+x264-20131101-2245/tools/digress/scm/__init__.py
+x264-20131101-2245/tools/digress/scm/git.py
+x264-20131101-2245/tools/digress/__init__.py
+x264-20131101-2245/tools/digress/errors.py
+x264-20131101-2245/tools/digress/testing.py
+x264-20131101-2245/tools/digress/comparers.py
+x264-20131101-2245/tools/test_x264.py
+x264-20131101-2245/tools/cltostr.pl
+x264-20131101-2245/tools/q_matrix_jvt.cfg
+x264-20131101-2245/tools/countquant_x264.pl
+x264-20131101-2245/tools/xyuv.c
+x264-20131101-2245/tools/checkasm-a.asm
+x264-20131101-2245/tools/checkasm.c
+x264-20131101-2245/doc/
+x264-20131101-2245/doc/standards.txt
+x264-20131101-2245/doc/vui.txt
+x264-20131101-2245/doc/ratecontrol.txt
+x264-20131101-2245/doc/threads.txt
+x264-20131101-2245/doc/regression_test.txt
+x264-20131101-2245/encoder/
+x264-20131101-2245/encoder/cavlc.c
+x264-20131101-2245/encoder/me.h
+x264-20131101-2245/encoder/set.h
+x264-20131101-2245/encoder/lookahead.c
+x264-20131101-2245/encoder/rdo.c
+x264-20131101-2245/encoder/ratecontrol.c
+x264-20131101-2245/encoder/cabac.c
+x264-20131101-2245/encoder/slicetype-cl.c
+x264-20131101-2245/encoder/me.c
+x264-20131101-2245/encoder/ratecontrol.h
+x264-20131101-2245/encoder/macroblock.h
+x264-20131101-2245/encoder/slicetype.c
+x264-20131101-2245/encoder/macroblock.c
+x264-20131101-2245/encoder/analyse.h
+x264-20131101-2245/encoder/set.c
+x264-20131101-2245/encoder/encoder.c
+x264-20131101-2245/encoder/analyse.c
+x264-20131101-2245/AUTHORS
+x264-20131101-2245/common/
+x264-20131101-2245/common/dct.c
+x264-20131101-2245/common/bitstream.c
+x264-20131101-2245/common/predict.c
+x264-20131101-2245/common/mc.h
+x264-20131101-2245/common/set.h
+x264-20131101-2245/common/pixel.h
+x264-20131101-2245/common/visualize.h
+x264-20131101-2245/common/cabac.h
+x264-20131101-2245/common/rectangle.h
+x264-20131101-2245/common/predict.h
+x264-20131101-2245/common/pixel.c
+x264-20131101-2245/common/quant.c
+x264-20131101-2245/common/deblock.c
+x264-20131101-2245/common/bitstream.h
+x264-20131101-2245/common/win32thread.h
+x264-20131101-2245/common/threadpool.h
+x264-20131101-2245/common/arm/
+x264-20131101-2245/common/arm/pixel-a.S
+x264-20131101-2245/common/arm/mc.h
+x264-20131101-2245/common/arm/mc-c.c
+x264-20131101-2245/common/arm/pixel.h
+x264-20131101-2245/common/arm/predict.h
+x264-20131101-2245/common/arm/quant.h
+x264-20131101-2245/common/arm/predict-c.c
+x264-20131101-2245/common/arm/cpu-a.S
+x264-20131101-2245/common/arm/dct.h
+x264-20131101-2245/common/arm/dct-a.S
+x264-20131101-2245/common/arm/deblock-a.S
+x264-20131101-2245/common/arm/mc-a.S
+x264-20131101-2245/common/arm/quant-a.S
+x264-20131101-2245/common/arm/asm.S
+x264-20131101-2245/common/arm/predict-a.S
+x264-20131101-2245/common/quant.h
+x264-20131101-2245/common/x86/
+x264-20131101-2245/common/x86/mc.h
+x264-20131101-2245/common/x86/x86inc.asm
+x264-20131101-2245/common/x86/mc-c.c
+x264-20131101-2245/common/x86/pixel.h
+x264-20131101-2245/common/x86/predict.h
+x264-20131101-2245/common/x86/dct-64.asm
+x264-20131101-2245/common/x86/dct-32.asm
+x264-20131101-2245/common/x86/x86util.asm
+x264-20131101-2245/common/x86/cpu-a.asm
+x264-20131101-2245/common/x86/quant.h
+x264-20131101-2245/common/x86/deblock-a.asm
+x264-20131101-2245/common/x86/predict-c.c
+x264-20131101-2245/common/x86/dct.h
+x264-20131101-2245/common/x86/predict-a.asm
+x264-20131101-2245/common/x86/const-a.asm
+x264-20131101-2245/common/x86/quant-a.asm
+x264-20131101-2245/common/x86/pixel-a.asm
+x264-20131101-2245/common/x86/sad16-a.asm
+x264-20131101-2245/common/x86/bitstream-a.asm
+x264-20131101-2245/common/x86/dct-a.asm
+x264-20131101-2245/common/x86/util.h
+x264-20131101-2245/common/x86/trellis-64.asm
+x264-20131101-2245/common/x86/cabac-a.asm
+x264-20131101-2245/common/x86/pixel-32.asm
+x264-20131101-2245/common/x86/mc-a2.asm
+x264-20131101-2245/common/x86/mc-a.asm
+x264-20131101-2245/common/x86/sad-a.asm
+x264-20131101-2245/common/opencl/
+x264-20131101-2245/common/opencl/x264-cl.h
+x264-20131101-2245/common/opencl/downscale.cl
+x264-20131101-2245/common/opencl/intra.cl
+x264-20131101-2245/common/opencl/bidir.cl
+x264-20131101-2245/common/opencl/weightp.cl
+x264-20131101-2245/common/opencl/subpel.cl
+x264-20131101-2245/common/opencl/motionsearch.cl
+x264-20131101-2245/common/cabac.c
+x264-20131101-2245/common/dct.h
+x264-20131101-2245/common/cpu.h
+x264-20131101-2245/common/vlc.c
+x264-20131101-2245/common/ppc/
+x264-20131101-2245/common/ppc/dct.c
+x264-20131101-2245/common/ppc/predict.c
+x264-20131101-2245/common/ppc/mc.h
+x264-20131101-2245/common/ppc/pixel.h
+x264-20131101-2245/common/ppc/predict.h
+x264-20131101-2245/common/ppc/pixel.c
+x264-20131101-2245/common/ppc/quant.c
+x264-20131101-2245/common/ppc/deblock.c
+x264-20131101-2245/common/ppc/ppccommon.h
+x264-20131101-2245/common/ppc/quant.h
+x264-20131101-2245/common/ppc/dct.h
+x264-20131101-2245/common/ppc/mc.c
+x264-20131101-2245/common/opencl.c
+x264-20131101-2245/common/win32thread.c
+x264-20131101-2245/common/common.c
+x264-20131101-2245/common/threadpool.c
+x264-20131101-2245/common/macroblock.h
+x264-20131101-2245/common/osdep.c
+x264-20131101-2245/common/frame.c
+x264-20131101-2245/common/sparc/
+x264-20131101-2245/common/sparc/pixel.h
+x264-20131101-2245/common/sparc/pixel.asm
+x264-20131101-2245/common/display-x11.c
+x264-20131101-2245/common/opencl.h
+x264-20131101-2245/common/osdep.h
+x264-20131101-2245/common/display.h
+x264-20131101-2245/common/macroblock.c
+x264-20131101-2245/common/cpu.c
+x264-20131101-2245/common/set.c
+x264-20131101-2245/common/mc.c
+x264-20131101-2245/common/common.h
+x264-20131101-2245/common/rectangle.c
+x264-20131101-2245/common/mvpred.c
+x264-20131101-2245/common/frame.h
+x264-20131101-2245/common/visualize.c
+x264-20131101-2245/filters/
+x264-20131101-2245/filters/filters.h
+x264-20131101-2245/filters/filters.c
+x264-20131101-2245/filters/video/
+x264-20131101-2245/filters/video/fix_vfr_pts.c
+x264-20131101-2245/filters/video/source.c
+x264-20131101-2245/filters/video/crop.c
+x264-20131101-2245/filters/video/select_every.c
+x264-20131101-2245/filters/video/depth.c
+x264-20131101-2245/filters/video/video.h
+x264-20131101-2245/filters/video/cache.c
+x264-20131101-2245/filters/video/resize.c
+x264-20131101-2245/filters/video/internal.c
+x264-20131101-2245/filters/video/internal.h
+x264-20131101-2245/filters/video/video.c
+platform:      X86
+system:        LINUX
+cli:           yes
+libx264:       internal
+shared:        yes
+static:        no
+asm:           yes
+interlaced:    yes
+avs:           avxsynth
+lavf:          yes
+ffms:          no
+gpac:          no
+gpl:           yes
+thread:        posix
+opencl:        yes
+filters:       resize crop select_every 
+debug:         no
+gprof:         no
+strip:         no
+PIC:           no
+visualize:     no
+bit depth:     8
+chroma format: all
+
+You can run 'make' or 'make fprofiled' now.
+cat common/opencl/x264-cl.h common/opencl/motionsearch.cl common/opencl/subpel.cl common/opencl/intra.cl common/opencl/weightp.cl common/opencl/downscale.cl common/opencl/bidir.cl | perl ./tools/cltostr.pl x264_opencl_source > common/oclobj.h
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o x264.o x264.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o input/input.o input/input.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o input/timecode.o input/timecode.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o input/raw.o input/raw.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o input/y4m.o input/y4m.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o output/raw.o output/raw.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o output/matroska.o output/matroska.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o output/matroska_ebml.o output/matroska_ebml.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o output/flv.o output/flv.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o output/flv_bytestream.o output/flv_bytestream.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/filters.o filters/filters.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/video.o filters/video/video.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/source.o filters/video/source.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/internal.o filters/video/internal.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/resize.o filters/video/resize.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/cache.o filters/video/cache.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/fix_vfr_pts.o filters/video/fix_vfr_pts.c
+filters/video/resize.c: In function ‘pick_closest_supported_csp’:
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/select_every.o filters/video/select_every.c
+filters/video/resize.c:178:5: warning: ‘av_pix_fmt_descriptors’ is deprecated (declared at /usr/include/libavutil/pixdesc.h:144) [-Wdeprecated-declarations]
+     const AVPixFmtDescriptor *pix_desc = av_pix_fmt_descriptors+pix_fmt;
+     ^
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/crop.o filters/video/crop.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o filters/video/depth.o filters/video/depth.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o input/avs.o input/avs.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o input/thread.o input/thread.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o input/lavf.o input/lavf.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/mc.o common/mc.c
+input/lavf.c: In function ‘read_frame_internal’:
+input/lavf.c:86:5: warning: ‘avcodec_get_frame_defaults’ is deprecated (declared at /usr/include/libavcodec/avcodec.h:3432) [-Wdeprecated-declarations]
+     avcodec_get_frame_defaults( h->frame );
+     ^
+input/lavf.c: In function ‘open_file’:
+input/lavf.c:156:5: warning: ‘avcodec_alloc_frame’ is deprecated (declared at /usr/include/libavcodec/avcodec.h:3422) [-Wdeprecated-declarations]
+     h->frame = avcodec_alloc_frame();
+     ^
+input/lavf.c: In function ‘close_file’:
+input/lavf.c:256:5: warning: ‘avcodec_free_frame’ is deprecated (declared at /usr/include/libavcodec/avcodec.h:3447) [-Wdeprecated-declarations]
+     avcodec_free_frame( &h->frame );
+     ^
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/predict.o common/predict.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/pixel.o common/pixel.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/macroblock.o common/macroblock.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/frame.o common/frame.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/dct.o common/dct.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/cpu.o common/cpu.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/cabac.o common/cabac.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/common.o common/common.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/osdep.o common/osdep.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/rectangle.o common/rectangle.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/set.o common/set.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/quant.o common/quant.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/deblock.o common/deblock.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/vlc.o common/vlc.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/mvpred.o common/mvpred.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/bitstream.o common/bitstream.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/analyse.o encoder/analyse.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/me.o encoder/me.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/ratecontrol.o encoder/ratecontrol.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/set.o encoder/set.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/macroblock.o encoder/macroblock.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/cabac.o encoder/cabac.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/cavlc.o encoder/cavlc.c
+encoder/cabac.c: In function ‘x264_macroblock_write_cabac’:
+encoder/cabac.c:1057:9: warning: ‘*((void *)&nnzbak+20).i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘*((void *)&nnzbak+20).i’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘*((void *)&nnzbak+12).i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘*((void *)&nnzbak+12).i’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘*((void *)&nnzbak+4).i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘*((void *)&nnzbak+4).i’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[2][1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[2][1]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[2][0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[2][0]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[1][1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[1][1]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[1][0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[1][0]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[0][1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[0][1]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[0][0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[0][0]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[2][3]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[2][3]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[2][2]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[2][2]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[1][3]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[1][3]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[1][2]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[1][2]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[0][3]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[0][3]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+encoder/cabac.c:1057:9: warning: ‘nnzbak[0][2]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/cabac.c:28:
+encoder/cabac.c:1048:36: note: ‘nnzbak[0][2]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/encoder.o encoder/encoder.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/lookahead.o encoder/lookahead.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/threadpool.o common/threadpool.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/x86/mc-c.o common/x86/mc-c.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/x86/predict-c.o common/x86/predict-c.c
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/rdo.c: In function ‘x264_rd_cost_mb’:
+encoder/cabac.c:1057:9: warning: ‘*((void *)&nnzbak+20).i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘*((void *)&nnzbak+20).i’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘*((void *)&nnzbak+12).i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘*((void *)&nnzbak+12).i’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘*((void *)&nnzbak+4).i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘*((void *)&nnzbak+4).i’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[2][1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[2][1]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[2][0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[2][0]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[1][1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[1][1]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[1][0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[1][0]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[0][1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[0][1]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[0][0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[0][0]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[2][3]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[2][3]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[2][2]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[2][2]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[1][3]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[1][3]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[1][2]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[1][2]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[0][3]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[0][3]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+In file included from encoder/rdo.c:64:0,
+                 from encoder/analyse.c:35:
+encoder/cabac.c:1057:9: warning: ‘nnzbak[0][2]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     src = dst;
+         ^
+In file included from ./common/common.h:117:0,
+                 from encoder/analyse.c:30:
+encoder/cabac.c:1048:36: note: ‘nnzbak[0][2]’ was declared here
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                                    ^
+./common/osdep.h:93:35: note: in definition of macro ‘DECLARE_ALIGNED’
+ #define DECLARE_ALIGNED( var, n ) var __attribute__((aligned(n)))
+                                   ^
+encoder/cabac.c:1048:17: note: in expansion of macro ‘ALIGNED_4’
+                 ALIGNED_4( uint8_t nnzbak[3][8] );
+                 ^
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o common/opencl.o common/opencl.c
+gcc -Wshadow -O3 -ffast-math -m32  -Wall -I. -I. -march=i686 -mfpmath=sse -msse -std=gnu99 -mpreferred-stack-boundary=5       -fomit-frame-pointer -fno-tree-vectorize   -c -o encoder/slicetype-cl.o encoder/slicetype-cl.c
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/const-a.o common/x86/const-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/cabac-a.o common/x86/cabac-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/dct-a.o common/x86/dct-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/deblock-a.o common/x86/deblock-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/mc-a.o common/x86/mc-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/mc-a2.o common/x86/mc-a2.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/pixel-a.o common/x86/pixel-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/predict-a.o common/x86/predict-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/quant-a.o common/x86/quant-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/cpu-a.o common/x86/cpu-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/dct-32.o common/x86/dct-32.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/bitstream-a.o common/x86/bitstream-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/sad-a.o common/x86/sad-a.asm
+yasm -O2 -f elf -DHAVE_ALIGNED_STACK=1 -DHIGH_BIT_DEPTH=0 -DBIT_DEPTH=8 -DARCH_X86_64=0 -I./common/x86/ -o common/x86/pixel-32.o common/x86/pixel-32.asm
+rm -f libx264.a
+gcc -o libx264.so.138  common/mc.o common/predict.o common/pixel.o common/macroblock.o common/frame.o common/dct.o common/cpu.o common/cabac.o common/common.o common/osdep.o common/rectangle.o common/set.o common/quant.o common/deblock.o common/vlc.o common/mvpred.o common/bitstream.o encoder/analyse.o encoder/me.o encoder/ratecontrol.o encoder/set.o encoder/macroblock.o encoder/cabac.o encoder/cavlc.o encoder/encoder.o encoder/lookahead.o common/threadpool.o common/x86/mc-c.o common/x86/predict-c.o common/opencl.o encoder/slicetype-cl.o common/x86/const-a.o common/x86/cabac-a.o common/x86/dct-a.o common/x86/deblock-a.o common/x86/mc-a.o common/x86/mc-a2.o common/x86/pixel-a.o common/x86/predict-a.o common/x86/quant-a.o common/x86/cpu-a.o common/x86/dct-32.o common/x86/bitstream-a.o common/x86/sad-a.o common/x86/pixel-32.o   -shared -Wl,-soname,libx264.so.138  -m32  -lm -lpthread -ldl
+ar rc libx264.a  common/mc.o common/predict.o common/pixel.o common/macroblock.o common/frame.o common/dct.o common/cpu.o common/cabac.o common/common.o common/osdep.o common/rectangle.o common/set.o common/quant.o common/deblock.o common/vlc.o common/mvpred.o common/bitstream.o encoder/analyse.o encoder/me.o encoder/ratecontrol.o encoder/set.o encoder/macroblock.o encoder/cabac.o encoder/cavlc.o encoder/encoder.o encoder/lookahead.o common/threadpool.o common/x86/mc-c.o common/x86/predict-c.o common/opencl.o encoder/slicetype-cl.o common/x86/const-a.o common/x86/cabac-a.o common/x86/dct-a.o common/x86/deblock-a.o common/x86/mc-a.o common/x86/mc-a2.o common/x86/pixel-a.o common/x86/predict-a.o common/x86/quant-a.o common/x86/cpu-a.o common/x86/dct-32.o common/x86/bitstream-a.o common/x86/sad-a.o common/x86/pixel-32.o
+ranlib libx264.a
+gcc -o x264  x264.o input/input.o input/timecode.o input/raw.o input/y4m.o output/raw.o output/matroska.o output/matroska_ebml.o output/flv.o output/flv_bytestream.o filters/filters.o filters/video/video.o filters/video/source.o filters/video/internal.o filters/video/resize.o filters/video/cache.o filters/video/fix_vfr_pts.o filters/video/select_every.o filters/video/crop.o filters/video/depth.o input/avs.o input/thread.o input/lavf.o libx264.a -ldl -L.  -lavformat -lavcodec -lavutil -lswscale    -lswscale -lavutil    -m32  -lm -lpthread -ldl
+install -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/bin
+install x264 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/bin
+install -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/include
+install -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/lib
+install -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/lib/pkgconfig
+install -m 644 ./x264.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/include
+install -m 644 x264_config.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/include
+install -m 644 x264.pc /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/lib/pkgconfig
+ln -f -s libx264.so.138 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/lib/libx264.so
+install -m 755 libx264.so.138 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264/x264-install/usr/lib
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/x264
+Processing ../x264-install/usr/bin/x264
+Processing ../x264-install/usr/include/x264_config.h
+Processing ../x264-install/usr/include/x264.h
+Processing ../x264-install/usr/lib/libx264.so
+Processing ../x264-install/usr/lib/libx264.so.138
+Processing ../x264-install/usr/lib/pkgconfig/x264.pc
+all done
+packaging x264-20131101-2245-i686_slk600
+packaging x264_DEV-20131101-2245-i686_slk600
+done!

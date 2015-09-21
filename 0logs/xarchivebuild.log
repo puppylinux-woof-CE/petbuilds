@@ -1,0 +1,294 @@
+xarchive-0.2.8-6-i18n/
+xarchive-0.2.8-6-i18n/configure.ac
+xarchive-0.2.8-6-i18n/icons/
+xarchive-0.2.8-6-i18n/icons/Makefile.am
+xarchive-0.2.8-6-i18n/icons/Makefile.in
+xarchive-0.2.8-6-i18n/icons/xarchive.xpm
+xarchive-0.2.8-6-i18n/configure
+xarchive-0.2.8-6-i18n/Makefile.am
+xarchive-0.2.8-6-i18n/xarchive.desktop.src
+xarchive-0.2.8-6-i18n/Makefile.in
+xarchive-0.2.8-6-i18n/config/
+xarchive-0.2.8-6-i18n/config/mkinstalldirs
+xarchive-0.2.8-6-i18n/config/missing
+xarchive-0.2.8-6-i18n/config/config.sub
+xarchive-0.2.8-6-i18n/config/install-sh
+xarchive-0.2.8-6-i18n/config/config.guess
+xarchive-0.2.8-6-i18n/config/depcomp
+xarchive-0.2.8-6-i18n/doc/
+xarchive-0.2.8-6-i18n/doc/Makefile.am
+xarchive-0.2.8-6-i18n/doc/xarchive.1.html
+xarchive-0.2.8-6-i18n/doc/xarchive.1.txt.src
+xarchive-0.2.8-6-i18n/doc/Makefile.in
+xarchive-0.2.8-6-i18n/doc/Makefile
+xarchive-0.2.8-6-i18n/doc/xarchive.1.txt
+xarchive-0.2.8-6-i18n/doc/xarchive.1.xml
+xarchive-0.2.8-6-i18n/doc/xarchive.1
+xarchive-0.2.8-6-i18n/doc/xarchive.1.txt.src.bak
+xarchive-0.2.8-6-i18n/config.h
+xarchive-0.2.8-6-i18n/aclocal.m4
+xarchive-0.2.8-6-i18n/INSTALL
+xarchive-0.2.8-6-i18n/src/
+xarchive-0.2.8-6-i18n/src/main.c
+xarchive-0.2.8-6-i18n/src/Makefile.am
+xarchive-0.2.8-6-i18n/src/Makefile.in
+xarchive-0.2.8-6-i18n/src/common.h
+xarchive-0.2.8-6-i18n/src/main.h
+xarchive-0.2.8-6-i18n/src/ru.po
+xarchive-0.2.8-6-i18n/src/widgets_gtk.c
+xarchive-0.2.8-6-i18n/src/ru.mo
+xarchive-0.2.8-6-i18n/src/my_gettext_commands.txt
+xarchive-0.2.8-6-i18n/src/myfc_gtk.h
+xarchive-0.2.8-6-i18n/src/myfc_gtk.c
+xarchive-0.2.8-6-i18n/src/widgets_gtk.h
+xarchive-0.2.8-6-i18n/src/TODO
+xarchive-0.2.8-6-i18n/src/xarchive.pot
+xarchive-0.2.8-6-i18n/src/my_strescape.c
+xarchive-0.2.8-6-i18n/wrappers/
+xarchive-0.2.8-6-i18n/wrappers/7za.src
+xarchive-0.2.8-6-i18n/wrappers/zip.src
+xarchive-0.2.8-6-i18n/wrappers/Makefile.am
+xarchive-0.2.8-6-i18n/wrappers/Makefile.in
+xarchive-0.2.8-6-i18n/wrappers/tar-bsd.src
+xarchive-0.2.8-6-i18n/wrappers/arj.src
+xarchive-0.2.8-6-i18n/wrappers/rpm-bsd.src
+xarchive-0.2.8-6-i18n/wrappers/rpm-gnu.src
+xarchive-0.2.8-6-i18n/wrappers/tar-gnu.src
+xarchive-0.2.8-6-i18n/wrappers/deb.src
+xarchive-0.2.8-6-i18n/wrappers/rar.src
+xarchive-0.2.8-6-i18n/wrappers/ace.src
+xarchive-0.2.8-6-i18n/COPYING
+xarchive-0.2.8-6-i18n/ChangeLog
+xarchive-0.2.8-6-i18n/debian/
+xarchive-0.2.8-6-i18n/debian/xarchive.postinst.debhelper
+xarchive-0.2.8-6-i18n/debian/rules
+xarchive-0.2.8-6-i18n/debian/docs
+xarchive-0.2.8-6-i18n/debian/compat
+xarchive-0.2.8-6-i18n/debian/menu
+xarchive-0.2.8-6-i18n/debian/control
+xarchive-0.2.8-6-i18n/debian/copyright
+xarchive-0.2.8-6-i18n/debian/dirs
+xarchive-0.2.8-6-i18n/debian/files
+xarchive-0.2.8-6-i18n/debian/changelog
+xarchive-0.2.8-6-i18n/debian/xarchive.postrm.debhelper
+xarchive-0.2.8-6-i18n/debian/xarchive.substvars
+xarchive-0.2.8-6-i18n/AUTHORS
+xarchive-0.2.8-6-i18n/NEWS
+xarchive-0.2.8-6-i18n/config.h.in
+xarchive-0.2.8-6-i18n/README
+mv: cannot move ‘xarchive-0.2.8-6-i18n’ to a subdirectory of itself, ‘xarchive-0.2.8-6-i18n/xarchive-0.2.8-6-i18n’
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... i686-pc-linux-gnu
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for bash... /bin/bash
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GTK_CFLAGS... -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz  
+checking for GTK_LIBS... -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0  
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for mbstate_t... yes
+checking for working POSIX fnmatch... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for strtoul... yes
+checking for canonicalize_file_name... yes
+checking for getline... yes
+checking for mkdtemp... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating wrappers/Makefile
+config.status: creating icons/Makefile
+config.status: creating doc/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n'
+Making all in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/src'
+source='main.c' object='main.o' libtool=no \
+depfile='.deps/main.Po' tmpdepfile='.deps/main.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -DWRAPPER_DIR=\"/usr/lib/xarchive/wrappers\"  -DHELP_FILE_PATH=\"/usr/share/doc/xarchive/xarchive.1.txt\" -Wall -DG_DISABLE_DEPRECATED -DGDK_DISABLE_DEPRECATED -DGTK_PIXBUF_DISABLE_DEPRECATED -DGTK_DISABLE_DEPRECIATED  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -c `test -f 'main.c' || echo './'`main.c
+source='myfc_gtk.c' object='myfc_gtk.o' libtool=no \
+depfile='.deps/myfc_gtk.Po' tmpdepfile='.deps/myfc_gtk.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -DWRAPPER_DIR=\"/usr/lib/xarchive/wrappers\"  -DHELP_FILE_PATH=\"/usr/share/doc/xarchive/xarchive.1.txt\" -Wall -DG_DISABLE_DEPRECATED -DGDK_DISABLE_DEPRECATED -DGTK_PIXBUF_DISABLE_DEPRECATED -DGTK_DISABLE_DEPRECIATED  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -c `test -f 'myfc_gtk.c' || echo './'`myfc_gtk.c
+source='widgets_gtk.c' object='widgets_gtk.o' libtool=no \
+depfile='.deps/widgets_gtk.Po' tmpdepfile='.deps/widgets_gtk.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -DWRAPPER_DIR=\"/usr/lib/xarchive/wrappers\"  -DHELP_FILE_PATH=\"/usr/share/doc/xarchive/xarchive.1.txt\" -Wall -DG_DISABLE_DEPRECATED -DGDK_DISABLE_DEPRECATED -DGTK_PIXBUF_DISABLE_DEPRECATED -DGTK_DISABLE_DEPRECIATED  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -c `test -f 'widgets_gtk.c' || echo './'`widgets_gtk.c
+source='my_strescape.c' object='my_strescape.o' libtool=no \
+depfile='.deps/my_strescape.Po' tmpdepfile='.deps/my_strescape.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -DWRAPPER_DIR=\"/usr/lib/xarchive/wrappers\"  -DHELP_FILE_PATH=\"/usr/share/doc/xarchive/xarchive.1.txt\" -Wall -DG_DISABLE_DEPRECATED -DGDK_DISABLE_DEPRECATED -DGTK_PIXBUF_DISABLE_DEPRECATED -DGTK_DISABLE_DEPRECIATED  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -c `test -f 'my_strescape.c' || echo './'`my_strescape.c
+main.c: In function ‘setup_exts’:
+main.c:68:3: warning: pointer targets in passing argument 2 of ‘getline’ differ in signedness [-Wpointer-sign]
+   if (getline(&dataline, &maxline, fdata) > 0) 
+   ^
+In file included from /usr/include/stdio.h:934:0,
+                 from main.h:5,
+                 from main.c:20:
+/usr/include/bits/stdio.h:115:1: note: expected ‘size_t *’ but argument is of type ‘int *’
+ getline (char **__lineptr, size_t *__n, FILE *__stream)
+ ^
+main.c: In function ‘get_archive_data’:
+main.c:242:3: warning: pointer targets in passing argument 2 of ‘getline’ differ in signedness [-Wpointer-sign]
+   while ( (error == 0) && (getline(&dataline, &maxline, fdata) > 0))
+   ^
+In file included from /usr/include/stdio.h:934:0,
+                 from main.h:5,
+                 from main.c:20:
+/usr/include/bits/stdio.h:115:1: note: expected ‘size_t *’ but argument is of type ‘gint *’
+ getline (char **__lineptr, size_t *__n, FILE *__stream)
+ ^
+gcc  -g -O2 -DWRAPPER_DIR=\"/usr/lib/xarchive/wrappers\"  -DHELP_FILE_PATH=\"/usr/share/doc/xarchive/xarchive.1.txt\" -Wall -DG_DISABLE_DEPRECATED -DGDK_DISABLE_DEPRECATED -DGTK_PIXBUF_DISABLE_DEPRECATED -DGTK_DISABLE_DEPRECIATED  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz     -o xarchive  main.o myfc_gtk.o widgets_gtk.o my_strescape.o -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0   
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/src'
+Making all in wrappers
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/wrappers'
+list='zip.src rar.src 7za.src arj.src deb.src ace.src'; for file in $list; do \
+	cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%.src}-wrap.sh; done; chmod a+x zip-wrap.sh rar-wrap.sh 7za-wrap.sh arj-wrap.sh deb-wrap.sh ace-wrap.sh 
+list='zip.src rar.src 7za.src arj.src deb.src ace.src'; for file in $list; do \
+	cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%.src}-wrap.sh; done; chmod a+x zip-wrap.sh rar-wrap.sh 7za-wrap.sh arj-wrap.sh deb-wrap.sh ace-wrap.sh 
+list='zip.src rar.src 7za.src arj.src deb.src ace.src'; for file in $list; do \
+	cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%.src}-wrap.sh; done; chmod a+x zip-wrap.sh rar-wrap.sh 7za-wrap.sh arj-wrap.sh deb-wrap.sh ace-wrap.sh 
+list='zip.src rar.src 7za.src arj.src deb.src ace.src'; for file in $list; do \
+	cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%.src}-wrap.sh; done; chmod a+x zip-wrap.sh rar-wrap.sh 7za-wrap.sh arj-wrap.sh deb-wrap.sh ace-wrap.sh 
+list='zip.src rar.src 7za.src arj.src deb.src ace.src'; for file in $list; do \
+	cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%.src}-wrap.sh; done; chmod a+x zip-wrap.sh rar-wrap.sh 7za-wrap.sh arj-wrap.sh deb-wrap.sh ace-wrap.sh 
+if [ $(expr "linux-gnu" : ".*bsd.*") -gt 0 ]; then \
+          list='tar-bsd.src rpm-bsd.src'; for file in $list; do \
+            cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%-bsd.src}-wrap.sh; done; \
+else \
+  list='tar-gnu.src rpm-gnu.src'; for file in $list; do \
+    cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%-gnu.src}-wrap.sh; done; \
+fi; chmod a+x tar-wrap.sh rpm-wrap.sh
+if [ $(expr "linux-gnu" : ".*bsd.*") -gt 0 ]; then \
+          list='tar-bsd.src rpm-bsd.src'; for file in $list; do \
+            cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%-bsd.src}-wrap.sh; done; \
+else \
+  list='tar-gnu.src rpm-gnu.src'; for file in $list; do \
+    cat $file | sed -e '1s,/path/to/bash,/bin/bash,' > ${file%%-gnu.src}-wrap.sh; done; \
+fi; chmod a+x tar-wrap.sh rpm-wrap.sh
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/wrappers'
+Making all in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/doc'
+Making all in icons
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/icons'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/icons'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n'
+cat xarchive.desktop.src | sed -e 's,/path/to/icons/,/usr/share/pixmaps/,' > xarchive.desktop
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/src'
+/bin/sh ../config/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/bin
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/bin
+  /usr/bin/ginstall -c xarchive /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/bin/xarchive
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/src'
+Making install in wrappers
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/wrappers'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/wrappers'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers
+ /usr/bin/ginstall -c zip-wrap.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers/zip-wrap.sh
+ /usr/bin/ginstall -c rar-wrap.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers/rar-wrap.sh
+ /usr/bin/ginstall -c 7za-wrap.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers/7za-wrap.sh
+ /usr/bin/ginstall -c arj-wrap.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers/arj-wrap.sh
+ /usr/bin/ginstall -c deb-wrap.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers/deb-wrap.sh
+ /usr/bin/ginstall -c ace-wrap.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers/ace-wrap.sh
+ /usr/bin/ginstall -c tar-wrap.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers/tar-wrap.sh
+ /usr/bin/ginstall -c rpm-wrap.sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/lib/xarchive/wrappers/rpm-wrap.sh
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/wrappers'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/wrappers'
+Making install in doc
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/doc'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/doc/xarchive
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/doc/xarchive
+ /usr/bin/ginstall -c -m 644 xarchive.1.html /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/doc/xarchive/xarchive.1.html
+ /usr/bin/ginstall -c -m 644 xarchive.1.txt /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/doc/xarchive/xarchive.1.txt
+/bin/sh ../config/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/man/man1
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/man/man1
+ /usr/bin/ginstall -c -m 644 ./xarchive.1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/man/man1/xarchive.1
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/doc'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/doc'
+Making install in icons
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/icons'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/icons'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/pixmaps
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/pixmaps
+ /usr/bin/ginstall -c -m 644 xarchive.xpm /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/pixmaps/xarchive.xpm
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/icons'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n/icons'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ./config/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/applications
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/applications
+ /usr/bin/ginstall -c -m 644 xarchive.desktop /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-install/usr/share/applications/xarchive.desktop
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive/xarchive-0.2.8-6-i18n'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xarchive
+WARNING build_cpu='i686' NOT host_cpu=''
+Found 'i686'
+Processing ../xarchive-install/usr/bin/xarchive
+Processing ../xarchive-install/usr/lib/xarchive/wrappers/7za-wrap.sh
+Processing ../xarchive-install/usr/lib/xarchive/wrappers/ace-wrap.sh
+Processing ../xarchive-install/usr/lib/xarchive/wrappers/arj-wrap.sh
+Processing ../xarchive-install/usr/lib/xarchive/wrappers/deb-wrap.sh
+Processing ../xarchive-install/usr/lib/xarchive/wrappers/rar-wrap.sh
+Processing ../xarchive-install/usr/lib/xarchive/wrappers/rpm-wrap.sh
+Processing ../xarchive-install/usr/lib/xarchive/wrappers/tar-wrap.sh
+Processing ../xarchive-install/usr/lib/xarchive/wrappers/zip-wrap.sh
+Processing ../xarchive-install/usr/man/man1/xarchive.1
+Processing ../xarchive-install/usr/share/applications/xarchive.desktop
+Processing ../xarchive-install/usr/share/doc/xarchive/xarchive.1.html
+Processing ../xarchive-install/usr/share/doc/xarchive/xarchive.1.txt
+Processing ../xarchive-install/usr/share/pixmaps/xarchive.xpm
+all done
+packaging xarchive-0.2.8-6-i18n-i686_slk600
+packaging xarchive_DOC-0.2.8-6-i18n-i686_slk600
+done!

@@ -1,0 +1,614 @@
+libexif-gtk-0.4.0/
+libexif-gtk-0.4.0/po/
+libexif-gtk-0.4.0/po/ru.gmo
+libexif-gtk-0.4.0/po/insert-header.sin
+libexif-gtk-0.4.0/po/POTFILES.in
+libexif-gtk-0.4.0/po/Makevars
+libexif-gtk-0.4.0/po/es.po
+libexif-gtk-0.4.0/po/fr.po
+libexif-gtk-0.4.0/po/Makefile.in.in
+libexif-gtk-0.4.0/po/en@quot.header
+libexif-gtk-0.4.0/po/stamp-po
+libexif-gtk-0.4.0/po/en@boldquot.header
+libexif-gtk-0.4.0/po/de.gmo
+libexif-gtk-0.4.0/po/ChangeLog
+libexif-gtk-0.4.0/po/quot.sed
+libexif-gtk-0.4.0/po/Rules-quot
+libexif-gtk-0.4.0/po/boldquot.sed
+libexif-gtk-0.4.0/po/fr.gmo
+libexif-gtk-0.4.0/po/ru.po
+libexif-gtk-0.4.0/po/es.gmo
+libexif-gtk-0.4.0/po/pl.po
+libexif-gtk-0.4.0/po/de.po
+libexif-gtk-0.4.0/po/pl.gmo
+libexif-gtk-0.4.0/po/remove-potcdate.sin
+libexif-gtk-0.4.0/po/libexif-gtk-5.pot
+libexif-gtk-0.4.0/Makefile.am
+libexif-gtk-0.4.0/aclocal.m4
+libexif-gtk-0.4.0/libexif-gtk/
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-version.c
+libexif-gtk-0.4.0/libexif-gtk/Makefile.am
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-rational.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-resolution.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-util.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-content-list.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-option.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-flash.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-number.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-date.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry.c
+libexif-gtk-0.4.0/libexif-gtk/Makefile.in
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-user-comment.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-number.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-copyright.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-option.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-version.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-generic.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-resolution.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-browser.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-flash.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-ascii.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-copyright.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-ascii.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-content-list.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-date.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-user-comment.c
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-generic.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry-rational.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-browser.h
+libexif-gtk-0.4.0/libexif-gtk/gtk-exif-entry.h
+libexif-gtk-0.4.0/NEWS
+libexif-gtk-0.4.0/tests/
+libexif-gtk-0.4.0/tests/Makefile.am
+libexif-gtk-0.4.0/tests/Makefile.in
+libexif-gtk-0.4.0/tests/test-libexif-gtk.c
+libexif-gtk-0.4.0/missing
+libexif-gtk-0.4.0/ltmain.sh
+libexif-gtk-0.4.0/configure
+libexif-gtk-0.4.0/libexif-gtk3-uninstalled.pc.in
+libexif-gtk-0.4.0/Makefile.in
+libexif-gtk-0.4.0/config.rpath
+libexif-gtk-0.4.0/libexif-gtk.pc.in
+libexif-gtk-0.4.0/configure.ac
+libexif-gtk-0.4.0/depcomp
+libexif-gtk-0.4.0/README
+libexif-gtk-0.4.0/m4m/
+libexif-gtk-0.4.0/m4m/Makefile.am
+libexif-gtk-0.4.0/m4m/gp-check-popt.m4
+libexif-gtk-0.4.0/m4m/gp-byteorder.m4
+libexif-gtk-0.4.0/m4m/Makefile.in
+libexif-gtk-0.4.0/m4m/gp-check-shell-environment.m4
+libexif-gtk-0.4.0/m4m/gp-documentation.m4
+libexif-gtk-0.4.0/m4m/gp-packaging.m4
+libexif-gtk-0.4.0/m4m/gp-config-msg.m4
+libexif-gtk-0.4.0/m4m/gp-references.m4
+libexif-gtk-0.4.0/m4m/gp-gettext-hack.m4
+libexif-gtk-0.4.0/m4m/gp-check-library.m4
+libexif-gtk-0.4.0/m4m/stdint.m4
+libexif-gtk-0.4.0/m4m/gp-pkg-config.m4
+libexif-gtk-0.4.0/INSTALL
+libexif-gtk-0.4.0/config.guess
+libexif-gtk-0.4.0/ABOUT-NLS
+libexif-gtk-0.4.0/libexif-gtk3.pc.in
+libexif-gtk-0.4.0/config.sub
+libexif-gtk-0.4.0/gtk-extensions/
+libexif-gtk-0.4.0/gtk-extensions/gtk-menu-option.h
+libexif-gtk-0.4.0/gtk-extensions/Makefile.am
+libexif-gtk-0.4.0/gtk-extensions/Makefile.in
+libexif-gtk-0.4.0/gtk-extensions/gtk-options.h
+libexif-gtk-0.4.0/gtk-extensions/gtk-menu-option.c
+libexif-gtk-0.4.0/gtk-extensions/gtk-options.c
+libexif-gtk-0.4.0/mkinstalldirs
+libexif-gtk-0.4.0/AUTHORS
+libexif-gtk-0.4.0/ChangeLog
+libexif-gtk-0.4.0/config.h.in
+libexif-gtk-0.4.0/auto-m4/
+libexif-gtk-0.4.0/auto-m4/nls.m4
+libexif-gtk-0.4.0/auto-m4/po.m4
+libexif-gtk-0.4.0/auto-m4/lib-ld.m4
+libexif-gtk-0.4.0/auto-m4/ltsugar.m4
+libexif-gtk-0.4.0/auto-m4/lib-prefix.m4
+libexif-gtk-0.4.0/auto-m4/progtest.m4
+libexif-gtk-0.4.0/auto-m4/iconv.m4
+libexif-gtk-0.4.0/auto-m4/lt~obsolete.m4
+libexif-gtk-0.4.0/auto-m4/libtool.m4
+libexif-gtk-0.4.0/auto-m4/gettext.m4
+libexif-gtk-0.4.0/auto-m4/lib-link.m4
+libexif-gtk-0.4.0/auto-m4/ltversion.m4
+libexif-gtk-0.4.0/auto-m4/ltoptions.m4
+libexif-gtk-0.4.0/COPYING
+libexif-gtk-0.4.0/libexif-gtk-uninstalled.pc.in
+libexif-gtk-0.4.0/compile
+libexif-gtk-0.4.0/install-sh
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for POSIX sh $() command substitution... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking PKG_CONFIG_PATH... empty
+checking for pkg-config... /usr/bin/pkg-config
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for po/Makevars requiring hack... no
+checking for ld used by GCC... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for gtk+-2.0 to use... autodetect
+checking for GTK... yes
+checking gtk+-2.0 library flags... -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0  
+checking gtk+-2.0 cpp flags... -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz  
+checking for libexif to use... autodetect
+checking for LIBEXIF... yes
+checking libexif library flags... -lexif  
+checking libexif cpp flags... -I/usr/include/libexif  
+configure: creating ./config.status
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating Makefile
+config.status: creating libexif-gtk/Makefile
+config.status: creating libexif-gtk.pc
+config.status: creating libexif-gtk-uninstalled.pc
+config.status: creating gtk-extensions/Makefile
+config.status: creating tests/Makefile
+config.status: creating m4m/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+Configuration (libexif-gtk 0.4.0):
+
+  Build
+    Source code location:          .
+    Compiler:                      gcc
+    Use translations:              yes
+    gtk+-2.0:                      yes
+    libexif:                       yes
+
+You may run "make" and "make install" now.
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0'
+Making all in m4m
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/m4m'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/m4m'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/po'
+Making all in gtk-extensions
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/gtk-extensions'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -g -O2 -MT libgtk_extensions_la-gtk-menu-option.lo -MD -MP -MF .deps/libgtk_extensions_la-gtk-menu-option.Tpo -c -o libgtk_extensions_la-gtk-menu-option.lo `test -f 'gtk-menu-option.c' || echo './'`gtk-menu-option.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -g -O2 -MT libgtk_extensions_la-gtk-options.lo -MD -MP -MF .deps/libgtk_extensions_la-gtk-options.Tpo -c -o libgtk_extensions_la-gtk-options.lo `test -f 'gtk-options.c' || echo './'`gtk-options.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -g -O2 -MT libgtk_extensions_la-gtk-menu-option.lo -MD -MP -MF .deps/libgtk_extensions_la-gtk-menu-option.Tpo -c gtk-menu-option.c  -fPIC -DPIC -o .libs/libgtk_extensions_la-gtk-menu-option.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -g -O2 -MT libgtk_extensions_la-gtk-options.lo -MD -MP -MF .deps/libgtk_extensions_la-gtk-options.Tpo -c gtk-options.c  -fPIC -DPIC -o .libs/libgtk_extensions_la-gtk-options.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -g -O2 -MT libgtk_extensions_la-gtk-options.lo -MD -MP -MF .deps/libgtk_extensions_la-gtk-options.Tpo -c gtk-options.c -o libgtk_extensions_la-gtk-options.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -g -O2 -MT libgtk_extensions_la-gtk-menu-option.lo -MD -MP -MF .deps/libgtk_extensions_la-gtk-menu-option.Tpo -c gtk-menu-option.c -o libgtk_extensions_la-gtk-menu-option.o >/dev/null 2>&1
+mv -f .deps/libgtk_extensions_la-gtk-options.Tpo .deps/libgtk_extensions_la-gtk-options.Plo
+mv -f .deps/libgtk_extensions_la-gtk-menu-option.Tpo .deps/libgtk_extensions_la-gtk-menu-option.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -g -O2 -g -Wall  -o libgtk-extensions.la  libgtk_extensions_la-gtk-menu-option.lo libgtk_extensions_la-gtk-options.lo -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0   
+libtool: link: ar cru .libs/libgtk-extensions.a .libs/libgtk_extensions_la-gtk-menu-option.o .libs/libgtk_extensions_la-gtk-options.o 
+libtool: link: ranlib .libs/libgtk-extensions.a
+libtool: link: ( cd ".libs" && rm -f "libgtk-extensions.la" && ln -s "../libgtk-extensions.la" "libgtk-extensions.la" )
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/gtk-extensions'
+Making all in libexif-gtk
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/libexif-gtk'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-browser.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-browser.Tpo -c -o libexif_gtk_la-gtk-exif-browser.lo `test -f 'gtk-exif-browser.c' || echo './'`gtk-exif-browser.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-content-list.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-content-list.Tpo -c -o libexif_gtk_la-gtk-exif-content-list.lo `test -f 'gtk-exif-content-list.c' || echo './'`gtk-exif-content-list.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry.Tpo -c -o libexif_gtk_la-gtk-exif-entry.lo `test -f 'gtk-exif-entry.c' || echo './'`gtk-exif-entry.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-ascii.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-ascii.Tpo -c -o libexif_gtk_la-gtk-exif-entry-ascii.lo `test -f 'gtk-exif-entry-ascii.c' || echo './'`gtk-exif-entry-ascii.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-ascii.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-ascii.Tpo -c gtk-exif-entry-ascii.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-ascii.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-content-list.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-content-list.Tpo -c gtk-exif-content-list.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-content-list.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-browser.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-browser.Tpo -c gtk-exif-browser.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-browser.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry.Tpo -c gtk-exif-entry.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry.o
+gtk-exif-entry-ascii.c: In function 'on_text_changed':
+gtk-exif-entry-ascii.c:104:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  entry->priv->entry->data = txt;
+                           ^
+gtk-exif-entry-ascii.c: In function 'gtk_exif_entry_ascii_new':
+gtk-exif-entry-ascii.c:129:2: warning: pointer targets in passing argument 2 of 'gtk_entry_set_text' differ in signedness [-Wpointer-sign]
+  gtk_entry_set_text (GTK_ENTRY (widget), e->data);
+  ^
+In file included from /usr/include/gtk-2.0/gtk/gtktreeview.h:31:0,
+                 from /usr/include/gtk-2.0/gtk/gtkcombobox.h:29,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:72,
+                 from ../libexif-gtk/gtk-exif-entry.h:24,
+                 from gtk-exif-entry-ascii.h:24,
+                 from gtk-exif-entry-ascii.c:22:
+/usr/include/gtk-2.0/gtk/gtkentry.h:213:12: note: expected 'const gchar *' but argument is of type 'unsigned char *'
+ void       gtk_entry_set_text                   (GtkEntry      *entry,
+            ^
+gtk-exif-browser.c: In function 'on_load_ok_clicked':
+gtk-exif-browser.c:470:23: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   b->priv->data->data = g_new0 (char, size);
+                       ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-ascii.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-ascii.Tpo -c gtk-exif-entry-ascii.c -o libexif_gtk_la-gtk-exif-entry-ascii.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry.Tpo -c gtk-exif-entry.c -o libexif_gtk_la-gtk-exif-entry.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-content-list.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-content-list.Tpo -c gtk-exif-content-list.c -o libexif_gtk_la-gtk-exif-content-list.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-browser.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-browser.Tpo -c gtk-exif-browser.c -o libexif_gtk_la-gtk-exif-browser.o >/dev/null 2>&1
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-ascii.Tpo .deps/libexif_gtk_la-gtk-exif-entry-ascii.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-copyright.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-copyright.Tpo -c -o libexif_gtk_la-gtk-exif-entry-copyright.lo `test -f 'gtk-exif-entry-copyright.c' || echo './'`gtk-exif-entry-copyright.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-copyright.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-copyright.Tpo -c gtk-exif-entry-copyright.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-copyright.o
+mv -f .deps/libexif_gtk_la-gtk-exif-entry.Tpo .deps/libexif_gtk_la-gtk-exif-entry.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-date.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-date.Tpo -c -o libexif_gtk_la-gtk-exif-entry-date.lo `test -f 'gtk-exif-entry-date.c' || echo './'`gtk-exif-entry-date.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-date.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-date.Tpo -c gtk-exif-entry-date.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-date.o
+mv -f .deps/libexif_gtk_la-gtk-exif-content-list.Tpo .deps/libexif_gtk_la-gtk-exif-content-list.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-generic.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-generic.Tpo -c -o libexif_gtk_la-gtk-exif-entry-generic.lo `test -f 'gtk-exif-entry-generic.c' || echo './'`gtk-exif-entry-generic.c
+gtk-exif-entry-copyright.c: In function 'on_text_changed':
+gtk-exif-entry-copyright.c:131:27: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  entry->priv->entry->data = g_strdup_printf ("%s %s", photographer,
+                           ^
+gtk-exif-entry-copyright.c: In function 'gtk_exif_entry_copyright_new':
+gtk-exif-entry-copyright.c:183:2: warning: pointer targets in passing argument 2 of 'gtk_entry_set_text' differ in signedness [-Wpointer-sign]
+  gtk_entry_set_text (GTK_ENTRY (widget), e->data);
+  ^
+In file included from /usr/include/gtk-2.0/gtk/gtktreeview.h:31:0,
+                 from /usr/include/gtk-2.0/gtk/gtkcombobox.h:29,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:72,
+                 from ../libexif-gtk/gtk-exif-entry.h:24,
+                 from gtk-exif-entry-copyright.h:24,
+                 from gtk-exif-entry-copyright.c:22:
+/usr/include/gtk-2.0/gtk/gtkentry.h:213:12: note: expected 'const gchar *' but argument is of type 'unsigned char *'
+ void       gtk_entry_set_text                   (GtkEntry      *entry,
+            ^
+gtk-exif-entry-copyright.c:191:2: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  gtk_entry_set_text (GTK_ENTRY (widget), e->data + strlen (e->data) + 1);
+  ^
+In file included from gtk-exif-entry-copyright.c:25:0:
+/usr/include/string.h:395:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+ extern size_t strlen (const char *__s)
+               ^
+gtk-exif-entry-copyright.c:191:2: warning: pointer targets in passing argument 2 of 'gtk_entry_set_text' differ in signedness [-Wpointer-sign]
+  gtk_entry_set_text (GTK_ENTRY (widget), e->data + strlen (e->data) + 1);
+  ^
+In file included from /usr/include/gtk-2.0/gtk/gtktreeview.h:31:0,
+                 from /usr/include/gtk-2.0/gtk/gtkcombobox.h:29,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:72,
+                 from ../libexif-gtk/gtk-exif-entry.h:24,
+                 from gtk-exif-entry-copyright.h:24,
+                 from gtk-exif-entry-copyright.c:22:
+/usr/include/gtk-2.0/gtk/gtkentry.h:213:12: note: expected 'const gchar *' but argument is of type 'unsigned char *'
+ void       gtk_entry_set_text                   (GtkEntry      *entry,
+            ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-generic.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-generic.Tpo -c gtk-exif-entry-generic.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-generic.o
+mv -f .deps/libexif_gtk_la-gtk-exif-browser.Tpo .deps/libexif_gtk_la-gtk-exif-browser.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-flash.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-flash.Tpo -c -o libexif_gtk_la-gtk-exif-entry-flash.lo `test -f 'gtk-exif-entry-flash.c' || echo './'`gtk-exif-entry-flash.c
+gtk-exif-entry-date.c: In function 'gtk_exif_entry_date_load':
+gtk-exif-entry-date.c:137:2: warning: pointer targets in passing argument 1 of 'g_strdup' differ in signedness [-Wpointer-sign]
+  data = g_strdup (entry->priv->entry->data);
+  ^
+In file included from /usr/include/glib-2.0/glib.h:81:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:30,
+                 from /usr/include/glib-2.0/glib-object.h:25,
+                 from /usr/include/glib-2.0/gio/gioenums.h:30,
+                 from /usr/include/glib-2.0/gio/giotypes.h:30,
+                 from /usr/include/glib-2.0/gio/gio.h:28,
+                 from /usr/include/gtk-2.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-2.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:32,
+                 from ../libexif-gtk/gtk-exif-entry.h:24,
+                 from gtk-exif-entry-date.h:24,
+                 from gtk-exif-entry-date.c:22:
+/usr/include/glib-2.0/glib/gstrfuncs.h:216:22: note: expected 'const gchar *' but argument is of type 'unsigned char *'
+ gchar*               g_strdup        (const gchar *str) G_GNUC_MALLOC;
+                      ^
+gtk-exif-entry-date.c: In function 'gtk_exif_entry_date_save':
+gtk-exif-entry-date.c:170:4: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+    (gint) gtk_adjustment_get_value(entry->priv->a_sec));
+    ^
+In file included from /usr/include/pango-1.0/pango/pango-utils.h:25:0,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-2.0/gdk/gdktypes.h:37,
+                 from /usr/include/gtk-2.0/gdk/gdkscreen.h:32,
+                 from /usr/include/gtk-2.0/gdk/gdkapplaunchcontext.h:31,
+                 from /usr/include/gtk-2.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:32,
+                 from ../libexif-gtk/gtk-exif-entry.h:24,
+                 from gtk-exif-entry-date.h:24,
+                 from gtk-exif-entry-date.c:22:
+/usr/include/stdio.h:364:12: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+ extern int sprintf (char *__restrict __s,
+            ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-copyright.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-copyright.Tpo -c gtk-exif-entry-copyright.c -o libexif_gtk_la-gtk-exif-entry-copyright.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-flash.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-flash.Tpo -c gtk-exif-entry-flash.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-flash.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-date.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-date.Tpo -c gtk-exif-entry-date.c -o libexif_gtk_la-gtk-exif-entry-date.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-generic.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-generic.Tpo -c gtk-exif-entry-generic.c -o libexif_gtk_la-gtk-exif-entry-generic.o >/dev/null 2>&1
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-copyright.Tpo .deps/libexif_gtk_la-gtk-exif-entry-copyright.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-number.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-number.Tpo -c -o libexif_gtk_la-gtk-exif-entry-number.lo `test -f 'gtk-exif-entry-number.c' || echo './'`gtk-exif-entry-number.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-flash.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-flash.Tpo -c gtk-exif-entry-flash.c -o libexif_gtk_la-gtk-exif-entry-flash.o >/dev/null 2>&1
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-date.Tpo .deps/libexif_gtk_la-gtk-exif-entry-date.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-number.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-number.Tpo -c gtk-exif-entry-number.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-number.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-option.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-option.Tpo -c -o libexif_gtk_la-gtk-exif-entry-option.lo `test -f 'gtk-exif-entry-option.c' || echo './'`gtk-exif-entry-option.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-option.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-option.Tpo -c gtk-exif-entry-option.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-option.o
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-generic.Tpo .deps/libexif_gtk_la-gtk-exif-entry-generic.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-rational.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-rational.Tpo -c -o libexif_gtk_la-gtk-exif-entry-rational.lo `test -f 'gtk-exif-entry-rational.c' || echo './'`gtk-exif-entry-rational.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-rational.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-rational.Tpo -c gtk-exif-entry-rational.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-rational.o
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-flash.Tpo .deps/libexif_gtk_la-gtk-exif-entry-flash.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-resolution.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-resolution.Tpo -c -o libexif_gtk_la-gtk-exif-entry-resolution.lo `test -f 'gtk-exif-entry-resolution.c' || echo './'`gtk-exif-entry-resolution.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-number.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-number.Tpo -c gtk-exif-entry-number.c -o libexif_gtk_la-gtk-exif-entry-number.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-resolution.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-resolution.Tpo -c gtk-exif-entry-resolution.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-resolution.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-option.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-option.Tpo -c gtk-exif-entry-option.c -o libexif_gtk_la-gtk-exif-entry-option.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-rational.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-rational.Tpo -c gtk-exif-entry-rational.c -o libexif_gtk_la-gtk-exif-entry-rational.o >/dev/null 2>&1
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-number.Tpo .deps/libexif_gtk_la-gtk-exif-entry-number.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-user-comment.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-user-comment.Tpo -c -o libexif_gtk_la-gtk-exif-entry-user-comment.lo `test -f 'gtk-exif-entry-user-comment.c' || echo './'`gtk-exif-entry-user-comment.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-user-comment.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-user-comment.Tpo -c gtk-exif-entry-user-comment.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-user-comment.o
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-option.Tpo .deps/libexif_gtk_la-gtk-exif-entry-option.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-version.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-version.Tpo -c -o libexif_gtk_la-gtk-exif-entry-version.lo `test -f 'gtk-exif-entry-version.c' || echo './'`gtk-exif-entry-version.c
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-rational.Tpo .deps/libexif_gtk_la-gtk-exif-entry-rational.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-version.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-version.Tpo -c gtk-exif-entry-version.c  -fPIC -DPIC -o .libs/libexif_gtk_la-gtk-exif-entry-version.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-resolution.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-resolution.Tpo -c gtk-exif-entry-resolution.c -o libexif_gtk_la-gtk-exif-entry-resolution.o >/dev/null 2>&1
+gtk-exif-entry-user-comment.c:131:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {CHARACTER_CODE_ASCII    , "ASCII\0\0\0"     },
+  ^
+gtk-exif-entry-version.c:154:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {EXIF_VERSION_2_0 , "0200"},
+  ^
+gtk-exif-entry-version.c:154:2: warning: (near initialization for 'exif_versions[0].data') [-Wpointer-sign]
+gtk-exif-entry-version.c:155:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {EXIF_VERSION_2_1 , "0210"},
+  ^
+gtk-exif-entry-version.c:155:2: warning: (near initialization for 'exif_versions[1].data') [-Wpointer-sign]
+gtk-exif-entry-version.c:156:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {EXIF_VERSION_2_2 , "0220"},
+  ^
+gtk-exif-entry-version.c:156:2: warning: (near initialization for 'exif_versions[2].data') [-Wpointer-sign]
+gtk-exif-entry-version.c:157:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {EXIF_VERSION_2_21, "0221"},
+  ^
+gtk-exif-entry-version.c:157:2: warning: (near initialization for 'exif_versions[3].data') [-Wpointer-sign]
+gtk-exif-entry-version.c:158:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {EXIF_VERSION_2_3,  "0230"},
+  ^
+gtk-exif-entry-version.c:158:2: warning: (near initialization for 'exif_versions[4].data') [-Wpointer-sign]
+gtk-exif-entry-version.c:166:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {FLASH_PIX_VERSION_1,    "0100"},
+  ^
+gtk-exif-entry-version.c:166:2: warning: (near initialization for 'flash_pix_versions[0].data') [-Wpointer-sign]
+gtk-exif-entry-version.c:167:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {FLASH_PIX_VERSION_1_01, "0101"},
+  ^
+gtk-exif-entry-version.c:167:2: warning: (near initialization for 'flash_pix_versions[1].data') [-Wpointer-sign]
+gtk-exif-entry-user-comment.c:131:2: warning: (near initialization for 'character_codes[0].data') [-Wpointer-sign]
+gtk-exif-entry-user-comment.c:132:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {CHARACTER_CODE_JIS      , "JIS\0\0\0\0\0"   },
+  ^
+gtk-exif-entry-user-comment.c:132:2: warning: (near initialization for 'character_codes[1].data') [-Wpointer-sign]
+gtk-exif-entry-user-comment.c:133:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {CHARACTER_CODE_UNICODE  , "UNICODE\0"       },
+  ^
+gtk-exif-entry-user-comment.c:133:2: warning: (near initialization for 'character_codes[2].data') [-Wpointer-sign]
+gtk-exif-entry-user-comment.c:134:2: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  {CHARACTER_CODE_UNDEFINED, "\0\0\0\0\0\0\0\0"},
+  ^
+gtk-exif-entry-user-comment.c:134:2: warning: (near initialization for 'character_codes[3].data') [-Wpointer-sign]
+gtk-exif-entry-user-comment.c: In function 'gtk_exif_entry_user_comment_save':
+gtk-exif-entry-user-comment.c:193:29: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+    entry->priv->entry->data = d;
+                             ^
+gtk-exif-entry-user-comment.c:209:28: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   entry->priv->entry->data = d;
+                            ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-version.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-version.Tpo -c gtk-exif-entry-version.c -o libexif_gtk_la-gtk-exif-entry-version.o >/dev/null 2>&1
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-resolution.Tpo .deps/libexif_gtk_la-gtk-exif-entry-resolution.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes -I.. -I../gtk-extensions -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -DG_LOG_DOMAIN=\"libexif\" -g -O2 -MT libexif_gtk_la-gtk-exif-entry-user-comment.lo -MD -MP -MF .deps/libexif_gtk_la-gtk-exif-entry-user-comment.Tpo -c gtk-exif-entry-user-comment.c -o libexif_gtk_la-gtk-exif-entry-user-comment.o >/dev/null 2>&1
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-version.Tpo .deps/libexif_gtk_la-gtk-exif-entry-version.Plo
+mv -f .deps/libexif_gtk_la-gtk-exif-entry-user-comment.Tpo .deps/libexif_gtk_la-gtk-exif-entry-user-comment.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -I.. -I../gtk-extensions -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -DG_LOG_DOMAIN=\"libexif\" -g -O2 -version-info 6:0:1  -o libexif-gtk.la -rpath /usr/lib libexif_gtk_la-gtk-exif-browser.lo libexif_gtk_la-gtk-exif-content-list.lo libexif_gtk_la-gtk-exif-entry.lo libexif_gtk_la-gtk-exif-entry-ascii.lo libexif_gtk_la-gtk-exif-entry-copyright.lo libexif_gtk_la-gtk-exif-entry-date.lo libexif_gtk_la-gtk-exif-entry-generic.lo libexif_gtk_la-gtk-exif-entry-flash.lo libexif_gtk_la-gtk-exif-entry-number.lo libexif_gtk_la-gtk-exif-entry-option.lo libexif_gtk_la-gtk-exif-entry-rational.lo libexif_gtk_la-gtk-exif-entry-resolution.lo libexif_gtk_la-gtk-exif-entry-user-comment.lo libexif_gtk_la-gtk-exif-entry-version.lo -g -Wall  ../gtk-extensions/libgtk-extensions.la -lexif   -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0   
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libexif_gtk_la-gtk-exif-browser.o .libs/libexif_gtk_la-gtk-exif-content-list.o .libs/libexif_gtk_la-gtk-exif-entry.o .libs/libexif_gtk_la-gtk-exif-entry-ascii.o .libs/libexif_gtk_la-gtk-exif-entry-copyright.o .libs/libexif_gtk_la-gtk-exif-entry-date.o .libs/libexif_gtk_la-gtk-exif-entry-generic.o .libs/libexif_gtk_la-gtk-exif-entry-flash.o .libs/libexif_gtk_la-gtk-exif-entry-number.o .libs/libexif_gtk_la-gtk-exif-entry-option.o .libs/libexif_gtk_la-gtk-exif-entry-rational.o .libs/libexif_gtk_la-gtk-exif-entry-resolution.o .libs/libexif_gtk_la-gtk-exif-entry-user-comment.o .libs/libexif_gtk_la-gtk-exif-entry-version.o  -Wl,--whole-archive ../gtk-extensions/.libs/libgtk-extensions.a -Wl,--no-whole-archive  -L/usr/lib /usr/lib/libexif.so /usr/lib/libgtk-x11-2.0.so /usr/lib/libgdk-x11-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpangoft2-1.0.so /usr/lib/libharfbuzz.so -licule -licuuc -licudata /usr/lib/libstdc++.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so -lresolv /usr/lib/libcairo.so /usr/lib/libpixman-1.so /usr/lib/libEGL.so /usr/lib/libxcb-xfixes.so /usr/lib/libxcb-shape.so /usr/lib/libudev.so /usr/lib/libxcb-shm.so /usr/lib/libxcb-render.so /usr/lib/libXrender.so /usr/lib/libGL.so /usr/lib/libglapi.so /usr/lib/libXdamage.so /usr/lib/libXfixes.so /usr/lib/libX11-xcb.so /usr/lib/libxcb-glx.so /usr/lib/libxcb-dri2.so /usr/lib/libXxf86vm.so /usr/lib/libXext.so /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so /usr/lib/libdrm.so -lrt /usr/lib/libpango-1.0.so /usr/lib/libgmodule-2.0.so -ldl /usr/lib/libgthread-2.0.so /usr/lib/libpng14.so -lm /usr/lib/libfontconfig.so /usr/lib/libfreetype.so -lz -lbz2 /usr/lib/libexpat.so /usr/lib/libgobject-2.0.so /usr/lib/libffi.so /usr/lib/libglib-2.0.so -lpthread  -pthread -O2   -pthread -Wl,-soname -Wl,libexif-gtk.so.5 -o .libs/libexif-gtk.so.5.1.0
+libtool: link: (cd ".libs" && rm -f "libexif-gtk.so.5" && ln -s "libexif-gtk.so.5.1.0" "libexif-gtk.so.5")
+libtool: link: (cd ".libs" && rm -f "libexif-gtk.so" && ln -s "libexif-gtk.so.5.1.0" "libexif-gtk.so")
+libtool: link: (cd .libs/libexif-gtk.lax/libgtk-extensions.a && ar x "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/libexif-gtk/../gtk-extensions/.libs/libgtk-extensions.a")
+libtool: link: ar cru .libs/libexif-gtk.a  libexif_gtk_la-gtk-exif-browser.o libexif_gtk_la-gtk-exif-content-list.o libexif_gtk_la-gtk-exif-entry.o libexif_gtk_la-gtk-exif-entry-ascii.o libexif_gtk_la-gtk-exif-entry-copyright.o libexif_gtk_la-gtk-exif-entry-date.o libexif_gtk_la-gtk-exif-entry-generic.o libexif_gtk_la-gtk-exif-entry-flash.o libexif_gtk_la-gtk-exif-entry-number.o libexif_gtk_la-gtk-exif-entry-option.o libexif_gtk_la-gtk-exif-entry-rational.o libexif_gtk_la-gtk-exif-entry-resolution.o libexif_gtk_la-gtk-exif-entry-user-comment.o libexif_gtk_la-gtk-exif-entry-version.o  .libs/libexif-gtk.lax/libgtk-extensions.a/libgtk_extensions_la-gtk-menu-option.o .libs/libexif-gtk.lax/libgtk-extensions.a/libgtk_extensions_la-gtk-options.o 
+libtool: link: ranlib .libs/libexif-gtk.a
+libtool: link: rm -fr .libs/libexif-gtk.lax
+libtool: link: ( cd ".libs" && rm -f "libexif-gtk.la" && ln -s "../libexif-gtk.la" "libexif-gtk.la" )
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/libexif-gtk'
+Making all in tests
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/tests'
+gcc -DHAVE_CONFIG_H -I. -I..  -DGETTEXT_PACKAGE=\"libexif-gtk-5\" -DLOCALEDIR=\"/usr/share/locale\" -I.. -I.. -g -Wall -Wmissing-declarations -Wmissing-prototypes  -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -g -O2 -MT test_libexif_gtk-test-libexif-gtk.o -MD -MP -MF .deps/test_libexif_gtk-test-libexif-gtk.Tpo -c -o test_libexif_gtk-test-libexif-gtk.o `test -f 'test-libexif-gtk.c' || echo './'`test-libexif-gtk.c
+mv -f .deps/test_libexif_gtk-test-libexif-gtk.Tpo .deps/test_libexif_gtk-test-libexif-gtk.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -I/usr/include/libexif   -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -g -O2 -g -Wall  -o test-libexif-gtk test_libexif_gtk-test-libexif-gtk.o -g -Wall  ../libexif-gtk/libexif-gtk.la -lexif   -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0    
+libtool: link: gcc -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -g -O2 -I.. -I/usr/include/libexif -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -g -O2 -g -Wall -o .libs/test-libexif-gtk test_libexif_gtk-test-libexif-gtk.o -g -Wall  ../libexif-gtk/.libs/libexif-gtk.so -L/usr/lib /usr/lib/libexif.so /usr/lib/libgtk-x11-2.0.so /usr/lib/libgdk-x11-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpangoft2-1.0.so /usr/lib/libharfbuzz.so -licule -licuuc -licudata /usr/lib/libstdc++.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so -lresolv /usr/lib/libcairo.so /usr/lib/libpixman-1.so /usr/lib/libEGL.so /usr/lib/libxcb-xfixes.so /usr/lib/libxcb-shape.so /usr/lib/libudev.so /usr/lib/libxcb-shm.so /usr/lib/libxcb-render.so /usr/lib/libXrender.so /usr/lib/libGL.so /usr/lib/libglapi.so /usr/lib/libXdamage.so /usr/lib/libXfixes.so /usr/lib/libX11-xcb.so /usr/lib/libxcb-glx.so /usr/lib/libxcb-dri2.so /usr/lib/libXxf86vm.so /usr/lib/libXext.so /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so /usr/lib/libdrm.so -lrt /usr/lib/libpango-1.0.so /usr/lib/libgmodule-2.0.so -ldl /usr/lib/libgthread-2.0.so /usr/lib/libfontconfig.so /usr/lib/libfreetype.so /usr/lib/libpng14.so -lm -lz -lbz2 /usr/lib/libexpat.so /usr/lib/libgobject-2.0.so /usr/lib/libffi.so /usr/lib/libglib-2.0.so -lpthread -pthread
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/tests'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0'
+Making install in m4m
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/m4m'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/m4m'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/m4m'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/m4m'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/po'
+/bin/sh .././mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/de
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/de/LC_MESSAGES/libexif-gtk-5.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/es
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/es/LC_MESSAGES/libexif-gtk-5.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/fr
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/fr/LC_MESSAGES/libexif-gtk-5.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/pl
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/pl/LC_MESSAGES/libexif-gtk-5.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/ru
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/locale/ru/LC_MESSAGES/libexif-gtk-5.mo
+if test "libexif-gtk" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/ginstall -c -m 644 ./$file \
+		    /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/po'
+Making install in gtk-extensions
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/gtk-extensions'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/gtk-extensions'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/gtk-extensions'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/gtk-extensions'
+Making install in libexif-gtk
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/libexif-gtk'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/libexif-gtk'
+test -z "/usr/lib" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   libexif-gtk.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/libexif-gtk.so.5.1.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib/libexif-gtk.so.5.1.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib && { ln -s -f libexif-gtk.so.5.1.0 libexif-gtk.so.5 || { rm -f libexif-gtk.so.5 && ln -s libexif-gtk.so.5.1.0 libexif-gtk.so.5; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib && { ln -s -f libexif-gtk.so.5.1.0 libexif-gtk.so || { rm -f libexif-gtk.so && ln -s libexif-gtk.so.5.1.0 libexif-gtk.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libexif-gtk.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib/libexif-gtk.la
+libtool: install: /usr/bin/ginstall -c .libs/libexif-gtk.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib/libexif-gtk.a
+libtool: install: chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib/libexif-gtk.a
+libtool: install: ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib/libexif-gtk.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/libexif-gtk" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/include/libexif-gtk"
+ /usr/bin/ginstall -c -m 644 gtk-exif-browser.h gtk-exif-content-list.h gtk-exif-entry.h gtk-exif-entry-ascii.h gtk-exif-entry-copyright.h gtk-exif-entry-date.h gtk-exif-entry-generic.h gtk-exif-entry-flash.h gtk-exif-entry-number.h gtk-exif-entry-option.h gtk-exif-entry-rational.h gtk-exif-entry-resolution.h gtk-exif-entry-user-comment.h gtk-exif-entry-version.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/include/libexif-gtk'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/libexif-gtk'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/libexif-gtk'
+Making install in tests
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/tests'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/tests'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0/tests'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/lib/pkgconfig" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 libexif-gtk.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-install/usr/lib/pkgconfig'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk/libexif-gtk-0.4.0'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libexif-gtk
+Found 'i686'
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-browser.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-content-list.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-ascii.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-copyright.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-date.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-flash.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-generic.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-number.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-option.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-rational.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-resolution.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-user-comment.h
+Processing ../libexif-gtk-install/usr/include/libexif-gtk/gtk-exif-entry-version.h
+Processing ../libexif-gtk-install/usr/lib/libexif-gtk.a
+Processing ../libexif-gtk-install/usr/lib/libexif-gtk.la
+Processing ../libexif-gtk-install/usr/lib/libexif-gtk.so
+Processing ../libexif-gtk-install/usr/lib/libexif-gtk.so.5
+Processing ../libexif-gtk-install/usr/lib/libexif-gtk.so.5.1.0
+Processing ../libexif-gtk-install/usr/lib/pkgconfig/libexif-gtk.pc
+Processing ../libexif-gtk-install/usr/share/locale/de/LC_MESSAGES/libexif-gtk-5.mo
+Processing ../libexif-gtk-install/usr/share/locale/es/LC_MESSAGES/libexif-gtk-5.mo
+Processing ../libexif-gtk-install/usr/share/locale/fr/LC_MESSAGES/libexif-gtk-5.mo
+Processing ../libexif-gtk-install/usr/share/locale/pl/LC_MESSAGES/libexif-gtk-5.mo
+Processing ../libexif-gtk-install/usr/share/locale/ru/LC_MESSAGES/libexif-gtk-5.mo
+all done
+packaging libexif-gtk-0.4.0-i686_slk600
+packaging libexif-gtk_DEV-0.4.0-i686_slk600
+packaging libexif-gtk_NLS-0.4.0-i686_slk600
+done!

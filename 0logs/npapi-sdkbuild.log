@@ -1,0 +1,67 @@
+npapi-sdk-0.27.2/
+npapi-sdk-0.27.2/npapi-sdk.pc.in
+npapi-sdk-0.27.2/headers/
+npapi-sdk-0.27.2/headers/npapi.h
+npapi-sdk-0.27.2/headers/nptypes.h
+npapi-sdk-0.27.2/headers/npruntime.h
+npapi-sdk-0.27.2/headers/npfunctions.h
+npapi-sdk-0.27.2/README
+npapi-sdk-0.27.2/configure.ac
+npapi-sdk-0.27.2/samples/
+npapi-sdk-0.27.2/samples/mac-basic/
+npapi-sdk-0.27.2/samples/mac-basic/BasicPlugin.c
+npapi-sdk-0.27.2/samples/mac-basic/BasicPlugin.xcodeproj/
+npapi-sdk-0.27.2/samples/mac-basic/BasicPlugin.xcodeproj/project.pbxproj
+npapi-sdk-0.27.2/samples/mac-basic/Info.plist
+npapi-sdk-0.27.2/samples/mac-basic/BasicPlugin_Prefix.pch
+npapi-sdk-0.27.2/samples/mac-basic/BasicPlugin.h
+npapi-sdk-0.27.2/samples/mac-basic/English.lproj/
+npapi-sdk-0.27.2/samples/mac-basic/English.lproj/InfoPlist.strings
+npapi-sdk-0.27.2/samples/unix-basic/
+npapi-sdk-0.27.2/samples/unix-basic/BasicPlugin.c
+npapi-sdk-0.27.2/samples/unix-basic/Makefile
+npapi-sdk-0.27.2/samples/unix-basic/BasicPlugin.h
+npapi-sdk-0.27.2/aclocal.m4
+npapi-sdk-0.27.2/Makefile.am
+npapi-sdk-0.27.2/build-aux/
+npapi-sdk-0.27.2/build-aux/missing
+npapi-sdk-0.27.2/build-aux/install-sh
+npapi-sdk-0.27.2/configure
+npapi-sdk-0.27.2/COPYING
+npapi-sdk-0.27.2/Makefile.in
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... build-aux/install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating npapi-sdk.pc
+make: Nothing to be done for `all'.
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/npapi-sdk/npapi-sdk-0.27.2'
+make[1]: Nothing to be done for `install-exec-am'.
+ build-aux/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/npapi-sdk/npapi-sdk-install/usr/lib/pkgconfig'
+ /usr/bin/ginstall -c -m 644 npapi-sdk.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/npapi-sdk/npapi-sdk-install/usr/lib/pkgconfig'
+ build-aux/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/npapi-sdk/npapi-sdk-install/usr/include/npapi-sdk'
+ /usr/bin/ginstall -c -m 644 headers/npapi.h headers/npfunctions.h headers/npruntime.h headers/nptypes.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/npapi-sdk/npapi-sdk-install/usr/include/npapi-sdk'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/npapi-sdk/npapi-sdk-0.27.2'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/npapi-sdk
+Processing ../npapi-sdk-install/usr/include/npapi-sdk/npapi.h
+Processing ../npapi-sdk-install/usr/include/npapi-sdk/npfunctions.h
+Processing ../npapi-sdk-install/usr/include/npapi-sdk/npruntime.h
+Processing ../npapi-sdk-install/usr/include/npapi-sdk/nptypes.h
+Processing ../npapi-sdk-install/usr/lib/pkgconfig/npapi-sdk.pc
+all done
+packaging npapi-sdk-0.27.2-i686_slk600
+packaging npapi-sdk_DEV-0.27.2-i686_slk600
+done!
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                              ATTENTION!                                     
+
+  npapi-sdk needs to be installed now if it is not on your system.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

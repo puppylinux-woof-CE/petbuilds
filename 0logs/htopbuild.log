@@ -1,0 +1,350 @@
+htop-1.0.3/
+htop-1.0.3/config.sub
+htop-1.0.3/htop.1.in
+htop-1.0.3/AvailableMetersPanel.h
+htop-1.0.3/Settings.h
+htop-1.0.3/CategoriesPanel.c
+htop-1.0.3/OpenFilesScreen.c
+htop-1.0.3/UptimeMeter.c
+htop-1.0.3/MetersPanel.c
+htop-1.0.3/install-sh
+htop-1.0.3/README
+htop-1.0.3/AvailableColumnsPanel.c
+htop-1.0.3/MemoryMeter.c
+htop-1.0.3/SignalsPanel.c
+htop-1.0.3/SwapMeter.h
+htop-1.0.3/FunctionBar.c
+htop-1.0.3/AvailableMetersPanel.c
+htop-1.0.3/TasksMeter.c
+htop-1.0.3/CategoriesPanel.h
+htop-1.0.3/IncSet.h
+htop-1.0.3/htop.c
+htop-1.0.3/Vector.h
+htop-1.0.3/Makefile.am
+htop-1.0.3/autogen.sh
+htop-1.0.3/BatteryMeter.h
+htop-1.0.3/Affinity.h
+htop-1.0.3/aclocal.m4
+htop-1.0.3/LoadAverageMeter.h
+htop-1.0.3/CheckItem.h
+htop-1.0.3/htop.png
+htop-1.0.3/configure
+htop-1.0.3/FunctionBar.h
+htop-1.0.3/depcomp
+htop-1.0.3/Header.h
+htop-1.0.3/IOPriority.c
+htop-1.0.3/IncSet.c
+htop-1.0.3/ColumnsPanel.h
+htop-1.0.3/ColumnsPanel.c
+htop-1.0.3/m4/
+htop-1.0.3/m4/lt~obsolete.m4
+htop-1.0.3/m4/ltoptions.m4
+htop-1.0.3/m4/ltsugar.m4
+htop-1.0.3/m4/ltversion.m4
+htop-1.0.3/m4/libtool.m4
+htop-1.0.3/UptimeMeter.h
+htop-1.0.3/ListItem.h
+htop-1.0.3/SignalsPanel.h
+htop-1.0.3/IOPriorityPanel.h
+htop-1.0.3/Settings.c
+htop-1.0.3/htop.1
+htop-1.0.3/configure.ac
+htop-1.0.3/Meter.h
+htop-1.0.3/MemoryMeter.h
+htop-1.0.3/Header.c
+htop-1.0.3/IOPriorityPanel.c
+htop-1.0.3/CPUMeter.c
+htop-1.0.3/ChangeLog
+htop-1.0.3/UsersTable.c
+htop-1.0.3/ltmain.sh
+htop-1.0.3/HostnameMeter.h
+htop-1.0.3/Affinity.c
+htop-1.0.3/Hashtable.c
+htop-1.0.3/BatteryMeter.c
+htop-1.0.3/config.h
+htop-1.0.3/Meter.c
+htop-1.0.3/htop.desktop
+htop-1.0.3/config.h.in
+htop-1.0.3/RichString.c
+htop-1.0.3/OpenFilesScreen.h
+htop-1.0.3/String.h
+htop-1.0.3/ClockMeter.c
+htop-1.0.3/Process.h
+htop-1.0.3/RichString.h
+htop-1.0.3/ClockMeter.h
+htop-1.0.3/AffinityPanel.h
+htop-1.0.3/CRT.h
+htop-1.0.3/ListItem.c
+htop-1.0.3/SwapMeter.c
+htop-1.0.3/CPUMeter.h
+htop-1.0.3/Panel.c
+htop-1.0.3/Panel.h
+htop-1.0.3/ProcessList.h
+htop-1.0.3/Object.h
+htop-1.0.3/LoadAverageMeter.c
+htop-1.0.3/AffinityPanel.c
+htop-1.0.3/Process.c
+htop-1.0.3/ScreenManager.h
+htop-1.0.3/MetersPanel.h
+htop-1.0.3/String.c
+htop-1.0.3/INSTALL
+htop-1.0.3/UsersTable.h
+htop-1.0.3/TasksMeter.h
+htop-1.0.3/NEWS
+htop-1.0.3/CRT.c
+htop-1.0.3/htop.h
+htop-1.0.3/TraceScreen.h
+htop-1.0.3/AUTHORS
+htop-1.0.3/ScreenManager.c
+htop-1.0.3/ColorsPanel.c
+htop-1.0.3/TraceScreen.c
+htop-1.0.3/DisplayOptionsPanel.h
+htop-1.0.3/ProcessList.c
+htop-1.0.3/CheckItem.c
+htop-1.0.3/IOPriority.h
+htop-1.0.3/AvailableColumnsPanel.h
+htop-1.0.3/compile
+htop-1.0.3/HostnameMeter.c
+htop-1.0.3/Makefile.in
+htop-1.0.3/Object.c
+htop-1.0.3/ColorsPanel.h
+htop-1.0.3/Vector.c
+htop-1.0.3/DisplayOptionsPanel.c
+htop-1.0.3/scripts/
+htop-1.0.3/scripts/MakeHeader.py
+htop-1.0.3/missing
+htop-1.0.3/COPYING
+htop-1.0.3/Hashtable.h
+htop-1.0.3/config.guess
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking target system type... i686-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc and cc understand -c and -o together... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for ceil in -lm... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for uid_t in sys/types.h... yes
+checking whether closedir returns void... no
+checking return type of signal handlers... void
+checking whether lstat correctly handles trailing slash... yes
+checking whether stat accepts an empty string... no
+checking for memmove... yes
+checking for strncasecmp... yes
+checking for strstr... yes
+checking for strdup... yes
+checking whether gcc -std=c99 option works... yes
+checking for refresh in -lncursesw... yes
+checking ncursesw/curses.h usability... yes
+checking ncursesw/curses.h presence... yes
+checking for ncursesw/curses.h... yes
+checking for /proc/stat... yes
+checking for /proc/meminfo... yes
+checking for usable sched_setaffinity... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating htop.1
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-am
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-1.0.3'
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-AvailableMetersPanel.o -MD -MP -MF .deps/htop-AvailableMetersPanel.Tpo -c -o htop-AvailableMetersPanel.o `test -f 'AvailableMetersPanel.c' || echo './'`AvailableMetersPanel.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-CategoriesPanel.o -MD -MP -MF .deps/htop-CategoriesPanel.Tpo -c -o htop-CategoriesPanel.o `test -f 'CategoriesPanel.c' || echo './'`CategoriesPanel.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-CheckItem.o -MD -MP -MF .deps/htop-CheckItem.Tpo -c -o htop-CheckItem.o `test -f 'CheckItem.c' || echo './'`CheckItem.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-ClockMeter.o -MD -MP -MF .deps/htop-ClockMeter.Tpo -c -o htop-ClockMeter.o `test -f 'ClockMeter.c' || echo './'`ClockMeter.c
+mv -f .deps/htop-ClockMeter.Tpo .deps/htop-ClockMeter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-ColorsPanel.o -MD -MP -MF .deps/htop-ColorsPanel.Tpo -c -o htop-ColorsPanel.o `test -f 'ColorsPanel.c' || echo './'`ColorsPanel.c
+mv -f .deps/htop-CheckItem.Tpo .deps/htop-CheckItem.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-ColumnsPanel.o -MD -MP -MF .deps/htop-ColumnsPanel.Tpo -c -o htop-ColumnsPanel.o `test -f 'ColumnsPanel.c' || echo './'`ColumnsPanel.c
+mv -f .deps/htop-CategoriesPanel.Tpo .deps/htop-CategoriesPanel.Po
+mv -f .deps/htop-AvailableMetersPanel.Tpo .deps/htop-AvailableMetersPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-CPUMeter.o -MD -MP -MF .deps/htop-CPUMeter.Tpo -c -o htop-CPUMeter.o `test -f 'CPUMeter.c' || echo './'`CPUMeter.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-CRT.o -MD -MP -MF .deps/htop-CRT.Tpo -c -o htop-CRT.o `test -f 'CRT.c' || echo './'`CRT.c
+mv -f .deps/htop-ColorsPanel.Tpo .deps/htop-ColorsPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-DisplayOptionsPanel.o -MD -MP -MF .deps/htop-DisplayOptionsPanel.Tpo -c -o htop-DisplayOptionsPanel.o `test -f 'DisplayOptionsPanel.c' || echo './'`DisplayOptionsPanel.c
+mv -f .deps/htop-DisplayOptionsPanel.Tpo .deps/htop-DisplayOptionsPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-FunctionBar.o -MD -MP -MF .deps/htop-FunctionBar.Tpo -c -o htop-FunctionBar.o `test -f 'FunctionBar.c' || echo './'`FunctionBar.c
+mv -f .deps/htop-ColumnsPanel.Tpo .deps/htop-ColumnsPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Hashtable.o -MD -MP -MF .deps/htop-Hashtable.Tpo -c -o htop-Hashtable.o `test -f 'Hashtable.c' || echo './'`Hashtable.c
+mv -f .deps/htop-FunctionBar.Tpo .deps/htop-FunctionBar.Po
+mv -f .deps/htop-Hashtable.Tpo .deps/htop-Hashtable.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Header.o -MD -MP -MF .deps/htop-Header.Tpo -c -o htop-Header.o `test -f 'Header.c' || echo './'`Header.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-htop.o -MD -MP -MF .deps/htop-htop.Tpo -c -o htop-htop.o `test -f 'htop.c' || echo './'`htop.c
+mv -f .deps/htop-CPUMeter.Tpo .deps/htop-CPUMeter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-ListItem.o -MD -MP -MF .deps/htop-ListItem.Tpo -c -o htop-ListItem.o `test -f 'ListItem.c' || echo './'`ListItem.c
+mv -f .deps/htop-CRT.Tpo .deps/htop-CRT.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-LoadAverageMeter.o -MD -MP -MF .deps/htop-LoadAverageMeter.Tpo -c -o htop-LoadAverageMeter.o `test -f 'LoadAverageMeter.c' || echo './'`LoadAverageMeter.c
+mv -f .deps/htop-ListItem.Tpo .deps/htop-ListItem.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-MemoryMeter.o -MD -MP -MF .deps/htop-MemoryMeter.Tpo -c -o htop-MemoryMeter.o `test -f 'MemoryMeter.c' || echo './'`MemoryMeter.c
+mv -f .deps/htop-LoadAverageMeter.Tpo .deps/htop-LoadAverageMeter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Meter.o -MD -MP -MF .deps/htop-Meter.Tpo -c -o htop-Meter.o `test -f 'Meter.c' || echo './'`Meter.c
+mv -f .deps/htop-Header.Tpo .deps/htop-Header.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-MetersPanel.o -MD -MP -MF .deps/htop-MetersPanel.Tpo -c -o htop-MetersPanel.o `test -f 'MetersPanel.c' || echo './'`MetersPanel.c
+mv -f .deps/htop-MemoryMeter.Tpo .deps/htop-MemoryMeter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Object.o -MD -MP -MF .deps/htop-Object.Tpo -c -o htop-Object.o `test -f 'Object.c' || echo './'`Object.c
+mv -f .deps/htop-MetersPanel.Tpo .deps/htop-MetersPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Panel.o -MD -MP -MF .deps/htop-Panel.Tpo -c -o htop-Panel.o `test -f 'Panel.c' || echo './'`Panel.c
+mv -f .deps/htop-Object.Tpo .deps/htop-Object.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-BatteryMeter.o -MD -MP -MF .deps/htop-BatteryMeter.Tpo -c -o htop-BatteryMeter.o `test -f 'BatteryMeter.c' || echo './'`BatteryMeter.c
+mv -f .deps/htop-Meter.Tpo .deps/htop-Meter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Process.o -MD -MP -MF .deps/htop-Process.Tpo -c -o htop-Process.o `test -f 'Process.c' || echo './'`Process.c
+mv -f .deps/htop-BatteryMeter.Tpo .deps/htop-BatteryMeter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-ProcessList.o -MD -MP -MF .deps/htop-ProcessList.Tpo -c -o htop-ProcessList.o `test -f 'ProcessList.c' || echo './'`ProcessList.c
+mv -f .deps/htop-Panel.Tpo .deps/htop-Panel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-RichString.o -MD -MP -MF .deps/htop-RichString.Tpo -c -o htop-RichString.o `test -f 'RichString.c' || echo './'`RichString.c
+mv -f .deps/htop-htop.Tpo .deps/htop-htop.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-ScreenManager.o -MD -MP -MF .deps/htop-ScreenManager.Tpo -c -o htop-ScreenManager.o `test -f 'ScreenManager.c' || echo './'`ScreenManager.c
+mv -f .deps/htop-RichString.Tpo .deps/htop-RichString.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Settings.o -MD -MP -MF .deps/htop-Settings.Tpo -c -o htop-Settings.o `test -f 'Settings.c' || echo './'`Settings.c
+mv -f .deps/htop-ScreenManager.Tpo .deps/htop-ScreenManager.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-IOPriorityPanel.o -MD -MP -MF .deps/htop-IOPriorityPanel.Tpo -c -o htop-IOPriorityPanel.o `test -f 'IOPriorityPanel.c' || echo './'`IOPriorityPanel.c
+mv -f .deps/htop-Process.Tpo .deps/htop-Process.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-SignalsPanel.o -MD -MP -MF .deps/htop-SignalsPanel.Tpo -c -o htop-SignalsPanel.o `test -f 'SignalsPanel.c' || echo './'`SignalsPanel.c
+mv -f .deps/htop-IOPriorityPanel.Tpo .deps/htop-IOPriorityPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-String.o -MD -MP -MF .deps/htop-String.Tpo -c -o htop-String.o `test -f 'String.c' || echo './'`String.c
+mv -f .deps/htop-SignalsPanel.Tpo .deps/htop-SignalsPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-SwapMeter.o -MD -MP -MF .deps/htop-SwapMeter.Tpo -c -o htop-SwapMeter.o `test -f 'SwapMeter.c' || echo './'`SwapMeter.c
+mv -f .deps/htop-Settings.Tpo .deps/htop-Settings.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-TasksMeter.o -MD -MP -MF .deps/htop-TasksMeter.Tpo -c -o htop-TasksMeter.o `test -f 'TasksMeter.c' || echo './'`TasksMeter.c
+mv -f .deps/htop-String.Tpo .deps/htop-String.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-TraceScreen.o -MD -MP -MF .deps/htop-TraceScreen.Tpo -c -o htop-TraceScreen.o `test -f 'TraceScreen.c' || echo './'`TraceScreen.c
+mv -f .deps/htop-TasksMeter.Tpo .deps/htop-TasksMeter.Po
+mv -f .deps/htop-SwapMeter.Tpo .deps/htop-SwapMeter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-UptimeMeter.o -MD -MP -MF .deps/htop-UptimeMeter.Tpo -c -o htop-UptimeMeter.o `test -f 'UptimeMeter.c' || echo './'`UptimeMeter.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-UsersTable.o -MD -MP -MF .deps/htop-UsersTable.Tpo -c -o htop-UsersTable.o `test -f 'UsersTable.c' || echo './'`UsersTable.c
+mv -f .deps/htop-ProcessList.Tpo .deps/htop-ProcessList.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Vector.o -MD -MP -MF .deps/htop-Vector.Tpo -c -o htop-Vector.o `test -f 'Vector.c' || echo './'`Vector.c
+mv -f .deps/htop-UsersTable.Tpo .deps/htop-UsersTable.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-AvailableColumnsPanel.o -MD -MP -MF .deps/htop-AvailableColumnsPanel.Tpo -c -o htop-AvailableColumnsPanel.o `test -f 'AvailableColumnsPanel.c' || echo './'`AvailableColumnsPanel.c
+mv -f .deps/htop-TraceScreen.Tpo .deps/htop-TraceScreen.Po
+mv -f .deps/htop-UptimeMeter.Tpo .deps/htop-UptimeMeter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-AffinityPanel.o -MD -MP -MF .deps/htop-AffinityPanel.Tpo -c -o htop-AffinityPanel.o `test -f 'AffinityPanel.c' || echo './'`AffinityPanel.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-HostnameMeter.o -MD -MP -MF .deps/htop-HostnameMeter.Tpo -c -o htop-HostnameMeter.o `test -f 'HostnameMeter.c' || echo './'`HostnameMeter.c
+mv -f .deps/htop-AvailableColumnsPanel.Tpo .deps/htop-AvailableColumnsPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-OpenFilesScreen.o -MD -MP -MF .deps/htop-OpenFilesScreen.Tpo -c -o htop-OpenFilesScreen.o `test -f 'OpenFilesScreen.c' || echo './'`OpenFilesScreen.c
+mv -f .deps/htop-HostnameMeter.Tpo .deps/htop-HostnameMeter.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-Affinity.o -MD -MP -MF .deps/htop-Affinity.Tpo -c -o htop-Affinity.o `test -f 'Affinity.c' || echo './'`Affinity.c
+mv -f .deps/htop-Vector.Tpo .deps/htop-Vector.Po
+mv -f .deps/htop-AffinityPanel.Tpo .deps/htop-AffinityPanel.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-IOPriority.o -MD -MP -MF .deps/htop-IOPriority.Tpo -c -o htop-IOPriority.o `test -f 'IOPriority.c' || echo './'`IOPriority.c
+mv -f .deps/htop-Affinity.Tpo .deps/htop-Affinity.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG  -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -MT htop-IncSet.o -MD -MP -MF .deps/htop-IncSet.Tpo -c -o htop-IncSet.o `test -f 'IncSet.c' || echo './'`IncSet.c
+mv -f .deps/htop-IOPriority.Tpo .deps/htop-IOPriority.Po
+mv -f .deps/htop-IncSet.Tpo .deps/htop-IncSet.Po
+mv -f .deps/htop-OpenFilesScreen.Tpo .deps/htop-OpenFilesScreen.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2   -o htop  htop-AvailableMetersPanel.o htop-CategoriesPanel.o htop-CheckItem.o htop-ClockMeter.o htop-ColorsPanel.o htop-ColumnsPanel.o htop-CPUMeter.o htop-CRT.o htop-DisplayOptionsPanel.o htop-FunctionBar.o htop-Hashtable.o htop-Header.o htop-htop.o htop-ListItem.o htop-LoadAverageMeter.o htop-MemoryMeter.o htop-Meter.o htop-MetersPanel.o htop-Object.o htop-Panel.o htop-BatteryMeter.o htop-Process.o htop-ProcessList.o htop-RichString.o htop-ScreenManager.o htop-Settings.o htop-IOPriorityPanel.o htop-SignalsPanel.o htop-String.o htop-SwapMeter.o htop-TasksMeter.o htop-TraceScreen.o htop-UptimeMeter.o htop-UsersTable.o htop-Vector.o htop-AvailableColumnsPanel.o htop-AffinityPanel.o htop-HostnameMeter.o htop-OpenFilesScreen.o htop-Affinity.o htop-IOPriority.o htop-IncSet.o  -lncursesw -lm 
+libtool: link: gcc -pedantic -Wall -Wextra -std=c99 -rdynamic -D_XOPEN_SOURCE_EXTENDED -DSYSCONFDIR=\"/etc\" -g -O2 -o htop htop-AvailableMetersPanel.o htop-CategoriesPanel.o htop-CheckItem.o htop-ClockMeter.o htop-ColorsPanel.o htop-ColumnsPanel.o htop-CPUMeter.o htop-CRT.o htop-DisplayOptionsPanel.o htop-FunctionBar.o htop-Hashtable.o htop-Header.o htop-htop.o htop-ListItem.o htop-LoadAverageMeter.o htop-MemoryMeter.o htop-Meter.o htop-MetersPanel.o htop-Object.o htop-Panel.o htop-BatteryMeter.o htop-Process.o htop-ProcessList.o htop-RichString.o htop-ScreenManager.o htop-Settings.o htop-IOPriorityPanel.o htop-SignalsPanel.o htop-String.o htop-SwapMeter.o htop-TasksMeter.o htop-TraceScreen.o htop-UptimeMeter.o htop-UsersTable.o htop-Vector.o htop-AvailableColumnsPanel.o htop-AffinityPanel.o htop-HostnameMeter.o htop-OpenFilesScreen.o htop-Affinity.o htop-IOPriority.o htop-IncSet.o  -lncursesw -lm
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-1.0.3'
+make  install-am
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-1.0.3'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-1.0.3'
+test -z "/usr/bin" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/bin"
+  /bin/sh ./libtool   --mode=install /usr/bin/ginstall -c htop '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c htop /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/bin/htop
+test -z "/usr/share/applications" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/share/applications"
+ /usr/bin/ginstall -c -m 644 htop.desktop '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/share/applications'
+test -z "/usr/share/man/man1" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/share/man/man1"
+ /usr/bin/ginstall -c -m 644 htop.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/share/man/man1'
+test -z "/usr/share/pixmaps" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/share/pixmaps"
+ /usr/bin/ginstall -c -m 644 htop.png '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-install/usr/share/pixmaps'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-1.0.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop/htop-1.0.3'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/htop
+Found 'i686'
+Processing ../htop-install/usr/bin/htop
+Processing ../htop-install/usr/share/applications/htop.desktop
+Processing ../htop-install/usr/share/man/man1/htop.1
+Processing ../htop-install/usr/share/pixmaps/htop.png
+all done
+packaging htop-1.0.3-i686_slk600
+packaging htop_DOC-1.0.3-i686_slk600
+done!

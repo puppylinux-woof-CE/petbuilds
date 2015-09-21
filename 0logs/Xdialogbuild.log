@@ -1,0 +1,695 @@
+Xdialog-ec30703399f1ea0f
+Xdialog-ec30703399f1ea0f/ABOUT-NLS
+Xdialog-ec30703399f1ea0f/AUTHORS
+Xdialog-ec30703399f1ea0f/BUGS
+Xdialog-ec30703399f1ea0f/COPYING
+Xdialog-ec30703399f1ea0f/ChangeLog
+Xdialog-ec30703399f1ea0f/INSTALL
+Xdialog-ec30703399f1ea0f/Makefile.am
+Xdialog-ec30703399f1ea0f/Makefile.in
+Xdialog-ec30703399f1ea0f/NEWS
+Xdialog-ec30703399f1ea0f/README
+Xdialog-ec30703399f1ea0f/Xdialog.lang
+Xdialog-ec30703399f1ea0f/Xdialog.spec
+Xdialog-ec30703399f1ea0f/acconfig.h
+Xdialog-ec30703399f1ea0f/aclocal.m4
+Xdialog-ec30703399f1ea0f/autogen.sh
+Xdialog-ec30703399f1ea0f/config.guess
+Xdialog-ec30703399f1ea0f/config.h.in
+Xdialog-ec30703399f1ea0f/config.rpath
+Xdialog-ec30703399f1ea0f/config.sub
+Xdialog-ec30703399f1ea0f/configure
+Xdialog-ec30703399f1ea0f/configure.in
+Xdialog-ec30703399f1ea0f/debian
+Xdialog-ec30703399f1ea0f/debian/changelog
+Xdialog-ec30703399f1ea0f/debian/control
+Xdialog-ec30703399f1ea0f/debian/copyright
+Xdialog-ec30703399f1ea0f/debian/menu
+Xdialog-ec30703399f1ea0f/debian/rules
+Xdialog-ec30703399f1ea0f/debian/watch
+Xdialog-ec30703399f1ea0f/debian/xdialog.doc-base
+Xdialog-ec30703399f1ea0f/debian/xdialog.man.diff
+Xdialog-ec30703399f1ea0f/doc
+Xdialog-ec30703399f1ea0f/doc/2ranges.png
+Xdialog-ec30703399f1ea0f/doc/Makefile.am
+Xdialog-ec30703399f1ea0f/doc/Makefile.in
+Xdialog-ec30703399f1ea0f/doc/Xdialog.man
+Xdialog-ec30703399f1ea0f/doc/authors.html
+Xdialog-ec30703399f1ea0f/doc/box.html
+Xdialog-ec30703399f1ea0f/doc/buildlist.png
+Xdialog-ec30703399f1ea0f/doc/calendar.png
+Xdialog-ec30703399f1ea0f/doc/center.png
+Xdialog-ec30703399f1ea0f/doc/changelog.head
+Xdialog-ec30703399f1ea0f/doc/changelog.tail
+Xdialog-ec30703399f1ea0f/doc/check.png
+Xdialog-ec30703399f1ea0f/doc/checklist.png
+Xdialog-ec30703399f1ea0f/doc/colorsel.png
+Xdialog-ec30703399f1ea0f/doc/combobox.png
+Xdialog-ec30703399f1ea0f/doc/common.html
+Xdialog-ec30703399f1ea0f/doc/compatibility.html.in
+Xdialog-ec30703399f1ea0f/doc/dselect.png
+Xdialog-ec30703399f1ea0f/doc/editbox.png
+Xdialog-ec30703399f1ea0f/doc/faq.html
+Xdialog-ec30703399f1ea0f/doc/fill.png
+Xdialog-ec30703399f1ea0f/doc/fixedfont.png
+Xdialog-ec30703399f1ea0f/doc/fontsel.png
+Xdialog-ec30703399f1ea0f/doc/fselect.png
+Xdialog-ec30703399f1ea0f/doc/gauge.png
+Xdialog-ec30703399f1ea0f/doc/gtk.html
+Xdialog-ec30703399f1ea0f/doc/icon.png
+Xdialog-ec30703399f1ea0f/doc/index.html.in
+Xdialog-ec30703399f1ea0f/doc/infobox.png
+Xdialog-ec30703399f1ea0f/doc/input.png
+Xdialog-ec30703399f1ea0f/doc/intro.html
+Xdialog-ec30703399f1ea0f/doc/labelcenter.png
+Xdialog-ec30703399f1ea0f/doc/labelleft.png
+Xdialog-ec30703399f1ea0f/doc/labelright.png
+Xdialog-ec30703399f1ea0f/doc/left.png
+Xdialog-ec30703399f1ea0f/doc/license.head
+Xdialog-ec30703399f1ea0f/doc/license.tail
+Xdialog-ec30703399f1ea0f/doc/logbox.png
+Xdialog-ec30703399f1ea0f/doc/msgbox.png
+Xdialog-ec30703399f1ea0f/doc/nofixedfont.png
+Xdialog-ec30703399f1ea0f/doc/notags.png
+Xdialog-ec30703399f1ea0f/doc/password.png
+Xdialog-ec30703399f1ea0f/doc/radiolist.png
+Xdialog-ec30703399f1ea0f/doc/range.png
+Xdialog-ec30703399f1ea0f/doc/rcfile.png
+Xdialog-ec30703399f1ea0f/doc/right.png
+Xdialog-ec30703399f1ea0f/doc/special.html
+Xdialog-ec30703399f1ea0f/doc/spinbox.png
+Xdialog-ec30703399f1ea0f/doc/syntax.html
+Xdialog-ec30703399f1ea0f/doc/tailbox.png
+Xdialog-ec30703399f1ea0f/doc/timebox.png
+Xdialog-ec30703399f1ea0f/doc/title.png
+Xdialog-ec30703399f1ea0f/doc/transient.html
+Xdialog-ec30703399f1ea0f/doc/treeview.png
+Xdialog-ec30703399f1ea0f/doc/withtags.png
+Xdialog-ec30703399f1ea0f/doc/yesno-wizard.png
+Xdialog-ec30703399f1ea0f/doc/yesno.png
+Xdialog-ec30703399f1ea0f/install-sh
+Xdialog-ec30703399f1ea0f/lib
+Xdialog-ec30703399f1ea0f/lib/Makefile.am
+Xdialog-ec30703399f1ea0f/lib/Makefile.in
+Xdialog-ec30703399f1ea0f/lib/getopt.c
+Xdialog-ec30703399f1ea0f/lib/getopt.h
+Xdialog-ec30703399f1ea0f/lib/getopt1.c
+Xdialog-ec30703399f1ea0f/m4
+Xdialog-ec30703399f1ea0f/m4/ChangeLog
+Xdialog-ec30703399f1ea0f/m4/Makefile.am
+Xdialog-ec30703399f1ea0f/m4/Makefile.in
+Xdialog-ec30703399f1ea0f/m4/codeset.m4
+Xdialog-ec30703399f1ea0f/m4/gettext.m4
+Xdialog-ec30703399f1ea0f/m4/glibc21.m4
+Xdialog-ec30703399f1ea0f/m4/iconv.m4
+Xdialog-ec30703399f1ea0f/m4/intdiv0.m4
+Xdialog-ec30703399f1ea0f/m4/intmax.m4
+Xdialog-ec30703399f1ea0f/m4/inttypes-pri.m4
+Xdialog-ec30703399f1ea0f/m4/inttypes.m4
+Xdialog-ec30703399f1ea0f/m4/inttypes_h.m4
+Xdialog-ec30703399f1ea0f/m4/isc-posix.m4
+Xdialog-ec30703399f1ea0f/m4/lcmessage.m4
+Xdialog-ec30703399f1ea0f/m4/lib-ld.m4
+Xdialog-ec30703399f1ea0f/m4/lib-link.m4
+Xdialog-ec30703399f1ea0f/m4/lib-prefix.m4
+Xdialog-ec30703399f1ea0f/m4/longdouble.m4
+Xdialog-ec30703399f1ea0f/m4/longlong.m4
+Xdialog-ec30703399f1ea0f/m4/nls.m4
+Xdialog-ec30703399f1ea0f/m4/po.m4
+Xdialog-ec30703399f1ea0f/m4/printf-posix.m4
+Xdialog-ec30703399f1ea0f/m4/progtest.m4
+Xdialog-ec30703399f1ea0f/m4/signed.m4
+Xdialog-ec30703399f1ea0f/m4/size_max.m4
+Xdialog-ec30703399f1ea0f/m4/stdint_h.m4
+Xdialog-ec30703399f1ea0f/m4/uintmax_t.m4
+Xdialog-ec30703399f1ea0f/m4/ulonglong.m4
+Xdialog-ec30703399f1ea0f/m4/wchar_t.m4
+Xdialog-ec30703399f1ea0f/m4/wint_t.m4
+Xdialog-ec30703399f1ea0f/m4/xsize.m4
+Xdialog-ec30703399f1ea0f/missing
+Xdialog-ec30703399f1ea0f/mkinstalldirs
+Xdialog-ec30703399f1ea0f/po
+Xdialog-ec30703399f1ea0f/po/ChangeLog
+Xdialog-ec30703399f1ea0f/po/Makefile.in.in
+Xdialog-ec30703399f1ea0f/po/Makevars
+Xdialog-ec30703399f1ea0f/po/Makevars.template
+Xdialog-ec30703399f1ea0f/po/POTFILES.in
+Xdialog-ec30703399f1ea0f/po/Rules-quot
+Xdialog-ec30703399f1ea0f/po/Xdialog.pot
+Xdialog-ec30703399f1ea0f/po/boldquot.sed
+Xdialog-ec30703399f1ea0f/po/ca.po
+Xdialog-ec30703399f1ea0f/po/de.po
+Xdialog-ec30703399f1ea0f/po/en@boldquot.header
+Xdialog-ec30703399f1ea0f/po/en@quot.header
+Xdialog-ec30703399f1ea0f/po/es.po
+Xdialog-ec30703399f1ea0f/po/fr.po
+Xdialog-ec30703399f1ea0f/po/hu.po
+Xdialog-ec30703399f1ea0f/po/id.po
+Xdialog-ec30703399f1ea0f/po/insert-header.sin
+Xdialog-ec30703399f1ea0f/po/it.po
+Xdialog-ec30703399f1ea0f/po/nl.po
+Xdialog-ec30703399f1ea0f/po/no_NO.po
+Xdialog-ec30703399f1ea0f/po/pl.po
+Xdialog-ec30703399f1ea0f/po/pt_BR.po
+Xdialog-ec30703399f1ea0f/po/quot.sed
+Xdialog-ec30703399f1ea0f/po/remove-potcdate.sin
+Xdialog-ec30703399f1ea0f/po/ru.po
+Xdialog-ec30703399f1ea0f/po/sv_SE.po
+Xdialog-ec30703399f1ea0f/samples
+Xdialog-ec30703399f1ea0f/samples/Xdialog.wrapper.c
+Xdialog-ec30703399f1ea0f/samples/Xmessage
+Xdialog-ec30703399f1ea0f/samples/Xmore
+Xdialog-ec30703399f1ea0f/samples/allrpms
+Xdialog-ec30703399f1ea0f/samples/bluebox.rc
+Xdialog-ec30703399f1ea0f/samples/buildlist
+Xdialog-ec30703399f1ea0f/samples/calendar
+Xdialog-ec30703399f1ea0f/samples/chain
+Xdialog-ec30703399f1ea0f/samples/checklist
+Xdialog-ec30703399f1ea0f/samples/dselect
+Xdialog-ec30703399f1ea0f/samples/editbox
+Xdialog-ec30703399f1ea0f/samples/fixed-font.rc
+Xdialog-ec30703399f1ea0f/samples/format1440
+Xdialog-ec30703399f1ea0f/samples/fselect
+Xdialog-ec30703399f1ea0f/samples/gauge
+Xdialog-ec30703399f1ea0f/samples/infobox
+Xdialog-ec30703399f1ea0f/samples/infobox2
+Xdialog-ec30703399f1ea0f/samples/inputbox
+Xdialog-ec30703399f1ea0f/samples/install-wrapper
+Xdialog-ec30703399f1ea0f/samples/kernel
+Xdialog-ec30703399f1ea0f/samples/logbox
+Xdialog-ec30703399f1ea0f/samples/logbox2
+Xdialog-ec30703399f1ea0f/samples/login
+Xdialog-ec30703399f1ea0f/samples/menubox
+Xdialog-ec30703399f1ea0f/samples/msgbox
+Xdialog-ec30703399f1ea0f/samples/no-entry.xpm
+Xdialog-ec30703399f1ea0f/samples/radiolist
+Xdialog-ec30703399f1ea0f/samples/rangebox
+Xdialog-ec30703399f1ea0f/samples/set-time
+Xdialog-ec30703399f1ea0f/samples/tailbox
+Xdialog-ec30703399f1ea0f/samples/textbox
+Xdialog-ec30703399f1ea0f/samples/timebox
+Xdialog-ec30703399f1ea0f/samples/treeview
+Xdialog-ec30703399f1ea0f/samples/warning.xpm
+Xdialog-ec30703399f1ea0f/samples/xlock-wrapper
+Xdialog-ec30703399f1ea0f/samples/yesno
+Xdialog-ec30703399f1ea0f/src
+Xdialog-ec30703399f1ea0f/src/Makefile.am
+Xdialog-ec30703399f1ea0f/src/Makefile.in
+Xdialog-ec30703399f1ea0f/src/callbacks.c
+Xdialog-ec30703399f1ea0f/src/callbacks.h
+Xdialog-ec30703399f1ea0f/src/extra.xpm
+Xdialog-ec30703399f1ea0f/src/help.xpm
+Xdialog-ec30703399f1ea0f/src/interface.c
+Xdialog-ec30703399f1ea0f/src/interface.h
+Xdialog-ec30703399f1ea0f/src/main.c
+Xdialog-ec30703399f1ea0f/src/next.xpm
+Xdialog-ec30703399f1ea0f/src/no.xpm
+Xdialog-ec30703399f1ea0f/src/previous.xpm
+Xdialog-ec30703399f1ea0f/src/print.xpm
+Xdialog-ec30703399f1ea0f/src/support.c
+Xdialog-ec30703399f1ea0f/src/support.h
+Xdialog-ec30703399f1ea0f/src/yes.xpm
+Xdialog-ec30703399f1ea0f/stamp-h.in
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/missing: Unknown `--run' option
+Try `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/missing --help' for more information
+configure: WARNING: `missing' script is too old or missing
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking dependency style of gcc... none
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ANSI C... (cached) none needed
+checking dependency style of gcc... (cached) none
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ANSI C... (cached) none needed
+checking dependency style of gcc... (cached) none
+checking for ranlib... ranlib
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for strcasecmp... yes
+checking for strstr... yes
+checking for getopt_long_only... yes
+checking for memchr... yes
+checking for memmove... yes
+checking for setlocale... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for ld used by GCC... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+Compiling for GTK2
+checking for pkg-config... /usr/bin/pkg-config
+checking for GTK+ - version >= 2.2.0... yes (version 2.24.20)
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating src/Makefile
+config.status: creating po/Makefile.in
+config.status: creating doc/Makefile
+config.status: creating m4/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB'
+Making all in m4
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/m4'
+Making all in lib
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/lib'
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -I.  -DUSE_GTK2  -g -O2 -Wall -s -c getopt.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -I.  -DUSE_GTK2  -g -O2 -Wall -s -c getopt1.c
+rm -f libgetopt.a
+ar cru libgetopt.a getopt.o getopt1.o 
+ranlib libgetopt.a
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/lib'
+Making all in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/src'
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -I. -I../intl -I../lib -DPACKAGE_LOCALE_DIR=\""/usr//locale"\" -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz    -DUSE_GTK2  -g -O2 -Wall -s -c main.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -I. -I../intl -I../lib -DPACKAGE_LOCALE_DIR=\""/usr//locale"\" -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz    -DUSE_GTK2  -g -O2 -Wall -s -c interface.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -I. -I../intl -I../lib -DPACKAGE_LOCALE_DIR=\""/usr//locale"\" -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz    -DUSE_GTK2  -g -O2 -Wall -s -c callbacks.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -I. -I../intl -I../lib -DPACKAGE_LOCALE_DIR=\""/usr//locale"\" -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz    -DUSE_GTK2  -g -O2 -Wall -s -c support.c
+callbacks.c: In function ‘calendar_exit’:
+callbacks.c:1123:2: warning: pointer targets in passing argument 2 of ‘gtk_calendar_get_date’ differ in signedness [-Wpointer-sign]
+  gtk_calendar_get_date(GTK_CALENDAR(Xdialog.widget1), &year, &month, &day);
+  ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:53:0,
+                 from callbacks.c:19:
+/usr/include/gtk-2.0/gtk/gtkcalendar.h:184:9: note: expected ‘guint *’ but argument is of type ‘gint *’
+ void    gtk_calendar_get_date (GtkCalendar *calendar, 
+         ^
+callbacks.c:1123:2: warning: pointer targets in passing argument 3 of ‘gtk_calendar_get_date’ differ in signedness [-Wpointer-sign]
+  gtk_calendar_get_date(GTK_CALENDAR(Xdialog.widget1), &year, &month, &day);
+  ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:53:0,
+                 from callbacks.c:19:
+/usr/include/gtk-2.0/gtk/gtkcalendar.h:184:9: note: expected ‘guint *’ but argument is of type ‘gint *’
+ void    gtk_calendar_get_date (GtkCalendar *calendar, 
+         ^
+callbacks.c:1123:2: warning: pointer targets in passing argument 4 of ‘gtk_calendar_get_date’ differ in signedness [-Wpointer-sign]
+  gtk_calendar_get_date(GTK_CALENDAR(Xdialog.widget1), &year, &month, &day);
+  ^
+In file included from /usr/include/gtk-2.0/gtk/gtk.h:53:0,
+                 from callbacks.c:19:
+/usr/include/gtk-2.0/gtk/gtkcalendar.h:184:9: note: expected ‘guint *’ but argument is of type ‘gint *’
+ void    gtk_calendar_get_date (GtkCalendar *calendar, 
+         ^
+interface.c: In function ‘create_progress’:
+interface.c:907:5: warning: pointer targets in passing argument 2 of ‘strcatsafe’ differ in signedness [-Wpointer-sign]
+     strcatsafe(Xdialog.label_text, temp, MAX_LABEL_LENGTH);
+     ^
+In file included from interface.c:24:0:
+support.h:6:13: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+ extern void strcatsafe(char *dest, char *source, int maxchars);
+             ^
+interface.c: In function ‘create_combobox’:
+interface.c:1227:18: warning: assignment from incompatible pointer type [enabled by default]
+  Xdialog.widget1 = GTK_ENTRY (GTK_BIN (combo)->child);
+                  ^
+interface.c:1217:9: warning: unused variable ‘glist’ [-Wunused-variable]
+  GList *glist = NULL;
+         ^
+gcc  -g -O2 -Wall -s   -o Xdialog  main.o interface.o callbacks.o support.o  -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0   -L../lib -lgetopt 
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/src'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/po'
+test -z "fr.gmo de.gmo ru.gmo es.gmo hu.gmo pt_BR.gmo no_NO.gmo id.gmo nl.gmo it.gmo pl.gmo ca.gmo sv_SE.gmo" || make fr.gmo de.gmo ru.gmo es.gmo hu.gmo pt_BR.gmo no_NO.gmo id.gmo nl.gmo it.gmo pl.gmo ca.gmo sv_SE.gmo
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/po'
+rm -f de.gmo && /usr/bin/msgfmt -c --statistics -o de.gmo de.po
+rm -f fr.gmo && /usr/bin/msgfmt -c --statistics -o fr.gmo fr.po
+14 translated messages, 1 untranslated message.
+15 translated messages.
+rm -f es.gmo && /usr/bin/msgfmt -c --statistics -o es.gmo es.po
+rm -f hu.gmo && /usr/bin/msgfmt -c --statistics -o hu.gmo hu.po
+rm -f ru.gmo && /usr/bin/msgfmt -c --statistics -o ru.gmo ru.po
+rm -f pt_BR.gmo && /usr/bin/msgfmt -c --statistics -o pt_BR.gmo pt_BR.po
+14 translated messages, 1 untranslated message.
+14 translated messages, 1 untranslated message.
+rm -f no_NO.gmo && /usr/bin/msgfmt -c --statistics -o no_NO.gmo no_NO.po
+15 translated messages.
+14 translated messages, 1 untranslated message.
+rm -f id.gmo && /usr/bin/msgfmt -c --statistics -o id.gmo id.po
+rm -f nl.gmo && /usr/bin/msgfmt -c --statistics -o nl.gmo nl.po
+13 translated messagesrm -f it.gmo && /usr/bin/msgfmt -c --statistics -o it.gmo it.po
+, 2 untranslated messages.
+15 translated messages.
+15 translated messages.
+15 translated messages.
+rm -f pl.gmo && /usr/bin/msgfmt -c --statistics -o pl.gmo pl.po
+rm -f sv_SE.gmo && /usr/bin/msgfmt -c --statistics -o sv_SE.gmo sv_SE.po
+rm -f ca.gmo && /usr/bin/msgfmt -c --statistics -o ca.gmo ca.po
+14 translated messages, 1 untranslated message.
+15 translated messages.
+15 translated messages.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/po'
+touch stamp-po
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/po'
+Making all in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/doc'
+sed -e 's/%%version%%/2.3.1/' \
+    -e 's:%%bindir%%:/usr/bin:' \
+    -e 's:%%mandir%%:/usr/man:' \
+    -e 's:%%datadir%%:/usr/share:' ./Xdialog.man >Xdialog.1
+sed -e 's/%%version%%/2.3.1/' ./index.html.in >index.html
+sed -e 's/%%version%%/2.3.1/' \
+    -e 's:%%datadir%%:/usr/share:' \
+    ./compatibility.html.in >compatibility.html
+cat ./changelog.head >changelog.html
+cat ./license.head ../COPYING ./license.tail >license.html
+sed -e 's/</\&lt;/' -e 's/</\&lt;/' -e 's/</\&lt;/' \
+    ../ChangeLog >>changelog.html
+cat ./changelog.tail >>changelog.html
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/doc'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB'
+Making install in m4
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/m4'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/m4'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/m4'
+Making install in lib
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/lib'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/lib'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/lib'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/lib'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/src'
+test -z "/usr/bin" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/bin"
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/bin
+  /usr/bin/ginstall -c 'Xdialog' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/bin/Xdialog'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/src'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/po'
+/bin/sh .././mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/fr/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/de/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/ru/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/es/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/hu/LC_MESSAGES
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/hu/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/pt_BR/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/no_NO/LC_MESSAGES
+installing no_NO.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/no_NO/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/id/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/nl/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/it/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/pl/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/ca/LC_MESSAGES/Xdialog.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/sv_SE/LC_MESSAGES
+installing sv_SE.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/locale/sv_SE/LC_MESSAGES/Xdialog.mo
+if test "Xdialog" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/ginstall -c -m 644 ./$file \
+		    /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/po'
+Making install in doc
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/doc'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/doc/Xdialog-2.3.1" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1"
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1
+ /usr/bin/ginstall -c -m 644 'index.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/index.html'
+ /usr/bin/ginstall -c -m 644 'compatibility.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/compatibility.html'
+ /usr/bin/ginstall -c -m 644 'changelog.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/changelog.html'
+ /usr/bin/ginstall -c -m 644 'license.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/license.html'
+ /usr/bin/ginstall -c -m 644 './authors.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/authors.html'
+ /usr/bin/ginstall -c -m 644 './box.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/box.html'
+ /usr/bin/ginstall -c -m 644 './changelog.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/changelog.html'
+ /usr/bin/ginstall -c -m 644 './common.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/common.html'
+ /usr/bin/ginstall -c -m 644 './compatibility.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/compatibility.html'
+ /usr/bin/ginstall -c -m 644 './faq.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/faq.html'
+ /usr/bin/ginstall -c -m 644 './gtk.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/gtk.html'
+ /usr/bin/ginstall -c -m 644 './index.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/index.html'
+ /usr/bin/ginstall -c -m 644 './intro.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/intro.html'
+ /usr/bin/ginstall -c -m 644 './license.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/license.html'
+ /usr/bin/ginstall -c -m 644 './special.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/special.html'
+ /usr/bin/ginstall -c -m 644 './syntax.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/syntax.html'
+ /usr/bin/ginstall -c -m 644 './transient.html' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/transient.html'
+ /usr/bin/ginstall -c -m 644 './2ranges.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/2ranges.png'
+ /usr/bin/ginstall -c -m 644 './buildlist.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/buildlist.png'
+ /usr/bin/ginstall -c -m 644 './calendar.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/calendar.png'
+ /usr/bin/ginstall -c -m 644 './center.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/center.png'
+ /usr/bin/ginstall -c -m 644 './checklist.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/checklist.png'
+ /usr/bin/ginstall -c -m 644 './check.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/check.png'
+ /usr/bin/ginstall -c -m 644 './colorsel.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/colorsel.png'
+ /usr/bin/ginstall -c -m 644 './combobox.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/combobox.png'
+ /usr/bin/ginstall -c -m 644 './dselect.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/dselect.png'
+ /usr/bin/ginstall -c -m 644 './editbox.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/editbox.png'
+ /usr/bin/ginstall -c -m 644 './fill.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/fill.png'
+ /usr/bin/ginstall -c -m 644 './fixedfont.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/fixedfont.png'
+ /usr/bin/ginstall -c -m 644 './fontsel.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/fontsel.png'
+ /usr/bin/ginstall -c -m 644 './fselect.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/fselect.png'
+ /usr/bin/ginstall -c -m 644 './gauge.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/gauge.png'
+ /usr/bin/ginstall -c -m 644 './icon.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/icon.png'
+ /usr/bin/ginstall -c -m 644 './infobox.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/infobox.png'
+ /usr/bin/ginstall -c -m 644 './input.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/input.png'
+ /usr/bin/ginstall -c -m 644 './labelcenter.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/labelcenter.png'
+ /usr/bin/ginstall -c -m 644 './labelleft.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/labelleft.png'
+ /usr/bin/ginstall -c -m 644 './labelright.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/labelright.png'
+ /usr/bin/ginstall -c -m 644 './left.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/left.png'
+ /usr/bin/ginstall -c -m 644 './logbox.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/logbox.png'
+ /usr/bin/ginstall -c -m 644 './msgbox.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/msgbox.png'
+ /usr/bin/ginstall -c -m 644 './nofixedfont.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/nofixedfont.png'
+ /usr/bin/ginstall -c -m 644 './notags.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/notags.png'
+ /usr/bin/ginstall -c -m 644 './password.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/password.png'
+ /usr/bin/ginstall -c -m 644 './radiolist.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/radiolist.png'
+ /usr/bin/ginstall -c -m 644 './range.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/range.png'
+ /usr/bin/ginstall -c -m 644 './rcfile.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/rcfile.png'
+ /usr/bin/ginstall -c -m 644 './right.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/right.png'
+ /usr/bin/ginstall -c -m 644 './spinbox.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/spinbox.png'
+ /usr/bin/ginstall -c -m 644 './tailbox.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/tailbox.png'
+ /usr/bin/ginstall -c -m 644 './timebox.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/timebox.png'
+ /usr/bin/ginstall -c -m 644 './title.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/title.png'
+ /usr/bin/ginstall -c -m 644 './treeview.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/treeview.png'
+ /usr/bin/ginstall -c -m 644 './withtags.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/withtags.png'
+ /usr/bin/ginstall -c -m 644 './yesno.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/yesno.png'
+ /usr/bin/ginstall -c -m 644 './yesno-wizard.png' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/yesno-wizard.png'
+test -z "/usr/man/man1" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/man/man1"
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/man/man1
+ /usr/bin/ginstall -c -m 644 './Xdialog.1' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/man/man1/Xdialog.1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/doc'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB/doc'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/doc/Xdialog-2.3.1" || /bin/sh ./mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1"
+ /usr/bin/ginstall -c -m 644 './samples/allrpms' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/allrpms'
+ /usr/bin/ginstall -c -m 644 './samples/bluebox.rc' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/bluebox.rc'
+ /usr/bin/ginstall -c -m 644 './samples/buildlist' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/buildlist'
+ /usr/bin/ginstall -c -m 644 './samples/calendar' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/calendar'
+ /usr/bin/ginstall -c -m 644 './samples/chain' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/chain'
+ /usr/bin/ginstall -c -m 644 './samples/checklist' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/checklist'
+ /usr/bin/ginstall -c -m 644 './samples/dselect' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/dselect'
+ /usr/bin/ginstall -c -m 644 './samples/editbox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/editbox'
+ /usr/bin/ginstall -c -m 644 './samples/fixed-font.rc' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/fixed-font.rc'
+ /usr/bin/ginstall -c -m 644 './samples/format1440' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/format1440'
+ /usr/bin/ginstall -c -m 644 './samples/fselect' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/fselect'
+ /usr/bin/ginstall -c -m 644 './samples/gauge' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/gauge'
+ /usr/bin/ginstall -c -m 644 './samples/infobox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/infobox'
+ /usr/bin/ginstall -c -m 644 './samples/infobox2' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/infobox2'
+ /usr/bin/ginstall -c -m 644 './samples/inputbox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/inputbox'
+ /usr/bin/ginstall -c -m 644 './samples/install-wrapper' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/install-wrapper'
+ /usr/bin/ginstall -c -m 644 './samples/kernel' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/kernel'
+ /usr/bin/ginstall -c -m 644 './samples/logbox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/logbox'
+ /usr/bin/ginstall -c -m 644 './samples/logbox2' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/logbox2'
+ /usr/bin/ginstall -c -m 644 './samples/login' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/login'
+ /usr/bin/ginstall -c -m 644 './samples/menubox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/menubox'
+ /usr/bin/ginstall -c -m 644 './samples/msgbox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/msgbox'
+ /usr/bin/ginstall -c -m 644 './samples/no-entry.xpm' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/no-entry.xpm'
+ /usr/bin/ginstall -c -m 644 './samples/radiolist' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/radiolist'
+ /usr/bin/ginstall -c -m 644 './samples/rangebox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/rangebox'
+ /usr/bin/ginstall -c -m 644 './samples/set-time' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/set-time'
+ /usr/bin/ginstall -c -m 644 './samples/tailbox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/tailbox'
+ /usr/bin/ginstall -c -m 644 './samples/textbox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/textbox'
+ /usr/bin/ginstall -c -m 644 './samples/timebox' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/timebox'
+ /usr/bin/ginstall -c -m 644 './samples/treeview' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/treeview'
+ /usr/bin/ginstall -c -m 644 './samples/warning.xpm' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/warning.xpm'
+ /usr/bin/ginstall -c -m 644 './samples/Xdialog.wrapper.c' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/Xdialog.wrapper.c'
+ /usr/bin/ginstall -c -m 644 './samples/xlock-wrapper' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/xlock-wrapper'
+ /usr/bin/ginstall -c -m 644 './samples/Xmessage' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/Xmessage'
+ /usr/bin/ginstall -c -m 644 './samples/Xmore' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/Xmore'
+ /usr/bin/ginstall -c -m 644 './samples/yesno' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-install/usr/share/doc/Xdialog-2.3.1/yesno'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog/Xdialog-131231-patched_JB'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/Xdialog
+Found 'i686'
+Processing ../Xdialog-install/usr/bin/Xdialog
+Processing ../Xdialog-install/usr/man/man1/Xdialog.1
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/2ranges.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/allrpms
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/authors.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/bluebox.rc
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/box.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/buildlist
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/buildlist.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/calendar
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/calendar.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/center.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/chain
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/changelog.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/checklist
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/checklist.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/check.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/colorsel.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/combobox.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/common.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/compatibility.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/dselect
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/dselect.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/editbox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/editbox.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/faq.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/fill.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/fixedfont.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/fixed-font.rc
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/fontsel.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/format1440
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/fselect
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/fselect.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/gauge
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/gauge.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/gtk.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/icon.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/index.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/infobox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/infobox2
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/infobox.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/inputbox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/input.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/install-wrapper
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/intro.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/kernel
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/labelcenter.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/labelleft.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/labelright.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/left.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/license.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/logbox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/logbox2
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/logbox.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/login
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/menubox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/msgbox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/msgbox.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/no-entry.xpm
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/nofixedfont.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/notags.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/password.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/radiolist
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/radiolist.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/rangebox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/range.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/rcfile.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/right.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/set-time
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/special.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/spinbox.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/syntax.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/tailbox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/tailbox.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/textbox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/timebox
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/timebox.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/title.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/transient.html
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/treeview
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/treeview.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/warning.xpm
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/withtags.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/Xdialog.wrapper.c
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/xlock-wrapper
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/Xmessage
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/Xmore
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/yesno
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/yesno.png
+Processing ../Xdialog-install/usr/share/doc/Xdialog-2.3.1/yesno-wizard.png
+Processing ../Xdialog-install/usr/share/locale/ca/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/de/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/es/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/fr/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/hu/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/id/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/it/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/nl/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/no_NO/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/pl/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/pt_BR/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/ru/LC_MESSAGES/Xdialog.mo
+Processing ../Xdialog-install/usr/share/locale/sv_SE/LC_MESSAGES/Xdialog.mo
+all done
+packaging Xdialog-131231-patched_JB-i686_slk600
+packaging Xdialog_DOC-131231-patched_JB-i686_slk600
+packaging Xdialog_NLS-131231-patched_JB-i686_slk600
+done!

@@ -1,0 +1,20 @@
+switch2-2.1.0/
+switch2-2.1.0/main.c
+switch2-2.1.0/readme
+switch2-2.1.0/ChangeLog
+switch2-2.1.0/todo
+switch2-2.1.0/switch2.1
+switch2-2.1.0/Makefile
+switch2-2.1.0/COPYING
+gcc -DSWITCH_GTK2 -o switch2 main.c -g -O2 -Wall -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz   -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0  
+mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/switch2/switch2-install/usr/bin
+mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/switch2/switch2-install/usr/man
+install -c switch2 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/switch2/switch2-install/usr/bin
+install -c switch2.1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/switch2/switch2-install/usr/man
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/switch2
+Processing ../switch2-install/usr/bin/switch2
+Processing ../switch2-install/usr/man/switch2.1
+all done
+packaging switch2-2.1.0-i686_slk600
+packaging switch2_DOC-2.1.0-i686_slk600
+done!

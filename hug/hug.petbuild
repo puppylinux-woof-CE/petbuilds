@@ -1,0 +1,109 @@
+# hug
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=http://www.basic-converter.org/
+PKG=hug
+VER=0.96
+COMP=bac
+DESC="HUG - High Level Universal GUI library for BaCon"
+DEPS=+bacon,+gtk+2
+CAT=BuildingBlock
+DESKTOP=
+BUILD=slk600
+CWD=`pwd`
+HUG_IMPORT=hug_imports.bac
+GTK=gtk.bac
+GDK=gdk.bac
+KO=./hug.so
+VIM=bacon.vim
+SYNTAX=bacon.lang
+BUILD=slk600
+
+BAC_VER=`bacon -v|awk '{print $3}'|grep [0-9]|cut -d '.' -f1`
+[ "$BAC_VER" -lt 3 ] && echo "bacon verion is too old" && exit 0
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+retrieve_custom() {
+	if [ -f "../0sources/hug-extras-$VER.tar.gz" ];then
+		cp -a ../0sources/hug-extras-$VER.tar.gz .
+	else
+		wget -t0 -c ${URL}/${PKG}.${COMP}
+		wget -t0 -c ${URL}/$HUG_IMPORT
+		wget -t0 -c ${URL}/$GTK
+		wget -t0 -c ${URL}/$GDK
+		wget -t0 -c ${URL}/$VIM
+		wget -t0 -c ${URL}/$SYNTAX
+	fi
+}
+
+extract_custom() {
+	[ -f hug-extras-$VER.tar.gz ] && tar -xvf hug-extras-$VER.tar.gz
+}
+
+build() {
+	# this is all very specific for HUG
+	bacon -d build -f hug.bac
+	[ "$?" -eq 0 ] || exit
+	strip --strip-unneeded build/hug.so
+	install -d -m 0755 $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/$LIBDIR
+	install -d -m 0755 $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/BaCon
+	install -m 0755 build/hug.so $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/$LIBDIR
+	install -m 0644 $GTK $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/BaCon
+	install -m 0644 $GDK $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/BaCon
+	install -m 0644 ${PKG}.${COMP} $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/BaCon
+	install -m 0644 $VIM $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/BaCon
+	install -m 0644 $SYNTAX $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/BaCon
+	sed -i "s%$KO%\/usr\/$LIBDIR\/hug.so%" $HUG_IMPORT
+	[ "$?" -eq 0 ] || exit 1
+	install -m 0644 $HUG_IMPORT $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/BaCon
+	rm -r build
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+	fi
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./$${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	# pack up the src files
+	tar -czvf hug-extras-$VER.tar.gz ${PKG}.${COMP} \
+									$HUG_IMPORT \
+									$GTK \
+									$GDK \
+									$VIM \
+									$SYNTAX
+	mv -f hug-extras-$VER.tar.gz ../0sources
+	rm *.bac *.vim *.lang
+	for p in `ls|grep "\-${ARCH}_${BUILD}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="${PKG} development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="${PKG} documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="${PKG} locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
+	done
+	rm -r ${PKG}-${VER} 2>/dev/null
+	rm *.files 2>/dev/null
+	echo "done!"
+}
+
+# main
+retrieve_custom
+extract_custom
+build
+package	

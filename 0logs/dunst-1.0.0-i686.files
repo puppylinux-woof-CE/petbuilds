@@ -1,0 +1,4 @@
+dunst-install/usr/bin/dunst
+dunst-install/usr/share/dbus-1/services/org.knopwob.dunst.service
+dunst-install/usr/share/dunst/dunstrc
+dunst-install/usr/share/man/man1/dunst.1

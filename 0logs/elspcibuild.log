@@ -1,0 +1,7 @@
+elspci-1.1/
+elspci-1.1/elspci.c
+elspci-1.1/makeme.sh
+musl-gcc is /usr/local/bin/musl-gcc
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/elspci
+packaging elspci-1.1-i686_slk600
+done!

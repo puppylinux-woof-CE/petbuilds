@@ -1,0 +1,417 @@
+usbutils-007/
+usbutils-007/missing
+usbutils-007/Makefile.in
+usbutils-007/lsusb.c
+usbutils-007/depcomp
+usbutils-007/lsusb.py
+usbutils-007/ChangeLog
+usbutils-007/names.h
+usbutils-007/update-usbids.sh.in
+usbutils-007/README
+usbutils-007/configure
+usbutils-007/usb.ids
+usbutils-007/aclocal.m4
+usbutils-007/lsusb.h
+usbutils-007/NEWS
+usbutils-007/Makefile.am
+usbutils-007/usb-devices
+usbutils-007/COPYING
+usbutils-007/INSTALL
+usbutils-007/usbutils.pc.in
+usbutils-007/usbhid-dump/
+usbutils-007/usbhid-dump/Makefile.in
+usbutils-007/usbhid-dump/src/
+usbutils-007/usbhid-dump/src/Makefile.in
+usbutils-007/usbhid-dump/src/Makefile.am
+usbutils-007/usbhid-dump/src/usbhid-dump.c
+usbutils-007/usbhid-dump/ChangeLog
+usbutils-007/usbhid-dump/configure
+usbutils-007/usbhid-dump/bootstrap
+usbutils-007/usbhid-dump/m4/
+usbutils-007/usbhid-dump/m4/ltoptions.m4
+usbutils-007/usbhid-dump/m4/libtool.m4
+usbutils-007/usbhid-dump/m4/ltversion.m4
+usbutils-007/usbhid-dump/m4/ltsugar.m4
+usbutils-007/usbhid-dump/m4/lt~obsolete.m4
+usbutils-007/usbhid-dump/aclocal.m4
+usbutils-007/usbhid-dump/NEWS
+usbutils-007/usbhid-dump/lib/
+usbutils-007/usbhid-dump/lib/Makefile.in
+usbutils-007/usbhid-dump/lib/dev_list.c
+usbutils-007/usbhid-dump/lib/iface_list.c
+usbutils-007/usbhid-dump/lib/dev.c
+usbutils-007/usbhid-dump/lib/libusb.c
+usbutils-007/usbhid-dump/lib/Makefile.am
+usbutils-007/usbhid-dump/lib/iface.c
+usbutils-007/usbhid-dump/Makefile.am
+usbutils-007/usbhid-dump/include/
+usbutils-007/usbhid-dump/include/Makefile.in
+usbutils-007/usbhid-dump/include/uhd/
+usbutils-007/usbhid-dump/include/uhd/Makefile.in
+usbutils-007/usbhid-dump/include/uhd/libusb.h
+usbutils-007/usbhid-dump/include/uhd/misc.h
+usbutils-007/usbhid-dump/include/uhd/dev_list.h
+usbutils-007/usbhid-dump/include/uhd/Makefile.am
+usbutils-007/usbhid-dump/include/uhd/dev.h
+usbutils-007/usbhid-dump/include/uhd/iface.h
+usbutils-007/usbhid-dump/include/uhd/iface_list.h
+usbutils-007/usbhid-dump/include/Makefile.am
+usbutils-007/usbhid-dump/config.h.in
+usbutils-007/usbhid-dump/auxdir/
+usbutils-007/usbhid-dump/auxdir/missing
+usbutils-007/usbhid-dump/auxdir/depcomp
+usbutils-007/usbhid-dump/auxdir/config.sub
+usbutils-007/usbhid-dump/auxdir/config.guess
+usbutils-007/usbhid-dump/auxdir/install-sh
+usbutils-007/usbhid-dump/auxdir/ltmain.sh
+usbutils-007/usbhid-dump/configure.ac
+usbutils-007/usbhid-dump/doc/
+usbutils-007/usbhid-dump/doc/Makefile.in
+usbutils-007/usbhid-dump/doc/Makefile.am
+usbutils-007/usbhid-dump/doc/usbhid-dump.8
+usbutils-007/usbmisc.h
+usbutils-007/config.h.in
+usbutils-007/AUTHORS
+usbutils-007/lsusb.8.in
+usbutils-007/lsusb-t.c
+usbutils-007/list.h
+usbutils-007/names.c
+usbutils-007/configure.ac
+usbutils-007/install-sh
+usbutils-007/usbmisc.c
+usbutils-007/usb-devices.1.in
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking byteswap.h usability... yes
+checking byteswap.h presence... yes
+checking for byteswap.h... yes
+checking for nl_langinfo... yes
+checking for iconv... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for LIBUSB... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+=== configuring in usbhid-dump (/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=/usr'  '--localstatedir=/var' '--sysconfdir=/etc' '--libdir=/usr/lib' '--disable-zlib' --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... auxdir/install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for LIBUSB... yes
+checking for libusb_strerror... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating include/uhd/Makefile
+config.status: creating lib/Makefile
+config.status: creating src/Makefile
+config.status: creating doc/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+	usbutils 007
+	=============
+
+	prefix:                 /usr
+	datarootdir:            ${prefix}/share
+	datadir:                ${datarootdir}
+	mandir:                 ${datarootdir}/man
+
+	usb.ids:                ${datarootdir}/usb.ids
+	zlib:                   
+
+	compiler:               gcc
+	cflags:                 -g -O2
+	ldflags:                
+
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007'
+Making all in usbhid-dump
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make  all-recursive
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+Making all in include
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+Making all in uhd
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include/uhd'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include/uhd'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+Making all in lib
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/lib'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG   -Os -Wall  -I/usr/include/libusb-1.0   -MT dev.lo -MD -MP -MF .deps/dev.Tpo -c -o dev.lo dev.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG   -Os -Wall  -I/usr/include/libusb-1.0   -MT dev_list.lo -MD -MP -MF .deps/dev_list.Tpo -c -o dev_list.lo dev_list.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG   -Os -Wall  -I/usr/include/libusb-1.0   -MT iface.lo -MD -MP -MF .deps/iface.Tpo -c -o iface.lo iface.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG   -Os -Wall  -I/usr/include/libusb-1.0   -MT iface_list.lo -MD -MP -MF .deps/iface_list.Tpo -c -o iface_list.lo iface_list.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT dev_list.lo -MD -MP -MF .deps/dev_list.Tpo -c dev_list.c  -fPIC -DPIC -o .libs/dev_list.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT iface_list.lo -MD -MP -MF .deps/iface_list.Tpo -c iface_list.c  -fPIC -DPIC -o .libs/iface_list.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT dev.lo -MD -MP -MF .deps/dev.Tpo -c dev.c  -fPIC -DPIC -o .libs/dev.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT iface.lo -MD -MP -MF .deps/iface.Tpo -c iface.c  -fPIC -DPIC -o .libs/iface.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT dev_list.lo -MD -MP -MF .deps/dev_list.Tpo -c dev_list.c -o dev_list.o >/dev/null 2>&1
+iface.c: In function 'uhd_iface_new':
+iface.c:52:21: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+     int             rc;
+                     ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT dev.lo -MD -MP -MF .deps/dev.Tpo -c dev.c -o dev.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT iface_list.lo -MD -MP -MF .deps/iface_list.Tpo -c iface_list.c -o iface_list.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT iface.lo -MD -MP -MF .deps/iface.Tpo -c iface.c -o iface.o >/dev/null 2>&1
+mv -f .deps/dev_list.Tpo .deps/dev_list.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG   -Os -Wall  -I/usr/include/libusb-1.0   -MT libusb.lo -MD -MP -MF .deps/libusb.Tpo -c -o libusb.lo libusb.c
+mv -f .deps/dev.Tpo .deps/dev.Plo
+mv -f .deps/iface_list.Tpo .deps/iface_list.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT libusb.lo -MD -MP -MF .deps/libusb.Tpo -c libusb.c  -fPIC -DPIC -o .libs/libusb.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG -Os -Wall -I/usr/include/libusb-1.0 -MT libusb.lo -MD -MP -MF .deps/libusb.Tpo -c libusb.c -o libusb.o >/dev/null 2>&1
+mv -f .deps/iface.Tpo .deps/iface.Plo
+mv -f .deps/libusb.Tpo .deps/libusb.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -Os -Wall  -I/usr/include/libusb-1.0     -o libuhd.la  dev.lo dev_list.lo iface.lo iface_list.lo libusb.lo  -lusb-1.0  
+libtool: link: ar cru .libs/libuhd.a .libs/dev.o .libs/dev_list.o .libs/iface.o .libs/iface_list.o .libs/libusb.o 
+libtool: link: ranlib .libs/libuhd.a
+libtool: link: ( cd ".libs" && rm -f "libuhd.la" && ln -s "../libuhd.la" "libuhd.la" )
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/lib'
+Making all in src
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/src'
+gcc -DHAVE_CONFIG_H -I. -I..   -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump -I/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include -DNDEBUG   -Os -Wall  -I/usr/include/libusb-1.0   -MT usbhid-dump.o -MD -MP -MF .deps/usbhid-dump.Tpo -c -o usbhid-dump.o usbhid-dump.c
+mv -f .deps/usbhid-dump.Tpo .deps/usbhid-dump.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -Os -Wall  -I/usr/include/libusb-1.0     -o usbhid-dump usbhid-dump.o ../lib/libuhd.la -lusb-1.0  
+libtool: link: gcc -Os -Wall -I/usr/include/libusb-1.0 -o usbhid-dump usbhid-dump.o  ../lib/.libs/libuhd.a /usr/lib/libusb-1.0.so /usr/lib/libudev.so -lrt -pthread
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/src'
+Making all in doc
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/doc'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/doc'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007'
+  CC       lsusb-lsusb.o
+  CC       lsusb-lsusb-t.o
+  CC       lsusb-names.o
+  CC       lsusb-usbmisc.o
+sed 's|@usbids@|/usr/share/usb.ids|g' update-usbids.sh.in >update-usbids.sh
+chmod 755 update-usbids.sh
+sed 's|VERSION|007|g;s|@usbids@|/usr/share/usb.ids|g' lsusb.8.in >lsusb.8
+sed 's|VERSION|007|g' usb-devices.1.in >usb-devices.1
+sed 's|@usbids@|/usr/share/usb.ids|g;s|@VERSION[@]|007|g' usbutils.pc.in >usbutils.pc
+  CCLD     lsusb
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007'
+Making install in usbhid-dump
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+Making install in include
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+Making install in uhd
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include/uhd'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include/uhd'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include/uhd'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include/uhd'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/include'
+Making install in lib
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/lib'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/lib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/lib'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/lib'
+Making install in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/src'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/src'
+ ../auxdir/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c usbhid-dump '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c usbhid-dump /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/bin/usbhid-dump
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/src'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/src'
+Making install in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/doc'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+ ../auxdir/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share/man/man8'
+ /usr/bin/ginstall -c -m 644 usbhid-dump.8 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share/man/man8'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/doc'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump/doc'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007/usbhid-dump'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/bin'
+  /usr/bin/ginstall -c lsusb '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/bin'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/bin'
+ /usr/bin/ginstall -c usb-devices lsusb.py '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/bin'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/sbin'
+ /usr/bin/ginstall -c update-usbids.sh '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/sbin'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share'
+ /usr/bin/ginstall -c -m 644 usb.ids '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 usb-devices.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share/man/man1'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share/man/man8'
+ /usr/bin/ginstall -c -m 644 lsusb.8 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share/man/man8'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share/pkgconfig'
+ /usr/bin/ginstall -c -m 644 usbutils.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-install/usr/share/pkgconfig'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils/usbutils-007'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/usbutils
+--2015-06-28 18:09:05--  http://www.linux-usb.org/usb.ids
+Resolving www.linux-usb.org (www.linux-usb.org)... 216.34.181.97
+Connecting to www.linux-usb.org (www.linux-usb.org)|216.34.181.97|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 549341 (536K) [text/plain]
+Saving to: ‘usb.ids’
+
+     0K .......... .......... .......... .......... ..........  9%  105K 5s
+    50K .......... .......... .......... .......... .......... 18%  142K 4s
+   100K .......... .......... .......... .......... .......... 27%  139K 3s
+   150K .......... .......... .......... .......... .......... 37%  143K 3s
+   200K .......... .......... .......... .......... .......... 46%  134K 2s
+   250K .......... .......... .......... .......... .......... 55%  143K 2s
+   300K .......... .......... .......... .......... .......... 65%  142K 1s
+   350K .......... .......... .......... .......... .......... 74%  140K 1s
+   400K .......... .......... .......... .......... .......... 83%  144K 1s
+   450K .......... .......... .......... .......... .......... 93%  141K 0s
+   500K .......... .......... .......... ......               100%  144K=3.9s
+
+2015-06-28 18:09:11 (137 KB/s) - ‘usb.ids’ saved [549341/549341]
+
+Processing ../usbutils-install/usr/bin/lsusb
+Processing ../usbutils-install/usr/bin/lsusb.py
+Processing ../usbutils-install/usr/bin/usb-devices
+Processing ../usbutils-install/usr/bin/usbhid-dump
+Processing ../usbutils-install/usr/sbin/update-usbids.sh
+Processing ../usbutils-install/usr/share/man/man1/usb-devices.1
+Processing ../usbutils-install/usr/share/man/man8/lsusb.8
+Processing ../usbutils-install/usr/share/man/man8/usbhid-dump.8
+Processing ../usbutils-install/usr/share/pkgconfig/usbutils.pc
+Processing ../usbutils-install/usr/share/usb.ids
+all done
+packaging usbutils-007-i686_slk600
+packaging usbutils_DEV-007-i686_slk600
+packaging usbutils_DOC-007-i686_slk600
+done!

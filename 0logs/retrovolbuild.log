@@ -1,0 +1,300 @@
+retrovol-13.1-1/
+retrovol-13.1-1/config.guess
+retrovol-13.1-1/INSTALL
+retrovol-13.1-1/configure
+retrovol-13.1-1/depcomp
+retrovol-13.1-1/config.h.in
+retrovol-13.1-1/gpl.txt
+retrovol-13.1-1/missing
+retrovol-13.1-1/dot.retrovolrc
+retrovol-13.1-1/m4/
+retrovol-13.1-1/m4/nls.m4
+retrovol-13.1-1/m4/progtest.m4
+retrovol-13.1-1/m4/lib-ld.m4
+retrovol-13.1-1/m4/lib-link.m4
+retrovol-13.1-1/m4/gettext.m4
+retrovol-13.1-1/m4/po.m4
+retrovol-13.1-1/m4/iconv.m4
+retrovol-13.1-1/m4/ChangeLog
+retrovol-13.1-1/m4/lib-prefix.m4
+retrovol-13.1-1/config.rpath
+retrovol-13.1-1/config.sub
+retrovol-13.1-1/Makefile.in
+retrovol-13.1-1/configure.ac
+retrovol-13.1-1/src/
+retrovol-13.1-1/src/config_window.cpp
+retrovol-13.1-1/src/config_settings.cpp
+retrovol-13.1-1/src/main.h
+retrovol-13.1-1/src/eggtrayicon.c
+retrovol-13.1-1/src/alsa_classes.h
+retrovol-13.1-1/src/Makefile.in
+retrovol-13.1-1/src/main.cpp
+retrovol-13.1-1/src/retro_slider.h
+retrovol-13.1-1/src/retro_slider.cpp
+retrovol-13.1-1/src/alsa_classes.cpp
+retrovol-13.1-1/src/eggtrayicon.h
+retrovol-13.1-1/src/Makefile.am
+retrovol-13.1-1/src/config_settings.h
+retrovol-13.1-1/src/gettext.h
+retrovol-13.1-1/src/config_window.h
+retrovol-13.1-1/.gitignore
+retrovol-13.1-1/COPYING
+retrovol-13.1-1/.git/
+retrovol-13.1-1/.git/refs/
+retrovol-13.1-1/.git/refs/tags/
+retrovol-13.1-1/.git/refs/remotes/
+retrovol-13.1-1/.git/refs/remotes/origin/
+retrovol-13.1-1/.git/refs/remotes/origin/master
+retrovol-13.1-1/.git/refs/remotes/origin/HEAD
+retrovol-13.1-1/.git/refs/heads/
+retrovol-13.1-1/.git/refs/heads/master
+retrovol-13.1-1/.git/objects/
+retrovol-13.1-1/.git/objects/ee/
+retrovol-13.1-1/.git/objects/ee/e5af8dbcc442741a9a6c1511687eb6a6f0aa55
+retrovol-13.1-1/.git/objects/35/
+retrovol-13.1-1/.git/objects/35/4f90c3e63f0b87fca85e8f3e023e888632e980
+retrovol-13.1-1/.git/objects/85/
+retrovol-13.1-1/.git/objects/85/74d287de6b5844d073928f852372cd66e08db0
+retrovol-13.1-1/.git/objects/1e/
+retrovol-13.1-1/.git/objects/1e/9c8f06fc35ef775a27e5a92804f98b19af392f
+retrovol-13.1-1/.git/objects/info/
+retrovol-13.1-1/.git/objects/74/
+retrovol-13.1-1/.git/objects/74/e0a0d7871a5750786684bc21b6b5cf2148238e
+retrovol-13.1-1/.git/objects/41/
+retrovol-13.1-1/.git/objects/41/de5e8d92b91b015bf04016e144af1e7c7ea629
+retrovol-13.1-1/.git/objects/2d/
+retrovol-13.1-1/.git/objects/2d/2736f291a8bc91e944fe91c829eb40eac6aa99
+retrovol-13.1-1/.git/objects/93/
+retrovol-13.1-1/.git/objects/93/218f75d0221249c331c1934c0306a0d9e927a3
+retrovol-13.1-1/.git/objects/3e/
+retrovol-13.1-1/.git/objects/3e/d48790edd6b8bbda817e60a3ddf9daedc0d8a7
+retrovol-13.1-1/.git/objects/3c/
+retrovol-13.1-1/.git/objects/3c/a383e0b40b4b9c3ae91a4ff44f76c0abcd6d38
+retrovol-13.1-1/.git/objects/ab/
+retrovol-13.1-1/.git/objects/ab/783e9d7b3edc293ba742bd3d350b4cfda8add3
+retrovol-13.1-1/.git/objects/5f/
+retrovol-13.1-1/.git/objects/5f/158c74aa18552660f9fb8e05bd7c4ffd630a21
+retrovol-13.1-1/.git/objects/5f/67a242129211c8181dba0d9f02b11751d8af15
+retrovol-13.1-1/.git/objects/44/
+retrovol-13.1-1/.git/objects/44/85da13c9578986615f1b4b81b610fe7e4642af
+retrovol-13.1-1/.git/objects/3b/
+retrovol-13.1-1/.git/objects/3b/7bc72440d63c0d18a3030f20bf7bf89493cca3
+retrovol-13.1-1/.git/objects/aa/
+retrovol-13.1-1/.git/objects/aa/fc14ffbae146af9e209a81cd6244684f461ca3
+retrovol-13.1-1/.git/objects/5e/
+retrovol-13.1-1/.git/objects/5e/a02948307da67e5a1b4e0a01de2d483c899763
+retrovol-13.1-1/.git/objects/9e/
+retrovol-13.1-1/.git/objects/9e/9abd6b477cd4c885c211ccefd748669a3a3d95
+retrovol-13.1-1/.git/objects/pack/
+retrovol-13.1-1/.git/objects/pack/pack-124ce933ddec8e93c1ecc486a6c3da78e2911b13.pack
+retrovol-13.1-1/.git/objects/pack/pack-124ce933ddec8e93c1ecc486a6c3da78e2911b13.idx
+retrovol-13.1-1/.git/objects/43/
+retrovol-13.1-1/.git/objects/43/c3cb000620ce82ce9a7c8962f1e58e00a39f1a
+retrovol-13.1-1/.git/objects/05/
+retrovol-13.1-1/.git/objects/05/b4f6e6e3ce674119feed7e1e7c5ca45c4b7fa4
+retrovol-13.1-1/.git/packed-refs
+retrovol-13.1-1/.git/hooks/
+retrovol-13.1-1/.git/hooks/post-update.sample
+retrovol-13.1-1/.git/hooks/commit-msg.sample
+retrovol-13.1-1/.git/hooks/update.sample
+retrovol-13.1-1/.git/hooks/applypatch-msg.sample
+retrovol-13.1-1/.git/hooks/pre-applypatch.sample
+retrovol-13.1-1/.git/hooks/pre-rebase.sample
+retrovol-13.1-1/.git/hooks/prepare-commit-msg.sample
+retrovol-13.1-1/.git/hooks/pre-commit.sample
+retrovol-13.1-1/.git/info/
+retrovol-13.1-1/.git/info/exclude
+retrovol-13.1-1/.git/description
+retrovol-13.1-1/.git/config
+retrovol-13.1-1/.git/COMMIT_EDITMSG
+retrovol-13.1-1/.git/index
+retrovol-13.1-1/.git/HEAD
+retrovol-13.1-1/.git/logs/
+retrovol-13.1-1/.git/logs/refs/
+retrovol-13.1-1/.git/logs/refs/remotes/
+retrovol-13.1-1/.git/logs/refs/remotes/origin/
+retrovol-13.1-1/.git/logs/refs/remotes/origin/master
+retrovol-13.1-1/.git/logs/refs/remotes/origin/HEAD
+retrovol-13.1-1/.git/logs/refs/heads/
+retrovol-13.1-1/.git/logs/refs/heads/master
+retrovol-13.1-1/.git/logs/HEAD
+retrovol-13.1-1/.git/branches/
+retrovol-13.1-1/aclocal.m4
+retrovol-13.1-1/README
+retrovol-13.1-1/images/
+retrovol-13.1-1/images/Makefile.in
+retrovol-13.1-1/images/audio-volume-muted.svg
+retrovol-13.1-1/images/Makefile
+retrovol-13.1-1/images/audio-volume-high.svg
+retrovol-13.1-1/images/audio-volume-low.svg
+retrovol-13.1-1/images/Makefile.am
+retrovol-13.1-1/images/audio-volume-none.svg
+retrovol-13.1-1/images/audio-volume-medium.svg
+retrovol-13.1-1/ABOUT-NLS
+retrovol-13.1-1/ChangeLog
+retrovol-13.1-1/Makefile.am
+retrovol-13.1-1/lgpl.txt
+retrovol-13.1-1/AUTHORS
+retrovol-13.1-1/TODO
+retrovol-13.1-1/NEWS
+retrovol-13.1-1/po/
+retrovol-13.1-1/po/retrovol.pot
+retrovol-13.1-1/po/Makefile.in.in
+retrovol-13.1-1/po/remove-potcdate.sin
+retrovol-13.1-1/po/LINGUAS
+retrovol-13.1-1/po/fr.po
+retrovol-13.1-1/po/quot.sed
+retrovol-13.1-1/po/de.gmo
+retrovol-13.1-1/po/de.po
+retrovol-13.1-1/po/stamp-po
+retrovol-13.1-1/po/ChangeLog
+retrovol-13.1-1/po/boldquot.sed
+retrovol-13.1-1/po/fr.gmo
+retrovol-13.1-1/po/insert-header.sin
+retrovol-13.1-1/po/POTFILES.in
+retrovol-13.1-1/po/Rules-quot
+retrovol-13.1-1/po/en@quot.header
+retrovol-13.1-1/po/Makevars
+retrovol-13.1-1/po/en@boldquot.header
+retrovol-13.1-1/install-sh
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/missing: Unknown `--is-lightweight' option
+Try `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for ld used by GCC... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating images/Makefile
+config.status: creating src/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/po'
+Making all in images
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/images'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/images'
+Making all in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/src'
+g++ -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -DIMAGEDIR="\"/usr/share/retrovol/images\"" `pkg-config --cflags gtk+-2.0`   -g -O2 -MT alsa_classes.o -MD -MP -MF .deps/alsa_classes.Tpo -c -o alsa_classes.o alsa_classes.cpp
+g++ -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -DIMAGEDIR="\"/usr/share/retrovol/images\"" `pkg-config --cflags gtk+-2.0`   -g -O2 -MT config_settings.o -MD -MP -MF .deps/config_settings.Tpo -c -o config_settings.o config_settings.cpp
+g++ -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -DIMAGEDIR="\"/usr/share/retrovol/images\"" `pkg-config --cflags gtk+-2.0`   -g -O2 -MT config_window.o -MD -MP -MF .deps/config_window.Tpo -c -o config_window.o config_window.cpp
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -DIMAGEDIR="\"/usr/share/retrovol/images\"" `pkg-config --cflags gtk+-2.0`   -g -O2 -MT eggtrayicon.o -MD -MP -MF .deps/eggtrayicon.Tpo -c -o eggtrayicon.o eggtrayicon.c
+mv -f .deps/eggtrayicon.Tpo .deps/eggtrayicon.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -DIMAGEDIR="\"/usr/share/retrovol/images\"" `pkg-config --cflags gtk+-2.0`   -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.cpp
+mv -f .deps/alsa_classes.Tpo .deps/alsa_classes.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -DIMAGEDIR="\"/usr/share/retrovol/images\"" `pkg-config --cflags gtk+-2.0`   -g -O2 -MT retro_slider.o -MD -MP -MF .deps/retro_slider.Tpo -c -o retro_slider.o retro_slider.cpp
+mv -f .deps/config_settings.Tpo .deps/config_settings.Po
+mv -f .deps/config_window.Tpo .deps/config_window.Po
+mv -f .deps/retro_slider.Tpo .deps/retro_slider.Po
+mv -f .deps/main.Tpo .deps/main.Po
+g++  -g -O2   -o retrovol alsa_classes.o config_settings.o config_window.o eggtrayicon.o main.o retro_slider.o -lasound -lX11 -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgdk_pixbuf-2.0 -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -ldl -lglib-2.0 
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/po'
+.././install-sh -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/locale/fr/LC_MESSAGES/retrovol.mo
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/locale/de/LC_MESSAGES/retrovol.mo
+if test "retrovol" = "gettext-tools"; then \
+  .././install-sh -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/ginstall -c -m 644 ./$file \
+		    /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/po'
+Making install in images
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/images'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/images'
+make[2]: Nothing to be done for `install-exec-am'.
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/retrovol/images'
+ /usr/bin/ginstall -c -m 644 audio-volume-high.svg audio-volume-none.svg audio-volume-low.svg audio-volume-medium.svg audio-volume-muted.svg '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/retrovol/images'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/images'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/images'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/src'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/bin'
+  /usr/bin/ginstall -c retrovol '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/bin'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1/src'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1'
+make[2]: Nothing to be done for `install-exec-am'.
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/retrovol'
+ /usr/bin/ginstall -c -m 644 dot.retrovolrc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-install/usr/share/retrovol'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol/retrovol-13.1-1'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/retrovol
+Found 'i686'
+Processing ../retrovol-install/usr/bin/retrovol
+Processing ../retrovol-install/usr/bin/retrovol_speaker
+Processing ../retrovol-install/usr/share/locale/de/LC_MESSAGES/retrovol.mo
+Processing ../retrovol-install/usr/share/locale/fr/LC_MESSAGES/retrovol.mo
+Processing ../retrovol-install/usr/share/retrovol/dot.retrovolrc
+Processing ../retrovol-install/usr/share/retrovol/images/audio-volume-high.svg
+Processing ../retrovol-install/usr/share/retrovol/images/audio-volume-low.svg
+Processing ../retrovol-install/usr/share/retrovol/images/audio-volume-medium.svg
+Processing ../retrovol-install/usr/share/retrovol/images/audio-volume-muted.svg
+Processing ../retrovol-install/usr/share/retrovol/images/audio-volume-none.svg
+all done
+packaging retrovol-13.1-1-i686_slk600
+packaging retrovol_NLS-13.1-1-i686_slk600
+done!

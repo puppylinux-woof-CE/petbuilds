@@ -1,0 +1,12 @@
+p7zip-install/usr/bin/7z
+p7zip-install/usr/bin/7za
+p7zip-install/usr/bin/7zg
+p7zip-install/usr/libexec/7z
+p7zip-install/usr/libexec/7za
+p7zip-install/usr/libexec/7zCon.sfx
+p7zip-install/usr/libexec/7zr
+p7zip-install/usr/libexec/7z.so
+p7zip-install/usr/libexec/Codecs/Rar29.so
+p7zip-install/usr/share/man/man1/7z.1
+p7zip-install/usr/share/man/man1/7za.1
+p7zip-install/usr/share/man/man1/7zr.1

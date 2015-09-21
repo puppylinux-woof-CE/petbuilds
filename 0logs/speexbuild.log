@@ -1,0 +1,1114 @@
+speex-1.2rc1/
+speex-1.2rc1/ti/
+speex-1.2rc1/ti/Makefile.am
+speex-1.2rc1/ti/testenc-TI-C5x.c
+speex-1.2rc1/ti/speex_C64_test/
+speex-1.2rc1/ti/speex_C64_test/Makefile.am
+speex-1.2rc1/ti/speex_C64_test/speex_C64_test.cmd
+speex-1.2rc1/ti/speex_C64_test/speex_C64_test.pjt
+speex-1.2rc1/ti/speex_C64_test/Makefile.in
+speex-1.2rc1/ti/speex_C55_test/
+speex-1.2rc1/ti/speex_C55_test/Makefile.am
+speex-1.2rc1/ti/speex_C55_test/speex_C55_test.pjt
+speex-1.2rc1/ti/speex_C55_test/speex_C55_test.cmd
+speex-1.2rc1/ti/speex_C55_test/Makefile.in
+speex-1.2rc1/ti/config.h
+speex-1.2rc1/ti/testenc-TI-C64x.c
+speex-1.2rc1/ti/os_support_custom.h
+speex-1.2rc1/ti/speex_C54_test/
+speex-1.2rc1/ti/speex_C54_test/speex_C54_test.pjt
+speex-1.2rc1/ti/speex_C54_test/Makefile.am
+speex-1.2rc1/ti/speex_C54_test/speex_C54_test.cmd
+speex-1.2rc1/ti/speex_C54_test/Makefile.in
+speex-1.2rc1/ti/Makefile.in
+speex-1.2rc1/config.h.in
+speex-1.2rc1/configure.ac
+speex-1.2rc1/README.symbian
+speex-1.2rc1/README
+speex-1.2rc1/symbian/
+speex-1.2rc1/symbian/bld.inf
+speex-1.2rc1/symbian/speex.mmp
+speex-1.2rc1/symbian/Makefile.am
+speex-1.2rc1/symbian/config.h
+speex-1.2rc1/symbian/Makefile.in
+speex-1.2rc1/AUTHORS
+speex-1.2rc1/Makefile.am
+speex-1.2rc1/TODO
+speex-1.2rc1/speex.m4
+speex-1.2rc1/README.TI-DSP
+speex-1.2rc1/config.sub
+speex-1.2rc1/INSTALL
+speex-1.2rc1/doc/
+speex-1.2rc1/doc/Makefile.am
+speex-1.2rc1/doc/manual.pdf
+speex-1.2rc1/doc/Makefile.in
+speex-1.2rc1/COPYING
+speex-1.2rc1/NEWS
+speex-1.2rc1/install-sh
+speex-1.2rc1/libspeex/
+speex-1.2rc1/libspeex/lsp.c
+speex-1.2rc1/libspeex/filterbank.h
+speex-1.2rc1/libspeex/cb_search_arm4.h
+speex-1.2rc1/libspeex/filterbank.c
+speex-1.2rc1/libspeex/ltp_arm4.h
+speex-1.2rc1/libspeex/modes.h
+speex-1.2rc1/libspeex/cb_search_bfin.h
+speex-1.2rc1/libspeex/math_approx.h
+speex-1.2rc1/libspeex/filters_arm4.h
+speex-1.2rc1/libspeex/kiss_fftr.h
+speex-1.2rc1/libspeex/ltp.c
+speex-1.2rc1/libspeex/hexc_table.c
+speex-1.2rc1/libspeex/lpc_bfin.h
+speex-1.2rc1/libspeex/_kiss_fft_guts.h
+speex-1.2rc1/libspeex/fixed_arm5e.h
+speex-1.2rc1/libspeex/window.c
+speex-1.2rc1/libspeex/vq_arm4.h
+speex-1.2rc1/libspeex/fixed_arm4.h
+speex-1.2rc1/libspeex/stack_alloc.h
+speex-1.2rc1/libspeex/quant_lsp_bfin.h
+speex-1.2rc1/libspeex/fixed_generic.h
+speex-1.2rc1/libspeex/gain_table.c
+speex-1.2rc1/libspeex/Makefile.am
+speex-1.2rc1/libspeex/smallft.h
+speex-1.2rc1/libspeex/lpc.h
+speex-1.2rc1/libspeex/testjitter.c
+speex-1.2rc1/libspeex/fixed_debug.h
+speex-1.2rc1/libspeex/kiss_fft.h
+speex-1.2rc1/libspeex/echo_diagnostic.m
+speex-1.2rc1/libspeex/exc_10_32_table.c
+speex-1.2rc1/libspeex/filters_sse.h
+speex-1.2rc1/libspeex/smallft.c
+speex-1.2rc1/libspeex/vq.c
+speex-1.2rc1/libspeex/lsp_tables_nb.c
+speex-1.2rc1/libspeex/quant_lsp.h
+speex-1.2rc1/libspeex/filters.c
+speex-1.2rc1/libspeex/cb_search.c
+speex-1.2rc1/libspeex/speex_header.c
+speex-1.2rc1/libspeex/speex.c
+speex-1.2rc1/libspeex/modes.c
+speex-1.2rc1/libspeex/fftwrap.c
+speex-1.2rc1/libspeex/fftwrap.h
+speex-1.2rc1/libspeex/gain_table_lbr.c
+speex-1.2rc1/libspeex/mdf.c
+speex-1.2rc1/libspeex/ltp.h
+speex-1.2rc1/libspeex/bits.c
+speex-1.2rc1/libspeex/vq_bfin.h
+speex-1.2rc1/libspeex/nb_celp.c
+speex-1.2rc1/libspeex/high_lsp_tables.c
+speex-1.2rc1/libspeex/vq.h
+speex-1.2rc1/libspeex/resample_sse.h
+speex-1.2rc1/libspeex/ltp_sse.h
+speex-1.2rc1/libspeex/testenc_wb.c
+speex-1.2rc1/libspeex/ltp_bfin.h
+speex-1.2rc1/libspeex/nb_celp.h
+speex-1.2rc1/libspeex/fixed_bfin.h
+speex-1.2rc1/libspeex/stereo.c
+speex-1.2rc1/libspeex/lpc.c
+speex-1.2rc1/libspeex/modes_wb.c
+speex-1.2rc1/libspeex/hexc_10_32_table.c
+speex-1.2rc1/libspeex/scal.c
+speex-1.2rc1/libspeex/testecho.c
+speex-1.2rc1/libspeex/lsp.h
+speex-1.2rc1/libspeex/filters.h
+speex-1.2rc1/libspeex/buffer.c
+speex-1.2rc1/libspeex/exc_8_128_table.c
+speex-1.2rc1/libspeex/exc_5_64_table.c
+speex-1.2rc1/libspeex/resample.c
+speex-1.2rc1/libspeex/lsp_bfin.h
+speex-1.2rc1/libspeex/exc_10_16_table.c
+speex-1.2rc1/libspeex/testdenoise.c
+speex-1.2rc1/libspeex/sb_celp.h
+speex-1.2rc1/libspeex/os_support.h
+speex-1.2rc1/libspeex/jitter.c
+speex-1.2rc1/libspeex/quant_lsp.c
+speex-1.2rc1/libspeex/sb_celp.c
+speex-1.2rc1/libspeex/misc_bfin.h
+speex-1.2rc1/libspeex/arch.h
+speex-1.2rc1/libspeex/preprocess.c
+speex-1.2rc1/libspeex/exc_20_32_table.c
+speex-1.2rc1/libspeex/cb_search_sse.h
+speex-1.2rc1/libspeex/vorbis_psy.h
+speex-1.2rc1/libspeex/pseudofloat.h
+speex-1.2rc1/libspeex/vq_sse.h
+speex-1.2rc1/libspeex/cb_search.h
+speex-1.2rc1/libspeex/testenc_uwb.c
+speex-1.2rc1/libspeex/testenc.c
+speex-1.2rc1/libspeex/vbr.h
+speex-1.2rc1/libspeex/kiss_fft.c
+speex-1.2rc1/libspeex/kiss_fftr.c
+speex-1.2rc1/libspeex/exc_5_256_table.c
+speex-1.2rc1/libspeex/speex_callbacks.c
+speex-1.2rc1/libspeex/vbr.c
+speex-1.2rc1/libspeex/Makefile.in
+speex-1.2rc1/libspeex/filters_bfin.h
+speex-1.2rc1/src/
+speex-1.2rc1/src/Makefile.am
+speex-1.2rc1/src/getopt_win.h
+speex-1.2rc1/src/skeleton.h
+speex-1.2rc1/src/speexenc.1
+speex-1.2rc1/src/getopt1.c
+speex-1.2rc1/src/wave_out.h
+speex-1.2rc1/src/wav_io.c
+speex-1.2rc1/src/getopt.c
+speex-1.2rc1/src/wav_io.h
+speex-1.2rc1/src/speexdec.1
+speex-1.2rc1/src/skeleton.c
+speex-1.2rc1/src/speexdec.c
+speex-1.2rc1/src/speexenc.c
+speex-1.2rc1/src/wave_out.c
+speex-1.2rc1/src/Makefile.in
+speex-1.2rc1/ltmain.sh
+speex-1.2rc1/speexdsp.pc.in
+speex-1.2rc1/speex.pc.in
+speex-1.2rc1/ChangeLog
+speex-1.2rc1/config.guess
+speex-1.2rc1/acinclude.m4
+speex-1.2rc1/Speex.spec
+speex-1.2rc1/README.blackfin
+speex-1.2rc1/include/
+speex-1.2rc1/include/Makefile.am
+speex-1.2rc1/include/speex/
+speex-1.2rc1/include/speex/speex_callbacks.h
+speex-1.2rc1/include/speex/speex_jitter.h
+speex-1.2rc1/include/speex/speex_buffer.h
+speex-1.2rc1/include/speex/speex_resampler.h
+speex-1.2rc1/include/speex/speex_bits.h
+speex-1.2rc1/include/speex/Makefile.am
+speex-1.2rc1/include/speex/speex.h
+speex-1.2rc1/include/speex/speex_preprocess.h
+speex-1.2rc1/include/speex/speex_header.h
+speex-1.2rc1/include/speex/speex_echo.h
+speex-1.2rc1/include/speex/speex_config_types.h.in
+speex-1.2rc1/include/speex/speex_stereo.h
+speex-1.2rc1/include/speex/speex_types.h
+speex-1.2rc1/include/speex/Makefile.in
+speex-1.2rc1/include/Makefile.in
+speex-1.2rc1/depcomp
+speex-1.2rc1/configure
+speex-1.2rc1/aclocal.m4
+speex-1.2rc1/Speex.kdevelop
+speex-1.2rc1/Speex.spec.in
+speex-1.2rc1/win32/
+speex-1.2rc1/win32/Makefile.am
+speex-1.2rc1/win32/speexdec/
+speex-1.2rc1/win32/speexdec/Makefile.am
+speex-1.2rc1/win32/speexdec/speexdec.dsw
+speex-1.2rc1/win32/speexdec/speexdec.dsp
+speex-1.2rc1/win32/speexdec/Makefile.in
+speex-1.2rc1/win32/VS2003/
+speex-1.2rc1/win32/VS2003/libspeexdsp/
+speex-1.2rc1/win32/VS2003/libspeexdsp/Makefile.am
+speex-1.2rc1/win32/VS2003/libspeexdsp/libspeexdsp.vcproj
+speex-1.2rc1/win32/VS2003/libspeexdsp/Makefile.in
+speex-1.2rc1/win32/VS2003/Makefile.am
+speex-1.2rc1/win32/VS2003/speexdec/
+speex-1.2rc1/win32/VS2003/speexdec/Makefile.am
+speex-1.2rc1/win32/VS2003/speexdec/speexdec.vcproj
+speex-1.2rc1/win32/VS2003/speexdec/Makefile.in
+speex-1.2rc1/win32/VS2003/tests/
+speex-1.2rc1/win32/VS2003/tests/testresample.vcproj
+speex-1.2rc1/win32/VS2003/tests/testenc.vcproj
+speex-1.2rc1/win32/VS2003/tests/Makefile.am
+speex-1.2rc1/win32/VS2003/tests/testenc_uwb.vcproj
+speex-1.2rc1/win32/VS2003/tests/testenc_wb.vcproj
+speex-1.2rc1/win32/VS2003/tests/testdenoise.vcproj
+speex-1.2rc1/win32/VS2003/tests/testecho.vcproj
+speex-1.2rc1/win32/VS2003/tests/Makefile.in
+speex-1.2rc1/win32/VS2003/libspeex/
+speex-1.2rc1/win32/VS2003/libspeex/libspeex.vcproj
+speex-1.2rc1/win32/VS2003/libspeex/Makefile.am
+speex-1.2rc1/win32/VS2003/libspeex/Makefile.in
+speex-1.2rc1/win32/VS2003/speexenc/
+speex-1.2rc1/win32/VS2003/speexenc/speexenc.vcproj
+speex-1.2rc1/win32/VS2003/speexenc/Makefile.am
+speex-1.2rc1/win32/VS2003/speexenc/Makefile.in
+speex-1.2rc1/win32/VS2003/libspeex.sln
+speex-1.2rc1/win32/VS2003/Makefile.in
+speex-1.2rc1/win32/libspeexdsp.def
+speex-1.2rc1/win32/config.h
+speex-1.2rc1/win32/VS2008/
+speex-1.2rc1/win32/VS2008/libspeexdsp/
+speex-1.2rc1/win32/VS2008/libspeexdsp/Makefile.am
+speex-1.2rc1/win32/VS2008/libspeexdsp/libspeexdsp.vcproj
+speex-1.2rc1/win32/VS2008/libspeexdsp/Makefile.in
+speex-1.2rc1/win32/VS2008/Makefile.am
+speex-1.2rc1/win32/VS2008/speexdec/
+speex-1.2rc1/win32/VS2008/speexdec/Makefile.am
+speex-1.2rc1/win32/VS2008/speexdec/speexdec.vcproj
+speex-1.2rc1/win32/VS2008/speexdec/Makefile.in
+speex-1.2rc1/win32/VS2008/tests/
+speex-1.2rc1/win32/VS2008/tests/testresample.vcproj
+speex-1.2rc1/win32/VS2008/tests/testenc.vcproj
+speex-1.2rc1/win32/VS2008/tests/Makefile.am
+speex-1.2rc1/win32/VS2008/tests/testenc_uwb.vcproj
+speex-1.2rc1/win32/VS2008/tests/testenc_wb.vcproj
+speex-1.2rc1/win32/VS2008/tests/testdenoise.vcproj
+speex-1.2rc1/win32/VS2008/tests/testecho.vcproj
+speex-1.2rc1/win32/VS2008/tests/Makefile.in
+speex-1.2rc1/win32/VS2008/libspeex/
+speex-1.2rc1/win32/VS2008/libspeex/libspeex.vcproj
+speex-1.2rc1/win32/VS2008/libspeex/Makefile.am
+speex-1.2rc1/win32/VS2008/libspeex/Makefile.in
+speex-1.2rc1/win32/VS2008/speexenc/
+speex-1.2rc1/win32/VS2008/speexenc/speexenc.vcproj
+speex-1.2rc1/win32/VS2008/speexenc/Makefile.am
+speex-1.2rc1/win32/VS2008/speexenc/Makefile.in
+speex-1.2rc1/win32/VS2008/libspeex.sln
+speex-1.2rc1/win32/VS2008/Makefile.in
+speex-1.2rc1/win32/libspeex.def
+speex-1.2rc1/win32/libspeex/
+speex-1.2rc1/win32/libspeex/libspeexdsp_dynamic.dsp
+speex-1.2rc1/win32/libspeex/Makefile.am
+speex-1.2rc1/win32/libspeex/libspeex.dsp
+speex-1.2rc1/win32/libspeex/libspeexdsp.dsp
+speex-1.2rc1/win32/libspeex/libspeex.dsw
+speex-1.2rc1/win32/libspeex/Makefile.in
+speex-1.2rc1/win32/libspeex/libspeex_dynamic.dsp
+speex-1.2rc1/win32/speexenc/
+speex-1.2rc1/win32/speexenc/speexenc.dsw
+speex-1.2rc1/win32/speexenc/Makefile.am
+speex-1.2rc1/win32/speexenc/speexenc.dsp
+speex-1.2rc1/win32/speexenc/Makefile.in
+speex-1.2rc1/win32/VS2005/
+speex-1.2rc1/win32/VS2005/libspeexdsp/
+speex-1.2rc1/win32/VS2005/libspeexdsp/Makefile.am
+speex-1.2rc1/win32/VS2005/libspeexdsp/libspeexdsp.vcproj
+speex-1.2rc1/win32/VS2005/libspeexdsp/Makefile.in
+speex-1.2rc1/win32/VS2005/Makefile.am
+speex-1.2rc1/win32/VS2005/speexdec/
+speex-1.2rc1/win32/VS2005/speexdec/Makefile.am
+speex-1.2rc1/win32/VS2005/speexdec/speexdec.vcproj
+speex-1.2rc1/win32/VS2005/speexdec/Makefile.in
+speex-1.2rc1/win32/VS2005/tests/
+speex-1.2rc1/win32/VS2005/tests/testresample.vcproj
+speex-1.2rc1/win32/VS2005/tests/testenc.vcproj
+speex-1.2rc1/win32/VS2005/tests/Makefile.am
+speex-1.2rc1/win32/VS2005/tests/testenc_uwb.vcproj
+speex-1.2rc1/win32/VS2005/tests/testenc_wb.vcproj
+speex-1.2rc1/win32/VS2005/tests/testdenoise.vcproj
+speex-1.2rc1/win32/VS2005/tests/testecho.vcproj
+speex-1.2rc1/win32/VS2005/tests/Makefile.in
+speex-1.2rc1/win32/VS2005/libspeex/
+speex-1.2rc1/win32/VS2005/libspeex/libspeex.vcproj
+speex-1.2rc1/win32/VS2005/libspeex/Makefile.am
+speex-1.2rc1/win32/VS2005/libspeex/Makefile.in
+speex-1.2rc1/win32/VS2005/speexenc/
+speex-1.2rc1/win32/VS2005/speexenc/speexenc.vcproj
+speex-1.2rc1/win32/VS2005/speexenc/Makefile.am
+speex-1.2rc1/win32/VS2005/speexenc/Makefile.in
+speex-1.2rc1/win32/VS2005/libspeex.sln
+speex-1.2rc1/win32/VS2005/Makefile.in
+speex-1.2rc1/win32/speex.iss
+speex-1.2rc1/win32/Makefile.in
+speex-1.2rc1/missing
+speex-1.2rc1/Makefile.in
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+(cached) (cached) checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking whether byte ordering is bigendian... no
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for C/C++ restrict keyword... __restrict
+checking for C99 variable-size arrays... yes
+checking alloca.h usability... yes
+checking alloca.h presence... yes
+checking for alloca.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for alloca... yes
+checking for SSE in current arch/CFLAGS... no
+checking for ELF visibility... yes
+checking sys/soundcard.h usability... yes
+checking sys/soundcard.h presence... yes
+checking for sys/soundcard.h... yes
+checking sys/audioio.h usability... no
+checking sys/audioio.h presence... no
+checking for sys/audioio.h... no
+checking for Ogg... yes
+checking for sin in -lm... yes
+checking for getopt_long... yes
+checking for main in -lwinmm... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for short... yes
+checking size of short... 2
+checking for int... yes
+checking size of int... 4
+checking for long... yes
+checking size of long... 4
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libspeex/Makefile
+config.status: creating src/Makefile
+config.status: creating doc/Makefile
+config.status: creating Speex.spec
+config.status: creating include/Makefile
+config.status: creating include/speex/Makefile
+config.status: creating speex.pc
+config.status: creating speexdsp.pc
+config.status: creating win32/Makefile
+config.status: creating win32/libspeex/Makefile
+config.status: creating win32/speexenc/Makefile
+config.status: creating win32/speexdec/Makefile
+config.status: creating symbian/Makefile
+config.status: creating win32/VS2003/Makefile
+config.status: creating win32/VS2003/tests/Makefile
+config.status: creating win32/VS2003/libspeex/Makefile
+config.status: creating win32/VS2003/libspeexdsp/Makefile
+config.status: creating win32/VS2003/speexdec/Makefile
+config.status: creating win32/VS2003/speexenc/Makefile
+config.status: creating win32/VS2005/Makefile
+config.status: creating win32/VS2005/libspeex/Makefile
+config.status: creating win32/VS2005/speexdec/Makefile
+config.status: creating win32/VS2005/speexenc/Makefile
+config.status: creating win32/VS2005/libspeexdsp/Makefile
+config.status: creating win32/VS2005/tests/Makefile
+config.status: creating win32/VS2008/libspeexdsp/Makefile
+config.status: creating win32/VS2008/Makefile
+config.status: creating win32/VS2008/speexdec/Makefile
+config.status: creating win32/VS2008/tests/Makefile
+config.status: creating win32/VS2008/libspeex/Makefile
+config.status: creating win32/VS2008/speexenc/Makefile
+config.status: creating include/speex/speex_config_types.h
+config.status: creating ti/Makefile
+config.status: creating ti/speex_C54_test/Makefile
+config.status: creating ti/speex_C55_test/Makefile
+config.status: creating ti/speex_C64_test/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+Type "make; make install" to compile and install Speex
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1'
+Making all in libspeex
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/libspeex'
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT cb_search.lo -MD -MP -MF ".deps/cb_search.Tpo" -c -o cb_search.lo cb_search.c; \
+then mv -f ".deps/cb_search.Tpo" ".deps/cb_search.Plo"; else rm -f ".deps/cb_search.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT exc_10_32_table.lo -MD -MP -MF ".deps/exc_10_32_table.Tpo" -c -o exc_10_32_table.lo exc_10_32_table.c; \
+then mv -f ".deps/exc_10_32_table.Tpo" ".deps/exc_10_32_table.Plo"; else rm -f ".deps/exc_10_32_table.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT exc_8_128_table.lo -MD -MP -MF ".deps/exc_8_128_table.Tpo" -c -o exc_8_128_table.lo exc_8_128_table.c; \
+then mv -f ".deps/exc_8_128_table.Tpo" ".deps/exc_8_128_table.Plo"; else rm -f ".deps/exc_8_128_table.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT filters.lo -MD -MP -MF ".deps/filters.Tpo" -c -o filters.lo filters.c; \
+then mv -f ".deps/filters.Tpo" ".deps/filters.Plo"; else rm -f ".deps/filters.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT filters.lo -MD -MP -MF .deps/filters.Tpo -c filters.c  -fPIC -DPIC -o .libs/filters.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT exc_8_128_table.lo -MD -MP -MF .deps/exc_8_128_table.Tpo -c exc_8_128_table.c  -fPIC -DPIC -o .libs/exc_8_128_table.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT cb_search.lo -MD -MP -MF .deps/cb_search.Tpo -c cb_search.c  -fPIC -DPIC -o .libs/cb_search.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT exc_10_32_table.lo -MD -MP -MF .deps/exc_10_32_table.Tpo -c exc_10_32_table.c  -fPIC -DPIC -o .libs/exc_10_32_table.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT gain_table.lo -MD -MP -MF ".deps/gain_table.Tpo" -c -o gain_table.lo gain_table.c; \
+then mv -f ".deps/gain_table.Tpo" ".deps/gain_table.Plo"; else rm -f ".deps/gain_table.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT hexc_table.lo -MD -MP -MF ".deps/hexc_table.Tpo" -c -o hexc_table.lo hexc_table.c; \
+then mv -f ".deps/hexc_table.Tpo" ".deps/hexc_table.Plo"; else rm -f ".deps/hexc_table.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT high_lsp_tables.lo -MD -MP -MF ".deps/high_lsp_tables.Tpo" -c -o high_lsp_tables.lo high_lsp_tables.c; \
+then mv -f ".deps/high_lsp_tables.Tpo" ".deps/high_lsp_tables.Plo"; else rm -f ".deps/high_lsp_tables.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT hexc_table.lo -MD -MP -MF .deps/hexc_table.Tpo -c hexc_table.c  -fPIC -DPIC -o .libs/hexc_table.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT gain_table.lo -MD -MP -MF .deps/gain_table.Tpo -c gain_table.c  -fPIC -DPIC -o .libs/gain_table.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT lsp.lo -MD -MP -MF ".deps/lsp.Tpo" -c -o lsp.lo lsp.c; \
+then mv -f ".deps/lsp.Tpo" ".deps/lsp.Plo"; else rm -f ".deps/lsp.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT ltp.lo -MD -MP -MF ".deps/ltp.Tpo" -c -o ltp.lo ltp.c; \
+then mv -f ".deps/ltp.Tpo" ".deps/ltp.Plo"; else rm -f ".deps/ltp.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT speex.lo -MD -MP -MF ".deps/speex.Tpo" -c -o speex.lo speex.c; \
+then mv -f ".deps/speex.Tpo" ".deps/speex.Plo"; else rm -f ".deps/speex.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT high_lsp_tables.lo -MD -MP -MF .deps/high_lsp_tables.Tpo -c high_lsp_tables.c  -fPIC -DPIC -o .libs/high_lsp_tables.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT stereo.lo -MD -MP -MF ".deps/stereo.Tpo" -c -o stereo.lo stereo.c; \
+then mv -f ".deps/stereo.Tpo" ".deps/stereo.Plo"; else rm -f ".deps/stereo.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT lsp.lo -MD -MP -MF .deps/lsp.Tpo -c lsp.c  -fPIC -DPIC -o .libs/lsp.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT ltp.lo -MD -MP -MF .deps/ltp.Tpo -c ltp.c  -fPIC -DPIC -o .libs/ltp.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT speex.lo -MD -MP -MF .deps/speex.Tpo -c speex.c  -fPIC -DPIC -o .libs/speex.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT stereo.lo -MD -MP -MF .deps/stereo.Tpo -c stereo.c  -fPIC -DPIC -o .libs/stereo.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT vbr.lo -MD -MP -MF ".deps/vbr.Tpo" -c -o vbr.lo vbr.c; \
+then mv -f ".deps/vbr.Tpo" ".deps/vbr.Plo"; else rm -f ".deps/vbr.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT vq.lo -MD -MP -MF ".deps/vq.Tpo" -c -o vq.lo vq.c; \
+then mv -f ".deps/vq.Tpo" ".deps/vq.Plo"; else rm -f ".deps/vq.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT bits.lo -MD -MP -MF ".deps/bits.Tpo" -c -o bits.lo bits.c; \
+then mv -f ".deps/bits.Tpo" ".deps/bits.Plo"; else rm -f ".deps/bits.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT bits.lo -MD -MP -MF .deps/bits.Tpo -c bits.c  -fPIC -DPIC -o .libs/bits.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT exc_10_16_table.lo -MD -MP -MF ".deps/exc_10_16_table.Tpo" -c -o exc_10_16_table.lo exc_10_16_table.c; \
+then mv -f ".deps/exc_10_16_table.Tpo" ".deps/exc_10_16_table.Plo"; else rm -f ".deps/exc_10_16_table.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT vq.lo -MD -MP -MF .deps/vq.Tpo -c vq.c  -fPIC -DPIC -o .libs/vq.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT vbr.lo -MD -MP -MF .deps/vbr.Tpo -c vbr.c  -fPIC -DPIC -o .libs/vbr.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT exc_20_32_table.lo -MD -MP -MF ".deps/exc_20_32_table.Tpo" -c -o exc_20_32_table.lo exc_20_32_table.c; \
+then mv -f ".deps/exc_20_32_table.Tpo" ".deps/exc_20_32_table.Plo"; else rm -f ".deps/exc_20_32_table.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT exc_5_256_table.lo -MD -MP -MF ".deps/exc_5_256_table.Tpo" -c -o exc_5_256_table.lo exc_5_256_table.c; \
+then mv -f ".deps/exc_5_256_table.Tpo" ".deps/exc_5_256_table.Plo"; else rm -f ".deps/exc_5_256_table.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT exc_5_64_table.lo -MD -MP -MF ".deps/exc_5_64_table.Tpo" -c -o exc_5_64_table.lo exc_5_64_table.c; \
+then mv -f ".deps/exc_5_64_table.Tpo" ".deps/exc_5_64_table.Plo"; else rm -f ".deps/exc_5_64_table.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT exc_10_16_table.lo -MD -MP -MF .deps/exc_10_16_table.Tpo -c exc_10_16_table.c  -fPIC -DPIC -o .libs/exc_10_16_table.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT exc_5_256_table.lo -MD -MP -MF .deps/exc_5_256_table.Tpo -c exc_5_256_table.c  -fPIC -DPIC -o .libs/exc_5_256_table.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT gain_table_lbr.lo -MD -MP -MF ".deps/gain_table_lbr.Tpo" -c -o gain_table_lbr.lo gain_table_lbr.c; \
+then mv -f ".deps/gain_table_lbr.Tpo" ".deps/gain_table_lbr.Plo"; else rm -f ".deps/gain_table_lbr.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT hexc_10_32_table.lo -MD -MP -MF ".deps/hexc_10_32_table.Tpo" -c -o hexc_10_32_table.lo hexc_10_32_table.c; \
+then mv -f ".deps/hexc_10_32_table.Tpo" ".deps/hexc_10_32_table.Plo"; else rm -f ".deps/hexc_10_32_table.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT exc_20_32_table.lo -MD -MP -MF .deps/exc_20_32_table.Tpo -c exc_20_32_table.c  -fPIC -DPIC -o .libs/exc_20_32_table.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT lpc.lo -MD -MP -MF ".deps/lpc.Tpo" -c -o lpc.lo lpc.c; \
+then mv -f ".deps/lpc.Tpo" ".deps/lpc.Plo"; else rm -f ".deps/lpc.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT exc_5_64_table.lo -MD -MP -MF .deps/exc_5_64_table.Tpo -c exc_5_64_table.c  -fPIC -DPIC -o .libs/exc_5_64_table.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT hexc_10_32_table.lo -MD -MP -MF .deps/hexc_10_32_table.Tpo -c hexc_10_32_table.c  -fPIC -DPIC -o .libs/hexc_10_32_table.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT lsp_tables_nb.lo -MD -MP -MF ".deps/lsp_tables_nb.Tpo" -c -o lsp_tables_nb.lo lsp_tables_nb.c; \
+then mv -f ".deps/lsp_tables_nb.Tpo" ".deps/lsp_tables_nb.Plo"; else rm -f ".deps/lsp_tables_nb.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT gain_table_lbr.lo -MD -MP -MF .deps/gain_table_lbr.Tpo -c gain_table_lbr.c  -fPIC -DPIC -o .libs/gain_table_lbr.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT modes.lo -MD -MP -MF ".deps/modes.Tpo" -c -o modes.lo modes.c; \
+then mv -f ".deps/modes.Tpo" ".deps/modes.Plo"; else rm -f ".deps/modes.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT modes_wb.lo -MD -MP -MF ".deps/modes_wb.Tpo" -c -o modes_wb.lo modes_wb.c; \
+then mv -f ".deps/modes_wb.Tpo" ".deps/modes_wb.Plo"; else rm -f ".deps/modes_wb.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT lpc.lo -MD -MP -MF .deps/lpc.Tpo -c lpc.c  -fPIC -DPIC -o .libs/lpc.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT nb_celp.lo -MD -MP -MF ".deps/nb_celp.Tpo" -c -o nb_celp.lo nb_celp.c; \
+then mv -f ".deps/nb_celp.Tpo" ".deps/nb_celp.Plo"; else rm -f ".deps/nb_celp.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT lsp_tables_nb.lo -MD -MP -MF .deps/lsp_tables_nb.Tpo -c lsp_tables_nb.c  -fPIC -DPIC -o .libs/lsp_tables_nb.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT modes_wb.lo -MD -MP -MF .deps/modes_wb.Tpo -c modes_wb.c  -fPIC -DPIC -o .libs/modes_wb.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT modes.lo -MD -MP -MF .deps/modes.Tpo -c modes.c  -fPIC -DPIC -o .libs/modes.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT quant_lsp.lo -MD -MP -MF ".deps/quant_lsp.Tpo" -c -o quant_lsp.lo quant_lsp.c; \
+then mv -f ".deps/quant_lsp.Tpo" ".deps/quant_lsp.Plo"; else rm -f ".deps/quant_lsp.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT sb_celp.lo -MD -MP -MF ".deps/sb_celp.Tpo" -c -o sb_celp.lo sb_celp.c; \
+then mv -f ".deps/sb_celp.Tpo" ".deps/sb_celp.Plo"; else rm -f ".deps/sb_celp.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT speex_callbacks.lo -MD -MP -MF ".deps/speex_callbacks.Tpo" -c -o speex_callbacks.lo speex_callbacks.c; \
+then mv -f ".deps/speex_callbacks.Tpo" ".deps/speex_callbacks.Plo"; else rm -f ".deps/speex_callbacks.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT nb_celp.lo -MD -MP -MF .deps/nb_celp.Tpo -c nb_celp.c  -fPIC -DPIC -o .libs/nb_celp.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT quant_lsp.lo -MD -MP -MF .deps/quant_lsp.Tpo -c quant_lsp.c  -fPIC -DPIC -o .libs/quant_lsp.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT sb_celp.lo -MD -MP -MF .deps/sb_celp.Tpo -c sb_celp.c  -fPIC -DPIC -o .libs/sb_celp.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT speex_header.lo -MD -MP -MF ".deps/speex_header.Tpo" -c -o speex_header.lo speex_header.c; \
+then mv -f ".deps/speex_header.Tpo" ".deps/speex_header.Plo"; else rm -f ".deps/speex_header.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT speex_callbacks.lo -MD -MP -MF .deps/speex_callbacks.Tpo -c speex_callbacks.c  -fPIC -DPIC -o .libs/speex_callbacks.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT window.lo -MD -MP -MF ".deps/window.Tpo" -c -o window.lo window.c; \
+then mv -f ".deps/window.Tpo" ".deps/window.Plo"; else rm -f ".deps/window.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT window.lo -MD -MP -MF .deps/window.Tpo -c window.c  -fPIC -DPIC -o .libs/window.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT preprocess.lo -MD -MP -MF ".deps/preprocess.Tpo" -c -o preprocess.lo preprocess.c; \
+then mv -f ".deps/preprocess.Tpo" ".deps/preprocess.Plo"; else rm -f ".deps/preprocess.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT speex_header.lo -MD -MP -MF .deps/speex_header.Tpo -c speex_header.c  -fPIC -DPIC -o .libs/speex_header.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT jitter.lo -MD -MP -MF ".deps/jitter.Tpo" -c -o jitter.lo jitter.c; \
+then mv -f ".deps/jitter.Tpo" ".deps/jitter.Plo"; else rm -f ".deps/jitter.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT preprocess.lo -MD -MP -MF .deps/preprocess.Tpo -c preprocess.c  -fPIC -DPIC -o .libs/preprocess.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT jitter.lo -MD -MP -MF .deps/jitter.Tpo -c jitter.c  -fPIC -DPIC -o .libs/jitter.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT mdf.lo -MD -MP -MF ".deps/mdf.Tpo" -c -o mdf.lo mdf.c; \
+then mv -f ".deps/mdf.Tpo" ".deps/mdf.Plo"; else rm -f ".deps/mdf.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT fftwrap.lo -MD -MP -MF ".deps/fftwrap.Tpo" -c -o fftwrap.lo fftwrap.c; \
+then mv -f ".deps/fftwrap.Tpo" ".deps/fftwrap.Plo"; else rm -f ".deps/fftwrap.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT filterbank.lo -MD -MP -MF ".deps/filterbank.Tpo" -c -o filterbank.lo filterbank.c; \
+then mv -f ".deps/filterbank.Tpo" ".deps/filterbank.Plo"; else rm -f ".deps/filterbank.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT fftwrap.lo -MD -MP -MF .deps/fftwrap.Tpo -c fftwrap.c  -fPIC -DPIC -o .libs/fftwrap.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT mdf.lo -MD -MP -MF .deps/mdf.Tpo -c mdf.c  -fPIC -DPIC -o .libs/mdf.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT resample.lo -MD -MP -MF ".deps/resample.Tpo" -c -o resample.lo resample.c; \
+then mv -f ".deps/resample.Tpo" ".deps/resample.Plo"; else rm -f ".deps/resample.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT buffer.lo -MD -MP -MF ".deps/buffer.Tpo" -c -o buffer.lo buffer.c; \
+then mv -f ".deps/buffer.Tpo" ".deps/buffer.Plo"; else rm -f ".deps/buffer.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT filterbank.lo -MD -MP -MF .deps/filterbank.Tpo -c filterbank.c  -fPIC -DPIC -o .libs/filterbank.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT scal.lo -MD -MP -MF ".deps/scal.Tpo" -c -o scal.lo scal.c; \
+then mv -f ".deps/scal.Tpo" ".deps/scal.Plo"; else rm -f ".deps/scal.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT buffer.lo -MD -MP -MF .deps/buffer.Tpo -c buffer.c  -fPIC -DPIC -o .libs/buffer.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT resample.lo -MD -MP -MF .deps/resample.Tpo -c resample.c  -fPIC -DPIC -o .libs/resample.o
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT smallft.lo -MD -MP -MF ".deps/smallft.Tpo" -c -o smallft.lo smallft.c; \
+then mv -f ".deps/smallft.Tpo" ".deps/smallft.Plo"; else rm -f ".deps/smallft.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT scal.lo -MD -MP -MF .deps/scal.Tpo -c scal.c  -fPIC -DPIC -o .libs/scal.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include -g -O2 -fvisibility=hidden -MT smallft.lo -MD -MP -MF .deps/smallft.Tpo -c smallft.c  -fPIC -DPIC -o .libs/smallft.o
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT testenc.o -MD -MP -MF ".deps/testenc.Tpo" -c -o testenc.o testenc.c; \
+then mv -f ".deps/testenc.Tpo" ".deps/testenc.Po"; else rm -f ".deps/testenc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT testenc_wb.o -MD -MP -MF ".deps/testenc_wb.Tpo" -c -o testenc_wb.o testenc_wb.c; \
+then mv -f ".deps/testenc_wb.Tpo" ".deps/testenc_wb.Po"; else rm -f ".deps/testenc_wb.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT testenc_uwb.o -MD -MP -MF ".deps/testenc_uwb.Tpo" -c -o testenc_uwb.o testenc_uwb.c; \
+then mv -f ".deps/testenc_uwb.Tpo" ".deps/testenc_uwb.Po"; else rm -f ".deps/testenc_uwb.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT testdenoise.o -MD -MP -MF ".deps/testdenoise.Tpo" -c -o testdenoise.o testdenoise.c; \
+then mv -f ".deps/testdenoise.Tpo" ".deps/testdenoise.Po"; else rm -f ".deps/testdenoise.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT testecho.o -MD -MP -MF ".deps/testecho.Tpo" -c -o testecho.o testecho.c; \
+then mv -f ".deps/testecho.Tpo" ".deps/testecho.Po"; else rm -f ".deps/testecho.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include     -g -O2 -fvisibility=hidden -MT testjitter.o -MD -MP -MF ".deps/testjitter.Tpo" -c -o testjitter.o testjitter.c; \
+then mv -f ".deps/testjitter.Tpo" ".deps/testjitter.Po"; else rm -f ".deps/testjitter.Tpo"; exit 1; fi
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o libspeex.la -rpath /usr/lib -no-undefined -version-info 6:0:5 cb_search.lo exc_10_32_table.lo exc_8_128_table.lo filters.lo gain_table.lo hexc_table.lo high_lsp_tables.lo lsp.lo ltp.lo speex.lo stereo.lo vbr.lo vq.lo bits.lo exc_10_16_table.lo exc_20_32_table.lo exc_5_256_table.lo exc_5_64_table.lo gain_table_lbr.lo hexc_10_32_table.lo lpc.lo lsp_tables_nb.lo modes.lo modes_wb.lo nb_celp.lo quant_lsp.lo sb_celp.lo speex_callbacks.lo speex_header.lo window.lo  -lm 
+gcc -shared  .libs/cb_search.o .libs/exc_10_32_table.o .libs/exc_8_128_table.o .libs/filters.o .libs/gain_table.o .libs/hexc_table.o .libs/high_lsp_tables.o .libs/lsp.o .libs/ltp.o .libs/speex.o .libs/stereo.o .libs/vbr.o .libs/vq.o .libs/bits.o .libs/exc_10_16_table.o .libs/exc_20_32_table.o .libs/exc_5_256_table.o .libs/exc_5_64_table.o .libs/gain_table_lbr.o .libs/hexc_10_32_table.o .libs/lpc.o .libs/lsp_tables_nb.o .libs/modes.o .libs/modes_wb.o .libs/nb_celp.o .libs/quant_lsp.o .libs/sb_celp.o .libs/speex_callbacks.o .libs/speex_header.o .libs/window.o  -lm  -Wl,-soname -Wl,libspeex.so.1 -o .libs/libspeex.so.1.5.0
+(cd .libs && rm -f libspeex.so.1 && ln -s libspeex.so.1.5.0 libspeex.so.1)
+(cd .libs && rm -f libspeex.so && ln -s libspeex.so.1.5.0 libspeex.so)
+creating libspeex.la
+(cd .libs && rm -f libspeex.la && ln -s ../libspeex.la libspeex.la)
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o testenc  testenc.o libspeex.la -lm 
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o testenc_wb  testenc_wb.o libspeex.la  -lm 
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o testenc_uwb  testenc_uwb.o libspeex.la -lm 
+gcc -g -O2 -fvisibility=hidden -o .libs/testenc_uwb testenc_uwb.o  ./.libs/libspeex.so -lm
+gcc -g -O2 -fvisibility=hidden -o .libs/testenc_wb testenc_wb.o  ./.libs/libspeex.so -lm
+creating testenc_wb
+creating testenc_uwb
+gcc -g -O2 -fvisibility=hidden -o .libs/testenc testenc.o  ./.libs/libspeex.so -lm
+creating testenc
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o libspeexdsp.la -rpath /usr/lib -no-undefined -version-info 6:0:5 preprocess.lo jitter.lo mdf.lo fftwrap.lo filterbank.lo resample.lo buffer.lo scal.lo smallft.lo  -lm 
+gcc -shared  .libs/preprocess.o .libs/jitter.o .libs/mdf.o .libs/fftwrap.o .libs/filterbank.o .libs/resample.o .libs/buffer.o .libs/scal.o .libs/smallft.o  -lm  -Wl,-soname -Wl,libspeexdsp.so.1 -o .libs/libspeexdsp.so.1.5.0
+(cd .libs && rm -f libspeexdsp.so.1 && ln -s libspeexdsp.so.1.5.0 libspeexdsp.so.1)
+(cd .libs && rm -f libspeexdsp.so && ln -s libspeexdsp.so.1.5.0 libspeexdsp.so)
+creating libspeexdsp.la
+(cd .libs && rm -f libspeexdsp.la && ln -s ../libspeexdsp.la libspeexdsp.la)
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o testdenoise  testdenoise.o libspeexdsp.la  -lm 
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o testecho  testecho.o libspeexdsp.la  -lm 
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o testjitter  testjitter.o libspeexdsp.la  -lm 
+gcc -g -O2 -fvisibility=hidden -o .libs/testecho testecho.o  ./.libs/libspeexdsp.so -lm
+creating testecho
+gcc -g -O2 -fvisibility=hidden -o .libs/testdenoise testdenoise.o  ./.libs/libspeexdsp.so -lm
+gcc -g -O2 -fvisibility=hidden -o .libs/testjitter testjitter.o  ./.libs/libspeexdsp.so -lm
+creating testdenoise
+creating testjitter
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/libspeex'
+Making all in include
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+Making all in speex
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include/speex'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include/speex'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+Making all in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/src'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include    -g -O2 -fvisibility=hidden -MT speexenc.o -MD -MP -MF ".deps/speexenc.Tpo" -c -o speexenc.o speexenc.c; \
+then mv -f ".deps/speexenc.Tpo" ".deps/speexenc.Po"; else rm -f ".deps/speexenc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include    -g -O2 -fvisibility=hidden -MT wav_io.o -MD -MP -MF ".deps/wav_io.Tpo" -c -o wav_io.o wav_io.c; \
+then mv -f ".deps/wav_io.Tpo" ".deps/wav_io.Po"; else rm -f ".deps/wav_io.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include    -g -O2 -fvisibility=hidden -MT skeleton.o -MD -MP -MF ".deps/skeleton.Tpo" -c -o skeleton.o skeleton.c; \
+then mv -f ".deps/skeleton.Tpo" ".deps/skeleton.Po"; else rm -f ".deps/skeleton.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../include -I.. -I/usr/include    -g -O2 -fvisibility=hidden -MT speexdec.o -MD -MP -MF ".deps/speexdec.Tpo" -c -o speexdec.o speexdec.c; \
+then mv -f ".deps/speexdec.Tpo" ".deps/speexdec.Po"; else rm -f ".deps/speexdec.Tpo"; exit 1; fi
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o speexdec  speexdec.o wav_io.o ../libspeex/libspeex.la -L/usr/lib -logg   -lm 
+mkdir .libs
+/bin/sh ../libtool --mode=link gcc  -g -O2 -fvisibility=hidden   -o speexenc  speexenc.o wav_io.o skeleton.o ../libspeex/libspeex.la ../libspeex/libspeexdsp.la -L/usr/lib -logg  	 -lm 
+gcc -g -O2 -fvisibility=hidden -o .libs/speexdec speexdec.o wav_io.o  ../libspeex/.libs/libspeex.so -L/usr/lib /usr/lib/libogg.so -lm
+creating speexdec
+gcc -g -O2 -fvisibility=hidden -o .libs/speexenc speexenc.o wav_io.o skeleton.o  ../libspeex/.libs/libspeex.so ../libspeex/.libs/libspeexdsp.so -L/usr/lib /usr/lib/libogg.so -lm
+creating speexenc
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/src'
+Making all in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/doc'
+Making all in win32
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+Making all in libspeex
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/libspeex'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/libspeex'
+Making all in speexenc
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexenc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexenc'
+Making all in speexdec
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexdec'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexdec'
+Making all in VS2003
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+Making all in libspeex
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeex'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeex'
+Making all in libspeexdsp
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeexdsp'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeexdsp'
+Making all in speexenc
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexenc'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexenc'
+Making all in speexdec
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexdec'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexdec'
+Making all in tests
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/tests'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/tests'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+Making all in VS2005
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+Making all in libspeex
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeex'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeex'
+Making all in libspeexdsp
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeexdsp'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeexdsp'
+Making all in speexenc
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexenc'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexenc'
+Making all in speexdec
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexdec'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexdec'
+Making all in tests
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/tests'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/tests'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+Making all in VS2008
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+Making all in libspeex
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeex'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeex'
+Making all in libspeexdsp
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeexdsp'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeexdsp'
+Making all in speexenc
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexenc'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexenc'
+Making all in speexdec
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexdec'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexdec'
+Making all in tests
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/tests'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/tests'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+Making all in symbian
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/symbian'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/symbian'
+Making all in ti
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+Making all in speex_C54_test
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C54_test'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C54_test'
+Making all in speex_C55_test
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C55_test'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C55_test'
+Making all in speex_C64_test
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C64_test'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C64_test'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1'
+Making install in libspeex
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/libspeex'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/libspeex'
+test -z "/usr/lib" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib"
+ /bin/sh ../libtool --mode=install /usr/bin/ginstall -c  'libspeex.la' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/libspeex.la'
+/usr/bin/ginstall -c .libs/libspeex.so.1.5.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/libspeex.so.1.5.0
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib && { ln -s -f libspeex.so.1.5.0 libspeex.so.1 || { rm -f libspeex.so.1 && ln -s libspeex.so.1.5.0 libspeex.so.1; }; })
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib && { ln -s -f libspeex.so.1.5.0 libspeex.so || { rm -f libspeex.so && ln -s libspeex.so.1.5.0 libspeex.so; }; })
+/usr/bin/ginstall -c .libs/libspeex.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/libspeex.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+ /bin/sh ../libtool --mode=install /usr/bin/ginstall -c  'libspeexdsp.la' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/libspeexdsp.la'
+/usr/bin/ginstall -c .libs/libspeexdsp.so.1.5.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/libspeexdsp.so.1.5.0
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib && { ln -s -f libspeexdsp.so.1.5.0 libspeexdsp.so.1 || { rm -f libspeexdsp.so.1 && ln -s libspeexdsp.so.1.5.0 libspeexdsp.so.1; }; })
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib && { ln -s -f libspeexdsp.so.1.5.0 libspeexdsp.so || { rm -f libspeexdsp.so && ln -s libspeexdsp.so.1.5.0 libspeexdsp.so; }; })
+/usr/bin/ginstall -c .libs/libspeexdsp.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/libspeexdsp.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/libspeex'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/libspeex'
+Making install in include
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+Making install in speex
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include/speex'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include/speex'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/include/speex" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex"
+ /usr/bin/ginstall -c -m 644 'speex_config_types.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_config_types.h'
+test -z "/usr/include/speex" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex"
+ /usr/bin/ginstall -c -m 644 'speex.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex.h'
+ /usr/bin/ginstall -c -m 644 'speex_bits.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_bits.h'
+ /usr/bin/ginstall -c -m 644 'speex_buffer.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_buffer.h'
+ /usr/bin/ginstall -c -m 644 'speex_callbacks.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_callbacks.h'
+ /usr/bin/ginstall -c -m 644 'speex_echo.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_echo.h'
+ /usr/bin/ginstall -c -m 644 'speex_header.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_header.h'
+ /usr/bin/ginstall -c -m 644 'speex_jitter.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_jitter.h'
+ /usr/bin/ginstall -c -m 644 'speex_preprocess.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_preprocess.h'
+ /usr/bin/ginstall -c -m 644 'speex_resampler.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_resampler.h'
+ /usr/bin/ginstall -c -m 644 'speex_stereo.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_stereo.h'
+ /usr/bin/ginstall -c -m 644 'speex_types.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include/speex/speex_types.h'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include/speex'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include/speex'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/include'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/src'
+test -z "/usr/bin" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/bin"
+  /bin/sh ../libtool --mode=install /usr/bin/ginstall -c 'speexenc' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/bin/speexenc'
+/usr/bin/ginstall -c .libs/speexenc /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/bin/speexenc
+  /bin/sh ../libtool --mode=install /usr/bin/ginstall -c 'speexdec' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/bin/speexdec'
+/usr/bin/ginstall -c .libs/speexdec /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/bin/speexdec
+test -z "/usr/include" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/include"
+test -z "/usr/share/man/man1" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/share/man/man1"
+ /usr/bin/ginstall -c -m 644 './speexenc.1' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/share/man/man1/speexenc.1'
+ /usr/bin/ginstall -c -m 644 './speexdec.1' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/share/man/man1/speexdec.1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/src'
+Making install in doc
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/doc'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/doc/speex" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/share/doc/speex"
+ /usr/bin/ginstall -c -m 644 'manual.pdf' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/share/doc/speex/manual.pdf'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/doc'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/doc'
+Making install in win32
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+Making install in libspeex
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/libspeex'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/libspeex'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/libspeex'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/libspeex'
+Making install in speexenc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexenc'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexenc'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexenc'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexenc'
+Making install in speexdec
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexdec'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexdec'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexdec'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/speexdec'
+Making install in VS2003
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+Making install in libspeex
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeex'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeex'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeex'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeex'
+Making install in libspeexdsp
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeexdsp'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeexdsp'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeexdsp'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/libspeexdsp'
+Making install in speexenc
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexenc'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexenc'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexenc'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexenc'
+Making install in speexdec
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexdec'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexdec'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexdec'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/speexdec'
+Making install in tests
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/tests'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/tests'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/tests'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003/tests'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2003'
+Making install in VS2005
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+Making install in libspeex
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeex'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeex'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeex'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeex'
+Making install in libspeexdsp
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeexdsp'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeexdsp'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeexdsp'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/libspeexdsp'
+Making install in speexenc
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexenc'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexenc'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexenc'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexenc'
+Making install in speexdec
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexdec'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexdec'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexdec'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/speexdec'
+Making install in tests
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/tests'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/tests'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/tests'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005/tests'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2005'
+Making install in VS2008
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+Making install in libspeex
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeex'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeex'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeex'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeex'
+Making install in libspeexdsp
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeexdsp'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeexdsp'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeexdsp'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/libspeexdsp'
+Making install in speexenc
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexenc'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexenc'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexenc'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexenc'
+Making install in speexdec
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexdec'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexdec'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexdec'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/speexdec'
+Making install in tests
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/tests'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/tests'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/tests'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008/tests'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32/VS2008'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/win32'
+Making install in symbian
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/symbian'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/symbian'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/symbian'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/symbian'
+Making install in ti
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+Making install in speex_C54_test
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C54_test'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C54_test'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C54_test'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C54_test'
+Making install in speex_C55_test
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C55_test'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C55_test'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C55_test'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C55_test'
+Making install in speex_C64_test
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C64_test'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C64_test'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C64_test'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti/speex_C64_test'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/ti'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/aclocal" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/share/aclocal"
+ /usr/bin/ginstall -c -m 644 'speex.m4' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/share/aclocal/speex.m4'
+test -z "/usr/lib/pkgconfig" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 'speex.pc' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/pkgconfig/speex.pc'
+ /usr/bin/ginstall -c -m 644 'speexdsp.pc' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-install/usr/lib/pkgconfig/speexdsp.pc'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex/speex-1.2rc1'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/speex
+Found 'i686'
+Processing ../speex-install/usr/bin/speexdec
+Processing ../speex-install/usr/bin/speexenc
+Processing ../speex-install/usr/include/speex/speex_bits.h
+Processing ../speex-install/usr/include/speex/speex_buffer.h
+Processing ../speex-install/usr/include/speex/speex_callbacks.h
+Processing ../speex-install/usr/include/speex/speex_config_types.h
+Processing ../speex-install/usr/include/speex/speex_echo.h
+Processing ../speex-install/usr/include/speex/speex.h
+Processing ../speex-install/usr/include/speex/speex_header.h
+Processing ../speex-install/usr/include/speex/speex_jitter.h
+Processing ../speex-install/usr/include/speex/speex_preprocess.h
+Processing ../speex-install/usr/include/speex/speex_resampler.h
+Processing ../speex-install/usr/include/speex/speex_stereo.h
+Processing ../speex-install/usr/include/speex/speex_types.h
+Processing ../speex-install/usr/lib/libspeexdsp.la
+Processing ../speex-install/usr/lib/libspeexdsp.so
+Processing ../speex-install/usr/lib/libspeexdsp.so.1
+Processing ../speex-install/usr/lib/libspeexdsp.so.1.5.0
+Processing ../speex-install/usr/lib/libspeex.la
+Processing ../speex-install/usr/lib/libspeex.so
+Processing ../speex-install/usr/lib/libspeex.so.1
+Processing ../speex-install/usr/lib/libspeex.so.1.5.0
+Processing ../speex-install/usr/lib/pkgconfig/speexdsp.pc
+Processing ../speex-install/usr/lib/pkgconfig/speex.pc
+Processing ../speex-install/usr/share/aclocal/speex.m4
+Processing ../speex-install/usr/share/doc/speex/manual.pdf
+Processing ../speex-install/usr/share/man/man1/speexdec.1
+Processing ../speex-install/usr/share/man/man1/speexenc.1
+all done
+packaging speex-1.2rc1-i686_slk600
+packaging speex_DEV-1.2rc1-i686_slk600
+packaging speex_DOC-1.2rc1-i686_slk600
+done!

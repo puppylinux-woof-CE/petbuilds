@@ -1,0 +1,7 @@
+wvdial-install/etc/ppp/peers/wvdial
+wvdial-install/etc/ppp/peers/wvdial-pipe
+wvdial-install/usr/bin/wvdial
+wvdial-install/usr/bin/wvdialconf
+wvdial-install/usr/share/man/man1/wvdial.1
+wvdial-install/usr/share/man/man1/wvdialconf.1
+wvdial-install/usr/share/man/man5/wvdial.conf.5

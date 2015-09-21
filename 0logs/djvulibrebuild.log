@@ -1,0 +1,1101 @@
+djvulibre-3.5.25/
+djvulibre-3.5.25/.gitignore
+djvulibre-3.5.25/COPYING
+djvulibre-3.5.25/COPYRIGHT
+djvulibre-3.5.25/INSTALL
+djvulibre-3.5.25/Makefile.in
+djvulibre-3.5.25/NEWS
+djvulibre-3.5.25/README
+djvulibre-3.5.25/README_macosx
+djvulibre-3.5.25/README_win32
+djvulibre-3.5.25/aclocal.m4
+djvulibre-3.5.25/config/
+djvulibre-3.5.25/config/acinclude.m4
+djvulibre-3.5.25/config/config.guess
+djvulibre-3.5.25/config/config.h.in
+djvulibre-3.5.25/config/config.sub
+djvulibre-3.5.25/config/install-sh
+djvulibre-3.5.25/config/libtool.m4
+djvulibre-3.5.25/config/ltmain.sh
+djvulibre-3.5.25/config/ltoptions.m4
+djvulibre-3.5.25/config/ltsugar.m4
+djvulibre-3.5.25/config/ltversion.m4
+djvulibre-3.5.25/config/lt~obsolete.m4
+djvulibre-3.5.25/configure
+djvulibre-3.5.25/configure.ac
+djvulibre-3.5.25/debian/
+djvulibre-3.5.25/debian/.gitignore
+djvulibre-3.5.25/debian/README.Debian
+djvulibre-3.5.25/debian/changelog
+djvulibre-3.5.25/debian/clean
+djvulibre-3.5.25/debian/compat
+djvulibre-3.5.25/debian/control
+djvulibre-3.5.25/debian/copyright
+djvulibre-3.5.25/debian/djvulibre-bin.docs
+djvulibre-3.5.25/debian/djvulibre-bin.install
+djvulibre-3.5.25/debian/djvulibre-desktop.install
+djvulibre-3.5.25/debian/djvuserve.install
+djvulibre-3.5.25/debian/djvuserve.sh
+djvulibre-3.5.25/debian/libdjvulibre-dev.docs
+djvulibre-3.5.25/debian/libdjvulibre-dev.install
+djvulibre-3.5.25/debian/libdjvulibre-text.install
+djvulibre-3.5.25/debian/libdjvulibre21.install
+djvulibre-3.5.25/debian/rules
+djvulibre-3.5.25/debian/source/
+djvulibre-3.5.25/debian/source/format
+djvulibre-3.5.25/debian/source/local-options
+djvulibre-3.5.25/debian/watch
+djvulibre-3.5.25/desktopfiles/
+djvulibre-3.5.25/desktopfiles/Makefile.in
+djvulibre-3.5.25/desktopfiles/README
+djvulibre-3.5.25/desktopfiles/djvu.svg
+djvulibre-3.5.25/desktopfiles/djvulibre-mime.xml
+djvulibre-3.5.25/desktopfiles/prebuilt-hi22-djvu.png
+djvulibre-3.5.25/desktopfiles/prebuilt-hi32-djvu.png
+djvulibre-3.5.25/desktopfiles/prebuilt-hi48-djvu.png
+djvulibre-3.5.25/desktopfiles/prebuilt-hi64-djvu.png
+djvulibre-3.5.25/desktopfiles/register-djvu-mime.in
+djvulibre-3.5.25/desktopfiles/vnd.djvu.desktop
+djvulibre-3.5.25/djvulibre.spec
+djvulibre-3.5.25/doc/
+djvulibre-3.5.25/doc/djvu2spec.djvu
+djvulibre-3.5.25/doc/djvu3spec.djvu
+djvulibre-3.5.25/doc/djvuchanges.txt
+djvulibre-3.5.25/doc/lizard2002.djvu
+djvulibre-3.5.25/doc/lizard2002.pdf
+djvulibre-3.5.25/doc/lizard2007.djvu
+djvulibre-3.5.25/doc/lizard2007.pdf
+djvulibre-3.5.25/doc/minilisp/
+djvulibre-3.5.25/doc/minilisp/README
+djvulibre-3.5.25/doc/minilisp/makefile
+djvulibre-3.5.25/doc/minilisp/minilisp.cpp
+djvulibre-3.5.25/doc/minilisp/minilisp.in
+djvulibre-3.5.25/doc/old/
+djvulibre-3.5.25/doc/old/djvu3changes.txt
+djvulibre-3.5.25/doc/old/lizard2003-navm.djvu
+djvulibre-3.5.25/doc/old/lizard2005-antz.djvu
+djvulibre-3.5.25/libdjvu/
+djvulibre-3.5.25/libdjvu/Arrays.cpp
+djvulibre-3.5.25/libdjvu/Arrays.h
+djvulibre-3.5.25/libdjvu/BSByteStream.cpp
+djvulibre-3.5.25/libdjvu/BSByteStream.h
+djvulibre-3.5.25/libdjvu/BSEncodeByteStream.cpp
+djvulibre-3.5.25/libdjvu/ByteStream.cpp
+djvulibre-3.5.25/libdjvu/ByteStream.h
+djvulibre-3.5.25/libdjvu/DataPool.cpp
+djvulibre-3.5.25/libdjvu/DataPool.h
+djvulibre-3.5.25/libdjvu/DjVmDir.cpp
+djvulibre-3.5.25/libdjvu/DjVmDir.h
+djvulibre-3.5.25/libdjvu/DjVmDir0.cpp
+djvulibre-3.5.25/libdjvu/DjVmDir0.h
+djvulibre-3.5.25/libdjvu/DjVmDoc.cpp
+djvulibre-3.5.25/libdjvu/DjVmDoc.h
+djvulibre-3.5.25/libdjvu/DjVmNav.cpp
+djvulibre-3.5.25/libdjvu/DjVmNav.h
+djvulibre-3.5.25/libdjvu/DjVuAnno.cpp
+djvulibre-3.5.25/libdjvu/DjVuAnno.h
+djvulibre-3.5.25/libdjvu/DjVuDocEditor.cpp
+djvulibre-3.5.25/libdjvu/DjVuDocEditor.h
+djvulibre-3.5.25/libdjvu/DjVuDocument.cpp
+djvulibre-3.5.25/libdjvu/DjVuDocument.h
+djvulibre-3.5.25/libdjvu/DjVuDumpHelper.cpp
+djvulibre-3.5.25/libdjvu/DjVuDumpHelper.h
+djvulibre-3.5.25/libdjvu/DjVuErrorList.cpp
+djvulibre-3.5.25/libdjvu/DjVuErrorList.h
+djvulibre-3.5.25/libdjvu/DjVuFile.cpp
+djvulibre-3.5.25/libdjvu/DjVuFile.h
+djvulibre-3.5.25/libdjvu/DjVuFileCache.cpp
+djvulibre-3.5.25/libdjvu/DjVuFileCache.h
+djvulibre-3.5.25/libdjvu/DjVuGlobal.cpp
+djvulibre-3.5.25/libdjvu/DjVuGlobal.h
+djvulibre-3.5.25/libdjvu/DjVuGlobalMemory.cpp
+djvulibre-3.5.25/libdjvu/DjVuImage.cpp
+djvulibre-3.5.25/libdjvu/DjVuImage.h
+djvulibre-3.5.25/libdjvu/DjVuInfo.cpp
+djvulibre-3.5.25/libdjvu/DjVuInfo.h
+djvulibre-3.5.25/libdjvu/DjVuMessage.cpp
+djvulibre-3.5.25/libdjvu/DjVuMessage.h
+djvulibre-3.5.25/libdjvu/DjVuMessageLite.cpp
+djvulibre-3.5.25/libdjvu/DjVuMessageLite.h
+djvulibre-3.5.25/libdjvu/DjVuNavDir.cpp
+djvulibre-3.5.25/libdjvu/DjVuNavDir.h
+djvulibre-3.5.25/libdjvu/DjVuPalette.cpp
+djvulibre-3.5.25/libdjvu/DjVuPalette.h
+djvulibre-3.5.25/libdjvu/DjVuPort.cpp
+djvulibre-3.5.25/libdjvu/DjVuPort.h
+djvulibre-3.5.25/libdjvu/DjVuText.cpp
+djvulibre-3.5.25/libdjvu/DjVuText.h
+djvulibre-3.5.25/libdjvu/DjVuToPS.cpp
+djvulibre-3.5.25/libdjvu/DjVuToPS.h
+djvulibre-3.5.25/libdjvu/GBitmap.cpp
+djvulibre-3.5.25/libdjvu/GBitmap.h
+djvulibre-3.5.25/libdjvu/GContainer.cpp
+djvulibre-3.5.25/libdjvu/GContainer.h
+djvulibre-3.5.25/libdjvu/GException.cpp
+djvulibre-3.5.25/libdjvu/GException.h
+djvulibre-3.5.25/libdjvu/GIFFManager.cpp
+djvulibre-3.5.25/libdjvu/GIFFManager.h
+djvulibre-3.5.25/libdjvu/GMapAreas.cpp
+djvulibre-3.5.25/libdjvu/GMapAreas.h
+djvulibre-3.5.25/libdjvu/GOS.cpp
+djvulibre-3.5.25/libdjvu/GOS.h
+djvulibre-3.5.25/libdjvu/GPixmap.cpp
+djvulibre-3.5.25/libdjvu/GPixmap.h
+djvulibre-3.5.25/libdjvu/GRect.cpp
+djvulibre-3.5.25/libdjvu/GRect.h
+djvulibre-3.5.25/libdjvu/GScaler.cpp
+djvulibre-3.5.25/libdjvu/GScaler.h
+djvulibre-3.5.25/libdjvu/GSmartPointer.cpp
+djvulibre-3.5.25/libdjvu/GSmartPointer.h
+djvulibre-3.5.25/libdjvu/GString.cpp
+djvulibre-3.5.25/libdjvu/GString.h
+djvulibre-3.5.25/libdjvu/GThreads.cpp
+djvulibre-3.5.25/libdjvu/GThreads.h
+djvulibre-3.5.25/libdjvu/GURL.cpp
+djvulibre-3.5.25/libdjvu/GURL.h
+djvulibre-3.5.25/libdjvu/GUnicode.cpp
+djvulibre-3.5.25/libdjvu/IFFByteStream.cpp
+djvulibre-3.5.25/libdjvu/IFFByteStream.h
+djvulibre-3.5.25/libdjvu/IW44EncodeCodec.cpp
+djvulibre-3.5.25/libdjvu/IW44Image.cpp
+djvulibre-3.5.25/libdjvu/IW44Image.h
+djvulibre-3.5.25/libdjvu/JB2EncodeCodec.cpp
+djvulibre-3.5.25/libdjvu/JB2Image.cpp
+djvulibre-3.5.25/libdjvu/JB2Image.h
+djvulibre-3.5.25/libdjvu/JPEGDecoder.cpp
+djvulibre-3.5.25/libdjvu/JPEGDecoder.h
+djvulibre-3.5.25/libdjvu/MMRDecoder.cpp
+djvulibre-3.5.25/libdjvu/MMRDecoder.h
+djvulibre-3.5.25/libdjvu/MMX.cpp
+djvulibre-3.5.25/libdjvu/MMX.h
+djvulibre-3.5.25/libdjvu/Makefile.dep
+djvulibre-3.5.25/libdjvu/Makefile.in
+djvulibre-3.5.25/libdjvu/Template.h
+djvulibre-3.5.25/libdjvu/UnicodeByteStream.cpp
+djvulibre-3.5.25/libdjvu/UnicodeByteStream.h
+djvulibre-3.5.25/libdjvu/XMLParser.cpp
+djvulibre-3.5.25/libdjvu/XMLParser.h
+djvulibre-3.5.25/libdjvu/XMLTags.cpp
+djvulibre-3.5.25/libdjvu/XMLTags.h
+djvulibre-3.5.25/libdjvu/ZPCodec.cpp
+djvulibre-3.5.25/libdjvu/ZPCodec.h
+djvulibre-3.5.25/libdjvu/atomic.cpp
+djvulibre-3.5.25/libdjvu/atomic.h
+djvulibre-3.5.25/libdjvu/ddjvuapi.cpp
+djvulibre-3.5.25/libdjvu/ddjvuapi.h
+djvulibre-3.5.25/libdjvu/ddjvuapi.pc.in
+djvulibre-3.5.25/libdjvu/debug.cpp
+djvulibre-3.5.25/libdjvu/debug.h
+djvulibre-3.5.25/libdjvu/miniexp.cpp
+djvulibre-3.5.25/libdjvu/miniexp.h
+djvulibre-3.5.25/macosx/
+djvulibre-3.5.25/macosx/DjVuLibre/
+djvulibre-3.5.25/macosx/DjVuLibre/DjVuLibre-Info.plist
+djvulibre-3.5.25/macosx/DjVuLibre/DjVuLibre.xcodeproj/
+djvulibre-3.5.25/macosx/DjVuLibre/DjVuLibre.xcodeproj/project.pbxproj
+djvulibre-3.5.25/macosx/DjVuLibre/DjVu_mdimporter-Info.plist
+djvulibre-3.5.25/macosx/DjVuLibre/ReadMe.txt
+djvulibre-3.5.25/macosx/DjVuLibre/VersionConfig
+djvulibre-3.5.25/macosx/DjVuLibre/debug.xcconfig
+djvulibre-3.5.25/macosx/DjVuLibre/debug_tool.xcconfig
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/English.lproj/
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/English.lproj/InfoPlist.strings
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/English.lproj/schema.strings
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/GetMetadataForFile.m
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/MDImporterVersion
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/main.c
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/make_importer_command_line.sh
+djvulibre-3.5.25/macosx/DjVuLibre/mdimporter/schema.xml
+djvulibre-3.5.25/macosx/DjVuLibre/mkconfig.sh
+djvulibre-3.5.25/macosx/DjVuLibre/mkframework
+djvulibre-3.5.25/macosx/DjVuLibre/release.xcconfig
+djvulibre-3.5.25/macosx/DjVuLibre/release_tool.xcconfig
+djvulibre-3.5.25/macosx/QuickLookDjVu/
+djvulibre-3.5.25/macosx/QuickLookDjVu/English.lproj/
+djvulibre-3.5.25/macosx/QuickLookDjVu/English.lproj/InfoPlist.strings
+djvulibre-3.5.25/macosx/QuickLookDjVu/GeneratePreviewForURL.m
+djvulibre-3.5.25/macosx/QuickLookDjVu/GenerateThumbnailForURL.m
+djvulibre-3.5.25/macosx/QuickLookDjVu/Info.plist
+djvulibre-3.5.25/macosx/QuickLookDjVu/QuickLookDjVu.xcodeproj/
+djvulibre-3.5.25/macosx/QuickLookDjVu/QuickLookDjVu.xcodeproj/project.pbxproj
+djvulibre-3.5.25/macosx/QuickLookDjVu/README.txt
+djvulibre-3.5.25/macosx/QuickLookDjVu/config/
+djvulibre-3.5.25/macosx/QuickLookDjVu/config/QLGeneratorVersion
+djvulibre-3.5.25/macosx/QuickLookDjVu/config/debug.xcconfig
+djvulibre-3.5.25/macosx/QuickLookDjVu/config/release.xcconfig
+djvulibre-3.5.25/macosx/QuickLookDjVu/ddjvuRef.c
+djvulibre-3.5.25/macosx/QuickLookDjVu/ddjvuRef.h
+djvulibre-3.5.25/macosx/QuickLookDjVu/main.c
+djvulibre-3.5.25/macosx/QuickLookDjVu/more_pages.pdf
+djvulibre-3.5.25/macosx/README
+djvulibre-3.5.25/share/
+djvulibre-3.5.25/share/djvu/
+djvulibre-3.5.25/share/djvu/osi/
+djvulibre-3.5.25/share/djvu/osi/cs/
+djvulibre-3.5.25/share/djvu/osi/cs/messages.xml
+djvulibre-3.5.25/share/djvu/osi/de/
+djvulibre-3.5.25/share/djvu/osi/de/libdjvu++.xml
+djvulibre-3.5.25/share/djvu/osi/de/messages.xml
+djvulibre-3.5.25/share/djvu/osi/en/
+djvulibre-3.5.25/share/djvu/osi/en/djvutools-reference.xml
+djvulibre-3.5.25/share/djvu/osi/en/libdjvu++.xml
+djvulibre-3.5.25/share/djvu/osi/en/messages.xml
+djvulibre-3.5.25/share/djvu/osi/fr/
+djvulibre-3.5.25/share/djvu/osi/fr/libdjvu++.xml
+djvulibre-3.5.25/share/djvu/osi/fr/messages.xml
+djvulibre-3.5.25/share/djvu/osi/ja/
+djvulibre-3.5.25/share/djvu/osi/ja/libdjvu++.xml
+djvulibre-3.5.25/share/djvu/osi/ja/messages.xml
+djvulibre-3.5.25/share/djvu/osi/languages.xml
+djvulibre-3.5.25/share/djvu/osi/zh/
+djvulibre-3.5.25/share/djvu/osi/zh/libdjvu++.xml
+djvulibre-3.5.25/share/djvu/osi/zh/messages.xml
+djvulibre-3.5.25/share/djvu/pubtext/
+djvulibre-3.5.25/share/djvu/pubtext/DjVuMessages.dtd
+djvulibre-3.5.25/share/djvu/pubtext/DjVuOCR.dtd
+djvulibre-3.5.25/share/djvu/pubtext/DjVuXML-s.dtd
+djvulibre-3.5.25/tools/
+djvulibre-3.5.25/tools/Makefile.dep
+djvulibre-3.5.25/tools/Makefile.in
+djvulibre-3.5.25/tools/any2djvu
+djvulibre-3.5.25/tools/any2djvu.1
+djvulibre-3.5.25/tools/bzz.1
+djvulibre-3.5.25/tools/bzz.cpp
+djvulibre-3.5.25/tools/c44.1
+djvulibre-3.5.25/tools/c44.cpp
+djvulibre-3.5.25/tools/cjb2.1
+djvulibre-3.5.25/tools/cjb2.cpp
+djvulibre-3.5.25/tools/cpaldjvu.1
+djvulibre-3.5.25/tools/cpaldjvu.cpp
+djvulibre-3.5.25/tools/csepdjvu.1
+djvulibre-3.5.25/tools/csepdjvu.cpp
+djvulibre-3.5.25/tools/ddjvu.1
+djvulibre-3.5.25/tools/ddjvu.cpp
+djvulibre-3.5.25/tools/djvm.1
+djvulibre-3.5.25/tools/djvm.cpp
+djvulibre-3.5.25/tools/djvmcvt.1
+djvulibre-3.5.25/tools/djvmcvt.cpp
+djvulibre-3.5.25/tools/djvu.1
+djvulibre-3.5.25/tools/djvudigital
+djvulibre-3.5.25/tools/djvudigital.1
+djvulibre-3.5.25/tools/djvudump.1
+djvulibre-3.5.25/tools/djvudump.cpp
+djvulibre-3.5.25/tools/djvuextract.1
+djvulibre-3.5.25/tools/djvuextract.cpp
+djvulibre-3.5.25/tools/djvumake.1
+djvulibre-3.5.25/tools/djvumake.cpp
+djvulibre-3.5.25/tools/djvups.1
+djvulibre-3.5.25/tools/djvups.cpp
+djvulibre-3.5.25/tools/djvused.1
+djvulibre-3.5.25/tools/djvused.cpp
+djvulibre-3.5.25/tools/djvuserve.1
+djvulibre-3.5.25/tools/djvuserve.cpp
+djvulibre-3.5.25/tools/djvutxt.1
+djvulibre-3.5.25/tools/djvutxt.cpp
+djvulibre-3.5.25/tools/jb2cmp/
+djvulibre-3.5.25/tools/jb2cmp/Makefile.dep
+djvulibre-3.5.25/tools/jb2cmp/Makefile.in
+djvulibre-3.5.25/tools/jb2cmp/README
+djvulibre-3.5.25/tools/jb2cmp/classify.cpp
+djvulibre-3.5.25/tools/jb2cmp/classify.h
+djvulibre-3.5.25/tools/jb2cmp/cuts.cpp
+djvulibre-3.5.25/tools/jb2cmp/frames.cpp
+djvulibre-3.5.25/tools/jb2cmp/mdjvucfg.h
+djvulibre-3.5.25/tools/jb2cmp/minidjvu.h
+djvulibre-3.5.25/tools/jb2cmp/patterns.cpp
+djvulibre-3.5.25/tools/jb2cmp/patterns.h
+djvulibre-3.5.25/tools/jb2tune.cpp
+djvulibre-3.5.25/tools/jb2tune.h
+djvulibre-3.5.25/tools/tiff2pdf.c
+djvulibre-3.5.25/tools/tiff2pdf.h
+djvulibre-3.5.25/win32/
+djvulibre-3.5.25/win32/djvulibre/
+djvulibre-3.5.25/win32/djvulibre/.gitignore
+djvulibre-3.5.25/win32/djvulibre/bzz/
+djvulibre-3.5.25/win32/djvulibre/bzz/bzz.vcxproj
+djvulibre-3.5.25/win32/djvulibre/bzz/bzz.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/bzz/bzz.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/c44/
+djvulibre-3.5.25/win32/djvulibre/c44/c44.vcxproj
+djvulibre-3.5.25/win32/djvulibre/c44/c44.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/c44/c44.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/cjb2/
+djvulibre-3.5.25/win32/djvulibre/cjb2/cjb2.vcxproj
+djvulibre-3.5.25/win32/djvulibre/cjb2/cjb2.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/cjb2/cjb2.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/cpaldjvu/
+djvulibre-3.5.25/win32/djvulibre/cpaldjvu/cpaldjvu.vcxproj
+djvulibre-3.5.25/win32/djvulibre/cpaldjvu/cpaldjvu.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/cpaldjvu/cpaldjvu.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/csepdjvu/
+djvulibre-3.5.25/win32/djvulibre/csepdjvu/csepdjvu.vcxproj
+djvulibre-3.5.25/win32/djvulibre/csepdjvu/csepdjvu.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/csepdjvu/csepdjvu.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/ddjvu/
+djvulibre-3.5.25/win32/djvulibre/ddjvu/ddjvu.vcxproj
+djvulibre-3.5.25/win32/djvulibre/ddjvu/ddjvu.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/ddjvu/ddjvu.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/dirs.props
+djvulibre-3.5.25/win32/djvulibre/djvm/
+djvulibre-3.5.25/win32/djvulibre/djvm/djvm.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvm/djvm.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvm/djvm.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvmcvt/
+djvulibre-3.5.25/win32/djvulibre/djvmcvt/djvmcvt.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvmcvt/djvmcvt.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvmcvt/djvmcvt.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvudump/
+djvulibre-3.5.25/win32/djvulibre/djvudump/djvudump.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvudump/djvudump.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvudump/djvudump.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvuextract/
+djvulibre-3.5.25/win32/djvulibre/djvuextract/djvuextract.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvuextract/djvuextract.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvuextract/djvuextract.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvulibre-install.sh
+djvulibre-3.5.25/win32/djvulibre/djvulibre.nsi
+djvulibre-3.5.25/win32/djvulibre/djvulibre.sln
+djvulibre-3.5.25/win32/djvulibre/djvumake/
+djvulibre-3.5.25/win32/djvulibre/djvumake/djvumake.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvumake/djvumake.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvumake/djvumake.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvups/
+djvulibre-3.5.25/win32/djvulibre/djvups/djvups.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvups/djvups.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvups/djvups.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvused/
+djvulibre-3.5.25/win32/djvulibre/djvused/djvused.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvused/djvused.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvused/djvused.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvuserve/
+djvulibre-3.5.25/win32/djvulibre/djvuserve/djvuserve.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvuserve/djvuserve.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvuserve/djvuserve.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvutoxml/
+djvulibre-3.5.25/win32/djvulibre/djvutoxml/djvutoxml.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvutoxml/djvutoxml.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvutoxml/djvutoxml.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvutxt/
+djvulibre-3.5.25/win32/djvulibre/djvutxt/djvutxt.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvutxt/djvutxt.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvutxt/djvutxt.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/djvuxmlparser/
+djvulibre-3.5.25/win32/djvulibre/djvuxmlparser/djvuxmlparser.vcxproj
+djvulibre-3.5.25/win32/djvulibre/djvuxmlparser/djvuxmlparser.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/djvuxmlparser/djvuxmlparser.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/libdjvulibre.props
+djvulibre-3.5.25/win32/djvulibre/libdjvulibre/
+djvulibre-3.5.25/win32/djvulibre/libdjvulibre/libdjvulibre.vcxproj
+djvulibre-3.5.25/win32/djvulibre/libdjvulibre/libdjvulibre.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/libdjvulibre/libdjvulibre.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/libjpeg/
+djvulibre-3.5.25/win32/djvulibre/libjpeg/libjpeg.vcxproj
+djvulibre-3.5.25/win32/djvulibre/libjpeg/libjpeg.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/libjpeg/libjpeg.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/libtiff.props
+djvulibre-3.5.25/win32/djvulibre/libtiff/
+djvulibre-3.5.25/win32/djvulibre/libtiff/libtiff.vcxproj
+djvulibre-3.5.25/win32/djvulibre/libtiff/libtiff.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/libtiff/libtiff.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/libz/
+djvulibre-3.5.25/win32/djvulibre/libz/libz.vcxproj
+djvulibre-3.5.25/win32/djvulibre/libz/libz.vcxproj.filters
+djvulibre-3.5.25/win32/djvulibre/libz/libz.vcxproj.user
+djvulibre-3.5.25/win32/djvulibre/tools.props
+djvulibre-3.5.25/win32/djvulibre/warnings.props
+djvulibre-3.5.25/win32/jpeg/
+djvulibre-3.5.25/win32/jpeg/.gitignore
+djvulibre-3.5.25/win32/jpeg/README
+djvulibre-3.5.25/win32/jpeg/jconfig.h
+djvulibre-3.5.25/win32/jpeg/libjpeg.def
+djvulibre-3.5.25/win32/tiff/
+djvulibre-3.5.25/win32/tiff/.gitignore
+djvulibre-3.5.25/win32/tiff/README
+djvulibre-3.5.25/win32/tiff/tif_config.h
+djvulibre-3.5.25/win32/zlib/
+djvulibre-3.5.25/win32/zlib/.gitignore
+djvulibre-3.5.25/win32/zlib/README
+djvulibre-3.5.25/xmltools/
+djvulibre-3.5.25/xmltools/Makefile.dep
+djvulibre-3.5.25/xmltools/Makefile.in
+djvulibre-3.5.25/xmltools/djvutoxml.1
+djvulibre-3.5.25/xmltools/djvutoxml.cpp
+djvulibre-3.5.25/xmltools/djvuxml.1.in
+djvulibre-3.5.25/xmltools/djvuxmlparser.1
+djvulibre-3.5.25/xmltools/djvuxmlparser.cpp
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking whether make sets $(MAKE)... yes
+checking whether ln -s works... yes
+checking for ar... /usr/bin/ar
+checking for touch... /bin/touch
+checking for mkdir... /bin/mkdir
+checking for rsvg-convert... /usr/bin/rsvg-convert
+checking for convert... false
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for rm... /bin/rm
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... /usr/bin/ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if g++ accepts -Wall... yes
+checking if g++ accepts -O3... yes
+checking if g++ accepts -Wno-non-virtual-dtor... yes
+checking if g++ accepts -mtune=i686... yes
+checking whether the compiler recognizes bool as a built-in type... yes
+checking whether the compiler supports exceptions... yes
+checking whether the compiler recognizes typename... yes
+checking whether the compiler comes with standard includes... yes
+checking whether the compiler implements namespaces... yes
+checking whether the compiler supports member templates... yes
+checking whether the compiler supports intel atomic builtins... yes
+checking for sqrt in -lm... yes
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking sys/ipc.h usability... yes
+checking sys/ipc.h presence... yes
+checking for sys/ipc.h... yes
+checking sys/shm.h usability... yes
+checking sys/shm.h presence... yes
+checking for sys/shm.h... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for wchar_t... yes
+checking for long long int... yes
+checking for mbstate_t... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for wcrtomb... yes
+checking for iswspace... yes
+checking for setenv... yes
+checking for putc_unlocked... yes
+checking for strerror... yes
+checking for vsnprintf... yes
+checking for gethostname... yes
+checking for strftime... yes
+checking for getpwuid... yes
+checking for sigaction... yes
+checking for mkstemp... yes
+checking for iconv... yes
+checking for jpeg library... yes
+setting JPEG_CFLAGS=
+setting JPEG_LIBS=-ljpeg
+checking for the libtiff library... yes
+setting TIFF_CFLAGS=
+setting TIFF_LIBS=-ltiff
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking whether pthreads work with -pthread -lpthread... yes
+checking if more special flags are required for pthreads... no
+checking threading model... pthread
+setting THREAD_CFLAGS= -pthread -DTHREADMODEL=POSIXTHREADS
+setting THREAD_LIBS= -lpthread
+checking for xdg-mime... no
+checking for xdg-icon-resource... no
+checking for xdg-desktop-menu... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libdjvu/Makefile
+config.status: creating libdjvu/ddjvuapi.pc
+config.status: creating tools/Makefile
+config.status: creating tools/jb2cmp/Makefile
+config.status: creating xmltools/Makefile
+config.status: creating desktopfiles/Makefile
+config.status: creating config.h
+config.status: executing libtool commands
+
+Configuration is done.
+Compile with command:
+    $ make depend     (optional!)
+    $ make
+Then install the binaries in /usr with command:
+    # make install
+for d in libdjvu tools xmltools  desktopfiles ; \
+  do ( cd $d && make all ) || exit ; done
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/libdjvu'
+make[1]: Circular Makefile.dep <- Makefile.dep dependency dropped.
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuGlobal.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuGlobalMemory.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GOS.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GException.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuGlobalMemory.cpp  -fPIC -DPIC -o .libs/DjVuGlobalMemory.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GOS.cpp  -fPIC -DPIC -o .libs/GOS.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuGlobal.cpp  -fPIC -DPIC -o .libs/DjVuGlobal.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GException.cpp  -fPIC -DPIC -o .libs/GException.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GContainer.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GString.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GContainer.cpp  -fPIC -DPIC -o .libs/GContainer.o
+GContainer.cpp: In member function ‘void DJVU::GSetBase::rehash(int)’:
+GContainer.cpp:743:18: warning: typedef ‘HNodePtr’ locally defined but not used [-Wunused-local-typedefs]
+   typedef HNode *HNodePtr;
+                  ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GString.cpp  -fPIC -DPIC -o .libs/GString.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GThreads.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GThreads.cpp  -fPIC -DPIC -o .libs/GThreads.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GRect.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c atomic.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GRect.cpp  -fPIC -DPIC -o .libs/GRect.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c atomic.cpp  -fPIC -DPIC -o .libs/atomic.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GSmartPointer.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c MMX.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c Arrays.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GSmartPointer.cpp  -fPIC -DPIC -o .libs/GSmartPointer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c MMX.cpp  -fPIC -DPIC -o .libs/MMX.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c Arrays.cpp  -fPIC -DPIC -o .libs/Arrays.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GBitmap.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GPixmap.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GBitmap.cpp  -fPIC -DPIC -o .libs/GBitmap.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GPixmap.cpp  -fPIC -DPIC -o .libs/GPixmap.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GScaler.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GScaler.cpp  -fPIC -DPIC -o .libs/GScaler.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuPalette.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuPalette.cpp  -fPIC -DPIC -o .libs/DjVuPalette.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c ByteStream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c ByteStream.cpp  -fPIC -DPIC -o .libs/ByteStream.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c IFFByteStream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c IFFByteStream.cpp  -fPIC -DPIC -o .libs/IFFByteStream.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c BSByteStream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c BSByteStream.cpp  -fPIC -DPIC -o .libs/BSByteStream.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c BSEncodeByteStream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c BSEncodeByteStream.cpp  -fPIC -DPIC -o .libs/BSEncodeByteStream.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c ZPCodec.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c JB2Image.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c ZPCodec.cpp  -fPIC -DPIC -o .libs/ZPCodec.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c JB2Image.cpp  -fPIC -DPIC -o .libs/JB2Image.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c JB2EncodeCodec.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c JB2EncodeCodec.cpp  -fPIC -DPIC -o .libs/JB2EncodeCodec.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c IW44Image.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c IW44Image.cpp  -fPIC -DPIC -o .libs/IW44Image.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c IW44EncodeCodec.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c IW44EncodeCodec.cpp  -fPIC -DPIC -o .libs/IW44EncodeCodec.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c MMRDecoder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c MMRDecoder.cpp  -fPIC -DPIC -o .libs/MMRDecoder.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c JPEGDecoder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c JPEGDecoder.cpp  -fPIC -DPIC -o .libs/JPEGDecoder.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DataPool.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GURL.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DataPool.cpp  -fPIC -DPIC -o .libs/DataPool.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuFileCache.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GURL.cpp  -fPIC -DPIC -o .libs/GURL.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuFileCache.cpp  -fPIC -DPIC -o .libs/DjVuFileCache.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuPort.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuPort.cpp  -fPIC -DPIC -o .libs/DjVuPort.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GMapAreas.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GMapAreas.cpp  -fPIC -DPIC -o .libs/GMapAreas.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuAnno.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuAnno.cpp  -fPIC -DPIC -o .libs/DjVuAnno.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GIFFManager.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GIFFManager.cpp  -fPIC -DPIC -o .libs/GIFFManager.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuText.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuText.cpp  -fPIC -DPIC -o .libs/DjVuText.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuInfo.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuFile.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuInfo.cpp  -fPIC -DPIC -o .libs/DjVuInfo.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuFile.cpp  -fPIC -DPIC -o .libs/DjVuFile.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuImage.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuImage.cpp  -fPIC -DPIC -o .libs/DjVuImage.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuDocument.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuDocument.cpp  -fPIC -DPIC -o .libs/DjVuDocument.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVmDir.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVmDir.cpp  -fPIC -DPIC -o .libs/DjVmDir.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVmDoc.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVmDoc.cpp  -fPIC -DPIC -o .libs/DjVmDoc.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVmDir0.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVmDir0.cpp  -fPIC -DPIC -o .libs/DjVmDir0.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVmNav.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVmNav.cpp  -fPIC -DPIC -o .libs/DjVmNav.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuNavDir.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuErrorList.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuNavDir.cpp  -fPIC -DPIC -o .libs/DjVuNavDir.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuDocEditor.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuErrorList.cpp  -fPIC -DPIC -o .libs/DjVuErrorList.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuDocEditor.cpp  -fPIC -DPIC -o .libs/DjVuDocEditor.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuToPS.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuDumpHelper.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuToPS.cpp  -fPIC -DPIC -o .libs/DjVuToPS.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuDumpHelper.cpp  -fPIC -DPIC -o .libs/DjVuDumpHelper.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuMessageLite.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuMessageLite.cpp  -fPIC -DPIC -o .libs/DjVuMessageLite.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c DjVuMessage.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c GUnicode.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c DjVuMessage.cpp  -fPIC -DPIC -o .libs/DjVuMessage.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c GUnicode.cpp  -fPIC -DPIC -o .libs/GUnicode.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c UnicodeByteStream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c UnicodeByteStream.cpp  -fPIC -DPIC -o .libs/UnicodeByteStream.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c XMLParser.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c XMLParser.cpp  -fPIC -DPIC -o .libs/XMLParser.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c XMLTags.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c XMLTags.cpp  -fPIC -DPIC -o .libs/XMLTags.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c miniexp.cpp
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c ddjvuapi.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c miniexp.cpp  -fPIC -DPIC -o .libs/miniexp.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c ddjvuapi.cpp  -fPIC -DPIC -o .libs/ddjvuapi.o
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -c debug.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c debug.cpp  -fPIC -DPIC -o .libs/debug.o
+[ generating libdjvulibre.la ... ]
+/bin/sh ../libtool --mode=link g++ -DHAVE_CONFIG_H -I.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS      -no-undefined \
+    -rpath /usr/lib -version-info 25:0:4  \
+    DjVuGlobal.lo DjVuGlobalMemory.lo GOS.lo GException.lo GContainer.lo GString.lo GThreads.lo GRect.lo atomic.lo GSmartPointer.lo MMX.lo Arrays.lo GBitmap.lo GPixmap.lo GScaler.lo DjVuPalette.lo ByteStream.lo IFFByteStream.lo BSByteStream.lo BSEncodeByteStream.lo ZPCodec.lo JB2Image.lo JB2EncodeCodec.lo IW44Image.lo IW44EncodeCodec.lo MMRDecoder.lo JPEGDecoder.lo DataPool.lo GURL.lo DjVuFileCache.lo DjVuPort.lo GMapAreas.lo DjVuAnno.lo GIFFManager.lo DjVuText.lo DjVuInfo.lo DjVuFile.lo DjVuImage.lo DjVuDocument.lo DjVmDir.lo DjVmDoc.lo DjVmDir0.lo DjVmNav.lo DjVuNavDir.lo DjVuErrorList.lo DjVuDocEditor.lo DjVuToPS.lo DjVuDumpHelper.lo DjVuMessageLite.lo DjVuMessage.lo GUnicode.lo UnicodeByteStream.lo XMLParser.lo XMLTags.lo miniexp.lo ddjvuapi.lo debug.lo -ljpeg -lpthread -lm  -o libdjvulibre.la
+libtool: link: g++ -shared -nostdlib /usr/lib/gcc/i486-slackware-linux/4.8.2/../../../crti.o /usr/lib/gcc/i486-slackware-linux/4.8.2/crtbeginS.o  .libs/DjVuGlobal.o .libs/DjVuGlobalMemory.o .libs/GOS.o .libs/GException.o .libs/GContainer.o .libs/GString.o .libs/GThreads.o .libs/GRect.o .libs/atomic.o .libs/GSmartPointer.o .libs/MMX.o .libs/Arrays.o .libs/GBitmap.o .libs/GPixmap.o .libs/GScaler.o .libs/DjVuPalette.o .libs/ByteStream.o .libs/IFFByteStream.o .libs/BSByteStream.o .libs/BSEncodeByteStream.o .libs/ZPCodec.o .libs/JB2Image.o .libs/JB2EncodeCodec.o .libs/IW44Image.o .libs/IW44EncodeCodec.o .libs/MMRDecoder.o .libs/JPEGDecoder.o .libs/DataPool.o .libs/GURL.o .libs/DjVuFileCache.o .libs/DjVuPort.o .libs/GMapAreas.o .libs/DjVuAnno.o .libs/GIFFManager.o .libs/DjVuText.o .libs/DjVuInfo.o .libs/DjVuFile.o .libs/DjVuImage.o .libs/DjVuDocument.o .libs/DjVmDir.o .libs/DjVmDoc.o .libs/DjVmDir0.o .libs/DjVmNav.o .libs/DjVuNavDir.o .libs/DjVuErrorList.o .libs/DjVuDocEditor.o .libs/DjVuToPS.o .libs/DjVuDumpHelper.o .libs/DjVuMessageLite.o .libs/DjVuMessage.o .libs/GUnicode.o .libs/UnicodeByteStream.o .libs/XMLParser.o .libs/XMLTags.o .libs/miniexp.o .libs/ddjvuapi.o .libs/debug.o   /usr/lib/libjpeg.so -lpthread -L/usr/lib/gcc/i486-slackware-linux/4.8.2 -L/usr/lib/gcc/i486-slackware-linux/4.8.2/../../../../i486-slackware-linux/lib -L/usr/lib/gcc/i486-slackware-linux/4.8.2/../../.. /usr/lib/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/i486-slackware-linux/4.8.2/crtendS.o /usr/lib/gcc/i486-slackware-linux/4.8.2/../../../crtn.o  -mtune=i686 -pthread   -pthread -Wl,-soname -Wl,libdjvulibre.so.21 -o .libs/libdjvulibre.so.21.4.0
+libtool: link: (cd ".libs" && rm -f "libdjvulibre.so.21" && ln -s "libdjvulibre.so.21.4.0" "libdjvulibre.so.21")
+libtool: link: (cd ".libs" && rm -f "libdjvulibre.so" && ln -s "libdjvulibre.so.21.4.0" "libdjvulibre.so")
+libtool: link: ( cd ".libs" && rm -f "libdjvulibre.la" && ln -s "../libdjvulibre.la" "libdjvulibre.la" )
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/libdjvu'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/tools'
+make[1]: Circular Makefile.dep <- Makefile.dep dependency dropped.
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c bzz.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c c44.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c cjb2.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c jb2tune.cpp
+cd jb2cmp && make
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/tools/jb2cmp'
+make[2]: Circular Makefile.dep <- Makefile.dep dependency dropped.
+g++  -DHAVE_CONFIG_H -I../.. -I../.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c classify.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c cpaldjvu.cpp
+g++  -DHAVE_CONFIG_H -I../.. -I../.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c cuts.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c csepdjvu.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c ddjvu.cpp
+gcc -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS    -c tiff2pdf.c
+cc1: warning: command line option ‘-Wno-non-virtual-dtor’ is valid for C++/ObjC++ but not for C [enabled by default]
+tiff2pdf.c: In function ‘t2p_write_pdf’:
+tiff2pdf.c:5115:4: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 3 has type ‘uint32’ [-Wformat=]
+    t2p->pdf_xrefcount * sizeof(uint32) );
+    ^
+g++  -DHAVE_CONFIG_H -I../.. -I../.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c frames.cpp
+g++  -DHAVE_CONFIG_H -I../.. -I../.. -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS -c patterns.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvm.cpp
+/bin/rm -f 2>/dev/null libjb2cmp.a
+/usr/bin/ar cr libjb2cmp.a classify.o cuts.o frames.o patterns.o
+ranlib libjb2cmp.a
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/tools/jb2cmp'
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvmcvt.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvudump.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvups.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvuextract.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvumake.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvused.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvutxt.cpp
+g++ -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     -c djvuserve.cpp
+/bin/sh ../libtool --mode=link \
+  g++ -o bzz -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     bzz.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/bzz -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS bzz.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o c44 -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     c44.o ../libdjvu/libdjvulibre.la -lm 
+/bin/sh ../libtool --mode=link \
+  g++ -o cjb2 -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     cjb2.o jb2tune.o jb2cmp/libjb2cmp.a ../libdjvu/libdjvulibre.la -ltiff -lm 
+libtool: link: g++ -o .libs/c44 -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS c44.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o cpaldjvu -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     cpaldjvu.o jb2tune.o jb2cmp/libjb2cmp.a ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/cpaldjvu -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS cpaldjvu.o jb2tune.o  jb2cmp/libjb2cmp.a ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+libtool: link: g++ -o .libs/cjb2 -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS cjb2.o jb2tune.o  jb2cmp/libjb2cmp.a ../libdjvu/.libs/libdjvulibre.so /usr/lib/libtiff.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o csepdjvu -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     csepdjvu.o jb2tune.o jb2cmp/libjb2cmp.a ../libdjvu/libdjvulibre.la -lm 
+/bin/sh ../libtool --mode=link \
+  g++ -o ddjvu -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     ddjvu.o tiff2pdf.o ../libdjvu/libdjvulibre.la -ltiff -lm 
+libtool: link: g++ -o .libs/csepdjvu -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS csepdjvu.o jb2tune.o  jb2cmp/libjb2cmp.a ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o djvm -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvm.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/ddjvu -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS ddjvu.o tiff2pdf.o  ../libdjvu/.libs/libdjvulibre.so /usr/lib/libtiff.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o djvmcvt -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvmcvt.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/djvm -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvm.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o djvudump -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvudump.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/djvmcvt -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvmcvt.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o djvups -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvups.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/djvudump -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvudump.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o djvuextract -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvuextract.o ../libdjvu/libdjvulibre.la -lm 
+/bin/sh ../libtool --mode=link \
+  g++ -o djvumake -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvumake.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/djvups -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvups.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+libtool: link: g++ -o .libs/djvuextract -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvuextract.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o djvutxt -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvutxt.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/djvumake -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvumake.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o djvuserve -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvuserve.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/djvutxt -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvutxt.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+libtool: link: g++ -o .libs/djvuserve -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvuserve.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+/bin/sh ../libtool --mode=link \
+  g++ -o djvused -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686   -pthread -DTHREADMODEL=POSIXTHREADS     djvused.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/djvused -DHAVE_CONFIG_H -I.. -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvused.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/tools'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/xmltools'
+make[1]: Circular Makefile.dep <- Makefile.dep dependency dropped.
+g++ -DHAVE_CONFIG_H -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS     -c djvutoxml.cpp
+g++ -DHAVE_CONFIG_H -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS     -c djvuxmlparser.cpp
+sed < ./djvuxml.1.in > djvuxml.1 \
+ -e 's,DATADIR,/usr/share,'
+/bin/sh ../libtool --mode=link \
+  g++ -o djvuxmlparser -DHAVE_CONFIG_H -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS     djvuxmlparser.o ../libdjvu/libdjvulibre.la -lm 
+/bin/sh ../libtool --mode=link \
+  g++ -o djvutoxml -DHAVE_CONFIG_H -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686  -pthread -DTHREADMODEL=POSIXTHREADS     djvutoxml.o ../libdjvu/libdjvulibre.la -lm 
+libtool: link: g++ -o .libs/djvuxmlparser -DHAVE_CONFIG_H -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvuxmlparser.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+libtool: link: g++ -o .libs/djvutoxml -DHAVE_CONFIG_H -I.. -I../libdjvu -I. -DNDEBUG -Wall -O3 -Wno-non-virtual-dtor -mtune=i686 -pthread -DTHREADMODEL=POSIXTHREADS djvutoxml.o  ../libdjvu/.libs/libdjvulibre.so -lm -pthread
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/xmltools'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/desktopfiles'
+s=`echo hi16-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi16-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi16-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi16-djvu.png djvu.svg \
+  || cp ./prebuilt-hi16-djvu.png hi16-djvu.png
+s=`echo hi20-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi20-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi20-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi20-djvu.png djvu.svg \
+  || cp ./prebuilt-hi20-djvu.png hi20-djvu.png
+s=`echo hi22-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi22-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi22-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi22-djvu.png djvu.svg \
+  || cp ./prebuilt-hi22-djvu.png hi22-djvu.png
+s=`echo hi24-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi24-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi24-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi24-djvu.png djvu.svg \
+  || cp ./prebuilt-hi24-djvu.png hi24-djvu.png
+s=`echo hi32-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi32-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi32-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi32-djvu.png djvu.svg \
+  || cp ./prebuilt-hi32-djvu.png hi32-djvu.png
+s=`echo hi48-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi48-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi48-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi48-djvu.png djvu.svg \
+  || cp ./prebuilt-hi48-djvu.png hi48-djvu.png
+s=`echo hi64-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi64-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi64-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi64-djvu.png djvu.svg \
+  || cp ./prebuilt-hi64-djvu.png hi64-djvu.png
+s=`echo hi72-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi72-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi72-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi72-djvu.png djvu.svg \
+  || cp ./prebuilt-hi72-djvu.png hi72-djvu.png
+s=`echo hi96-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi96-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi96-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi96-djvu.png djvu.svg \
+  || cp ./prebuilt-hi96-djvu.png hi96-djvu.png
+s=`echo hi128-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi128-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi128-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi128-djvu.png djvu.svg \
+  || cp ./prebuilt-hi128-djvu.png hi128-djvu.png
+s=`echo hi256-djvu.png | sed -e 's/[a-z]*\([0-9]*\).*/\1/'`; \
+  /usr/bin/rsvg-convert -w ${s} -h ${s} -o hi256-djvu.png djvu.svg \
+          || false -geometry ${s}x${s} -depth 8 -background none djvu.svg hi256-djvu.png \
+  || @INKSCAPE@ --without-gui --export-width=${s} \
+                         --export-height=${s} --export-png=hi256-djvu.png djvu.svg \
+  || cp ./prebuilt-hi256-djvu.png hi256-djvu.png
+cat djvu.svg | gzip >hi-djvu.svgz
+sed < ./register-djvu-mime.in > register-djvu-mime \
+  -e 's,XDG_MIME,,g' \
+  -e 's,XDG_ICON_RESOURCE,,g' \
+  -e 's,XDG_DESKTOP_MENU,,g' \
+  -e 's,DATADIR,/usr/share,g' \
+  -e 's,MYDIR,/usr/share/djvu/osi/desktop,g'
+chmod a+x register-djvu-mime
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/desktopfiles'
+Congratulations: the compilation was successful!
+( cd libdjvu && make install )
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/libdjvu'
+make[1]: Circular Makefile.dep <- Makefile.dep dependency dropped.
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/lib
+/bin/sh ../libtool --mode=install \
+  /usr/bin/ginstall -c -m 644 libdjvulibre.la /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/lib
+libtool: install: /usr/bin/ginstall -c -m 644 .libs/libdjvulibre.so.21.4.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/lib/libdjvulibre.so.21.4.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/lib && { ln -s -f libdjvulibre.so.21.4.0 libdjvulibre.so.21 || { rm -f libdjvulibre.so.21 && ln -s libdjvulibre.so.21.4.0 libdjvulibre.so.21; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/lib && { ln -s -f libdjvulibre.so.21.4.0 libdjvulibre.so || { rm -f libdjvulibre.so && ln -s libdjvulibre.so.21.4.0 libdjvulibre.so; }; })
+libtool: install: /usr/bin/ginstall -c -m 644 .libs/libdjvulibre.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/lib/libdjvulibre.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/djvu
+for n in `cd ../share && \
+          find djvu -name '*.xml' -print` ; do \
+  src="../share/$n" ; \
+  dir="`dirname /usr/share/$n`" ;\
+  test -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install$dir || /usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install$dir ; \
+  /usr/bin/ginstall -c -m 644 $src /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install$dir || exit ; done
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/include/libdjvu
+/usr/bin/ginstall -c -m 644 ./ddjvuapi.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/include/libdjvu
+/usr/bin/ginstall -c -m 644 ./miniexp.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/include/libdjvu
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/lib/pkgconfig
+/usr/bin/ginstall -c -m 644 ddjvuapi.pc /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/lib/pkgconfig
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/libdjvu'
+( cd tools && make install )
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/tools'
+make[1]: Circular Makefile.dep <- Makefile.dep dependency dropped.
+cd jb2cmp && make
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/tools/jb2cmp'
+make[2]: Circular Makefile.dep <- Makefile.dep dependency dropped.
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/tools/jb2cmp'
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin
+for n in bzz c44 cjb2 cpaldjvu csepdjvu ddjvu djvm djvmcvt djvudump djvups djvuextract djvumake djvused djvutxt djvuserve ; do \
+  /bin/sh ../libtool --mode=install \
+    /usr/bin/ginstall -c $n /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin \
+          || exit ; done
+libtool: install: /usr/bin/ginstall -c .libs/bzz /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/bzz
+libtool: install: /usr/bin/ginstall -c .libs/c44 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/c44
+libtool: install: /usr/bin/ginstall -c .libs/cjb2 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/cjb2
+libtool: install: /usr/bin/ginstall -c .libs/cpaldjvu /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/cpaldjvu
+libtool: install: /usr/bin/ginstall -c .libs/csepdjvu /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/csepdjvu
+libtool: install: /usr/bin/ginstall -c .libs/ddjvu /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/ddjvu
+libtool: install: /usr/bin/ginstall -c .libs/djvm /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvm
+libtool: install: /usr/bin/ginstall -c .libs/djvmcvt /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvmcvt
+libtool: install: /usr/bin/ginstall -c .libs/djvudump /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvudump
+libtool: install: /usr/bin/ginstall -c .libs/djvups /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvups
+libtool: install: /usr/bin/ginstall -c .libs/djvuextract /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvuextract
+libtool: install: /usr/bin/ginstall -c .libs/djvumake /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvumake
+libtool: install: /usr/bin/ginstall -c .libs/djvused /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvused
+libtool: install: /usr/bin/ginstall -c .libs/djvutxt /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvutxt
+libtool: install: /usr/bin/ginstall -c .libs/djvuserve /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvuserve
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin
+for n in djvudigital any2djvu ; do \
+  /usr/bin/ginstall -c -m 0755 ./$n /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin \
+  || exit ; done
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/man/man1
+for n in bzz c44 cjb2 cpaldjvu csepdjvu ddjvu djvm djvmcvt djvudump djvups djvuextract djvumake djvused djvutxt djvuserve djvudigital any2djvu djvu ; do \
+  if test -r ./$n.1 ; then \
+    /usr/bin/ginstall -c -m 644 ./$n.1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/man/man1 \
+    || exit ; fi ; done
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/tools'
+( cd xmltools && make install )
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/xmltools'
+make[1]: Circular Makefile.dep <- Makefile.dep dependency dropped.
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin
+for n in djvutoxml djvuxmlparser  ; do \
+  /bin/sh ../libtool --mode=install \
+    /usr/bin/ginstall -c $n /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin \
+          || exit ; done
+libtool: install: /usr/bin/ginstall -c .libs/djvutoxml /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvutoxml
+libtool: install: /usr/bin/ginstall -c .libs/djvuxmlparser /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/bin/djvuxmlparser
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/djvu
+for n in `cd ../share \
+          && find djvu -name '*.dtd' -print` ; do \
+  src="../share/$n" ; \
+  dir="`dirname /usr/share/$n`" ;\
+  test -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install$dir || /usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install$dir ; \
+  /usr/bin/ginstall -c -m 644 $src /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install$dir || exit ; done
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/man/man1
+for n in ./*.1 ; do \
+  /usr/bin/ginstall -c -m 644 $n /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/man/man1 || exit ; done 
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/xmltools'
+( cd desktopfiles && make install )
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/desktopfiles'
+/usr/bin/ginstall -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/djvu/osi/desktop
+/usr/bin/ginstall -c register-djvu-mime /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/djvu/osi/desktop
+/usr/bin/ginstall -c -m 644 *djvu.png /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/djvu/osi/desktop
+/usr/bin/ginstall -c -m 644 *djvu.svgz /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/djvu/osi/desktop
+/usr/bin/ginstall -c -m 644 ./*mime.xml /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-install/usr/share/djvu/osi/desktop
+Run /usr/share/djvu/osi/desktop/register-djvu-mime install
+ to register the djvu mime types and icons.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre/djvulibre-3.5.25/desktopfiles'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/djvulibre
+Found 'i686'
+Processing ../djvulibre-install/usr/bin/any2djvu
+Processing ../djvulibre-install/usr/bin/bzz
+Processing ../djvulibre-install/usr/bin/c44
+Processing ../djvulibre-install/usr/bin/cjb2
+Processing ../djvulibre-install/usr/bin/cpaldjvu
+Processing ../djvulibre-install/usr/bin/csepdjvu
+Processing ../djvulibre-install/usr/bin/ddjvu
+Processing ../djvulibre-install/usr/bin/djvm
+Processing ../djvulibre-install/usr/bin/djvmcvt
+Processing ../djvulibre-install/usr/bin/djvudigital
+Processing ../djvulibre-install/usr/bin/djvudump
+Processing ../djvulibre-install/usr/bin/djvuextract
+Processing ../djvulibre-install/usr/bin/djvumake
+Processing ../djvulibre-install/usr/bin/djvups
+Processing ../djvulibre-install/usr/bin/djvused
+Processing ../djvulibre-install/usr/bin/djvuserve
+Processing ../djvulibre-install/usr/bin/djvutoxml
+Processing ../djvulibre-install/usr/bin/djvutxt
+Processing ../djvulibre-install/usr/bin/djvuxmlparser
+Processing ../djvulibre-install/usr/include/libdjvu/ddjvuapi.h
+Processing ../djvulibre-install/usr/include/libdjvu/miniexp.h
+Processing ../djvulibre-install/usr/lib/libdjvulibre.la
+Processing ../djvulibre-install/usr/lib/libdjvulibre.so
+Processing ../djvulibre-install/usr/lib/libdjvulibre.so.21
+Processing ../djvulibre-install/usr/lib/libdjvulibre.so.21.4.0
+Processing ../djvulibre-install/usr/lib/pkgconfig/ddjvuapi.pc
+Processing ../djvulibre-install/usr/share/djvu/osi/cs/messages.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/de/libdjvu++.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/de/messages.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/djvulibre-mime.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi128-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi16-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi20-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi22-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi24-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi256-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi32-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi48-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi64-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi72-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi96-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/hi-djvu.svgz
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/prebuilt-hi22-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/prebuilt-hi32-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/prebuilt-hi48-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/prebuilt-hi64-djvu.png
+Processing ../djvulibre-install/usr/share/djvu/osi/desktop/register-djvu-mime
+Processing ../djvulibre-install/usr/share/djvu/osi/en/djvutools-reference.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/en/libdjvu++.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/en/messages.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/fr/libdjvu++.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/fr/messages.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/ja/libdjvu++.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/ja/messages.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/languages.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/zh/libdjvu++.xml
+Processing ../djvulibre-install/usr/share/djvu/osi/zh/messages.xml
+Processing ../djvulibre-install/usr/share/djvu/pubtext/DjVuMessages.dtd
+Processing ../djvulibre-install/usr/share/djvu/pubtext/DjVuOCR.dtd
+Processing ../djvulibre-install/usr/share/djvu/pubtext/DjVuXML-s.dtd
+Processing ../djvulibre-install/usr/share/man/man1/any2djvu.1
+Processing ../djvulibre-install/usr/share/man/man1/bzz.1
+Processing ../djvulibre-install/usr/share/man/man1/c44.1
+Processing ../djvulibre-install/usr/share/man/man1/cjb2.1
+Processing ../djvulibre-install/usr/share/man/man1/cpaldjvu.1
+Processing ../djvulibre-install/usr/share/man/man1/csepdjvu.1
+Processing ../djvulibre-install/usr/share/man/man1/ddjvu.1
+Processing ../djvulibre-install/usr/share/man/man1/djvm.1
+Processing ../djvulibre-install/usr/share/man/man1/djvmcvt.1
+Processing ../djvulibre-install/usr/share/man/man1/djvu.1
+Processing ../djvulibre-install/usr/share/man/man1/djvudigital.1
+Processing ../djvulibre-install/usr/share/man/man1/djvudump.1
+Processing ../djvulibre-install/usr/share/man/man1/djvuextract.1
+Processing ../djvulibre-install/usr/share/man/man1/djvumake.1
+Processing ../djvulibre-install/usr/share/man/man1/djvups.1
+Processing ../djvulibre-install/usr/share/man/man1/djvused.1
+Processing ../djvulibre-install/usr/share/man/man1/djvuserve.1
+Processing ../djvulibre-install/usr/share/man/man1/djvutoxml.1
+Processing ../djvulibre-install/usr/share/man/man1/djvutxt.1
+Processing ../djvulibre-install/usr/share/man/man1/djvuxml.1
+Processing ../djvulibre-install/usr/share/man/man1/djvuxmlparser.1
+all done
+packaging djvulibre-3.5.25-i686_slk600
+packaging djvulibre_DEV-3.5.25-i686_slk600
+packaging djvulibre_DOC-3.5.25-i686_slk600
+done!

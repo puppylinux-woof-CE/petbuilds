@@ -1,0 +1,1883 @@
+automake-1.13.4/
+automake-1.13.4/THANKS
+automake-1.13.4/ChangeLog
+automake-1.13.4/configure
+automake-1.13.4/.git-log-fix
+automake-1.13.4/HACKING
+automake-1.13.4/bootstrap.sh
+automake-1.13.4/aclocal.in
+automake-1.13.4/NEWS
+automake-1.13.4/doc/
+automake-1.13.4/doc/automake.texi
+automake-1.13.4/doc/automake.info-2
+automake-1.13.4/doc/version.texi
+automake-1.13.4/doc/automake.info
+automake-1.13.4/doc/automake.info-1
+automake-1.13.4/doc/amhello/
+automake-1.13.4/doc/amhello/src/
+automake-1.13.4/doc/amhello/src/main.c
+automake-1.13.4/doc/amhello/src/Makefile.am
+automake-1.13.4/doc/amhello/README
+automake-1.13.4/doc/amhello/configure.ac
+automake-1.13.4/doc/amhello/Makefile.am
+automake-1.13.4/doc/automake-history.texi
+automake-1.13.4/doc/help2man
+automake-1.13.4/doc/automake-history.info
+automake-1.13.4/doc/stamp-vti
+automake-1.13.4/doc/fdl.texi
+automake-1.13.4/doc/amhello-1.0.tar.gz
+automake-1.13.4/AUTHORS
+automake-1.13.4/gen-testsuite-part
+automake-1.13.4/contrib/
+automake-1.13.4/contrib/check-html.am
+automake-1.13.4/contrib/multilib/
+automake-1.13.4/contrib/multilib/symlink-tree
+automake-1.13.4/contrib/multilib/config-ml.in
+automake-1.13.4/contrib/multilib/README
+automake-1.13.4/contrib/multilib/multilib.am
+automake-1.13.4/contrib/multilib/multi.m4
+automake-1.13.4/contrib/README
+automake-1.13.4/contrib/t/
+automake-1.13.4/contrib/t/local.am
+automake-1.13.4/contrib/t/help-multilib.sh
+automake-1.13.4/contrib/t/parallel-tests-html.sh
+automake-1.13.4/contrib/t/parallel-tests-html-recursive.sh
+automake-1.13.4/contrib/t/multilib.sh
+automake-1.13.4/runtest.in
+automake-1.13.4/README
+automake-1.13.4/maint.mk
+automake-1.13.4/m4/
+automake-1.13.4/m4/amversion.in
+automake-1.13.4/m4/internal/
+automake-1.13.4/m4/internal/ac-config-macro-dirs.m4
+automake-1.13.4/m4/upc.m4
+automake-1.13.4/m4/ar-lib.m4
+automake-1.13.4/m4/depout.m4
+automake-1.13.4/m4/init.m4
+automake-1.13.4/m4/cond-if.m4
+automake-1.13.4/m4/tar.m4
+automake-1.13.4/m4/gcj.m4
+automake-1.13.4/m4/lispdir.m4
+automake-1.13.4/m4/python.m4
+automake-1.13.4/m4/options.m4
+automake-1.13.4/m4/vala.m4
+automake-1.13.4/m4/silent.m4
+automake-1.13.4/m4/sanity.m4
+automake-1.13.4/m4/substnot.m4
+automake-1.13.4/m4/obsolete.m4
+automake-1.13.4/m4/dmalloc.m4
+automake-1.13.4/m4/acdir/
+automake-1.13.4/m4/acdir/README
+automake-1.13.4/m4/amversion.m4
+automake-1.13.4/m4/install-sh.m4
+automake-1.13.4/m4/runlog.m4
+automake-1.13.4/m4/strip.m4
+automake-1.13.4/m4/make.m4
+automake-1.13.4/m4/missing.m4
+automake-1.13.4/m4/cond.m4
+automake-1.13.4/m4/auxdir.m4
+automake-1.13.4/m4/as.m4
+automake-1.13.4/m4/depend.m4
+automake-1.13.4/m4/minuso.m4
+automake-1.13.4/m4/extra-recurs.m4
+automake-1.13.4/m4/maintainer.m4
+automake-1.13.4/m4/mkdirp.m4
+automake-1.13.4/m4/lead-dot.m4
+automake-1.13.4/m4/lex.m4
+automake-1.13.4/INSTALL
+automake-1.13.4/configure.ac
+automake-1.13.4/automake.in
+automake-1.13.4/old/
+automake-1.13.4/old/ChangeLog.00
+automake-1.13.4/old/ChangeLog.11
+automake-1.13.4/old/TODO
+automake-1.13.4/old/ChangeLog.98
+automake-1.13.4/old/ChangeLog-tests
+automake-1.13.4/old/ChangeLog.09
+automake-1.13.4/old/ChangeLog.03
+automake-1.13.4/old/ChangeLog.04
+automake-1.13.4/old/ChangeLog.96
+automake-1.13.4/old/ChangeLog.01
+automake-1.13.4/old/ChangeLog.02
+automake-1.13.4/COPYING
+automake-1.13.4/t/
+automake-1.13.4/t/tap-with-and-without-number-w.sh
+automake-1.13.4/t/cxxlibobj.sh
+automake-1.13.4/t/java-extra.sh
+automake-1.13.4/t/txinfo-override-texinfo-tex.sh
+automake-1.13.4/t/yacc-d-basic.sh
+automake-1.13.4/t/parallel-tests-trailing-whitespace.sh
+automake-1.13.4/t/test-driver-strip-vpath.sh
+automake-1.13.4/t/txinfo-no-extra-dist.sh
+automake-1.13.4/t/auxdir.sh
+automake-1.13.4/t/nodist.sh
+automake-1.13.4/t/yflags-d-false-positives.sh
+automake-1.13.4/t/tap-realtime-w.sh
+automake-1.13.4/t/pm/
+automake-1.13.4/t/pm/Wrap.pl
+automake-1.13.4/t/pm/DisjCon3.pl
+automake-1.13.4/t/pm/Cond2.pl
+automake-1.13.4/t/pm/Cond3.pl
+automake-1.13.4/t/pm/DisjConditions.pl
+automake-1.13.4/t/pm/Condition-t.pl
+automake-1.13.4/t/pm/DisjConditions-t.pl
+automake-1.13.4/t/pm/Condition.pl
+automake-1.13.4/t/pm/Version.pl
+automake-1.13.4/t/pm/DisjCon2.pl
+automake-1.13.4/t/pm/Version3.pl
+automake-1.13.4/t/pm/Version2.pl
+automake-1.13.4/t/colneq.sh
+automake-1.13.4/t/pr401b.sh
+automake-1.13.4/t/tap-common-setup.sh
+automake-1.13.4/t/java-sources.sh
+automake-1.13.4/t/distcheck-hook.sh
+automake-1.13.4/t/conflnk3.sh
+automake-1.13.4/t/pr401c.sh
+automake-1.13.4/t/aclocal-path-install-serial.sh
+automake-1.13.4/t/yacc-clean.sh
+automake-1.13.4/t/all2.sh
+automake-1.13.4/t/list-of-tests.mk
+automake-1.13.4/t/percent.sh
+automake-1.13.4/t/alloca.sh
+automake-1.13.4/t/extra-programs-misc.sh
+automake-1.13.4/t/commen10.sh
+automake-1.13.4/t/suffix.sh
+automake-1.13.4/t/compile3.sh
+automake-1.13.4/t/instsh.sh
+automake-1.13.4/t/distcheck-pr9579.sh
+automake-1.13.4/t/dist-auxdir-many-subdirs.sh
+automake-1.13.4/t/fort5.sh
+automake-1.13.4/t/add-missing-multiple.sh
+automake-1.13.4/t/yacc-basic.sh
+automake-1.13.4/t/nodef.sh
+automake-1.13.4/t/test-missing.sh
+automake-1.13.4/t/tap-test-number-0-w.sh
+automake-1.13.4/t/check-tests-in-builddir-w.sh
+automake-1.13.4/t/parallel-tests-extra-programs.sh
+automake-1.13.4/t/aclocal-I-order-3.sh
+automake-1.13.4/t/vala-non-recursive-setup.sh
+automake-1.13.4/t/distlinksbrk.sh
+automake-1.13.4/t/suffix9.sh
+automake-1.13.4/t/silent-f77.sh
+automake-1.13.4/t/vala-headers.sh
+automake-1.13.4/t/parallel-am.sh
+automake-1.13.4/t/libobj10.sh
+automake-1.13.4/t/man3.sh
+automake-1.13.4/t/parallel-tests-subdir.sh
+automake-1.13.4/t/tap-plan-errors-w.sh
+automake-1.13.4/t/autodist-config-headers.sh
+automake-1.13.4/t/tap-ambiguous-directive-w.sh
+automake-1.13.4/t/mdate5.sh
+automake-1.13.4/t/javaflags.sh
+automake-1.13.4/t/forcemiss.sh
+automake-1.13.4/t/gnits2.sh
+automake-1.13.4/t/libobj15c.sh
+automake-1.13.4/t/cond15.sh
+automake-1.13.4/t/tap-no-spurious-summary.sh
+automake-1.13.4/t/aclocal-verbose-install.sh
+automake-1.13.4/t/libobj20a.sh
+automake-1.13.4/t/check2-w.sh
+automake-1.13.4/t/help-depend2.sh
+automake-1.13.4/t/stamph2.sh
+automake-1.13.4/t/silent-custom.sh
+automake-1.13.4/t/test-metadata-recheck.sh
+automake-1.13.4/t/subdir.sh
+automake-1.13.4/t/tap-basic-w.sh
+automake-1.13.4/t/discover.sh
+automake-1.13.4/t/check6.sh
+automake-1.13.4/t/cond18.sh
+automake-1.13.4/t/cscope.tap
+automake-1.13.4/t/gnits.sh
+automake-1.13.4/t/alloca2.sh
+automake-1.13.4/t/parallel-tests-reset-term.sh
+automake-1.13.4/t/unused.sh
+automake-1.13.4/t/pluseq2.sh
+automake-1.13.4/t/parallel-tests-fd-redirect.sh
+automake-1.13.4/t/tap-plan-leading-zero.sh
+automake-1.13.4/t/aclocal-I-order-1.sh
+automake-1.13.4/t/lex-depend-grep.sh
+automake-1.13.4/t/suffix-extra-c-stuff-pr14560.sh
+automake-1.13.4/t/distcheck-missing-m4.sh
+automake-1.13.4/t/aclocal-install-fail.sh
+automake-1.13.4/t/remake-subdir-grepping.sh
+automake-1.13.4/t/remake-after-aclocal-m4.sh
+automake-1.13.4/t/subobj8.sh
+automake-1.13.4/t/aclocal-remake-misc.sh
+automake-1.13.4/t/aclocal-install-absdir.sh
+automake-1.13.4/t/tap-no-spurious-numbers-w.sh
+automake-1.13.4/t/parallel-tests-log-override-2.sh
+automake-1.13.4/t/tar.sh
+automake-1.13.4/t/cond25.sh
+automake-1.13.4/t/libobj-basic.sh
+automake-1.13.4/t/ar-lib-w.sh
+automake-1.13.4/t/distdir.sh
+automake-1.13.4/t/confh6.sh
+automake-1.13.4/t/am-config-header.sh
+automake-1.13.4/t/no-spurious-install-recursive.sh
+automake-1.13.4/t/gnuwarn2.sh
+automake-1.13.4/t/pkg-config-macros.sh
+automake-1.13.4/t/tap-ambiguous-directive.sh
+automake-1.13.4/t/aclocal-deleted-header.sh
+automake-1.13.4/t/txinfo-setfilename-repeated.sh
+automake-1.13.4/t/cond21.sh
+automake-1.13.4/t/uninstall-pr9578.sh
+automake-1.13.4/t/extra-programs-and-libs.sh
+automake-1.13.4/t/parallel-tests-log-compiler-example.sh
+automake-1.13.4/t/javadir-undefined.sh
+automake-1.13.4/t/python-pr10995.sh
+automake-1.13.4/t/amhello-cross-compile.sh
+automake-1.13.4/t/backcompat-acout.sh
+automake-1.13.4/t/candist.sh
+automake-1.13.4/t/cygwin32.sh
+automake-1.13.4/t/link_cond.sh
+automake-1.13.4/t/proginst.sh
+automake-1.13.4/t/output13.sh
+automake-1.13.4/t/depcomp8b.sh
+automake-1.13.4/t/remake-makefile-intree.sh
+automake-1.13.4/t/fnoc.sh
+automake-1.13.4/t/compile.sh
+automake-1.13.4/t/instdir-lisp.sh
+automake-1.13.4/t/parallel-tests-log-override-1.sh
+automake-1.13.4/t/tap-msg0-bailout-w.sh
+automake-1.13.4/t/tap-escape-directive-w.sh
+automake-1.13.4/t/remake-deleted-am-2.sh
+automake-1.13.4/t/cond39.sh
+automake-1.13.4/t/cond4.sh
+automake-1.13.4/t/badopt.sh
+automake-1.13.4/t/self-check-seq.tap
+automake-1.13.4/t/compile_f90_c_cxx.sh
+automake-1.13.4/t/silent-f90.sh
+automake-1.13.4/t/remake-after-acinclude-m4.sh
+automake-1.13.4/t/tap-planskip-case-insensitive-w.sh
+automake-1.13.4/t/primary-prefix-couples-documented-valid.sh
+automake-1.13.4/t/dist-repeated.sh
+automake-1.13.4/t/transform3.sh
+automake-1.13.4/t/dejagnu5.sh
+automake-1.13.4/t/help-dmalloc.sh
+automake-1.13.4/t/mdate2.sh
+automake-1.13.4/t/aclocal-m4-include-are-scanned.sh
+automake-1.13.4/t/remake-recurs-user.sh
+automake-1.13.4/t/tags.sh
+automake-1.13.4/t/remake-renamed-m4-macro-and-file.sh
+automake-1.13.4/t/comment2.sh
+automake-1.13.4/t/subpkg-macrodir.sh
+automake-1.13.4/t/confh.sh
+automake-1.13.4/t/cond14.sh
+automake-1.13.4/t/pluseq4.sh
+automake-1.13.4/t/override-conditional-2.sh
+automake-1.13.4/t/distcleancheck.sh
+automake-1.13.4/t/tap-recheck.sh
+automake-1.13.4/t/dejagnu-relative-srcdir.sh
+automake-1.13.4/t/auxdir8.sh
+automake-1.13.4/t/cond16.sh
+automake-1.13.4/t/depend5.sh
+automake-1.13.4/t/tap-no-spurious.sh
+automake-1.13.4/t/tap-number-wordboundary.sh
+automake-1.13.4/t/tap-negative-numbers.sh
+automake-1.13.4/t/exsource.sh
+automake-1.13.4/t/tagsub.sh
+automake-1.13.4/t/maintmode-configure-msg.sh
+automake-1.13.4/t/instdir-no-empty.sh
+automake-1.13.4/t/dist-formats.tap
+automake-1.13.4/t/check-no-test-driver.sh
+automake-1.13.4/t/dejagnu7.sh
+automake-1.13.4/t/cond23.sh
+automake-1.13.4/t/dejagnu-siteexp-append.sh
+automake-1.13.4/t/output3.sh
+automake-1.13.4/t/aclocal-underquoted-defun.sh
+automake-1.13.4/t/gcj4.sh
+automake-1.13.4/t/subdir-order.sh
+automake-1.13.4/t/condhook.sh
+automake-1.13.4/t/subobj5.sh
+automake-1.13.4/t/checkall.sh
+automake-1.13.4/t/tap-signal.tap
+automake-1.13.4/t/exeext3.sh
+automake-1.13.4/t/python-vars.sh
+automake-1.13.4/t/silent-many-languages.sh
+automake-1.13.4/t/yacc4.sh
+automake-1.13.4/t/txinfo23.sh
+automake-1.13.4/t/subpkg3.sh
+automake-1.13.4/t/suffix2.sh
+automake-1.13.4/t/instdir-java.sh
+automake-1.13.4/t/phony.sh
+automake-1.13.4/t/insthook.sh
+automake-1.13.4/t/recurs-user-no-top-level.sh
+automake-1.13.4/t/libtool-macros.sh
+automake-1.13.4/t/depcomp-gcc.tap
+automake-1.13.4/t/txinfo-no-clutter.sh
+automake-1.13.4/t/remake-deleted-am-subdir.sh
+automake-1.13.4/t/tap-summary-color.sh
+automake-1.13.4/t/txinfo-subdir-pr343.sh
+automake-1.13.4/t/tap-more-w.sh
+automake-1.13.4/t/subobj6.sh
+automake-1.13.4/t/python-missing.sh
+automake-1.13.4/t/depcomp-lt-msvcmsys.tap
+automake-1.13.4/t/yflags-force-conditional.sh
+automake-1.13.4/t/suffix7.sh
+automake-1.13.4/t/yflags-cmdline-override.sh
+automake-1.13.4/t/lflags2.sh
+automake-1.13.4/t/depcomp-lt-gcc.tap
+automake-1.13.4/t/subdir-cond-err.sh
+automake-1.13.4/t/fn99.sh
+automake-1.13.4/t/autodist-aclocal-m4.sh
+automake-1.13.4/t/ar-lib2.sh
+automake-1.13.4/t/check5.sh
+automake-1.13.4/t/instdat2.sh
+automake-1.13.4/t/yacc-depend2.sh
+automake-1.13.4/t/pr211.sh
+automake-1.13.4/t/txinfo-info-in-srcdir.sh
+automake-1.13.4/t/aclocal-comments-respected.sh
+automake-1.13.4/t/libobj15b.sh
+automake-1.13.4/t/parallel-tests-unreadable.sh
+automake-1.13.4/t/cscope2.sh
+automake-1.13.4/t/tap-negative-numbers-w.sh
+automake-1.13.4/t/remake-subdir-no-makefile.sh
+automake-1.13.4/t/tap-planskip-unplanned-w.sh
+automake-1.13.4/t/cond5.sh
+automake-1.13.4/t/objc-megademo.sh
+automake-1.13.4/t/txinfo25.sh
+automake-1.13.4/t/conflnk2.sh
+automake-1.13.4/t/tap-planskip-and-logging.sh
+automake-1.13.4/t/stdinc.sh
+automake-1.13.4/t/tap-recheck-logs.sh
+automake-1.13.4/t/pr243.sh
+automake-1.13.4/t/instdir-cond.sh
+automake-1.13.4/t/rulepat.sh
+automake-1.13.4/t/postproc.sh
+automake-1.13.4/t/check-fd-redirect.sh
+automake-1.13.4/t/java2.sh
+automake-1.13.4/t/libtool8.sh
+automake-1.13.4/t/warnopts.sh
+automake-1.13.4/t/aclocal-macrodir.tap
+automake-1.13.4/t/aclocal-install-mkdir.sh
+automake-1.13.4/t/parallel-tests-recheck.sh
+automake-1.13.4/t/exeext.sh
+automake-1.13.4/t/autohdr-subdir-pr12495.sh
+automake-1.13.4/t/asm.sh
+automake-1.13.4/t/dejagnu4.sh
+automake-1.13.4/t/maintclean.sh
+automake-1.13.4/t/remake-include-aclocal.sh
+automake-1.13.4/t/vala-grepping.sh
+automake-1.13.4/t/check-subst.sh
+automake-1.13.4/t/spelling.sh
+automake-1.13.4/t/depcomp-auto.tap
+automake-1.13.4/t/warnings-obsolete-default.sh
+automake-1.13.4/t/remake-timing-bug-pr8365.sh
+automake-1.13.4/t/remake-renamed-m4-file.sh
+automake-1.13.4/t/testsuite-part.am
+automake-1.13.4/t/tap-summary.sh
+automake-1.13.4/t/objc-flags.sh
+automake-1.13.4/t/check4-w.sh
+automake-1.13.4/t/compile2-w.sh
+automake-1.13.4/t/yacc-cxx.sh
+automake-1.13.4/t/mkinst2.sh
+automake-1.13.4/t/instsh3-w.sh
+automake-1.13.4/t/upc.sh
+automake-1.13.4/t/tests-environment.sh
+automake-1.13.4/t/yflags-conditional.sh
+automake-1.13.4/t/backslash-before-trailing-whitespace.sh
+automake-1.13.4/t/acloca10.sh
+automake-1.13.4/t/flavor.sh
+automake-1.13.4/t/yacc-nodist.sh
+automake-1.13.4/t/test-driver-custom-multitest.sh
+automake-1.13.4/t/remake-subdir-long-time.sh
+automake-1.13.4/t/tap-msg0-directive-w.sh
+automake-1.13.4/t/depcomp-lt-msvisualcpp.tap
+automake-1.13.4/t/serial-tests.sh
+automake-1.13.4/t/ltlibsrc.sh
+automake-1.13.4/t/f90only.sh
+automake-1.13.4/t/yacc-headers-and-dist-pr47.sh
+automake-1.13.4/t/aclocal-scan-configure-ac-pr319.sh
+automake-1.13.4/t/ext.sh
+automake-1.13.4/t/pr9.sh
+automake-1.13.4/t/parallel-tests-interrupt.tap
+automake-1.13.4/t/auxdir-computed.tap
+automake-1.13.4/t/cond40.sh
+automake-1.13.4/t/libobj2.sh
+automake-1.13.4/t/subpkg.sh
+automake-1.13.4/t/parallel-tests-basics.sh
+automake-1.13.4/t/cond33.sh
+automake-1.13.4/t/pluseq11.sh
+automake-1.13.4/t/notrans.sh
+automake-1.13.4/t/libobj12.sh
+automake-1.13.4/t/backcompat6.sh
+automake-1.13.4/t/confh5.sh
+automake-1.13.4/t/comments-in-var-def.sh
+automake-1.13.4/t/gettext3.sh
+automake-1.13.4/t/yaccdry.sh
+automake-1.13.4/t/parse.sh
+automake-1.13.4/t/lex-lib-external.sh
+automake-1.13.4/t/exdir2.sh
+automake-1.13.4/t/compile-w.sh
+automake-1.13.4/t/tap-recheck-w.sh
+automake-1.13.4/t/recurs-user-deeply-nested.sh
+automake-1.13.4/t/subdir-distclean.sh
+automake-1.13.4/t/tap-more2-w.sh
+automake-1.13.4/t/instdir.sh
+automake-1.13.4/t/autodist-configure-no-subdir.sh
+automake-1.13.4/t/lisp-subdir2.sh
+automake-1.13.4/t/parallel-am3.sh
+automake-1.13.4/t/dir-named-obj-is-bad.sh
+automake-1.13.4/t/tap-number-wordboundary-w.sh
+automake-1.13.4/t/depcomp-lt-disabled.tap
+automake-1.13.4/t/tap-plan-errors.sh
+automake-1.13.4/t/remake-m4-pr10111.sh
+automake-1.13.4/t/subobjname.sh
+automake-1.13.4/t/check-tests-in-builddir.sh
+automake-1.13.4/t/percent2.sh
+automake-1.13.4/t/parallel-tests-suffix-prog.sh
+automake-1.13.4/t/cond32.sh
+automake-1.13.4/t/test-driver-trs-suffix-registered.sh
+automake-1.13.4/t/vala-vapi.sh
+automake-1.13.4/t/cond36.sh
+automake-1.13.4/t/aclocal-path.sh
+automake-1.13.4/t/cygnus-no-more.sh
+automake-1.13.4/t/specflg-dummy.sh
+automake-1.13.4/t/instdir-python.sh
+automake-1.13.4/t/silent-cxx.sh
+automake-1.13.4/t/libobj16a.sh
+automake-1.13.4/t/libtool4.sh
+automake-1.13.4/t/dist-auxfile-2.sh
+automake-1.13.4/t/specflg7.sh
+automake-1.13.4/t/tap-planskip-badexit-w.sh
+automake-1.13.4/t/cond19.sh
+automake-1.13.4/t/alpha.sh
+automake-1.13.4/t/cond-basic.sh
+automake-1.13.4/t/libobj20c.sh
+automake-1.13.4/t/ar-lib6b.sh
+automake-1.13.4/t/ldadd.sh
+automake-1.13.4/t/clean.sh
+automake-1.13.4/t/am-macro-not-found.sh
+automake-1.13.4/t/tap-planskip-bailout-w.sh
+automake-1.13.4/t/vala-configure.sh
+automake-1.13.4/t/confsub.sh
+automake-1.13.4/t/depcomp-msvcmsys.tap
+automake-1.13.4/t/tap-planskip-later-errors-w.sh
+automake-1.13.4/t/asm3.sh
+automake-1.13.4/t/libtool3.sh
+automake-1.13.4/t/java-rebuild.sh
+automake-1.13.4/t/werror2.sh
+automake-1.13.4/t/man8.sh
+automake-1.13.4/t/tap-plan-malformed-w.sh
+automake-1.13.4/t/tap-bailout-suppress-badexit-w.sh
+automake-1.13.4/t/help3.sh
+automake-1.13.4/t/am-missing-prog.sh
+automake-1.13.4/t/tap-plan-leading-zero-w.sh
+automake-1.13.4/t/recurs-user-phony.sh
+automake-1.13.4/t/tap-numbers-leading-zero.sh
+automake-1.13.4/t/compile5-w.sh
+automake-1.13.4/t/conflnk.sh
+automake-1.13.4/t/objcxx-minidemo.sh
+automake-1.13.4/t/dejagnu-siteexp-extend.sh
+automake-1.13.4/t/yacc-d-vpath.sh
+automake-1.13.4/t/output10.sh
+automake-1.13.4/t/autodist.sh
+automake-1.13.4/t/override-suggest-local.sh
+automake-1.13.4/t/link_fcxx.sh
+automake-1.13.4/t/aclocal-no-install-no-mkdir.sh
+automake-1.13.4/t/tap-bad-prog-w.tap
+automake-1.13.4/t/mmode.sh
+automake-1.13.4/t/tap-fancy-w.sh
+automake-1.13.4/t/stdlib2.sh
+automake-1.13.4/t/output9.sh
+automake-1.13.4/t/extra-portability2.sh
+automake-1.13.4/t/instexec.sh
+automake-1.13.4/t/libtoo10.sh
+automake-1.13.4/t/tap-diagnostic-custom.sh
+automake-1.13.4/t/parallel-tests-fork-bomb.sh
+automake-1.13.4/t/remake-after-configure-ac.sh
+automake-1.13.4/t/remake-subdir3.sh
+automake-1.13.4/t/depend4.sh
+automake-1.13.4/t/help-silent.sh
+automake-1.13.4/t/check2.sh
+automake-1.13.4/t/cond17.sh
+automake-1.13.4/t/dash.sh
+automake-1.13.4/t/library2.sh
+automake-1.13.4/t/pr87.sh
+automake-1.13.4/t/libtool2.sh
+automake-1.13.4/t/mdate6-w.sh
+automake-1.13.4/t/make-keepgoing.tap
+automake-1.13.4/t/tap-unplanned-w.sh
+automake-1.13.4/t/silent-gen.sh
+automake-1.13.4/t/lex3.sh
+automake-1.13.4/t/mkdir_p.sh
+automake-1.13.4/t/lisp6.sh
+automake-1.13.4/t/tap-color.sh
+automake-1.13.4/t/javasubst.sh
+automake-1.13.4/t/extra-dist-dirs-and-subdirs.sh
+automake-1.13.4/t/subdir-add2-pr46.sh
+automake-1.13.4/t/extra-dist-vpath-dir.sh
+automake-1.13.4/t/lex-clean-cxx.sh
+automake-1.13.4/t/lex-header.sh
+automake-1.13.4/t/instdir-cond2.sh
+automake-1.13.4/t/java-check.sh
+automake-1.13.4/t/aclocal-path-nonexistent.sh
+automake-1.13.4/t/extra-portability3.sh
+automake-1.13.4/t/gnits3.sh
+automake-1.13.4/t/python-dist.sh
+automake-1.13.4/t/lisp8.sh
+automake-1.13.4/t/dollar.sh
+automake-1.13.4/t/txinfo-add-missing-and-dist.sh
+automake-1.13.4/t/txinfo-no-installinfo.sh
+automake-1.13.4/t/ppf77.sh
+automake-1.13.4/t/tar2.sh
+automake-1.13.4/t/distcom4.sh
+automake-1.13.4/t/pr300-prog.sh
+automake-1.13.4/t/aclocal-req.sh
+automake-1.13.4/t/check-exported-srcdir-w.sh
+automake-1.13.4/t/strictness-precedence.sh
+automake-1.13.4/t/ar-lib5a.sh
+automake-1.13.4/t/tap-xfail-tests-w.sh
+automake-1.13.4/t/ltinstloc.sh
+automake-1.13.4/t/txinfo-clean.sh
+automake-1.13.4/t/canon5.sh
+automake-1.13.4/t/sanity.sh
+automake-1.13.4/t/src-acsubst.sh
+automake-1.13.4/t/color-tests2.sh
+automake-1.13.4/t/tap-global-result.sh
+automake-1.13.4/t/tap-planskip-unplanned-corner-w.sh
+automake-1.13.4/t/ext3.sh
+automake-1.13.4/t/backcompat3.sh
+automake-1.13.4/t/colneq2.sh
+automake-1.13.4/t/lexcpp.sh
+automake-1.13.4/t/man.sh
+automake-1.13.4/t/tap-with-and-without-number.sh
+automake-1.13.4/t/test-driver-cond.sh
+automake-1.13.4/t/tap-more.sh
+automake-1.13.4/t/tap-plan-corner-w.sh
+automake-1.13.4/t/posixsubst-ltlibraries.sh
+automake-1.13.4/t/suffix6c.sh
+automake-1.13.4/t/silent-configsite.sh
+automake-1.13.4/t/posixsubst-data.sh
+automake-1.13.4/t/tests-environment-and-log-compiler.sh
+automake-1.13.4/t/tar3.sh
+automake-1.13.4/t/recurs-user-many.sh
+automake-1.13.4/t/tap-exit.sh
+automake-1.13.4/t/tap-passthrough-exit.sh
+automake-1.13.4/t/color-tests-opt.sh
+automake-1.13.4/t/strip.sh
+automake-1.13.4/t/subdir-keep-going-pr12554.sh
+automake-1.13.4/t/parallel-tests-log-compiler-2.sh
+automake-1.13.4/t/test-logs-repeated.sh
+automake-1.13.4/t/subobj10.sh
+automake-1.13.4/t/aclocal-m4-include-are-scanned-aclocal-amflags.sh
+automake-1.13.4/t/canon3.sh
+automake-1.13.4/t/tap-planskip-case-insensitive.sh
+automake-1.13.4/t/aclocal-amflags.sh
+automake-1.13.4/t/python-virtualenv.sh
+automake-1.13.4/t/tap-driver-stderr-w.sh
+automake-1.13.4/t/libobj13.sh
+automake-1.13.4/t/cond20.sh
+automake-1.13.4/t/noinst.sh
+automake-1.13.4/t/tap-todo-skip-together.sh
+automake-1.13.4/t/subpkg4.sh
+automake-1.13.4/t/tap-diagnostic-custom-w.sh
+automake-1.13.4/t/tap-numeric-description-w.sh
+automake-1.13.4/t/txinfo-many-output-formats-vpath.sh
+automake-1.13.4/t/silent-lt.sh
+automake-1.13.4/t/java-compile-run-nested.sh
+automake-1.13.4/t/parallel-tests-exeext.sh
+automake-1.13.4/t/tap-fancy2.sh
+automake-1.13.4/t/subdir-am-cond.sh
+automake-1.13.4/t/recurs-user-keep-going.sh
+automake-1.13.4/t/aclocal-deleted-header-aclocal-amflags.sh
+automake-1.13.4/t/autohdr3.sh
+automake-1.13.4/t/missing-version-mismatch-w.sh
+automake-1.13.4/t/canon8.sh
+automake-1.13.4/t/depcomp-lt-dashmstdout.tap
+automake-1.13.4/t/number.sh
+automake-1.13.4/t/mdate4.sh
+automake-1.13.4/t/tap-missing-plan-and-bad-exit.sh
+automake-1.13.4/t/tap-fancy.sh
+automake-1.13.4/t/tap-msg0-bailout.sh
+automake-1.13.4/t/tap-not-ok-skip.sh
+automake-1.13.4/t/pr401.sh
+automake-1.13.4/t/README
+automake-1.13.4/t/condinc2.sh
+automake-1.13.4/t/pr229.sh
+automake-1.13.4/t/remake-makefile-vpath.sh
+automake-1.13.4/t/ar2.sh
+automake-1.13.4/t/tap-bailout-suppress-later-errors.sh
+automake-1.13.4/t/header.sh
+automake-1.13.4/t/tap-plan.sh
+automake-1.13.4/t/tap-diagnostic.sh
+automake-1.13.4/t/tap-plan-w.sh
+automake-1.13.4/t/cond22.sh
+automake-1.13.4/t/help-python.sh
+automake-1.13.4/t/add-missing.tap
+automake-1.13.4/t/tap-plan-whitespace.sh
+automake-1.13.4/t/confh7.sh
+automake-1.13.4/t/mkinstall.sh
+automake-1.13.4/t/make-is-gnu.sh
+automake-1.13.4/t/nobase-libtool.sh
+automake-1.13.4/t/cond35.sh
+automake-1.13.4/t/txinfo-other-suffixes.sh
+automake-1.13.4/t/primary.sh
+automake-1.13.4/t/aclocal-path-precedence.sh
+automake-1.13.4/t/remake-gnulib-add-header.sh
+automake-1.13.4/t/test-harness-vpath-rewrite.sh
+automake-1.13.4/t/yacc-dist-nobuild-subdir.sh
+automake-1.13.4/t/libobj14.sh
+automake-1.13.4/t/test-extensions-cond.sh
+automake-1.13.4/t/libtool6.sh
+automake-1.13.4/t/confh-subdir-clean.sh
+automake-1.13.4/t/override-html.sh
+automake-1.13.4/t/man6.sh
+automake-1.13.4/t/colon5.sh
+automake-1.13.4/t/subpkg-yacc.sh
+automake-1.13.4/t/subst3.sh
+automake-1.13.4/t/extra-dist-vpath-dir-merge.sh
+automake-1.13.4/t/txinfo-unrecognized-extension.sh
+automake-1.13.4/t/subobj7.sh
+automake-1.13.4/t/suffix10.tap
+automake-1.13.4/t/suffix-custom-pr14441.sh
+automake-1.13.4/t/mdate5-w.sh
+automake-1.13.4/t/parallel-am2.sh
+automake-1.13.4/t/cond13.sh
+automake-1.13.4/t/makevars.sh
+automake-1.13.4/t/confvar2.sh
+automake-1.13.4/t/cond43.sh
+automake-1.13.4/t/dist-missing-included-m4.sh
+automake-1.13.4/t/tap-plan-corner.sh
+automake-1.13.4/t/remake-all-2.sh
+automake-1.13.4/t/mkdirp-deprecation.sh
+automake-1.13.4/t/version6.sh
+automake-1.13.4/t/tap-plan-middle.sh
+automake-1.13.4/t/txinfo-without-info-suffix.sh
+automake-1.13.4/t/suffix-chain.tap
+automake-1.13.4/t/remake-configure-dependencies.sh
+automake-1.13.4/t/subobj11c.sh
+automake-1.13.4/t/lisp-loadpath.sh
+automake-1.13.4/t/libobj20b.sh
+automake-1.13.4/t/tap-out-of-order-w.sh
+automake-1.13.4/t/comment8.sh
+automake-1.13.4/t/libobj5.sh
+automake-1.13.4/t/lisp5.sh
+automake-1.13.4/t/python-am-path-iftrue.sh
+automake-1.13.4/t/cond3.sh
+automake-1.13.4/t/output12.sh
+automake-1.13.4/t/ar.sh
+automake-1.13.4/t/ar-lib6a.sh
+automake-1.13.4/t/lisp7.sh
+automake-1.13.4/t/colon7.sh
+automake-1.13.4/t/dist-included-parent-dir.sh
+automake-1.13.4/t/tap-global-log.sh
+automake-1.13.4/t/ldflags.sh
+automake-1.13.4/t/target-cflags.sh
+automake-1.13.4/t/substref.sh
+automake-1.13.4/t/aclocal-no-extra-scan.sh
+automake-1.13.4/t/yacc-d-cxx.sh
+automake-1.13.4/t/posixsubst-libraries.sh
+automake-1.13.4/t/programs-primary-rewritten.sh
+automake-1.13.4/t/parallel-tests-concurrency.sh
+automake-1.13.4/t/cond42.sh
+automake-1.13.4/t/cond38.sh
+automake-1.13.4/t/depcomp-lt-cpp.tap
+automake-1.13.4/t/link_f_only.sh
+automake-1.13.4/t/tap-bailout-suppress-later-errors-w.sh
+automake-1.13.4/t/remake-fail.sh
+automake-1.13.4/t/destdir.sh
+automake-1.13.4/t/test-driver-custom-multitest-recheck2.sh
+automake-1.13.4/t/make.sh
+automake-1.13.4/t/silent-lex.sh
+automake-1.13.4/t/subobj-clean-lt-pr10697.sh
+automake-1.13.4/t/remake-renamed-am.sh
+automake-1.13.4/t/fn99subdir.sh
+automake-1.13.4/t/condman3.sh
+automake-1.13.4/t/aclocal-serial.sh
+automake-1.13.4/t/cond37.sh
+automake-1.13.4/t/instdir-ltlib.sh
+automake-1.13.4/t/tap-todo-skip-whitespace.sh
+automake-1.13.4/t/remake-subdir.sh
+automake-1.13.4/t/cscope3.sh
+automake-1.13.4/t/java-uninstall.sh
+automake-1.13.4/t/cond6.sh
+automake-1.13.4/t/tap-msg0-planskip.sh
+automake-1.13.4/t/remake-gnulib-remove-header.sh
+automake-1.13.4/t/defun2.sh
+automake-1.13.4/t/depcomp-lt-auto.tap
+automake-1.13.4/t/maken3.sh
+automake-1.13.4/t/subdir-ac-subst.sh
+automake-1.13.4/t/depcomp2.sh
+automake-1.13.4/t/vars.sh
+automake-1.13.4/t/extra-deps.sh
+automake-1.13.4/t/lex-depend.sh
+automake-1.13.4/t/python2.sh
+automake-1.13.4/t/comment7.sh
+automake-1.13.4/t/tap-basic.sh
+automake-1.13.4/t/interp.sh
+automake-1.13.4/t/lex-line.sh
+automake-1.13.4/t/compile4.sh
+automake-1.13.4/t/test-log.sh
+automake-1.13.4/t/exdir.sh
+automake-1.13.4/t/java-empty-classpath.sh
+automake-1.13.4/t/condhook2.sh
+automake-1.13.4/t/tap-autonumber.sh
+automake-1.13.4/t/aclocal-autoconf-version-check.sh
+automake-1.13.4/t/tap-empty.sh
+automake-1.13.4/t/vala-recursive-setup.sh
+automake-1.13.4/t/nolink.sh
+automake-1.13.4/t/tap-doc2.sh
+automake-1.13.4/t/dejagnu.sh
+automake-1.13.4/t/remake-subdir2.sh
+automake-1.13.4/t/colneq3.sh
+automake-1.13.4/t/tap-passthrough-exit-w.sh
+automake-1.13.4/t/txinfo-unrecognized-info-suffix.sh
+automake-1.13.4/t/tap-not-ok-skip-w.sh
+automake-1.13.4/t/symlink2.sh
+automake-1.13.4/t/all.sh
+automake-1.13.4/t/objcxx-basic.sh
+automake-1.13.4/t/ccnoco3.sh
+automake-1.13.4/t/version3.sh
+automake-1.13.4/t/cond45.sh
+automake-1.13.4/t/remake-mild-stress.sh
+automake-1.13.4/t/vartypo2.sh
+automake-1.13.4/t/extra-dist-wildcards-vpath.sh
+automake-1.13.4/t/vpath.sh
+automake-1.13.4/t/tap-no-spurious-w.sh
+automake-1.13.4/t/spy-rm.tap
+automake-1.13.4/t/install2.sh
+automake-1.13.4/t/pluseq5.sh
+automake-1.13.4/t/badprog.sh
+automake-1.13.4/t/lex.sh
+automake-1.13.4/t/autodist-acconfig.sh
+automake-1.13.4/t/warning-groups-win-over-strictness.sh
+automake-1.13.4/t/substre2.sh
+automake-1.13.4/t/stdlib.sh
+automake-1.13.4/t/maintclean-vpath.sh
+automake-1.13.4/t/instsh2-w.sh
+automake-1.13.4/t/check10.sh
+automake-1.13.4/t/extra-deps-lt.sh
+automake-1.13.4/t/colon3.sh
+automake-1.13.4/t/tap-msg0-result-w.sh
+automake-1.13.4/t/libobj7.sh
+automake-1.13.4/t/link_c_cxx.sh
+automake-1.13.4/t/primary3.sh
+automake-1.13.4/t/depcomp-msvisualcpp.tap
+automake-1.13.4/t/override-conditional-pr13940.sh
+automake-1.13.4/t/tap-escape-directive-2.sh
+automake-1.13.4/t/gettext-macros.sh
+automake-1.13.4/t/primary-prefix-couples-force-valid.sh
+automake-1.13.4/t/compile3-w.sh
+automake-1.13.4/t/syntax.sh
+automake-1.13.4/t/remake-after-makefile-am.sh
+automake-1.13.4/t/suffix4.sh
+automake-1.13.4/t/library3.sh
+automake-1.13.4/t/recurs-user-wrap.sh
+automake-1.13.4/t/missing3.sh
+automake-1.13.4/t/check-subst-prog-w.sh
+automake-1.13.4/t/testsuite-summary-color.sh
+automake-1.13.4/t/spell3.sh
+automake-1.13.4/t/remake-maintainer-mode.sh
+automake-1.13.4/t/self-check-exit.tap
+automake-1.13.4/t/cond30.sh
+automake-1.13.4/t/objc-deps.sh
+automake-1.13.4/t/tap-global-result-w.sh
+automake-1.13.4/t/comment3.sh
+automake-1.13.4/t/built-sources-check-w.sh
+automake-1.13.4/t/subobj-indir-pr13928.sh
+automake-1.13.4/t/txinfo-vtexi.sh
+automake-1.13.4/t/compile6-w.sh
+automake-1.13.4/t/disthook.sh
+automake-1.13.4/t/tap-whitespace-normalization-w.sh
+automake-1.13.4/t/amsubst.sh
+automake-1.13.4/t/link_fc.sh
+automake-1.13.4/t/libtool.sh
+automake-1.13.4/t/objc-minidemo.sh
+automake-1.13.4/t/aclocal-acdir.sh
+automake-1.13.4/t/fort4.sh
+automake-1.13.4/t/install-info-dir.sh
+automake-1.13.4/t/tap-empty-diagnostic.sh
+automake-1.13.4/t/help-upc.sh
+automake-1.13.4/t/targetclash.sh
+automake-1.13.4/t/conff.sh
+automake-1.13.4/t/pr279-2.sh
+automake-1.13.4/t/java-mix.sh
+automake-1.13.4/t/subst-no-trailing-empty-line.sh
+automake-1.13.4/t/help4.sh
+automake-1.13.4/t/tap-log.sh
+automake-1.13.4/t/output7.sh
+automake-1.13.4/t/nodep2.sh
+automake-1.13.4/t/comment9.sh
+automake-1.13.4/t/upc3.sh
+automake-1.13.4/t/tap-diagnostic-w.sh
+automake-1.13.4/t/yacc-depend.sh
+automake-1.13.4/t/libtool7.sh
+automake-1.13.4/t/tap-global-log-w.sh
+automake-1.13.4/t/aclocal-dirlist-abspath.sh
+automake-1.13.4/t/ar5.sh
+automake-1.13.4/t/objcxx-flags.sh
+automake-1.13.4/t/vala-libs.sh
+automake-1.13.4/t/compile4-w.sh
+automake-1.13.4/t/yflags-var-expand.sh
+automake-1.13.4/t/depend6.sh
+automake-1.13.4/t/check-fd-redirect-w.sh
+automake-1.13.4/t/pluseq6.sh
+automake-1.13.4/t/pr300-ltlib.sh
+automake-1.13.4/t/version4.sh
+automake-1.13.4/t/remake-config-status-dependencies.sh
+automake-1.13.4/t/remake-deleted-m4-file.sh
+automake-1.13.4/t/libobj19.sh
+automake-1.13.4/t/help2.sh
+automake-1.13.4/t/condlib.sh
+automake-1.13.4/t/check.sh
+automake-1.13.4/t/tap-planskip-late.sh
+automake-1.13.4/t/symlink.sh
+automake-1.13.4/t/lisp-flags.sh
+automake-1.13.4/t/py-compile-option-terminate.sh
+automake-1.13.4/t/tap-planskip-whitespace.sh
+automake-1.13.4/t/amopt.sh
+automake-1.13.4/t/ltlibobjs.sh
+automake-1.13.4/t/vars3.sh
+automake-1.13.4/t/distcheck-configure-flags-am.sh
+automake-1.13.4/t/ar4.sh
+automake-1.13.4/t/seenc.sh
+automake-1.13.4/t/yacc-pr204.sh
+automake-1.13.4/t/depcomp-implicit-auxdir.sh
+automake-1.13.4/t/lisp-pr11806.sh
+automake-1.13.4/t/python-too-old.sh
+automake-1.13.4/t/self-check-report.sh
+automake-1.13.4/t/self-check-unindent.tap
+automake-1.13.4/t/substtarg.sh
+automake-1.13.4/t/hfs.sh
+automake-1.13.4/t/compile6.sh
+automake-1.13.4/t/doc-parsing-buglets-colneq-subst.sh
+automake-1.13.4/t/ar3.sh
+automake-1.13.4/t/test-metadata-global-log.sh
+automake-1.13.4/t/override-conditional-1.sh
+automake-1.13.4/t/subobj.sh
+automake-1.13.4/t/self-check-is_newest.tap
+automake-1.13.4/t/autodist-stamp-vti.sh
+automake-1.13.4/t/tap-todo-skip-whitespace-w.sh
+automake-1.13.4/t/pr279.sh
+automake-1.13.4/t/cond31.sh
+automake-1.13.4/t/empty-sources-primary.tap
+automake-1.13.4/t/pr220.sh
+automake-1.13.4/t/subobj11b.sh
+automake-1.13.4/t/nobase.sh
+automake-1.13.4/t/java.sh
+automake-1.13.4/t/output8.sh
+automake-1.13.4/t/implicit.sh
+automake-1.13.4/t/defun.sh
+automake-1.13.4/t/remake-subdir-gnu.sh
+automake-1.13.4/t/tap-result-comment.sh
+automake-1.13.4/t/aminit-moreargs-deprecation.sh
+automake-1.13.4/t/gcj2.sh
+automake-1.13.4/t/distcheck-configure-flags.sh
+automake-1.13.4/t/txinfo-tex-dist.sh
+automake-1.13.4/t/deprecated-acinit.sh
+automake-1.13.4/t/tap-plan-middle-w.sh
+automake-1.13.4/t/cxx2.sh
+automake-1.13.4/t/xsource.sh
+automake-1.13.4/t/lisp-subdir-mix.sh
+automake-1.13.4/t/tap-todo-skip-w.sh
+automake-1.13.4/t/tap-test-number-0.sh
+automake-1.13.4/t/parallel-tests-driver-install.sh
+automake-1.13.4/t/tap-no-merge-stdout-stderr.sh
+automake-1.13.4/t/per-target-flags.sh
+automake-1.13.4/t/self-check-me.tap
+automake-1.13.4/t/aclocal-I-order-2.sh
+automake-1.13.4/t/lex2.sh
+automake-1.13.4/t/tap-bailout-and-logging.sh
+automake-1.13.4/t/libtool5.sh
+automake-1.13.4/t/link_override.sh
+automake-1.13.4/t/txinfo-makeinfo-error-no-clobber.sh
+automake-1.13.4/t/extra-portability.sh
+automake-1.13.4/t/subpkg2.sh
+automake-1.13.4/t/nodep.sh
+automake-1.13.4/t/commen11.sh
+automake-1.13.4/t/acsubst2.sh
+automake-1.13.4/t/instdir-texi.sh
+automake-1.13.4/t/color-tests2-w.sh
+automake-1.13.4/t/tap-plan-malformed.sh
+automake-1.13.4/t/java-noinst.sh
+automake-1.13.4/t/extra-data.sh
+automake-1.13.4/t/parallel-tests-fd-redirect-exeext.sh
+automake-1.13.4/t/check-subst-w.sh
+automake-1.13.4/t/nodist2.sh
+automake-1.13.4/t/yacc-bison-skeleton.sh
+automake-1.13.4/t/recurs-user-indir.sh
+automake-1.13.4/t/cond11.sh
+automake-1.13.4/t/transform.sh
+automake-1.13.4/t/parallel-tests-harderror.sh
+automake-1.13.4/t/empty-data-primary.sh
+automake-1.13.4/t/tap-planskip-unplanned-corner.sh
+automake-1.13.4/t/confvar.sh
+automake-1.13.4/t/dist-missing-am.sh
+automake-1.13.4/t/check11-w.sh
+automake-1.13.4/t/double.sh
+automake-1.13.4/t/tap-no-disable-hard-error-w.sh
+automake-1.13.4/t/am-tests-environment.sh
+automake-1.13.4/t/tap-exit-w.sh
+automake-1.13.4/t/dollarvar2.sh
+automake-1.13.4/t/amhello-cflags.sh
+automake-1.13.4/t/instdir2.sh
+automake-1.13.4/t/output2.sh
+automake-1.13.4/t/depend3.sh
+automake-1.13.4/t/aclocal-missing-macros.sh
+automake-1.13.4/t/yacc-weirdnames.sh
+automake-1.13.4/t/tap-autonumber-w.sh
+automake-1.13.4/t/tap-bailout-w.sh
+automake-1.13.4/t/fonly.sh
+automake-1.13.4/t/cxxnoc.sh
+automake-1.13.4/t/suffix8.tap
+automake-1.13.4/t/yacc-deleted-headers.sh
+automake-1.13.4/t/vala-mix2.sh
+automake-1.13.4/t/cond24.sh
+automake-1.13.4/t/self-check-shell-no-trail-bslash.sh
+automake-1.13.4/t/yaccpp.sh
+automake-1.13.4/t/objc-basic.sh
+automake-1.13.4/t/gnumake.sh
+automake-1.13.4/t/txinfo-many-output-formats.sh
+automake-1.13.4/t/maken.sh
+automake-1.13.4/t/parallel-tests-exit-statuses.sh
+automake-1.13.4/t/tap-bailout.sh
+automake-1.13.4/t/python3.sh
+automake-1.13.4/t/pr72.sh
+automake-1.13.4/t/pluseq9.sh
+automake-1.13.4/t/tags2.sh
+automake-1.13.4/t/suffix-custom-subobj-and-specflg.sh
+automake-1.13.4/t/location.sh
+automake-1.13.4/t/python12.sh
+automake-1.13.4/t/parallel-tests-dry-run-2.sh
+automake-1.13.4/t/check5-w.sh
+automake-1.13.4/t/lex-pr204.sh
+automake-1.13.4/t/colon4.sh
+automake-1.13.4/t/yacc-grepping.sh
+automake-1.13.4/t/self-check-configure-help.sh
+automake-1.13.4/t/tap-whitespace-normalization.sh
+automake-1.13.4/t/dejagnu-absolute-builddir.sh
+automake-1.13.4/t/txinfo-vtexi3.sh
+automake-1.13.4/t/man2.sh
+automake-1.13.4/t/lisp-subdir.sh
+automake-1.13.4/t/instspc.tap
+automake-1.13.4/t/tap-deps.sh
+automake-1.13.4/t/cond41.sh
+automake-1.13.4/t/missing-version-mismatch.sh
+automake-1.13.4/t/canon-name.sh
+automake-1.13.4/t/self-check-dir.tap
+automake-1.13.4/t/pr266.sh
+automake-1.13.4/t/test-metadata-results.sh
+automake-1.13.4/t/python11.sh
+automake-1.13.4/t/tap-out-of-order.sh
+automake-1.13.4/t/txinfo-vtexi4.sh
+automake-1.13.4/t/dejagnu-siteexp-useredit.sh
+automake-1.13.4/t/tap-merge-stdout-stderr.sh
+automake-1.13.4/t/extra2.sh
+automake-1.13.4/t/missing3-w.sh
+automake-1.13.4/t/remake-not-after-make-dist.sh
+automake-1.13.4/t/distcheck-pr10470.sh
+automake-1.13.4/t/uninstall-fail.sh
+automake-1.13.4/t/strictness-override.sh
+automake-1.13.4/t/txinfo-bsd-make-recurs.sh
+automake-1.13.4/t/acsilent.sh
+automake-1.13.4/t/warnings-strictness-interactions.sh
+automake-1.13.4/t/tap-planskip-late-w.sh
+automake-1.13.4/t/colon2.sh
+automake-1.13.4/t/txinfo19.sh
+automake-1.13.4/t/init2.sh
+automake-1.13.4/t/java-nobase.sh
+automake-1.13.4/t/canon7.sh
+automake-1.13.4/t/ac-output-old.tap
+automake-1.13.4/t/yacc-grepping2.sh
+automake-1.13.4/t/c-demo.sh
+automake-1.13.4/t/werror.sh
+automake-1.13.4/t/fort2.sh
+automake-1.13.4/t/tap-bailout-suppress-later-diagnostic-w.sh
+automake-1.13.4/t/distcheck-writable-srcdir.sh
+automake-1.13.4/t/test-metadata-global-result.sh
+automake-1.13.4/t/subobj-vpath-pr13928.sh
+automake-1.13.4/t/lispdry.sh
+automake-1.13.4/t/remake-include-configure.sh
+automake-1.13.4/t/confh4.sh
+automake-1.13.4/t/ar-lib3.sh
+automake-1.13.4/t/dist-pr109765.sh
+automake-1.13.4/t/distcom-subdir.sh
+automake-1.13.4/t/no-extra-c-stuff.sh
+automake-1.13.4/t/lflags.sh
+automake-1.13.4/t/yacc-bison-skeleton-cxx.sh
+automake-1.13.4/t/test-driver-custom-multitest-recheck.sh
+automake-1.13.4/t/autohdr4.sh
+automake-1.13.4/t/aclocal-no-symlinked-overwrite.sh
+automake-1.13.4/t/tap-bailout-suppress-badexit.sh
+automake-1.13.4/t/fort1.sh
+automake-1.13.4/t/aclocal-m4-sinclude.sh
+automake-1.13.4/t/check-concurrency-bug9245.sh
+automake-1.13.4/t/tap-more2.sh
+automake-1.13.4/t/cond46.sh
+automake-1.13.4/t/dejagnu6.sh
+automake-1.13.4/t/nodepcomp.sh
+automake-1.13.4/t/dmalloc.sh
+automake-1.13.4/t/tar-override.sh
+automake-1.13.4/t/perf/
+automake-1.13.4/t/perf/testsuite-summary.sh
+automake-1.13.4/t/perf/testsuite-recheck.sh
+automake-1.13.4/t/perf/cond.sh
+automake-1.13.4/t/tap-no-spurious-summary-w.sh
+automake-1.13.4/t/aclocal-dirlist-globbing.sh
+automake-1.13.4/t/cxx-demo.sh
+automake-1.13.4/t/tests-environment-fd-redirect.sh
+automake-1.13.4/t/extra-dist-wildcards-gnu.sh
+automake-1.13.4/t/tap-escape-directive-2-w.sh
+automake-1.13.4/t/ccnoco.sh
+automake-1.13.4/t/lex5.sh
+automake-1.13.4/t/warnings-override.sh
+automake-1.13.4/t/mdate6.sh
+automake-1.13.4/t/txinfo-override-infodeps.sh
+automake-1.13.4/t/java3.sh
+automake-1.13.4/t/print-libdir.sh
+automake-1.13.4/t/mdate.sh
+automake-1.13.4/t/py-compile-env.sh
+automake-1.13.4/t/distcheck-override-infodir.sh
+automake-1.13.4/t/prefix.sh
+automake-1.13.4/t/reqd2.sh
+automake-1.13.4/t/lisp4.sh
+automake-1.13.4/t/spy.sh
+automake-1.13.4/t/parallel-tests-cmdline-override.sh
+automake-1.13.4/t/aclocal-print-acdir.sh
+automake-1.13.4/t/tap-doc.sh
+automake-1.13.4/t/silent-nested-vars.sh
+automake-1.13.4/t/tap-passthrough-w.sh
+automake-1.13.4/t/instman2.sh
+automake-1.13.4/t/subdir-cond-gettext.sh
+automake-1.13.4/t/posixsubst-tests.sh
+automake-1.13.4/t/ccnoco2.sh
+automake-1.13.4/t/remake-include-makefile.sh
+automake-1.13.4/t/fortdep.sh
+automake-1.13.4/t/relativize.tap
+automake-1.13.4/t/colon.sh
+automake-1.13.4/t/instman.sh
+automake-1.13.4/t/pr300-lib.sh
+automake-1.13.4/t/man5.sh
+automake-1.13.4/t/ar-lib.sh
+automake-1.13.4/t/sourcefile-in-subdir.sh
+automake-1.13.4/t/libtoo11.sh
+automake-1.13.4/t/cxxlink.sh
+automake-1.13.4/t/vala-per-target-flags.sh
+automake-1.13.4/t/parallel-tests-concurrency-2.sh
+automake-1.13.4/t/auxdir-misplaced.sh
+automake-1.13.4/t/ar-lib7.sh
+automake-1.13.4/t/py-compile-usage.sh
+automake-1.13.4/t/amassign.sh
+automake-1.13.4/t/yflags.sh
+automake-1.13.4/t/output-order.sh
+automake-1.13.4/t/output11.sh
+automake-1.13.4/t/dist-missing-m4.sh
+automake-1.13.4/t/dollarvar.sh
+automake-1.13.4/t/remake-subdir-only.sh
+automake-1.13.4/t/aclocal-no-force.sh
+automake-1.13.4/t/output4.sh
+automake-1.13.4/t/subobj11a.sh
+automake-1.13.4/t/extra.sh
+automake-1.13.4/t/suffix3.tap
+automake-1.13.4/t/check11.sh
+automake-1.13.4/t/test-driver-fail.sh
+automake-1.13.4/t/test-driver-create-log-dir.sh
+automake-1.13.4/t/parallel-tests-empty-testlogs.sh
+automake-1.13.4/t/mmodely.sh
+automake-1.13.4/t/suffix6b.sh
+automake-1.13.4/t/tags-pr12372.sh
+automake-1.13.4/t/canon4.sh
+automake-1.13.4/t/tap-msg0-misc.sh
+automake-1.13.4/t/tap-merge-stdout-stderr-w.sh
+automake-1.13.4/t/java-no-duplicate.sh
+automake-1.13.4/t/tap-bailout-suppress-later-diagnostic.sh
+automake-1.13.4/t/remake-aclocal-version-mismatch.sh
+automake-1.13.4/t/test-driver-custom-xfail-tests.sh
+automake-1.13.4/t/tap-planskip-unplanned.sh
+automake-1.13.4/t/distlinks.sh
+automake-1.13.4/t/output5.sh
+automake-1.13.4/t/remake-deleted-am.sh
+automake-1.13.4/t/alpha2.sh
+automake-1.13.4/t/tap-no-spurious-numbers.sh
+automake-1.13.4/t/java-clean.sh
+automake-1.13.4/t/depcomp-dashmstdout.tap
+automake-1.13.4/t/am-prog-cc-stdc.sh
+automake-1.13.4/t/badline.sh
+automake-1.13.4/t/test-driver-is-distributed.sh
+automake-1.13.4/t/strip3.sh
+automake-1.13.4/t/tap-planskip.sh
+automake-1.13.4/t/java-compile-run-flat.sh
+automake-1.13.4/t/yflags2.sh
+automake-1.13.4/t/comment.sh
+automake-1.13.4/t/ltorder.sh
+automake-1.13.4/t/compile2.sh
+automake-1.13.4/t/backslash-issues.sh
+automake-1.13.4/t/oldvars.sh
+automake-1.13.4/t/built-sources-check.sh
+automake-1.13.4/t/pr2.sh
+automake-1.13.4/t/gettext2.sh
+automake-1.13.4/t/ar-lib5b.sh
+automake-1.13.4/t/colon6.sh
+automake-1.13.4/t/yacc-subdir.sh
+automake-1.13.4/t/txinfo-absolute-srcdir-pr408.sh
+automake-1.13.4/t/comment6.sh
+automake-1.13.4/t/check8.sh
+automake-1.13.4/t/pr287.sh
+automake-1.13.4/t/tap-todo-skip-together-w.sh
+automake-1.13.4/t/txinfo-vtexi2.sh
+automake-1.13.4/t/aclocal-deps-subdir.sh
+automake-1.13.4/t/suffix5.sh
+automake-1.13.4/t/instfail.sh
+automake-1.13.4/t/nostdinc.sh
+automake-1.13.4/t/amhello-binpkg.sh
+automake-1.13.4/t/primary-prefix-valid-couples.sh
+automake-1.13.4/t/cond7.sh
+automake-1.13.4/t/CheckListOfTests.am
+automake-1.13.4/t/tap-escape-directive.sh
+automake-1.13.4/t/test-driver-custom.sh
+automake-1.13.4/t/yacc-line.sh
+automake-1.13.4/t/python.sh
+automake-1.13.4/t/gcj6.sh
+automake-1.13.4/t/built-sources-cond.sh
+automake-1.13.4/t/warnings-win-over-strictness.sh
+automake-1.13.4/t/depcomp-makedepend.tap
+automake-1.13.4/t/warnings-unknown.sh
+automake-1.13.4/t/instmany.sh
+automake-1.13.4/t/tap-msg0-directive.sh
+automake-1.13.4/t/posixsubst-ldadd.sh
+automake-1.13.4/t/tap-todo-skip.sh
+automake-1.13.4/t/ansi2knr-no-more.sh
+automake-1.13.4/t/color-tests.sh
+automake-1.13.4/t/tap-signal-w.tap
+automake-1.13.4/t/tap-no-merge-stdout-stderr-w.sh
+automake-1.13.4/t/repeated-options.sh
+automake-1.13.4/t/hdr-vars-defined-once.sh
+automake-1.13.4/t/man7.sh
+automake-1.13.4/t/tap-recheck-logs-w.sh
+automake-1.13.4/t/aclocal-pr450.sh
+automake-1.13.4/t/tap-fancy2-w.sh
+automake-1.13.4/t/libtool9.sh
+automake-1.13.4/t/instmany-mans.sh
+automake-1.13.4/t/configure.sh
+automake-1.13.4/t/yaccvpath.sh
+automake-1.13.4/t/libobj15a.sh
+automake-1.13.4/t/test-driver-acsubst.sh
+automake-1.13.4/t/yacc-auxdir.sh
+automake-1.13.4/t/parallel-tests-suffix.sh
+automake-1.13.4/t/distcom5.sh
+automake-1.13.4/t/objext-pr10128.sh
+automake-1.13.4/t/dist-readonly.sh
+automake-1.13.4/t/tap-empty-diagnostic-w.sh
+automake-1.13.4/t/compile_f_c_cxx.sh
+automake-1.13.4/t/silent-yacc-headers.sh
+automake-1.13.4/t/distcheck-outdated-m4.sh
+automake-1.13.4/t/installdir.sh
+automake-1.13.4/t/lexvpath.sh
+automake-1.13.4/t/noinstdir.sh
+automake-1.13.4/t/test-extensions.sh
+automake-1.13.4/t/output6.sh
+automake-1.13.4/t/canon6.sh
+automake-1.13.4/t/help-lispdir.sh
+automake-1.13.4/t/recurs-user.sh
+automake-1.13.4/t/remake-gnulib-add-acsubst.sh
+automake-1.13.4/t/lex-libobj.sh
+automake-1.13.4/t/longlin2.sh
+automake-1.13.4/t/spell.sh
+automake-1.13.4/t/txinfo28.sh
+automake-1.13.4/t/remake-renamed-m4-macro.sh
+automake-1.13.4/t/werror4.sh
+automake-1.13.4/t/lex-lib.sh
+automake-1.13.4/t/parallel-tests-dry-run-1.sh
+automake-1.13.4/t/subst5.sh
+automake-1.13.4/t/dist-auxfile.sh
+automake-1.13.4/t/remake-moved-m4-file.sh
+automake-1.13.4/t/link_dist.sh
+automake-1.13.4/t/confdeps.sh
+automake-1.13.4/t/posixsubst-extradist.sh
+automake-1.13.4/t/depcomp.sh
+automake-1.13.4/t/deleted-am.sh
+automake-1.13.4/t/ltcond.sh
+automake-1.13.4/t/compile5.sh
+automake-1.13.4/t/distcheck-hook2.sh
+automake-1.13.4/t/tap-numbers-leading-zero-w.sh
+automake-1.13.4/t/parallel-tests-recheck-depends-on-all.sh
+automake-1.13.4/t/yacc-clean-cxx.sh
+automake-1.13.4/t/check-subst-prog.sh
+automake-1.13.4/t/amopts-variable-expansion.sh
+automake-1.13.4/t/yacc-dist-nobuild.sh
+automake-1.13.4/t/remake-am-pr10111.sh
+automake-1.13.4/t/suffix-custom-subobj.sh
+automake-1.13.4/t/lex-depend-cxx.sh
+automake-1.13.4/t/exdir3.sh
+automake-1.13.4/t/tap-passthrough.sh
+automake-1.13.4/t/tap-missing-plan-and-bad-exit-w.sh
+automake-1.13.4/t/condman2.sh
+automake-1.13.4/t/parallel-tests-log-override-recheck.sh
+automake-1.13.4/t/txinfo-no-repeated-targets.sh
+automake-1.13.4/t/vartar.sh
+automake-1.13.4/t/distcom2.sh
+automake-1.13.4/t/txinfo24.sh
+automake-1.13.4/t/autodist-subdir.sh
+automake-1.13.4/t/check6-w.sh
+automake-1.13.4/t/objcxx-deps.sh
+automake-1.13.4/t/instsh2.sh
+automake-1.13.4/t/pr307.sh
+automake-1.13.4/t/subdir-subsub.sh
+automake-1.13.4/t/primary2.sh
+automake-1.13.4/t/py-compile-destdir.sh
+automake-1.13.4/t/ltdeps.sh
+automake-1.13.4/t/built-sources-fork-bomb.sh
+automake-1.13.4/t/deleted-m4.sh
+automake-1.13.4/t/suffix6.sh
+automake-1.13.4/t/python10.sh
+automake-1.13.4/t/get-sysconf.sh
+automake-1.13.4/t/nobase-nodist.sh
+automake-1.13.4/t/posixsubst-scripts.sh
+automake-1.13.4/t/exeext4.sh
+automake-1.13.4/t/distname.sh
+automake-1.13.4/t/subst.sh
+automake-1.13.4/t/aclocal.sh
+automake-1.13.4/t/recurs-user2.sh
+automake-1.13.4/t/pluseq3.sh
+automake-1.13.4/t/forcemiss2.sh
+automake-1.13.4/t/mdate3.sh
+automake-1.13.4/t/py-compile-basedir.sh
+automake-1.13.4/t/exeext4-w.sh
+automake-1.13.4/t/remake-all-1.sh
+automake-1.13.4/t/tap-msg0-result.sh
+automake-1.13.4/t/auxdir6.sh
+automake-1.13.4/t/lex-nodist.sh
+automake-1.13.4/t/autohdr.sh
+automake-1.13.4/t/conff2.sh
+automake-1.13.4/t/pluseq7.sh
+automake-1.13.4/t/posixsubst-sources.sh
+automake-1.13.4/t/test-trs-recover2.sh
+automake-1.13.4/t/pluseq10.sh
+automake-1.13.4/t/vala-vpath.sh
+automake-1.13.4/t/subobj2.sh
+automake-1.13.4/t/nobase-python.sh
+automake-1.13.4/t/suffix11.tap
+automake-1.13.4/t/yacc-mix-c-cxx.sh
+automake-1.13.4/t/condd.sh
+automake-1.13.4/t/silent-yacc.sh
+automake-1.13.4/t/tap-planskip-bailout.sh
+automake-1.13.4/t/am-default-source-ext.sh
+automake-1.13.4/t/tap-msg0-planskip-w.sh
+automake-1.13.4/t/transform2.sh
+automake-1.13.4/t/test-trs-basic.sh
+automake-1.13.4/t/parallel-tests-no-color-in-log.sh
+automake-1.13.4/t/instfail-libtool.sh
+automake-1.13.4/t/makej2.sh
+automake-1.13.4/t/cond26.sh
+automake-1.13.4/t/check7.sh
+automake-1.13.4/t/recurs-user-override.sh
+automake-1.13.4/t/check12.sh
+automake-1.13.4/t/tap-doc-w.sh
+automake-1.13.4/t/cond34.sh
+automake-1.13.4/t/cxxcpp.sh
+automake-1.13.4/t/ax/
+automake-1.13.4/t/ax/tap-setup.sh
+automake-1.13.4/t/ax/extract-testsuite-summary.pl
+automake-1.13.4/t/ax/is
+automake-1.13.4/t/ax/deltree.pl
+automake-1.13.4/t/ax/test-lib.sh
+automake-1.13.4/t/ax/testsuite-summary-checks.sh
+automake-1.13.4/t/ax/tap-summary-aux.sh
+automake-1.13.4/t/ax/distcheck-hook-m4.am
+automake-1.13.4/t/ax/shell-no-trail-bslash.in
+automake-1.13.4/t/ax/is_newest
+automake-1.13.4/t/ax/test-defs.in
+automake-1.13.4/t/ax/test-init.sh
+automake-1.13.4/t/ax/trivial-test-driver
+automake-1.13.4/t/ax/depcomp.sh
+automake-1.13.4/t/ax/am-test-lib.sh
+automake-1.13.4/t/ax/tap-functions.sh
+automake-1.13.4/t/comment5.sh
+automake-1.13.4/t/cxx.sh
+automake-1.13.4/t/listval.sh
+automake-1.13.4/t/parallel-tests-empty.sh
+automake-1.13.4/t/check-exported-srcdir.sh
+automake-1.13.4/t/java-compile-install.sh
+automake-1.13.4/t/tap-color-w.sh
+automake-1.13.4/t/tap-realtime.sh
+automake-1.13.4/t/var-recurs2.sh
+automake-1.13.4/t/automake-cmdline.tap
+automake-1.13.4/t/libobj17.sh
+automake-1.13.4/t/gcj3.sh
+automake-1.13.4/t/help.sh
+automake-1.13.4/t/tests-environment-backcompat.sh
+automake-1.13.4/t/subobj4.sh
+automake-1.13.4/t/ltconv.sh
+automake-1.13.4/t/gettext.sh
+automake-1.13.4/t/instdat.sh
+automake-1.13.4/t/parallel-tests-recheck-pr11791.sh
+automake-1.13.4/t/license2.sh
+automake-1.13.4/t/confh8.sh
+automake-1.13.4/t/help-depend.sh
+automake-1.13.4/t/lisp2.sh
+automake-1.13.4/t/testsuite-summary-reference-log.sh
+automake-1.13.4/t/distcheck-configure-flags-subpkg.sh
+automake-1.13.4/t/link_fccxx.sh
+automake-1.13.4/t/amopts-location.sh
+automake-1.13.4/t/auxdir-unportable.tap
+automake-1.13.4/t/tap-empty-w.sh
+automake-1.13.4/t/pr224.sh
+automake-1.13.4/t/libobj16b.sh
+automake-1.13.4/t/asm2.sh
+automake-1.13.4/t/nodef2.sh
+automake-1.13.4/t/auxdir-nonexistent.sh
+automake-1.13.4/t/tap-log-w.sh
+automake-1.13.4/t/vala-parallel.sh
+automake-1.13.4/t/primary-prefix-invalid-couples.tap
+automake-1.13.4/t/confincl.sh
+automake-1.13.4/t/check-w.sh
+automake-1.13.4/t/tap-msg0-misc-w.sh
+automake-1.13.4/t/extra-programs-empty.sh
+automake-1.13.4/t/remake-macrodir.sh
+automake-1.13.4/t/flibs.sh
+automake-1.13.4/t/vartypos.sh
+automake-1.13.4/t/insh2.sh
+automake-1.13.4/t/dup2.sh
+automake-1.13.4/t/wrap/
+automake-1.13.4/t/wrap/aclocal.in
+automake-1.13.4/t/wrap/automake.in
+automake-1.13.4/t/help-init.sh
+automake-1.13.4/t/order.sh
+automake-1.13.4/t/tap-planskip-and-logging-w.sh
+automake-1.13.4/t/txinfo-dvi-recurs.sh
+automake-1.13.4/t/tap-planskip-w.sh
+automake-1.13.4/t/subdir-with-slash.sh
+automake-1.13.4/t/tap-result-comment-w.sh
+automake-1.13.4/t/ext2.sh
+automake-1.13.4/t/lex-clean.sh
+automake-1.13.4/t/dejagnu2.sh
+automake-1.13.4/t/mkinst3.sh
+automake-1.13.4/t/version7.sh
+automake-1.13.4/t/makefile-deps.sh
+automake-1.13.4/t/test-trs-recover.sh
+automake-1.13.4/t/whoami.sh
+automake-1.13.4/t/maken3-w.sh
+automake-1.13.4/t/libobj4.sh
+automake-1.13.4/t/upc2.sh
+automake-1.13.4/t/self-check-explicit-skips.sh
+automake-1.13.4/t/depcomp8a.sh
+automake-1.13.4/t/doc-parsing-buglets-tabs.sh
+automake-1.13.4/t/specflg9.sh
+automake-1.13.4/t/check12-w.sh
+automake-1.13.4/t/ltinit.sh
+automake-1.13.4/t/tap-no-disable-hard-error.sh
+automake-1.13.4/t/tap-plan-whitespace-w.sh
+automake-1.13.4/t/subobj-clean-pr10697.sh
+automake-1.13.4/t/color-tests-w.sh
+automake-1.13.4/t/subdir-add-pr46.sh
+automake-1.13.4/t/autohdrdry.sh
+automake-1.13.4/t/make-dryrun.tap
+automake-1.13.4/t/cond8.sh
+automake-1.13.4/t/recurs-user-no-subdirs.sh
+automake-1.13.4/t/gcj5.sh
+automake-1.13.4/t/cond9.sh
+automake-1.13.4/t/extra-dist-wildcards.sh
+automake-1.13.4/t/testsuite-summary-count.sh
+automake-1.13.4/t/specflg8.sh
+automake-1.13.4/t/spell2.sh
+automake-1.13.4/t/backcompat.sh
+automake-1.13.4/t/parallel-tests-generated-and-distributed.sh
+automake-1.13.4/t/missing-auxfile-stops-makefiles-creation.sh
+automake-1.13.4/t/depacl2.sh
+automake-1.13.4/t/built-sources-subdir.sh
+automake-1.13.4/t/backcompat2.sh
+automake-1.13.4/t/txinfo-setfilename-suffix-strip.sh
+automake-1.13.4/t/gnuwarn.sh
+automake-1.13.4/t/exeext2.sh
+automake-1.13.4/t/remake-deeply-nested.sh
+automake-1.13.4/t/init.sh
+automake-1.13.4/t/libobj18.sh
+automake-1.13.4/t/cond28.sh
+automake-1.13.4/t/lisp3.sh
+automake-1.13.4/t/yflags-force-override.sh
+automake-1.13.4/t/instmany-python.sh
+automake-1.13.4/t/pluseq8.sh
+automake-1.13.4/t/tap-planskip-whitespace-w.sh
+automake-1.13.4/t/check8-w.sh
+automake-1.13.4/t/license.sh
+automake-1.13.4/t/instfail-info.sh
+automake-1.13.4/t/pluseq.sh
+automake-1.13.4/t/check4.sh
+automake-1.13.4/t/conffile-leading-dot.sh
+automake-1.13.4/t/built-sources.sh
+automake-1.13.4/t/conflnk4.sh
+automake-1.13.4/t/comment4.sh
+automake-1.13.4/t/cond10.sh
+automake-1.13.4/t/parallel-tests-console-output.sh
+automake-1.13.4/t/javaprim.sh
+automake-1.13.4/t/aclocal-path-install.sh
+automake-1.13.4/t/cond27.sh
+automake-1.13.4/t/tap-xfail-tests.sh
+automake-1.13.4/t/parallel-tests-no-spurious-summary.sh
+automake-1.13.4/t/depend.sh
+automake-1.13.4/t/tar-ustar-id-too-high.sh
+automake-1.13.4/t/subobj9.sh
+automake-1.13.4/t/tap-planskip-later-errors.sh
+automake-1.13.4/t/cond44.sh
+automake-1.13.4/t/libexec.sh
+automake-1.13.4/t/vala-mix.sh
+automake-1.13.4/t/link_f90_only.sh
+automake-1.13.4/t/parallel-tests-once.sh
+automake-1.13.4/t/subdir-env-interference.sh
+automake-1.13.4/t/acsubst.sh
+automake-1.13.4/t/warnings-precedence.sh
+automake-1.13.4/t/depcomp-lt-makedepend.tap
+automake-1.13.4/t/gcj.sh
+automake-1.13.4/t/depcomp-disabled.tap
+automake-1.13.4/t/lex-subobj-nodep.sh
+automake-1.13.4/t/cond.sh
+automake-1.13.4/t/mkinst3-w.sh
+automake-1.13.4/t/check7-w.sh
+automake-1.13.4/t/posixsubst-tests-w.sh
+automake-1.13.4/t/depdist.sh
+automake-1.13.4/t/strip2.sh
+automake-1.13.4/t/nodist3.sh
+automake-1.13.4/t/interp2.sh
+automake-1.13.4/t/subst4.sh
+automake-1.13.4/t/autodist-acconfig-no-subdir.sh
+automake-1.13.4/t/m4-inclusion.sh
+automake-1.13.4/t/ar-lib4.sh
+automake-1.13.4/t/specflg6.sh
+automake-1.13.4/t/var-recurs.sh
+automake-1.13.4/t/comment-block.sh
+automake-1.13.4/t/else.sh
+automake-1.13.4/t/libobj3.sh
+automake-1.13.4/t/space.sh
+automake-1.13.4/t/silent-c.sh
+automake-1.13.4/t/instdir-prog.sh
+automake-1.13.4/t/cxx-lt-demo.sh
+automake-1.13.4/t/silent-texi.sh
+automake-1.13.4/t/depcomp-cpp.tap
+automake-1.13.4/t/auxdir7.sh
+automake-1.13.4/t/parallel-tests-log-compiler-1.sh
+automake-1.13.4/t/aclocal-dirlist.sh
+automake-1.13.4/t/py-compile-basic.sh
+automake-1.13.4/t/tap-bailout-and-logging-w.sh
+automake-1.13.4/t/makej.sh
+automake-1.13.4/t/testsuite-summary-count-many.sh
+automake-1.13.4/t/auxdir-autodetect.sh
+automake-1.13.4/t/autodist-no-duplicate.sh
+automake-1.13.4/t/aclocal-deps.sh
+automake-1.13.4/t/tap-driver-stderr.sh
+automake-1.13.4/t/distcom3.sh
+automake-1.13.4/t/instsh3.sh
+automake-1.13.4/t/posixsubst-programs.sh
+automake-1.13.4/t/canon2.sh
+automake-1.13.4/t/condinc.sh
+automake-1.13.4/t/aclocal-macrodirs.tap
+automake-1.13.4/t/tap-planskip-badexit.sh
+automake-1.13.4/t/dejagnu3.sh
+automake-1.13.4/t/werror3.sh
+automake-1.13.4/t/test-missing2.sh
+automake-1.13.4/t/tap-bailout-leading-space.sh
+automake-1.13.4/t/built-sources-install.sh
+automake-1.13.4/t/self-check-is-blocked-signal.tap
+automake-1.13.4/t/tap-deps-w.sh
+automake-1.13.4/t/no-extra-makefile-code.sh
+automake-1.13.4/t/library.sh
+automake-1.13.4/t/longline.sh
+automake-1.13.4/t/version8.sh
+automake-1.13.4/t/aclocal-no-unused-required.sh
+automake-1.13.4/t/test-driver-custom-no-extra-driver.sh
+automake-1.13.4/t/tap-numeric-description.sh
+automake-1.13.4/t/remake-subdir-from-subdir.sh
+automake-1.13.4/t/output.sh
+automake-1.13.4/t/canon.sh
+automake-1.13.4/t/tap-unplanned.sh
+automake-1.13.4/t/tap-bad-prog.tap
+automake-1.13.4/t/instfail-java.sh
+automake-1.13.4/t/lex-noyywrap.sh
+automake-1.13.4/t/lzma.sh
+automake-1.13.4/t/copy.sh
+automake-1.13.4/t/ltcond2.sh
+automake-1.13.4/syntax-checks.mk
+automake-1.13.4/GNUmakefile
+automake-1.13.4/Makefile.in
+automake-1.13.4/lib/
+automake-1.13.4/lib/ar-lib
+automake-1.13.4/lib/update-copyright
+automake-1.13.4/lib/mdate-sh
+automake-1.13.4/lib/gendocs.sh
+automake-1.13.4/lib/gendocs_template
+automake-1.13.4/lib/test-driver
+automake-1.13.4/lib/config.sub
+automake-1.13.4/lib/config.guess
+automake-1.13.4/lib/gnupload
+automake-1.13.4/lib/depcomp
+automake-1.13.4/lib/compile
+automake-1.13.4/lib/INSTALL
+automake-1.13.4/lib/am/
+automake-1.13.4/lib/am/install.am
+automake-1.13.4/lib/am/check2.am
+automake-1.13.4/lib/am/libtool.am
+automake-1.13.4/lib/am/inst-vars.am
+automake-1.13.4/lib/am/remake-hdr.am
+automake-1.13.4/lib/am/libs.am
+automake-1.13.4/lib/am/clean-hdr.am
+automake-1.13.4/lib/am/ltlibrary.am
+automake-1.13.4/lib/am/program.am
+automake-1.13.4/lib/am/mans.am
+automake-1.13.4/lib/am/distdir.am
+automake-1.13.4/lib/am/tags.am
+automake-1.13.4/lib/am/compile.am
+automake-1.13.4/lib/am/library.am
+automake-1.13.4/lib/am/vala.am
+automake-1.13.4/lib/am/header-vars.am
+automake-1.13.4/lib/am/texi-vers.am
+automake-1.13.4/lib/am/scripts.am
+automake-1.13.4/lib/am/java.am
+automake-1.13.4/lib/am/data.am
+automake-1.13.4/lib/am/mans-vars.am
+automake-1.13.4/lib/am/lex.am
+automake-1.13.4/lib/am/depend2.am
+automake-1.13.4/lib/am/dejagnu.am
+automake-1.13.4/lib/am/yacc.am
+automake-1.13.4/lib/am/subdirs.am
+automake-1.13.4/lib/am/ltlib.am
+automake-1.13.4/lib/am/depend.am
+automake-1.13.4/lib/am/python.am
+automake-1.13.4/lib/am/texinfos.am
+automake-1.13.4/lib/am/footer.am
+automake-1.13.4/lib/am/lisp.am
+automake-1.13.4/lib/am/header.am
+automake-1.13.4/lib/am/texibuild.am
+automake-1.13.4/lib/am/clean.am
+automake-1.13.4/lib/am/check.am
+automake-1.13.4/lib/am/progs.am
+automake-1.13.4/lib/am/configure.am
+automake-1.13.4/lib/am/lang-compile.am
+automake-1.13.4/lib/install-sh
+automake-1.13.4/lib/tap-driver.sh
+automake-1.13.4/lib/COPYING
+automake-1.13.4/lib/missing
+automake-1.13.4/lib/Automake/
+automake-1.13.4/lib/Automake/Condition.pm
+automake-1.13.4/lib/Automake/Variable.pm
+automake-1.13.4/lib/Automake/Item.pm
+automake-1.13.4/lib/Automake/Getopt.pm
+automake-1.13.4/lib/Automake/RuleDef.pm
+automake-1.13.4/lib/Automake/ItemDef.pm
+automake-1.13.4/lib/Automake/Config.in
+automake-1.13.4/lib/Automake/Channels.pm
+automake-1.13.4/lib/Automake/VarDef.pm
+automake-1.13.4/lib/Automake/ChannelDefs.pm
+automake-1.13.4/lib/Automake/Rule.pm
+automake-1.13.4/lib/Automake/FileUtils.pm
+automake-1.13.4/lib/Automake/DisjConditions.pm
+automake-1.13.4/lib/Automake/Options.pm
+automake-1.13.4/lib/Automake/XFile.pm
+automake-1.13.4/lib/Automake/Configure_ac.pm
+automake-1.13.4/lib/Automake/Wrap.pm
+automake-1.13.4/lib/Automake/Location.pm
+automake-1.13.4/lib/Automake/General.pm
+automake-1.13.4/lib/Automake/Version.pm
+automake-1.13.4/lib/mkinstalldirs
+automake-1.13.4/lib/ylwrap
+automake-1.13.4/lib/texinfo.tex
+automake-1.13.4/lib/tap-driver.pl
+automake-1.13.4/lib/py-compile
+automake-1.13.4/lib/gitlog-to-changelog
+automake-1.13.4/aclocal.m4
+automake-1.13.4/Makefile.am
+checking whether make supports nested variables... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... lib/install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether ln -s works... yes
+checking for perl... /usr/bin/perl
+checking whether /usr/bin/perl supports ithreads... yes
+checking for tex... no
+checking for yacc... yacc
+checking for lex... lex
+checking whether autoconf is installed... yes
+checking whether autoconf works... yes
+checking whether autoconf is recent enough... yes
+checking whether ln works... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+configure: will now look for a sturdy POSIX shell, for our testsuite
+checking for sh... /bin/sh
+checking for sh5... no
+checking for dash... no
+checking for ash... /bin/ash
+checking for bash... /bin/bash
+checking for zsh... no
+checking for ksh... no
+checking for pdksh... no
+checking whether /bin/sh supports $(cmd)... yes
+checking whether /bin/sh supports $((expr))... yes
+checking whether /bin/sh supports ${#var}... yes
+checking whether /bin/sh supports ${var#glob} and ${var%glob}... yes
+checking whether /bin/sh preserves exit traps with "set -e"... yes
+checking whether /bin/sh can define exit traps in a shell function... yes
+checking whether /bin/sh corrupts stderr with "set -x"... no
+checking whether /bin/sh can return early from "dot-sourced" files... yes
+checking whether /bin/sh supports alias named like shell builtins... yes
+checking whether /bin/sh supports "test -e"... yes
+configure: shell /bin/sh is good enough, stop looking
+configure: will use /bin/sh as the testsuite shell
+configure: will now look for generic compilers
+checking for cc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking for aCC... no
+checking for CC... no
+checking for FCC... no
+checking for KCC... no
+checking for RCC... no
+checking for xlC_r... no
+checking for xlC... no
+checking for c++... c++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether c++ accepts -g... yes
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for g95... no
+checking for gfortran... no
+checking whether the Fortran compiler works... no
+configure: WARNING: Fortran compiler cannot create executables
+configure: tests requiring the Fortran compiler will be skipped
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for g77... no
+checking for gfortran... no
+checking whether the Fortran 77 compiler works... no
+configure: WARNING: Fortran 77 compiler cannot create executables
+configure: tests requiring the Fortran 77 compiler will be skipped
+configure: will now look for GNU compilers
+configure: cc is already a GNU C compiler
+configure: c++ is already a GNU C++ compiler
+checking for gfortran... no
+checking for g77... no
+checking for gfortran... no
+checking for gcj... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating t/wrap/aclocal-1.13
+config.status: creating t/wrap/automake-1.13
+  GEN      aclocal
+  GEN      automake
+  GEN      t/ax/shell-no-trail-bslash
+  GEN      runtest
+  GEN      doc/aclocal.1
+  GEN      doc/automake.1
+  GEN      lib/Automake/Config.pm
+  GEN      t/ax/test-defs.sh
+  GEN      doc/aclocal-1.13.1
+  GEN      doc/automake-1.13.1
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-1.13.4'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/bin'
+ /usr/bin/ginstall -c automake aclocal '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/bin'
+make  install-exec-hook
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-1.13.4'
+ ln '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/bin/automake' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/bin/automake-1.13'
+ ln '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/bin/aclocal' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/bin/aclocal-1.13'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-1.13.4'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/am'
+ /usr/bin/ginstall -c -m 644 lib/am/check.am lib/am/check2.am lib/am/clean-hdr.am lib/am/clean.am lib/am/compile.am lib/am/configure.am lib/am/data.am lib/am/dejagnu.am lib/am/depend.am lib/am/depend2.am lib/am/distdir.am lib/am/footer.am lib/am/header-vars.am lib/am/header.am lib/am/install.am lib/am/inst-vars.am lib/am/java.am lib/am/lang-compile.am lib/am/lex.am lib/am/library.am lib/am/libs.am lib/am/libtool.am lib/am/lisp.am lib/am/ltlib.am lib/am/ltlibrary.am lib/am/mans-vars.am lib/am/mans.am lib/am/program.am lib/am/progs.am lib/am/python.am lib/am/remake-hdr.am lib/am/scripts.am lib/am/subdirs.am lib/am/tags.am lib/am/texi-vers.am lib/am/texibuild.am lib/am/texinfos.am lib/am/vala.am lib/am/yacc.am '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/am'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/aclocal-1.13'
+ /usr/bin/ginstall -c -m 644 m4/amversion.m4 m4/ar-lib.m4 m4/as.m4 m4/auxdir.m4 m4/cond.m4 m4/cond-if.m4 m4/depend.m4 m4/depout.m4 m4/dmalloc.m4 m4/extra-recurs.m4 m4/gcj.m4 m4/init.m4 m4/install-sh.m4 m4/lead-dot.m4 m4/lex.m4 m4/lispdir.m4 m4/maintainer.m4 m4/make.m4 m4/minuso.m4 m4/missing.m4 m4/mkdirp.m4 m4/obsolete.m4 m4/options.m4 m4/python.m4 m4/runlog.m4 m4/sanity.m4 m4/silent.m4 m4/strip.m4 m4/substnot.m4 m4/tar.m4 m4/upc.m4 m4/vala.m4 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/aclocal-1.13'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/aclocal-1.13/internal'
+ /usr/bin/ginstall -c -m 644 m4/internal/ac-config-macro-dirs.m4 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/aclocal-1.13/internal'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/doc/automake'
+ /usr/bin/ginstall -c -m 644 ./doc/amhello-1.0.tar.gz '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/doc/automake'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/Automake'
+ /usr/bin/ginstall -c -m 644 lib/Automake/ChannelDefs.pm lib/Automake/Channels.pm lib/Automake/Condition.pm lib/Automake/Configure_ac.pm lib/Automake/DisjConditions.pm lib/Automake/FileUtils.pm lib/Automake/General.pm lib/Automake/Getopt.pm lib/Automake/Item.pm lib/Automake/ItemDef.pm lib/Automake/Location.pm lib/Automake/Options.pm lib/Automake/Rule.pm lib/Automake/RuleDef.pm lib/Automake/Variable.pm lib/Automake/VarDef.pm lib/Automake/Version.pm lib/Automake/XFile.pm lib/Automake/Wrap.pm '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/Automake'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13'
+ /usr/bin/ginstall -c -m 644 lib/COPYING lib/INSTALL lib/texinfo.tex '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13'
+ /usr/bin/ginstall -c -m 644 lib/config.guess lib/config.sub lib/install-sh lib/mdate-sh lib/missing lib/mkinstalldirs lib/ylwrap lib/depcomp lib/compile lib/py-compile lib/ar-lib lib/test-driver lib/tap-driver.sh lib/tap-driver.pl '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/aclocal'
+ /usr/bin/ginstall -c -m 644 m4/acdir/README '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/aclocal'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/info'
+ /usr/bin/ginstall -c -m 644 ./doc/automake.info ./doc/automake.info-1 ./doc/automake.info-2 ./doc/automake-history.info '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/info'
+ install-info --info-dir='/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/info' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/info/automake.info'
+ install-info --info-dir='/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/info' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/info/automake-history.info'
+install-info: warning: no info dir entry in `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/info/automake-history.info'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 doc/aclocal.1 doc/automake.1 doc/aclocal-1.13.1 doc/automake-1.13.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/man/man1'
+ lib/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/Automake'
+ /usr/bin/ginstall -c -m 644 lib/Automake/Config.pm '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/Automake'
+make  install-data-hook
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-1.13.4'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/config.guess'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/config.sub'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/install-sh'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/mdate-sh'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/missing'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/mkinstalldirs'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/ylwrap'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/depcomp'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/compile'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/py-compile'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/ar-lib'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/test-driver'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/tap-driver.sh'
+ chmod +x '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-install/usr/share/automake-1.13/tap-driver.pl'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-1.13.4'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake/automake-1.13.4'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/automake
+Found 'i686'
+Processing ../automake-install/usr/bin/aclocal
+Processing ../automake-install/usr/bin/aclocal-1.13
+Processing ../automake-install/usr/bin/automake
+Processing ../automake-install/usr/bin/automake-1.13
+Processing ../automake-install/usr/share/aclocal-1.13/amversion.m4
+Processing ../automake-install/usr/share/aclocal-1.13/ar-lib.m4
+Processing ../automake-install/usr/share/aclocal-1.13/as.m4
+Processing ../automake-install/usr/share/aclocal-1.13/auxdir.m4
+Processing ../automake-install/usr/share/aclocal-1.13/cond-if.m4
+Processing ../automake-install/usr/share/aclocal-1.13/cond.m4
+Processing ../automake-install/usr/share/aclocal-1.13/depend.m4
+Processing ../automake-install/usr/share/aclocal-1.13/depout.m4
+Processing ../automake-install/usr/share/aclocal-1.13/dmalloc.m4
+Processing ../automake-install/usr/share/aclocal-1.13/extra-recurs.m4
+Processing ../automake-install/usr/share/aclocal-1.13/gcj.m4
+Processing ../automake-install/usr/share/aclocal-1.13/init.m4
+Processing ../automake-install/usr/share/aclocal-1.13/install-sh.m4
+Processing ../automake-install/usr/share/aclocal-1.13/internal/ac-config-macro-dirs.m4
+Processing ../automake-install/usr/share/aclocal-1.13/lead-dot.m4
+Processing ../automake-install/usr/share/aclocal-1.13/lex.m4
+Processing ../automake-install/usr/share/aclocal-1.13/lispdir.m4
+Processing ../automake-install/usr/share/aclocal-1.13/maintainer.m4
+Processing ../automake-install/usr/share/aclocal-1.13/make.m4
+Processing ../automake-install/usr/share/aclocal-1.13/minuso.m4
+Processing ../automake-install/usr/share/aclocal-1.13/missing.m4
+Processing ../automake-install/usr/share/aclocal-1.13/mkdirp.m4
+Processing ../automake-install/usr/share/aclocal-1.13/obsolete.m4
+Processing ../automake-install/usr/share/aclocal-1.13/options.m4
+Processing ../automake-install/usr/share/aclocal-1.13/python.m4
+Processing ../automake-install/usr/share/aclocal-1.13/runlog.m4
+Processing ../automake-install/usr/share/aclocal-1.13/sanity.m4
+Processing ../automake-install/usr/share/aclocal-1.13/silent.m4
+Processing ../automake-install/usr/share/aclocal-1.13/strip.m4
+Processing ../automake-install/usr/share/aclocal-1.13/substnot.m4
+Processing ../automake-install/usr/share/aclocal-1.13/tar.m4
+Processing ../automake-install/usr/share/aclocal-1.13/upc.m4
+Processing ../automake-install/usr/share/aclocal-1.13/vala.m4
+Processing ../automake-install/usr/share/aclocal/README
+Processing ../automake-install/usr/share/automake
+Processing ../automake-install/usr/share/automake-1.13/am/check2.am
+Processing ../automake-install/usr/share/automake-1.13/am/check.am
+Processing ../automake-install/usr/share/automake-1.13/am/clean.am
+Processing ../automake-install/usr/share/automake-1.13/am/clean-hdr.am
+Processing ../automake-install/usr/share/automake-1.13/am/compile.am
+Processing ../automake-install/usr/share/automake-1.13/am/configure.am
+Processing ../automake-install/usr/share/automake-1.13/am/data.am
+Processing ../automake-install/usr/share/automake-1.13/am/dejagnu.am
+Processing ../automake-install/usr/share/automake-1.13/am/depend2.am
+Processing ../automake-install/usr/share/automake-1.13/am/depend.am
+Processing ../automake-install/usr/share/automake-1.13/am/distdir.am
+Processing ../automake-install/usr/share/automake-1.13/am/footer.am
+Processing ../automake-install/usr/share/automake-1.13/am/header.am
+Processing ../automake-install/usr/share/automake-1.13/am/header-vars.am
+Processing ../automake-install/usr/share/automake-1.13/am/install.am
+Processing ../automake-install/usr/share/automake-1.13/am/inst-vars.am
+Processing ../automake-install/usr/share/automake-1.13/am/java.am
+Processing ../automake-install/usr/share/automake-1.13/am/lang-compile.am
+Processing ../automake-install/usr/share/automake-1.13/am/lex.am
+Processing ../automake-install/usr/share/automake-1.13/am/library.am
+Processing ../automake-install/usr/share/automake-1.13/am/libs.am
+Processing ../automake-install/usr/share/automake-1.13/am/libtool.am
+Processing ../automake-install/usr/share/automake-1.13/am/lisp.am
+Processing ../automake-install/usr/share/automake-1.13/am/ltlib.am
+Processing ../automake-install/usr/share/automake-1.13/am/ltlibrary.am
+Processing ../automake-install/usr/share/automake-1.13/am/mans.am
+Processing ../automake-install/usr/share/automake-1.13/am/mans-vars.am
+Processing ../automake-install/usr/share/automake-1.13/am/program.am
+Processing ../automake-install/usr/share/automake-1.13/am/progs.am
+Processing ../automake-install/usr/share/automake-1.13/am/python.am
+Processing ../automake-install/usr/share/automake-1.13/am/remake-hdr.am
+Processing ../automake-install/usr/share/automake-1.13/am/scripts.am
+Processing ../automake-install/usr/share/automake-1.13/am/subdirs.am
+Processing ../automake-install/usr/share/automake-1.13/am/tags.am
+Processing ../automake-install/usr/share/automake-1.13/am/texibuild.am
+Processing ../automake-install/usr/share/automake-1.13/am/texinfos.am
+Processing ../automake-install/usr/share/automake-1.13/am/texi-vers.am
+Processing ../automake-install/usr/share/automake-1.13/am/vala.am
+Processing ../automake-install/usr/share/automake-1.13/am/yacc.am
+Processing ../automake-install/usr/share/automake-1.13/ar-lib
+Processing ../automake-install/usr/share/automake-1.13/Automake/ChannelDefs.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Channels.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Condition.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Config.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Configure_ac.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/DisjConditions.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/FileUtils.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/General.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Getopt.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/ItemDef.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Item.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Location.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Options.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/RuleDef.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Rule.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/VarDef.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Variable.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Version.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/Wrap.pm
+Processing ../automake-install/usr/share/automake-1.13/Automake/XFile.pm
+Processing ../automake-install/usr/share/automake-1.13/compile
+Processing ../automake-install/usr/share/automake-1.13/config.guess
+Processing ../automake-install/usr/share/automake-1.13/config.sub
+Processing ../automake-install/usr/share/automake-1.13/COPYING
+Processing ../automake-install/usr/share/automake-1.13/depcomp
+Processing ../automake-install/usr/share/automake-1.13/INSTALL
+Processing ../automake-install/usr/share/automake-1.13/install-sh
+Processing ../automake-install/usr/share/automake-1.13/mdate-sh
+Processing ../automake-install/usr/share/automake-1.13/missing
+Processing ../automake-install/usr/share/automake-1.13/mkinstalldirs
+Processing ../automake-install/usr/share/automake-1.13/py-compile
+Processing ../automake-install/usr/share/automake-1.13/tap-driver.pl
+Processing ../automake-install/usr/share/automake-1.13/tap-driver.sh
+Processing ../automake-install/usr/share/automake-1.13/test-driver
+Processing ../automake-install/usr/share/automake-1.13/texinfo.tex
+Processing ../automake-install/usr/share/automake-1.13/ylwrap
+Processing ../automake-install/usr/share/doc/automake/amhello-1.0.tar.gz
+Processing ../automake-install/usr/share/info/automake-history.info
+Processing ../automake-install/usr/share/info/automake.info
+Processing ../automake-install/usr/share/info/automake.info-1
+Processing ../automake-install/usr/share/info/automake.info-2
+Processing ../automake-install/usr/share/info/dir
+Processing ../automake-install/usr/share/man/man1/aclocal.1
+Processing ../automake-install/usr/share/man/man1/aclocal-1.13.1
+Processing ../automake-install/usr/share/man/man1/automake.1
+Processing ../automake-install/usr/share/man/man1/automake-1.13.1
+all done
+packaging automake-1.13.4-i686_slk600
+packaging automake_DEV-1.13.4-i686_slk600
+packaging automake_DOC-1.13.4-i686_slk600
+done!

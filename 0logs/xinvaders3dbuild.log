@@ -1,0 +1,41 @@
+xinvaders3d/
+xinvaders3d/COPYING
+xinvaders3d/Makefile
+xinvaders3d/Makefile.dos
+xinvaders3d/README
+xinvaders3d/README.dos
+xinvaders3d/README.win
+xinvaders3d/aliens.c
+xinvaders3d/camera.c
+xinvaders3d/camera.h
+xinvaders3d/defines.h
+xinvaders3d/effects.c
+xinvaders3d/externs.h
+xinvaders3d/game.c
+xinvaders3d/game.h
+xinvaders3d/main-dos.c
+xinvaders3d/main-w.c
+xinvaders3d/main-x11.c
+xinvaders3d/mat4x4.c
+xinvaders3d/mat4x4.h
+xinvaders3d/object.c
+xinvaders3d/object.h
+xinvaders3d/player.c
+xinvaders3d/system.h
+xinvaders3d/vec4x1.c
+xinvaders3d/vec4x1.h
+xinvaders3d/gtext.h
+xinvaders3d/xinvaders3d.lsm
+gcc -c -ansi -DGAME_LINUX_X11 game.c -o game.o
+gcc -c -ansi -DGAME_LINUX_X11 aliens.c -o aliens.o
+gcc -c -ansi -DGAME_LINUX_X11 player.c -o player.o
+gcc -c -ansi -DGAME_LINUX_X11 effects.c -o effects.o
+gcc -c -ansi -DGAME_LINUX_X11 object.c -o object.o
+gcc -c -ansi -DGAME_LINUX_X11 camera.c -o camera.o
+gcc -c -ansi -DGAME_LINUX_X11 main-x11.c -o main-x11.o
+gcc -c -ansi -DGAME_LINUX_X11 vec4x1.c -o vec4x1.o
+gcc -c -ansi -DGAME_LINUX_X11 mat4x4.c -o mat4x4.o
+gcc -o xinv3d game.o aliens.o player.o effects.o object.o camera.o main-x11.o vec4x1.o mat4x4.o -L/usr/X11R6/lib -I/usr/X11R6/include -lm -lX11 -DGAME_LINUX_X11
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xinvaders3d
+packaging xinvaders3d-1.3.6-i686_slk600
+done!

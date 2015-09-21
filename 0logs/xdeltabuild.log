@@ -1,0 +1,257 @@
+xdelta-30p/
+xdelta-30p/xdelta3_wrap.c
+xdelta-30p/xdelta3-regtest.py
+xdelta-30p/xdelta3-second.h
+xdelta-30p/xdelta3-test.py
+xdelta-30p/xdelta3-fgk.h
+xdelta-30p/xdelta3-djw.h
+xdelta-30p/badcopy.c
+xdelta-30p/examples/
+xdelta-30p/examples/Makefile
+xdelta-30p/examples/small_page_test.c
+xdelta-30p/xdelta3.swig
+xdelta-30p/xdelta3-list.h
+xdelta-30p/xdelta3-main.h
+xdelta-30p/xdelta3-test.h
+xdelta-30p/xdelta3.h
+xdelta-30p/xdelta3-decode.h
+xdelta-30p/Makefile
+xdelta-30p/xdelta3.vcproj
+xdelta-30p/xdelta3-python.h
+xdelta-30p/xdelta3.c
+xdelta-30p/badcopy.vcproj
+xdelta-30p/xdelta3.py
+xdelta-30p/draft-korn-vcdiff.txt
+xdelta-30p/xdelta3-cfgs.h
+xdelta-30p/setup.py
+xdelta-30p/COPYING
+xdelta-30p/linkxd3lib.c
+cc -g -Wall -Wshadow xdelta3.c -o xdelta3-debug -DXD3_MAIN=1 -DGENERIC_ENCODE_TABLES=1 \
+	-DXD3_USE_LARGEFILE64=1 -DXD3_STDIO=1 -DREGRESSION_TEST=1 -DXD3_DEBUG=1 -DSECONDARY_DJW=1 -DSECONDARY_FGK=1 -lm
+cc -O3 -Wall -Wshadow xdelta3.c -lm -o xdelta3 \
+              -DXD3_DEBUG=0 \
+              -DXD3_USE_LARGEFILE64=1 \
+              -DREGRESSION_TEST=1 \
+              -DSECONDARY_DJW=1 \
+              -DSECONDARY_FGK=1 \
+              -DXD3_MAIN=1 \
+              -DXD3_POSIX=1
+python setup.py install --verbose --compile --force
+cc -DXD3_DEBUG=0 -DEXTERNAL_COMPRESSION=0 -DXD3_USE_LARGEFILE64=1 -DGENERIC_ENCODE_TABLES=1 -DSECONDARY_DJW=1 -DVCDIFF_TOOLS=1 -DSWIG_MODULE=1 -O3 \
+              -DHAVE_CONFIG_H \
+      -I/usr/include/python2.4 \
+      -I/usr/lib/python2.4/config \
+      -fpic \
+      -c -g xdelta3_wrap.c
+In file included from xdelta3.c:717:0:
+xdelta3.c: In function ‘xd3_rtype_to_string’:
+xdelta3.c:2361:5: warning: case value ‘4’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 1: return "CPY_1";
+     ^
+xdelta3.c:2362:5: warning: case value ‘5’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 2: return "CPY_2";
+     ^
+xdelta3.c:2363:5: warning: case value ‘6’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 3: return "CPY_3";
+     ^
+xdelta3.c:2364:5: warning: case value ‘7’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 4: return "CPY_4";
+     ^
+xdelta3.c:2365:5: warning: case value ‘8’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 5: return "CPY_5";
+     ^
+xdelta3.c:2366:5: warning: case value ‘9’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 6: return "CPY_6";
+     ^
+xdelta3.c:2367:5: warning: case value ‘10’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 7: return "CPY_7";
+     ^
+xdelta3.c:2368:5: warning: case value ‘11’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 8: return "CPY_8";
+     ^
+xdelta3.c:2369:5: warning: case value ‘12’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 9: return "CPY_9";
+     ^
+xdelta3_wrap.c:80:20: fatal error: Python.h: No such file or directory
+ #include <Python.h>
+                    ^
+compilation terminated.
+make: *** [xdelta3_wrap.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from xdelta3.c:717:0:
+xdelta3.c: In function ‘xd3_rtype_to_string’:
+xdelta3.c:2361:5: warning: case value ‘4’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 1: return "CPY_1";
+     ^
+xdelta3.c:2362:5: warning: case value ‘5’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 2: return "CPY_2";
+     ^
+xdelta3.c:2363:5: warning: case value ‘6’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 3: return "CPY_3";
+     ^
+xdelta3.c:2364:5: warning: case value ‘7’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 4: return "CPY_4";
+     ^
+xdelta3.c:2365:5: warning: case value ‘8’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 5: return "CPY_5";
+     ^
+xdelta3.c:2366:5: warning: case value ‘9’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 6: return "CPY_6";
+     ^
+xdelta3.c:2367:5: warning: case value ‘10’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 7: return "CPY_7";
+     ^
+xdelta3.c:2368:5: warning: case value ‘11’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 8: return "CPY_8";
+     ^
+xdelta3.c:2369:5: warning: case value ‘12’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 9: return "CPY_9";
+     ^
+In file included from xdelta3.c:726:0:
+xdelta3-main.h: In function ‘main’:
+xdelta3-main.h:2978:8: warning: variable ‘eqcase’ set but not used [-Wunused-but-set-variable]
+    int eqcase = 0;
+        ^
+In file included from xdelta3.c:726:0:
+xdelta3-main.h: In function ‘main’:
+xdelta3-main.h:2978:8: warning: variable ‘eqcase’ set but not used [-Wunused-but-set-variable]
+    int eqcase = 0;
+        ^
+running install
+running build
+running build_ext
+building 'xdelta3main' extension
+creating build
+creating build/temp.linux-i686-2.7
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DPYTHON_MODULE=1 -DSECONDARY_DJW=1 -DVCDIFF_TOOLS=1 -DGENERIC_ENCODE_TABLES=1 -DXD3_POSIX=1 -DXD3_USE_LARGEFILE64=1 -DEXTERNAL_COMPRESSION=0 -DREGRESSION_TEST=0 -DSECONDARY_FGK=0 -DXD3_DEBUG=0 -I/usr/include/python2.7 -c xdelta3.c -o build/temp.linux-i686-2.7/xdelta3.o -O3 -g -funroll-loops
+xdelta3.c:695:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   (xd3_sec_stream* (*)())  djw_alloc,
+   ^
+xdelta3.c:696:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   (void (*)())             djw_destroy,
+   ^
+xdelta3.c:697:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   (void (*)())             djw_init,
+   ^
+xdelta3.c:698:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   (int (*)())              xd3_decode_huff,
+   ^
+xdelta3.c:700:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ };
+ ^
+In file included from xdelta3.c:717:0:
+xdelta3.c: In function ‘xd3_rtype_to_string’:
+xdelta3.c:2361:5: warning: case value ‘4’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 1: return "CPY_1";
+     ^
+xdelta3.c:2362:5: warning: case value ‘5’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 2: return "CPY_2";
+     ^
+xdelta3.c:2363:5: warning: case value ‘6’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 3: return "CPY_3";
+     ^
+xdelta3.c:2364:5: warning: case value ‘7’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 4: return "CPY_4";
+     ^
+xdelta3.c:2365:5: warning: case value ‘8’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 5: return "CPY_5";
+     ^
+xdelta3.c:2366:5: warning: case value ‘9’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 6: return "CPY_6";
+     ^
+xdelta3.c:2367:5: warning: case value ‘10’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 7: return "CPY_7";
+     ^
+xdelta3.c:2368:5: warning: case value ‘11’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 8: return "CPY_8";
+     ^
+xdelta3.c:2369:5: warning: case value ‘12’ not in enumerated type ‘xd3_rtype’ [-Wswitch]
+     case XD3_CPY + 9: return "CPY_9";
+     ^
+In file included from xdelta3.c:726:0:
+xdelta3-main.h: In function ‘xd3_main_cmdline’:
+xdelta3-main.h:2978:8: warning: variable ‘eqcase’ set but not used [-Wunused-but-set-variable]
+    int eqcase = 0;
+        ^
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from xdelta3-python.h:19,
+                 from xdelta3.c:734:
+/usr/include/python2.7/pyconfig.h: At top level:
+/usr/include/python2.7/pyconfig.h:1173:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/errno.h:28:0,
+                 from xdelta3.c:266:
+/usr/include/features.h:231:0: note: this is the location of the previous definition
+ #  define _POSIX_C_SOURCE 200809L
+ ^
+In file included from xdelta3-cfgs.h:88:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_fast’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:113:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_slow’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:138:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_default’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:35:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_soft’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:63:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_fastest’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:35:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_soft’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:88:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_fast’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:63:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_fastest’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:113:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_slow’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+In file included from xdelta3-cfgs.h:138:0,
+                 from xdelta3.c:722:
+xdelta3.c: In function ‘xd3_string_match_default’:
+xdelta3.c:5023:35: warning: ‘match_offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if ((ret = xd3_found_match (stream,
+                                   ^
+creating build/lib.linux-i686-2.7
+gcc -pthread -shared build/temp.linux-i686-2.7/xdelta3.o -L/usr/lib -lpython2.7 -o build/lib.linux-i686-2.7/xdelta3main.so
+running install_lib
+copying build/lib.linux-i686-2.7/xdelta3main.so -> /usr/lib/python2.7/site-packages
+running install_egg_info
+Removing /usr/lib/python2.7/site-packages/xdelta3main-0p-py2.7.egg-info
+Writing /usr/lib/python2.7/site-packages/xdelta3main-0p-py2.7.egg-info
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/xdelta
+packaging xdelta-30p-i686_slk600
+done!

@@ -1,0 +1,18 @@
+gcolorsel-1.0.0/
+gcolorsel-1.0.0/interface.c
+gcolorsel-1.0.0/Makefile
+gcolorsel-1.0.0/README
+gcolorsel-1.0.0/callbacks.c
+gcolorsel-1.0.0/main.c
+gcolorsel-1.0.0/gcolorsel.1
+gcolorsel-1.0.0/ChangeLog
+gcolorsel-1.0.0/COPYING
+Makefile:133: depend: No such file or directory
+gcc -MM -pipe -Wall -O2 -ffast-math -fmerge-constants -fomit-frame-pointer `pkg-config --cflags gtk+-2.0` -DGTK_DISABLE_DEPRECATED -DVERSION=\"1.0.0\" -DPACKAGE=\"gcolorsel\" callbacks.c interface.c main.c >depend
+gcc -pipe -Wall -O2 -ffast-math -fmerge-constants -fomit-frame-pointer `pkg-config --cflags gtk+-2.0` -DGTK_DISABLE_DEPRECATED -DVERSION=\"1.0.0\" -DPACKAGE=\"gcolorsel\"   -c -o callbacks.o callbacks.c
+gcc -pipe -Wall -O2 -ffast-math -fmerge-constants -fomit-frame-pointer `pkg-config --cflags gtk+-2.0` -DGTK_DISABLE_DEPRECATED -DVERSION=\"1.0.0\" -DPACKAGE=\"gcolorsel\"   -c -o interface.o interface.c
+gcc -pipe -Wall -O2 -ffast-math -fmerge-constants -fomit-frame-pointer `pkg-config --cflags gtk+-2.0` -DGTK_DISABLE_DEPRECATED -DVERSION=\"1.0.0\" -DPACKAGE=\"gcolorsel\"   -c -o main.o main.c
+gcc -s -pipe -fmerge-constants   -o gcolorsel callbacks.o interface.o main.o `pkg-config --libs gtk+-2.0`
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gcolor2
+packaging gcolor2-1.0.0-i686_slk600
+done!

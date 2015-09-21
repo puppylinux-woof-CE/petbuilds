@@ -1,0 +1,13 @@
+libdvdnav-install/usr/bin/dvdnav-config
+libdvdnav-install/usr/include/dvdnav/dvdnav_events.h
+libdvdnav-install/usr/include/dvdnav/dvdnav.h
+libdvdnav-install/usr/include/dvdnav/dvd_types.h
+libdvdnav-install/usr/lib/libdvdnav.a
+libdvdnav-install/usr/lib/libdvdnavmini.so
+libdvdnav-install/usr/lib/libdvdnavmini.so.4
+libdvdnav-install/usr/lib/libdvdnavmini.so.4.2.0
+libdvdnav-install/usr/lib/libdvdnav.so
+libdvdnav-install/usr/lib/libdvdnav.so.4
+libdvdnav-install/usr/lib/libdvdnav.so.4.2.0
+libdvdnav-install/usr/lib/pkgconfig/dvdnavmini.pc
+libdvdnav-install/usr/lib/pkgconfig/dvdnav.pc

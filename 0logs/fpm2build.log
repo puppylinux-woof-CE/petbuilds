@@ -1,0 +1,275 @@
+fpm2-0.75/
+fpm2-0.75/po/
+fpm2-0.75/po/Makefile.in.in
+fpm2-0.75/po/de.po
+fpm2-0.75/po/POTFILES.in
+fpm2-0.75/po/es.po
+fpm2-0.75/po/hu.po
+fpm2-0.75/po/ChangeLog
+fpm2-0.75/po/cs.po
+fpm2-0.75/TODO
+fpm2-0.75/autogen.sh
+fpm2-0.75/src/
+fpm2-0.75/src/fpm_crypt.h
+fpm2-0.75/src/support.h
+fpm2-0.75/src/sha256.c
+fpm2-0.75/src/support.c
+fpm2-0.75/src/fpm_crypt.c
+fpm2-0.75/src/fpm_file.c
+fpm2-0.75/src/rijndael.c
+fpm2-0.75/src/Makefile.in
+fpm2-0.75/src/Makefile.am
+fpm2-0.75/src/fpm_clist.c
+fpm2-0.75/src/gpg_trans.h
+fpm2-0.75/src/fpm.h
+fpm2-0.75/src/fpm_file.h
+fpm2-0.75/src/fpm_gpw.h
+fpm2-0.75/src/bithelp.h
+fpm2-0.75/src/md5.c
+fpm2-0.75/src/callbacks.c
+fpm2-0.75/src/blowfish.c
+fpm2-0.75/src/callbacks.h
+fpm2-0.75/src/main.c
+fpm2-0.75/src/fpm_launcher.c
+fpm2-0.75/src/fpm_gpw.c
+fpm2-0.75/src/fpm.c
+fpm2-0.75/src/interface.h
+fpm2-0.75/src/interface.c
+fpm2-0.75/mkinstalldirs
+fpm2-0.75/NEWS
+fpm2-0.75/aclocal.m4
+fpm2-0.75/fpm2.desktop
+fpm2-0.75/AUTHORS
+fpm2-0.75/Makefile.in
+fpm2-0.75/fpm2.1
+fpm2-0.75/Makefile.am
+fpm2-0.75/fpm2.spec
+fpm2-0.75/depcomp
+fpm2-0.75/config.guess
+fpm2-0.75/configure.in
+fpm2-0.75/COPYING
+fpm2-0.75/stamp-h.in
+fpm2-0.75/fpm2.glade
+fpm2-0.75/config.h.in
+fpm2-0.75/README
+fpm2-0.75/install-sh
+fpm2-0.75/pixmaps/
+fpm2-0.75/pixmaps/logo.png
+fpm2-0.75/ChangeLog
+fpm2-0.75/INSTALL
+fpm2-0.75/config.sub
+fpm2-0.75/missing
+fpm2-0.75/fpm2.gladep
+fpm2-0.75/configure
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for PACKAGE... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for catalogs to be installed...  cs de es hu
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75'
+Making all in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/src'
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT fpm.o -MD -MP -MF .deps/fpm.Tpo -c -o fpm.o fpm.c
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT support.o -MD -MP -MF .deps/support.Tpo -c -o support.o support.c
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT interface.o -MD -MP -MF .deps/interface.Tpo -c -o interface.o interface.c
+interface.c: In function ‘create_app_safe’:
+interface.c:127:7: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
+       gdk_pixbuf_unref (app_safe_icon_pixbuf);
+       ^
+mv -f .deps/support.Tpo .deps/support.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT fpm_file.o -MD -MP -MF .deps/fpm_file.Tpo -c -o fpm_file.o fpm_file.c
+interface.c: In function ‘create_dialog_edit_passitem’:
+interface.c:739:7: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
+       gdk_pixbuf_unref (dialog_edit_passitem_icon_pixbuf);
+       ^
+interface.c: In function ‘create_dialog_password’:
+interface.c:990:7: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
+       gdk_pixbuf_unref (dialog_password_icon_pixbuf);
+       ^
+interface.c: In function ‘create_dialog_password_gen’:
+interface.c:1195:7: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
+       gdk_pixbuf_unref (dialog_password_gen_icon_pixbuf);
+       ^
+interface.c: In function ‘create_dialog_cpw’:
+interface.c:1441:7: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
+       gdk_pixbuf_unref (dialog_cpw_icon_pixbuf);
+       ^
+interface.c: In function ‘create_dialog_launcher’:
+interface.c:1696:7: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
+       gdk_pixbuf_unref (dialog_launcher_icon_pixbuf);
+       ^
+mv -f .deps/main.Tpo .deps/main.Po
+interface.c: In function ‘create_dialog_preferences’:
+interface.c:2070:7: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
+       gdk_pixbuf_unref (dialog_preferences_icon_pixbuf);
+       ^
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT callbacks.o -MD -MP -MF .deps/callbacks.Tpo -c -o callbacks.o callbacks.c
+mv -f .deps/fpm.Tpo .deps/fpm.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT blowfish.o -MD -MP -MF .deps/blowfish.Tpo -c -o blowfish.o blowfish.c
+mv -f .deps/fpm_file.Tpo .deps/fpm_file.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT fpm_crypt.o -MD -MP -MF .deps/fpm_crypt.Tpo -c -o fpm_crypt.o fpm_crypt.c
+mv -f .deps/callbacks.Tpo .deps/callbacks.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT fpm_gpw.o -MD -MP -MF .deps/fpm_gpw.Tpo -c -o fpm_gpw.o fpm_gpw.c
+mv -f .deps/blowfish.Tpo .deps/blowfish.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT md5.o -MD -MP -MF .deps/md5.Tpo -c -o md5.o md5.c
+mv -f .deps/fpm_crypt.Tpo .deps/fpm_crypt.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT fpm_clist.o -MD -MP -MF .deps/fpm_clist.Tpo -c -o fpm_clist.o fpm_clist.c
+mv -f .deps/fpm_gpw.Tpo .deps/fpm_gpw.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT fpm_launcher.o -MD -MP -MF .deps/fpm_launcher.Tpo -c -o fpm_launcher.o fpm_launcher.c
+mv -f .deps/fpm_clist.Tpo .deps/fpm_clist.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT rijndael.o -MD -MP -MF .deps/rijndael.Tpo -c -o rijndael.o rijndael.c
+mv -f .deps/md5.Tpo .deps/md5.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -DPACKAGE_DATA_DIR=\""/usr/share"\" -DPACKAGE_LOCALE_DIR=\""/usr/share/locale"\" -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/libxml2      -g -O2 -MT sha256.o -MD -MP -MF .deps/sha256.Tpo -c -o sha256.o sha256.c
+mv -f .deps/fpm_launcher.Tpo .deps/fpm_launcher.Po
+mv -f .deps/interface.Tpo .deps/interface.Po
+mv -f .deps/sha256.Tpo .deps/sha256.Po
+mv -f .deps/rijndael.Tpo .deps/rijndael.Po
+gcc  -g -O2   -o fpm2 main.o fpm.o support.o interface.o fpm_file.o callbacks.o blowfish.o fpm_crypt.o fpm_gpw.o md5.o fpm_clist.o fpm_launcher.o rijndael.o sha256.o -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0 -lxml2    -lX11 -lm
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/src'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/po'
+file=./`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -c -o $file cs.po
+file=./`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -c -o $file de.po
+file=./`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -c -o $file es.po
+file=./`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -c -o $file hu.po
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/po'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/src'
+test -z "/usr/bin" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/bin"
+  /usr/bin/ginstall -c 'fpm2' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/bin/fpm2'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/src'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/po'
+if test -r ".././mkinstalldirs"; then \
+  .././mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share; \
+else \
+  /bin/sh ../mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share; \
+fi
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/locale/cs/LC_MESSAGES/fpm2.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/locale/de/LC_MESSAGES/fpm2.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/locale/es/LC_MESSAGES/fpm2.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/locale/hu/LC_MESSAGES
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/locale/hu/LC_MESSAGES/fpm2.mo
+if test "fpm2" = "glib"; then \
+  if test -r ".././mkinstalldirs"; then \
+    .././mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/glib-2.0/gettext/po; \
+  else \
+    /bin/sh ../mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/glib-2.0/gettext/po; \
+  fi; \
+  /usr/bin/ginstall -c -m 644 ./Makefile.in.in \
+		  /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/glib-2.0/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75/po'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/applications" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/applications"
+ /usr/bin/ginstall -c -m 644 'fpm2.desktop' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/applications/fpm2.desktop'
+if test -d ./pixmaps; then \
+  /bin/sh ./mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/fpm2/pixmaps; \
+  for pixmap in ./pixmaps/*; do \
+    if test -f $pixmap; then \
+      /usr/bin/ginstall -c -m 644 $pixmap /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/fpm2/pixmaps; \
+    fi \
+  done \
+fi
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/fpm2/pixmaps
+test -z "/usr/share/man/man1" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/man/man1"
+ /usr/bin/ginstall -c -m 644 './fpm2.1' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-install/usr/share/man/man1/fpm2.1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2/fpm2-0.75'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/fpm2
+Processing ../fpm2-install/usr/bin/fpm2
+Processing ../fpm2-install/usr/share/applications/fpm2.desktop
+Processing ../fpm2-install/usr/share/fpm2/pixmaps/logo.png
+Processing ../fpm2-install/usr/share/locale/cs/LC_MESSAGES/fpm2.mo
+Processing ../fpm2-install/usr/share/locale/de/LC_MESSAGES/fpm2.mo
+Processing ../fpm2-install/usr/share/locale/es/LC_MESSAGES/fpm2.mo
+Processing ../fpm2-install/usr/share/locale/hu/LC_MESSAGES/fpm2.mo
+Processing ../fpm2-install/usr/share/man/man1/fpm2.1
+all done
+packaging fpm2-0.75-i686_slk600
+packaging fpm2_DOC-0.75-i686_slk600
+packaging fpm2_NLS-0.75-i686_slk600
+done!

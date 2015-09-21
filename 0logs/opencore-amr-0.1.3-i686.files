@@ -1,0 +1,14 @@
+opencore-amr-install/usr/include/opencore-amrnb/interf_dec.h
+opencore-amr-install/usr/include/opencore-amrnb/interf_enc.h
+opencore-amr-install/usr/include/opencore-amrwb/dec_if.h
+opencore-amr-install/usr/include/opencore-amrwb/if_rom.h
+opencore-amr-install/usr/lib/libopencore-amrnb.la
+opencore-amr-install/usr/lib/libopencore-amrnb.so
+opencore-amr-install/usr/lib/libopencore-amrnb.so.0
+opencore-amr-install/usr/lib/libopencore-amrnb.so.0.0.3
+opencore-amr-install/usr/lib/libopencore-amrwb.la
+opencore-amr-install/usr/lib/libopencore-amrwb.so
+opencore-amr-install/usr/lib/libopencore-amrwb.so.0
+opencore-amr-install/usr/lib/libopencore-amrwb.so.0.0.3
+opencore-amr-install/usr/lib/pkgconfig/opencore-amrnb.pc
+opencore-amr-install/usr/lib/pkgconfig/opencore-amrwb.pc

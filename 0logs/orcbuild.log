@@ -1,0 +1,933 @@
+orc-0.4.18/
+orc-0.4.18/depcomp
+orc-0.4.18/orc-uninstalled.pc.in
+orc-0.4.18/COPYING
+orc-0.4.18/m4/
+orc-0.4.18/m4/ltversion.m4
+orc-0.4.18/m4/libtool.m4
+orc-0.4.18/m4/as-nano.m4
+orc-0.4.18/m4/gtk-doc.m4
+orc-0.4.18/m4/ltoptions.m4
+orc-0.4.18/m4/as-host-defines.m4
+orc-0.4.18/m4/as-compiler-flag.m4
+orc-0.4.18/m4/lt~obsolete.m4
+orc-0.4.18/m4/ac_libtool_tags.m4
+orc-0.4.18/m4/ltsugar.m4
+orc-0.4.18/m4/pkg.m4
+orc-0.4.18/Makefile.in
+orc-0.4.18/config.h.in
+orc-0.4.18/configure.ac
+orc-0.4.18/orc/
+orc-0.4.18/orc/orccode.c
+orc-0.4.18/orc/orconce.h
+orc-0.4.18/orc/orcutils.c
+orc-0.4.18/orc/orcneon.h
+orc-0.4.18/orc/generate-emulation.c
+orc-0.4.18/orc/orcprogram-mips.c
+orc-0.4.18/orc/orcutils.h
+orc-0.4.18/orc/orcarm.c
+orc-0.4.18/orc/orcvariable.h
+orc-0.4.18/orc/orc-stdint.h
+orc-0.4.18/orc/orcrule.h
+orc-0.4.18/orc/orcarm.h
+orc-0.4.18/orc/orconce.c
+orc-0.4.18/orc/Makefile.in
+orc-0.4.18/orc/orcopcode.h
+orc-0.4.18/orc/orcrules-mips.c
+orc-0.4.18/orc/orcprogram.c
+orc-0.4.18/orc/orcpowerpc.h
+orc-0.4.18/orc/orcemulateopcodes.h
+orc-0.4.18/orc/orcprogram-neon.c
+orc-0.4.18/orc/orcsse.h
+orc-0.4.18/orc/orcfunctions.h
+orc-0.4.18/orc/orcbytecodes.h
+orc-0.4.18/orc/opcodes.h
+orc-0.4.18/orc/orcprogram-arm.c
+orc-0.4.18/orc/orc.c
+orc-0.4.18/orc/orccompiler.h
+orc-0.4.18/orc/orcrules-neon.c
+orc-0.4.18/orc/orcexecutor.h
+orc-0.4.18/orc/orcbytecode.h
+orc-0.4.18/orc/orcemulateopcodes.c
+orc-0.4.18/orc/orccpu-arm.c
+orc-0.4.18/orc/orcrules-sse.c
+orc-0.4.18/orc/generate-bytecode.c
+orc-0.4.18/orc/orcparse.c
+orc-0.4.18/orc/orcdebug.h
+orc-0.4.18/orc/orccodemem.c
+orc-0.4.18/orc/orcconstant.h
+orc-0.4.18/orc/orcbytecode.c
+orc-0.4.18/orc/orcpowerpc.c
+orc-0.4.18/orc/orcx86.h
+orc-0.4.18/orc/orcrules-arm.c
+orc-0.4.18/orc/orcmips.c
+orc-0.4.18/orc/orcsse.c
+orc-0.4.18/orc/orcx86.c
+orc-0.4.18/orc/orcinternal.h
+orc-0.4.18/orc/orc.h
+orc-0.4.18/orc/orcprogram-mmx.c
+orc-0.4.18/orc/orccpu-x86.c
+orc-0.4.18/orc/orcparse.h
+orc-0.4.18/orc/orccpu-powerpc.c
+orc-0.4.18/orc/orcexecutor.c
+orc-0.4.18/orc/orcfunctions.c
+orc-0.4.18/orc/orcopcodes.c
+orc-0.4.18/orc/orcdebug.c
+orc-0.4.18/orc/orcmips.h
+orc-0.4.18/orc/Makefile.am
+orc-0.4.18/orc/orcrules-mmx.c
+orc-0.4.18/orc/orctarget.h
+orc-0.4.18/orc/orccode.h
+orc-0.4.18/orc/orcprogram-altivec.c
+orc-0.4.18/orc/orccpu.h
+orc-0.4.18/orc/orcprogram-sse.c
+orc-0.4.18/orc/orcmmx.c
+orc-0.4.18/orc/orccompiler.c
+orc-0.4.18/orc/orcinstruction.h
+orc-0.4.18/orc/orcrules-altivec.c
+orc-0.4.18/orc/orcx86insn.h
+orc-0.4.18/orc/orclimits.h
+orc-0.4.18/orc/orcrule.c
+orc-0.4.18/orc/orcx86insn.c
+orc-0.4.18/orc/orccpuinsn.h
+orc-0.4.18/orc/orcprogram-c64x-c.c
+orc-0.4.18/orc/orcmmx.h
+orc-0.4.18/orc/orcprogram-c.c
+orc-0.4.18/orc/orcprogram.h
+orc-0.4.18/ltmain.sh
+orc-0.4.18/TODO
+orc-0.4.18/gtk-doc.make
+orc-0.4.18/examples/
+orc-0.4.18/examples/example3.c
+orc-0.4.18/examples/Makefile.in
+orc-0.4.18/examples/example2orc.orc
+orc-0.4.18/examples/example3orc.orc
+orc-0.4.18/examples/example2.c
+orc-0.4.18/examples/mt19937ar.c
+orc-0.4.18/examples/mt19937arorc.orc
+orc-0.4.18/examples/Makefile.am
+orc-0.4.18/examples/example1.c
+orc-0.4.18/examples/example1orc.orc
+orc-0.4.18/examples/volscale.c
+orc-0.4.18/autogen.sh
+orc-0.4.18/README
+orc-0.4.18/testsuite/
+orc-0.4.18/testsuite/exec_opcodes_sys.c
+orc-0.4.18/testsuite/abi.c
+orc-0.4.18/testsuite/bytecode_parse.c
+orc-0.4.18/testsuite/generate_xml_table.c
+orc-0.4.18/testsuite/compile_opcodes_sys_neon.c
+orc-0.4.18/testsuite/Makefile.in
+orc-0.4.18/testsuite/exec_parse.c
+orc-0.4.18/testsuite/test-schro.c
+orc-0.4.18/testsuite/perf_parse_compare.c
+orc-0.4.18/testsuite/generate_opcodes_sys.c
+orc-0.4.18/testsuite/compile_opcodes_sys_c64x.c
+orc-0.4.18/testsuite/compile_opcodes_sys_c.c
+orc-0.4.18/testsuite/memcpy_speed.c
+orc-0.4.18/testsuite/compile_parse.c
+orc-0.4.18/testsuite/perf_parse.c
+orc-0.4.18/testsuite/test_accsadubl.c
+orc-0.4.18/testsuite/Makefile.am
+orc-0.4.18/testsuite/show_parse.c
+orc-0.4.18/testsuite/orcc/
+orc-0.4.18/testsuite/orcc/testorc.c
+orc-0.4.18/testsuite/orcc/Makefile.in
+orc-0.4.18/testsuite/orcc/test2.c
+orc-0.4.18/testsuite/orcc/Makefile.am
+orc-0.4.18/testsuite/orcc/orc_test.c
+orc-0.4.18/testsuite/orcc/test3.c
+orc-0.4.18/testsuite/compile_parse_c.c
+orc-0.4.18/testsuite/compile_opcodes_sys.c
+orc-0.4.18/testsuite/test.orc
+orc-0.4.18/testsuite/perf_opcodes_sys.c
+orc-0.4.18/testsuite/compile_opcodes_sys_mips.c
+orc-0.4.18/testsuite/benchmorc/
+orc-0.4.18/testsuite/benchmorc/Makefile.in
+orc-0.4.18/testsuite/benchmorc/benchmorc.c
+orc-0.4.18/testsuite/benchmorc/Makefile.am
+orc-0.4.18/testsuite/compile_parse_neon.c
+orc-0.4.18/testsuite/generate_xml_table2.c
+orc-0.4.18/testsuite/perf_opcodes_sys_compare.c
+orc-0.4.18/Makefile.am
+orc-0.4.18/config.sub
+orc-0.4.18/orc.m4
+orc-0.4.18/doc/
+orc-0.4.18/doc/tutorial.xml
+orc-0.4.18/doc/Makefile.in
+orc-0.4.18/doc/orc-docs.sgml
+orc-0.4.18/doc/html/
+orc-0.4.18/doc/html/index.html
+orc-0.4.18/doc/html/orc-concepts.html
+orc-0.4.18/doc/html/ch04.html
+orc-0.4.18/doc/html/orc-ARM.html
+orc-0.4.18/doc/html/orc-OrcCompiler.html
+orc-0.4.18/doc/html/orc.devhelp2
+orc-0.4.18/doc/html/orc-runninging.html
+orc-0.4.18/doc/html/orc-OrcRule.html
+orc-0.4.18/doc/html/orc-misc.html
+orc-0.4.18/doc/html/orc-OrcExecutor.html
+orc-0.4.18/doc/html/ch01.html
+orc-0.4.18/doc/html/ch05.html
+orc-0.4.18/doc/html/orc-opcodes.html
+orc-0.4.18/doc/html/orc-OrcProgram.html
+orc-0.4.18/doc/html/orc-PowerPC.html
+orc-0.4.18/doc/html/orc-x86.html
+orc-0.4.18/doc/html/orc-program.html
+orc-0.4.18/doc/html/orc-OrcOpcode.html
+orc-0.4.18/doc/html/up.png
+orc-0.4.18/doc/html/orc-building.html
+orc-0.4.18/doc/html/index.sgml
+orc-0.4.18/doc/html/left.png
+orc-0.4.18/doc/html/orc-Utility-functions.html
+orc-0.4.18/doc/html/ch03.html
+orc-0.4.18/doc/html/home.png
+orc-0.4.18/doc/html/orc-Orc.html
+orc-0.4.18/doc/html/ch02.html
+orc-0.4.18/doc/html/orc-SSE.html
+orc-0.4.18/doc/html/orc-tutorial.html
+orc-0.4.18/doc/html/style.css
+orc-0.4.18/doc/html/orc-OrcDebug.html
+orc-0.4.18/doc/html/orc-MMX.html
+orc-0.4.18/doc/html/right.png
+orc-0.4.18/doc/orc.types
+orc-0.4.18/doc/opcode_table.xml
+orc-0.4.18/doc/building.xml
+orc-0.4.18/doc/table.xml
+orc-0.4.18/doc/Makefile.am
+orc-0.4.18/doc/version.entities.in
+orc-0.4.18/doc/opcodes.xml
+orc-0.4.18/doc/running.xml
+orc-0.4.18/doc/program.xml
+orc-0.4.18/doc/orc-sections.txt
+orc-0.4.18/doc/tmpl/
+orc-0.4.18/doc/tmpl/orcprogram.sgml
+orc-0.4.18/doc/tmpl/orcdebug.sgml
+orc-0.4.18/doc/tmpl/orcrule.sgml
+orc-0.4.18/doc/tmpl/orcpowerpc.sgml
+orc-0.4.18/doc/tmpl/orcmmx.sgml
+orc-0.4.18/doc/tmpl/sse.sgml
+orc-0.4.18/doc/tmpl/orcx86.sgml
+orc-0.4.18/doc/tmpl/orcsse.sgml
+orc-0.4.18/doc/tmpl/orc.sgml
+orc-0.4.18/doc/tmpl/orc-unused.sgml
+orc-0.4.18/doc/tmpl/orcopcode.sgml
+orc-0.4.18/doc/tmpl/mmx.sgml
+orc-0.4.18/doc/tmpl/orcarm.sgml
+orc-0.4.18/doc/tmpl/misc.sgml
+orc-0.4.18/doc/tmpl/orccompiler.sgml
+orc-0.4.18/doc/tmpl/orcutils.sgml
+orc-0.4.18/doc/tmpl/x86.sgml
+orc-0.4.18/doc/tmpl/orcexecutor.sgml
+orc-0.4.18/doc/concepts.xml
+orc-0.4.18/doc/orc-overrides.txt
+orc-0.4.18/install-sh
+orc-0.4.18/config.guess
+orc-0.4.18/compile
+orc-0.4.18/aclocal.m4
+orc-0.4.18/orc-test/
+orc-0.4.18/orc-test/orctest.h
+orc-0.4.18/orc-test/orcrandom.h
+orc-0.4.18/orc-test/Makefile.in
+orc-0.4.18/orc-test/orcrandom.c
+orc-0.4.18/orc-test/Makefile.am
+orc-0.4.18/orc-test/orcprofile.h
+orc-0.4.18/orc-test/orcarray.c
+orc-0.4.18/orc-test/orcarray.h
+orc-0.4.18/orc-test/orcprofile.c
+orc-0.4.18/orc-test/orctest.c
+orc-0.4.18/tools/
+orc-0.4.18/tools/Makefile.in
+orc-0.4.18/tools/Makefile.am
+orc-0.4.18/tools/orc-bugreport.c
+orc-0.4.18/tools/test.orc
+orc-0.4.18/tools/orcc.c
+orc-0.4.18/orc.pc.in
+orc-0.4.18/missing
+orc-0.4.18/configure
+checking nano version... 0 (release)
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether gcc and cc understand -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for posix_memalign... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking whether byte ordering is bigendian... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for inttypes.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for gettimeofday... yes
+checking for sigaction... yes
+checking for sigsetjmp... no
+checking for cos in -lm... yes
+checking for clock_gettime in -lrt... yes
+checking for monotonic clocks... yes
+checking valgrind/valgrind.h usability... no
+checking valgrind/valgrind.h presence... no
+checking for valgrind/valgrind.h... no
+checking to see if compiler understands -Wall... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/version.entities
+config.status: creating orc/Makefile
+config.status: creating orc-test/Makefile
+config.status: creating testsuite/Makefile
+config.status: creating testsuite/orcc/Makefile
+config.status: creating testsuite/benchmorc/Makefile
+config.status: creating examples/Makefile
+config.status: creating tools/Makefile
+config.status: creating orc-uninstalled.pc
+config.status: creating orc.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+cp orc-uninstalled.pc orc-0.4-uninstalled.pc
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+Making all in orc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orc.lo -MD -MP -MF .deps/liborc_0.4_la-orc.Tpo -c -o liborc_0.4_la-orc.lo `test -f 'orc.c' || echo './'`orc.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcbytecode.lo -MD -MP -MF .deps/liborc_0.4_la-orcbytecode.Tpo -c -o liborc_0.4_la-orcbytecode.lo `test -f 'orcbytecode.c' || echo './'`orcbytecode.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcemulateopcodes.lo -MD -MP -MF .deps/liborc_0.4_la-orcemulateopcodes.Tpo -c -o liborc_0.4_la-orcemulateopcodes.lo `test -f 'orcemulateopcodes.c' || echo './'`orcemulateopcodes.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcexecutor.lo -MD -MP -MF .deps/liborc_0.4_la-orcexecutor.Tpo -c -o liborc_0.4_la-orcexecutor.lo `test -f 'orcexecutor.c' || echo './'`orcexecutor.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orc.lo -MD -MP -MF .deps/liborc_0.4_la-orc.Tpo -c orc.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orc.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcemulateopcodes.lo -MD -MP -MF .deps/liborc_0.4_la-orcemulateopcodes.Tpo -c orcemulateopcodes.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcemulateopcodes.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcexecutor.lo -MD -MP -MF .deps/liborc_0.4_la-orcexecutor.Tpo -c orcexecutor.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcexecutor.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcbytecode.lo -MD -MP -MF .deps/liborc_0.4_la-orcbytecode.Tpo -c orcbytecode.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcbytecode.o
+mv -f .deps/liborc_0.4_la-orc.Tpo .deps/liborc_0.4_la-orc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcfunctions.lo -MD -MP -MF .deps/liborc_0.4_la-orcfunctions.Tpo -c -o liborc_0.4_la-orcfunctions.lo `test -f 'orcfunctions.c' || echo './'`orcfunctions.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcfunctions.lo -MD -MP -MF .deps/liborc_0.4_la-orcfunctions.Tpo -c orcfunctions.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcfunctions.o
+mv -f .deps/liborc_0.4_la-orcfunctions.Tpo .deps/liborc_0.4_la-orcfunctions.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcutils.lo -MD -MP -MF .deps/liborc_0.4_la-orcutils.Tpo -c -o liborc_0.4_la-orcutils.lo `test -f 'orcutils.c' || echo './'`orcutils.c
+mv -f .deps/liborc_0.4_la-orcbytecode.Tpo .deps/liborc_0.4_la-orcbytecode.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrule.lo -MD -MP -MF .deps/liborc_0.4_la-orcrule.Tpo -c -o liborc_0.4_la-orcrule.lo `test -f 'orcrule.c' || echo './'`orcrule.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcutils.lo -MD -MP -MF .deps/liborc_0.4_la-orcutils.Tpo -c orcutils.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcutils.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrule.lo -MD -MP -MF .deps/liborc_0.4_la-orcrule.Tpo -c orcrule.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcrule.o
+mv -f .deps/liborc_0.4_la-orcexecutor.Tpo .deps/liborc_0.4_la-orcexecutor.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orccodemem.lo -MD -MP -MF .deps/liborc_0.4_la-orccodemem.Tpo -c -o liborc_0.4_la-orccodemem.lo `test -f 'orccodemem.c' || echo './'`orccodemem.c
+mv -f .deps/liborc_0.4_la-orcutils.Tpo .deps/liborc_0.4_la-orcutils.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orccodemem.lo -MD -MP -MF .deps/liborc_0.4_la-orccodemem.Tpo -c orccodemem.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orccodemem.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram.Tpo -c -o liborc_0.4_la-orcprogram.lo `test -f 'orcprogram.c' || echo './'`orcprogram.c
+mv -f .deps/liborc_0.4_la-orcrule.Tpo .deps/liborc_0.4_la-orcrule.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orccompiler.lo -MD -MP -MF .deps/liborc_0.4_la-orccompiler.Tpo -c -o liborc_0.4_la-orccompiler.lo `test -f 'orccompiler.c' || echo './'`orccompiler.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram.Tpo -c orcprogram.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcprogram.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orccompiler.lo -MD -MP -MF .deps/liborc_0.4_la-orccompiler.Tpo -c orccompiler.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orccompiler.o
+mv -f .deps/liborc_0.4_la-orccodemem.Tpo .deps/liborc_0.4_la-orccodemem.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-c.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-c.Tpo -c -o liborc_0.4_la-orcprogram-c.lo `test -f 'orcprogram-c.c' || echo './'`orcprogram-c.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-c.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-c.Tpo -c orcprogram-c.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcprogram-c.o
+mv -f .deps/liborc_0.4_la-orcprogram.Tpo .deps/liborc_0.4_la-orcprogram.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcopcodes.lo -MD -MP -MF .deps/liborc_0.4_la-orcopcodes.Tpo -c -o liborc_0.4_la-orcopcodes.lo `test -f 'orcopcodes.c' || echo './'`orcopcodes.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcopcodes.lo -MD -MP -MF .deps/liborc_0.4_la-orcopcodes.Tpo -c orcopcodes.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcopcodes.o
+mv -f .deps/liborc_0.4_la-orcopcodes.Tpo .deps/liborc_0.4_la-orcopcodes.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcparse.lo -MD -MP -MF .deps/liborc_0.4_la-orcparse.Tpo -c -o liborc_0.4_la-orcparse.lo `test -f 'orcparse.c' || echo './'`orcparse.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcparse.lo -MD -MP -MF .deps/liborc_0.4_la-orcparse.Tpo -c orcparse.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcparse.o
+mv -f .deps/liborc_0.4_la-orccompiler.Tpo .deps/liborc_0.4_la-orccompiler.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orconce.lo -MD -MP -MF .deps/liborc_0.4_la-orconce.Tpo -c -o liborc_0.4_la-orconce.lo `test -f 'orconce.c' || echo './'`orconce.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orconce.lo -MD -MP -MF .deps/liborc_0.4_la-orconce.Tpo -c orconce.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orconce.o
+mv -f .deps/liborc_0.4_la-orconce.Tpo .deps/liborc_0.4_la-orconce.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcdebug.lo -MD -MP -MF .deps/liborc_0.4_la-orcdebug.Tpo -c -o liborc_0.4_la-orcdebug.lo `test -f 'orcdebug.c' || echo './'`orcdebug.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcdebug.lo -MD -MP -MF .deps/liborc_0.4_la-orcdebug.Tpo -c orcdebug.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcdebug.o
+mv -f .deps/liborc_0.4_la-orcdebug.Tpo .deps/liborc_0.4_la-orcdebug.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orccode.lo -MD -MP -MF .deps/liborc_0.4_la-orccode.Tpo -c -o liborc_0.4_la-orccode.lo `test -f 'orccode.c' || echo './'`orccode.c
+mv -f .deps/liborc_0.4_la-orcparse.Tpo .deps/liborc_0.4_la-orcparse.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcsse.lo -MD -MP -MF .deps/liborc_0.4_la-orcsse.Tpo -c -o liborc_0.4_la-orcsse.lo `test -f 'orcsse.c' || echo './'`orcsse.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orccode.lo -MD -MP -MF .deps/liborc_0.4_la-orccode.Tpo -c orccode.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orccode.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcsse.lo -MD -MP -MF .deps/liborc_0.4_la-orcsse.Tpo -c orcsse.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcsse.o
+mv -f .deps/liborc_0.4_la-orccode.Tpo .deps/liborc_0.4_la-orccode.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-sse.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-sse.Tpo -c -o liborc_0.4_la-orcrules-sse.lo `test -f 'orcrules-sse.c' || echo './'`orcrules-sse.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-sse.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-sse.Tpo -c orcrules-sse.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcrules-sse.o
+mv -f .deps/liborc_0.4_la-orcsse.Tpo .deps/liborc_0.4_la-orcsse.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-sse.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-sse.Tpo -c -o liborc_0.4_la-orcprogram-sse.lo `test -f 'orcprogram-sse.c' || echo './'`orcprogram-sse.c
+mv -f .deps/liborc_0.4_la-orcemulateopcodes.Tpo .deps/liborc_0.4_la-orcemulateopcodes.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcx86.lo -MD -MP -MF .deps/liborc_0.4_la-orcx86.Tpo -c -o liborc_0.4_la-orcx86.lo `test -f 'orcx86.c' || echo './'`orcx86.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-sse.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-sse.Tpo -c orcprogram-sse.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcprogram-sse.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcx86.lo -MD -MP -MF .deps/liborc_0.4_la-orcx86.Tpo -c orcx86.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcx86.o
+mv -f .deps/liborc_0.4_la-orcprogram-c.Tpo .deps/liborc_0.4_la-orcprogram-c.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcx86insn.lo -MD -MP -MF .deps/liborc_0.4_la-orcx86insn.Tpo -c -o liborc_0.4_la-orcx86insn.lo `test -f 'orcx86insn.c' || echo './'`orcx86insn.c
+mv -f .deps/liborc_0.4_la-orcx86.Tpo .deps/liborc_0.4_la-orcx86.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcmmx.lo -MD -MP -MF .deps/liborc_0.4_la-orcmmx.Tpo -c -o liborc_0.4_la-orcmmx.lo `test -f 'orcmmx.c' || echo './'`orcmmx.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcx86insn.lo -MD -MP -MF .deps/liborc_0.4_la-orcx86insn.Tpo -c orcx86insn.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcx86insn.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcmmx.lo -MD -MP -MF .deps/liborc_0.4_la-orcmmx.Tpo -c orcmmx.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcmmx.o
+mv -f .deps/liborc_0.4_la-orcprogram-sse.Tpo .deps/liborc_0.4_la-orcprogram-sse.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-mmx.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-mmx.Tpo -c -o liborc_0.4_la-orcrules-mmx.lo `test -f 'orcrules-mmx.c' || echo './'`orcrules-mmx.c
+mv -f .deps/liborc_0.4_la-orcmmx.Tpo .deps/liborc_0.4_la-orcmmx.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-mmx.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-mmx.Tpo -c -o liborc_0.4_la-orcprogram-mmx.lo `test -f 'orcprogram-mmx.c' || echo './'`orcprogram-mmx.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-mmx.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-mmx.Tpo -c orcrules-mmx.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcrules-mmx.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-mmx.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-mmx.Tpo -c orcprogram-mmx.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcprogram-mmx.o
+mv -f .deps/liborc_0.4_la-orcx86insn.Tpo .deps/liborc_0.4_la-orcx86insn.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-altivec.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-altivec.Tpo -c -o liborc_0.4_la-orcrules-altivec.lo `test -f 'orcrules-altivec.c' || echo './'`orcrules-altivec.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-altivec.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-altivec.Tpo -c orcrules-altivec.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcrules-altivec.o
+mv -f .deps/liborc_0.4_la-orcprogram-mmx.Tpo .deps/liborc_0.4_la-orcprogram-mmx.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-altivec.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-altivec.Tpo -c -o liborc_0.4_la-orcprogram-altivec.lo `test -f 'orcprogram-altivec.c' || echo './'`orcprogram-altivec.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-altivec.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-altivec.Tpo -c orcprogram-altivec.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcprogram-altivec.o
+mv -f .deps/liborc_0.4_la-orcprogram-altivec.Tpo .deps/liborc_0.4_la-orcprogram-altivec.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcpowerpc.lo -MD -MP -MF .deps/liborc_0.4_la-orcpowerpc.Tpo -c -o liborc_0.4_la-orcpowerpc.lo `test -f 'orcpowerpc.c' || echo './'`orcpowerpc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcpowerpc.lo -MD -MP -MF .deps/liborc_0.4_la-orcpowerpc.Tpo -c orcpowerpc.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcpowerpc.o
+mv -f .deps/liborc_0.4_la-orcrules-sse.Tpo .deps/liborc_0.4_la-orcrules-sse.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-neon.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-neon.Tpo -c -o liborc_0.4_la-orcprogram-neon.lo `test -f 'orcprogram-neon.c' || echo './'`orcprogram-neon.c
+mv -f .deps/liborc_0.4_la-orcpowerpc.Tpo .deps/liborc_0.4_la-orcpowerpc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-neon.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-neon.Tpo -c -o liborc_0.4_la-orcrules-neon.lo `test -f 'orcrules-neon.c' || echo './'`orcrules-neon.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-neon.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-neon.Tpo -c orcprogram-neon.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcprogram-neon.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-neon.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-neon.Tpo -c orcrules-neon.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcrules-neon.o
+mv -f .deps/liborc_0.4_la-orcrules-mmx.Tpo .deps/liborc_0.4_la-orcrules-mmx.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcarm.lo -MD -MP -MF .deps/liborc_0.4_la-orcarm.Tpo -c -o liborc_0.4_la-orcarm.lo `test -f 'orcarm.c' || echo './'`orcarm.c
+mv -f .deps/liborc_0.4_la-orcrules-altivec.Tpo .deps/liborc_0.4_la-orcrules-altivec.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-c64x-c.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-c64x-c.Tpo -c -o liborc_0.4_la-orcprogram-c64x-c.lo `test -f 'orcprogram-c64x-c.c' || echo './'`orcprogram-c64x-c.c
+mv -f .deps/liborc_0.4_la-orcprogram-neon.Tpo .deps/liborc_0.4_la-orcprogram-neon.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcarm.lo -MD -MP -MF .deps/liborc_0.4_la-orcarm.Tpo -c orcarm.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcarm.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcmips.lo -MD -MP -MF .deps/liborc_0.4_la-orcmips.Tpo -c -o liborc_0.4_la-orcmips.lo `test -f 'orcmips.c' || echo './'`orcmips.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-c64x-c.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-c64x-c.Tpo -c orcprogram-c64x-c.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcprogram-c64x-c.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcmips.lo -MD -MP -MF .deps/liborc_0.4_la-orcmips.Tpo -c orcmips.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcmips.o
+mv -f .deps/liborc_0.4_la-orcarm.Tpo .deps/liborc_0.4_la-orcarm.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-mips.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-mips.Tpo -c -o liborc_0.4_la-orcprogram-mips.lo `test -f 'orcprogram-mips.c' || echo './'`orcprogram-mips.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcprogram-mips.lo -MD -MP -MF .deps/liborc_0.4_la-orcprogram-mips.Tpo -c orcprogram-mips.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcprogram-mips.o
+mv -f .deps/liborc_0.4_la-orcmips.Tpo .deps/liborc_0.4_la-orcmips.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-mips.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-mips.Tpo -c -o liborc_0.4_la-orcrules-mips.lo `test -f 'orcrules-mips.c' || echo './'`orcrules-mips.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orcrules-mips.lo -MD -MP -MF .deps/liborc_0.4_la-orcrules-mips.Tpo -c orcrules-mips.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orcrules-mips.o
+mv -f .deps/liborc_0.4_la-orcprogram-mips.Tpo .deps/liborc_0.4_la-orcprogram-mips.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orccpu-x86.lo -MD -MP -MF .deps/liborc_0.4_la-orccpu-x86.Tpo -c -o liborc_0.4_la-orccpu-x86.lo `test -f 'orccpu-x86.c' || echo './'`orccpu-x86.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_0.4_la-orccpu-x86.lo -MD -MP -MF .deps/liborc_0.4_la-orccpu-x86.Tpo -c orccpu-x86.c  -fPIC -DPIC -o .libs/liborc_0.4_la-orccpu-x86.o
+mv -f .deps/liborc_0.4_la-orcprogram-c64x-c.Tpo .deps/liborc_0.4_la-orcprogram-c64x-c.Plo
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT generate_emulation-generate-emulation.o -MD -MP -MF .deps/generate_emulation-generate-emulation.Tpo -c -o generate_emulation-generate-emulation.o `test -f 'generate-emulation.c' || echo './'`generate-emulation.c
+mv -f .deps/liborc_0.4_la-orccpu-x86.Tpo .deps/liborc_0.4_la-orccpu-x86.Plo
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT generate_bytecode-generate-bytecode.o -MD -MP -MF .deps/generate_bytecode-generate-bytecode.Tpo -c -o generate_bytecode-generate-bytecode.o `test -f 'generate-bytecode.c' || echo './'`generate-bytecode.c
+mv -f .deps/generate_emulation-generate-emulation.Tpo .deps/generate_emulation-generate-emulation.Po
+mv -f .deps/liborc_0.4_la-orcrules-mips.Tpo .deps/liborc_0.4_la-orcrules-mips.Plo
+mv -f .deps/generate_bytecode-generate-bytecode.Tpo .deps/generate_bytecode-generate-bytecode.Po
+mv -f .deps/liborc_0.4_la-orcrules-neon.Tpo .deps/liborc_0.4_la-orcrules-neon.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -version-info 18:0:18 -no-undefined -export-symbols-regex 'orc_'  -o liborc-0.4.la -rpath /usr/lib liborc_0.4_la-orc.lo liborc_0.4_la-orcbytecode.lo liborc_0.4_la-orcemulateopcodes.lo liborc_0.4_la-orcexecutor.lo liborc_0.4_la-orcfunctions.lo liborc_0.4_la-orcutils.lo liborc_0.4_la-orcrule.lo liborc_0.4_la-orccodemem.lo liborc_0.4_la-orcprogram.lo liborc_0.4_la-orccompiler.lo liborc_0.4_la-orcprogram-c.lo liborc_0.4_la-orcopcodes.lo liborc_0.4_la-orcparse.lo liborc_0.4_la-orconce.lo liborc_0.4_la-orcdebug.lo liborc_0.4_la-orccode.lo liborc_0.4_la-orcsse.lo liborc_0.4_la-orcrules-sse.lo liborc_0.4_la-orcprogram-sse.lo liborc_0.4_la-orcx86.lo liborc_0.4_la-orcx86insn.lo liborc_0.4_la-orcmmx.lo liborc_0.4_la-orcrules-mmx.lo liborc_0.4_la-orcprogram-mmx.lo  liborc_0.4_la-orcrules-altivec.lo liborc_0.4_la-orcprogram-altivec.lo liborc_0.4_la-orcpowerpc.lo liborc_0.4_la-orcprogram-neon.lo liborc_0.4_la-orcrules-neon.lo liborc_0.4_la-orcarm.lo   liborc_0.4_la-orcprogram-c64x-c.lo liborc_0.4_la-orcmips.lo liborc_0.4_la-orcprogram-mips.lo liborc_0.4_la-orcrules-mips.lo liborc_0.4_la-orccpu-x86.lo    -lm -lrt -lpthread 
+libtool: link: /usr/bin/nm -B  .libs/liborc_0.4_la-orc.o .libs/liborc_0.4_la-orcbytecode.o .libs/liborc_0.4_la-orcemulateopcodes.o .libs/liborc_0.4_la-orcexecutor.o .libs/liborc_0.4_la-orcfunctions.o .libs/liborc_0.4_la-orcutils.o .libs/liborc_0.4_la-orcrule.o .libs/liborc_0.4_la-orccodemem.o .libs/liborc_0.4_la-orcprogram.o .libs/liborc_0.4_la-orccompiler.o .libs/liborc_0.4_la-orcprogram-c.o .libs/liborc_0.4_la-orcopcodes.o .libs/liborc_0.4_la-orcparse.o .libs/liborc_0.4_la-orconce.o .libs/liborc_0.4_la-orcdebug.o .libs/liborc_0.4_la-orccode.o .libs/liborc_0.4_la-orcsse.o .libs/liborc_0.4_la-orcrules-sse.o .libs/liborc_0.4_la-orcprogram-sse.o .libs/liborc_0.4_la-orcx86.o .libs/liborc_0.4_la-orcx86insn.o .libs/liborc_0.4_la-orcmmx.o .libs/liborc_0.4_la-orcrules-mmx.o .libs/liborc_0.4_la-orcprogram-mmx.o .libs/liborc_0.4_la-orcrules-altivec.o .libs/liborc_0.4_la-orcprogram-altivec.o .libs/liborc_0.4_la-orcpowerpc.o .libs/liborc_0.4_la-orcprogram-neon.o .libs/liborc_0.4_la-orcrules-neon.o .libs/liborc_0.4_la-orcarm.o .libs/liborc_0.4_la-orcprogram-c64x-c.o .libs/liborc_0.4_la-orcmips.o .libs/liborc_0.4_la-orcprogram-mips.o .libs/liborc_0.4_la-orcrules-mips.o .libs/liborc_0.4_la-orccpu-x86.o   | sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' | /bin/sed 's/.* //' | sort | uniq > .libs/liborc-0.4.exp
+libtool: link: /bin/grep -E -e "orc_" ".libs/liborc-0.4.exp" > ".libs/liborc-0.4.expT"
+libtool: link: mv -f ".libs/liborc-0.4.expT" ".libs/liborc-0.4.exp"
+libtool: link: echo "{ global:" > .libs/liborc-0.4.ver
+libtool: link:  cat .libs/liborc-0.4.exp | sed -e "s/\(.*\)/\1;/" >> .libs/liborc-0.4.ver
+libtool: link:  echo "local: *; };" >> .libs/liborc-0.4.ver
+libtool: link:  gcc -shared  -fPIC -DPIC  .libs/liborc_0.4_la-orc.o .libs/liborc_0.4_la-orcbytecode.o .libs/liborc_0.4_la-orcemulateopcodes.o .libs/liborc_0.4_la-orcexecutor.o .libs/liborc_0.4_la-orcfunctions.o .libs/liborc_0.4_la-orcutils.o .libs/liborc_0.4_la-orcrule.o .libs/liborc_0.4_la-orccodemem.o .libs/liborc_0.4_la-orcprogram.o .libs/liborc_0.4_la-orccompiler.o .libs/liborc_0.4_la-orcprogram-c.o .libs/liborc_0.4_la-orcopcodes.o .libs/liborc_0.4_la-orcparse.o .libs/liborc_0.4_la-orconce.o .libs/liborc_0.4_la-orcdebug.o .libs/liborc_0.4_la-orccode.o .libs/liborc_0.4_la-orcsse.o .libs/liborc_0.4_la-orcrules-sse.o .libs/liborc_0.4_la-orcprogram-sse.o .libs/liborc_0.4_la-orcx86.o .libs/liborc_0.4_la-orcx86insn.o .libs/liborc_0.4_la-orcmmx.o .libs/liborc_0.4_la-orcrules-mmx.o .libs/liborc_0.4_la-orcprogram-mmx.o .libs/liborc_0.4_la-orcrules-altivec.o .libs/liborc_0.4_la-orcprogram-altivec.o .libs/liborc_0.4_la-orcpowerpc.o .libs/liborc_0.4_la-orcprogram-neon.o .libs/liborc_0.4_la-orcrules-neon.o .libs/liborc_0.4_la-orcarm.o .libs/liborc_0.4_la-orcprogram-c64x-c.o .libs/liborc_0.4_la-orcmips.o .libs/liborc_0.4_la-orcprogram-mips.o .libs/liborc_0.4_la-orcrules-mips.o .libs/liborc_0.4_la-orccpu-x86.o   -lm -lrt -lpthread  -O2   -Wl,-soname -Wl,liborc-0.4.so.0 -Wl,-version-script -Wl,.libs/liborc-0.4.ver -o .libs/liborc-0.4.so.0.18.0
+libtool: link: (cd ".libs" && rm -f "liborc-0.4.so.0" && ln -s "liborc-0.4.so.0.18.0" "liborc-0.4.so.0")
+libtool: link: (cd ".libs" && rm -f "liborc-0.4.so" && ln -s "liborc-0.4.so.0.18.0" "liborc-0.4.so")
+libtool: link: ( cd ".libs" && rm -f "liborc-0.4.la" && ln -s "../liborc-0.4.la" "liborc-0.4.la" )
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o generate-emulation generate_emulation-generate-emulation.o ../orc/liborc-0.4.la -lm -lrt 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o generate-bytecode generate_bytecode-generate-bytecode.o ../orc/liborc-0.4.la -lm -lrt 
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/generate-emulation generate_emulation-generate-emulation.o  ../orc/.libs/liborc-0.4.so -lm -lrt
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/generate-bytecode generate_bytecode-generate-bytecode.o  ../orc/.libs/liborc-0.4.so -lm -lrt
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc'
+Making all in orc-test
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc-test'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_test_0.4_la-orctest.lo -MD -MP -MF .deps/liborc_test_0.4_la-orctest.Tpo -c -o liborc_test_0.4_la-orctest.lo `test -f 'orctest.c' || echo './'`orctest.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_test_0.4_la-orcarray.lo -MD -MP -MF .deps/liborc_test_0.4_la-orcarray.Tpo -c -o liborc_test_0.4_la-orcarray.lo `test -f 'orcarray.c' || echo './'`orcarray.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_test_0.4_la-orcrandom.lo -MD -MP -MF .deps/liborc_test_0.4_la-orcrandom.Tpo -c -o liborc_test_0.4_la-orcrandom.lo `test -f 'orcrandom.c' || echo './'`orcrandom.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_test_0.4_la-orcprofile.lo -MD -MP -MF .deps/liborc_test_0.4_la-orcprofile.Tpo -c -o liborc_test_0.4_la-orcprofile.lo `test -f 'orcprofile.c' || echo './'`orcprofile.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_test_0.4_la-orcrandom.lo -MD -MP -MF .deps/liborc_test_0.4_la-orcrandom.Tpo -c orcrandom.c  -fPIC -DPIC -o .libs/liborc_test_0.4_la-orcrandom.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_test_0.4_la-orctest.lo -MD -MP -MF .deps/liborc_test_0.4_la-orctest.Tpo -c orctest.c  -fPIC -DPIC -o .libs/liborc_test_0.4_la-orctest.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_test_0.4_la-orcarray.lo -MD -MP -MF .deps/liborc_test_0.4_la-orcarray.Tpo -c orcarray.c  -fPIC -DPIC -o .libs/liborc_test_0.4_la-orcarray.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -MT liborc_test_0.4_la-orcprofile.lo -MD -MP -MF .deps/liborc_test_0.4_la-orcprofile.Tpo -c orcprofile.c  -fPIC -DPIC -o .libs/liborc_test_0.4_la-orcprofile.o
+mv -f .deps/liborc_test_0.4_la-orcrandom.Tpo .deps/liborc_test_0.4_la-orcrandom.Plo
+mv -f .deps/liborc_test_0.4_la-orcprofile.Tpo .deps/liborc_test_0.4_la-orcprofile.Plo
+mv -f .deps/liborc_test_0.4_la-orcarray.Tpo .deps/liborc_test_0.4_la-orcarray.Plo
+mv -f .deps/liborc_test_0.4_la-orctest.Tpo .deps/liborc_test_0.4_la-orctest.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -version-info 18:0:18 -no-undefined -export-symbols-regex 'orc_'  -o liborc-test-0.4.la -rpath /usr/lib liborc_test_0.4_la-orctest.lo liborc_test_0.4_la-orcarray.lo liborc_test_0.4_la-orcrandom.lo liborc_test_0.4_la-orcprofile.lo ../orc/liborc-0.4.la -lm -lrt 
+libtool: link: /usr/bin/nm -B  .libs/liborc_test_0.4_la-orctest.o .libs/liborc_test_0.4_la-orcarray.o .libs/liborc_test_0.4_la-orcrandom.o .libs/liborc_test_0.4_la-orcprofile.o   | sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' | /bin/sed 's/.* //' | sort | uniq > .libs/liborc-test-0.4.exp
+libtool: link: /bin/grep -E -e "orc_" ".libs/liborc-test-0.4.exp" > ".libs/liborc-test-0.4.expT"
+libtool: link: mv -f ".libs/liborc-test-0.4.expT" ".libs/liborc-test-0.4.exp"
+libtool: link: echo "{ global:" > .libs/liborc-test-0.4.ver
+libtool: link:  cat .libs/liborc-test-0.4.exp | sed -e "s/\(.*\)/\1;/" >> .libs/liborc-test-0.4.ver
+libtool: link:  echo "local: *; };" >> .libs/liborc-test-0.4.ver
+libtool: link:  gcc -shared  -fPIC -DPIC  .libs/liborc_test_0.4_la-orctest.o .libs/liborc_test_0.4_la-orcarray.o .libs/liborc_test_0.4_la-orcrandom.o .libs/liborc_test_0.4_la-orcprofile.o   -Wl,-rpath -Wl,/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc/.libs ../orc/.libs/liborc-0.4.so -lm -lrt  -O2   -Wl,-soname -Wl,liborc-test-0.4.so.0 -Wl,-version-script -Wl,.libs/liborc-test-0.4.ver -o .libs/liborc-test-0.4.so.0.18.0
+libtool: link: (cd ".libs" && rm -f "liborc-test-0.4.so.0" && ln -s "liborc-test-0.4.so.0.18.0" "liborc-test-0.4.so.0")
+libtool: link: (cd ".libs" && rm -f "liborc-test-0.4.so" && ln -s "liborc-test-0.4.so.0.18.0" "liborc-test-0.4.so")
+libtool: link: ( cd ".libs" && rm -f "liborc-test-0.4.la" && ln -s "../liborc-test-0.4.la" "liborc-test-0.4.la" )
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc-test'
+Making all in tools
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/tools'
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT orcc.o -MD -MP -MF .deps/orcc.Tpo -c -o orcc.o orcc.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT orc-bugreport.o -MD -MP -MF .deps/orc-bugreport.Tpo -c -o orc-bugreport.o orc-bugreport.c
+mv -f .deps/orc-bugreport.Tpo .deps/orc-bugreport.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o orc-bugreport orc-bugreport.o ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la 
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/orc-bugreport orc-bugreport.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+mv -f .deps/orcc.Tpo .deps/orcc.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o orcc orcc.o ../orc/liborc-0.4.la -lm -lrt 
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/orcc orcc.o  ../orc/.libs/liborc-0.4.so -lm -lrt
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/tools'
+Making all in examples
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+../tools/orcc --implementation -o example1orc.c ./example1orc.orc
+../tools/orcc --header -o example1orc.h ./example1orc.orc
+../tools/orcc --implementation -o example2orc.c ./example2orc.orc
+../tools/orcc --header -o example2orc.h ./example2orc.orc
+../tools/orcc --implementation -o example3orc.c ./example3orc.orc
+../tools/orcc --header -o example3orc.h ./example3orc.orc
+../tools/orcc --implementation -o mt19937arorc.c ./mt19937arorc.orc
+../tools/orcc --header -o mt19937arorc.h ./mt19937arorc.orc
+make  all-am
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT example1.o -MD -MP -MF .deps/example1.Tpo -c -o example1.o example1.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT example1orc.o -MD -MP -MF .deps/example1orc.Tpo -c -o example1orc.o example1orc.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT example2.o -MD -MP -MF .deps/example2.Tpo -c -o example2.o example2.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT example2orc.o -MD -MP -MF .deps/example2orc.Tpo -c -o example2orc.o example2orc.c
+mv -f .deps/example1.Tpo .deps/example1.Po
+mv -f .deps/example2.Tpo .deps/example2.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT example3.o -MD -MP -MF .deps/example3.Tpo -c -o example3.o example3.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT example3orc.o -MD -MP -MF .deps/example3orc.Tpo -c -o example3orc.o example3orc.c
+mv -f .deps/example2orc.Tpo .deps/example2orc.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT mt19937ar.o -MD -MP -MF .deps/mt19937ar.Tpo -c -o mt19937ar.o mt19937ar.c
+mv -f .deps/example3.Tpo .deps/example3.Po
+mv -f .deps/example1orc.Tpo .deps/example1orc.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT mt19937arorc.o -MD -MP -MF .deps/mt19937arorc.Tpo -c -o mt19937arorc.o mt19937arorc.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT volscale.o -MD -MP -MF .deps/volscale.Tpo -c -o volscale.o volscale.c
+mv -f .deps/example3orc.Tpo .deps/example3orc.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2 ../orc/liborc-0.4.la -lm -lrt  -o example1 example1.o example1orc.o  
+mv -f .deps/mt19937arorc.Tpo .deps/mt19937arorc.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2 ../orc/liborc-0.4.la -lm -lrt  -o example2 example2.o example2orc.o  
+mv -f .deps/mt19937ar.Tpo .deps/mt19937ar.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2 ../orc/liborc-0.4.la -lm -lrt  -o example3 example3.o example3orc.o  
+mv -f .deps/volscale.Tpo .deps/volscale.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2 ../orc/liborc-0.4.la -lm -lrt  -o mt19937ar mt19937ar.o mt19937arorc.o  
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/example1 example1.o example1orc.o  ../orc/.libs/liborc-0.4.so -lm -lrt
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/example2 example2.o example2orc.o  ../orc/.libs/liborc-0.4.so -lm -lrt
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2 ../orc/liborc-0.4.la -lm -lrt  -o volscale volscale.o  
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/example3 example3.o example3orc.o  ../orc/.libs/liborc-0.4.so -lm -lrt
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/mt19937ar mt19937ar.o mt19937arorc.o  ../orc/.libs/liborc-0.4.so -lm -lrt
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/volscale volscale.o  ../orc/.libs/liborc-0.4.so -lm -lrt
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+Making all in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/doc'
+Making all in testsuite
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+Making all in orcc
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+../../tools/orcc --include stdint.h --header -o testorc.h ../test.orc
+make  all-am
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall  -I../.. -g -O2 -MT orc_test.o -MD -MP -MF .deps/orc_test.Tpo -c -o orc_test.o orc_test.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall  -I../.. -g -O2 -MT test2.o -MD -MP -MF .deps/test2.Tpo -c -o test2.o test2.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall  -I../.. -g -O2 -MT testorc.o -MD -MP -MF .deps/testorc.Tpo -c -o testorc.o testorc.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -DDISABLE_ORC -g -O2 -MT test3-test3.o -MD -MP -MF .deps/test3-test3.Tpo -c -o test3-test3.o `test -f 'test3.c' || echo './'`test3.c
+mv -f .deps/test3-test3.Tpo .deps/test3-test3.Po
+mv -f .deps/test2.Tpo .deps/test2.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -DDISABLE_ORC -g -O2 -MT test3-testorc.o -MD -MP -MF .deps/test3-testorc.Tpo -c -o test3-testorc.o `test -f 'testorc.c' || echo './'`testorc.c
+mv -f .deps/test3-testorc.Tpo .deps/test3-testorc.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -DDISABLE_ORC -g -O2   -o test3 test3-test3.o test3-testorc.o  ../../orc/liborc-0.4.la -lm -lrt ../../orc-test/liborc-test-0.4.la
+libtool: link: gcc -DDISABLE_ORC -g -O2 -o .libs/test3 test3-test3.o test3-testorc.o  ../../orc/.libs/liborc-0.4.so -lm -lrt ../../orc-test/.libs/liborc-test-0.4.so
+mv -f .deps/testorc.Tpo .deps/testorc.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall  -I../.. -g -O2   -o test2 test2.o testorc.o  ../../orc/liborc-0.4.la -lm -lrt ../../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I../.. -g -O2 -o .libs/test2 test2.o testorc.o  ../../orc/.libs/liborc-0.4.so -lm -lrt ../../orc-test/.libs/liborc-test-0.4.so
+mv -f .deps/orc_test.Tpo .deps/orc_test.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall  -I../.. -g -O2   -o orc_test orc_test.o  ../../orc/liborc-0.4.la -lm -lrt ../../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I../.. -g -O2 -o .libs/orc_test orc_test.o  ../../orc/.libs/liborc-0.4.so -lm -lrt ../../orc-test/.libs/liborc-test-0.4.so
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+Making all in benchmorc
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/benchmorc'
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall  -I../.. -g -O2 -MT benchmorc.o -MD -MP -MF .deps/benchmorc.Tpo -c -o benchmorc.o benchmorc.c
+mv -f .deps/benchmorc.Tpo .deps/benchmorc.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall  -I../.. -g -O2   -o benchmorc benchmorc.o  ../../orc/liborc-0.4.la -lm -lrt ../../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I../.. -g -O2 -o .libs/benchmorc benchmorc.o  ../../orc/.libs/liborc-0.4.so -lm -lrt ../../orc-test/.libs/liborc-test-0.4.so
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/benchmorc'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT test_accsadubl.o -MD -MP -MF .deps/test_accsadubl.Tpo -c -o test_accsadubl.o test_accsadubl.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT test-schro.o -MD -MP -MF .deps/test-schro.Tpo -c -o test-schro.o test-schro.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT exec_opcodes_sys.o -MD -MP -MF .deps/exec_opcodes_sys.Tpo -c -o exec_opcodes_sys.o exec_opcodes_sys.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT exec_parse.o -MD -MP -MF .deps/exec_parse.Tpo -c -o exec_parse.o exec_parse.c
+mv -f .deps/test_accsadubl.Tpo .deps/test_accsadubl.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT perf_opcodes_sys.o -MD -MP -MF .deps/perf_opcodes_sys.Tpo -c -o perf_opcodes_sys.o perf_opcodes_sys.c
+mv -f .deps/exec_parse.Tpo .deps/exec_parse.Po
+mv -f .deps/perf_opcodes_sys.Tpo .deps/perf_opcodes_sys.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT perf_parse.o -MD -MP -MF .deps/perf_parse.Tpo -c -o perf_parse.o perf_parse.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT memcpy_speed.o -MD -MP -MF .deps/memcpy_speed.Tpo -c -o memcpy_speed.o memcpy_speed.c
+mv -f .deps/test-schro.Tpo .deps/test-schro.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT abi.o -MD -MP -MF .deps/abi.Tpo -c -o abi.o abi.c
+mv -f .deps/perf_parse.Tpo .deps/perf_parse.Po
+mv -f .deps/exec_opcodes_sys.Tpo .deps/exec_opcodes_sys.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT generate_xml_table.o -MD -MP -MF .deps/generate_xml_table.Tpo -c -o generate_xml_table.o generate_xml_table.c
+mv -f .deps/abi.Tpo .deps/abi.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT generate_xml_table2.o -MD -MP -MF .deps/generate_xml_table2.Tpo -c -o generate_xml_table2.o generate_xml_table2.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT generate_opcodes_sys.o -MD -MP -MF .deps/generate_opcodes_sys.Tpo -c -o generate_opcodes_sys.o generate_opcodes_sys.c
+mv -f .deps/memcpy_speed.Tpo .deps/memcpy_speed.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT compile_parse.o -MD -MP -MF .deps/compile_parse.Tpo -c -o compile_parse.o compile_parse.c
+mv -f .deps/generate_xml_table.Tpo .deps/generate_xml_table.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT compile_parse_c.o -MD -MP -MF .deps/compile_parse_c.Tpo -c -o compile_parse_c.o compile_parse_c.c
+mv -f .deps/generate_xml_table2.Tpo .deps/generate_xml_table2.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT perf_opcodes_sys_compare.o -MD -MP -MF .deps/perf_opcodes_sys_compare.Tpo -c -o perf_opcodes_sys_compare.o perf_opcodes_sys_compare.c
+mv -f .deps/generate_opcodes_sys.Tpo .deps/generate_opcodes_sys.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT perf_parse_compare.o -MD -MP -MF .deps/perf_parse_compare.Tpo -c -o perf_parse_compare.o perf_parse_compare.c
+mv -f .deps/compile_parse.Tpo .deps/compile_parse.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT bytecode_parse.o -MD -MP -MF .deps/bytecode_parse.Tpo -c -o bytecode_parse.o bytecode_parse.c
+mv -f .deps/compile_parse_c.Tpo .deps/compile_parse_c.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT compile_opcodes_sys_c.o -MD -MP -MF .deps/compile_opcodes_sys_c.Tpo -c -o compile_opcodes_sys_c.o compile_opcodes_sys_c.c
+mv -f .deps/perf_opcodes_sys_compare.Tpo .deps/perf_opcodes_sys_compare.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT compile_opcodes_sys.o -MD -MP -MF .deps/compile_opcodes_sys.Tpo -c -o compile_opcodes_sys.o compile_opcodes_sys.c
+mv -f .deps/perf_parse_compare.Tpo .deps/perf_parse_compare.Po
+mv -f .deps/bytecode_parse.Tpo .deps/bytecode_parse.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT show_parse.o -MD -MP -MF .deps/show_parse.Tpo -c -o show_parse.o show_parse.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT compile_opcodes_sys_neon.o -MD -MP -MF .deps/compile_opcodes_sys_neon.Tpo -c -o compile_opcodes_sys_neon.o compile_opcodes_sys_neon.c
+mv -f .deps/compile_opcodes_sys_c.Tpo .deps/compile_opcodes_sys_c.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT compile_parse_neon.o -MD -MP -MF .deps/compile_parse_neon.Tpo -c -o compile_parse_neon.o compile_parse_neon.c
+mv -f .deps/compile_opcodes_sys.Tpo .deps/compile_opcodes_sys.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT compile_opcodes_sys_c64x.o -MD -MP -MF .deps/compile_opcodes_sys_c64x.Tpo -c -o compile_opcodes_sys_c64x.o compile_opcodes_sys_c64x.c
+mv -f .deps/compile_opcodes_sys_neon.Tpo .deps/compile_opcodes_sys_neon.Po
+mv -f .deps/show_parse.Tpo .deps/show_parse.Po
+mv -f .deps/compile_parse_neon.Tpo .deps/compile_parse_neon.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall  -I.. -g -O2 -MT compile_opcodes_sys_mips.o -MD -MP -MF .deps/compile_opcodes_sys_mips.Tpo -c -o compile_opcodes_sys_mips.o compile_opcodes_sys_mips.c
+mv -f .deps/compile_opcodes_sys_c64x.Tpo .deps/compile_opcodes_sys_c64x.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o test_accsadubl test_accsadubl.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o test-schro test-schro.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o exec_opcodes_sys exec_opcodes_sys.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+mv -f .deps/compile_opcodes_sys_mips.Tpo .deps/compile_opcodes_sys_mips.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o exec_parse exec_parse.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/test-schro test-schro.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/exec_opcodes_sys exec_opcodes_sys.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/test_accsadubl test_accsadubl.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o perf_opcodes_sys perf_opcodes_sys.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o perf_parse perf_parse.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o memcpy_speed memcpy_speed.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/exec_parse exec_parse.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o abi abi.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/perf_opcodes_sys perf_opcodes_sys.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/perf_parse perf_parse.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o generate_xml_table generate_xml_table.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/memcpy_speed memcpy_speed.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o generate_xml_table2 generate_xml_table2.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/abi abi.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o generate_opcodes_sys generate_opcodes_sys.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o compile_parse compile_parse.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/generate_xml_table generate_xml_table.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o compile_parse_c compile_parse_c.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/generate_xml_table2 generate_xml_table2.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/generate_opcodes_sys generate_opcodes_sys.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/compile_parse compile_parse.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o perf_opcodes_sys_compare perf_opcodes_sys_compare.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/compile_parse_c compile_parse_c.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o perf_parse_compare perf_parse_compare.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o bytecode_parse bytecode_parse.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o compile_opcodes_sys_c compile_opcodes_sys_c.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/perf_opcodes_sys_compare perf_opcodes_sys_compare.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o compile_opcodes_sys compile_opcodes_sys.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/perf_parse_compare perf_parse_compare.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/bytecode_parse bytecode_parse.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/compile_opcodes_sys_c compile_opcodes_sys_c.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o show_parse show_parse.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o compile_opcodes_sys_neon compile_opcodes_sys_neon.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o compile_parse_neon compile_parse_neon.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/compile_opcodes_sys compile_opcodes_sys.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/show_parse show_parse.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/compile_opcodes_sys_neon compile_opcodes_sys_neon.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o compile_opcodes_sys_c64x compile_opcodes_sys_c64x.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall  -I.. -g -O2   -o compile_opcodes_sys_mips compile_opcodes_sys_mips.o  ../orc/liborc-0.4.la -lm -lrt ../orc-test/liborc-test-0.4.la
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/compile_parse_neon compile_parse_neon.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/compile_opcodes_sys_c64x compile_opcodes_sys_c64x.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+libtool: link: gcc -Wall -I.. -g -O2 -o .libs/compile_opcodes_sys_mips compile_opcodes_sys_mips.o  ../orc/.libs/liborc-0.4.so -lm -lrt ../orc-test/.libs/liborc-test-0.4.so
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+cp orc.pc orc-0.4.pc
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+make  install-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+Making install in orc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   liborc-0.4.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/liborc-0.4.so.0.18.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib/liborc-0.4.so.0.18.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib && { ln -s -f liborc-0.4.so.0.18.0 liborc-0.4.so.0 || { rm -f liborc-0.4.so.0 && ln -s liborc-0.4.so.0.18.0 liborc-0.4.so.0; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib && { ln -s -f liborc-0.4.so.0.18.0 liborc-0.4.so || { rm -f liborc-0.4.so && ln -s liborc-0.4.so.0.18.0 liborc-0.4.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/liborc-0.4.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib/liborc-0.4.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/include/orc-0.4/orc'
+ /usr/bin/ginstall -c -m 644 orc-stdint.h orc.h orcarm.h orcbytecode.h orcbytecodes.h orccode.h orccompiler.h orcconstant.h orccpu.h orccpuinsn.h orcdebug.h orcemulateopcodes.h orcexecutor.h orcfunctions.h orcinstruction.h orcinternal.h orclimits.h orcmmx.h orcneon.h orconce.h orcopcode.h orcparse.h orcpowerpc.h orcprogram.h orcrule.h orcsse.h orctarget.h orcutils.h orcvariable.h orcx86.h orcx86insn.h orcmips.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/include/orc-0.4/orc'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc'
+Making install in orc-test
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc-test'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc-test'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   liborc-test-0.4.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib'
+libtool: install: warning: relinking `liborc-test-0.4.la'
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc-test; /bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/libtool  --tag CC --mode=relink gcc -Wall -I.. -DORC_ENABLE_UNSTABLE_API -g -O2 -version-info 18:0:18 -no-undefined -export-symbols-regex orc_ -o liborc-test-0.4.la -rpath /usr/lib liborc_test_0.4_la-orctest.lo liborc_test_0.4_la-orcarray.lo liborc_test_0.4_la-orcrandom.lo liborc_test_0.4_la-orcprofile.lo ../orc/liborc-0.4.la -lm -lrt -inst-prefix-dir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install)
+libtool: relink: /usr/bin/nm -B  .libs/liborc_test_0.4_la-orctest.o .libs/liborc_test_0.4_la-orcarray.o .libs/liborc_test_0.4_la-orcrandom.o .libs/liborc_test_0.4_la-orcprofile.o   | sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' | /bin/sed 's/.* //' | sort | uniq > .libs/liborc-test-0.4.exp
+libtool: relink: /bin/grep -E -e "orc_" ".libs/liborc-test-0.4.exp" > ".libs/liborc-test-0.4.expT"
+libtool: relink: mv -f ".libs/liborc-test-0.4.expT" ".libs/liborc-test-0.4.exp"
+libtool: relink: echo "{ global:" > .libs/liborc-test-0.4.ver
+libtool: relink:  cat .libs/liborc-test-0.4.exp | sed -e "s/\(.*\)/\1;/" >> .libs/liborc-test-0.4.ver
+libtool: relink:  echo "local: *; };" >> .libs/liborc-test-0.4.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/liborc_test_0.4_la-orctest.o .libs/liborc_test_0.4_la-orcarray.o .libs/liborc_test_0.4_la-orcrandom.o .libs/liborc_test_0.4_la-orcprofile.o   -L/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib -L/usr/lib -lorc-0.4 -lm -lrt  -O2   -Wl,-soname -Wl,liborc-test-0.4.so.0 -Wl,-version-script -Wl,.libs/liborc-test-0.4.ver -o .libs/liborc-test-0.4.so.0.18.0
+libtool: install: /usr/bin/ginstall -c .libs/liborc-test-0.4.so.0.18.0T /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib/liborc-test-0.4.so.0.18.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib && { ln -s -f liborc-test-0.4.so.0.18.0 liborc-test-0.4.so.0 || { rm -f liborc-test-0.4.so.0 && ln -s liborc-test-0.4.so.0.18.0 liborc-test-0.4.so.0; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib && { ln -s -f liborc-test-0.4.so.0.18.0 liborc-test-0.4.so || { rm -f liborc-test-0.4.so && ln -s liborc-test-0.4.so.0.18.0 liborc-test-0.4.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/liborc-test-0.4.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib/liborc-test-0.4.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/include/orc-0.4/orc-test'
+ /usr/bin/ginstall -c -m 644 orctest.h orcarray.h orcrandom.h orcprofile.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/include/orc-0.4/orc-test'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc-test'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/orc-test'
+Making install in tools
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/tools'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/tools'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c orcc orc-bugreport '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c .libs/orcc /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/bin/orcc
+libtool: install: /usr/bin/ginstall -c .libs/orc-bugreport /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/bin/orc-bugreport
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/tools'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/tools'
+Making install in examples
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+make  install-am
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/examples'
+Making install in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/doc'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+-- Installing ./html/ch01.html
+-- Installing ./html/ch02.html
+-- Installing ./html/ch03.html
+-- Installing ./html/ch04.html
+-- Installing ./html/ch05.html
+-- Installing ./html/home.png
+-- Installing ./html/index.html
+-- Installing ./html/index.sgml
+-- Installing ./html/left.png
+-- Installing ./html/orc-ARM.html
+-- Installing ./html/orc-building.html
+-- Installing ./html/orc-concepts.html
+-- Installing ./html/orc.devhelp2
+-- Installing ./html/orc-misc.html
+-- Installing ./html/orc-MMX.html
+-- Installing ./html/orc-opcodes.html
+-- Installing ./html/orc-OrcCompiler.html
+-- Installing ./html/orc-OrcDebug.html
+-- Installing ./html/orc-OrcExecutor.html
+-- Installing ./html/orc-Orc.html
+-- Installing ./html/orc-OrcOpcode.html
+-- Installing ./html/orc-OrcProgram.html
+-- Installing ./html/orc-OrcRule.html
+-- Installing ./html/orc-PowerPC.html
+-- Installing ./html/orc-program.html
+-- Installing ./html/orc-runninging.html
+-- Installing ./html/orc-SSE.html
+-- Installing ./html/orc-tutorial.html
+-- Installing ./html/orc-Utility-functions.html
+-- Installing ./html/orc-x86.html
+-- Installing ./html/right.png
+-- Installing ./html/style.css
+-- Installing ./html/up.png
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/doc'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/doc'
+Making install in testsuite
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+Making install in orcc
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+make  install-am
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/orcc'
+Making install in benchmorc
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/benchmorc'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/benchmorc'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/benchmorc'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite/benchmorc'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18/testsuite'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+make[3]: Nothing to be done for `install-exec-am'.
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/share/aclocal'
+ /usr/bin/ginstall -c -m 644 orc.m4 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/share/aclocal'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib/pkgconfig'
+ /usr/bin/ginstall -c -m 644 orc-0.4.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-install/usr/lib/pkgconfig'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc/orc-0.4.18'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/orc
+Found 'i686'
+Processing ../orc-install/usr/bin/orc-bugreport
+Processing ../orc-install/usr/bin/orcc
+Processing ../orc-install/usr/include/orc-0.4/orc/orcarm.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcbytecode.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcbytecodes.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orccode.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orccompiler.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcconstant.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orccpu.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orccpuinsn.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcdebug.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcemulateopcodes.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcexecutor.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcfunctions.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orc.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcinstruction.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcinternal.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orclimits.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcmips.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcmmx.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcneon.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orconce.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcopcode.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcparse.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcpowerpc.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcprogram.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcrule.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcsse.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orc-stdint.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orctarget.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcutils.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcvariable.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcx86.h
+Processing ../orc-install/usr/include/orc-0.4/orc/orcx86insn.h
+Processing ../orc-install/usr/include/orc-0.4/orc-test/orcarray.h
+Processing ../orc-install/usr/include/orc-0.4/orc-test/orcprofile.h
+Processing ../orc-install/usr/include/orc-0.4/orc-test/orcrandom.h
+Processing ../orc-install/usr/include/orc-0.4/orc-test/orctest.h
+Processing ../orc-install/usr/lib/liborc-0.4.la
+Processing ../orc-install/usr/lib/liborc-0.4.so
+Processing ../orc-install/usr/lib/liborc-0.4.so.0
+Processing ../orc-install/usr/lib/liborc-0.4.so.0.18.0
+Processing ../orc-install/usr/lib/liborc-test-0.4.la
+Processing ../orc-install/usr/lib/liborc-test-0.4.so
+Processing ../orc-install/usr/lib/liborc-test-0.4.so.0
+Processing ../orc-install/usr/lib/liborc-test-0.4.so.0.18.0
+Processing ../orc-install/usr/lib/pkgconfig/orc-0.4.pc
+Processing ../orc-install/usr/share/aclocal/orc.m4
+Processing ../orc-install/usr/share/gtk-doc/html/orc/ch01.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/ch02.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/ch03.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/ch04.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/ch05.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/home.png
+Processing ../orc-install/usr/share/gtk-doc/html/orc/index.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/index.sgml
+Processing ../orc-install/usr/share/gtk-doc/html/orc/left.png
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-ARM.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-building.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-concepts.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc.devhelp2
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-misc.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-MMX.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-opcodes.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-OrcCompiler.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-OrcDebug.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-OrcExecutor.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-Orc.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-OrcOpcode.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-OrcProgram.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-OrcRule.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-PowerPC.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-program.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-runninging.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-SSE.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-tutorial.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-Utility-functions.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/orc-x86.html
+Processing ../orc-install/usr/share/gtk-doc/html/orc/right.png
+Processing ../orc-install/usr/share/gtk-doc/html/orc/style.css
+Processing ../orc-install/usr/share/gtk-doc/html/orc/up.png
+all done
+packaging orc-0.4.18-i686_slk600
+packaging orc_DEV-0.4.18-i686_slk600
+packaging orc_DOC-0.4.18-i686_slk600
+done!

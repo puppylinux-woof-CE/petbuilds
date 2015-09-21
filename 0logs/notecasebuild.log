@@ -1,0 +1,569 @@
+notecase-1.9.8/
+notecase-1.9.8/res/
+notecase-1.9.8/res/notecase.xpm
+notecase-1.9.8/res/notecase.png
+notecase-1.9.8/res/bulb.xpm
+notecase-1.9.8/res/icon_attachment.xpm
+notecase-1.9.8/res/notecase.ico
+notecase-1.9.8/res/text_italic.xpm
+notecase-1.9.8/res/text_strikethrough.xpm
+notecase-1.9.8/res/internal_blank.xpm
+notecase-1.9.8/res/internal_folder.xpm
+notecase-1.9.8/res/text_bold.xpm
+notecase-1.9.8/res/text_color.xpm
+notecase-1.9.8/res/text_bg_color.xpm
+notecase-1.9.8/res/internal_new_dir.xpm
+notecase-1.9.8/res/internal_lock.xpm
+notecase-1.9.8/res/text_underline.xpm
+notecase-1.9.8/res/notecase.rc
+notecase-1.9.8/res/internal_recycle.xpm
+notecase-1.9.8/res/resource.h
+notecase-1.9.8/res/page_link.xpm
+notecase-1.9.8/res/internal_help.xpm
+notecase-1.9.8/res/icon_datetime.xpm
+notecase-1.9.8/res/icon_picture.xpm
+notecase-1.9.8/res/text_no_format.xpm
+notecase-1.9.8/res/key.xpm
+notecase-1.9.8/docs/
+notecase-1.9.8/docs/notecase.png
+notecase-1.9.8/docs/license.txt
+notecase-1.9.8/docs/install.iss
+notecase-1.9.8/docs/_build_locale.bat
+notecase-1.9.8/docs/_build_clean.bat
+notecase-1.9.8/docs/notecase.desktop
+notecase-1.9.8/docs/control
+notecase-1.9.8/docs/readme.txt
+notecase-1.9.8/docs/notecase.url
+notecase-1.9.8/docs/notecase.spec
+notecase-1.9.8/docs/upx-pack.bat
+notecase-1.9.8/docs/notecase.glade
+notecase-1.9.8/docs/notecase.xml
+notecase-1.9.8/docs/help.ncd
+notecase-1.9.8/docs/wasc
+notecase-1.9.8/docs/notecase.service
+notecase-1.9.8/NoteCase.sln
+notecase-1.9.8/po/
+notecase-1.9.8/po/fr_CA.po
+notecase-1.9.8/po/zh_CN.po
+notecase-1.9.8/po/pt.po
+notecase-1.9.8/po/sv.po
+notecase-1.9.8/po/es.po
+notecase-1.9.8/po/ro.po
+notecase-1.9.8/po/nl.po
+notecase-1.9.8/po/hu.po
+notecase-1.9.8/po/no.po
+notecase-1.9.8/po/ms.po
+notecase-1.9.8/po/ja.po
+notecase-1.9.8/po/da.po
+notecase-1.9.8/po/sk.po
+notecase-1.9.8/po/ru.po
+notecase-1.9.8/po/ar.po
+notecase-1.9.8/po/zh_TW.po
+notecase-1.9.8/po/tr.po
+notecase-1.9.8/po/de.po
+notecase-1.9.8/po/ca.po
+notecase-1.9.8/po/ta.po
+notecase-1.9.8/po/fr.po
+notecase-1.9.8/po/el.po
+notecase-1.9.8/po/hr.po
+notecase-1.9.8/po/cs.po
+notecase-1.9.8/po/sl.po
+notecase-1.9.8/po/id.po
+notecase-1.9.8/po/sr.po
+notecase-1.9.8/po/ko.po
+notecase-1.9.8/po/pt_BR.po
+notecase-1.9.8/po/et.po
+notecase-1.9.8/po/pl.po
+notecase-1.9.8/po/it.po
+notecase-1.9.8/po/notecase.pot
+notecase-1.9.8/po/en_GB.po
+notecase-1.9.8/po/fi.po
+notecase-1.9.8/NoteCase.vcproj
+notecase-1.9.8/NoteCase.dsp
+notecase-1.9.8/readme.txt
+notecase-1.9.8/src/
+notecase-1.9.8/src/DocActionAtt.cpp
+notecase-1.9.8/src/_unx/
+notecase-1.9.8/src/_unx/SingleInstance.h
+notecase-1.9.8/src/_unx/ExecuteFile.cpp
+notecase-1.9.8/src/_unx/eggtrayicon.cpp
+notecase-1.9.8/src/_unx/eggtrayicon.h
+notecase-1.9.8/src/_unx/SingleInstance.cpp
+notecase-1.9.8/src/main.cpp
+notecase-1.9.8/src/DocActionSort.cpp
+notecase-1.9.8/src/PasswordDialog.h
+notecase-1.9.8/src/FileSaveAsDlg.h
+notecase-1.9.8/src/FileAttachmentDlg.h
+notecase-1.9.8/src/PortableTrayIcon.h
+notecase-1.9.8/src/FileSaveAsDlg.cpp
+notecase-1.9.8/src/DateTimeDlg.h
+notecase-1.9.8/src/TextView.cpp
+notecase-1.9.8/src/NodePropertiesDlg.h
+notecase-1.9.8/src/mru.h
+notecase-1.9.8/src/FindReplaceDlg.h
+notecase-1.9.8/src/DocActionSort.h
+notecase-1.9.8/src/callbacks.cpp
+notecase-1.9.8/src/ShortcutsListDlg.h
+notecase-1.9.8/src/FindReplaceInfo.cpp
+notecase-1.9.8/src/DocActionFmt.h
+notecase-1.9.8/src/DocAction.h
+notecase-1.9.8/src/DocActionFinishDel.cpp
+notecase-1.9.8/src/gui/
+notecase-1.9.8/src/gui/Dialog.h
+notecase-1.9.8/src/gui/FileDialog.h
+notecase-1.9.8/src/gui/GuiLanguage.cpp
+notecase-1.9.8/src/gui/Dialog.cpp
+notecase-1.9.8/src/gui/ProgressDlg.cpp
+notecase-1.9.8/src/gui/ProgressDlg.h
+notecase-1.9.8/src/gui/GuiLanguage.h
+notecase-1.9.8/src/gui/FileDialog.cpp
+notecase-1.9.8/src/OptionsDialog.h
+notecase-1.9.8/src/LinkPropertiesDlg.h
+notecase-1.9.8/src/DocActionPix.h
+notecase-1.9.8/src/PortableTrayIcon.cpp
+notecase-1.9.8/src/PixPropertiesDlg.h
+notecase-1.9.8/src/FindDialog.cpp
+notecase-1.9.8/src/EditDlg.cpp
+notecase-1.9.8/src/ShortcutsList.cpp
+notecase-1.9.8/src/mru.cpp
+notecase-1.9.8/src/DocActionFinishDel.h
+notecase-1.9.8/src/PixPropertiesDlg.cpp
+notecase-1.9.8/src/DateTimeDlg.cpp
+notecase-1.9.8/src/DocActionFmt.cpp
+notecase-1.9.8/src/DocActionPix.cpp
+notecase-1.9.8/src/PasswordDialog.cpp
+notecase-1.9.8/src/FileExportDlg.cpp
+notecase-1.9.8/src/TreeView.h
+notecase-1.9.8/src/callbacks.h
+notecase-1.9.8/src/DocActionAtt.h
+notecase-1.9.8/src/OptionsDialog.cpp
+notecase-1.9.8/src/ShortcutsListDlg.cpp
+notecase-1.9.8/src/FindReplaceInfo.h
+notecase-1.9.8/src/lib/
+notecase-1.9.8/src/lib/FormatIOStickyNotes.cpp
+notecase-1.9.8/src/lib/Base64.h
+notecase-1.9.8/src/lib/IOLayerRedirect.h
+notecase-1.9.8/src/lib/LinkInfo.cpp
+notecase-1.9.8/src/lib/NoteDocument.h
+notecase-1.9.8/src/lib/EnumDirectory.h
+notecase-1.9.8/src/lib/FormatIOGjots2.cpp
+notecase-1.9.8/src/lib/FormatIOBase.cpp
+notecase-1.9.8/src/lib/DocActionBase.h
+notecase-1.9.8/src/lib/Thread.cpp
+notecase-1.9.8/src/lib/NoteNode.h
+notecase-1.9.8/src/lib/FormatIOEncHtml.h
+notecase-1.9.8/src/lib/IOLayerFile64.h
+notecase-1.9.8/src/lib/NoteNode.cpp
+notecase-1.9.8/src/lib/FormatIOEncHtml.cpp
+notecase-1.9.8/src/lib/DocActionManager.cpp
+notecase-1.9.8/src/lib/FormatIOMMLX.h
+notecase-1.9.8/src/lib/IOLayerEnc.cpp
+notecase-1.9.8/src/lib/IOLayerEnc.h
+notecase-1.9.8/src/lib/LibNote.dsp
+notecase-1.9.8/src/lib/debug.h
+notecase-1.9.8/src/lib/IOLayerZlib.cpp
+notecase-1.9.8/src/lib/blowfish2.h
+notecase-1.9.8/src/lib/FormatIOBase.h
+notecase-1.9.8/src/lib/FormatIOGjots2.h
+notecase-1.9.8/src/lib/HtmlParser.cpp
+notecase-1.9.8/src/lib/FilePath.cpp
+notecase-1.9.8/src/lib/FormatIOHtml.cpp
+notecase-1.9.8/src/lib/HtmlParser.h
+notecase-1.9.8/src/lib/LinkInfo.h
+notecase-1.9.8/src/lib/LibNote.dsw
+notecase-1.9.8/src/lib/IOLayerRedirect.cpp
+notecase-1.9.8/src/lib/Base64.cpp
+notecase-1.9.8/src/lib/CircularBuffer.h
+notecase-1.9.8/src/lib/IOProcess.cpp
+notecase-1.9.8/src/lib/TextSearch.cpp
+notecase-1.9.8/src/lib/zlib/
+notecase-1.9.8/src/lib/zlib/inflate.c
+notecase-1.9.8/src/lib/zlib/trees.h
+notecase-1.9.8/src/lib/zlib/compress.c
+notecase-1.9.8/src/lib/zlib/inffast.c
+notecase-1.9.8/src/lib/zlib/zconf.h
+notecase-1.9.8/src/lib/zlib/inflate.h
+notecase-1.9.8/src/lib/zlib/zlib.def
+notecase-1.9.8/src/lib/zlib/crc32.c
+notecase-1.9.8/src/lib/zlib/inffast.h
+notecase-1.9.8/src/lib/zlib/zlib_static.dsp
+notecase-1.9.8/src/lib/zlib/inffixed.h
+notecase-1.9.8/src/lib/zlib/deflate.c
+notecase-1.9.8/src/lib/zlib/trees.c
+notecase-1.9.8/src/lib/zlib/deflate.h
+notecase-1.9.8/src/lib/zlib/zlib_static.vcproj
+notecase-1.9.8/src/lib/zlib/zlib.dsw
+notecase-1.9.8/src/lib/zlib/gzio.c
+notecase-1.9.8/src/lib/zlib/zutil.c
+notecase-1.9.8/src/lib/zlib/adler32.c
+notecase-1.9.8/src/lib/zlib/inftrees.h
+notecase-1.9.8/src/lib/zlib/zlib.rc
+notecase-1.9.8/src/lib/zlib/infback.c
+notecase-1.9.8/src/lib/zlib/uncompr.c
+notecase-1.9.8/src/lib/zlib/inftrees.c
+notecase-1.9.8/src/lib/zlib/crc32.h
+notecase-1.9.8/src/lib/zlib/zutil.h
+notecase-1.9.8/src/lib/zlib/zlib.h
+notecase-1.9.8/src/lib/zlib/Makefile
+notecase-1.9.8/src/lib/IOLayerBase.cpp
+notecase-1.9.8/src/lib/DocActionManager.h
+notecase-1.9.8/src/lib/FmtInfo.cpp
+notecase-1.9.8/src/lib/FormatIOTxt.cpp
+notecase-1.9.8/src/lib/EnumDirectory.cpp
+notecase-1.9.8/src/lib/SHA1.cpp
+notecase-1.9.8/src/lib/IOProcess.h
+notecase-1.9.8/src/lib/DocumentIterator.cpp
+notecase-1.9.8/src/lib/FmtInfo.h
+notecase-1.9.8/src/lib/FilePath.h
+notecase-1.9.8/src/lib/blowfish.cpp
+notecase-1.9.8/src/lib/IOLayerFile64.cpp
+notecase-1.9.8/src/lib/FormatIOMMLX.cpp
+notecase-1.9.8/src/lib/FormatIOHtml.h
+notecase-1.9.8/src/lib/TextSearch.h
+notecase-1.9.8/src/lib/FormatIOTxt.h
+notecase-1.9.8/src/lib/IniFile.cpp
+notecase-1.9.8/src/lib/FormatIOExecutable.cpp
+notecase-1.9.8/src/lib/SHA1.h
+notecase-1.9.8/src/lib/File64.cpp
+notecase-1.9.8/src/lib/blowfish.h
+notecase-1.9.8/src/lib/debug.cpp
+notecase-1.9.8/src/lib/File64.h
+notecase-1.9.8/src/lib/types.h
+notecase-1.9.8/src/lib/IOLayerZlib.h
+notecase-1.9.8/src/lib/IniFile.h
+notecase-1.9.8/src/lib/FormatIOExecutable.h
+notecase-1.9.8/src/lib/IOLayerBase.h
+notecase-1.9.8/src/lib/DocumentIterator.h
+notecase-1.9.8/src/lib/Thread.h
+notecase-1.9.8/src/lib/NoteDocument.cpp
+notecase-1.9.8/src/lib/FormatIOStickyNotes.h
+notecase-1.9.8/src/lib/CircularBuffer.cpp
+notecase-1.9.8/src/interface.h
+notecase-1.9.8/src/DocActionFinish.cpp
+notecase-1.9.8/src/FindDialog.h
+notecase-1.9.8/src/TextView.h
+notecase-1.9.8/src/interface.cpp
+notecase-1.9.8/src/support.h
+notecase-1.9.8/src/FileExportDlg.h
+notecase-1.9.8/src/ShortcutsList.h
+notecase-1.9.8/src/LinkPropertiesDlg.cpp
+notecase-1.9.8/src/NodePropertiesDlg.cpp
+notecase-1.9.8/src/support.cpp
+notecase-1.9.8/src/FileAttachmentDlg.cpp
+notecase-1.9.8/src/MainWnd.h
+notecase-1.9.8/src/TreeView.cpp
+notecase-1.9.8/src/DocAction.cpp
+notecase-1.9.8/src/_win/
+notecase-1.9.8/src/_win/bootstart.cpp
+notecase-1.9.8/src/_win/SingleInstance.h
+notecase-1.9.8/src/_win/TrayIcon.h
+notecase-1.9.8/src/_win/RegisterExtension.cpp
+notecase-1.9.8/src/_win/bootstart.h
+notecase-1.9.8/src/_win/SingleInstanceWin.cpp
+notecase-1.9.8/src/_win/RegisterExtension.h
+notecase-1.9.8/src/_win/TrayIcon.cpp
+notecase-1.9.8/src/AboutDlg.h
+notecase-1.9.8/src/AboutDlg.cpp
+notecase-1.9.8/src/DocActionFinish.h
+notecase-1.9.8/src/FindReplaceDlg.cpp
+notecase-1.9.8/src/MainWnd.cpp
+notecase-1.9.8/src/EditDlg.h
+notecase-1.9.8/src/config.h
+notecase-1.9.8/src/ExecuteFile.h
+notecase-1.9.8/deb/
+notecase-1.9.8/deb/changelog
+notecase-1.9.8/deb/docs
+notecase-1.9.8/deb/control
+notecase-1.9.8/deb/copyright
+notecase-1.9.8/deb/compat
+notecase-1.9.8/deb/menu
+notecase-1.9.8/deb/postinst
+notecase-1.9.8/deb/rules
+notecase-1.9.8/tools/
+notecase-1.9.8/tools/NotecaseLauncher/
+notecase-1.9.8/tools/NotecaseLauncher/notecase.ico
+notecase-1.9.8/tools/NotecaseLauncher/NotecaseLauncher.vcproj
+notecase-1.9.8/tools/NotecaseLauncher/NotecaseLauncher.cpp
+notecase-1.9.8/tools/NotecaseLauncher/NotecaseLauncher.dsp
+notecase-1.9.8/tools/NotecaseLauncher/StdAfx.cpp
+notecase-1.9.8/tools/NotecaseLauncher/StdAfx.h
+notecase-1.9.8/tools/NotecaseLauncher/NotecaseLauncher.sln
+notecase-1.9.8/tools/NotecaseLauncher/NotecaseLauncher.h
+notecase-1.9.8/tools/NotecaseLauncher/resource.h
+notecase-1.9.8/tools/NotecaseLauncher/NotecaseLauncher.rc
+notecase-1.9.8/bin/
+notecase-1.9.8/bin/readme.txt
+notecase-1.9.8/NoteCase.dsw
+notecase-1.9.8/Makefile
+Applying ../notecase-1.9.8-build.patch
+patching file ./Makefile
+patching file ./src/lib/IniFile.cpp
+Applying ../notecase-1.9.8-zlib.patch
+patching file Makefile
+patching file src/callbacks.cpp
+patching file src/lib/IOLayerZlib.h
+Configuration: GNOME_VFS=;GTKSOURCEVIEW=1;DEBUG=;PROFILE=;BYTE_ORDER=-DSHA1_LITTLE_ENDIAN -DORDER_DCBA;PLATFORM="Linux"
+#@sed -i 's:\#define INSTALL_PREFIX .*:\#define INSTALL_PREFIX "/usr":' ./src/config.h
+===> Compiling src/main.cpp
+./src/main.cpp: In function ‘int main(int, char**)’:
+./src/main.cpp:393:10: warning: variable ‘nRead’ set but not used [-Wunused-but-set-variable]
+   size_t nRead = 0;
+          ^
+===> Compiling src/support.cpp
+===> Compiling src/callbacks.cpp
+./src/callbacks.cpp: In function ‘void export_document(const NoteDocument&, int, const string&, const string&, const string&, int, bool, bool, int, int)’:
+./src/callbacks.cpp:2351:12: warning: variable ‘bOK’ set but not used [-Wunused-but-set-variable]
+   gboolean bOK;
+            ^
+./src/callbacks.cpp: In function ‘void on_insert_text(GtkTextBuffer*, GtkTextIter*, gchar*, gint, gpointer)’:
+./src/callbacks.cpp:2996:100: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     nOffset == (pCurAction->m_nTextStartPos +  g_utf8_strlen(pCurAction->m_strNodeText.c_str(), -1)))
+                                                                                                    ^
+./src/callbacks.cpp:3026:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(nOffset == g_nTextOffset)
+                ^
+===> Compiling src/interface.cpp
+===> Compiling src/mru.cpp
+===> Compiling src/lib/EnumDirectory.cpp
+===> Compiling src/lib/DocActionManager.cpp
+===> Compiling src/DocAction.cpp
+===> Compiling src/DocActionSort.cpp
+===> Compiling src/OptionsDialog.cpp
+===> Compiling src/gui/GuiLanguage.cpp
+===> Compiling src/lib/TextSearch.cpp
+===> Compiling src/gui/FileDialog.cpp
+===> Compiling src/gui/Dialog.cpp
+===> Compiling src/FindDialog.cpp
+===> Compiling src/PasswordDialog.cpp
+===> Compiling src/lib/FilePath.cpp
+===> Compiling src/lib/IniFile.cpp
+===> Compiling src/lib/blowfish.cpp
+===> Compiling src/lib/DocumentIterator.cpp
+===> Compiling src/lib/FormatIOExecutable.cpp
+./src/lib/FormatIOExecutable.cpp: In member function ‘virtual int FormatIO_Executable::Load(const char*, NoteDocument&)’:
+./src/lib/FormatIOExecutable.cpp:54:10: warning: variable ‘nRead’ set but not used [-Wunused-but-set-variable]
+   size_t nRead = 0;
+          ^
+./src/lib/FormatIOExecutable.cpp: In member function ‘virtual int FormatIO_Executable::Save(const char*, NoteDocument&)’:
+./src/lib/FormatIOExecutable.cpp:127:9: warning: variable ‘nWritten’ set but not used [-Wunused-but-set-variable]
+  size_t nWritten = 0;
+         ^
+===> Compiling src/lib/IOLayerEnc.cpp
+===> Compiling src/lib/File64.cpp
+===> Compiling src/lib/FormatIOEncHtml.cpp
+./src/lib/FormatIOEncHtml.cpp: In member function ‘int FormatIO_EncHTML::Save(const char*, NoteDocument&, bool)’:
+./src/lib/FormatIOEncHtml.cpp:309:9: warning: variable ‘nPos’ set but not used [-Wunused-but-set-variable]
+   INT64 nPos = 0; //prevent "unused variable" warning
+         ^
+./src/lib/FormatIOEncHtml.cpp:239:6: warning: variable ‘nWritten’ set but not used [-Wunused-but-set-variable]
+  int nWritten = pFileLayer->m_file.Write("NOTECASE", 8);
+      ^
+===> Compiling src/lib/FormatIOHtml.cpp
+./src/lib/FormatIOHtml.cpp: In member function ‘virtual void FormatIO_HTML::OnTagBegin(const char*, const char*)’:
+./src/lib/FormatIOHtml.cpp:451:5: warning: ‘GdkPixbuf* gdk_pixbuf_ref(GdkPixbuf*)’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:241): Use 'g_object_ref' instead [-Wdeprecated-declarations]
+     gdk_pixbuf_ref (pixbuf); // make sure we keep a reference to it
+     ^
+./src/lib/FormatIOHtml.cpp:451:27: warning: ‘GdkPixbuf* gdk_pixbuf_ref(GdkPixbuf*)’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:241): Use 'g_object_ref' instead [-Wdeprecated-declarations]
+     gdk_pixbuf_ref (pixbuf); // make sure we keep a reference to it
+                           ^
+./src/lib/FormatIOHtml.cpp: In member function ‘void FormatIO_HTML::WriteLevel(DocumentIterator&, IOProcess&, int, bool, bool)’:
+./src/lib/FormatIOHtml.cpp:1246:14: warning: variable ‘nWritten’ set but not used [-Wunused-but-set-variable]
+       size_t nWritten = 0;
+              ^
+===> Compiling src/lib/FormatIOGjots2.cpp
+===> Compiling src/lib/HtmlParser.cpp
+./src/lib/HtmlParser.cpp:150:12: warning: ‘int hexVal(char)’ defined but not used [-Wunused-function]
+ static int hexVal(char ch)
+            ^
+===> Compiling src/lib/NoteDocument.cpp
+./src/lib/NoteDocument.cpp: In member function ‘int NoteDocument::Load(const char*, const char*, int)’:
+./src/lib/NoteDocument.cpp:254:11: warning: variable ‘nRead’ set but not used [-Wunused-but-set-variable]
+    size_t nRead = 0;
+           ^
+===> Compiling src/lib/FormatIOBase.cpp
+===> Compiling src/lib/NoteNode.cpp
+===> Compiling src/lib/SHA1.cpp
+./src/lib/SHA1.cpp: In member function ‘bool CSHA1::HashFile(const char*)’:
+./src/lib/SHA1.cpp:193:9: warning: variable ‘nRead’ set but not used [-Wunused-but-set-variable]
+  size_t nRead = 0;
+         ^
+===> Compiling src/PortableTrayIcon.cpp
+===> Compiling src/lib/Base64.cpp
+===> Compiling src/_unx/SingleInstance.cpp
+===> Compiling src/TreeView.cpp
+===> Compiling src/TextView.cpp
+===> Compiling src/MainWnd.cpp
+./src/MainWnd.cpp: In function ‘void on_tree_resize(GtkWidget*, GtkAllocation*, gpointer)’:
+./src/MainWnd.cpp:2404:14: warning: variable ‘bSkip’ set but not used [-Wunused-but-set-variable]
+  static bool bSkip = false;
+              ^
+===> Compiling src/lib/FormatIOStickyNotes.cpp
+===> Compiling src/NodePropertiesDlg.cpp
+===> Compiling src/lib/debug.cpp
+===> Compiling src/lib/IOProcess.cpp
+===> Compiling src/lib/IOLayerZlib.cpp
+./src/lib/IOLayerZlib.cpp: In member function ‘int IOLayerZlib::Read(char*, int)’:
+./src/lib/IOLayerZlib.cpp:90:7: warning: variable ‘bSucess’ set but not used [-Wunused-but-set-variable]
+  bool bSucess = false;
+       ^
+./src/lib/IOLayerZlib.cpp: In member function ‘int IOLayerZlib::Write(char*, int)’:
+./src/lib/IOLayerZlib.cpp:109:7: warning: variable ‘bSucess’ set but not used [-Wunused-but-set-variable]
+  bool bSucess = false;
+       ^
+./src/lib/IOLayerZlib.cpp: In member function ‘virtual int IOLayerZlib::Finalize()’:
+./src/lib/IOLayerZlib.cpp:118:7: warning: variable ‘bSucess’ set but not used [-Wunused-but-set-variable]
+  bool bSucess = false;
+       ^
+===> Compiling src/lib/IOLayerFile64.cpp
+===> Compiling src/lib/IOLayerBase.cpp
+===> Compiling src/lib/IOLayerRedirect.cpp
+===> Compiling src/FileExportDlg.cpp
+===> Compiling src/lib/FormatIOTxt.cpp
+./src/lib/FormatIOTxt.cpp: In member function ‘virtual int FormatIO_Txt::Save(const char*, NoteDocument&)’:
+./src/lib/FormatIOTxt.cpp:104:10: warning: variable ‘nRes’ set but not used [-Wunused-but-set-variable]
+   size_t nRes;
+          ^
+===> Compiling src/FindReplaceDlg.cpp
+./src/FindReplaceDlg.cpp: In member function ‘GtkWidget* FindReplaceDialog::create_find_dialog(GtkWidget*)’:
+./src/FindReplaceDlg.cpp:90:13: warning: variable ‘dialog_action_area4’ set but not used [-Wunused-but-set-variable]
+  GtkWidget *dialog_action_area4;
+             ^
+===> Compiling src/FindReplaceInfo.cpp
+===> Compiling src/lib/LinkInfo.cpp
+===> Compiling src/LinkPropertiesDlg.cpp
+===> Compiling src/_unx/ExecuteFile.cpp
+===> Compiling src/FileSaveAsDlg.cpp
+===> Compiling src/lib/CircularBuffer.cpp
+./src/lib/CircularBuffer.cpp: In member function ‘void CircularBuffer::Dump(const char*)’:
+./src/lib/CircularBuffer.cpp:53:9: warning: variable ‘nWritten’ set but not used [-Wunused-but-set-variable]
+  size_t nWritten;
+         ^
+===> Compiling src/lib/FormatIOMMLX.cpp
+===> Compiling src/gui/ProgressDlg.cpp
+===> Compiling src/DocActionPix.cpp
+===> Compiling src/DocActionFinish.cpp
+===> Compiling src/DocActionFmt.cpp
+===> Compiling src/lib/FmtInfo.cpp
+===> Compiling src/FileAttachmentDlg.cpp
+./src/FileAttachmentDlg.cpp: In function ‘void on_save_file_clicked(GtkButton*, gpointer)’:
+./src/FileAttachmentDlg.cpp:465:10: warning: variable ‘nWritten’ set but not used [-Wunused-but-set-variable]
+   size_t nWritten = 0;
+          ^
+./src/FileAttachmentDlg.cpp: In function ‘void on_item_executed(GtkTreeView*, GtkTreePath*, GtkTreeViewColumn*, gpointer)’:
+./src/FileAttachmentDlg.cpp:718:9: warning: variable ‘nWritten’ set but not used [-Wunused-but-set-variable]
+  size_t nWritten = 0;
+         ^
+===> Compiling src/DocActionAtt.cpp
+===> Compiling src/PixPropertiesDlg.cpp
+===> Compiling src/DocActionFinishDel.cpp
+./src/DocActionFinishDel.cpp: In member function ‘virtual void DocActionFinishDel::Exec(bool)’:
+./src/DocActionFinishDel.cpp:78:9: warning: variable ‘bRes’ set but not used [-Wunused-but-set-variable]
+    bool bRes = false;
+         ^
+===> Compiling src/ShortcutsList.cpp
+===> Compiling src/ShortcutsListDlg.cpp
+./src/ShortcutsListDlg.cpp: In member function ‘void ShortcutsListDlg::SetCurShortcut(ShortcutDef&)’:
+./src/ShortcutsListDlg.cpp:281:7: warning: variable ‘bResult’ set but not used [-Wunused-but-set-variable]
+  bool bResult;
+       ^
+===> Compiling src/DateTimeDlg.cpp
+===> Compiling src/AboutDlg.cpp
+===> Compiling src/EditDlg.cpp
+===> Compiling src/lib/Thread.cpp
+===> Compiling src/_unx/eggtrayicon.cpp
+===> Linking bin/notecase
+Configuration: GNOME_VFS=;GTKSOURCEVIEW=1;DEBUG=;PROFILE=;BYTE_ORDER=-DSHA1_LITTLE_ENDIAN -DORDER_DCBA;PLATFORM="Linux"
+#@sed -i 's:\#define INSTALL_PREFIX .*:\#define INSTALL_PREFIX "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr":' ./src/config.h
+===> Linking bin/notecase
+po/ar.po:360: 'msgid' and 'msgstr' entries do not both begin with '\n'
+msgfmt: found 2 fatal errors
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/ar/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/ca/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/cs/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/da/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/de/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/el/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/en_GB/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/es/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/et/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/fi/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/fr_CA/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/fr/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/hr/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/hu/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/id/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/it/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/ja/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/ko/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/ms/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/nl/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/no/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/pl/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/pt_BR/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/pt/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/ro/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/ru/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/sk/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/sl/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/sr/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/sv/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/ta/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/tr/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/zh_CN/LC_MESSAGES/notecase.mo
+Installing: /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/locale/zh_TW/LC_MESSAGES/notecase.mo
+done installing translations
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/bin
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/doc/notecase/
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/applications/
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/mime/packages/
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/pixmaps/
+install -D -m 755 ./bin/notecase "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/bin/notecase"
+install -D -m 644 docs/help.ncd "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/doc/notecase/help.ncd"
+install -D -m 644 docs/notecase.xml "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/mime/packages/notecase.xml"
+install -D -m 644 res/notecase.xpm "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase/notecase-install/usr/share/pixmaps/notecase.xpm"
+done installing
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/notecase
+Processing ../notecase-install/usr/bin/notecase
+Processing ../notecase-install/usr/share/applications/notecase.desktop
+Processing ../notecase-install/usr/share/doc/notecase/help.ncd
+Processing ../notecase-install/usr/share/locale/ar/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/ca/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/cs/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/da/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/de/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/el/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/en_GB/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/es/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/et/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/fi/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/fr_CA/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/fr/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/hr/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/hu/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/id/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/it/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/ja/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/ko/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/ms/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/nl/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/no/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/pl/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/pt_BR/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/pt/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/ro/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/ru/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/sk/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/sl/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/sr/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/sv/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/ta/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/tr/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/zh_CN/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/locale/zh_TW/LC_MESSAGES/notecase.mo
+Processing ../notecase-install/usr/share/mime/packages/notecase.xml
+Processing ../notecase-install/usr/share/pixmaps/notecase.xpm
+all done
+packaging notecase-1.9.8-i686_slk600
+packaging notecase_DOC-1.9.8-i686_slk600
+packaging notecase_NLS-1.9.8-i686_slk600
+done!

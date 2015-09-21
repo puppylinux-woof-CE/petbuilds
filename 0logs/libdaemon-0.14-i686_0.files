@@ -1,0 +1,15 @@
+libdaemon-install/usr/include/libdaemon/daemon.h
+libdaemon-install/usr/include/libdaemon/dexec.h
+libdaemon-install/usr/include/libdaemon/dfork.h
+libdaemon-install/usr/include/libdaemon/dlog.h
+libdaemon-install/usr/include/libdaemon/dnonblock.h
+libdaemon-install/usr/include/libdaemon/dpid.h
+libdaemon-install/usr/include/libdaemon/dsignal.h
+libdaemon-install/usr/lib/libdaemon.a
+libdaemon-install/usr/lib/libdaemon.la
+libdaemon-install/usr/lib/libdaemon.so
+libdaemon-install/usr/lib/libdaemon.so.0
+libdaemon-install/usr/lib/libdaemon.so.0.5.0
+libdaemon-install/usr/lib/pkgconfig/libdaemon.pc
+libdaemon-install/usr/share/doc/libdaemon/README.html
+libdaemon-install/usr/share/doc/libdaemon/style.css

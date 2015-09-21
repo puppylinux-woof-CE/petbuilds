@@ -1,0 +1,1229 @@
+gtksourceview-2.10.5/
+gtksourceview-2.10.5/po/
+gtksourceview-2.10.5/po/ta.po
+gtksourceview-2.10.5/po/hu.po
+gtksourceview-2.10.5/po/en_GB.po
+gtksourceview-2.10.5/po/ru.po
+gtksourceview-2.10.5/po/xh.po
+gtksourceview-2.10.5/po/th.po
+gtksourceview-2.10.5/po/sr@latin.po
+gtksourceview-2.10.5/po/mk.po
+gtksourceview-2.10.5/po/hi.po
+gtksourceview-2.10.5/po/as.po
+gtksourceview-2.10.5/po/zh_HK.po
+gtksourceview-2.10.5/po/or.po
+gtksourceview-2.10.5/po/ro.po
+gtksourceview-2.10.5/po/ast.po
+gtksourceview-2.10.5/po/cy.po
+gtksourceview-2.10.5/po/zh_CN.po
+gtksourceview-2.10.5/po/pa.po
+gtksourceview-2.10.5/po/uk.po
+gtksourceview-2.10.5/po/mai.po
+gtksourceview-2.10.5/po/bs.po
+gtksourceview-2.10.5/po/kn.po
+gtksourceview-2.10.5/po/oc.po
+gtksourceview-2.10.5/po/lt.po
+gtksourceview-2.10.5/po/az.po
+gtksourceview-2.10.5/po/nb.po
+gtksourceview-2.10.5/po/ga.po
+gtksourceview-2.10.5/po/ko.po
+gtksourceview-2.10.5/po/ne.po
+gtksourceview-2.10.5/po/ms.po
+gtksourceview-2.10.5/po/te.po
+gtksourceview-2.10.5/po/Makefile.in.in
+gtksourceview-2.10.5/po/es.po
+gtksourceview-2.10.5/po/ca.po
+gtksourceview-2.10.5/po/da.po
+gtksourceview-2.10.5/po/et.po
+gtksourceview-2.10.5/po/nl.po
+gtksourceview-2.10.5/po/sk.po
+gtksourceview-2.10.5/po/he.po
+gtksourceview-2.10.5/po/ca@valencia.po
+gtksourceview-2.10.5/po/dz.po
+gtksourceview-2.10.5/po/tr.po
+gtksourceview-2.10.5/po/mg.po
+gtksourceview-2.10.5/po/gl.po
+gtksourceview-2.10.5/po/sq.po
+gtksourceview-2.10.5/po/de.po
+gtksourceview-2.10.5/po/POTFILES.skip
+gtksourceview-2.10.5/po/gu.po
+gtksourceview-2.10.5/po/fi.po
+gtksourceview-2.10.5/po/lv.po
+gtksourceview-2.10.5/po/it.po
+gtksourceview-2.10.5/po/LINGUAS
+gtksourceview-2.10.5/po/pt_BR.po
+gtksourceview-2.10.5/po/el.po
+gtksourceview-2.10.5/po/id.po
+gtksourceview-2.10.5/po/vi.po
+gtksourceview-2.10.5/po/ChangeLog
+gtksourceview-2.10.5/po/hr.po
+gtksourceview-2.10.5/po/sr.po
+gtksourceview-2.10.5/po/zh_TW.po
+gtksourceview-2.10.5/po/pl.po
+gtksourceview-2.10.5/po/fa.po
+gtksourceview-2.10.5/po/mn.po
+gtksourceview-2.10.5/po/eu.po
+gtksourceview-2.10.5/po/nn.po
+gtksourceview-2.10.5/po/en@shaw.po
+gtksourceview-2.10.5/po/ja.po
+gtksourceview-2.10.5/po/sl.po
+gtksourceview-2.10.5/po/en_CA.po
+gtksourceview-2.10.5/po/ml.po
+gtksourceview-2.10.5/po/pt.po
+gtksourceview-2.10.5/po/POTFILES.in
+gtksourceview-2.10.5/po/cs.po
+gtksourceview-2.10.5/po/fr.po
+gtksourceview-2.10.5/po/sv.po
+gtksourceview-2.10.5/po/mr.po
+gtksourceview-2.10.5/po/bn.po
+gtksourceview-2.10.5/po/bg.po
+gtksourceview-2.10.5/po/ar.po
+gtksourceview-2.10.5/po/si.po
+gtksourceview-2.10.5/po/bn_IN.po
+gtksourceview-2.10.5/po/be.po
+gtksourceview-2.10.5/po/rw.po
+gtksourceview-2.10.5/configure
+gtksourceview-2.10.5/install-sh
+gtksourceview-2.10.5/ChangeLog.20070526
+gtksourceview-2.10.5/depcomp
+gtksourceview-2.10.5/mkinstalldirs
+gtksourceview-2.10.5/ChangeLog.soc-2006
+gtksourceview-2.10.5/gtksourceview-2.0.pc.in
+gtksourceview-2.10.5/gtksourceview/
+gtksourceview-2.10.5/gtksourceview/gtksourceundomanagerdefault.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletioncontext.h
+gtksourceview-2.10.5/gtksourceview/gtksourcebuffer.h
+gtksourceview-2.10.5/gtksourceview/gtksourceprintcompositor.h
+gtksourceview-2.10.5/gtksourceview/gtksourcestylescheme.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionitem.c
+gtksourceview-2.10.5/gtksourceview/gtksourceundomanager.h
+gtksourceview-2.10.5/gtksourceview/gtksourcestyle.c
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionmodel.c
+gtksourceview-2.10.5/gtksourceview/gtksourceprintcompositor.c
+gtksourceview-2.10.5/gtksourceview/gtksourceview-typebuiltins.h
+gtksourceview-2.10.5/gtksourceview/gtksourcemark.h
+gtksourceview-2.10.5/gtksourceview/gtksourcelanguagemanager.c
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionproposal.c
+gtksourceview-2.10.5/gtksourceview/gtksourceview.h
+gtksourceview-2.10.5/gtksourceview/gtksourcelanguage-parser-2.c
+gtksourceview-2.10.5/gtksourceview/gtksourcestyleschememanager.c
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletioninfo.h
+gtksourceview-2.10.5/gtksourceview/gtksourcestyle.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletioninfo.c
+gtksourceview-2.10.5/gtksourceview/gtksourceengine.h
+gtksourceview-2.10.5/gtksourceview/gtksourcestyle-private.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionprovider.c
+gtksourceview-2.10.5/gtksourceview/gtksourcebuffer.c
+gtksourceview-2.10.5/gtksourceview/gtksourcelanguage-private.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecontextengine.c
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionutils.c
+gtksourceview-2.10.5/gtksourceview/gtksourcegutter.h
+gtksourceview-2.10.5/gtksourceview/gtksourceview.c
+gtksourceview-2.10.5/gtksourceview/completion-providers/
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwordsutils.h
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwordsutils.c
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwordslibrary.c
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwordsbuffer.c
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwordsbuffer.h
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwordsproposal.c
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwordsproposal.h
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwords.c
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/gtksourcecompletionwordslibrary.h
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/Makefile.in
+gtksourceview-2.10.5/gtksourceview/completion-providers/words/Makefile.am
+gtksourceview-2.10.5/gtksourceview/completion-providers/Makefile.in
+gtksourceview-2.10.5/gtksourceview/completion-providers/Makefile.am
+gtksourceview-2.10.5/gtksourceview/gtksourcegutter-private.h
+gtksourceview-2.10.5/gtksourceview/gtksourcemark.c
+gtksourceview-2.10.5/gtksourceview/gtksourcelanguage.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionprovider.h
+gtksourceview-2.10.5/gtksourceview/gtksourcegutter.c
+gtksourceview-2.10.5/gtksourceview/gtksourceengine.c
+gtksourceview-2.10.5/gtksourceview/gtksourceview-utils.c
+gtksourceview-2.10.5/gtksourceview/gtksourceview-marshal.list
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionmodel.h
+gtksourceview-2.10.5/gtksourceview/gtksourceview-i18n.h
+gtksourceview-2.10.5/gtksourceview/gtksourceiter.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionproposal.h
+gtksourceview-2.10.5/gtksourceview/language-specs/
+gtksourceview-2.10.5/gtksourceview/language-specs/cpp.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/styles.rng
+gtksourceview-2.10.5/gtksourceview/language-specs/boo.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/def.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/bibtex.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/ocl.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/ada.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/nemerle.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/sparql.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/glsl.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/java.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/csharp.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/fsharp.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/latex.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/xslt.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/yacc.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/c.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/cg.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/libtool.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/t2t.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/language.rng
+gtksourceview-2.10.5/gtksourceview/language-specs/msil.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/classic.xml
+gtksourceview-2.10.5/gtksourceview/language-specs/po.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/prolog.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/dtd.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/erlang.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/haddock.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/haskell-literate.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/objc.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/gtkrc.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/oblivion.xml
+gtksourceview-2.10.5/gtksourceview/language-specs/vbnet.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/vala.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/php.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/sql.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/html.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/pkgconfig.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/m4.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/haskell.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/desktop.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/sh.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/asp.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/R.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/vhdl.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/gtk-doc.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/cmake.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/cobalt.xml
+gtksourceview-2.10.5/gtksourceview/language-specs/language2.rng
+gtksourceview-2.10.5/gtksourceview/language-specs/scheme.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/mallard.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/dosbatch.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/tcl.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/forth.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/cuda.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/verilog.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/changelog.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/xml.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/ocaml.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/fcl.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/check.sh
+gtksourceview-2.10.5/gtksourceview/language-specs/dpatch.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/awk.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/docbook.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/rpmspec.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/ooc.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/makefile.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/lua.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/octave.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/language.dtd
+gtksourceview-2.10.5/gtksourceview/language-specs/chdr.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/kate.xml
+gtksourceview-2.10.5/gtksourceview/language-specs/ini.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/python.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/diff.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/pascal.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/nsis.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/dot.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/ruby.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/css.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/gap.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/idl.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/perl.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/Makefile.in
+gtksourceview-2.10.5/gtksourceview/language-specs/fortran.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/javascript.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/Makefile.am
+gtksourceview-2.10.5/gtksourceview/language-specs/eiffel.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/texinfo.lang
+gtksourceview-2.10.5/gtksourceview/language-specs/tango.xml
+gtksourceview-2.10.5/gtksourceview/language-specs/convert.py
+gtksourceview-2.10.5/gtksourceview/language-specs/d.lang
+gtksourceview-2.10.5/gtksourceview/gtktextregion.h
+gtksourceview-2.10.5/gtksourceview/gtksourcestyleschememanager.h
+gtksourceview-2.10.5/gtksourceview/gtksourcelanguage-parser-1.c
+gtksourceview-2.10.5/gtksourceview/gtksourceiter.c
+gtksourceview-2.10.5/gtksourceview/gtksourceundomanagerdefault.c
+gtksourceview-2.10.5/gtksourceview/gtksourcestylescheme.c
+gtksourceview-2.10.5/gtksourceview/gtksourceview-utils.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionutils.h
+gtksourceview-2.10.5/gtksourceview/gtksourcelanguage.c
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletioncontext.c
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionui.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletionitem.h
+gtksourceview-2.10.5/gtksourceview/gtktextregion.c
+gtksourceview-2.10.5/gtksourceview/Makefile.in
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletion.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletion.c
+gtksourceview-2.10.5/gtksourceview/Makefile.am
+gtksourceview-2.10.5/gtksourceview/gtksourcecontextengine.h
+gtksourceview-2.10.5/gtksourceview/gtksourcecompletion-private.h
+gtksourceview-2.10.5/gtksourceview/gtksourceundomanager.c
+gtksourceview-2.10.5/gtksourceview/gtksourceview-i18n.c
+gtksourceview-2.10.5/gtksourceview/gtksourcelanguagemanager.h
+gtksourceview-2.10.5/AUTHORS
+gtksourceview-2.10.5/COPYING
+gtksourceview-2.10.5/MAINTAINERS
+gtksourceview-2.10.5/tests/
+gtksourceview-2.10.5/tests/gnome-gmush.png
+gtksourceview-2.10.5/tests/test-languagemanager.c
+gtksourceview-2.10.5/tests/test-widget.c
+gtksourceview-2.10.5/tests/test-printcompositor.c
+gtksourceview-2.10.5/tests/apple-red.png
+gtksourceview-2.10.5/tests/Makefile.in
+gtksourceview-2.10.5/tests/Makefile.am
+gtksourceview-2.10.5/tests/test-completion.c
+gtksourceview-2.10.5/docs/
+gtksourceview-2.10.5/docs/reference/
+gtksourceview-2.10.5/docs/reference/gtksourceview-docs.sgml
+gtksourceview-2.10.5/docs/reference/gtksourceview-2.0.types
+gtksourceview-2.10.5/docs/reference/gtksourceview-2.0-overrides.txt
+gtksourceview-2.10.5/docs/reference/lang-tutorial.sgml
+gtksourceview-2.10.5/docs/reference/gtksourceview-2.0-sections.txt
+gtksourceview-2.10.5/docs/reference/html/
+gtksourceview-2.10.5/docs/reference/html/GtkSourceView.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceCompletionProvider.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceStyle.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceLanguageManager.html
+gtksourceview-2.10.5/docs/reference/html/gtksourceview-2.0-Searching-in-a-GtkSourceBuffer.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceMark.html
+gtksourceview-2.10.5/docs/reference/html/index.sgml
+gtksourceview-2.10.5/docs/reference/html/style-reference.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceCompletionProposal.html
+gtksourceview-2.10.5/docs/reference/html/up.png
+gtksourceview-2.10.5/docs/reference/html/style.css
+gtksourceview-2.10.5/docs/reference/html/index.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceStyleSchemeManager.html
+gtksourceview-2.10.5/docs/reference/html/gtksourceview-2.0.devhelp
+gtksourceview-2.10.5/docs/reference/html/GtkSourceLanguage.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceCompletion.html
+gtksourceview-2.10.5/docs/reference/html/left.png
+gtksourceview-2.10.5/docs/reference/html/GtkSourcePrintCompositor.html
+gtksourceview-2.10.5/docs/reference/html/gtksourceview-2.0-completioncontext.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceCompletionItem.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceCompletionInfo.html
+gtksourceview-2.10.5/docs/reference/html/home.png
+gtksourceview-2.10.5/docs/reference/html/rn01.html
+gtksourceview-2.10.5/docs/reference/html/right.png
+gtksourceview-2.10.5/docs/reference/html/rn02.html
+gtksourceview-2.10.5/docs/reference/html/lang-tutorial.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceGutter.html
+gtksourceview-2.10.5/docs/reference/html/gtksourceview-2.0.devhelp2
+gtksourceview-2.10.5/docs/reference/html/GtkSourceBuffer.html
+gtksourceview-2.10.5/docs/reference/html/lang-reference.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceStyleScheme.html
+gtksourceview-2.10.5/docs/reference/html/GtkSourceUndoManager.html
+gtksourceview-2.10.5/docs/reference/style-reference.sgml
+gtksourceview-2.10.5/docs/reference/version.xml.in
+gtksourceview-2.10.5/docs/reference/version.xml
+gtksourceview-2.10.5/docs/reference/lang-reference.sgml
+gtksourceview-2.10.5/docs/reference/Makefile.in
+gtksourceview-2.10.5/docs/reference/Makefile.am
+gtksourceview-2.10.5/docs/Makefile.in
+gtksourceview-2.10.5/docs/Makefile.am
+gtksourceview-2.10.5/intltool-merge.in
+gtksourceview-2.10.5/intltool-extract.in
+gtksourceview-2.10.5/HACKING
+gtksourceview-2.10.5/ChangeLog-20090418
+gtksourceview-2.10.5/aclocal.m4
+gtksourceview-2.10.5/config.sub
+gtksourceview-2.10.5/ltmain.sh
+gtksourceview-2.10.5/configure.ac
+gtksourceview-2.10.5/ChangeLog
+gtksourceview-2.10.5/INSTALL
+gtksourceview-2.10.5/gtksourceview-zip.in
+gtksourceview-2.10.5/missing
+gtksourceview-2.10.5/NEWS
+gtksourceview-2.10.5/config.h.in
+gtksourceview-2.10.5/COPYING.lib
+gtksourceview-2.10.5/gtk-doc.make
+gtksourceview-2.10.5/gtksourceview.doap
+gtksourceview-2.10.5/Makefile.in
+gtksourceview-2.10.5/README
+gtksourceview-2.10.5/Makefile.am
+gtksourceview-2.10.5/config.guess
+gtksourceview-2.10.5/intltool-update.in
+gtksourceview-2.10.5/glade/
+gtksourceview-2.10.5/glade/gtksourceview-glade.xml
+gtksourceview-2.10.5/glade/Makefile.in
+gtksourceview-2.10.5/glade/Makefile.am
+gtksourceview-2.10.5/m4/
+gtksourceview-2.10.5/m4/libtool.m4
+gtksourceview-2.10.5/m4/ltversion.m4
+gtksourceview-2.10.5/m4/lt~obsolete.m4
+gtksourceview-2.10.5/m4/ltoptions.m4
+gtksourceview-2.10.5/m4/ltsugar.m4
+gtksourceview-2.10.5/m4/intltool.m4
+gtksourceview-2.10.5/m4/gtk-doc.m4
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to disable maintainer-specific portions of Makefiles... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for unistd.h... (cached) yes
+checking for glib-genmarshal... /usr/bin/glib-genmarshal
+checking for glib-mkenums... /usr/bin/glib-mkenums
+checking whether gcc understands -Wno-sign-compare... yes
+checking what warning flags to pass to the C compiler... -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare
+checking what language compliance flags to pass to the C compiler... 
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for DEP... yes
+checking for native Mac OS X... no
+checking whether NLS is requested... yes
+checking for intltool >= 0.40... 0.50.2 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.18.1
+checking for XML::Parser... ok
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+configure: creating ./config.status
+config.status: creating gtksourceview-2.0.pc
+config.status: creating Makefile
+config.status: creating gtksourceview-zip
+config.status: creating po/Makefile.in
+config.status: creating gtksourceview/Makefile
+config.status: creating gtksourceview/completion-providers/Makefile
+config.status: creating gtksourceview/completion-providers/words/Makefile
+config.status: creating gtksourceview/language-specs/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating docs/reference/version.xml
+config.status: creating glade/Makefile
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+
+Configuration:
+
+	Source code location:	.
+	Compiler:		gcc
+	Completion Providers:	yes
+	Glade Catalog:		no
+
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5'
+Making all in gtksourceview
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+  GEN    gtksourceview-marshal.c
+  GEN    gtksourceview-marshal.h
+  GEN    stamp-gtksourceview-typebuiltins.c
+  GEN    stamp-gtksourceview-typebuiltins.h
+/usr/bin/glib-mkenums: gtksourceview.h:131: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_TAB     | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:132: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_NEWLINE | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:133: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_NBSP | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:134: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_LEADING | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:135: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_TEXT | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:136: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_TRAILING) '
+/usr/bin/glib-mkenums: gtksourceview.h:131: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_TAB     | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:132: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_NEWLINE | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:133: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_NBSP | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:134: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_LEADING | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:135: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_TEXT | \ '
+/usr/bin/glib-mkenums: gtksourceview.h:136: Failed to parse `	                                     GTK_SOURCE_DRAW_SPACES_TRAILING) '
+make  all-recursive
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+Making all in language-specs
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/language-specs'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/language-specs'
+Making all in completion-providers
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+Making all in words
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers/words'
+  CC     gtksourcecompletionwords.lo
+  CC     gtksourcecompletionwordslibrary.lo
+  CC     gtksourcecompletionwordsproposal.lo
+  CC     gtksourcecompletionwordsbuffer.lo
+  CC     gtksourcecompletionwordsutils.lo
+gtksourcecompletionwordsbuffer.c: In function 'add_scan_region':
+gtksourcecompletionwordsbuffer.c:529:10: warning: variable 'ignore' set but not used [-Wunused-but-set-variable]
+   GList *ignore;
+          ^
+  CCLD   libgtksourcecompletionwords.la
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers/words'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+  CC     gtksourcebuffer.lo
+  CC     gtksourceiter.lo
+  CC     gtksourceview.lo
+  CC     gtksourceundomanager.lo
+gtksourceview.c: In function 'gtk_source_view_get_lines':
+gtksourceview.c:2100:7: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  gint size;
+       ^
+  CC     gtksourceundomanagerdefault.lo
+  CC     gtktextregion.lo
+  CC     gtksourcelanguage.lo
+  CC     gtksourcelanguagemanager.lo
+  CC     gtksourcelanguage-parser-1.lo
+  CC     gtksourcelanguage-parser-2.lo
+  CC     gtksourceview-i18n.lo
+  CC     gtksourceview-utils.lo
+  CC     gtksourcestyle.lo
+  CC     gtksourcestyleschememanager.lo
+gtksourcelanguage-parser-2.c: In function 'create_definition':
+gtksourcelanguage-parser-2.c:390:19: warning: comparison between 'xmlElementType' and 'enum <anonymous>' [-Wenum-compare]
+   if (child->type != XML_READER_TYPE_ELEMENT)
+                   ^
+  CC     gtksourcestylescheme.lo
+  CC     gtksourceengine.lo
+  CC     gtksourcecontextengine.lo
+  CC     gtksourcemark.lo
+  CC     gtksourceprintcompositor.lo
+  CC     gtksourcegutter.lo
+  CC     gtksourcecompletion.lo
+gtksourcegutter.c: In function 'get_lines':
+gtksourcegutter.c:776:7: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  gint size;
+       ^
+gtksourcecompletion.c: In function 'update_info_position':
+gtksourcecompletion.c:883:11: warning: variable 'sh' set but not used [-Wunused-but-set-variable]
+  gint sw, sh;
+           ^
+gtksourcecompletion.c: In function 'auto_completion_prematch':
+gtksourcecompletion.c:1559:17: warning: variable 'buffer' set but not used [-Wunused-but-set-variable]
+  GtkTextBuffer *buffer;
+                 ^
+  CC     gtksourcecompletioninfo.lo
+  CC     gtksourcecompletionitem.lo
+  CC     gtksourcecompletionproposal.lo
+  CC     gtksourcecompletionprovider.lo
+  CC     gtksourcecompletionmodel.lo
+  CC     gtksourcecompletionutils.lo
+  CC     gtksourcecompletioncontext.lo
+  CC     gtksourceview-marshal.lo
+  CC     gtksourceview-typebuiltins.lo
+  CCLD   libgtksourceview-2.0.la
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/po'
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo as | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file as.po
+file=`echo ast | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ast.po
+file=`echo az | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file az.po
+file=`echo be | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file be.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo bn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bn.po
+file=`echo bn_IN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bn_IN.po
+file=`echo bs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bs.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo ca@valencia | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca@valencia.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo cy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cy.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo dz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file dz.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_CA | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_CA.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo en@shaw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en@shaw.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo et | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file et.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fa.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo ga | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ga.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gu.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file he.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hi.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hr.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo kn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file kn.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo lv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lv.po
+file=`echo mai | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mai.po
+file=`echo mg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mg.po
+file=`echo mk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mk.po
+file=`echo ml | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ml.po
+file=`echo mn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mn.po
+file=`echo mr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mr.po
+file=`echo ms | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ms.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo ne | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ne.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo nn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nn.po
+file=`echo oc | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file oc.po
+file=`echo or | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file or.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pa.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo si | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file si.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sr@latin | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr@latin.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo ta | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ta.po
+file=`echo te | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file te.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo xh | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file xh.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_HK | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_HK.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/po'
+Making all in docs
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+Making all in reference
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs/reference'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs/reference'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+Making all in tests
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/tests'
+  CC     test-completion.o
+  CC     test-languagemanager.o
+  CC     test-widget.o
+  CC     test-printcompositor.o
+  CCLD   test-languagemanager
+test-widget.c: In function ‘init_mem_stuff’:
+test-widget.c:1576:3: warning: ‘g_slice_set_config’ is deprecated (declared at /usr/include/glib-2.0/glib/gslice.h:87) [-Wdeprecated-declarations]
+   g_slice_set_config (G_SLICE_CONFIG_ALWAYS_MALLOC, TRUE);
+   ^
+  CCLD   test-printcompositor
+  CCLD   test-completion
+  CCLD   test-widget
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/tests'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5'
+Making install in gtksourceview
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+make  install-recursive
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+Making install in language-specs
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/language-specs'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/language-specs'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/gtksourceview-2.0/language-specs" || ../.././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtksourceview-2.0/language-specs"
+ /usr/bin/ginstall -c -m 644 ada.lang asp.lang awk.lang bibtex.lang boo.lang changelog.lang c.lang cg.lang chdr.lang cmake.lang cpp.lang csharp.lang css.lang cuda.lang def.lang desktop.lang diff.lang d.lang docbook.lang dosbatch.lang dot.lang dpatch.lang dtd.lang eiffel.lang erlang.lang fcl.lang forth.lang fortran.lang fsharp.lang gap.lang glsl.lang gtk-doc.lang gtkrc.lang haddock.lang haskell.lang haskell-literate.lang html.lang idl.lang ini.lang java.lang '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtksourceview-2.0/language-specs'
+ /usr/bin/ginstall -c -m 644 javascript.lang latex.lang libtool.lang lua.lang m4.lang makefile.lang mallard.lang msil.lang nemerle.lang nsis.lang objc.lang ocaml.lang ocl.lang octave.lang ooc.lang pascal.lang perl.lang php.lang pkgconfig.lang po.lang python.lang prolog.lang R.lang rpmspec.lang ruby.lang scheme.lang sh.lang sparql.lang sql.lang styles.rng t2t.lang tcl.lang texinfo.lang vala.lang vbnet.lang verilog.lang vhdl.lang xml.lang xslt.lang yacc.lang '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtksourceview-2.0/language-specs'
+ /usr/bin/ginstall -c -m 644 language.rng language2.rng language.dtd check.sh convert.py '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtksourceview-2.0/language-specs'
+test -z "/usr/share/gtksourceview-2.0/styles" || ../.././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtksourceview-2.0/styles"
+ /usr/bin/ginstall -c -m 644 classic.xml cobalt.xml kate.xml oblivion.xml tango.xml styles.rng '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtksourceview-2.0/styles'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/language-specs'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/language-specs'
+Making install in completion-providers
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+Making install in words
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers/words'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers/words'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/usr/include/gtksourceview-2.0/gtksourceview/completion-providers/words" || ../../.././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/completion-providers/words"
+ /usr/bin/ginstall -c -m 644 gtksourcecompletionwords.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/completion-providers/words'
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers/words'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers/words'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview/completion-providers'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+test -z "/usr/lib" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   libgtksourceview-2.0.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/libgtksourceview-2.0.so.0.0.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/lib/libgtksourceview-2.0.so.0.0.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/lib && { ln -s -f libgtksourceview-2.0.so.0.0.0 libgtksourceview-2.0.so.0 || { rm -f libgtksourceview-2.0.so.0 && ln -s libgtksourceview-2.0.so.0.0.0 libgtksourceview-2.0.so.0; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/lib && { ln -s -f libgtksourceview-2.0.so.0.0.0 libgtksourceview-2.0.so || { rm -f libgtksourceview-2.0.so && ln -s libgtksourceview-2.0.so.0.0.0 libgtksourceview-2.0.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libgtksourceview-2.0.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/lib/libgtksourceview-2.0.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/gtksourceview-2.0/gtksourceview" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview"
+ /usr/bin/ginstall -c -m 644 gtksourcebuffer.h gtksourceiter.h gtksourceview.h gtksourcelanguage.h gtksourcelanguagemanager.h gtksourcestyle.h gtksourcestyleschememanager.h gtksourcestylescheme.h gtksourcemark.h gtksourceprintcompositor.h gtksourcegutter.h gtksourceundomanager.h gtksourcecompletion.h gtksourcecompletioninfo.h gtksourcecompletionitem.h gtksourcecompletionproposal.h gtksourcecompletionprovider.h gtksourcecompletioncontext.h gtksourceview-typebuiltins.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/gtksourceview'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/po'
+linguas="ar as ast az be bg bn bn_IN bs ca ca@valencia cs cy da de dz el en_CA en_GB en@shaw es et eu fa fi fr ga gl gu he hi hr hu id it ja kn ko lt lv mai mg mk ml mn mr ms nb ne nl nn oc or pa pl pt pt_BR ro ru rw si sk sl sq sr sr@latin sv ta te th tr uk vi xh zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo $dir/gtksourceview-2.0.mo; \
+    echo "installing $lang.gmo as $dir/gtksourceview-2.0.mo"; \
+  else \
+    /usr/bin/ginstall -c -m 644 ./$lang.gmo $dir/gtksourceview-2.0.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/gtksourceview-2.0.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo.m $dir/gtksourceview-2.0.mo.m; \
+    echo "installing $lang.gmo.m as $dir/gtksourceview-2.0.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/ginstall -c -m 644 ./$lang.gmo.m \
+	$dir/gtksourceview-2.0.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/gtksourceview-2.0.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ar/LC_MESSAGES/gtksourceview-2.0.mo
+installing as.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/as/LC_MESSAGES/gtksourceview-2.0.mo
+installing ast.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ast/LC_MESSAGES/gtksourceview-2.0.mo
+installing az.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/az/LC_MESSAGES/gtksourceview-2.0.mo
+installing be.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/be/LC_MESSAGES/gtksourceview-2.0.mo
+installing bg.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/bg/LC_MESSAGES/gtksourceview-2.0.mo
+installing bn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/bn/LC_MESSAGES/gtksourceview-2.0.mo
+installing bn_IN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/bn_IN/LC_MESSAGES/gtksourceview-2.0.mo
+installing bs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/bs/LC_MESSAGES/gtksourceview-2.0.mo
+installing ca.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ca/LC_MESSAGES/gtksourceview-2.0.mo
+installing ca@valencia.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ca@valencia/LC_MESSAGES/gtksourceview-2.0.mo
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/cs/LC_MESSAGES/gtksourceview-2.0.mo
+installing cy.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/cy/LC_MESSAGES/gtksourceview-2.0.mo
+installing da.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/da/LC_MESSAGES/gtksourceview-2.0.mo
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/de/LC_MESSAGES/gtksourceview-2.0.mo
+installing dz.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/dz/LC_MESSAGES/gtksourceview-2.0.mo
+installing el.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/el/LC_MESSAGES/gtksourceview-2.0.mo
+installing en_CA.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/en_CA/LC_MESSAGES/gtksourceview-2.0.mo
+installing en_GB.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/en_GB/LC_MESSAGES/gtksourceview-2.0.mo
+installing en@shaw.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/en@shaw/LC_MESSAGES/gtksourceview-2.0.mo
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/es/LC_MESSAGES/gtksourceview-2.0.mo
+installing et.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/et/LC_MESSAGES/gtksourceview-2.0.mo
+installing eu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/eu/LC_MESSAGES/gtksourceview-2.0.mo
+installing fa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/fa/LC_MESSAGES/gtksourceview-2.0.mo
+installing fi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/fi/LC_MESSAGES/gtksourceview-2.0.mo
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/fr/LC_MESSAGES/gtksourceview-2.0.mo
+installing ga.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ga/LC_MESSAGES/gtksourceview-2.0.mo
+installing gl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/gl/LC_MESSAGES/gtksourceview-2.0.mo
+installing gu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/gu/LC_MESSAGES/gtksourceview-2.0.mo
+installing he.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/he/LC_MESSAGES/gtksourceview-2.0.mo
+installing hi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/hi/LC_MESSAGES/gtksourceview-2.0.mo
+installing hr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/hr/LC_MESSAGES/gtksourceview-2.0.mo
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/hu/LC_MESSAGES/gtksourceview-2.0.mo
+installing id.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/id/LC_MESSAGES/gtksourceview-2.0.mo
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/it/LC_MESSAGES/gtksourceview-2.0.mo
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ja/LC_MESSAGES/gtksourceview-2.0.mo
+installing kn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/kn/LC_MESSAGES/gtksourceview-2.0.mo
+installing ko.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ko/LC_MESSAGES/gtksourceview-2.0.mo
+installing lt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/lt/LC_MESSAGES/gtksourceview-2.0.mo
+installing lv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/lv/LC_MESSAGES/gtksourceview-2.0.mo
+installing mai.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/mai/LC_MESSAGES/gtksourceview-2.0.mo
+installing mg.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/mg/LC_MESSAGES/gtksourceview-2.0.mo
+installing mk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/mk/LC_MESSAGES/gtksourceview-2.0.mo
+installing ml.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ml/LC_MESSAGES/gtksourceview-2.0.mo
+installing mn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/mn/LC_MESSAGES/gtksourceview-2.0.mo
+installing mr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/mr/LC_MESSAGES/gtksourceview-2.0.mo
+installing ms.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ms/LC_MESSAGES/gtksourceview-2.0.mo
+installing nb.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/nb/LC_MESSAGES/gtksourceview-2.0.mo
+installing ne.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ne/LC_MESSAGES/gtksourceview-2.0.mo
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/nl/LC_MESSAGES/gtksourceview-2.0.mo
+installing nn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/nn/LC_MESSAGES/gtksourceview-2.0.mo
+installing oc.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/oc/LC_MESSAGES/gtksourceview-2.0.mo
+installing or.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/or/LC_MESSAGES/gtksourceview-2.0.mo
+installing pa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/pa/LC_MESSAGES/gtksourceview-2.0.mo
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/pl/LC_MESSAGES/gtksourceview-2.0.mo
+installing pt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/pt/LC_MESSAGES/gtksourceview-2.0.mo
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/pt_BR/LC_MESSAGES/gtksourceview-2.0.mo
+installing ro.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ro/LC_MESSAGES/gtksourceview-2.0.mo
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ru/LC_MESSAGES/gtksourceview-2.0.mo
+installing rw.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/rw/LC_MESSAGES/gtksourceview-2.0.mo
+installing si.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/si/LC_MESSAGES/gtksourceview-2.0.mo
+installing sk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/sk/LC_MESSAGES/gtksourceview-2.0.mo
+installing sl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/sl/LC_MESSAGES/gtksourceview-2.0.mo
+installing sq.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/sq/LC_MESSAGES/gtksourceview-2.0.mo
+installing sr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/sr/LC_MESSAGES/gtksourceview-2.0.mo
+installing sr@latin.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/sr@latin/LC_MESSAGES/gtksourceview-2.0.mo
+installing sv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/sv/LC_MESSAGES/gtksourceview-2.0.mo
+installing ta.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/ta/LC_MESSAGES/gtksourceview-2.0.mo
+installing te.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/te/LC_MESSAGES/gtksourceview-2.0.mo
+installing th.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/th/LC_MESSAGES/gtksourceview-2.0.mo
+installing tr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/tr/LC_MESSAGES/gtksourceview-2.0.mo
+installing uk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/uk/LC_MESSAGES/gtksourceview-2.0.mo
+installing vi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/vi/LC_MESSAGES/gtksourceview-2.0.mo
+installing xh.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/xh/LC_MESSAGES/gtksourceview-2.0.mo
+installing zh_CN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/zh_CN/LC_MESSAGES/gtksourceview-2.0.mo
+installing zh_HK.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/zh_HK/LC_MESSAGES/gtksourceview-2.0.mo
+installing zh_TW.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/locale/zh_TW/LC_MESSAGES/gtksourceview-2.0.mo
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/po'
+Making install in docs
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+Making install in reference
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs/reference'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs/reference'
+make[3]: Nothing to be done for `install-exec-am'.
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtk-doc
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtk-doc/html
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0
+-- Installing ./html/GtkSourceBuffer.html
+-- Installing ./html/GtkSourceCompletion.html
+-- Installing ./html/GtkSourceCompletionInfo.html
+-- Installing ./html/GtkSourceCompletionItem.html
+-- Installing ./html/GtkSourceCompletionProposal.html
+-- Installing ./html/GtkSourceCompletionProvider.html
+-- Installing ./html/GtkSourceGutter.html
+-- Installing ./html/GtkSourceLanguage.html
+-- Installing ./html/GtkSourceLanguageManager.html
+-- Installing ./html/GtkSourceMark.html
+-- Installing ./html/GtkSourcePrintCompositor.html
+-- Installing ./html/GtkSourceStyle.html
+-- Installing ./html/GtkSourceStyleScheme.html
+-- Installing ./html/GtkSourceStyleSchemeManager.html
+-- Installing ./html/GtkSourceUndoManager.html
+-- Installing ./html/gtksourceview-2.0-completioncontext.html
+-- Installing ./html/gtksourceview-2.0.devhelp
+-- Installing ./html/gtksourceview-2.0.devhelp2
+-- Installing ./html/gtksourceview-2.0-Searching-in-a-GtkSourceBuffer.html
+-- Installing ./html/GtkSourceView.html
+-- Installing ./html/home.png
+-- Installing ./html/index.html
+-- Installing ./html/index.sgml
+-- Installing ./html/lang-reference.html
+-- Installing ./html/lang-tutorial.html
+-- Installing ./html/left.png
+-- Installing ./html/right.png
+-- Installing ./html/rn01.html
+-- Installing ./html/rn02.html
+-- Installing ./html/style.css
+-- Installing ./html/style-reference.html
+-- Installing ./html/up.png
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs/reference'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs/reference'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/docs'
+Making install in tests
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/tests'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/tests'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5/tests'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/lib/pkgconfig" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 gtksourceview-2.0.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-install/usr/lib/pkgconfig'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview/gtksourceview-2.10.5'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gtksourceview
+Found 'i686'
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcebuffer.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcecompletioncontext.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcecompletion.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcecompletioninfo.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcecompletionitem.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcecompletionproposal.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcecompletionprovider.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcegutter.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourceiter.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcelanguage.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcelanguagemanager.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcemark.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourceprintcompositor.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcestyle.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcestylescheme.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourcestyleschememanager.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourceundomanager.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourceview.h
+Processing ../gtksourceview-install/usr/include/gtksourceview-2.0/gtksourceview/gtksourceview-typebuiltins.h
+Processing ../gtksourceview-install/usr/lib/libgtksourceview-2.0.la
+Processing ../gtksourceview-install/usr/lib/libgtksourceview-2.0.so
+Processing ../gtksourceview-install/usr/lib/libgtksourceview-2.0.so.0
+Processing ../gtksourceview-install/usr/lib/libgtksourceview-2.0.so.0.0.0
+Processing ../gtksourceview-install/usr/lib/pkgconfig/gtksourceview-2.0.pc
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceBuffer.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceCompletion.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceCompletionInfo.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceCompletionItem.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceCompletionProposal.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceCompletionProvider.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceGutter.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceLanguage.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceLanguageManager.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceMark.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourcePrintCompositor.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceStyle.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceStyleScheme.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceStyleSchemeManager.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceUndoManager.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/gtksourceview-2.0-completioncontext.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/gtksourceview-2.0.devhelp
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/gtksourceview-2.0.devhelp2
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/gtksourceview-2.0-Searching-in-a-GtkSourceBuffer.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/GtkSourceView.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/home.png
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/index.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/index.sgml
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/lang-reference.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/lang-tutorial.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/left.png
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/right.png
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/rn01.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/rn02.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/style.css
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/style-reference.html
+Processing ../gtksourceview-install/usr/share/gtk-doc/html/gtksourceview-2.0/up.png
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/ada.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/asp.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/awk.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/bibtex.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/boo.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/cg.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/changelog.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/chdr.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/check.sh
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/c.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/cmake.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/convert.py
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/cpp.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/csharp.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/css.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/cuda.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/def.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/desktop.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/diff.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/d.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/docbook.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/dosbatch.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/dot.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/dpatch.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/dtd.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/eiffel.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/erlang.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/fcl.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/forth.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/fortran.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/fsharp.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/gap.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/glsl.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/gtk-doc.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/gtkrc.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/haddock.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/haskell.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/haskell-literate.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/html.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/idl.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/ini.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/java.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/javascript.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/language2.rng
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/language.dtd
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/language.rng
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/latex.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/libtool.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/lua.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/m4.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/makefile.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/mallard.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/msil.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/nemerle.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/nsis.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/objc.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/ocaml.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/ocl.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/octave.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/ooc.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/pascal.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/perl.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/php.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/pkgconfig.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/po.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/prolog.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/python.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/R.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/rpmspec.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/ruby.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/scheme.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/sh.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/sparql.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/sql.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/styles.rng
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/t2t.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/tcl.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/texinfo.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/vala.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/vbnet.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/verilog.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/vhdl.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/xml.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/xslt.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/language-specs/yacc.lang
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/styles/classic.xml
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/styles/cobalt.xml
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/styles/kate.xml
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/styles/oblivion.xml
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/styles/styles.rng
+Processing ../gtksourceview-install/usr/share/gtksourceview-2.0/styles/tango.xml
+Processing ../gtksourceview-install/usr/share/locale/ar/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/as/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ast/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/az/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/be/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/bg/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/bn_IN/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/bn/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/bs/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ca/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ca@valencia/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/cs/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/cy/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/da/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/de/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/dz/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/el/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/en_CA/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/en_GB/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/en@shaw/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/es/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/et/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/eu/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/fa/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/fi/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/fr/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ga/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/gl/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/gu/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/he/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/hi/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/hr/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/hu/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/id/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/it/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ja/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/kn/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ko/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/lt/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/lv/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/mai/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/mg/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/mk/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ml/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/mn/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/mr/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ms/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/nb/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ne/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/nl/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/nn/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/oc/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/or/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/pa/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/pl/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/pt_BR/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/pt/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ro/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ru/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/rw/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/si/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/sk/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/sl/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/sq/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/sr@latin/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/sr/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/sv/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/ta/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/te/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/th/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/tr/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/uk/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/vi/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/xh/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/zh_CN/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/zh_HK/LC_MESSAGES/gtksourceview-2.0.mo
+Processing ../gtksourceview-install/usr/share/locale/zh_TW/LC_MESSAGES/gtksourceview-2.0.mo
+all done
+packaging gtksourceview-2.10.5-i686_slk600
+packaging gtksourceview_DEV-2.10.5-i686_slk600
+packaging gtksourceview_DOC-2.10.5-i686_slk600
+packaging gtksourceview_NLS-2.10.5-i686_slk600
+done!

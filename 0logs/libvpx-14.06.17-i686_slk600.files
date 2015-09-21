@@ -1,0 +1,17 @@
+libvpx-install/usr/bin/vpxdec
+libvpx-install/usr/bin/vpxenc
+libvpx-install/usr/include/vpx/vp8cx.h
+libvpx-install/usr/include/vpx/vp8dx.h
+libvpx-install/usr/include/vpx/vp8.h
+libvpx-install/usr/include/vpx/vpx_codec.h
+libvpx-install/usr/include/vpx/vpx_decoder.h
+libvpx-install/usr/include/vpx/vpx_encoder.h
+libvpx-install/usr/include/vpx/vpx_frame_buffer.h
+libvpx-install/usr/include/vpx/vpx_image.h
+libvpx-install/usr/include/vpx/vpx_integer.h
+libvpx-install/usr/lib/libvpx.a
+libvpx-install/usr/lib/libvpx.so
+libvpx-install/usr/lib/libvpx.so.1
+libvpx-install/usr/lib/libvpx.so.1.3
+libvpx-install/usr/lib/libvpx.so.1.3.0
+libvpx-install/usr/lib/pkgconfig/vpx.pc

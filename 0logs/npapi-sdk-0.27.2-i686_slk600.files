@@ -1,0 +1,5 @@
+npapi-sdk-install/usr/include/npapi-sdk/npapi.h
+npapi-sdk-install/usr/include/npapi-sdk/npfunctions.h
+npapi-sdk-install/usr/include/npapi-sdk/npruntime.h
+npapi-sdk-install/usr/include/npapi-sdk/nptypes.h
+npapi-sdk-install/usr/lib/pkgconfig/npapi-sdk.pc

@@ -1,0 +1,67 @@
+# bcrypt
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=http://distro.ibiblio.org/puppylinux/sources/b/
+PKG=bcrypt
+VER=1.1
+COMP=tar.gz
+DESC="blowfish encryption for files"
+DEPS=
+CAT=BuildingBlock
+BUILD=slk600
+CWD=`pwd`
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+build() {
+	# since not X compiling forget build triplet
+	cd ${PKG}-${VER}
+	make
+	[ "$?" -eq 0 ] || exit
+	install -d -m 0755 $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin
+	install -m 0755 $PKG $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin
+	strip --strip-unneeded $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/*
+	make clean
+	cd -
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+	fi
+	# delete any icon cache or library cache
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	for p in `ls|grep "\-${ARCH}_${BUILD}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
+	done
+	rm -r ${PKG}-${VER}
+	rm *.files 2>/dev/null
+	echo "done!"
+}
+
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+build
+package	

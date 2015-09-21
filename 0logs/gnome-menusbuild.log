@@ -1,0 +1,851 @@
+gnome-menus-2.14.3/
+gnome-menus-2.14.3/libmenu/
+gnome-menus-2.14.3/libmenu/gmenu-tree.h
+gnome-menus-2.14.3/libmenu/Makefile.am
+gnome-menus-2.14.3/libmenu/Makefile.in
+gnome-menus-2.14.3/libmenu/libgnome-menu-uninstalled.pc.in
+gnome-menus-2.14.3/libmenu/libgnome-menu.pc.in
+gnome-menus-2.14.3/libmenu/canonicalize.c
+gnome-menus-2.14.3/libmenu/canonicalize.h
+gnome-menus-2.14.3/libmenu/desktop-entries.c
+gnome-menus-2.14.3/libmenu/desktop-entries.h
+gnome-menus-2.14.3/libmenu/entry-directories.c
+gnome-menus-2.14.3/libmenu/entry-directories.h
+gnome-menus-2.14.3/libmenu/gmenu-tree.c
+gnome-menus-2.14.3/libmenu/menu-layout.c
+gnome-menus-2.14.3/libmenu/menu-layout.h
+gnome-menus-2.14.3/libmenu/menu-monitor.c
+gnome-menus-2.14.3/libmenu/menu-monitor.h
+gnome-menus-2.14.3/libmenu/menu-monitor-backend.h
+gnome-menus-2.14.3/libmenu/menu-monitor-fam.c
+gnome-menus-2.14.3/libmenu/menu-util.c
+gnome-menus-2.14.3/libmenu/menu-util.h
+gnome-menus-2.14.3/po/
+gnome-menus-2.14.3/po/ChangeLog
+gnome-menus-2.14.3/po/Makefile.in.in
+gnome-menus-2.14.3/po/POTFILES.in
+gnome-menus-2.14.3/po/ar.po
+gnome-menus-2.14.3/po/bg.po
+gnome-menus-2.14.3/po/bn.po
+gnome-menus-2.14.3/po/br.po
+gnome-menus-2.14.3/po/ca.po
+gnome-menus-2.14.3/po/cs.po
+gnome-menus-2.14.3/po/cy.po
+gnome-menus-2.14.3/po/da.po
+gnome-menus-2.14.3/po/de.po
+gnome-menus-2.14.3/po/dz.po
+gnome-menus-2.14.3/po/el.po
+gnome-menus-2.14.3/po/en_CA.po
+gnome-menus-2.14.3/po/en_GB.po
+gnome-menus-2.14.3/po/es.po
+gnome-menus-2.14.3/po/et.po
+gnome-menus-2.14.3/po/eu.po
+gnome-menus-2.14.3/po/fa.po
+gnome-menus-2.14.3/po/fi.po
+gnome-menus-2.14.3/po/fr.po
+gnome-menus-2.14.3/po/gl.po
+gnome-menus-2.14.3/po/gu.po
+gnome-menus-2.14.3/po/he.po
+gnome-menus-2.14.3/po/hi.po
+gnome-menus-2.14.3/po/hu.po
+gnome-menus-2.14.3/po/hy.po
+gnome-menus-2.14.3/po/id.po
+gnome-menus-2.14.3/po/it.po
+gnome-menus-2.14.3/po/ja.po
+gnome-menus-2.14.3/po/ka.po
+gnome-menus-2.14.3/po/ko.po
+gnome-menus-2.14.3/po/ku.po
+gnome-menus-2.14.3/po/ky.po
+gnome-menus-2.14.3/po/lt.po
+gnome-menus-2.14.3/po/lv.po
+gnome-menus-2.14.3/po/mg.po
+gnome-menus-2.14.3/po/mk.po
+gnome-menus-2.14.3/po/mr.po
+gnome-menus-2.14.3/po/ms.po
+gnome-menus-2.14.3/po/nb.po
+gnome-menus-2.14.3/po/ne.po
+gnome-menus-2.14.3/po/nl.po
+gnome-menus-2.14.3/po/nn.po
+gnome-menus-2.14.3/po/pa.po
+gnome-menus-2.14.3/po/pl.po
+gnome-menus-2.14.3/po/pt.po
+gnome-menus-2.14.3/po/pt_BR.po
+gnome-menus-2.14.3/po/ro.po
+gnome-menus-2.14.3/po/ru.po
+gnome-menus-2.14.3/po/rw.po
+gnome-menus-2.14.3/po/sk.po
+gnome-menus-2.14.3/po/sq.po
+gnome-menus-2.14.3/po/sr.po
+gnome-menus-2.14.3/po/sr@Latn.po
+gnome-menus-2.14.3/po/sv.po
+gnome-menus-2.14.3/po/te.po
+gnome-menus-2.14.3/po/th.po
+gnome-menus-2.14.3/po/tr.po
+gnome-menus-2.14.3/po/ug.po
+gnome-menus-2.14.3/po/uk.po
+gnome-menus-2.14.3/po/vi.po
+gnome-menus-2.14.3/po/xh.po
+gnome-menus-2.14.3/po/zh_CN.po
+gnome-menus-2.14.3/po/zh_HK.po
+gnome-menus-2.14.3/po/zh_TW.po
+gnome-menus-2.14.3/README
+gnome-menus-2.14.3/acinclude.m4
+gnome-menus-2.14.3/configure.in
+gnome-menus-2.14.3/aclocal.m4
+gnome-menus-2.14.3/Makefile.am
+gnome-menus-2.14.3/Makefile.in
+gnome-menus-2.14.3/config.h.in
+gnome-menus-2.14.3/configure
+gnome-menus-2.14.3/AUTHORS
+gnome-menus-2.14.3/COPYING
+gnome-menus-2.14.3/COPYING.LIB
+gnome-menus-2.14.3/ChangeLog
+gnome-menus-2.14.3/INSTALL
+gnome-menus-2.14.3/NEWS
+gnome-menus-2.14.3/config.guess
+gnome-menus-2.14.3/config.sub
+gnome-menus-2.14.3/depcomp
+gnome-menus-2.14.3/install-sh
+gnome-menus-2.14.3/ltmain.sh
+gnome-menus-2.14.3/missing
+gnome-menus-2.14.3/mkinstalldirs
+gnome-menus-2.14.3/py-compile
+gnome-menus-2.14.3/HACKING
+gnome-menus-2.14.3/intltool-extract.in
+gnome-menus-2.14.3/intltool-merge.in
+gnome-menus-2.14.3/intltool-update.in
+gnome-menus-2.14.3/layout/
+gnome-menus-2.14.3/layout/Makefile.am
+gnome-menus-2.14.3/layout/Makefile.in
+gnome-menus-2.14.3/layout/applications.menu
+gnome-menus-2.14.3/layout/preferences.menu
+gnome-menus-2.14.3/layout/settings.menu
+gnome-menus-2.14.3/desktop-directories/
+gnome-menus-2.14.3/desktop-directories/Makefile.am
+gnome-menus-2.14.3/desktop-directories/Makefile.in
+gnome-menus-2.14.3/desktop-directories/Accessibility.directory.in
+gnome-menus-2.14.3/desktop-directories/Accessories.directory.in
+gnome-menus-2.14.3/desktop-directories/Applications.directory.in
+gnome-menus-2.14.3/desktop-directories/Development.directory.in
+gnome-menus-2.14.3/desktop-directories/Desktop.directory.in
+gnome-menus-2.14.3/desktop-directories/Education.directory.in
+gnome-menus-2.14.3/desktop-directories/Games.directory.in
+gnome-menus-2.14.3/desktop-directories/Graphics.directory.in
+gnome-menus-2.14.3/desktop-directories/Internet.directory.in
+gnome-menus-2.14.3/desktop-directories/Multimedia.directory.in
+gnome-menus-2.14.3/desktop-directories/Office.directory.in
+gnome-menus-2.14.3/desktop-directories/Other.directory.in
+gnome-menus-2.14.3/desktop-directories/Preferences.directory.in
+gnome-menus-2.14.3/desktop-directories/Settings-Accessibility.directory.in
+gnome-menus-2.14.3/desktop-directories/Settings.directory.in
+gnome-menus-2.14.3/desktop-directories/System-Settings.directory.in
+gnome-menus-2.14.3/desktop-directories/System-Tools.directory.in
+gnome-menus-2.14.3/util/
+gnome-menus-2.14.3/util/Makefile.am
+gnome-menus-2.14.3/util/Makefile.in
+gnome-menus-2.14.3/util/test-menu-spec.c
+gnome-menus-2.14.3/python/
+gnome-menus-2.14.3/python/Makefile.am
+gnome-menus-2.14.3/python/Makefile.in
+gnome-menus-2.14.3/python/gmenu.c
+gnome-menus-2.14.3/simple-editor/
+gnome-menus-2.14.3/simple-editor/Makefile.am
+gnome-menus-2.14.3/simple-editor/Makefile.in
+gnome-menus-2.14.3/simple-editor/gmenu-simple-editor.in
+gnome-menus-2.14.3/simple-editor/gmenu-simple-editor.desktop.in
+gnome-menus-2.14.3/simple-editor/gmenu-simple-editor.glade
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/__init__.py
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/main.py
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/maindialog.py
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/menutreemodel.py
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/menufilewriter.py
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/Makefile.am
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/Makefile.in
+gnome-menus-2.14.3/simple-editor/GMenuSimpleEditor/config.py.in
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for dcgettext... yes
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for catalogs to be installed...  ar bg bn br ca cs cy da de dz el en_CA en_GB es et eu fa fi fr gl gu he hi hu hy id it ja ka ko ku ky lt lv mg mk mr ms nb ne nl nn pa pl pt pt_BR ro ru rw sk sq sr sr@Latn sv te th tr ug uk vi xh zh_CN zh_HK zh_TW
+checking for intltool >= 0.31... 0.35.0 found
+checking for perl... /usr/bin/perl
+checking for XML::Parser... ok
+checking for iconv... /usr/bin/iconv
+checking for msgfmt... /usr/bin/msgfmt
+checking for msgmerge... /usr/bin/msgmerge
+checking for xgettext... /usr/bin/xgettext
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ANSI C... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for ANSI C header files... (cached) yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GLIB... yes
+checking for FAMOpen in -lfam... yes
+checking fam.h usability... yes
+checking fam.h presence... yes
+checking for fam.h... yes
+checking for FAMNoExists... yes
+checking what warning flags to pass to the C compiler... -Wall -Wmissing-prototypes
+checking what language compliance flags to pass to the C compiler... 
+checking whether gcc accepts -fno-strict-aliasing... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libmenu/Makefile
+config.status: creating libmenu/libgnome-menu.pc
+config.status: creating libmenu/libgnome-menu-uninstalled.pc
+config.status: creating layout/Makefile
+config.status: creating desktop-directories/Makefile
+config.status: creating util/Makefile
+config.status: creating python/Makefile
+config.status: creating simple-editor/Makefile
+config.status: creating simple-editor/GMenuSimpleEditor/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: executing intltool commands
+config.status: executing po/stamp-it commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/po'
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo bn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bn.po
+file=`echo br | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file br.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo cy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cy.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo dz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file dz.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_CA | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_CA.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo et | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file et.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fa.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gu.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file he.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hi.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo hy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hy.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo ka | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ka.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo ku | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ku.po
+file=`echo ky | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ky.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo lv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lv.po
+file=`echo mg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mg.po
+file=`echo mk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mk.po
+file=`echo mr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mr.po
+file=`echo ms | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ms.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo ne | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ne.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo nn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nn.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pa.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sr@Latn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr@Latn.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo te | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file te.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo ug | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ug.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo xh | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file xh.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_HK | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_HK.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/po'
+Making all in libmenu
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/libmenu'
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT canonicalize.lo -MD -MP -MF ".deps/canonicalize.Tpo" -c -o canonicalize.lo canonicalize.c; \
+then mv -f ".deps/canonicalize.Tpo" ".deps/canonicalize.Plo"; else rm -f ".deps/canonicalize.Tpo"; exit 1; fi
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT desktop-entries.lo -MD -MP -MF ".deps/desktop-entries.Tpo" -c -o desktop-entries.lo desktop-entries.c; \
+then mv -f ".deps/desktop-entries.Tpo" ".deps/desktop-entries.Plo"; else rm -f ".deps/desktop-entries.Tpo"; exit 1; fi
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT entry-directories.lo -MD -MP -MF ".deps/entry-directories.Tpo" -c -o entry-directories.lo entry-directories.c; \
+then mv -f ".deps/entry-directories.Tpo" ".deps/entry-directories.Plo"; else rm -f ".deps/entry-directories.Tpo"; exit 1; fi
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT gmenu-tree.lo -MD -MP -MF ".deps/gmenu-tree.Tpo" -c -o gmenu-tree.lo gmenu-tree.c; \
+then mv -f ".deps/gmenu-tree.Tpo" ".deps/gmenu-tree.Plo"; else rm -f ".deps/gmenu-tree.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT gmenu-tree.lo -MD -MP -MF .deps/gmenu-tree.Tpo -c gmenu-tree.c  -fPIC -DPIC -o .libs/gmenu-tree.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT canonicalize.lo -MD -MP -MF .deps/canonicalize.Tpo -c canonicalize.c  -fPIC -DPIC -o .libs/canonicalize.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT entry-directories.lo -MD -MP -MF .deps/entry-directories.Tpo -c entry-directories.c  -fPIC -DPIC -o .libs/entry-directories.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT desktop-entries.lo -MD -MP -MF .deps/desktop-entries.Tpo -c desktop-entries.c  -fPIC -DPIC -o .libs/desktop-entries.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT canonicalize.lo -MD -MP -MF .deps/canonicalize.Tpo -c canonicalize.c -o canonicalize.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT menu-layout.lo -MD -MP -MF ".deps/menu-layout.Tpo" -c -o menu-layout.lo menu-layout.c; \
+then mv -f ".deps/menu-layout.Tpo" ".deps/menu-layout.Plo"; else rm -f ".deps/menu-layout.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT desktop-entries.lo -MD -MP -MF .deps/desktop-entries.Tpo -c desktop-entries.c -o desktop-entries.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT entry-directories.lo -MD -MP -MF .deps/entry-directories.Tpo -c entry-directories.c -o entry-directories.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT menu-monitor.lo -MD -MP -MF ".deps/menu-monitor.Tpo" -c -o menu-monitor.lo menu-monitor.c; \
+then mv -f ".deps/menu-monitor.Tpo" ".deps/menu-monitor.Plo"; else rm -f ".deps/menu-monitor.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT menu-layout.lo -MD -MP -MF .deps/menu-layout.Tpo -c menu-layout.c  -fPIC -DPIC -o .libs/menu-layout.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT menu-monitor-fam.lo -MD -MP -MF ".deps/menu-monitor-fam.Tpo" -c -o menu-monitor-fam.lo menu-monitor-fam.c; \
+then mv -f ".deps/menu-monitor-fam.Tpo" ".deps/menu-monitor-fam.Plo"; else rm -f ".deps/menu-monitor-fam.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT menu-monitor.lo -MD -MP -MF .deps/menu-monitor.Tpo -c menu-monitor.c  -fPIC -DPIC -o .libs/menu-monitor.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT menu-monitor.lo -MD -MP -MF .deps/menu-monitor.Tpo -c menu-monitor.c -o menu-monitor.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT menu-util.lo -MD -MP -MF ".deps/menu-util.Tpo" -c -o menu-util.lo menu-util.c; \
+then mv -f ".deps/menu-util.Tpo" ".deps/menu-util.Plo"; else rm -f ".deps/menu-util.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT gmenu-tree.lo -MD -MP -MF .deps/gmenu-tree.Tpo -c gmenu-tree.c -o gmenu-tree.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT menu-monitor-fam.lo -MD -MP -MF .deps/menu-monitor-fam.Tpo -c menu-monitor-fam.c  -fPIC -DPIC -o .libs/menu-monitor-fam.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT menu-monitor-fam.lo -MD -MP -MF .deps/menu-monitor-fam.Tpo -c menu-monitor-fam.c -o menu-monitor-fam.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT menu-layout.lo -MD -MP -MF .deps/menu-layout.Tpo -c menu-layout.c -o menu-layout.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT menu-util.lo -MD -MP -MF .deps/menu-util.Tpo -c menu-util.c  -fPIC -DPIC -o .libs/menu-util.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes -g -O2 -MT menu-util.lo -MD -MP -MF .deps/menu-util.Tpo -c menu-util.c -o menu-util.o >/dev/null 2>&1
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o libgnome-menu.la -rpath /usr/lib -version-info 2:2:0 -no-undefined -export-symbols-regex gmenu_tree  canonicalize.lo desktop-entries.lo entry-directories.lo gmenu-tree.lo menu-layout.lo menu-monitor.lo menu-monitor-fam.lo menu-util.lo  -lglib-2.0   -lfam  
+generating symbol list for `libgnome-menu.la'
+/usr/bin/nm -B  .libs/canonicalize.o .libs/desktop-entries.o .libs/entry-directories.o .libs/gmenu-tree.o .libs/menu-layout.o .libs/menu-monitor.o .libs/menu-monitor-fam.o .libs/menu-util.o  | sed -n -e 's/^.*[ 	]\([ABCDGIRSTW][ABCDGIRSTW]*\)[ 	][ 	]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | /bin/sed 's/.* //' | sort | uniq > .libs/libgnome-menu.exp
+grep -E -e "gmenu_tree" ".libs/libgnome-menu.exp" > ".libs/libgnome-menu.expT"
+mv -f ".libs/libgnome-menu.expT" ".libs/libgnome-menu.exp"
+echo "{ global:" > .libs/libgnome-menu.ver
+ cat .libs/libgnome-menu.exp | sed -e "s/\(.*\)/\1;/" >> .libs/libgnome-menu.ver
+ echo "local: *; };" >> .libs/libgnome-menu.ver
+ gcc -shared  .libs/canonicalize.o .libs/desktop-entries.o .libs/entry-directories.o .libs/gmenu-tree.o .libs/menu-layout.o .libs/menu-monitor.o .libs/menu-monitor-fam.o .libs/menu-util.o  /usr/lib/libglib-2.0.so /usr/lib/libfam.so  -Wl,-soname -Wl,libgnome-menu.so.2 -Wl,-version-script -Wl,.libs/libgnome-menu.ver -o .libs/libgnome-menu.so.2.0.2
+(cd .libs && rm -f libgnome-menu.so.2 && ln -s libgnome-menu.so.2.0.2 libgnome-menu.so.2)
+(cd .libs && rm -f libgnome-menu.so && ln -s libgnome-menu.so.2.0.2 libgnome-menu.so)
+ar cru .libs/libgnome-menu.a  canonicalize.o desktop-entries.o entry-directories.o gmenu-tree.o menu-layout.o menu-monitor.o menu-monitor-fam.o menu-util.o
+ranlib .libs/libgnome-menu.a
+creating libgnome-menu.la
+(cd .libs && rm -f libgnome-menu.la && ln -s ../libgnome-menu.la libgnome-menu.la)
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/libmenu'
+Making all in layout
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/layout'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/layout'
+Making all in desktop-directories
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/desktop-directories'
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Accessibility.directory.in Accessibility.directory
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Accessories.directory.in Accessories.directory
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Applications.directory.in Applications.directory
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Development.directory.in Development.directory
+Generating and caching the translation database
+Generating and caching the translation database
+Generating and caching the translation database
+Generating and caching the translation database
+Merging translations into Development.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Desktop.directory.in Desktop.directory
+Merging translations into Accessories.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Education.directory.in Education.directory
+Merging translations into Applications.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Games.directory.in Games.directory
+Found cached translation database
+Merging translations into Desktop.directory.
+Merging translations into Accessibility.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Graphics.directory.in Graphics.directory
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Internet.directory.in Internet.directory
+Found cached translation database
+Merging translations into Education.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Multimedia.directory.in Multimedia.directory
+Found cached translation database
+Merging translations into Games.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Office.directory.in Office.directory
+Found cached translation database
+Merging translations into Graphics.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Other.directory.in Other.directory
+Found cached translation database
+Merging translations into Internet.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Preferences.directory.in Preferences.directory
+Found cached translation database
+Merging translations into Multimedia.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Settings-Accessibility.directory.in Settings-Accessibility.directory
+Found cached translation database
+Merging translations into Office.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po Settings.directory.in Settings.directory
+Found cached translation database
+Merging translations into Preferences.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po System-Settings.directory.in System-Settings.directory
+Found cached translation database
+Merging translations into Other.directory.
+LC_ALL=C ../intltool-merge -d -u -c ../po/.intltool-merge-cache ../po System-Tools.directory.in System-Tools.directory
+Found cached translation database
+Merging translations into Settings-Accessibility.directory.
+Found cached translation database
+Merging translations into System-Tools.directory.
+Found cached translation database
+Merging translations into Settings.directory.
+Found cached translation database
+Merging translations into System-Settings.directory.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/desktop-directories'
+Making all in util
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/util'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DGMENU_I_KNOW_THIS_IS_UNSTABLE -DGNOMELOCALEDIR=\""/usr/share/locale"\" -I./../libmenu -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -DG_ENABLE_DEBUG -Wall -Wmissing-prototypes      -g -O2 -MT test-menu-spec.o -MD -MP -MF ".deps/test-menu-spec.Tpo" -c -o test-menu-spec.o test-menu-spec.c; \
+then mv -f ".deps/test-menu-spec.Tpo" ".deps/test-menu-spec.Po"; else rm -f ".deps/test-menu-spec.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o gnome-menu-spec-test  test-menu-spec.o  ../libmenu/libgnome-menu.la -lglib-2.0    
+mkdir .libs
+gcc -g -O2 -o .libs/gnome-menu-spec-test test-menu-spec.o  ../libmenu/.libs/libgnome-menu.so /usr/lib/libfam.so /usr/lib/libglib-2.0.so -lpthread
+creating gnome-menu-spec-test
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/util'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/po'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/install-sh -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale
+if test -n ""; then \
+  linguas=""; \
+else \
+  linguas="ar bg bn br ca cs cy da de dz el en_CA en_GB es et eu fa fi fr gl gu he hi hu hy id it ja ka ko ku ky lt lv mg mk mr ms nb ne nl nn pa pl pt pt_BR ro ru rw sk sq sr sr@Latn sv te th tr ug uk vi xh zh_CN zh_HK zh_TW"; \
+fi; \
+for lang in $linguas; do \
+  dir=/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/$lang/LC_MESSAGES; \
+  /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo $dir/gnome-menus.mo; \
+    echo "installing $lang.gmo as $dir/gnome-menus.mo"; \
+  else \
+    /usr/bin/ginstall -c -m 644 ./$lang.gmo $dir/gnome-menus.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/gnome-menus.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo.m $dir/gnome-menus.mo.m; \
+    echo "installing $lang.gmo.m as $dir/gnome-menus.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/ginstall -c -m 644 ./$lang.gmo.m \
+	$dir/gnome-menus.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/gnome-menus.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ar/LC_MESSAGES/gnome-menus.mo
+installing bg.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/bg/LC_MESSAGES/gnome-menus.mo
+installing bn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/bn/LC_MESSAGES/gnome-menus.mo
+installing br.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/br/LC_MESSAGES/gnome-menus.mo
+installing ca.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ca/LC_MESSAGES/gnome-menus.mo
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/cs/LC_MESSAGES/gnome-menus.mo
+installing cy.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/cy/LC_MESSAGES/gnome-menus.mo
+installing da.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/da/LC_MESSAGES/gnome-menus.mo
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/de/LC_MESSAGES/gnome-menus.mo
+installing dz.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/dz/LC_MESSAGES/gnome-menus.mo
+installing el.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/el/LC_MESSAGES/gnome-menus.mo
+installing en_CA.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/en_CA/LC_MESSAGES/gnome-menus.mo
+installing en_GB.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/en_GB/LC_MESSAGES/gnome-menus.mo
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/es/LC_MESSAGES/gnome-menus.mo
+installing et.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/et/LC_MESSAGES/gnome-menus.mo
+installing eu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/eu/LC_MESSAGES/gnome-menus.mo
+installing fa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/fa/LC_MESSAGES/gnome-menus.mo
+installing fi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/fi/LC_MESSAGES/gnome-menus.mo
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/fr/LC_MESSAGES/gnome-menus.mo
+installing gl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/gl/LC_MESSAGES/gnome-menus.mo
+installing gu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/gu/LC_MESSAGES/gnome-menus.mo
+installing he.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/he/LC_MESSAGES/gnome-menus.mo
+installing hi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/hi/LC_MESSAGES/gnome-menus.mo
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/hu/LC_MESSAGES/gnome-menus.mo
+installing hy.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/hy/LC_MESSAGES/gnome-menus.mo
+installing id.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/id/LC_MESSAGES/gnome-menus.mo
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/it/LC_MESSAGES/gnome-menus.mo
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ja/LC_MESSAGES/gnome-menus.mo
+installing ka.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ka/LC_MESSAGES/gnome-menus.mo
+installing ko.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ko/LC_MESSAGES/gnome-menus.mo
+installing ku.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ku/LC_MESSAGES/gnome-menus.mo
+installing ky.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ky/LC_MESSAGES/gnome-menus.mo
+installing lt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/lt/LC_MESSAGES/gnome-menus.mo
+installing lv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/lv/LC_MESSAGES/gnome-menus.mo
+installing mg.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/mg/LC_MESSAGES/gnome-menus.mo
+installing mk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/mk/LC_MESSAGES/gnome-menus.mo
+installing mr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/mr/LC_MESSAGES/gnome-menus.mo
+installing ms.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ms/LC_MESSAGES/gnome-menus.mo
+installing nb.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/nb/LC_MESSAGES/gnome-menus.mo
+installing ne.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ne/LC_MESSAGES/gnome-menus.mo
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/nl/LC_MESSAGES/gnome-menus.mo
+installing nn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/nn/LC_MESSAGES/gnome-menus.mo
+installing pa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/pa/LC_MESSAGES/gnome-menus.mo
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/pl/LC_MESSAGES/gnome-menus.mo
+installing pt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/pt/LC_MESSAGES/gnome-menus.mo
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/pt_BR/LC_MESSAGES/gnome-menus.mo
+installing ro.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ro/LC_MESSAGES/gnome-menus.mo
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ru/LC_MESSAGES/gnome-menus.mo
+installing rw.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/rw/LC_MESSAGES/gnome-menus.mo
+installing sk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/sk/LC_MESSAGES/gnome-menus.mo
+installing sq.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/sq/LC_MESSAGES/gnome-menus.mo
+installing sr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/sr/LC_MESSAGES/gnome-menus.mo
+installing sr@Latn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/sr@Latn/LC_MESSAGES/gnome-menus.mo
+installing sv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/sv/LC_MESSAGES/gnome-menus.mo
+installing te.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/te/LC_MESSAGES/gnome-menus.mo
+installing th.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/th/LC_MESSAGES/gnome-menus.mo
+installing tr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/tr/LC_MESSAGES/gnome-menus.mo
+installing ug.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/ug/LC_MESSAGES/gnome-menus.mo
+installing uk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/uk/LC_MESSAGES/gnome-menus.mo
+installing vi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/vi/LC_MESSAGES/gnome-menus.mo
+installing xh.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/xh/LC_MESSAGES/gnome-menus.mo
+installing zh_CN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/zh_CN/LC_MESSAGES/gnome-menus.mo
+installing zh_HK.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/zh_HK/LC_MESSAGES/gnome-menus.mo
+installing zh_TW.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/locale/zh_TW/LC_MESSAGES/gnome-menus.mo
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/po'
+Making install in libmenu
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/libmenu'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/libmenu'
+test -z "/usr/lib" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib"
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib
+ /bin/sh ../libtool --mode=install /usr/bin/ginstall -c  'libgnome-menu.la' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/libgnome-menu.la'
+/usr/bin/ginstall -c .libs/libgnome-menu.so.2.0.2 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/libgnome-menu.so.2.0.2
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib && { ln -s -f libgnome-menu.so.2.0.2 libgnome-menu.so.2 || { rm -f libgnome-menu.so.2 && ln -s libgnome-menu.so.2.0.2 libgnome-menu.so.2; }; })
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib && { ln -s -f libgnome-menu.so.2.0.2 libgnome-menu.so || { rm -f libgnome-menu.so && ln -s libgnome-menu.so.2.0.2 libgnome-menu.so; }; })
+/usr/bin/ginstall -c .libs/libgnome-menu.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/libgnome-menu.la
+/usr/bin/ginstall -c .libs/libgnome-menu.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/libgnome-menu.a
+chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/libgnome-menu.a
+ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/libgnome-menu.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/gnome-menus" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/include/gnome-menus"
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/include
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/include/gnome-menus
+ /usr/bin/ginstall -c -m 644 'gmenu-tree.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/include/gnome-menus/gmenu-tree.h'
+test -z "/usr/lib/pkgconfig" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/pkgconfig"
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/pkgconfig
+ /usr/bin/ginstall -c -m 644 'libgnome-menu.pc' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/lib/pkgconfig/libgnome-menu.pc'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/libmenu'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/libmenu'
+Making install in layout
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/layout'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/layout'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/etc/xdg/menus" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/etc/xdg/menus"
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/etc
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/etc/xdg
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/etc/xdg/menus
+ /usr/bin/ginstall -c -m 644 'applications.menu' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/etc/xdg/menus/applications.menu'
+ /usr/bin/ginstall -c -m 644 'preferences.menu' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/etc/xdg/menus/preferences.menu'
+ /usr/bin/ginstall -c -m 644 'settings.menu' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/etc/xdg/menus/settings.menu'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/layout'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/layout'
+Making install in desktop-directories
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/desktop-directories'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/desktop-directories'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/desktop-directories" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories"
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories
+ /usr/bin/ginstall -c -m 644 'Accessibility.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Accessibility.directory'
+ /usr/bin/ginstall -c -m 644 'Accessories.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Accessories.directory'
+ /usr/bin/ginstall -c -m 644 'Applications.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Applications.directory'
+ /usr/bin/ginstall -c -m 644 'Development.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Development.directory'
+ /usr/bin/ginstall -c -m 644 'Desktop.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Desktop.directory'
+ /usr/bin/ginstall -c -m 644 'Education.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Education.directory'
+ /usr/bin/ginstall -c -m 644 'Games.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Games.directory'
+ /usr/bin/ginstall -c -m 644 'Graphics.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Graphics.directory'
+ /usr/bin/ginstall -c -m 644 'Internet.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Internet.directory'
+ /usr/bin/ginstall -c -m 644 'Multimedia.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Multimedia.directory'
+ /usr/bin/ginstall -c -m 644 'Office.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Office.directory'
+ /usr/bin/ginstall -c -m 644 'Other.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Other.directory'
+ /usr/bin/ginstall -c -m 644 'Preferences.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Preferences.directory'
+ /usr/bin/ginstall -c -m 644 'Settings-Accessibility.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Settings-Accessibility.directory'
+ /usr/bin/ginstall -c -m 644 'Settings.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/Settings.directory'
+ /usr/bin/ginstall -c -m 644 'System-Settings.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/System-Settings.directory'
+ /usr/bin/ginstall -c -m 644 'System-Tools.directory' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/share/desktop-directories/System-Tools.directory'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/desktop-directories'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/desktop-directories'
+Making install in util
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/util'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/util'
+test -z "/usr/bin" || /bin/sh ../mkinstalldirs "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/bin"
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/bin
+  /bin/sh ../libtool --mode=install /usr/bin/ginstall -c 'gnome-menu-spec-test' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/bin/gnome-menu-spec-test'
+/usr/bin/ginstall -c .libs/gnome-menu-spec-test /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-install/usr/bin/gnome-menu-spec-test
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/util'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3/util'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus/gnome-menus-2.14.3'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gnome-menus
+please wait...
+Found 'i686'
+Processing ../gnome-menus-install/etc/xdg/menus/applications.menu
+Processing ../gnome-menus-install/etc/xdg/menus/preferences.menu
+Processing ../gnome-menus-install/etc/xdg/menus/settings.menu
+Processing ../gnome-menus-install/usr/bin/gnome-menu-spec-test
+Processing ../gnome-menus-install/usr/include/gnome-menus/gmenu-tree.h
+Processing ../gnome-menus-install/usr/lib/libgnome-menu.a
+Processing ../gnome-menus-install/usr/lib/libgnome-menu.la
+Processing ../gnome-menus-install/usr/lib/libgnome-menu.so
+Processing ../gnome-menus-install/usr/lib/libgnome-menu.so.2
+Processing ../gnome-menus-install/usr/lib/libgnome-menu.so.2.0.2
+Processing ../gnome-menus-install/usr/lib/pkgconfig/libgnome-menu.pc
+Processing ../gnome-menus-install/usr/share/desktop-directories/Accessibility.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Accessories.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Applications.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Desktop.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Development.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Education.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Games.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Graphics.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Internet.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Multimedia.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Office.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Other.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Preferences.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Settings-Accessibility.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/Settings.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/System-Settings.directory
+Processing ../gnome-menus-install/usr/share/desktop-directories/System-Tools.directory
+Processing ../gnome-menus-install/usr/share/locale/ar/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/bg/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/bn/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/br/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ca/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/cs/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/cy/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/da/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/de/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/dz/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/el/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/en_CA/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/en_GB/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/es/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/et/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/eu/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/fa/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/fi/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/fr/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/gl/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/gu/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/he/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/hi/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/hu/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/hy/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/id/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/it/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ja/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ka/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ko/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ku/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ky/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/lt/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/lv/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/mg/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/mk/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/mr/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ms/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/nb/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ne/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/nl/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/nn/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/pa/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/pl/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/pt_BR/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/pt/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ro/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ru/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/rw/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/sk/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/sq/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/sr@Latn/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/sr/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/sv/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/te/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/th/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/tr/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/ug/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/uk/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/vi/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/xh/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/zh_CN/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/zh_HK/LC_MESSAGES/gnome-menus.mo
+Processing ../gnome-menus-install/usr/share/locale/zh_TW/LC_MESSAGES/gnome-menus.mo
+all done
+rm: cannot remove ‘./gnome-menus-2.14.3-i686_slk600/usr/share/*’: No such file or directory
+packaging gnome-menus-2.14.3-i686_slk600
+packaging gnome-menus_DEV-2.14.3-i686_slk600
+packaging gnome-menus_NLS-2.14.3-i686_slk600
+done!

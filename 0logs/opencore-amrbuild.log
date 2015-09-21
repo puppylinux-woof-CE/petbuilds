@@ -1,0 +1,880 @@
+opencore-amr-0.1.3/
+opencore-amr-0.1.3/m4/
+opencore-amr-0.1.3/m4/libtool.m4
+opencore-amr-0.1.3/m4/ltoptions.m4
+opencore-amr-0.1.3/m4/ltsugar.m4
+opencore-amr-0.1.3/m4/ltversion.m4
+opencore-amr-0.1.3/m4/lt~obsolete.m4
+opencore-amr-0.1.3/opencore/
+opencore-amr-0.1.3/opencore/codecs_v2/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/add.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/az_lsp.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/bitno_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/bitreorder_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/bits2prm.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/c2_9pf_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/copy.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/div_32.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/div_s.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/extract_h.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/extract_l.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/gains_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/gc_pred.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/get_const_tbls.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/gmed_n.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/gray_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/grid_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/int_lpc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/inv_sqrt.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/inv_sqrt_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/l_abs.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/l_deposit_h.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/l_deposit_l.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/log2.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/log2_norm.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/log2_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsfwt.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/l_shr_r.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp_az.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp_lsf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp_lsf_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/mult_r.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/negate.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/norm_l.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/norm_s.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/overflow_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/ph_disp_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/pow2.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/pow2_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/pred_lt.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf_3.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf_3_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf_5.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf_5_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/qua_gain_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/reorder.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/residu.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/r_fft.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/round.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/set_zero.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/shr.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/shr_r.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/sqrt_l.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/sqrt_l_tbl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/sub.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/syn_filt.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/vad1.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/vad2.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/weight_a.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/window_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/Android.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/build/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/build/make/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/build/make/local.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basic_op_arm_gcc_v5.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basic_op_c_equivalent.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/bitno_tab.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/inv_sqrt.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_negate.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_shr.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/cnst_vad.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/log2.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/log2_norm.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsfwt.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsp_tab.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mac_32.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mode.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mult_r.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/negate.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/oper_32b.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/p_ol_wgh.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/pred_lt.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/q_plsf_5_tbl.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/qua_gain_tbl.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/residu.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/reverse_bits.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/syn_filt.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_mac.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/norm_s.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/az_lsp.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_shr_r.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/norm_l.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/abs_s.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/bytesused.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_add_c.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/vad.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/weight_a.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/window_tab.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_msu.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/n_proc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/q_plsf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/q_plsf_3_tbl.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/round.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/pvgsmamr.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/add.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basicop_malloc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/bitreorder_tab.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_shl.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gc_pred.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/set_zero.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/qgain475_tab.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/typedef.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/d_gain_c.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/d_gain_p.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/d_plsf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/div_s.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/dtx_common_def.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/frame.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/frame_type_3gpp.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_sub.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gmed_n.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/gsm_amr_typedefs.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/int_lpc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/int_lsf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsp.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsp_az.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/lsp_lsf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/pow2.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/qua_gain.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/reorder.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/sqrt_l.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/wmf_to_ets.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/basic_op.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_add.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mpy_32.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_comp.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_extract.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/l_mult.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mpy_32_16.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/get_const_tbls.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/shl.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/shr.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/shr_r.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/sub.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/include/mult.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/agc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/amrdecode.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/a_refl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/b_cn_cod.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/bgnscd.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/c_g_aver.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d1035pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d2_11pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d2_9pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d3_14pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d4_17pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d8_31pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_amr.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_gain.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_input_format_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_lag3.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_lag6.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/decoder_gsm_amr.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_gain_c.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_gain_p.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_plsf_3.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_plsf_5.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_plsf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dtx_dec.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ec_gains.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ex_ctrl.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/if2_to_ets.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/int_lsf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/lsp_avg.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ph_disp.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/post_pro.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/preemph.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/pstfilt.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/pvgsmamrdecoder.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/qgain475_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/sp_dec.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/wmf_to_ets.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/agc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/amrdecode.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/a_refl.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/b_cn_cod.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/bgnscd.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/c_g_aver.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d1035pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d2_11pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d2_9pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d3_14pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d4_17pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d8_31pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_amr.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_gain.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_lag3.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_lag6.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dtx_dec.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ec_gains.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ex_ctrl.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/gsmamr_dec.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/if2_to_ets.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/lsp_avg.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ph_disp.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/post_pro.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/preemph.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/pstfilt.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/pvgsmamrdecoder_dpi.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/pvgsmamrdecoder.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/sp_dec.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/Android.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/build/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/build/make/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/build/make/local.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/include/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/include/decoder_gsm_amr.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/include/pvamrnbdecoder_api.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/amrencode.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/autocorr.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c1035pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c2_11pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c2_9pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c3_14pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c4_17pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c8_31pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/calc_cor.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/calc_en.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cbsearch.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cl_ltp.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cod_amr.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/convolve.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h_x2.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h_x.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/corrwght_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/div_32.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/dtx_enc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/enc_lag3.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/enc_lag6.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/enc_output_format_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ets_to_if2.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ets_to_wmf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_adapt.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/gain_q.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_code.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_pitch.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/gsmamr_encoder_wrapper.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/hp_max.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/inter_36.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/inter_36_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_abs.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lag_wind.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lag_wind_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_comp.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/levinson.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_extract.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lflg_upd.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_negate.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lpc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ol_ltp.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pitch_fr.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pitch_ol.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/p_ol_wgh.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pre_big.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pre_proc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/prm2bits.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/qgain475.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/qgain795.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/q_gain_c.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/q_gain_p.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/qua_gain.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/s10_8pf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/set_sign.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/sid_sync.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/sp_enc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spreproc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spstproc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ton_stab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/vad1.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/amrencode.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/autocorr.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c1035pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c2_11pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c2_9pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c3_14pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c4_17pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c8_31pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/calc_cor.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/calc_en.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cbsearch.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cl_ltp.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cod_amr.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/convolve.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h_x2.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h_x.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/div_32.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/dtx_enc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/enc_lag3.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/enc_lag6.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ets_to_if2.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ets_to_wmf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_adapt.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/gain_q.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_code.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_pitch.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/gsmamr_enc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/hp_max.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/inter_36.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/inter_36_tab.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_abs.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lag_wind.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lag_wind_tab.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/levinson.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lpc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ol_ltp.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pitch_fr.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pitch_ol.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pre_big.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pre_proc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/prm2bits.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/qgain475.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/qgain795.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/q_gain_c.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/q_gain_p.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/s10_8pf.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/set_sign.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/sid_sync.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/sp_enc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spreproc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spstproc.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ton_stab.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/vad1.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/vad2.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/Android.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/build/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/build/make/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/build/make/local.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/include/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/include/gsmamr_encoder_wrapper.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/agc2_amr_wb.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/band_pass_6k_7k.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dec_acelp_2p_in_64.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dec_acelp_4p_in_64.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dec_alg_codebook.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dec_gain2_amr_wb.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/decoder_amr_wb.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/deemphasis_32.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dtx_decoder_amr_wb.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/get_amr_wb_bits.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/highpass_400hz_at_12k8.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/highpass_50hz_at_12k8.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/homing_amr_wb_dec.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/interpolate_isp.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/isf_extrapolation.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/isp_az.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/isp_isf.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/lagconceal.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/low_pass_filt_7k.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/median5.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/mime_io.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/noise_gen_amrwb.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/normalize_amr_wb.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/oversamp_12k8_to_16k.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/phase_dispersion.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pit_shrp.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pred_lt4.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/preemph_amrwb_dec.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwb_math_op.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/q_gain2_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qisf_ns.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qisf_ns_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qpisf_2s.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qpisf_2s_tab.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/scale_signal.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/synthesis_amr_wb.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/voice_factor.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/wb_syn_filt.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/weight_amrwb_lpc.cpp
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dtx.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/e_pv_amrwbdec.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/get_amr_wb_bits.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/mime_io.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/normalize_amr_wb.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder_acelp.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder_basic_op_cequivalent.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder_basic_op_gcc_armv5.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder_basic_op.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder_cnst.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder_mem_funcs.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwb_math_op.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pv_amr_wb_type_defs.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qisf_ns.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qpisf_2s.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/q_pulse.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/synthesis_amr_wb.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/Android.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/build/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/build/make/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/build/make/local.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/include/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/include/decoder_amr_wb.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/include/pvamrwbdecoder_api.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/common/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/common/dec/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/common/dec/include/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/common/dec/include/pvgsmamrdecoderinterface.h
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/common/dec/build/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/common/dec/build/make/
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/common/dec/build/make/local.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/common/dec/Android.mk
+opencore-amr-0.1.3/opencore/codecs_v2/audio/gsm_amr/patent_disclaimer.txt
+opencore-amr-0.1.3/opencore/README
+opencore-amr-0.1.3/opencore/NOTICE
+opencore-amr-0.1.3/opencore/ChangeLog
+opencore-amr-0.1.3/oscl/
+opencore-amr-0.1.3/oscl/oscl_base.h
+opencore-amr-0.1.3/oscl/oscl_mem.h
+opencore-amr-0.1.3/oscl/oscl_base_macros.h
+opencore-amr-0.1.3/README
+opencore-amr-0.1.3/configure.ac
+opencore-amr-0.1.3/aclocal.m4
+opencore-amr-0.1.3/Makefile.am
+opencore-amr-0.1.3/Makefile.in
+opencore-amr-0.1.3/config.h.in
+opencore-amr-0.1.3/configure
+opencore-amr-0.1.3/AUTHORS
+opencore-amr-0.1.3/COPYING
+opencore-amr-0.1.3/ChangeLog
+opencore-amr-0.1.3/INSTALL
+opencore-amr-0.1.3/NEWS
+opencore-amr-0.1.3/config.guess
+opencore-amr-0.1.3/config.sub
+opencore-amr-0.1.3/depcomp
+opencore-amr-0.1.3/install-sh
+opencore-amr-0.1.3/ltmain.sh
+opencore-amr-0.1.3/missing
+opencore-amr-0.1.3/LICENSE
+opencore-amr-0.1.3/amrnb/
+opencore-amr-0.1.3/amrnb/interf_dec.h
+opencore-amr-0.1.3/amrnb/interf_enc.h
+opencore-amr-0.1.3/amrnb/Makefile.am
+opencore-amr-0.1.3/amrnb/Makefile.in
+opencore-amr-0.1.3/amrnb/opencore-amrnb.pc.in
+opencore-amr-0.1.3/amrnb/wrapper.cpp
+opencore-amr-0.1.3/amrnb/opencore-amrnb.sym
+opencore-amr-0.1.3/amrwb/
+opencore-amr-0.1.3/amrwb/dec_if.h
+opencore-amr-0.1.3/amrwb/if_rom.h
+opencore-amr-0.1.3/amrwb/Makefile.am
+opencore-amr-0.1.3/amrwb/Makefile.in
+opencore-amr-0.1.3/amrwb/opencore-amrwb.pc.in
+opencore-amr-0.1.3/amrwb/wrapper.cpp
+opencore-amr-0.1.3/amrwb/opencore-amrwb.sym
+opencore-amr-0.1.3/test/
+opencore-amr-0.1.3/test/wavwriter.h
+opencore-amr-0.1.3/test/wavreader.h
+opencore-amr-0.1.3/test/Makefile.am
+opencore-amr-0.1.3/test/Makefile.in
+opencore-amr-0.1.3/test/amrnb-dec.c
+opencore-amr-0.1.3/test/wavwriter.c
+opencore-amr-0.1.3/test/amrnb-enc.c
+opencore-amr-0.1.3/test/wavreader.c
+opencore-amr-0.1.3/test/amrnb-enc-sine.c
+opencore-amr-0.1.3/test/amrwb-dec.c
+opencore-amr-0.1.3/test/linkboth.c
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for main in -lm... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for int8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for uint8_t... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for memset... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating amrnb/Makefile
+config.status: creating amrwb/Makefile
+config.status: creating test/Makefile
+config.status: creating amrnb/opencore-amrnb.pc
+config.status: creating amrwb/opencore-amrwb.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3'
+Making all in amrnb
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrnb'
+  CXX    wrapper.lo
+  CXX    agc.lo
+  CXX    a_refl.lo
+  CXX    amrdecode.lo
+  CXX    b_cn_cod.lo
+  CXX    bgnscd.lo
+  CXX    c_g_aver.lo
+  CXX    d1035pf.lo
+  CXX    d2_11pf.lo
+  CXX    d2_9pf.lo
+  CXX    d3_14pf.lo
+  CXX    d4_17pf.lo
+  CXX    d8_31pf.lo
+  CXX    dec_amr.lo
+  CXX    dec_gain.lo
+  CXX    dec_input_format_tab.lo
+  CXX    dec_lag3.lo
+  CXX    dec_lag6.lo
+  CXX    d_gain_c.lo
+  CXX    d_gain_p.lo
+  CXX    d_plsf_3.lo
+  CXX    d_plsf_5.lo
+  CXX    d_plsf.lo
+  CXX    dtx_dec.lo
+  CXX    ec_gains.lo
+  CXX    ex_ctrl.lo
+  CXX    if2_to_ets.lo
+  CXX    int_lsf.lo
+  CXX    lsp_avg.lo
+  CXX    ph_disp.lo
+  CXX    post_pro.lo
+  CXX    preemph.lo
+  CXX    pstfilt.lo
+  CXX    qgain475_tab.lo
+  CXX    sp_dec.lo
+  CXX    wmf_to_ets.lo
+  CXX    amrencode.lo
+  CXX    autocorr.lo
+  CXX    c1035pf.lo
+  CXX    c2_11pf.lo
+  CXX    c2_9pf.lo
+  CXX    c3_14pf.lo
+  CXX    c4_17pf.lo
+  CXX    c8_31pf.lo
+  CXX    calc_cor.lo
+  CXX    calc_en.lo
+  CXX    cbsearch.lo
+  CXX    cl_ltp.lo
+  CXX    cod_amr.lo
+  CXX    convolve.lo
+  CXX    cor_h.lo
+  CXX    cor_h_x2.lo
+  CXX    cor_h_x.lo
+  CXX    corrwght_tab.lo
+  CXX    div_32.lo
+  CXX    dtx_enc.lo
+  CXX    enc_lag3.lo
+  CXX    enc_lag6.lo
+  CXX    enc_output_format_tab.lo
+  CXX    ets_to_if2.lo
+  CXX    ets_to_wmf.lo
+  CXX    g_adapt.lo
+  CXX    gain_q.lo
+  CXX    g_code.lo
+  CXX    g_pitch.lo
+  CXX    hp_max.lo
+  CXX    inter_36.lo
+  CXX    inter_36_tab.lo
+  CXX    l_abs.lo
+  CXX    lag_wind.lo
+  CXX    lag_wind_tab.lo
+  CXX    l_comp.lo
+  CXX    levinson.lo
+  CXX    l_extract.lo
+  CXX    lflg_upd.lo
+  CXX    l_negate.lo
+  CXX    lpc.lo
+  CXX    ol_ltp.lo
+  CXX    pitch_fr.lo
+  CXX    pitch_ol.lo
+  CXX    p_ol_wgh.lo
+  CXX    pre_big.lo
+  CXX    pre_proc.lo
+  CXX    prm2bits.lo
+  CXX    qgain475.lo
+  CXX    qgain795.lo
+  CXX    q_gain_c.lo
+  CXX    q_gain_p.lo
+  CXX    qua_gain.lo
+  CXX    s10_8pf.lo
+  CXX    set_sign.lo
+  CXX    sid_sync.lo
+  CXX    sp_enc.lo
+  CXX    spreproc.lo
+  CXX    spstproc.lo
+  CXX    ton_stab.lo
+  CXX    vad1.lo
+  CXX    add.lo
+  CXX    az_lsp.lo
+  CXX    bitno_tab.lo
+  CXX    bitreorder_tab.lo
+  CXX    c2_9pf_tab.lo
+  CXX    div_s.lo
+  CXX    extract_h.lo
+  CXX    extract_l.lo
+  CXX    gains_tbl.lo
+  CXX    gc_pred.lo
+  CXX    get_const_tbls.lo
+  CXX    gmed_n.lo
+  CXX    gray_tbl.lo
+  CXX    grid_tbl.lo
+  CXX    int_lpc.lo
+  CXX    inv_sqrt.lo
+  CXX    inv_sqrt_tbl.lo
+  CXX    l_deposit_h.lo
+  CXX    l_deposit_l.lo
+  CXX    log2.lo
+  CXX    log2_norm.lo
+  CXX    log2_tbl.lo
+  CXX    lsfwt.lo
+  CXX    l_shr_r.lo
+  CXX    lsp_az.lo
+  CXX    lsp.lo
+  CXX    lsp_lsf.lo
+  CXX    lsp_lsf_tbl.lo
+  CXX    lsp_tab.lo
+  CXX    mult_r.lo
+  CXX    negate.lo
+  CXX    norm_l.lo
+  CXX    norm_s.lo
+  CXX    overflow_tbl.lo
+  CXX    ph_disp_tab.lo
+  CXX    pow2.lo
+  CXX    pow2_tbl.lo
+  CXX    pred_lt.lo
+  CXX    q_plsf_3.lo
+  CXX    q_plsf_3_tbl.lo
+  CXX    q_plsf_5.lo
+  CXX    q_plsf_5_tbl.lo
+  CXX    q_plsf.lo
+  CXX    qua_gain_tbl.lo
+  CXX    reorder.lo
+  CXX    residu.lo
+  CXX    round.lo
+  CXX    set_zero.lo
+  CXX    shr.lo
+  CXX    shr_r.lo
+  CXX    sqrt_l.lo
+  CXX    sqrt_l_tbl.lo
+  CXX    sub.lo
+  CXX    syn_filt.lo
+  CXX    weight_a.lo
+  CXX    window_tab.lo
+  GEN    libopencore-amrnb.la
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrnb'
+Making all in amrwb
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrwb'
+  CXX    wrapper.lo
+  CXX    agc2_amr_wb.lo
+  CXX    band_pass_6k_7k.lo
+  CXX    dec_acelp_2p_in_64.lo
+  CXX    dec_acelp_4p_in_64.lo
+  CXX    dec_alg_codebook.lo
+  CXX    dec_gain2_amr_wb.lo
+  CXX    deemphasis_32.lo
+  CXX    dtx_decoder_amr_wb.lo
+  CXX    get_amr_wb_bits.lo
+  CXX    highpass_400hz_at_12k8.lo
+  CXX    highpass_50hz_at_12k8.lo
+  CXX    homing_amr_wb_dec.lo
+  CXX    interpolate_isp.lo
+  CXX    isf_extrapolation.lo
+  CXX    isp_az.lo
+  CXX    isp_isf.lo
+  CXX    lagconceal.lo
+  CXX    low_pass_filt_7k.lo
+  CXX    median5.lo
+  CXX    mime_io.lo
+  CXX    noise_gen_amrwb.lo
+  CXX    normalize_amr_wb.lo
+  CXX    oversamp_12k8_to_16k.lo
+  CXX    phase_dispersion.lo
+  CXX    pit_shrp.lo
+  CXX    pred_lt4.lo
+  CXX    preemph_amrwb_dec.lo
+  CXX    pvamrwbdecoder.lo
+  CXX    pvamrwb_math_op.lo
+  CXX    q_gain2_tab.lo
+  CXX    qisf_ns.lo
+  CXX    qisf_ns_tab.lo
+  CXX    qpisf_2s.lo
+  CXX    qpisf_2s_tab.lo
+  CXX    scale_signal.lo
+  CXX    synthesis_amr_wb.lo
+  CXX    voice_factor.lo
+  CXX    wb_syn_filt.lo
+  CXX    weight_amrwb_lpc.lo
+  GEN    libopencore-amrwb.la
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrwb'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3'
+Making install in amrnb
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrnb'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrnb'
+test -z "/usr/lib" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   libopencore-amrnb.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/libopencore-amrnb.so.0.0.3 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib/libopencore-amrnb.so.0.0.3
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib && { ln -s -f libopencore-amrnb.so.0.0.3 libopencore-amrnb.so.0 || { rm -f libopencore-amrnb.so.0 && ln -s libopencore-amrnb.so.0.0.3 libopencore-amrnb.so.0; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib && { ln -s -f libopencore-amrnb.so.0.0.3 libopencore-amrnb.so || { rm -f libopencore-amrnb.so && ln -s libopencore-amrnb.so.0.0.3 libopencore-amrnb.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libopencore-amrnb.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib/libopencore-amrnb.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/opencore-amrnb" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/include/opencore-amrnb"
+ /usr/bin/ginstall -c -m 644 interf_dec.h interf_enc.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/include/opencore-amrnb'
+test -z "/usr/lib/pkgconfig" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 opencore-amrnb.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib/pkgconfig'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrnb'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrnb'
+Making install in amrwb
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrwb'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrwb'
+test -z "/usr/lib" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   libopencore-amrwb.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/libopencore-amrwb.so.0.0.3 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib/libopencore-amrwb.so.0.0.3
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib && { ln -s -f libopencore-amrwb.so.0.0.3 libopencore-amrwb.so.0 || { rm -f libopencore-amrwb.so.0 && ln -s libopencore-amrwb.so.0.0.3 libopencore-amrwb.so.0; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib && { ln -s -f libopencore-amrwb.so.0.0.3 libopencore-amrwb.so || { rm -f libopencore-amrwb.so && ln -s libopencore-amrwb.so.0.0.3 libopencore-amrwb.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libopencore-amrwb.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib/libopencore-amrwb.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/opencore-amrwb" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/include/opencore-amrwb"
+ /usr/bin/ginstall -c -m 644 dec_if.h if_rom.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/include/opencore-amrwb'
+test -z "/usr/lib/pkgconfig" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 opencore-amrwb.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-install/usr/lib/pkgconfig'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrwb'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3/amrwb'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr/opencore-amr-0.1.3'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/opencore-amr
+Found 'i686'
+Processing ../opencore-amr-install/usr/include/opencore-amrnb/interf_dec.h
+Processing ../opencore-amr-install/usr/include/opencore-amrnb/interf_enc.h
+Processing ../opencore-amr-install/usr/include/opencore-amrwb/dec_if.h
+Processing ../opencore-amr-install/usr/include/opencore-amrwb/if_rom.h
+Processing ../opencore-amr-install/usr/lib/libopencore-amrnb.la
+Processing ../opencore-amr-install/usr/lib/libopencore-amrnb.so
+Processing ../opencore-amr-install/usr/lib/libopencore-amrnb.so.0
+Processing ../opencore-amr-install/usr/lib/libopencore-amrnb.so.0.0.3
+Processing ../opencore-amr-install/usr/lib/libopencore-amrwb.la
+Processing ../opencore-amr-install/usr/lib/libopencore-amrwb.so
+Processing ../opencore-amr-install/usr/lib/libopencore-amrwb.so.0
+Processing ../opencore-amr-install/usr/lib/libopencore-amrwb.so.0.0.3
+Processing ../opencore-amr-install/usr/lib/pkgconfig/opencore-amrnb.pc
+Processing ../opencore-amr-install/usr/lib/pkgconfig/opencore-amrwb.pc
+all done
+packaging opencore-amr-0.1.3-i686_slk600
+packaging opencore-amr_DEV-0.1.3-i686_slk600
+done!

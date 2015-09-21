@@ -1,0 +1,57 @@
+# align
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=http://www.cs.indiana.edu/~kinzler/align/
+PKG=align
+VER=1.7.3
+COMP=tgz
+DESC="align text into columns"
+DEPS=+perl_tiny
+CAT=BuildingBlock
+BUILD=slk600
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+build() {
+	cd ${PKG}-${VER}
+	make
+	[ 0 -ne $? ] && exit 1
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	install -m 644 ../${PKG}.petbuild ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	install -D -m 755 align ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/align
+	install -m 755 width ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/width
+	install -d -m 0755 ${PKG}_DOC-${VER}-${ARCH}_${BUILD}/usr/share/doc/align
+	install -m 644 README ${PKG}_DOC-${VER}-${ARCH}_${BUILD}/usr/share/doc/align/README
+	install -m 644 COPYING ${PKG}_DOC-${VER}-${ARCH}_${BUILD}/usr/share/doc/align/COPYING
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../../0pets_out
+	done
+	rm -r ../${PKG}-${VER}
+	rm *.files 2>/dev/null
+	echo "done!"
+}
+
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+build
+package	

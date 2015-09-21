@@ -1,0 +1,147 @@
+# palemoon
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=ftp://source:current@ftp.palemoon.org
+PKG=palemoon
+SVER=25.5.0-source
+VER=25.5.0
+COMP=7z
+DESC="A lighter weight browser based on Firefox"
+DEPS=+gtk2+,+zlib
+CAT=Internet
+DESKTOP=palemoon.desktop
+BUILD=slacko_570
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+
+ARCH=$(uname -m)
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+#SPECIAL
+extract_me() {
+	mkdir ${PKG}-${VER}
+	7z x -o${PKG}-${VER} ${PKG}-${SVER}.${COMP}
+	mv -f ${PKG}-${SVER}.${COMP} ../0sources
+}
+
+build() {
+	cd ${PKG}-${VER}
+	chmod -R 777 .
+	#SPECIAL
+	mkdir obj
+	OPTIONS="\
+	--prefix=/usr \
+	--libdir=/usr/${LIBDIR} \
+	--with-default-mozilla-five-home=/usr/${LIBDIR}/${PKG}-${VER} \
+	--with-system-zlib \
+	--enable-application=browser \
+	--enable-default-toolkit=cairo-gtk2 \
+	--enable-startup-notification \
+	--enable-crypto \
+	--enable-canvas \
+	--enable-logging \
+	--enable-xft \
+	--enable-webm \
+	--with-system-libvpx \
+	--enable-xinerama \
+	--enable-reorder \
+	--enable-strip \
+	--enable-cpp-rtti \
+	--enable-single-profile \
+	--disable-skia \
+	--disable-tests \
+	--disable-optimize \
+	--disable-gnomevfs \
+	--disable-ldap \
+	--disable-accessibility \
+	--disable-crashreporter \
+	--disable-debug \
+	--disable-pedantic \
+	--disable-installer \
+	--disable-mailnews \
+	--disable-composer \
+	--disable-pulseaudio \
+	--disable-profilesharing"
+	echo "mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/obj" > .mozconfig
+	echo "mk_add_options AUTOCONF=autoconf2.13" >> .mozconfig
+	echo "mk_add_options MOZ_MAKE_FLAGS=-j4" >> .mozconfig
+	echo "export MOZILLA_OFFICIAL=0" >> .mozconfig
+	for option in $OPTIONS; do echo "ac_add_options $option" >> .mozconfig; done
+	echo -e "export LDFLAGS=\"-Wl,--no-keep-memory -Wl,--reduce-memory-overheads\"" >> .mozconfig
+	
+	# build it
+	make -f client.mk build
+	[ "$?" -eq 0 ] || exit
+	
+	make -f client.mk install DESTDIR=$CWD/${PKG}-install
+	[ "$?" -eq 0 ] || exit
+	cd -
+}
+	
+package() {
+	get_files ${PKG}-install ${PKG}-${VER}-${ARCH}_${BUILD}
+	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install $BUILD)
+	# add this recipe
+	#SPECIAL
+	#find an icon
+	mkdir -p ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/pixmaps
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*48.png' \
+		-exec cp -a '{}' ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/pixmaps/palemoon48.png \;
+	# move "devel"
+	mkdir -p ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/${LIBDIR}
+	DEVEL=`find ./${PKG}-${VER}-${ARCH}_${BUILD} -type d -name '*devel*'`
+	cp -a --remove-destination ${DEVEL} ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/${LIBDIR}/
+	rm -r ${DEVEL}
+	#custom home page
+	#NOTE: added the useragent string too, but not needed if "official branding" is switched on
+	mkdir -p ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/${LIBDIR}/${PKG}-${VER}/browser/defaults/preferences
+	PREFDIR=./${PKG}-${VER}-${ARCH}_${BUILD}/usr/${LIBDIR}/${PKG}-${VER}/browser/defaults/preferences
+	cat > ${PREFDIR}/local-settings.js <<_EOF
+//
+//default home page and user agent
+pref("browser.startup.homepage", "data:text/plain,browser.startup.homepage=file:///usr/share/doc/home.htm");
+pref("general.useragent.compatMode.firefox", true);
+pref("browser.newtab.url", "about:home");
+_EOF
+	# in case icon failed... eg: unofficial branding
+	[ -f "./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/pixmaps/palemoon48.png" ] ||\
+		cp -a palemoon48.png ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/pixmaps/
+	#back to normal
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe
+	if [ -f "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+	fi
+	# delete any icon cache or library cache
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	for p in $(ls|grep "\-${ARCH}"|grep -v "files$") ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c="$CAT" -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
+	done
+	rm -r ${PKG}-install
+	rm -r ${PKG}-${VER}
+	mv -f *.files ../0logs
+	echo "done!"
+}
+
+# main
+retrieve ${PKG}-${SVER}.${COMP}
+extract_me
+build
+package	

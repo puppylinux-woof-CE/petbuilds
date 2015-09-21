@@ -1,0 +1,10 @@
+mtpstatus-0.5/
+mtpstatus-0.5/mtpstatus.c
+mtpstatus-0.5/README
+mtpstatus-0.5/Makefile
+go-mtpfs.x86
+gcc -o mtpstatus.o -c mtpstatus.c -Wall -std=gnu99 -g -I/usr/include `pkg-config --libs --cflags gtk+-2.0`
+gcc -o mtpstatus mtpstatus.o -Wall -g `pkg-config --libs gtk+-2.0`
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/mtp_phone_connect
+packaging mtp_phone_connect-150629-i686_slk600
+done!

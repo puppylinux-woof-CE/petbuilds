@@ -1,0 +1,17 @@
+./freememapplet-2.7.3/
+./freememapplet-2.7.3/container_1.svg
+./freememapplet-2.7.3/container_2.svg
+./freememapplet-2.7.3/freememapplet_tray.c
+./freememapplet-2.7.3/compile
+./freememapplet-2.7.3/container_4.svg
+./freememapplet-2.7.3/freememapplet_tray32
+./freememapplet-2.7.3/freememapplet_tray64
+./freememapplet-2.7.3/freememapplet_tray.desktop
+./freememapplet-2.7.3/freememapplet_tray.c.orig
+./freememapplet-2.7.3/freememapplet_tray64.pot
+./freememapplet-2.7.3/container_0.svg
+./freememapplet-2.7.3/freememapplet_tray32.pot
+./freememapplet-2.7.3/container_3.svg
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/freememapplet
+packaging freememapplet-2.7.3-i686_slk600
+done!

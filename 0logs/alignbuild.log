@@ -1,0 +1,12 @@
+align-1.7.3/
+align-1.7.3/Makefile
+align-1.7.3/width
+align-1.7.3/COPYING
+align-1.7.3/README
+align-1.7.3/align
+align-1.7.3/TODO
+/usr/bin/perl             -pi -e 's,^#!\s*/\S+/perl\S*(\s|$),#!/usr/bin/perl            $1,' align
+/usr/bin/perl             -pi -e 's,^#!\s*/\S+/perl\S*(\s|$),#!/usr/bin/perl            $1,' width
+packaging align-1.7.3-i686_slk600
+packaging align_DOC-1.7.3-i686_slk600
+done!

@@ -1,0 +1,2515 @@
+faac-1.28/
+faac-1.28/common/
+faac-1.28/common/Cfaac/
+faac-1.28/common/Cfaac/AudioCoding.bmp
+faac-1.28/common/Cfaac/CRegistry.cpp
+faac-1.28/common/Cfaac/CRegistry.h
+faac-1.28/common/Cfaac/CTag.cpp
+faac-1.28/common/Cfaac/CTag.h
+faac-1.28/common/Cfaac/Cfaac.cpp
+faac-1.28/common/Cfaac/Cfaac.h
+faac-1.28/common/Cfaac/Cfaad.cpp
+faac-1.28/common/Cfaac/Cfaad.h
+faac-1.28/common/Cfaac/DecDialog.cpp
+faac-1.28/common/Cfaac/DecDialog.h
+faac-1.28/common/Cfaac/Email.bmp
+faac-1.28/common/Cfaac/EncDialog.cpp
+faac-1.28/common/Cfaac/EncDialog.h
+faac-1.28/common/Cfaac/FAAC.rc
+faac-1.28/common/Cfaac/Open.bmp
+faac-1.28/common/Cfaac/ReadMe.txt
+faac-1.28/common/Cfaac/TypeDef.h
+faac-1.28/common/Cfaac/id3v2.ico
+faac-1.28/common/Cfaac/mpeg4ip-v.bmp
+faac-1.28/common/Cfaac/resource.h
+faac-1.28/common/Makefile.am
+faac-1.28/common/mp4v2/
+faac-1.28/common/mp4v2/API_CHANGES
+faac-1.28/common/mp4v2/3gp.cpp
+faac-1.28/common/mp4v2/Makefile.in
+faac-1.28/common/mp4v2/INTERNALS
+faac-1.28/common/mp4v2/Makefile.am
+faac-1.28/common/mp4v2/README
+faac-1.28/common/mp4v2/TODO
+faac-1.28/common/mp4v2/atom_amr.cpp
+faac-1.28/common/mp4v2/atom_avc1.cpp
+faac-1.28/common/mp4v2/atom_avcC.cpp
+faac-1.28/common/mp4v2/atom_d263.cpp
+faac-1.28/common/mp4v2/atom_damr.cpp
+faac-1.28/common/mp4v2/atom_dref.cpp
+faac-1.28/common/mp4v2/atom_elst.cpp
+faac-1.28/common/mp4v2/atom_enca.cpp
+faac-1.28/common/mp4v2/atom_encv.cpp
+faac-1.28/common/mp4v2/atom_free.cpp
+faac-1.28/common/mp4v2/atom_ftyp.cpp
+faac-1.28/common/mp4v2/atom_gmin.cpp
+faac-1.28/common/mp4v2/atom_hdlr.cpp
+faac-1.28/common/mp4v2/atom_hinf.cpp
+faac-1.28/common/mp4v2/atom_hnti.cpp
+faac-1.28/common/mp4v2/atom_href.cpp
+faac-1.28/common/mp4v2/atom_mdat.cpp
+faac-1.28/common/mp4v2/atom_mdhd.cpp
+faac-1.28/common/mp4v2/atom_meta.cpp
+faac-1.28/common/mp4v2/atom_mp4a.cpp
+faac-1.28/common/mp4v2/atom_mp4s.cpp
+faac-1.28/common/mp4v2/atom_mp4v.cpp
+faac-1.28/common/mp4v2/atom_mvhd.cpp
+faac-1.28/common/mp4v2/atom_ohdr.cpp
+faac-1.28/common/mp4v2/atom_root.cpp
+faac-1.28/common/mp4v2/atom_rtp.cpp
+faac-1.28/common/mp4v2/atom_s263.cpp
+faac-1.28/common/mp4v2/atom_sdp.cpp
+faac-1.28/common/mp4v2/atom_smi.cpp
+faac-1.28/common/mp4v2/atom_sound.cpp
+faac-1.28/common/mp4v2/atom_standard.cpp
+faac-1.28/common/mp4v2/atom_stbl.cpp
+faac-1.28/common/mp4v2/atom_stdp.cpp
+faac-1.28/common/mp4v2/atom_stsc.cpp
+faac-1.28/common/mp4v2/atom_stsd.cpp
+faac-1.28/common/mp4v2/atom_stsz.cpp
+faac-1.28/common/mp4v2/atom_stz2.cpp
+faac-1.28/common/mp4v2/atom_text.cpp
+faac-1.28/common/mp4v2/atom_tfhd.cpp
+faac-1.28/common/mp4v2/atom_tkhd.cpp
+faac-1.28/common/mp4v2/atom_treftype.cpp
+faac-1.28/common/mp4v2/atom_trun.cpp
+faac-1.28/common/mp4v2/atom_udta.cpp
+faac-1.28/common/mp4v2/atom_url.cpp
+faac-1.28/common/mp4v2/atom_urn.cpp
+faac-1.28/common/mp4v2/atom_video.cpp
+faac-1.28/common/mp4v2/atom_vmhd.cpp
+faac-1.28/common/mp4v2/atoms.h
+faac-1.28/common/mp4v2/descriptors.cpp
+faac-1.28/common/mp4v2/descriptors.h
+faac-1.28/common/mp4v2/isma.cpp
+faac-1.28/common/mp4v2/libmp4v2_st60.vcproj
+faac-1.28/common/mp4v2/mp4.cpp
+faac-1.28/common/mp4v2/mp4.h
+faac-1.28/common/mp4v2/mp4array.h
+faac-1.28/common/mp4v2/mp4atom.cpp
+faac-1.28/common/mp4v2/mp4atom.h
+faac-1.28/common/mp4v2/mp4common.h
+faac-1.28/common/mp4v2/mp4container.cpp
+faac-1.28/common/mp4v2/mp4container.h
+faac-1.28/common/mp4v2/mp4descriptor.cpp
+faac-1.28/common/mp4v2/mp4descriptor.h
+faac-1.28/common/mp4v2/mp4file.cpp
+faac-1.28/common/mp4v2/mp4file.h
+faac-1.28/common/mp4v2/mp4file_io.cpp
+faac-1.28/common/mp4v2/mp4info.cpp
+faac-1.28/common/mp4v2/mp4meta.cpp
+faac-1.28/common/mp4v2/mp4property.cpp
+faac-1.28/common/mp4v2/mp4property.h
+faac-1.28/common/mp4v2/mp4track.cpp
+faac-1.28/common/mp4v2/mp4track.h
+faac-1.28/common/mp4v2/mp4util.cpp
+faac-1.28/common/mp4v2/mp4util.h
+faac-1.28/common/mp4v2/mpeg4ip.h
+faac-1.28/common/mp4v2/mpeg4ip_version.h
+faac-1.28/common/mp4v2/mpeg4ip_win32.h
+faac-1.28/common/mp4v2/need_for_win32.c
+faac-1.28/common/mp4v2/ocidescriptors.cpp
+faac-1.28/common/mp4v2/ocidescriptors.h
+faac-1.28/common/mp4v2/odcommands.cpp
+faac-1.28/common/mp4v2/odcommands.h
+faac-1.28/common/mp4v2/qosqualifiers.cpp
+faac-1.28/common/mp4v2/qosqualifiers.h
+faac-1.28/common/mp4v2/rtphint.cpp
+faac-1.28/common/mp4v2/rtphint.h
+faac-1.28/common/mp4v2/virtual_io.cpp
+faac-1.28/common/mp4v2/virtual_io.h
+faac-1.28/common/Makefile.in
+faac-1.28/AUTHORS
+faac-1.28/COPYING
+faac-1.28/ChangeLog
+faac-1.28/INSTALL
+faac-1.28/Makefile.am
+faac-1.28/NEWS
+faac-1.28/README
+faac-1.28/TODO
+faac-1.28/bootstrap
+faac-1.28/configure.in
+faac-1.28/docs/
+faac-1.28/docs/faac.html
+faac-1.28/docs/faac.1
+faac-1.28/docs/libfaac.html
+faac-1.28/docs/libfaac.pdf
+faac-1.28/frontend/
+faac-1.28/frontend/Makefile.in
+faac-1.28/frontend/Makefile.am
+faac-1.28/frontend/faac.sln
+faac-1.28/frontend/faac.vcproj
+faac-1.28/frontend/faacgui.rc
+faac-1.28/frontend/faacgui.sln
+faac-1.28/frontend/faacgui.vcproj
+faac-1.28/frontend/getopt.c
+faac-1.28/frontend/getopt.h
+faac-1.28/frontend/input.c
+faac-1.28/frontend/input.h
+faac-1.28/frontend/main.c
+faac-1.28/frontend/maingui.c
+faac-1.28/frontend/resource.h
+faac-1.28/include/
+faac-1.28/include/Makefile.in
+faac-1.28/include/Makefile.am
+faac-1.28/include/faac.h
+faac-1.28/include/faaccfg.h
+faac-1.28/libfaac/
+faac-1.28/libfaac/kiss_fft/
+faac-1.28/libfaac/kiss_fft/CHANGELOG
+faac-1.28/libfaac/kiss_fft/COPYING
+faac-1.28/libfaac/kiss_fft/README
+faac-1.28/libfaac/kiss_fft/README.kiss_fft
+faac-1.28/libfaac/kiss_fft/TIPS
+faac-1.28/libfaac/kiss_fft/_kiss_fft_guts.h
+faac-1.28/libfaac/kiss_fft/kiss_fft.c
+faac-1.28/libfaac/kiss_fft/kiss_fft.h
+faac-1.28/libfaac/kiss_fft/kiss_fftr.c
+faac-1.28/libfaac/kiss_fft/kiss_fftr.h
+faac-1.28/libfaac/Makefile.in
+faac-1.28/libfaac/Makefile.am
+faac-1.28/libfaac/aacquant.c
+faac-1.28/libfaac/aacquant.h
+faac-1.28/libfaac/backpred.c
+faac-1.28/libfaac/backpred.h
+faac-1.28/libfaac/bitstream.c
+faac-1.28/libfaac/bitstream.h
+faac-1.28/libfaac/channels.c
+faac-1.28/libfaac/channels.h
+faac-1.28/libfaac/coder.h
+faac-1.28/libfaac/fft.c
+faac-1.28/libfaac/fft.h
+faac-1.28/libfaac/filtbank.c
+faac-1.28/libfaac/filtbank.h
+faac-1.28/libfaac/frame.c
+faac-1.28/libfaac/frame.h
+faac-1.28/libfaac/huffman.c
+faac-1.28/libfaac/huffman.h
+faac-1.28/libfaac/hufftab.h
+faac-1.28/libfaac/libfaac.def
+faac-1.28/libfaac/libfaac.vcproj
+faac-1.28/libfaac/libfaac_dll.sln
+faac-1.28/libfaac/libfaac_dll.vcproj
+faac-1.28/libfaac/libfaac_dll_drm.sln
+faac-1.28/libfaac/libfaac_dll_drm.vcproj
+faac-1.28/libfaac/libfaacdrm.def
+faac-1.28/libfaac/ltp.c
+faac-1.28/libfaac/ltp.h
+faac-1.28/libfaac/midside.c
+faac-1.28/libfaac/midside.h
+faac-1.28/libfaac/psych.h
+faac-1.28/libfaac/psychkni.c
+faac-1.28/libfaac/tns.c
+faac-1.28/libfaac/tns.h
+faac-1.28/libfaac/util.c
+faac-1.28/libfaac/util.h
+faac-1.28/libfaac/version.h
+faac-1.28/plugins/
+faac-1.28/plugins/cooledit/
+faac-1.28/plugins/cooledit/FAAC.def
+faac-1.28/plugins/cooledit/Copying
+faac-1.28/plugins/cooledit/FAAC.sln
+faac-1.28/plugins/cooledit/FAAC.vcproj
+faac-1.28/plugins/cooledit/Faac.cpp
+faac-1.28/plugins/cooledit/Faad.cpp
+faac-1.28/plugins/cooledit/Main.cpp
+faac-1.28/plugins/cooledit/Readme.txt
+faac-1.28/plugins/cooledit/aacInfoLib.sln
+faac-1.28/plugins/cooledit/aacInfoLib.vcproj
+faac-1.28/plugins/cooledit/defines.h
+faac-1.28/plugins/cooledit/filters.h
+faac-1.28/project/
+faac-1.28/project/lcc/
+faac-1.28/project/lcc/Makefile
+faac-1.28/project/mingw32/
+faac-1.28/project/mingw32/Makefile
+faac-1.28/project/mingw32/faac.dev
+faac-1.28/aclocal.m4
+faac-1.28/config.guess
+faac-1.28/config.sub
+faac-1.28/ltmain.sh
+faac-1.28/config.h.in
+faac-1.28/configure
+faac-1.28/install-sh
+faac-1.28/missing
+faac-1.28/depcomp
+faac-1.28/Makefile.in
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for u_int32_t... yes
+checking for u_int16_t... yes
+checking for int32_t... yes
+checking for int16_t... yes
+checking whether strcasecmp is declared... yes
+checking for getopt_long in -lgnugetopt... no
+checking whether MP4Create is declared... no
+checking whether MP4MetadataDelete is declared... no
+configure: *** Building with internal mp4v2 ***
+checking whether byte ordering is bigendian... no
+checking for ANSI C header files... (cached) yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking mathf.h usability... no
+checking mathf.h presence... no
+checking for mathf.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking whether strchr is declared... yes
+checking whether memcpy is declared... yes
+checking whether strsep is declared... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for off_t... yes
+checking for in_port_t... yes
+checking for socklen_t... yes
+checking for fpos_t.__pos... yes
+configure: creating ./config.status
+config.status: creating common/Makefile
+config.status: creating common/mp4v2/Makefile
+config.status: creating libfaac/Makefile
+config.status: creating frontend/Makefile
+config.status: creating include/Makefile
+config.status: creating Makefile
+config.status: creating config.h
+config.status: linking ./config.h to common/mp4v2/mpeg4ip_config.h
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28'
+Making all in include
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/include'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/include'
+Making all in libfaac
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/libfaac'
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT aacquant.lo -MD -MP -MF ".deps/aacquant.Tpo" -c -o aacquant.lo aacquant.c; \
+then mv -f ".deps/aacquant.Tpo" ".deps/aacquant.Plo"; else rm -f ".deps/aacquant.Tpo"; exit 1; fi
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT bitstream.lo -MD -MP -MF ".deps/bitstream.Tpo" -c -o bitstream.lo bitstream.c; \
+then mv -f ".deps/bitstream.Tpo" ".deps/bitstream.Plo"; else rm -f ".deps/bitstream.Tpo"; exit 1; fi
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT fft.lo -MD -MP -MF ".deps/fft.Tpo" -c -o fft.lo fft.c; \
+then mv -f ".deps/fft.Tpo" ".deps/fft.Plo"; else rm -f ".deps/fft.Tpo"; exit 1; fi
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT frame.lo -MD -MP -MF ".deps/frame.Tpo" -c -o frame.lo frame.c; \
+then mv -f ".deps/frame.Tpo" ".deps/frame.Plo"; else rm -f ".deps/frame.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT aacquant.lo -MD -MP -MF .deps/aacquant.Tpo -c aacquant.c  -fPIC -DPIC -o .libs/aacquant.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT frame.lo -MD -MP -MF .deps/frame.Tpo -c frame.c  -fPIC -DPIC -o .libs/frame.o
+In file included from aacquant.c:29:0:
+huffman.h:63:12: warning: 'CalculateEscSequence' declared 'static' but never defined [-Wunused-function]
+ static int CalculateEscSequence(int input, int *len_esc_sequence);
+            ^
+In file included from frame.c:44:0:
+huffman.h:63:12: warning: 'CalculateEscSequence' declared 'static' but never defined [-Wunused-function]
+ static int CalculateEscSequence(int input, int *len_esc_sequence);
+            ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT bitstream.lo -MD -MP -MF .deps/bitstream.Tpo -c bitstream.c  -fPIC -DPIC -o .libs/bitstream.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT fft.lo -MD -MP -MF .deps/fft.Tpo -c fft.c  -fPIC -DPIC -o .libs/fft.o
+In file included from bitstream.c:35:0:
+huffman.h:63:12: warning: 'CalculateEscSequence' declared 'static' but never defined [-Wunused-function]
+ static int CalculateEscSequence(int input, int *len_esc_sequence);
+            ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT aacquant.lo -MD -MP -MF .deps/aacquant.Tpo -c aacquant.c -o aacquant.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT fft.lo -MD -MP -MF .deps/fft.Tpo -c fft.c -o fft.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT frame.lo -MD -MP -MF .deps/frame.Tpo -c frame.c -o frame.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT bitstream.lo -MD -MP -MF .deps/bitstream.Tpo -c bitstream.c -o bitstream.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT midside.lo -MD -MP -MF ".deps/midside.Tpo" -c -o midside.lo midside.c; \
+then mv -f ".deps/midside.Tpo" ".deps/midside.Plo"; else rm -f ".deps/midside.Tpo"; exit 1; fi
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT psychkni.lo -MD -MP -MF ".deps/psychkni.Tpo" -c -o psychkni.lo psychkni.c; \
+then mv -f ".deps/psychkni.Tpo" ".deps/psychkni.Plo"; else rm -f ".deps/psychkni.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT psychkni.lo -MD -MP -MF .deps/psychkni.Tpo -c psychkni.c  -fPIC -DPIC -o .libs/psychkni.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT midside.lo -MD -MP -MF .deps/midside.Tpo -c midside.c  -fPIC -DPIC -o .libs/midside.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT util.lo -MD -MP -MF ".deps/util.Tpo" -c -o util.lo util.c; \
+then mv -f ".deps/util.Tpo" ".deps/util.Plo"; else rm -f ".deps/util.Tpo"; exit 1; fi
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT backpred.lo -MD -MP -MF ".deps/backpred.Tpo" -c -o backpred.lo backpred.c; \
+then mv -f ".deps/backpred.Tpo" ".deps/backpred.Plo"; else rm -f ".deps/backpred.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT midside.lo -MD -MP -MF .deps/midside.Tpo -c midside.c -o midside.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT psychkni.lo -MD -MP -MF .deps/psychkni.Tpo -c psychkni.c -o psychkni.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT channels.lo -MD -MP -MF ".deps/channels.Tpo" -c -o channels.lo channels.c; \
+then mv -f ".deps/channels.Tpo" ".deps/channels.Plo"; else rm -f ".deps/channels.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT util.lo -MD -MP -MF .deps/util.Tpo -c util.c  -fPIC -DPIC -o .libs/util.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT filtbank.lo -MD -MP -MF ".deps/filtbank.Tpo" -c -o filtbank.lo filtbank.c; \
+then mv -f ".deps/filtbank.Tpo" ".deps/filtbank.Plo"; else rm -f ".deps/filtbank.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT backpred.lo -MD -MP -MF .deps/backpred.Tpo -c backpred.c  -fPIC -DPIC -o .libs/backpred.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT util.lo -MD -MP -MF .deps/util.Tpo -c util.c -o util.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT huffman.lo -MD -MP -MF ".deps/huffman.Tpo" -c -o huffman.lo huffman.c; \
+then mv -f ".deps/huffman.Tpo" ".deps/huffman.Plo"; else rm -f ".deps/huffman.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT channels.lo -MD -MP -MF .deps/channels.Tpo -c channels.c  -fPIC -DPIC -o .libs/channels.o
+backpred.c: In function 'PredCalcPrediction':
+backpred.c:311:33: warning: 'leftChanNum' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         reset_count = &coderInfo[leftChanNum].bwpInfo.reset_count_mc;
+                                 ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT channels.lo -MD -MP -MF .deps/channels.Tpo -c channels.c -o channels.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT filtbank.lo -MD -MP -MF .deps/filtbank.Tpo -c filtbank.c  -fPIC -DPIC -o .libs/filtbank.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT ltp.lo -MD -MP -MF ".deps/ltp.Tpo" -c -o ltp.lo ltp.c; \
+then mv -f ".deps/ltp.Tpo" ".deps/ltp.Plo"; else rm -f ".deps/ltp.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT backpred.lo -MD -MP -MF .deps/backpred.Tpo -c backpred.c -o backpred.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT ltp.lo -MD -MP -MF .deps/ltp.Tpo -c ltp.c  -fPIC -DPIC -o .libs/ltp.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT huffman.lo -MD -MP -MF .deps/huffman.Tpo -c huffman.c  -fPIC -DPIC -o .libs/huffman.o
+filtbank.c: In function 'FilterBank':
+filtbank.c:100:38: warning: 'second_window' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     double *p_o_buf, *first_window, *second_window;
+                                      ^
+filtbank.c:180:72: warning: 'first_window' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             p_out_mdct[i+NFLAT_LS] = p_o_buf[i+NFLAT_LS] * first_window[i];
+                                                                        ^
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -O2 -Wall -MT tns.lo -MD -MP -MF ".deps/tns.Tpo" -c -o tns.lo tns.c; \
+then mv -f ".deps/tns.Tpo" ".deps/tns.Plo"; else rm -f ".deps/tns.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT ltp.lo -MD -MP -MF .deps/ltp.Tpo -c ltp.c -o ltp.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT filtbank.lo -MD -MP -MF .deps/filtbank.Tpo -c filtbank.c -o filtbank.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT tns.lo -MD -MP -MF .deps/tns.Tpo -c tns.c  -fPIC -DPIC -o .libs/tns.o
+tns.c:40:22: warning: 'tnsSupportedSamplingRates' defined but not used [-Wunused-variable]
+ static unsigned long tnsSupportedSamplingRates[13] =
+                      ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT huffman.lo -MD -MP -MF .deps/huffman.Tpo -c huffman.c -o huffman.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -O2 -Wall -MT tns.lo -MD -MP -MF .deps/tns.Tpo -c tns.c -o tns.o >/dev/null 2>&1
+/bin/sh ../libtool --tag=CC --mode=link gcc  -O2 -Wall   -o libfaac.la -rpath /usr/lib  aacquant.lo bitstream.lo fft.lo frame.lo midside.lo psychkni.lo util.lo backpred.lo channels.lo filtbank.lo huffman.lo ltp.lo tns.lo  -lm 
+gcc -shared  .libs/aacquant.o .libs/bitstream.o .libs/fft.o .libs/frame.o .libs/midside.o .libs/psychkni.o .libs/util.o .libs/backpred.o .libs/channels.o .libs/filtbank.o .libs/huffman.o .libs/ltp.o .libs/tns.o  -lm  -Wl,-soname -Wl,libfaac.so.0 -o .libs/libfaac.so.0.0.0
+(cd .libs && rm -f libfaac.so.0 && ln -s libfaac.so.0.0.0 libfaac.so.0)
+(cd .libs && rm -f libfaac.so && ln -s libfaac.so.0.0.0 libfaac.so)
+ar cru .libs/libfaac.a  aacquant.o bitstream.o fft.o frame.o midside.o psychkni.o util.o backpred.o channels.o filtbank.o huffman.o ltp.o tns.o
+ranlib .libs/libfaac.a
+creating libfaac.la
+(cd .libs && rm -f libfaac.la && ln -s ../libfaac.la libfaac.la)
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/libfaac'
+Making all in common
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+Making all in mp4v2
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common/mp4v2'
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT 3gp.o -MD -MP -MF ".deps/3gp.Tpo" -c -o 3gp.o 3gp.cpp; \
+then mv -f ".deps/3gp.Tpo" ".deps/3gp.Po"; else rm -f ".deps/3gp.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_amr.o -MD -MP -MF ".deps/atom_amr.Tpo" -c -o atom_amr.o atom_amr.cpp; \
+then mv -f ".deps/atom_amr.Tpo" ".deps/atom_amr.Po"; else rm -f ".deps/atom_amr.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_avc1.o -MD -MP -MF ".deps/atom_avc1.Tpo" -c -o atom_avc1.o atom_avc1.cpp; \
+then mv -f ".deps/atom_avc1.Tpo" ".deps/atom_avc1.Po"; else rm -f ".deps/atom_avc1.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_avcC.o -MD -MP -MF ".deps/atom_avcC.Tpo" -c -o atom_avcC.o atom_avcC.cpp; \
+then mv -f ".deps/atom_avcC.Tpo" ".deps/atom_avcC.Po"; else rm -f ".deps/atom_avcC.Tpo"; exit 1; fi
+3gp.cpp: In member function ‘void MP4File::MakeFtypAtom(char*, u_int32_t, char**, u_int32_t)’:
+3gp.cpp:65:7: warning: variable ‘rewriteNeeded’ set but not used [-Wunused-but-set-variable]
+  bool rewriteNeeded = false;
+       ^
+atom_amr.cpp: In constructor ‘MP4AmrAtom::MP4AmrAtom(const char*)’:
+atom_amr.cpp:33:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_amr.cpp:36:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_amr.cpp:38:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 16); /* 2 */
+                             ^
+atom_amr.cpp:41:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("timeScale"));
+                                       ^
+atom_amr.cpp:43:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 2); /* 4 */
+                            ^
+atom_avc1.cpp: In constructor ‘MP4Avc1Atom::MP4Avc1Atom()’:
+atom_avc1.cpp:27:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_avcC.cpp: In constructor ‘MP4AvcCAtom::MP4AvcCAtom()’:
+atom_avcC.cpp:54:62: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty( new MP4Integer8Property("configurationVersion")); /* 0 */
+                                                              ^
+atom_avcC.cpp:56:62: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty( new MP4Integer8Property("AVCProfileIndication")); /* 1 */
+                                                              ^
+atom_avcC.cpp:58:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty( new MP4Integer8Property("profile_compatibility")); /* 2 */
+                                                               ^
+atom_avcC.cpp:60:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty( new MP4Integer8Property("AVCLevelIndication")); /* 3 */
+                                                            ^
+atom_avcC.cpp:62:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty( new MP4BitfieldProperty("reserved", 6)); /* 4 */
+                                                     ^
+atom_avcC.cpp:63:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty( new MP4BitfieldProperty("lengthSizeMinusOne", 2)); /* 5 */
+                                                               ^
+atom_avcC.cpp:64:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty( new MP4BitfieldProperty("reserved1", 3)); /* 6 */
+                                                      ^
+atom_avcC.cpp:65:67: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   pCount = new MP4BitfieldProperty("numOfSequenceParameterSets", 5);
+                                                                   ^
+atom_avcC.cpp:68:59: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   pTable = new SizeTableProperty("sequenceEntries", pCount);
+                                                           ^
+atom_avcC.cpp:70:76: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   pTable->AddProperty(new MP4Integer16Property("sequenceParameterSetLength"));
+                                                                            ^
+atom_avcC.cpp:71:73: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   pTable->AddProperty(new MP4BytesProperty("sequenceParameterSetNALUnit"));
+                                                                         ^
+atom_avcC.cpp:73:85: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   MP4Integer8Property *pCount2 = new MP4Integer8Property("numOfPictureParameterSets");
+                                                                                     ^
+atom_avcC.cpp:76:59: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   pTable = new SizeTableProperty("pictureEntries", pCount2);
+                                                           ^
+atom_avcC.cpp:78:75: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   pTable->AddProperty(new MP4Integer16Property("pictureParameterSetLength"));
+                                                                           ^
+atom_avcC.cpp:79:72: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   pTable->AddProperty(new MP4BytesProperty("pictureParameterSetNALUnit"));
+                                                                        ^
+atom_avc1.cpp:30:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_avc1.cpp:32:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 16); /* 2 */
+                             ^
+atom_avc1.cpp:35:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("width"));
+                                   ^
+atom_avc1.cpp:37:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("height"));
+                                    ^
+atom_avc1.cpp:39:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 14); /* 5 */
+                             ^
+atom_avc1.cpp:42:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("compressorName");
+                                         ^
+atom_avc1.cpp:47:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved4", 4); /* 7 */
+                            ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_d263.o -MD -MP -MF ".deps/atom_d263.Tpo" -c -o atom_d263.o atom_d263.cpp; \
+then mv -f ".deps/atom_d263.Tpo" ".deps/atom_d263.Po"; else rm -f ".deps/atom_d263.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_damr.o -MD -MP -MF ".deps/atom_damr.Tpo" -c -o atom_damr.o atom_damr.cpp; \
+then mv -f ".deps/atom_damr.Tpo" ".deps/atom_damr.Po"; else rm -f ".deps/atom_damr.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_dref.o -MD -MP -MF ".deps/atom_dref.Tpo" -c -o atom_dref.o atom_dref.cpp; \
+then mv -f ".deps/atom_dref.Tpo" ".deps/atom_dref.Po"; else rm -f ".deps/atom_dref.Tpo"; exit 1; fi
+atom_d263.cpp: In constructor ‘MP4D263Atom::MP4D263Atom()’:
+atom_d263.cpp:36:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("vendor"));
+                                    ^
+atom_d263.cpp:39:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("decoderVersion"));
+                                           ^
+atom_d263.cpp:42:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("h263Level"));
+                                      ^
+atom_d263.cpp:45:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("h263Profile"));
+                                        ^
+atom_damr.cpp: In constructor ‘MP4DamrAtom::MP4DamrAtom()’:
+atom_damr.cpp:36:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("vendor"));
+                                    ^
+atom_damr.cpp:39:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("decoderVersion"));
+                                           ^
+atom_damr.cpp:42:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("modeSet"));
+                                     ^
+atom_damr.cpp:45:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("modeChangePeriod"));
+                                             ^
+atom_damr.cpp:48:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("framesPerSample"));
+                                            ^
+atom_dref.cpp: In constructor ‘MP4DrefAtom::MP4DrefAtom()’:
+atom_dref.cpp:30:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("entryCount"); 
+                                        ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_elst.o -MD -MP -MF ".deps/atom_elst.Tpo" -c -o atom_elst.o atom_elst.cpp; \
+then mv -f ".deps/atom_elst.Tpo" ".deps/atom_elst.Po"; else rm -f ".deps/atom_elst.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_enca.o -MD -MP -MF ".deps/atom_enca.Tpo" -c -o atom_enca.o atom_enca.cpp; \
+then mv -f ".deps/atom_enca.Tpo" ".deps/atom_enca.Po"; else rm -f ".deps/atom_enca.Tpo"; exit 1; fi
+atom_elst.cpp: In constructor ‘MP4ElstAtom::MP4ElstAtom()’:
+atom_elst.cpp:30:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("entryCount"); 
+                                        ^
+atom_elst.cpp:33:67: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                   ^
+atom_elst.cpp: In member function ‘void MP4ElstAtom::AddProperties(u_int8_t)’:
+atom_elst.cpp:43:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("segmentDuration"));
+                                              ^
+atom_elst.cpp:45:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("mediaTime"));
+                                        ^
+atom_elst.cpp:48:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("segmentDuration"));
+                                              ^
+atom_elst.cpp:50:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("mediaTime"));
+                                        ^
+atom_elst.cpp:54:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("mediaRate"));
+                                       ^
+atom_elst.cpp:56:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("reserved"));
+                                      ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_encv.o -MD -MP -MF ".deps/atom_encv.Tpo" -c -o atom_encv.o atom_encv.cpp; \
+then mv -f ".deps/atom_encv.Tpo" ".deps/atom_encv.Po"; else rm -f ".deps/atom_encv.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_free.o -MD -MP -MF ".deps/atom_free.Tpo" -c -o atom_free.o atom_free.cpp; \
+then mv -f ".deps/atom_free.Tpo" ".deps/atom_free.Po"; else rm -f ".deps/atom_free.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_ftyp.o -MD -MP -MF ".deps/atom_ftyp.Tpo" -c -o atom_ftyp.o atom_ftyp.cpp; \
+then mv -f ".deps/atom_ftyp.Tpo" ".deps/atom_ftyp.Po"; else rm -f ".deps/atom_ftyp.Tpo"; exit 1; fi
+atom_enca.cpp: In constructor ‘MP4EncaAtom::MP4EncaAtom()’:
+atom_enca.cpp:28:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_enca.cpp:31:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_enca.cpp:33:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 16); /* 2 */
+                             ^
+atom_enca.cpp:36:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("timeScale"));
+                                       ^
+atom_enca.cpp:38:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 2); /* 4 */
+                            ^
+atom_encv.cpp: In constructor ‘MP4EncvAtom::MP4EncvAtom()’:
+atom_encv.cpp:28:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_encv.cpp:31:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_encv.cpp:33:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 16); /* 2 */
+                             ^
+atom_encv.cpp:36:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("width"));
+                                   ^
+atom_encv.cpp:38:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("height"));
+                                    ^
+atom_encv.cpp:40:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 14); /* 5 */
+                             ^
+atom_encv.cpp:43:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("compressorName");
+                                         ^
+atom_encv.cpp:47:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved4", 4); /* 7 */
+                            ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_gmin.o -MD -MP -MF ".deps/atom_gmin.Tpo" -c -o atom_gmin.o atom_gmin.cpp; \
+then mv -f ".deps/atom_gmin.Tpo" ".deps/atom_gmin.Po"; else rm -f ".deps/atom_gmin.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_hdlr.o -MD -MP -MF ".deps/atom_hdlr.Tpo" -c -o atom_hdlr.o atom_hdlr.cpp; \
+then mv -f ".deps/atom_hdlr.Tpo" ".deps/atom_hdlr.Po"; else rm -f ".deps/atom_hdlr.Tpo"; exit 1; fi
+atom_ftyp.cpp: In constructor ‘MP4FtypAtom::MP4FtypAtom()’:
+atom_ftyp.cpp:27:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4StringProperty* pProp = new MP4StringProperty("majorBrand");
+                                                               ^
+atom_ftyp.cpp:32:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("minorVersion"));
+                                          ^
+atom_ftyp.cpp:35:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("compatibleBrandsCount"); 
+                                                   ^
+atom_ftyp.cpp:40:50: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4TableProperty("compatibleBrands", pCount);
+                                                  ^
+atom_ftyp.cpp:43:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  pProp = new MP4StringProperty("brand");
+                                       ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_hinf.o -MD -MP -MF ".deps/atom_hinf.Tpo" -c -o atom_hinf.o atom_hinf.cpp; \
+then mv -f ".deps/atom_hinf.Tpo" ".deps/atom_hinf.Po"; else rm -f ".deps/atom_hinf.Tpo"; exit 1; fi
+atom_gmin.cpp: In constructor ‘MP4GminAtom::MP4GminAtom()’:
+atom_gmin.cpp:28:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("graphicsMode")); /* 2 */
+                                                     ^
+atom_gmin.cpp:29:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("opColorRed")); /* 3 */
+                                                   ^
+atom_gmin.cpp:30:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("opColorGreen")); /* 4 */
+                                                     ^
+atom_gmin.cpp:31:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("opColorBlue")); /* 5 */
+                                                    ^
+atom_gmin.cpp:32:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("balance")); /* 6 */
+                                                ^
+atom_gmin.cpp:33:27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved", 2); /* 7 */
+                           ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_hnti.o -MD -MP -MF ".deps/atom_hnti.Tpo" -c -o atom_hnti.o atom_hnti.cpp; \
+then mv -f ".deps/atom_hnti.Tpo" ".deps/atom_hnti.Po"; else rm -f ".deps/atom_hnti.Tpo"; exit 1; fi
+atom_hdlr.cpp: In constructor ‘MP4HdlrAtom::MP4HdlrAtom()’:
+atom_hdlr.cpp:28:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 4); /* 2 */
+                            ^
+atom_hdlr.cpp:29:64: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4StringProperty* pProp = new MP4StringProperty("handlerType");
+                                                                ^
+atom_hdlr.cpp:32:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 12); /* 4 */
+                             ^
+atom_hdlr.cpp:34:31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("name"));
+                               ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_href.o -MD -MP -MF ".deps/atom_href.Tpo" -c -o atom_href.o atom_href.cpp; \
+then mv -f ".deps/atom_href.Tpo" ".deps/atom_href.Po"; else rm -f ".deps/atom_href.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_mdat.o -MD -MP -MF ".deps/atom_mdat.Tpo" -c -o atom_mdat.o atom_mdat.cpp; \
+then mv -f ".deps/atom_mdat.Tpo" ".deps/atom_mdat.Po"; else rm -f ".deps/atom_mdat.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_mdhd.o -MD -MP -MF ".deps/atom_mdhd.Tpo" -c -o atom_mdhd.o atom_mdhd.cpp; \
+then mv -f ".deps/atom_mdhd.Tpo" ".deps/atom_mdhd.Po"; else rm -f ".deps/atom_mdhd.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_meta.o -MD -MP -MF ".deps/atom_meta.Tpo" -c -o atom_meta.o atom_meta.cpp; \
+then mv -f ".deps/atom_meta.Tpo" ".deps/atom_meta.Po"; else rm -f ".deps/atom_meta.Tpo"; exit 1; fi
+atom_href.cpp: In constructor ‘MP4HrefAtom::MP4HrefAtom()’:
+atom_href.cpp:27:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_href.cpp:30:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_mdhd.cpp: In member function ‘void MP4MdhdAtom::AddProperties(u_int8_t)’:
+atom_mdhd.cpp:34:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("creationTime"));
+                                           ^
+atom_mdhd.cpp:36:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("modificationTime"));
+                                               ^
+atom_mdhd.cpp:39:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("creationTime"));
+                                           ^
+atom_mdhd.cpp:41:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("modificationTime"));
+                                               ^
+atom_mdhd.cpp:45:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("timeScale"));
+                                       ^
+atom_mdhd.cpp:49:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("duration"));
+                                       ^
+atom_mdhd.cpp:52:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("duration"));
+                                       ^
+atom_mdhd.cpp:56:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("language"));
+                                      ^
+atom_mdhd.cpp:57:27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved", 2);
+                           ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_mp4s.o -MD -MP -MF ".deps/atom_mp4s.Tpo" -c -o atom_mp4s.o atom_mp4s.cpp; \
+then mv -f ".deps/atom_mp4s.Tpo" ".deps/atom_mp4s.Po"; else rm -f ".deps/atom_mp4s.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_mp4v.o -MD -MP -MF ".deps/atom_mp4v.Tpo" -c -o atom_mp4v.o atom_mp4v.cpp; \
+then mv -f ".deps/atom_mp4v.Tpo" ".deps/atom_mp4v.Po"; else rm -f ".deps/atom_mp4v.Tpo"; exit 1; fi
+atom_meta.cpp: In constructor ‘MP4Meta1Atom::MP4Meta1Atom(const char*)’:
+atom_meta.cpp:31:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty(new MP4BytesProperty("metadata")); /* 2 */
+                                              ^
+atom_meta.cpp: In constructor ‘MP4DataAtom::MP4DataAtom()’:
+atom_meta.cpp:46:31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddReserved("reserved2", 4); /* 2 */
+                               ^
+atom_meta.cpp:49:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+         new MP4BytesProperty("metadata")); /* 3 */
+                                        ^
+atom_meta.cpp: In member function ‘virtual void MP4Meta2Atom::Read()’:
+atom_meta.cpp:73:31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddReserved("reserved2", 4); /* 0 */
+                               ^
+atom_meta.cpp:76:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+         new MP4BytesProperty("metadata")); /* 1 */
+                                        ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_mvhd.o -MD -MP -MF ".deps/atom_mvhd.Tpo" -c -o atom_mvhd.o atom_mvhd.cpp; \
+then mv -f ".deps/atom_mvhd.Tpo" ".deps/atom_mvhd.Po"; else rm -f ".deps/atom_mvhd.Tpo"; exit 1; fi
+atom_mp4s.cpp: In constructor ‘MP4Mp4sAtom::MP4Mp4sAtom()’:
+atom_mp4s.cpp:27:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6);
+                            ^
+atom_mp4s.cpp:29:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_mp4v.cpp: In constructor ‘MP4Mp4vAtom::MP4Mp4vAtom()’:
+atom_mp4v.cpp:27:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_mp4v.cpp:30:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_mp4v.cpp:32:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 16); /* 2 */
+                             ^
+atom_mp4v.cpp:35:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("width"));
+                                   ^
+atom_mp4v.cpp:37:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("height"));
+                                    ^
+atom_mp4v.cpp:39:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 14); /* 5 */
+                             ^
+atom_mp4v.cpp:42:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("compressorName");
+                                         ^
+atom_mp4v.cpp:47:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved4", 4); /* 7 */
+                            ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_ohdr.o -MD -MP -MF ".deps/atom_ohdr.Tpo" -c -o atom_ohdr.o atom_ohdr.cpp; \
+then mv -f ".deps/atom_ohdr.Tpo" ".deps/atom_ohdr.Po"; else rm -f ".deps/atom_ohdr.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_root.o -MD -MP -MF ".deps/atom_root.Tpo" -c -o atom_root.o atom_root.cpp; \
+then mv -f ".deps/atom_root.Tpo" ".deps/atom_root.Po"; else rm -f ".deps/atom_root.Tpo"; exit 1; fi
+atom_mvhd.cpp: In member function ‘void MP4MvhdAtom::AddProperties(u_int8_t)’:
+atom_mvhd.cpp:34:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("creationTime"));
+                                           ^
+atom_mvhd.cpp:36:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("modificationTime"));
+                                               ^
+atom_mvhd.cpp:39:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("creationTime"));
+                                           ^
+atom_mvhd.cpp:41:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("modificationTime"));
+                                               ^
+atom_mvhd.cpp:45:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("timeScale"));
+                                       ^
+atom_mvhd.cpp:49:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("duration"));
+                                       ^
+atom_mvhd.cpp:52:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("duration"));
+                                       ^
+atom_mvhd.cpp:57:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  pProp = new MP4Float32Property("rate");
+                                       ^
+atom_mvhd.cpp:61:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  pProp = new MP4Float32Property("volume");
+                                         ^
+atom_mvhd.cpp:65:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 70); /* 8 */
+                             ^
+atom_mvhd.cpp:68:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("nextTrackId"));
+                                         ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_rtp.o -MD -MP -MF ".deps/atom_rtp.Tpo" -c -o atom_rtp.o atom_rtp.cpp; \
+then mv -f ".deps/atom_rtp.Tpo" ".deps/atom_rtp.Po"; else rm -f ".deps/atom_rtp.Tpo"; exit 1; fi
+atom_ohdr.cpp: In constructor ‘MP4OhdrAtom::MP4OhdrAtom()’:
+atom_ohdr.cpp:59:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer8Property("EncryptionMethod"));
+                                                        ^
+atom_ohdr.cpp:60:57: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer8Property("EncryptionPadding"));
+                                                         ^
+atom_ohdr.cpp:61:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer64Property("PlaintextLength"));
+                                                        ^
+atom_ohdr.cpp:62:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("ContentIDLength"));
+                                                        ^
+atom_ohdr.cpp:63:62: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("RightsIssuerURLLength"));
+                                                              ^
+atom_ohdr.cpp:64:61: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("TextualHeadersLength"));
+                                                             ^
+atom_ohdr.cpp:65:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new OhdrMP4StringProperty("ContentID"));
+                                                   ^
+atom_ohdr.cpp:66:57: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new OhdrMP4StringProperty("RightsIssuerURL"));
+                                                         ^
+atom_ohdr.cpp:67:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4BytesProperty("TextualHeaders"));
+                                                   ^
+atom_rtp.cpp: In member function ‘void MP4RtpAtom::AddPropertiesStsdType()’:
+atom_rtp.cpp:36:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_rtp.cpp:39:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_rtp.cpp:42:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("hintTrackVersion"));
+                                              ^
+atom_rtp.cpp:44:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("highestCompatibleVersion"));
+                                                      ^
+atom_rtp.cpp:46:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("maxPacketSize"));
+                                           ^
+atom_rtp.cpp: In member function ‘void MP4RtpAtom::AddPropertiesHntiType()’:
+atom_rtp.cpp:56:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("descriptionFormat");
+                                            ^
+atom_rtp.cpp:61:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("sdpText"));
+                                  ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_s263.o -MD -MP -MF ".deps/atom_s263.Tpo" -c -o atom_s263.o atom_s263.cpp; \
+then mv -f ".deps/atom_s263.Tpo" ".deps/atom_s263.Po"; else rm -f ".deps/atom_s263.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_sdp.o -MD -MP -MF ".deps/atom_sdp.Tpo" -c -o atom_sdp.o atom_sdp.cpp; \
+then mv -f ".deps/atom_sdp.Tpo" ".deps/atom_sdp.Po"; else rm -f ".deps/atom_sdp.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_smi.o -MD -MP -MF ".deps/atom_smi.Tpo" -c -o atom_smi.o atom_smi.cpp; \
+then mv -f ".deps/atom_smi.Tpo" ".deps/atom_smi.Po"; else rm -f ".deps/atom_smi.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_sound.o -MD -MP -MF ".deps/atom_sound.Tpo" -c -o atom_sound.o atom_sound.cpp; \
+then mv -f ".deps/atom_sound.Tpo" ".deps/atom_sound.Po"; else rm -f ".deps/atom_sound.Tpo"; exit 1; fi
+atom_smi.cpp: In constructor ‘MP4SmiAtom::MP4SmiAtom()’:
+atom_smi.cpp:30:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   AddProperty( new MP4BytesProperty("metadata"));
+                                               ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_standard.o -MD -MP -MF ".deps/atom_standard.Tpo" -c -o atom_standard.o atom_standard.cpp; \
+then mv -f ".deps/atom_standard.Tpo" ".deps/atom_standard.Po"; else rm -f ".deps/atom_standard.Tpo"; exit 1; fi
+atom_s263.cpp: In constructor ‘MP4S263Atom::MP4S263Atom()’:
+atom_s263.cpp:33:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_sdp.cpp: In constructor ‘MP4SdpAtom::MP4SdpAtom()’:
+atom_sdp.cpp:27:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("sdpText"));
+                                  ^
+atom_s263.cpp:36:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_s263.cpp:38:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 16); /* 2 */
+                             ^
+atom_s263.cpp:41:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("width"));
+                                   ^
+atom_s263.cpp:44:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("height"));
+                                    ^
+atom_s263.cpp:46:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 50); /* 5 */
+                             ^
+atom_sound.cpp: In constructor ‘MP4SoundAtom::MP4SoundAtom(const char*)’:
+atom_sound.cpp:27:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_sound.cpp:30:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_sound.cpp:32:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer16Property("soundVersion"));
+                                              ^
+atom_sound.cpp:33:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved( "reserved2", 6); /* 3 */
+                             ^
+atom_sound.cpp:36:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer16Property("channels"));
+                                          ^
+atom_sound.cpp:38:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer16Property("sampleSize"));
+                                            ^
+atom_sound.cpp:40:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer16Property("packetSize"));
+                                            ^
+atom_sound.cpp:42:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer32Property("timeScale"));
+                                           ^
+atom_sound.cpp:45:30: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    AddReserved("reserved3", 2); /* 8 */
+                              ^
+atom_sound.cpp:49:30: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    AddReserved("reserved3", 2); /* 8 */
+                              ^
+atom_sound.cpp: In member function ‘void MP4SoundAtom::AddProperties(uint8_t)’:
+atom_sound.cpp:59:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("samplesPerPacket"));
+                                              ^
+atom_sound.cpp:61:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("bytesPerPacket"));
+                                            ^
+atom_sound.cpp:63:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("bytesPerFrame"));
+                                           ^
+atom_sound.cpp:65:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("bytesPerSample"));
+                                            ^
+atom_sound.cpp:68:32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddReserved("reserved4", 20);
+                                ^
+atom_sound.cpp: In member function ‘virtual void MP4SoundAtom::Read()’:
+atom_sound.cpp:110:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       AddProperty(new MP4BytesProperty("decoderConfig", m_size));
+                                                               ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_stbl.o -MD -MP -MF ".deps/atom_stbl.Tpo" -c -o atom_stbl.o atom_stbl.cpp; \
+then mv -f ".deps/atom_stbl.Tpo" ".deps/atom_stbl.Po"; else rm -f ".deps/atom_stbl.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_stdp.o -MD -MP -MF ".deps/atom_stdp.Tpo" -c -o atom_stdp.o atom_stdp.cpp; \
+then mv -f ".deps/atom_stdp.Tpo" ".deps/atom_stdp.Po"; else rm -f ".deps/atom_stdp.Tpo"; exit 1; fi
+atom_standard.cpp:25:52: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char name[5]={0251,'n', 'a', 'm', '\0'};
+                                                    ^
+atom_standard.cpp:26:51: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char art[5]={0251,'A', 'R', 'T', '\0'};
+                                                   ^
+atom_standard.cpp:27:51: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char wrt[5]={0251,'w', 'r', 't', '\0'};
+                                                   ^
+atom_standard.cpp:28:51: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char alb[5]={0251,'a', 'l', 'b', '\0'};
+                                                   ^
+atom_standard.cpp:29:51: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char day[5]={0251,'d', 'a', 'y', '\0'};
+                                                   ^
+atom_standard.cpp:30:51: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char too[5]={0251,'t', 'o', 'o', '\0'};
+                                                   ^
+atom_standard.cpp:31:51: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char cmt[5]={0251,'c', 'm', 't', '\0'};
+                                                   ^
+atom_standard.cpp:32:51: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char gen[5]={0251,'g', 'e', 'n', '\0'};
+                                                   ^
+atom_standard.cpp:33:51: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+ static const char grp[5]={0251,'g', 'r', 'p', '\0'};
+                                                   ^
+atom_standard.cpp: In constructor ‘MP4StandardAtom::MP4StandardAtom(const char*)’:
+atom_standard.cpp:54:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("avgBitrate"));
+                                        ^
+atom_standard.cpp:57:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("maxBitrate"));
+                                        ^
+atom_standard.cpp:60:57: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty( new MP4Integer32Property("bufferSizeDB")); /* 0 */
+                                                         ^
+atom_standard.cpp:61:55: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty( new MP4Integer32Property("avgBitrate"));   /* 1 */
+                                                       ^
+atom_standard.cpp:62:55: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty( new MP4Integer32Property("maxBitrate"));   /* 2 */
+                                                       ^
+atom_standard.cpp:64:50: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty( new MP4StringProperty("base_url"));
+                                                  ^
+atom_standard.cpp:72:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer32Property("entryCount"); 
+                                            ^
+atom_standard.cpp:75:70: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                      ^
+atom_standard.cpp:79:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("chunkOffset"));
+                                          ^
+atom_standard.cpp:101:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer32Property("entryCount"); 
+                                            ^
+atom_standard.cpp:104:70: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                      ^
+atom_standard.cpp:107:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     pTable->AddProperty(new MP4Integer32Property("sampleCount"));
+                                                               ^
+atom_standard.cpp:108:64: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     pTable->AddProperty(new MP4Integer32Property("sampleOffset"));
+                                                                ^
+atom_standard.cpp:117:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer64Property("bytes"));
+                                   ^
+atom_standard.cpp:124:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("milliSecs"));
+                                       ^
+atom_standard.cpp:128:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer64Property("bytes"));
+                                   ^
+atom_standard.cpp:132:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer64Property("bytes"));
+                                   ^
+atom_standard.cpp:149:55: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+                 new MP4Integer32Property("data-format"));   
+                                                       ^
+atom_standard.cpp:167:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer16Property("maxPduSize")); 
+                                                      ^
+atom_standard.cpp:168:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer16Property("avgPduSize")); 
+                                                      ^
+atom_standard.cpp:169:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer32Property("maxBitRate")); 
+                                                      ^
+atom_standard.cpp:170:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer32Property("avgBitRate")); 
+                                                      ^
+atom_standard.cpp:171:61: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer32Property("slidingAvgBitRate")); 
+                                                             ^
+atom_standard.cpp:177:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4StringProperty* pProp = new MP4StringProperty("kms_URI");
+                                                               ^
+atom_standard.cpp:183:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("selective-encryption", 1));
+                                                    ^
+atom_standard.cpp:185:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 7));
+                                        ^
+atom_standard.cpp:187:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("key-indicator-length")); 
+                                                 ^
+atom_standard.cpp:189:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("IV-length")); 
+                                      ^
+atom_standard.cpp:213:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+        MP4IPMPDescrTag, Required, Many));
+                                       ^
+atom_standard.cpp:224:55: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer32Property("granularity"));
+                                                       ^
+atom_standard.cpp:225:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer32Property("bytes"));
+                                                 ^
+atom_standard.cpp:240:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sequenceNumber"));
+                                            ^
+atom_standard.cpp:273:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer64Property("packets"));
+                                     ^
+atom_standard.cpp:284:57: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer32Property("payloadNumber"));
+                                                         ^
+atom_standard.cpp:285:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4StringProperty("rtpMap", Counted));
+                                                        ^
+atom_standard.cpp:291:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("bytes"));
+                                   ^
+atom_standard.cpp:310:55: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+                 new MP4Integer32Property("scheme_type"));
+                                                       ^
+atom_standard.cpp:312:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          new MP4Integer32Property("scheme_version"));
+                                                   ^
+atom_standard.cpp:323:30: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddReserved("reserved", 4);
+                              ^
+atom_standard.cpp:326:50: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     AddProperty(new MP4Integer32Property("offset"));
+                                                  ^
+atom_standard.cpp:331:73: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4Integer32Property* pCount = new MP4Integer32Property("entryCount"); 
+                                                                         ^
+atom_standard.cpp:334:70: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                      ^
+atom_standard.cpp:337:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     pTable->AddProperty(new MP4Integer32Property("chunkOffset"));
+                                                               ^
+atom_standard.cpp:342:73: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4Integer32Property* pCount = new MP4Integer32Property("entryCount"); 
+                                                                         ^
+atom_standard.cpp:345:70: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                      ^
+atom_standard.cpp:348:72: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     pTable->AddProperty(new MP4Integer32Property("shadowedSampleNumber"));
+                                                                        ^
+atom_standard.cpp:349:68: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     pTable->AddProperty(new MP4Integer32Property("syncSampleNumber"));
+                                                                    ^
+atom_standard.cpp:354:73: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4Integer32Property* pCount = new MP4Integer32Property("entryCount"); 
+                                                                         ^
+atom_standard.cpp:357:70: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                      ^
+atom_standard.cpp:360:64: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     pTable->AddProperty(new MP4Integer32Property("sampleNumber"));
+                                                                ^
+atom_standard.cpp:364:73: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4Integer32Property* pCount = new MP4Integer32Property("entryCount"); 
+                                                                         ^
+atom_standard.cpp:367:70: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                      ^
+atom_standard.cpp:370:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     pTable->AddProperty(new MP4Integer32Property("sampleCount"));
+                                                               ^
+atom_standard.cpp:371:63: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     pTable->AddProperty(new MP4Integer32Property("sampleDelta"));
+                                                               ^
+atom_standard.cpp:380:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("timeScale"));
+                                       ^
+atom_standard.cpp:384:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("milliSecs"));
+                                       ^
+atom_standard.cpp:388:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("milliSecs"));
+                                       ^
+atom_standard.cpp:415:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("trackId"));
+                                     ^
+atom_standard.cpp:417:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("defaultSampleDesriptionIndex"));
+                                                          ^
+atom_standard.cpp:419:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("defaultSampleDuration"));
+                                                   ^
+atom_standard.cpp:421:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("defaultSampleSize"));
+                                               ^
+atom_standard.cpp:423:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("defaultSampleFlags"));
+                                                ^
+atom_standard.cpp:431:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer64Property("bytes"));
+                                   ^
+atom_standard.cpp:435:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("offset"));
+                                    ^
+atom_stdp.cpp: In constructor ‘MP4StdpAtom::MP4StdpAtom()’:
+atom_stdp.cpp:30:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("entryCount"); 
+                                        ^
+atom_stdp.cpp:34:67: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                   ^
+atom_stdp.cpp:38:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("priority"));
+                                      ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_stsc.o -MD -MP -MF ".deps/atom_stsc.Tpo" -c -o atom_stsc.o atom_stsc.cpp; \
+then mv -f ".deps/atom_stsc.Tpo" ".deps/atom_stsc.Po"; else rm -f ".deps/atom_stsc.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_stsd.o -MD -MP -MF ".deps/atom_stsd.Tpo" -c -o atom_stsd.o atom_stsd.cpp; \
+then mv -f ".deps/atom_stsd.Tpo" ".deps/atom_stsd.Po"; else rm -f ".deps/atom_stsd.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_stsz.o -MD -MP -MF ".deps/atom_stsz.Tpo" -c -o atom_stsz.o atom_stsz.cpp; \
+then mv -f ".deps/atom_stsz.Tpo" ".deps/atom_stsz.Po"; else rm -f ".deps/atom_stsz.Tpo"; exit 1; fi
+atom_stsc.cpp: In constructor ‘MP4StscAtom::MP4StscAtom()’:
+atom_stsc.cpp:30:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("entryCount"); 
+                                        ^
+atom_stsc.cpp:33:67: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                   ^
+atom_stsc.cpp:37:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("firstChunk"));
+                                        ^
+atom_stsc.cpp:39:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("samplesPerChunk"));
+                                             ^
+atom_stsc.cpp:41:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleDescriptionIndex"));
+                                                    ^
+atom_stsc.cpp:46:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("firstSample");
+                                         ^
+atom_stsd.cpp: In constructor ‘MP4StsdAtom::MP4StsdAtom()’:
+atom_stsd.cpp:38:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("entryCount"); 
+                                        ^
+atom_stsz.cpp: In constructor ‘MP4StszAtom::MP4StszAtom()’:
+atom_stsz.cpp:30:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleSize")); 
+                                        ^
+atom_stsz.cpp:33:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleCount"); 
+                                         ^
+atom_stsz.cpp:36:67: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                   ^
+atom_stsz.cpp:40:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("entrySize"));
+                                       ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_stz2.o -MD -MP -MF ".deps/atom_stz2.Tpo" -c -o atom_stz2.o atom_stz2.cpp; \
+then mv -f ".deps/atom_stz2.Tpo" ".deps/atom_stz2.Po"; else rm -f ".deps/atom_stz2.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_text.o -MD -MP -MF ".deps/atom_text.Tpo" -c -o atom_text.o atom_text.cpp; \
+then mv -f ".deps/atom_text.Tpo" ".deps/atom_text.Po"; else rm -f ".deps/atom_text.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_tfhd.o -MD -MP -MF ".deps/atom_tfhd.Tpo" -c -o atom_tfhd.o atom_tfhd.cpp; \
+then mv -f ".deps/atom_tfhd.Tpo" ".deps/atom_tfhd.Po"; else rm -f ".deps/atom_tfhd.Tpo"; exit 1; fi
+atom_stz2.cpp: In constructor ‘MP4Stz2Atom::MP4Stz2Atom()’:
+atom_stz2.cpp:51:27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved", 3); /* 2 */
+                           ^
+atom_stz2.cpp:54:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("fieldSize")); 
+                                      ^
+atom_stz2.cpp:57:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleCount"); 
+                                         ^
+atom_stz2.cpp: In member function ‘virtual void MP4Stz2Atom::Read()’:
+atom_stz2.cpp:75:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    pTable = new MP4TableProperty("entries", pCount);
+                                                   ^
+atom_stz2.cpp:78:59: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    pTable = new MP4HalfSizeTableProperty("entries", pCount);
+                                                           ^
+atom_stz2.cpp:85:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          new MP4Integer16Property("entrySize"));
+                                              ^
+atom_stz2.cpp:88:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          new MP4Integer8Property("entrySize"));
+                                             ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_tkhd.o -MD -MP -MF ".deps/atom_tkhd.Tpo" -c -o atom_tkhd.o atom_tkhd.cpp; \
+then mv -f ".deps/atom_tkhd.Tpo" ".deps/atom_tkhd.Po"; else rm -f ".deps/atom_tkhd.Tpo"; exit 1; fi
+atom_text.cpp: In member function ‘void MP4TextAtom::AddPropertiesStsdType()’:
+atom_text.cpp:33:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_text.cpp:35:59: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("dataReferenceIndex"));/* 1 */
+                                                           ^
+atom_text.cpp:37:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer32Property("displayFlags")); /* 2 */
+                                                     ^
+atom_text.cpp:38:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer32Property("textJustification")); /* 3 */
+                                                          ^
+atom_text.cpp:40:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("bgColorRed")); /* 4 */
+                                                   ^
+atom_text.cpp:41:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("bgColorGreen")); /* 5 */
+                                                     ^
+atom_text.cpp:42:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("bgColorBlue")); /* 6 */
+                                                    ^
+atom_text.cpp:44:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("defTextBoxTop")); /* 7 */
+                                                      ^
+atom_text.cpp:45:55: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("defTextBoxLeft")); /* 8 */
+                                                       ^
+atom_text.cpp:46:57: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("defTextBoxBottom")); /* 9 */
+                                                         ^
+atom_text.cpp:47:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("defTextBoxRight")); /* 10 */
+                                                        ^
+atom_text.cpp:49:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 8); /* 11 */
+                            ^
+atom_text.cpp:51:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("fontNumber")); /* 12 */
+                                                   ^
+atom_text.cpp:52:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("fontFace")); /* 13 */
+                                                 ^
+atom_text.cpp:54:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 1); /* 14 */
+                            ^
+atom_text.cpp:55:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved4", 2); /* 15 */
+                            ^
+atom_text.cpp:57:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("foreColorRed")); /* 16 */
+                                                     ^
+atom_text.cpp:58:55: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("foreColorGreen")); /* 17 */
+                                                       ^
+atom_text.cpp:59:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer16Property("foreColorBlue")); /* 18 */
+                                                      ^
+atom_text.cpp: In member function ‘void MP4TextAtom::AddPropertiesGmhdType()’:
+atom_text.cpp:66:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4BytesProperty("textData", 36)); /* 0 */
+                                                 ^
+atom_tfhd.cpp: In constructor ‘MP4TfhdAtom::MP4TfhdAtom()’:
+atom_tfhd.cpp:29:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("trackId"));
+                                     ^
+atom_tfhd.cpp: In member function ‘void MP4TfhdAtom::AddProperties(u_int32_t)’:
+atom_tfhd.cpp:37:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("baseDataOffset"));
+                                             ^
+atom_tfhd.cpp:41:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("sampleDescriptionIndex"));
+                                                     ^
+atom_tfhd.cpp:45:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("defaultSampleDuration"));
+                                                    ^
+atom_tfhd.cpp:49:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("defaultSampleSize"));
+                                                ^
+atom_tfhd.cpp:53:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("defaultSampleFlags"));
+                                                 ^
+atom_tkhd.cpp: In member function ‘void MP4TkhdAtom::AddProperties(u_int8_t)’:
+atom_tkhd.cpp:34:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("creationTime"));
+                                           ^
+atom_tkhd.cpp:36:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("modificationTime"));
+                                               ^
+atom_tkhd.cpp:39:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("creationTime"));
+                                           ^
+atom_tkhd.cpp:41:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("modificationTime"));
+                                               ^
+atom_tkhd.cpp:45:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("trackId"));
+                                     ^
+atom_tkhd.cpp:46:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 4); /* 5 */
+                            ^
+atom_tkhd.cpp:50:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer64Property("duration"));
+                                       ^
+atom_tkhd.cpp:53:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("duration"));
+                                       ^
+atom_tkhd.cpp:56:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 12); /* 7 */
+                             ^
+atom_tkhd.cpp:60:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  pProp = new MP4Float32Property("volume");
+                                         ^
+atom_tkhd.cpp:64:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 2); /* 9 */
+                            ^
+atom_tkhd.cpp:66:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4BytesProperty("matrix", 36)); /* 10 */
+                                               ^
+atom_tkhd.cpp:68:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  pProp = new MP4Float32Property("width");
+                                        ^
+atom_tkhd.cpp:72:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  pProp = new MP4Float32Property("height");
+                                         ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_treftype.o -MD -MP -MF ".deps/atom_treftype.Tpo" -c -o atom_treftype.o atom_treftype.cpp; \
+then mv -f ".deps/atom_treftype.Tpo" ".deps/atom_treftype.Po"; else rm -f ".deps/atom_treftype.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_trun.o -MD -MP -MF ".deps/atom_trun.Tpo" -c -o atom_trun.o atom_trun.cpp; \
+then mv -f ".deps/atom_trun.Tpo" ".deps/atom_trun.Po"; else rm -f ".deps/atom_trun.Tpo"; exit 1; fi
+atom_treftype.cpp: In constructor ‘MP4TrefTypeAtom::MP4TrefTypeAtom(const char*)’:
+atom_treftype.cpp:28:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("entryCount"); 
+                                        ^
+atom_treftype.cpp:32:67: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4TableProperty("entries", pCount);
+                                                                   ^
+atom_treftype.cpp:36:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("trackId"));
+                                     ^
+atom_trun.cpp: In constructor ‘MP4TrunAtom::MP4TrunAtom()’:
+atom_trun.cpp:29:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleCount"));
+                                         ^
+atom_trun.cpp: In member function ‘void MP4TrunAtom::AddProperties(u_int32_t)’:
+atom_trun.cpp:37:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("dataOffset"));
+                                         ^
+atom_trun.cpp:41:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("firstSampleFlags"));
+                                               ^
+atom_trun.cpp:46:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+           (MP4Integer32Property *)m_pProperties[2]);
+                                                   ^
+atom_trun.cpp:51:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("sampleDuration"));
+                                             ^
+atom_trun.cpp:55:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("sampleSize"));
+                                         ^
+atom_trun.cpp:59:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("sampleFlags"));
+                                          ^
+atom_trun.cpp:63:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    new MP4Integer32Property("sampleCompositionTimeOffset"));
+                                                          ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_udta.o -MD -MP -MF ".deps/atom_udta.Tpo" -c -o atom_udta.o atom_udta.cpp; \
+then mv -f ".deps/atom_udta.Tpo" ".deps/atom_udta.Po"; else rm -f ".deps/atom_udta.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_url.o -MD -MP -MF ".deps/atom_url.Tpo" -c -o atom_url.o atom_url.cpp; \
+then mv -f ".deps/atom_url.Tpo" ".deps/atom_url.Po"; else rm -f ".deps/atom_url.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_urn.o -MD -MP -MF ".deps/atom_urn.Tpo" -c -o atom_urn.o atom_urn.cpp; \
+then mv -f ".deps/atom_urn.Tpo" ".deps/atom_urn.Po"; else rm -f ".deps/atom_urn.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_video.o -MD -MP -MF ".deps/atom_video.Tpo" -c -o atom_video.o atom_video.cpp; \
+then mv -f ".deps/atom_video.Tpo" ".deps/atom_video.Po"; else rm -f ".deps/atom_video.Tpo"; exit 1; fi
+atom_url.cpp: In constructor ‘MP4UrlAtom::MP4UrlAtom(const char*)’:
+atom_url.cpp:28:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4StringProperty("location"));
+                                              ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT atom_vmhd.o -MD -MP -MF ".deps/atom_vmhd.Tpo" -c -o atom_vmhd.o atom_vmhd.cpp; \
+then mv -f ".deps/atom_vmhd.Tpo" ".deps/atom_vmhd.Po"; else rm -f ".deps/atom_vmhd.Tpo"; exit 1; fi
+atom_urn.cpp: In constructor ‘MP4UrnAtom::MP4UrnAtom()’:
+atom_urn.cpp:28:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4StringProperty("name"));
+                                          ^
+atom_urn.cpp:29:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4StringProperty("location"));
+                                              ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT descriptors.o -MD -MP -MF ".deps/descriptors.Tpo" -c -o descriptors.o descriptors.cpp; \
+then mv -f ".deps/descriptors.Tpo" ".deps/descriptors.Po"; else rm -f ".deps/descriptors.Tpo"; exit 1; fi
+atom_video.cpp: In constructor ‘MP4VideoAtom::MP4VideoAtom(const char*)’:
+atom_video.cpp:27:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved1", 6); /* 0 */
+                            ^
+atom_video.cpp:30:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dataReferenceIndex"));
+                                                ^
+atom_video.cpp:32:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved2", 16); /* 2 */
+                             ^
+atom_video.cpp:35:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("width"));
+                                   ^
+atom_video.cpp:37:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("height"));
+                                    ^
+atom_video.cpp:39:29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved3", 14); /* 5 */
+                             ^
+atom_video.cpp:42:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("compressorName");
+                                         ^
+atom_video.cpp:48:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer16Property("depth"));
+                                       ^
+atom_video.cpp:50:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer16Property("colorTableId"));
+                                              ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT isma.o -MD -MP -MF ".deps/isma.Tpo" -c -o isma.o isma.cpp; \
+then mv -f ".deps/isma.Tpo" ".deps/isma.Po"; else rm -f ".deps/isma.Tpo"; exit 1; fi
+atom_vmhd.cpp: In constructor ‘MP4VmhdAtom::MP4VmhdAtom()’:
+atom_vmhd.cpp:28:27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddReserved("reserved", 8);
+                           ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4atom.o -MD -MP -MF ".deps/mp4atom.Tpo" -c -o mp4atom.o mp4atom.cpp; \
+then mv -f ".deps/mp4atom.Tpo" ".deps/mp4atom.Po"; else rm -f ".deps/mp4atom.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4container.o -MD -MP -MF ".deps/mp4container.Tpo" -c -o mp4container.o mp4container.cpp; \
+then mv -f ".deps/mp4container.Tpo" ".deps/mp4container.Po"; else rm -f ".deps/mp4container.Tpo"; exit 1; fi
+descriptors.cpp: In constructor ‘MP4BaseDescriptor::MP4BaseDescriptor(u_int8_t)’:
+descriptors.cpp:29:32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("id"));
+                                ^
+descriptors.cpp:33:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("refIndex"));
+                                      ^
+descriptors.cpp:37:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("IPIESId"));
+                                     ^
+descriptors.cpp:41:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("languageCode", 3));
+                                         ^
+descriptors.cpp:43:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("title", Counted));
+                                         ^
+descriptors.cpp:45:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("value", Counted));
+                                         ^
+descriptors.cpp:49:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("IPMPDescriptorId"));
+                                             ^
+descriptors.cpp:53:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("profileLevelIndicationIndex"));
+                                                        ^
+descriptors.cpp:55:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("ODProfileLevelIndication"));
+                                                     ^
+descriptors.cpp:57:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("sceneProfileLevelIndication"));
+                                                        ^
+descriptors.cpp:59:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("audioProfileLevelIndication"));
+                                                        ^
+descriptors.cpp:61:57: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("visualProfileLevelIndication"));
+                                                         ^
+descriptors.cpp:63:59: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("graphicsProfileLevelIndication"));
+                                                           ^
+descriptors.cpp:65:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("MPEGJProfileLevelIndication"));
+                                                        ^
+descriptors.cpp: In constructor ‘MP4BytesDescriptor::MP4BytesDescriptor(u_int8_t)’:
+descriptors.cpp:80:30: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("data"));
+                              ^
+descriptors.cpp:85:32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     new MP4BytesProperty("info"));
+                                ^
+descriptors.cpp:90:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     new MP4Integer8Property("IPMPDescriptorId"));
+                                               ^
+descriptors.cpp:92:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     new MP4Integer16Property("IPMPSType"));
+                                         ^
+descriptors.cpp:94:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     new MP4BytesProperty("IPMPData"));
+                                    ^
+descriptors.cpp:101:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     new MP4Integer32Property("formatIdentifier"));
+                                                ^
+descriptors.cpp:103:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     new MP4BytesProperty("additionalIdentificationInfo"));
+                                                        ^
+descriptors.cpp: In constructor ‘MP4IODescriptor::MP4IODescriptor()’:
+descriptors.cpp:128:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("objectDescriptorId", 10));
+                                                   ^
+descriptors.cpp:130:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("URLFlag", 1));
+                                       ^
+descriptors.cpp:132:61: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("includeInlineProfileLevelFlag", 1));
+                                                             ^
+descriptors.cpp:134:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 4));
+                                        ^
+descriptors.cpp:136:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("URL", Counted));
+                                       ^
+descriptors.cpp:138:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("ODProfileLevelId"));
+                                             ^
+descriptors.cpp:140:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("sceneProfileLevelId"));
+                                                ^
+descriptors.cpp:142:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("audioProfileLevelId"));
+                                                ^
+descriptors.cpp:144:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("visualProfileLevelId"));
+                                                 ^
+descriptors.cpp:146:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("graphicsProfileLevelId"));
+                                                   ^
+descriptors.cpp:149:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ESIDIncDescrTag, 0, Required, Many));
+                                         ^
+descriptors.cpp:152:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4OCIDescrTagsStart, MP4OCIDescrTagsEnd, Optional, Many));
+                                                            ^
+descriptors.cpp:155:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4IPMPPtrDescrTag, 0, Optional, Many));
+                                         ^
+descriptors.cpp:158:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ExtDescrTagsStart, MP4ExtDescrTagsEnd, Optional, Many));
+                                                            ^
+descriptors.cpp: In constructor ‘MP4ODescriptor::MP4ODescriptor()’:
+descriptors.cpp:187:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("objectDescriptorId", 10));
+                                                   ^
+descriptors.cpp:189:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("URLFlag", 1));
+                                       ^
+descriptors.cpp:191:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 5));
+                                        ^
+descriptors.cpp:193:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("URL", Counted));
+                                       ^
+descriptors.cpp:196:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ESIDRefDescrTag, 0, Required, Many));
+                                         ^
+descriptors.cpp:199:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4OCIDescrTagsStart, MP4OCIDescrTagsEnd, Optional, Many));
+                                                            ^
+descriptors.cpp:202:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4IPMPPtrDescrTag, 0, Optional, Many));
+                                         ^
+descriptors.cpp:205:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ExtDescrTagsStart, MP4ExtDescrTagsEnd, Optional, Many));
+                                                            ^
+descriptors.cpp: In constructor ‘MP4ESDescriptor::MP4ESDescriptor()’:
+descriptors.cpp:230:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("ESID"));
+                                  ^
+descriptors.cpp:232:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("streamDependenceFlag", 1));
+                                                    ^
+descriptors.cpp:234:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("URLFlag", 1));
+                                       ^
+descriptors.cpp:236:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("OCRstreamFlag", 1));
+                                             ^
+descriptors.cpp:238:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("streamPriority", 5));
+                                              ^
+descriptors.cpp:240:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("dependsOnESID"));
+                                           ^
+descriptors.cpp:242:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("URL", Counted));
+                                       ^
+descriptors.cpp:244:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("OCRESID"));
+                                     ^
+descriptors.cpp:247:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4DecConfigDescrTag, 0, Required, OnlyOne));
+                                              ^
+descriptors.cpp:250:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4SLConfigDescrTag, 0, Required, OnlyOne));
+                                             ^
+descriptors.cpp:253:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4IPIPtrDescrTag, 0, Optional, OnlyOne));
+                                           ^
+descriptors.cpp:256:67: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ContentIdDescrTag, MP4SupplContentIdDescrTag, Optional, Many));
+                                                                   ^
+descriptors.cpp:259:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4IPMPPtrDescrTag, 0, Optional, Many));
+                                         ^
+descriptors.cpp:262:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4LanguageDescrTag, 0, Optional, Many));
+                                          ^
+descriptors.cpp:265:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4QosDescrTag, 0, Optional, OnlyOne));
+                                        ^
+descriptors.cpp:268:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4RegistrationDescrTag, 0, Optional, OnlyOne));
+                                                 ^
+descriptors.cpp:271:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ExtDescrTagsStart, MP4ExtDescrTagsEnd, Optional, Many));
+                                                            ^
+descriptors.cpp: In constructor ‘MP4DecConfigDescriptor::MP4DecConfigDescriptor()’:
+descriptors.cpp:295:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("objectTypeId"));
+                                         ^
+descriptors.cpp:297:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("streamType", 6));
+                                          ^
+descriptors.cpp:299:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("upStream", 1));
+                                        ^
+descriptors.cpp:301:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 1));
+                                        ^
+descriptors.cpp:303:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("bufferSizeDB", 24));
+                                             ^
+descriptors.cpp:305:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("maxBitrate"));
+                                        ^
+descriptors.cpp:307:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("avgBitrate"));
+                                        ^
+descriptors.cpp:310:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4DecSpecificDescrTag, 0, Optional, OnlyOne));
+                                                ^
+descriptors.cpp:313:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ExtProfileLevelDescrTag, 0, Optional, Many));
+                                                 ^
+descriptors.cpp: In constructor ‘MP4SLConfigDescriptor::MP4SLConfigDescriptor()’:
+descriptors.cpp:325:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("predefined"));
+                                       ^
+descriptors.cpp:327:54: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("useAccessUnitStartFlag", 1));
+                                                      ^
+descriptors.cpp:329:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("useAccessUnitEndFlag", 1));
+                                                    ^
+descriptors.cpp:331:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("useRandomAccessPointFlag", 1));
+                                                        ^
+descriptors.cpp:333:60: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("hasRandomAccessUnitsOnlyFlag", 1));
+                                                            ^
+descriptors.cpp:335:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("usePaddingFlag", 1));
+                                              ^
+descriptors.cpp:337:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("useTimeStampsFlag", 1));
+                                                 ^
+descriptors.cpp:339:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("useIdleFlag", 1));
+                                           ^
+descriptors.cpp:341:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("durationFlag", 1));
+                                            ^
+descriptors.cpp:343:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("timeStampResolution"));
+                                                 ^
+descriptors.cpp:345:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("OCRResolution"));
+                                           ^
+descriptors.cpp:347:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("timeStampLength"));
+                                            ^
+descriptors.cpp:349:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("OCRLength"));
+                                      ^
+descriptors.cpp:351:37: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("AULength"));
+                                     ^
+descriptors.cpp:353:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("instantBitrateLength"));
+                                                 ^
+descriptors.cpp:355:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("degradationPriortyLength", 4));
+                                                        ^
+descriptors.cpp:357:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("AUSeqNumLength", 5));
+                                              ^
+descriptors.cpp:359:50: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("packetSeqNumLength", 5));
+                                                  ^
+descriptors.cpp:361:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 2));
+                                        ^
+descriptors.cpp:365:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("timeScale"));
+                                       ^
+descriptors.cpp:367:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("accessUnitDuration"));
+                                                ^
+descriptors.cpp:369:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("compositionUnitDuration"));
+                                                     ^
+descriptors.cpp:373:55: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("startDecodingTimeStamp", 64));
+                                                       ^
+descriptors.cpp:375:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("startCompositionTimeStamp", 64));
+                                                          ^
+descriptors.cpp: In constructor ‘MP4ContentIdDescriptor::MP4ContentIdDescriptor()’:
+descriptors.cpp:476:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("compatibility", 2));
+                                             ^
+descriptors.cpp:478:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("contentTypeFlag", 1));
+                                               ^
+descriptors.cpp:480:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("contentIdFlag", 1));
+                                             ^
+descriptors.cpp:482:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("protectedContent", 1));
+                                                ^
+descriptors.cpp:484:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 3));
+                                        ^
+descriptors.cpp:486:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("contentType"));
+                                        ^
+descriptors.cpp:488:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("contentIdType"));
+                                          ^
+descriptors.cpp:490:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("contentId"));
+                                   ^
+mp4atom.cpp: In static member function ‘static MP4Atom* MP4Atom::CreateAtom(const char*)’:
+mp4atom.cpp:267:58: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+       static const char name[5]={0251,'n', 'a', 'm', '\0'};
+                                                          ^
+mp4atom.cpp:268:57: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+       static const char cmt[5]={0251,'c', 'm', 't', '\0'};
+                                                         ^
+mp4atom.cpp:269:57: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+       static const char cpy[5]={0251,'c', 'p', 'y', '\0'};
+                                                         ^
+mp4atom.cpp:270:56: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+       static const char des[5]={0251,'d', 'e', 's','\0'};
+                                                        ^
+mp4atom.cpp:271:58: warning: narrowing conversion of ‘169’ from ‘int’ to ‘const char’ inside { } is ill-formed in C++11 [-Wnarrowing]
+       static const char prd[5]={0251, 'p', 'r', 'd', '\0'};
+                                                          ^
+mp4atom.cpp: In static member function ‘static MP4Atom* MP4Atom::ReadAtom(MP4File*, MP4Atom*)’:
+mp4atom.cpp:403:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     new MP4BytesProperty("data", dataSize));
+                                          ^
+mp4atom.cpp: In member function ‘void MP4Atom::AddVersionAndFlags()’:
+mp4atom.cpp:805:47: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer8Property("version"));
+                                               ^
+mp4atom.cpp:806:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  AddProperty(new MP4Integer24Property("flags"));
+                                              ^
+isma.cpp: In member function ‘void MP4File::MakeIsmaCompliant(bool)’:
+isma.cpp:38:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4MakeIsmaCompliant");
+                                              ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4.o -MD -MP -MF ".deps/mp4.Tpo" -c -o mp4.o mp4.cpp; \
+then mv -f ".deps/mp4.Tpo" ".deps/mp4.Po"; else rm -f ".deps/mp4.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4descriptor.o -MD -MP -MF ".deps/mp4descriptor.Tpo" -c -o mp4descriptor.o mp4descriptor.cpp; \
+then mv -f ".deps/mp4descriptor.Tpo" ".deps/mp4descriptor.Po"; else rm -f ".deps/mp4descriptor.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4file.o -MD -MP -MF ".deps/mp4file.Tpo" -c -o mp4file.o mp4file.cpp; \
+then mv -f ".deps/mp4file.Tpo" ".deps/mp4file.Po"; else rm -f ".deps/mp4file.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4file_io.o -MD -MP -MF ".deps/mp4file_io.Tpo" -c -o mp4file_io.o mp4file_io.cpp; \
+then mv -f ".deps/mp4file_io.Tpo" ".deps/mp4file_io.Po"; else rm -f ".deps/mp4file_io.Tpo"; exit 1; fi
+mp4file.cpp: In member function ‘void MP4File::SetIntegerProperty(const char*, u_int64_t)’:
+mp4file.cpp:861:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("SetIntegerProperty");
+                                            ^
+mp4file.cpp: In member function ‘void MP4File::SetFloatProperty(const char*, float)’:
+mp4file.cpp:897:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("SetFloatProperty");
+                                          ^
+mp4file.cpp: In member function ‘void MP4File::SetStringProperty(const char*, const char*)’:
+mp4file.cpp:931:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("SetStringProperty");
+                                           ^
+mp4file.cpp: In member function ‘void MP4File::SetBytesProperty(const char*, const u_int8_t*, u_int32_t)’:
+mp4file.cpp:966:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("SetBytesProperty");
+                                          ^
+mp4file.cpp: In member function ‘MP4TrackId MP4File::AddTrack(const char*, u_int32_t)’:
+mp4file.cpp:981:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("AddTrack");
+                                  ^
+mp4file.cpp: At global scope:
+mp4file.cpp:1279:32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+                            NULL};
+                                ^
+mp4file.cpp:1279:32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+mp4file.cpp: In member function ‘void MP4File::DeleteTrack(MP4TrackId)’:
+mp4file.cpp:2173:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4DeleteTrack");
+                                        ^
+In file included from mp4common.h:31:0,
+                 from mp4file.cpp:31:
+mp4file.cpp: In member function ‘u_int32_t MP4File::GetNumberOfTracks(const char*, u_int8_t)’:
+mp4.h:120:30: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+ #define MP4_AUDIO_TRACK_TYPE "soun"
+                              ^
+mp4file.cpp:2214:21: note: in expansion of macro ‘MP4_AUDIO_TRACK_TYPE’
+     if (normType == MP4_AUDIO_TRACK_TYPE) {
+                     ^
+mp4.h:121:30: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+ #define MP4_VIDEO_TRACK_TYPE "vide"
+                              ^
+mp4file.cpp:2218:28: note: in expansion of macro ‘MP4_VIDEO_TRACK_TYPE’
+     } else if (normType == MP4_VIDEO_TRACK_TYPE) {
+                            ^
+mp4file.cpp: In member function ‘MP4TrackId MP4File::FindTrackId(u_int16_t, const char*, u_int8_t)’:
+mp4.h:120:30: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+ #define MP4_AUDIO_TRACK_TYPE "soun"
+                              ^
+mp4file.cpp:2281:18: note: in expansion of macro ‘MP4_AUDIO_TRACK_TYPE’
+  if (normType == MP4_AUDIO_TRACK_TYPE) {
+                  ^
+mp4.h:121:30: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+ #define MP4_VIDEO_TRACK_TYPE "vide"
+                              ^
+mp4file.cpp:2285:25: note: in expansion of macro ‘MP4_VIDEO_TRACK_TYPE’
+  } else if (normType == MP4_VIDEO_TRACK_TYPE) {
+                         ^
+mp4file.cpp: In member function ‘void MP4File::WriteSample(MP4TrackId, const u_int8_t*, u_int32_t, MP4Duration, MP4Duration, bool)’:
+mp4file.cpp:2395:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4WriteSample");
+                                        ^
+mp4file.cpp: In member function ‘void MP4File::SetSampleRenderingOffset(MP4TrackId, MP4SampleId, MP4Duration)’:
+mp4file.cpp:2406:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4SetSampleRenderingOffset");
+                                                     ^
+mp4file.cpp: In member function ‘void MP4File::AddRtpHint(MP4TrackId, bool, u_int32_t)’:
+mp4file.cpp:3147:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4AddRtpHint");
+                                       ^
+mp4file.cpp: In member function ‘void MP4File::AddRtpPacket(MP4TrackId, bool, int32_t)’:
+mp4file.cpp:3160:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4AddRtpPacket");
+                                         ^
+mp4file.cpp: In member function ‘void MP4File::AddRtpImmediateData(MP4TrackId, const u_int8_t*, u_int32_t)’:
+mp4file.cpp:3173:48: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4AddRtpImmediateData");
+                                                ^
+mp4file.cpp: In member function ‘void MP4File::AddRtpSampleData(MP4TrackId, MP4SampleId, u_int32_t, u_int32_t)’:
+mp4file.cpp:3187:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4AddRtpSampleData");
+                                             ^
+mp4file.cpp: In member function ‘void MP4File::AddRtpESConfigurationPacket(MP4TrackId)’:
+mp4file.cpp:3201:56: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4AddRtpESConfigurationPacket");
+                                                        ^
+mp4file.cpp: In member function ‘void MP4File::WriteRtpHint(MP4TrackId, MP4Duration, bool)’:
+mp4file.cpp:3215:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("MP4WriteRtpHint");
+                                         ^
+mp4file.cpp: In member function ‘MP4EditId MP4File::AddTrackEdit(MP4TrackId, MP4EditId)’:
+mp4file.cpp:3318:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("AddTrackEdit");
+                                      ^
+mp4file.cpp: In member function ‘void MP4File::DeleteTrackEdit(MP4TrackId, MP4EditId)’:
+mp4file.cpp:3326:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ProtectWriteOperation("DeleteTrackEdit");
+                                         ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4info.o -MD -MP -MF ".deps/mp4info.Tpo" -c -o mp4info.o mp4info.cpp; \
+then mv -f ".deps/mp4info.Tpo" ".deps/mp4info.Po"; else rm -f ".deps/mp4info.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4meta.o -MD -MP -MF ".deps/mp4meta.Tpo" -c -o mp4meta.o mp4meta.cpp; \
+then mv -f ".deps/mp4meta.Tpo" ".deps/mp4meta.Po"; else rm -f ".deps/mp4meta.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4property.o -MD -MP -MF ".deps/mp4property.Tpo" -c -o mp4property.o mp4property.cpp; \
+then mv -f ".deps/mp4property.Tpo" ".deps/mp4property.Po"; else rm -f ".deps/mp4property.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4track.o -MD -MP -MF ".deps/mp4track.Tpo" -c -o mp4track.o mp4track.cpp; \
+then mv -f ".deps/mp4track.Tpo" ".deps/mp4track.Po"; else rm -f ".deps/mp4track.Tpo"; exit 1; fi
+mp4track.cpp: In member function ‘void MP4Track::UpdateRenderingOffsets(MP4SampleId, MP4Duration)’:
+mp4track.cpp:1136:61: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   MP4Atom* pCttsAtom = AddAtom("trak.mdia.minf.stbl", "ctts");
+                                                             ^
+mp4track.cpp:1136:61: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+mp4track.cpp: In member function ‘void MP4Track::UpdateSyncSamples(MP4SampleId, bool)’:
+mp4track.cpp:1343:65: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       MP4Atom* pStssAtom = AddAtom("trak.mdia.minf.stbl", "stss");
+                                                                 ^
+mp4track.cpp:1343:65: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT mp4util.o -MD -MP -MF ".deps/mp4util.Tpo" -c -o mp4util.o mp4util.cpp; \
+then mv -f ".deps/mp4util.Tpo" ".deps/mp4util.Po"; else rm -f ".deps/mp4util.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT ocidescriptors.o -MD -MP -MF ".deps/ocidescriptors.Tpo" -c -o ocidescriptors.o ocidescriptors.cpp; \
+then mv -f ".deps/ocidescriptors.Tpo" ".deps/ocidescriptors.Po"; else rm -f ".deps/ocidescriptors.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT odcommands.o -MD -MP -MF ".deps/odcommands.Tpo" -c -o odcommands.o odcommands.cpp; \
+then mv -f ".deps/odcommands.Tpo" ".deps/odcommands.Po"; else rm -f ".deps/odcommands.Tpo"; exit 1; fi
+ocidescriptors.cpp: In constructor ‘MP4ContentClassDescriptor::MP4ContentClassDescriptor()’:
+ocidescriptors.cpp:28:50: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("classificationEntity"));
+                                                  ^
+ocidescriptors.cpp:30:49: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("classificationTable"));
+                                                 ^
+ocidescriptors.cpp:32:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("contentClassificationData"));
+                                                   ^
+ocidescriptors.cpp: In constructor ‘MP4KeywordDescriptor::MP4KeywordDescriptor()’:
+ocidescriptors.cpp:49:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("languageCode", 3));
+                                         ^
+ocidescriptors.cpp:51:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("isUTF8String", 1));
+                                            ^
+ocidescriptors.cpp:53:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 7));
+                                        ^
+ocidescriptors.cpp:55:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("keywordCount");
+                                         ^
+ocidescriptors.cpp:58:68: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4TableProperty("keywords", pCount);
+                                                                    ^
+ocidescriptors.cpp:62:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("string", Counted));
+                                          ^
+ocidescriptors.cpp: In constructor ‘MP4RatingDescriptor::MP4RatingDescriptor()’:
+ocidescriptors.cpp:80:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("ratingEntity"));
+                                          ^
+ocidescriptors.cpp:82:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("ratingCriteria"));
+                                            ^
+ocidescriptors.cpp:84:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("ratingInfo"));
+                                    ^
+ocidescriptors.cpp: In constructor ‘MP4LanguageDescriptor::MP4LanguageDescriptor()’:
+ocidescriptors.cpp:101:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("languageCode", 3));
+                                         ^
+ocidescriptors.cpp: In constructor ‘MP4ShortTextDescriptor::MP4ShortTextDescriptor()’:
+ocidescriptors.cpp:108:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("languageCode", 3));
+                                         ^
+ocidescriptors.cpp:110:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("isUTF8String", 1));
+                                            ^
+ocidescriptors.cpp:112:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 7));
+                                        ^
+ocidescriptors.cpp:114:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("eventName", Counted));
+                                             ^
+ocidescriptors.cpp:116:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("eventText", Counted));
+                                             ^
+ocidescriptors.cpp: In constructor ‘MP4ExpandedTextDescriptor::MP4ExpandedTextDescriptor()’:
+ocidescriptors.cpp:132:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("languageCode", 3));
+                                         ^
+ocidescriptors.cpp:134:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("isUTF8String", 1));
+                                            ^
+ocidescriptors.cpp:136:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 7));
+                                        ^
+ocidescriptors.cpp:138:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("itemCount");
+                                      ^
+ocidescriptors.cpp:141:65: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4TableProperty("items", pCount);
+                                                                 ^
+ocidescriptors.cpp:145:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("itemDescription", Counted));
+                                                   ^
+ocidescriptors.cpp:147:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("itemText", Counted));
+                                            ^
+ocidescriptors.cpp:150:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("nonItemText"));
+                                      ^
+ocidescriptors.cpp: In constructor ‘MP4CreatorDescriptor::MP4CreatorDescriptor(u_int8_t)’:
+ocidescriptors.cpp:186:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("creatorCount");
+                                         ^
+ocidescriptors.cpp:189:75: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4CreatorTableProperty("creators", pCount);
+                                                                           ^
+ocidescriptors.cpp:193:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("languageCode", 3, 3));
+                                            ^
+ocidescriptors.cpp:195:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("isUTF8String", 1));
+                                            ^
+ocidescriptors.cpp:197:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved", 7));
+                                        ^
+ocidescriptors.cpp:199:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("name", Counted));
+                                        ^
+ocidescriptors.cpp: In constructor ‘MP4CreationDescriptor::MP4CreationDescriptor(u_int8_t)’:
+ocidescriptors.cpp:226:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("contentCreationDate", 40));
+                                                    ^
+ocidescriptors.cpp: In constructor ‘MP4SmpteCameraDescriptor::MP4SmpteCameraDescriptor()’:
+ocidescriptors.cpp:233:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("parameterCount"); 
+                                           ^
+ocidescriptors.cpp:236:70: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  MP4TableProperty* pTable = new MP4TableProperty("parameters", pCount);
+                                                                      ^
+ocidescriptors.cpp:240:31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("id"));
+                               ^
+ocidescriptors.cpp:242:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("value"));
+                                   ^
+ocidescriptors.cpp: In constructor ‘MP4UnknownOCIDescriptor::MP4UnknownOCIDescriptor()’:
+ocidescriptors.cpp:249:30: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("data"));
+                              ^
+odcommands.cpp: In constructor ‘MP4ODRemoveDescriptor::MP4ODRemoveDescriptor()’:
+odcommands.cpp:37:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("entryCount"); 
+                                        ^
+odcommands.cpp:42:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4TableProperty("entries", pCount);
+                                         ^
+odcommands.cpp:46:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("objectDescriptorId", 10));
+                                                   ^
+odcommands.cpp: In constructor ‘MP4ESUpdateDescriptor::MP4ESUpdateDescriptor()’:
+odcommands.cpp:63:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("objectDescriptorId", 10));
+                                                   ^
+odcommands.cpp:65:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("pad", 6));
+                                   ^
+odcommands.cpp:68:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ESIDRefDescrTag, 0, Required, Many));
+                                         ^
+odcommands.cpp: In constructor ‘MP4ESRemoveDescriptor::MP4ESRemoveDescriptor()’:
+odcommands.cpp:76:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("objectDescriptorId", 10));
+                                                   ^
+odcommands.cpp:78:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("pad", 6));
+                                   ^
+odcommands.cpp:81:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    MP4ESIDRefDescrTag, 0, Required, Many));
+                                         ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT qosqualifiers.o -MD -MP -MF ".deps/qosqualifiers.Tpo" -c -o qosqualifiers.o qosqualifiers.cpp; \
+then mv -f ".deps/qosqualifiers.Tpo" ".deps/qosqualifiers.Po"; else rm -f ".deps/qosqualifiers.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT rtphint.o -MD -MP -MF ".deps/rtphint.Tpo" -c -o rtphint.o rtphint.cpp; \
+then mv -f ".deps/rtphint.Tpo" ".deps/rtphint.Po"; else rm -f ".deps/rtphint.Tpo"; exit 1; fi
+qosqualifiers.cpp: In constructor ‘MP4QosDescriptorBase::MP4QosDescriptorBase(u_int8_t)’:
+qosqualifiers.cpp:30:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("predefined"));
+                                       ^
+qosqualifiers.cpp:34:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+          MP4QosTagsEnd, Optional, Many));
+                                       ^
+qosqualifiers.cpp:38:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("maxDelay"));
+                                      ^
+qosqualifiers.cpp:42:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("prefMaxDelay"));
+                                          ^
+qosqualifiers.cpp:46:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Float32Property("lossProb"));
+                                    ^
+qosqualifiers.cpp:50:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("maxGapLoss"));
+                                        ^
+qosqualifiers.cpp:54:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("maxAUSize"));
+                                       ^
+qosqualifiers.cpp:58:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       new MP4Integer32Property("avgAUSize"));
+                                           ^
+qosqualifiers.cpp:62:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("maxAURate"));
+                                       ^
+qosqualifiers.cpp: In constructor ‘MP4UnknownQosQualifier::MP4UnknownQosQualifier()’:
+qosqualifiers.cpp:131:30: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("data"));
+                              ^
+rtphint.cpp: In constructor ‘MP4RtpHint::MP4RtpHint(MP4RtpHintTrack*)’:
+rtphint.cpp:711:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("packetCount"));
+                                         ^
+rtphint.cpp:713:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("reserved"));
+                                      ^
+rtphint.cpp: In constructor ‘MP4RtpPacket::MP4RtpPacket(MP4RtpHint*)’:
+rtphint.cpp:809:46: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("relativeXmitTime"));
+                                              ^
+rtphint.cpp:811:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved1", 2));
+                                         ^
+rtphint.cpp:813:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("Pbit", 1));
+                                    ^
+rtphint.cpp:815:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("Xbit", 1));
+                                    ^
+rtphint.cpp:817:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved2", 4));
+                                         ^
+rtphint.cpp:819:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("Mbit", 1));
+                                    ^
+rtphint.cpp:821:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("payloadType", 7));
+                                           ^
+rtphint.cpp:823:44: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("sequenceNumber"));
+                                            ^
+rtphint.cpp:825:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("reserved3", 13));
+                                          ^
+rtphint.cpp:827:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("extraFlag", 1));
+                                         ^
+rtphint.cpp:829:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("bFrameFlag", 1));
+                                          ^
+rtphint.cpp:831:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BitfieldProperty("repeatFlag", 1));
+                                          ^
+rtphint.cpp:833:40: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("entryCount"));
+                                        ^
+rtphint.cpp: In member function ‘void MP4RtpPacket::AddExtraProperties()’:
+rtphint.cpp:846:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("extraInformationLength"));
+                                                    ^
+rtphint.cpp:853:39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("tlvLength"));
+                                       ^
+rtphint.cpp:855:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4StringProperty("tlvType"));
+                                  ^
+rtphint.cpp:857:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("timestampOffset"));
+                                             ^
+rtphint.cpp: In constructor ‘MP4RtpData::MP4RtpData(MP4RtpPacket*)’:
+rtphint.cpp:1077:33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("type"));
+                                 ^
+rtphint.cpp: In constructor ‘MP4RtpNullData::MP4RtpNullData(MP4RtpPacket*)’:
+rtphint.cpp:1119:33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("pad", 15));
+                                 ^
+rtphint.cpp: In constructor ‘MP4RtpImmediateData::MP4RtpImmediateData(MP4RtpPacket*)’:
+rtphint.cpp:1130:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("count"));
+                                  ^
+rtphint.cpp:1132:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4BytesProperty("data", 14));
+                                  ^
+rtphint.cpp: In constructor ‘MP4RtpSampleData::MP4RtpSampleData(MP4RtpPacket*)’:
+rtphint.cpp:1164:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("trackRefIndex"));
+                                          ^
+rtphint.cpp:1166:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("length"));
+                                    ^
+rtphint.cpp:1168:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleNumber"));
+                                          ^
+rtphint.cpp:1170:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleOffset"));
+                                          ^
+rtphint.cpp:1172:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("bytesPerBlock"));
+                                           ^
+rtphint.cpp:1174:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("samplesPerBlock"));
+                                             ^
+rtphint.cpp: In constructor ‘MP4RtpSampleDescriptionData::MP4RtpSampleDescriptionData(MP4RtpPacket*)’:
+rtphint.cpp:1281:42: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer8Property("trackRefIndex"));
+                                          ^
+rtphint.cpp:1283:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer16Property("length"));
+                                    ^
+rtphint.cpp:1285:52: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleDescriptionIndex"));
+                                                    ^
+rtphint.cpp:1287:53: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("sampleDescriptionOffset"));
+                                                     ^
+rtphint.cpp:1289:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   new MP4Integer32Property("reserved"));
+                                      ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I../.. -I../../include   -Wall -g -O2 -MT virtual_io.o -MD -MP -MF ".deps/virtual_io.Tpo" -c -o virtual_io.o virtual_io.cpp; \
+then mv -f ".deps/virtual_io.Tpo" ".deps/virtual_io.Po"; else rm -f ".deps/virtual_io.Tpo"; exit 1; fi
+rm -f libmp4v2.a
+ar cru libmp4v2.a 3gp.o atom_amr.o atom_avc1.o atom_avcC.o atom_d263.o atom_damr.o atom_dref.o atom_elst.o atom_enca.o atom_encv.o atom_free.o atom_ftyp.o atom_gmin.o atom_hdlr.o atom_hinf.o atom_hnti.o atom_href.o atom_mdat.o atom_mdhd.o atom_meta.o atom_mp4s.o atom_mp4v.o atom_mvhd.o atom_ohdr.o atom_root.o atom_rtp.o atom_s263.o atom_sdp.o atom_smi.o atom_sound.o atom_standard.o atom_stbl.o atom_stdp.o atom_stsc.o atom_stsd.o atom_stsz.o atom_stz2.o atom_text.o atom_tfhd.o atom_tkhd.o atom_treftype.o atom_trun.o atom_udta.o atom_url.o atom_urn.o atom_video.o atom_vmhd.o descriptors.o isma.o mp4atom.o mp4container.o mp4.o mp4descriptor.o mp4file.o mp4file_io.o mp4info.o mp4meta.o mp4property.o mp4track.o mp4util.o ocidescriptors.o odcommands.o qosqualifiers.o rtphint.o virtual_io.o 
+ranlib libmp4v2.a
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common/mp4v2'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+Making all in frontend
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/frontend'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../common/mp4v2    -O2 -Wall -MT main.o -MD -MP -MF ".deps/main.Tpo" -c -o main.o main.c; \
+then mv -f ".deps/main.Tpo" ".deps/main.Po"; else rm -f ".deps/main.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I../common/mp4v2    -O2 -Wall -MT input.o -MD -MP -MF ".deps/input.Tpo" -c -o input.o input.c; \
+then mv -f ".deps/input.Tpo" ".deps/input.Po"; else rm -f ".deps/input.Tpo"; exit 1; fi
+input.c: In function ‘wav_read_float32’:
+input.c:286:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         buf[i] = (*(float *)&bufi) * (float)32768;
+         ^
+input.c:290:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         buf[i] = (float)((*(double *)&bufi) * (float)32768);
+         ^
+input.c:315:11: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+           int16_t s = ((int16_t *)bufi)[0];
+           ^
+input.c:322:11: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+           int s = ((int16_t *)bufi)[0];
+           ^
+input.c:358:11: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+           int s = *(int *)&bufi;
+           ^
+input.c:363:11: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+           int s = *(int *)&bufi;
+           ^
+input.c: In function ‘wav_read_int24’:
+input.c:390:8: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   bufi = (char *)buf + sizeof(*buf) * num - sndf->samplebytes * (num - 1) - sizeof(*buf);
+        ^
+In file included from input.h:26:0,
+                 from main.c:79:
+../config.h:100:0: warning: "PACKAGE_BUGREPORT" redefined [enabled by default]
+ #define PACKAGE_BUGREPORT "faac-dev@lists.sourceforge.net"
+ ^
+In file included from ../common/mp4v2/mp4.h:35:0,
+                 from main.c:33:
+../common/mp4v2/mpeg4ip.h:47:0: note: this is the location of the previous definition
+ #define PACKAGE_BUGREPORT TEMP_PACKAGE_BUGREPORT
+ ^
+In file included from input.h:26:0,
+                 from main.c:79:
+../config.h:103:0: warning: "PACKAGE_NAME" redefined [enabled by default]
+ #define PACKAGE_NAME "FAAC"
+ ^
+In file included from ../common/mp4v2/mp4.h:35:0,
+                 from main.c:33:
+../common/mp4v2/mpeg4ip.h:48:0: note: this is the location of the previous definition
+ #define PACKAGE_NAME TEMP_PACKAGE_NAME
+ ^
+In file included from input.h:26:0,
+                 from main.c:79:
+../config.h:106:0: warning: "PACKAGE_STRING" redefined [enabled by default]
+ #define PACKAGE_STRING "FAAC 1.28"
+ ^
+In file included from ../common/mp4v2/mp4.h:35:0,
+                 from main.c:33:
+../common/mp4v2/mpeg4ip.h:49:0: note: this is the location of the previous definition
+ #define PACKAGE_STRING TEMP_PACKAGE_STRING
+ ^
+In file included from input.h:26:0,
+                 from main.c:79:
+../config.h:109:0: warning: "PACKAGE_TARNAME" redefined [enabled by default]
+ #define PACKAGE_TARNAME "faac"
+ ^
+In file included from ../common/mp4v2/mp4.h:35:0,
+                 from main.c:33:
+../common/mp4v2/mpeg4ip.h:50:0: note: this is the location of the previous definition
+ #define PACKAGE_TARNAME TEMP_PACKAGE_TARNAME
+ ^
+In file included from input.h:26:0,
+                 from main.c:79:
+../config.h:112:0: warning: "PACKAGE_VERSION" redefined [enabled by default]
+ #define PACKAGE_VERSION "1.28"
+ ^
+In file included from ../common/mp4v2/mp4.h:35:0,
+                 from main.c:33:
+../common/mp4v2/mpeg4ip.h:51:0: note: this is the location of the previous definition
+ #define PACKAGE_VERSION TEMP_PACKAGE_VERSION
+ ^
+main.c: In function ‘main’:
+main.c:666:9: warning: pointer targets in passing argument 1 of ‘check_image_header’ differ in signedness [-Wpointer-sign]
+         } else if (artSize < 12 || !check_image_header(art)) {
+         ^
+main.c:332:12: note: expected ‘const char *’ but argument is of type ‘u_int8_t *’
+ static int check_image_header(const char *buf) {
+            ^
+/bin/sh ../libtool --tag=CC --mode=link gcc  -O2 -Wall   -o faac  main.o input.o ../libfaac/libfaac.la ../common/mp4v2/libmp4v2.a -lm -lstdc++ 
+mkdir .libs
+gcc -O2 -Wall -o .libs/faac main.o input.o  ../libfaac/.libs/libfaac.so ../common/mp4v2/libmp4v2.a -lm /usr/lib/libstdc++.so
+creating faac
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/frontend'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28'
+Making install in include
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/include'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/include'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/include" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/include"
+ /usr/bin/ginstall -c -m 644 'faac.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/include/faac.h'
+ /usr/bin/ginstall -c -m 644 'faaccfg.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/include/faaccfg.h'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/include'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/include'
+Making install in libfaac
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/libfaac'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/libfaac'
+test -z "/usr/lib" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib"
+ /bin/sh ../libtool --mode=install /usr/bin/ginstall -c  'libfaac.la' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib/libfaac.la'
+/usr/bin/ginstall -c .libs/libfaac.so.0.0.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib/libfaac.so.0.0.0
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib && { ln -s -f libfaac.so.0.0.0 libfaac.so.0 || { rm -f libfaac.so.0 && ln -s libfaac.so.0.0.0 libfaac.so.0; }; })
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib && { ln -s -f libfaac.so.0.0.0 libfaac.so || { rm -f libfaac.so && ln -s libfaac.so.0.0.0 libfaac.so; }; })
+/usr/bin/ginstall -c .libs/libfaac.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib/libfaac.la
+/usr/bin/ginstall -c .libs/libfaac.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib/libfaac.a
+chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib/libfaac.a
+ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/lib/libfaac.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/libfaac'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/libfaac'
+Making install in common
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+Making install in mp4v2
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common/mp4v2'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common/mp4v2'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common/mp4v2'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common/mp4v2'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/common'
+Making install in frontend
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/frontend'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/frontend'
+test -z "/usr/bin" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/bin"
+  /bin/sh ../libtool --mode=install /usr/bin/ginstall -c 'faac' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/bin/faac'
+/usr/bin/ginstall -c .libs/faac /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/bin/faac
+test -z "/usr/share/man/man1" || /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/install-sh -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/share/man/man1"
+ /usr/bin/ginstall -c -m 644 './../docs/faac.1' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-install/usr/share/man/man1/faac.1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/frontend'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28/frontend'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac/faac-1.28'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/faac
+Found 'i686'
+Processing ../faac-install/usr/bin/faac
+Processing ../faac-install/usr/include/faaccfg.h
+Processing ../faac-install/usr/include/faac.h
+Processing ../faac-install/usr/lib/libfaac.a
+Processing ../faac-install/usr/lib/libfaac.la
+Processing ../faac-install/usr/lib/libfaac.so
+Processing ../faac-install/usr/lib/libfaac.so.0
+Processing ../faac-install/usr/lib/libfaac.so.0.0.0
+Processing ../faac-install/usr/share/man/man1/faac.1
+all done
+packaging faac-1.28-i686_slk600
+packaging faac_DEV-1.28-i686_slk600
+packaging faac_DOC-1.28-i686_slk600
+done!

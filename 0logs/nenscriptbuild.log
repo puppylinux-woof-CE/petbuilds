@@ -1,0 +1,44 @@
+nenscript-1.13.3/
+nenscript-1.13.3/makefile
+nenscript-1.13.3/defs.h
+nenscript-1.13.3/font_lis.c
+nenscript-1.13.3/font_lis.h
+nenscript-1.13.3/fontwidt.c
+nenscript-1.13.3/fontwidt.h
+nenscript-1.13.3/machdep.h
+nenscript-1.13.3/main.c
+nenscript-1.13.3/main.h
+nenscript-1.13.3/makefile.msc
+nenscript-1.13.3/nenscript.def
+nenscript-1.13.3/paper.c
+nenscript-1.13.3/paper.h
+nenscript-1.13.3/patches.os2
+nenscript-1.13.3/postscri.c
+nenscript-1.13.3/postscri.h
+nenscript-1.13.3/print.c
+nenscript-1.13.3/print.h
+nenscript-1.13.3/pstext
+nenscript-1.13.3/readme
+nenscript-1.13.3/readme.os2
+nenscript-1.13.3/version.h
+nenscript-1.13.3/Diff.ut
+nenscript-1.13.3/latin1.txt
+nenscript-1.13.3/Fix-2
+nenscript-1.13.3/nenscript.1
+nenscript-1.13.3/TAGS
+nenscript-1.13.3/Fix-1
+nenscript-1.13.3/Fix-3
+cc -O  -DUS_VERSION   -c -o main.o main.c
+cc -O  -DUS_VERSION   -c -o postscri.o postscri.c
+cc -O  -DUS_VERSION   -c -o print.o print.c
+cc -O  -DUS_VERSION   -c -o fontwidt.o fontwidt.c
+cc -O  -DUS_VERSION   -c -o font_lis.o font_lis.c
+cc -O  -DUS_VERSION   -c -o paper.o paper.c
+cc -O  -DUS_VERSION -o nenscript main.o postscri.o print.o fontwidt.o font_lis.o paper.o 
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/nenscript
+Processing ../nenscript-install/usr/bin/nenscript
+Processing ../nenscript-install/usr/man/man1/nenscript.1
+all done
+packaging nenscript-1.13.3-i686_slk600
+packaging nenscript_DOC-1.13.3-i686_slk600
+done!

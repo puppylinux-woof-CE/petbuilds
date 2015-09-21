@@ -1,0 +1,17 @@
+guess_fs-20140626/
+guess_fs-20140626/error.h
+guess_fs-20140626/linux_fs.h
+guess_fs-20140626/dosfsck.h
+guess_fs-20140626/main.c
+guess_fs-20140626/guess_fstype.c.orig
+guess_fs-20140626/Makefile
+guess_fs-20140626/mount.sh
+guess_fs-20140626/README
+guess_fs-20140626/guess_fstype.h
+guess_fs-20140626/guess_fstype.c
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/guess_fstype
+Single compile for guess_fstype ...
+-rwxr-xr-x 1 root root 13656 Jun 29 11:34 guess_fstype
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/guess_fstype
+packaging guess_fstype-20140626-i686_slk600
+done!

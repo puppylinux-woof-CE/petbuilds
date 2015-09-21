@@ -1,0 +1,15 @@
+openal-soft-install/usr/bin/makehrtf
+openal-soft-install/usr/bin/openal-info
+openal-soft-install/usr/include/AL/alc.h
+openal-soft-install/usr/include/AL/alext.h
+openal-soft-install/usr/include/AL/al.h
+openal-soft-install/usr/include/AL/efx-creative.h
+openal-soft-install/usr/include/AL/efx.h
+openal-soft-install/usr/include/AL/efx-presets.h
+openal-soft-install/usr/lib/libopenal.so
+openal-soft-install/usr/lib/libopenal.so.1
+openal-soft-install/usr/lib/libopenal.so.1.16.0
+openal-soft-install/usr/lib/pkgconfig/openal.pc
+openal-soft-install/usr/share/openal/alsoftrc.sample
+openal-soft-install/usr/share/openal/hrtf/default-44100.mhr
+openal-soft-install/usr/share/openal/hrtf/default-48000.mhr

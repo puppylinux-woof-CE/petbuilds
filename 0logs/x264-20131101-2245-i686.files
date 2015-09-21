@@ -1,0 +1,6 @@
+x264-install/usr/bin/x264
+x264-install/usr/include/x264_config.h
+x264-install/usr/include/x264.h
+x264-install/usr/lib/libx264.so
+x264-install/usr/lib/libx264.so.138
+x264-install/usr/lib/pkgconfig/x264.pc

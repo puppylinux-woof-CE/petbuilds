@@ -1,0 +1,16 @@
+sfontview-0.1.1/
+sfontview-0.1.1/sfontview.bmp
+sfontview-0.1.1/sfontview.c
+sfontview-0.1.1/Makefile
+gcc -o sfontview.o -c sfontview.c -Wall  `sdl-config --cflags`
+gcc -o sfontview sfontview.o -Wall -g `sdl-config --cflags --libs` -lSDL_ttf
+install -d -m 0755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/sfontview/sfontview-install/usr/bin
+install -d -m 0755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/sfontview/sfontview-install/usr/share/pixmaps
+install -s -m 0755 sfontview /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/sfontview/sfontview-install/usr/bin
+install -m 0644 sfontview.bmp /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/sfontview/sfontview-install/usr/share/pixmaps
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/sfontview
+Processing ../sfontview-install/usr/bin/sfontview
+Processing ../sfontview-install/usr/share/pixmaps/sfontview.bmp
+all done
+packaging sfontview-0.1.1-i686_slk600
+done!

@@ -1,0 +1,10 @@
+minixcal-1.1.1/
+minixcal-1.1.1/LICENSE
+minixcal-1.1.1/minixcal.c
+minixcal-1.1.1/README
+minixcal-1.1.1/Makefile
+gcc -o minixcal.o -c minixcal.c -Wall -pedantic -std=gnu99 -g -I/usr/include `pkg-config --libs --cflags gtk+-2.0`
+gcc -o minixcal minixcal.o -Wall -g `pkg-config --libs gtk+-2.0` -lX11
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minixcal
+packaging minixcal-1.1.1-i686_slk600
+done!

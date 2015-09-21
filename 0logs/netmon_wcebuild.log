@@ -1,0 +1,14 @@
+netmon_wce-1.0/
+netmon_wce-1.0/internet_connect.svg
+netmon_wce-1.0/netmon_wce.desktop
+netmon_wce-1.0/compile
+netmon_wce-1.0/internet_connect_no.svg
+netmon_wce-1.0/README.txt
+netmon_wce-1.0/internet_connect_both.svg
+netmon_wce-1.0/internet_connect_yes.svg
+netmon_wce-1.0/netmon_wce.c
+netmon_wce-1.0/netmon_wce.pot
+done
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/netmon_wce
+packaging netmon_wce-1.0-i686_slk600
+done!

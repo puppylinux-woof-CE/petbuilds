@@ -1,0 +1,52 @@
+vobcopy-1.2.0/
+vobcopy-1.2.0/TODO
+vobcopy-1.2.0/COPYING
+vobcopy-1.2.0/configure.sh
+vobcopy-1.2.0/Changelog
+vobcopy-1.2.0/Makefile
+vobcopy-1.2.0/README
+vobcopy-1.2.0/Release-Notes
+vobcopy-1.2.0/alternative_programs.txt
+vobcopy-1.2.0/dvd.c
+vobcopy-1.2.0/dvd.h
+vobcopy-1.2.0/vobcopy.c
+vobcopy-1.2.0/vobcopy.h
+vobcopy-1.2.0/vobcopy.1
+vobcopy-1.2.0/vobcopy.1.de
+vobcopy-1.2.0/vobcopy.spec
+vobcopy-1.2.0/vobcopy.mo
+vobcopy-1.2.0/vobcopy.pot
+THIS CONFIGURE SCRIPT IS STILL HIGHLY EXPERIMENTAL!
+If you think you found a bug, please mail me, thanks! robos@muon.de
+prefix = /usr
+with mandir here: /share/man
+with large-file support
+libdvdread found
+Next thing type "make" and then "make install"
+cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -I/usr//include -c vobcopy.c
+cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -I/usr//include -c dvd.c
+vobcopy.c: In function ‘main’:
+vobcopy.c:776:7: warning: passing argument 1 of ‘get_longest_title’ from incompatible pointer type [enabled by default]
+       titleid = get_longest_title( &dvd );
+       ^
+In file included from vobcopy.h:217:0,
+                 from vobcopy.c:53:
+dvd.h:9:5: note: expected ‘struct dvd_reader_t *’ but argument is of type ‘struct dvd_reader_t **’
+ int get_longest_title( dvd_reader_t * );
+     ^
+cc -o vobcopy vobcopy.o dvd.o -ldvdread -L/usr//lib
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/vobcopy/vobcopy-install//usr /usr/bin
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/vobcopy/vobcopy-install//share/man/man1
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/vobcopy/vobcopy-install//share/man/de/man1
+install -d -m 755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/vobcopy/vobcopy-install//usr /usr/share/doc/vobcopy
+install -m 755 vobcopy /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/vobcopy/vobcopy-install//usr /usr/bin/vobcopy
+install: target ‘/usr/bin/vobcopy’ is not a directory
+make: *** [install] Error 1
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/vobcopy
+Processing ../vobcopy-install/share/man/de/man1
+Processing ../vobcopy-install/share/man/man1
+Processing ../vobcopy-install/usr
+all done
+packaging vobcopy-1.2.0-i686_slk600
+packaging vobcopy_DOC-1.2.0-i686_slk600
+done!

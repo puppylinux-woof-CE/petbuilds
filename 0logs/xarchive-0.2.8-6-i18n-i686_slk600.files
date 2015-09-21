@@ -1,0 +1,16 @@
+xarchive-install/usr/bin/xarchive
+xarchive-install/usr/lib/xarchive/wrappers/7za-wrap.sh
+xarchive-install/usr/lib/xarchive/wrappers/ace-wrap.sh
+xarchive-install/usr/lib/xarchive/wrappers/arj-wrap.sh
+xarchive-install/usr/lib/xarchive/wrappers/deb-wrap.sh
+xarchive-install/usr/lib/xarchive/wrappers/rar-wrap.sh
+xarchive-install/usr/lib/xarchive/wrappers/rpm-wrap.sh
+xarchive-install/usr/lib/xarchive/wrappers/tar-wrap.sh
+xarchive-install/usr/lib/xarchive/wrappers/zip-wrap.sh
+xarchive-install/usr/man/man1/xarchive.1
+xarchive-install/usr/share/applications/xarchive.desktop
+xarchive-install/usr/share/doc/xarchive/xarchive.1.html
+xarchive-install/usr/share/doc/xarchive/xarchive.1.txt
+xarchive-install/usr/share/pixmaps/xarchive.xpm
+xarchive-install/usr/share/doc/nls/xarchive/
+xarchive-install/usr/share/doc/nls/xarchive/xarchive.pot

@@ -1,0 +1,57 @@
+pipepanic-0.1.3-source/
+pipepanic-0.1.3-source/ascii15.bmp
+pipepanic-0.1.3-source/ascii30.bmp
+pipepanic-0.1.3-source/ascii30.xcf
+pipepanic-0.1.3-source/AUTHORS
+pipepanic-0.1.3-source/backup
+pipepanic-0.1.3-source/Bugs
+pipepanic-0.1.3-source/buildsrc
+pipepanic-0.1.3-source/ChangeLog
+pipepanic-0.1.3-source/COMPILING
+pipepanic-0.1.3-source/COPYING
+pipepanic-0.1.3-source/COPYING-ARTWORK
+pipepanic-0.1.3-source/digits24.bmp
+pipepanic-0.1.3-source/digits24.xcf
+pipepanic-0.1.3-source/digits48.bmp
+pipepanic-0.1.3-source/digits48.xcf
+pipepanic-0.1.3-source/main.c
+pipepanic-0.1.3-source/main.h
+pipepanic-0.1.3-source/Makefile
+pipepanic-0.1.3-source/Makefile.arm
+pipepanic-0.1.3-source/PipepanicIcon100.xcf
+pipepanic-0.1.3-source/PipepanicIcon16.png
+pipepanic-0.1.3-source/PipepanicIcon32.png
+pipepanic-0.1.3-source/PipepanicIcon48.png
+pipepanic-0.1.3-source/PipepanicIcon64.png
+pipepanic-0.1.3-source/PipepanicIcon.xcf
+pipepanic-0.1.3-source/README
+pipepanic-0.1.3-source/texts48.xcf
+pipepanic-0.1.3-source/tiles24.bmp
+pipepanic-0.1.3-source/tiles24.xcf
+pipepanic-0.1.3-source/tiles48.bmp
+pipepanic-0.1.3-source/tiles48.xcf
+pipepanic-0.1.3-source/TODO
+pipepanic-0.1.3-source/VERSION
+pipepanic-0.1.3-source/zaurus/
+pipepanic-0.1.3-source/zaurus/pipepanic.png
+pipepanic-0.1.3-source/zaurus/control
+pipepanic-0.1.3-source/zaurus/_buildipk
+pipepanic-0.1.3-source/zaurus/pipepanic.desktop
+pipepanic-0.1.3-source/zaurus/runpipepanic
+pipepanic-0.1.3-source/zaurus/_buildtgz
+pipepanic-0.1.3-source/zaurus/_ipkg-build
+gcc -O2 -Wall -pedantic `sdl-config --cflags` -c main.c
+main.c: In function ‘createdeadpipesarray’:
+main.c:1204:27: warning: variable ‘endreached’ set but not used [-Wunused-but-set-variable]
+  int pointexists = FALSE, endreached = FALSE, pointsconverge = FALSE;
+                           ^
+gcc  main.o `sdl-config --libs` -o pipepanic
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/pipepanic
+installing *.bmp
+installing *.xcf
+installing PipepanicIcon48.png
+installing COPYING*
+installing AUTHORS
+installing VERSION
+packaging pipepanic-0.1.3-i686_slk600
+done!

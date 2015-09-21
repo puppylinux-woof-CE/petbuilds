@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# script to update configs
+# if file is newer than June 1, 2015 we skip it
+
+JWMV=`jwm -v|cut -d ' ' -f2|sed 's/v//'|head -n1`
+JWMV=`echo ${JWMV}|sed 's/\.//g'`
+[ -z "$JWMV" ] && exit
+[ $JWMV -gt 230 ] || exit
+XSLT=`find /etc -type f -name 'jwm*.xslt'`
+[ -z "$XSLT" ] && exit
+for i in `find /etc $HOME /root -type f -name '*jwmrc*'`;do 
+	echo "fixing $i"
+	if grep -q '<JWM>' $i;then
+		echo "$i is compliant"
+	else
+		echo "$i not valid" && continue
+	fi
+	age=$(date +%s -r  $i)
+	[ $age -gt 1433080800 ] && echo "$i seems up to date" && continue
+	cp $i ${i}.old
+	xsltproc ${XSLT} ${i}.old > $i
+	[ $? -ne 0 ] && "fixing $i faled" || echo "Success!"
+	rm ${i}.old
+done

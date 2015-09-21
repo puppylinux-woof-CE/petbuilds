@@ -1,0 +1,9 @@
+getcurpos-0.1/
+getcurpos-0.1/getcurpos.c
+getcurpos-0.1/Makefile
+cc -o getcurpos.o -Wall -pedantic -std=gnu99 -g -I/usr/include -c getcurpos.c
+cc -o getcurpos getcurpos.o -Wall -g -I/usr/include -lX11
+rm -f *.o  getcurpos
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/getcurpos
+packaging getcurpos-0.1-i686_slk600
+done!

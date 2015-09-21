@@ -1,0 +1,1056 @@
+libgnomecanvas-2.30.3/
+libgnomecanvas-2.30.3/Makefile.am
+libgnomecanvas-2.30.3/mkinstalldirs
+libgnomecanvas-2.30.3/intltool-update.in
+libgnomecanvas-2.30.3/glade/
+libgnomecanvas-2.30.3/glade/Makefile.am
+libgnomecanvas-2.30.3/glade/glade-canvas.c
+libgnomecanvas-2.30.3/glade/Makefile.in
+libgnomecanvas-2.30.3/missing
+libgnomecanvas-2.30.3/INSTALL
+libgnomecanvas-2.30.3/configure.in
+libgnomecanvas-2.30.3/tests/
+libgnomecanvas-2.30.3/tests/Makefile.am
+libgnomecanvas-2.30.3/tests/test-libglade-canvas.glade
+libgnomecanvas-2.30.3/tests/test-libglade-canvas.c
+libgnomecanvas-2.30.3/tests/Makefile.in
+libgnomecanvas-2.30.3/config.h.in
+libgnomecanvas-2.30.3/libgnomecanvas/
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-shape.c
+libgnomecanvas-2.30.3/libgnomecanvas/Makefile.am
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-util.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-polygon.h
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvasgroupfactory.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-widget.h
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvaswidgetfactory.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-bpath.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-polygon.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvastextfactory.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-pixbuf.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvastext.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-clipgroup.h
+libgnomecanvas-2.30.3/libgnomecanvas/libgnomecanvas.h
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvasitemfactory.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-i18n.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-bpath.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-marshal.list
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-path-def.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-rect-ellipse.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvastext.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-path-def.h
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvaswidget.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvas.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvaswidgetfactory.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvasgroupfactory.h
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvaswidget.h
+libgnomecanvas-2.30.3/libgnomecanvas/libgnomecanvas-2.0.pc.in
+libgnomecanvas-2.30.3/libgnomecanvas/libgnomecanvastypes.c
+libgnomecanvas-2.30.3/libgnomecanvas/libgnomecanvas-2.0-uninstalled.pc.in
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-line.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-shape-private.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-util.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvas.h
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvastextfactory.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-line.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-rich-text.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-shape.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-widget.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvasitem.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-pixbuf.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-text.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvasitemfactory.c
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-text.h
+libgnomecanvas-2.30.3/libgnomecanvas/Makefile.in
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-rich-text.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-rect-ellipse.h
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvasitem.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvasgroup.c
+libgnomecanvas-2.30.3/libgnomecanvas/gailcanvasgroup.h
+libgnomecanvas-2.30.3/libgnomecanvas/gnome-canvas-clipgroup.c
+libgnomecanvas-2.30.3/libgnomecanvas-zip.in
+libgnomecanvas-2.30.3/po/
+libgnomecanvas-2.30.3/po/sl.po
+libgnomecanvas-2.30.3/po/ku.po
+libgnomecanvas-2.30.3/po/or.po
+libgnomecanvas-2.30.3/po/nn.po
+libgnomecanvas-2.30.3/po/tt.po
+libgnomecanvas-2.30.3/po/th.po
+libgnomecanvas-2.30.3/po/mai.po
+libgnomecanvas-2.30.3/po/hr.po
+libgnomecanvas-2.30.3/po/oc.po
+libgnomecanvas-2.30.3/po/sk.po
+libgnomecanvas-2.30.3/po/zh_CN.po
+libgnomecanvas-2.30.3/po/he.po
+libgnomecanvas-2.30.3/po/yi.po
+libgnomecanvas-2.30.3/po/li.po
+libgnomecanvas-2.30.3/po/mn.po
+libgnomecanvas-2.30.3/po/id.po
+libgnomecanvas-2.30.3/po/ro.po
+libgnomecanvas-2.30.3/po/vi.po
+libgnomecanvas-2.30.3/po/mk.po
+libgnomecanvas-2.30.3/po/cy.po
+libgnomecanvas-2.30.3/po/ang.po
+libgnomecanvas-2.30.3/po/ka.po
+libgnomecanvas-2.30.3/po/bs.po
+libgnomecanvas-2.30.3/po/hu.po
+libgnomecanvas-2.30.3/po/xh.po
+libgnomecanvas-2.30.3/po/zh_TW.po
+libgnomecanvas-2.30.3/po/bg.po
+libgnomecanvas-2.30.3/po/da.po
+libgnomecanvas-2.30.3/po/sr@ije.po
+libgnomecanvas-2.30.3/po/eo.po
+libgnomecanvas-2.30.3/po/pl.po
+libgnomecanvas-2.30.3/po/tr.po
+libgnomecanvas-2.30.3/po/gu.po
+libgnomecanvas-2.30.3/po/et.po
+libgnomecanvas-2.30.3/po/ms.po
+libgnomecanvas-2.30.3/po/ga.po
+libgnomecanvas-2.30.3/po/am.po
+libgnomecanvas-2.30.3/po/en_GB.po
+libgnomecanvas-2.30.3/po/cs.po
+libgnomecanvas-2.30.3/po/fa.po
+libgnomecanvas-2.30.3/po/sr.po
+libgnomecanvas-2.30.3/po/it.po
+libgnomecanvas-2.30.3/po/kn.po
+libgnomecanvas-2.30.3/po/is.po
+libgnomecanvas-2.30.3/po/el.po
+libgnomecanvas-2.30.3/po/uk.po
+libgnomecanvas-2.30.3/po/sr@latin.po
+libgnomecanvas-2.30.3/po/zh_HK.po
+libgnomecanvas-2.30.3/po/ko.po
+libgnomecanvas-2.30.3/po/ca@valencia.po
+libgnomecanvas-2.30.3/po/bn.po
+libgnomecanvas-2.30.3/po/POTFILES.skip
+libgnomecanvas-2.30.3/po/pt.po
+libgnomecanvas-2.30.3/po/sq.po
+libgnomecanvas-2.30.3/po/ChangeLog
+libgnomecanvas-2.30.3/po/es.po
+libgnomecanvas-2.30.3/po/fi.po
+libgnomecanvas-2.30.3/po/bn_IN.po
+libgnomecanvas-2.30.3/po/gl.po
+libgnomecanvas-2.30.3/po/br.po
+libgnomecanvas-2.30.3/po/az.po
+libgnomecanvas-2.30.3/po/sv.po
+libgnomecanvas-2.30.3/po/mr.po
+libgnomecanvas-2.30.3/po/eu.po
+libgnomecanvas-2.30.3/po/pa.po
+libgnomecanvas-2.30.3/po/ta.po
+libgnomecanvas-2.30.3/po/ca.po
+libgnomecanvas-2.30.3/po/as.po
+libgnomecanvas-2.30.3/po/dz.po
+libgnomecanvas-2.30.3/po/fr.po
+libgnomecanvas-2.30.3/po/pt_BR.po
+libgnomecanvas-2.30.3/po/wa.po
+libgnomecanvas-2.30.3/po/ja.po
+libgnomecanvas-2.30.3/po/hi.po
+libgnomecanvas-2.30.3/po/Makefile.in.in
+libgnomecanvas-2.30.3/po/te.po
+libgnomecanvas-2.30.3/po/lv.po
+libgnomecanvas-2.30.3/po/ne.po
+libgnomecanvas-2.30.3/po/rw.po
+libgnomecanvas-2.30.3/po/ru.po
+libgnomecanvas-2.30.3/po/en@shaw.po
+libgnomecanvas-2.30.3/po/ug.po
+libgnomecanvas-2.30.3/po/ast.po
+libgnomecanvas-2.30.3/po/nl.po
+libgnomecanvas-2.30.3/po/nb.po
+libgnomecanvas-2.30.3/po/en_CA.po
+libgnomecanvas-2.30.3/po/crh.po
+libgnomecanvas-2.30.3/po/de.po
+libgnomecanvas-2.30.3/po/LINGUAS
+libgnomecanvas-2.30.3/po/be.po
+libgnomecanvas-2.30.3/po/lt.po
+libgnomecanvas-2.30.3/po/ml.po
+libgnomecanvas-2.30.3/po/mg.po
+libgnomecanvas-2.30.3/po/ar.po
+libgnomecanvas-2.30.3/po/POTFILES.in
+libgnomecanvas-2.30.3/config.guess
+libgnomecanvas-2.30.3/AUTHORS
+libgnomecanvas-2.30.3/gtk-doc.make
+libgnomecanvas-2.30.3/ChangeLog
+libgnomecanvas-2.30.3/intltool-merge.in
+libgnomecanvas-2.30.3/NEWS
+libgnomecanvas-2.30.3/docs/
+libgnomecanvas-2.30.3/docs/Makefile.am
+libgnomecanvas-2.30.3/docs/reference/
+libgnomecanvas-2.30.3/docs/reference/Makefile.am
+libgnomecanvas-2.30.3/docs/reference/libgnomecanvas.types
+libgnomecanvas-2.30.3/docs/reference/libgnomecanvas-docs.sgml
+libgnomecanvas-2.30.3/docs/reference/libgnomecanvas-sections.txt
+libgnomecanvas-2.30.3/docs/reference/html/
+libgnomecanvas-2.30.3/docs/reference/html/index.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvas.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasEllipse.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasItem.html
+libgnomecanvas-2.30.3/docs/reference/html/ch01.html
+libgnomecanvas-2.30.3/docs/reference/html/home.png
+libgnomecanvas-2.30.3/docs/reference/html/up.png
+libgnomecanvas-2.30.3/docs/reference/html/libgnomecanvas.devhelp
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasRE.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasGroup.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasClipgroup.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasLine.html
+libgnomecanvas-2.30.3/docs/reference/html/ch02.html
+libgnomecanvas-2.30.3/docs/reference/html/libgnomecanvas-gnome-canvas-path-def.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasRichText.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasBpath.html
+libgnomecanvas-2.30.3/docs/reference/html/right.png
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasRect.html
+libgnomecanvas-2.30.3/docs/reference/html/index.sgml
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasShape.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasWidget.html
+libgnomecanvas-2.30.3/docs/reference/html/style.css
+libgnomecanvas-2.30.3/docs/reference/html/libgnomecanvas.devhelp2
+libgnomecanvas-2.30.3/docs/reference/html/left.png
+libgnomecanvas-2.30.3/docs/reference/html/libgnomecanvas-gnome-canvas-text.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasPolygon.html
+libgnomecanvas-2.30.3/docs/reference/html/libgnomecanvas-gnome-canvas-util.html
+libgnomecanvas-2.30.3/docs/reference/html/GnomeCanvasPixbuf.html
+libgnomecanvas-2.30.3/docs/reference/libgnomecanvas-overrides.txt
+libgnomecanvas-2.30.3/docs/reference/Makefile.in
+libgnomecanvas-2.30.3/docs/Makefile.in
+libgnomecanvas-2.30.3/install-sh
+libgnomecanvas-2.30.3/aclocal.m4
+libgnomecanvas-2.30.3/intltool-extract.in
+libgnomecanvas-2.30.3/depcomp
+libgnomecanvas-2.30.3/COPYING.LIB
+libgnomecanvas-2.30.3/configure
+libgnomecanvas-2.30.3/ltmain.sh
+libgnomecanvas-2.30.3/Makefile.in
+libgnomecanvas-2.30.3/demos/
+libgnomecanvas-2.30.3/demos/Makefile.am
+libgnomecanvas-2.30.3/demos/canvas-curve.c
+libgnomecanvas-2.30.3/demos/canvas-arrowhead.c
+libgnomecanvas-2.30.3/demos/canvas-rich-text.c
+libgnomecanvas-2.30.3/demos/dash-demo.c
+libgnomecanvas-2.30.3/demos/canvas-primitives.c
+libgnomecanvas-2.30.3/demos/canvas.c
+libgnomecanvas-2.30.3/demos/toroid.png
+libgnomecanvas-2.30.3/demos/canvas-features.c
+libgnomecanvas-2.30.3/demos/canvas-fifteen.c
+libgnomecanvas-2.30.3/demos/canvas_demo.h
+libgnomecanvas-2.30.3/demos/Makefile.in
+libgnomecanvas-2.30.3/README
+libgnomecanvas-2.30.3/config.sub
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.50.2 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.18.1
+checking for XML::Parser... ok
+checking what warning flags to pass to the C compiler... -Wall -Wmissing-prototypes
+checking what language compliance flags to pass to the C compiler... 
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.18... yes
+checking for LIBGNOMECANVAS... yes
+checking for native Win32... no
+checking for Win32 platform in general... no
+checking for mawk... no
+checking for gawk... /bin/gawk
+checking for perl5... no
+checking for perl... /usr/bin/perl
+checking for glib-genmarshal... /usr/bin/glib-genmarshal
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libgnomecanvas-zip
+config.status: creating po/Makefile.in
+config.status: creating libgnomecanvas/Makefile
+config.status: creating libgnomecanvas/libgnomecanvas-2.0.pc
+config.status: creating libgnomecanvas/libgnomecanvas-2.0-uninstalled.pc
+config.status: creating glade/Makefile
+config.status: creating demos/Makefile
+config.status: creating tests/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Configure summary:
+
+	Compiler....................: gcc
+	Compiler Flags..............: -g -O2
+	Prefix .....................: /usr
+
+	Glade support...............: no
+	Rebuilds....................: yes
+	Win32.......................: no
+
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3'
+Making all in libgnomecanvas
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+/usr/bin/glib-genmarshal gnome-canvas-marshal.list --body --prefix=gnome_canvas_marshal > gnome-canvas-marshal.c
+/usr/bin/glib-genmarshal gnome-canvas-marshal.list --header --prefix=gnome_canvas_marshal > gnome-canvas-marshal.h
+make  all-am
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-shape.lo -MD -MP -MF .deps/gnome-canvas-shape.Tpo -c -o gnome-canvas-shape.lo gnome-canvas-shape.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-bpath.lo -MD -MP -MF .deps/gnome-canvas-bpath.Tpo -c -o gnome-canvas-bpath.lo gnome-canvas-bpath.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-path-def.lo -MD -MP -MF .deps/gnome-canvas-path-def.Tpo -c -o gnome-canvas-path-def.lo gnome-canvas-path-def.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-clipgroup.lo -MD -MP -MF .deps/gnome-canvas-clipgroup.Tpo -c -o gnome-canvas-clipgroup.lo gnome-canvas-clipgroup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-clipgroup.lo -MD -MP -MF .deps/gnome-canvas-clipgroup.Tpo -c gnome-canvas-clipgroup.c  -fPIC -DPIC -o .libs/gnome-canvas-clipgroup.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-shape.lo -MD -MP -MF .deps/gnome-canvas-shape.Tpo -c gnome-canvas-shape.c  -fPIC -DPIC -o .libs/gnome-canvas-shape.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-bpath.lo -MD -MP -MF .deps/gnome-canvas-bpath.Tpo -c gnome-canvas-bpath.c  -fPIC -DPIC -o .libs/gnome-canvas-bpath.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-path-def.lo -MD -MP -MF .deps/gnome-canvas-path-def.Tpo -c gnome-canvas-path-def.c  -fPIC -DPIC -o .libs/gnome-canvas-path-def.o
+mv -f .deps/gnome-canvas-bpath.Tpo .deps/gnome-canvas-bpath.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-line.lo -MD -MP -MF .deps/gnome-canvas-line.Tpo -c -o gnome-canvas-line.lo gnome-canvas-line.c
+mv -f .deps/gnome-canvas-path-def.Tpo .deps/gnome-canvas-path-def.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-pixbuf.lo -MD -MP -MF .deps/gnome-canvas-pixbuf.Tpo -c -o gnome-canvas-pixbuf.lo gnome-canvas-pixbuf.c
+mv -f .deps/gnome-canvas-clipgroup.Tpo .deps/gnome-canvas-clipgroup.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-polygon.lo -MD -MP -MF .deps/gnome-canvas-polygon.Tpo -c -o gnome-canvas-polygon.lo gnome-canvas-polygon.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-line.lo -MD -MP -MF .deps/gnome-canvas-line.Tpo -c gnome-canvas-line.c  -fPIC -DPIC -o .libs/gnome-canvas-line.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-pixbuf.lo -MD -MP -MF .deps/gnome-canvas-pixbuf.Tpo -c gnome-canvas-pixbuf.c  -fPIC -DPIC -o .libs/gnome-canvas-pixbuf.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-polygon.lo -MD -MP -MF .deps/gnome-canvas-polygon.Tpo -c gnome-canvas-polygon.c  -fPIC -DPIC -o .libs/gnome-canvas-polygon.o
+mv -f .deps/gnome-canvas-shape.Tpo .deps/gnome-canvas-shape.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-rect-ellipse.lo -MD -MP -MF .deps/gnome-canvas-rect-ellipse.Tpo -c -o gnome-canvas-rect-ellipse.lo gnome-canvas-rect-ellipse.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-rect-ellipse.lo -MD -MP -MF .deps/gnome-canvas-rect-ellipse.Tpo -c gnome-canvas-rect-ellipse.c  -fPIC -DPIC -o .libs/gnome-canvas-rect-ellipse.o
+gnome-canvas-line.c: In function 'gnome_canvas_line_get_property':
+gnome-canvas-line.c:883:3: warning: 'g_value_set_boxed_take_ownership' is deprecated (declared at /usr/include/glib-2.0/gobject/gboxed.h:87): Use 'g_value_take_boxed' instead [-Wdeprecated-declarations]
+   g_value_set_boxed_take_ownership (value, get_points (line));
+   ^
+mv -f .deps/gnome-canvas-polygon.Tpo .deps/gnome-canvas-polygon.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-text.lo -MD -MP -MF .deps/gnome-canvas-text.Tpo -c -o gnome-canvas-text.lo gnome-canvas-text.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-text.lo -MD -MP -MF .deps/gnome-canvas-text.Tpo -c gnome-canvas-text.c  -fPIC -DPIC -o .libs/gnome-canvas-text.o
+mv -f .deps/gnome-canvas-rect-ellipse.Tpo .deps/gnome-canvas-rect-ellipse.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-rich-text.lo -MD -MP -MF .deps/gnome-canvas-rich-text.Tpo -c -o gnome-canvas-rich-text.lo gnome-canvas-rich-text.c
+mv -f .deps/gnome-canvas-line.Tpo .deps/gnome-canvas-line.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-util.lo -MD -MP -MF .deps/gnome-canvas-util.Tpo -c -o gnome-canvas-util.lo gnome-canvas-util.c
+mv -f .deps/gnome-canvas-pixbuf.Tpo .deps/gnome-canvas-pixbuf.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas-widget.lo -MD -MP -MF .deps/gnome-canvas-widget.Tpo -c -o gnome-canvas-widget.lo gnome-canvas-widget.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-rich-text.lo -MD -MP -MF .deps/gnome-canvas-rich-text.Tpo -c gnome-canvas-rich-text.c  -fPIC -DPIC -o .libs/gnome-canvas-rich-text.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-util.lo -MD -MP -MF .deps/gnome-canvas-util.Tpo -c gnome-canvas-util.c  -fPIC -DPIC -o .libs/gnome-canvas-util.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas-widget.lo -MD -MP -MF .deps/gnome-canvas-widget.Tpo -c gnome-canvas-widget.c  -fPIC -DPIC -o .libs/gnome-canvas-widget.o
+gnome-canvas-text.c: In function 'gnome_canvas_text_set_property':
+gnome-canvas-text.c:787:11: warning: 'pango_ft2_get_context' is deprecated (declared at /usr/include/pango-1.0/pango/pangoft2.h:98): Use 'pango_font_map_create_context' instead [-Wdeprecated-declarations]
+           context = pango_ft2_get_context (dpi_x, dpi_y);
+           ^
+mv -f .deps/gnome-canvas-text.Tpo .deps/gnome-canvas-text.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gnome-canvas.lo -MD -MP -MF .deps/gnome-canvas.Tpo -c -o gnome-canvas.lo gnome-canvas.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gnome-canvas.lo -MD -MP -MF .deps/gnome-canvas.Tpo -c gnome-canvas.c  -fPIC -DPIC -o .libs/gnome-canvas.o
+mv -f .deps/gnome-canvas-widget.Tpo .deps/gnome-canvas-widget.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT libgnomecanvastypes.lo -MD -MP -MF .deps/libgnomecanvastypes.Tpo -c -o libgnomecanvastypes.lo libgnomecanvastypes.c
+mv -f .deps/gnome-canvas-util.Tpo .deps/gnome-canvas-util.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvas.lo -MD -MP -MF .deps/gailcanvas.Tpo -c -o gailcanvas.lo gailcanvas.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT libgnomecanvastypes.lo -MD -MP -MF .deps/libgnomecanvastypes.Tpo -c libgnomecanvastypes.c  -fPIC -DPIC -o .libs/libgnomecanvastypes.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvas.lo -MD -MP -MF .deps/gailcanvas.Tpo -c gailcanvas.c  -fPIC -DPIC -o .libs/gailcanvas.o
+mv -f .deps/gnome-canvas-rich-text.Tpo .deps/gnome-canvas-rich-text.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvasitem.lo -MD -MP -MF .deps/gailcanvasitem.Tpo -c -o gailcanvasitem.lo gailcanvasitem.c
+mv -f .deps/libgnomecanvastypes.Tpo .deps/libgnomecanvastypes.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvasgroup.lo -MD -MP -MF .deps/gailcanvasgroup.Tpo -c -o gailcanvasgroup.lo gailcanvasgroup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvasitem.lo -MD -MP -MF .deps/gailcanvasitem.Tpo -c gailcanvasitem.c  -fPIC -DPIC -o .libs/gailcanvasitem.o
+mv -f .deps/gailcanvas.Tpo .deps/gailcanvas.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvaswidget.lo -MD -MP -MF .deps/gailcanvaswidget.Tpo -c -o gailcanvaswidget.lo gailcanvaswidget.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvasgroup.lo -MD -MP -MF .deps/gailcanvasgroup.Tpo -c gailcanvasgroup.c  -fPIC -DPIC -o .libs/gailcanvasgroup.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvaswidget.lo -MD -MP -MF .deps/gailcanvaswidget.Tpo -c gailcanvaswidget.c  -fPIC -DPIC -o .libs/gailcanvaswidget.o
+mv -f .deps/gailcanvasgroup.Tpo .deps/gailcanvasgroup.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvastext.lo -MD -MP -MF .deps/gailcanvastext.Tpo -c -o gailcanvastext.lo gailcanvastext.c
+mv -f .deps/gailcanvasitem.Tpo .deps/gailcanvasitem.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvasitemfactory.lo -MD -MP -MF .deps/gailcanvasitemfactory.Tpo -c -o gailcanvasitemfactory.lo gailcanvasitemfactory.c
+mv -f .deps/gailcanvaswidget.Tpo .deps/gailcanvaswidget.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvasgroupfactory.lo -MD -MP -MF .deps/gailcanvasgroupfactory.Tpo -c -o gailcanvasgroupfactory.lo gailcanvasgroupfactory.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvastext.lo -MD -MP -MF .deps/gailcanvastext.Tpo -c gailcanvastext.c  -fPIC -DPIC -o .libs/gailcanvastext.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvasitemfactory.lo -MD -MP -MF .deps/gailcanvasitemfactory.Tpo -c gailcanvasitemfactory.c  -fPIC -DPIC -o .libs/gailcanvasitemfactory.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvasgroupfactory.lo -MD -MP -MF .deps/gailcanvasgroupfactory.Tpo -c gailcanvasgroupfactory.c  -fPIC -DPIC -o .libs/gailcanvasgroupfactory.o
+mv -f .deps/gnome-canvas.Tpo .deps/gnome-canvas.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvaswidgetfactory.lo -MD -MP -MF .deps/gailcanvaswidgetfactory.Tpo -c -o gailcanvaswidgetfactory.lo gailcanvaswidgetfactory.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvaswidgetfactory.lo -MD -MP -MF .deps/gailcanvaswidgetfactory.Tpo -c gailcanvaswidgetfactory.c  -fPIC -DPIC -o .libs/gailcanvaswidgetfactory.o
+mv -f .deps/gailcanvasitemfactory.Tpo .deps/gailcanvasitemfactory.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0    -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT gailcanvastextfactory.lo -MD -MP -MF .deps/gailcanvastextfactory.Tpo -c -o gailcanvastextfactory.lo gailcanvastextfactory.c
+mv -f .deps/gailcanvasgroupfactory.Tpo .deps/gailcanvasgroupfactory.Plo
+mv -f .deps/gailcanvastext.Tpo .deps/gailcanvastext.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0 -DGNOMECANVASLIBDIR=\"/usr/lib\" -DGNOMECANVASDATADIR=\"/usr/share\" -DGNOMECANVASPIXMAPDIR=\"/usr/share/pixmaps\" -DGNOMECANVASBINDIR=\"/usr/bin\" -DGNOMECANVASLOCALSTATEDIR=\"/var/lib\" -DG_LOG_DOMAIN=\"GnomeCanvas\" -g -O2 -MT gailcanvastextfactory.lo -MD -MP -MF .deps/gailcanvastextfactory.Tpo -c gailcanvastextfactory.c  -fPIC -DPIC -o .libs/gailcanvastextfactory.o
+mv -f .deps/gailcanvaswidgetfactory.Tpo .deps/gailcanvaswidgetfactory.Plo
+mv -f .deps/gailcanvastextfactory.Tpo .deps/gailcanvastextfactory.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2  -version-info 3000:3:3000   -o libgnomecanvas-2.la -rpath /usr/lib gnome-canvas-shape.lo gnome-canvas-bpath.lo gnome-canvas-path-def.lo gnome-canvas-clipgroup.lo gnome-canvas-line.lo gnome-canvas-pixbuf.lo gnome-canvas-polygon.lo gnome-canvas-rect-ellipse.lo gnome-canvas-text.lo gnome-canvas-rich-text.lo gnome-canvas-util.lo gnome-canvas-widget.lo gnome-canvas.lo libgnomecanvastypes.lo gailcanvas.lo gailcanvasitem.lo gailcanvasgroup.lo gailcanvaswidget.lo gailcanvastext.lo gailcanvasitemfactory.lo gailcanvasgroupfactory.lo gailcanvaswidgetfactory.lo gailcanvastextfactory.lo  -lgailutil -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lart_lgpl_2 -lpangoft2-1.0 -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0   -lm 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/gnome-canvas-shape.o .libs/gnome-canvas-bpath.o .libs/gnome-canvas-path-def.o .libs/gnome-canvas-clipgroup.o .libs/gnome-canvas-line.o .libs/gnome-canvas-pixbuf.o .libs/gnome-canvas-polygon.o .libs/gnome-canvas-rect-ellipse.o .libs/gnome-canvas-text.o .libs/gnome-canvas-rich-text.o .libs/gnome-canvas-util.o .libs/gnome-canvas-widget.o .libs/gnome-canvas.o .libs/libgnomecanvastypes.o .libs/gailcanvas.o .libs/gailcanvasitem.o .libs/gailcanvasgroup.o .libs/gailcanvaswidget.o .libs/gailcanvastext.o .libs/gailcanvasitemfactory.o .libs/gailcanvasgroupfactory.o .libs/gailcanvaswidgetfactory.o .libs/gailcanvastextfactory.o   /usr/lib/libgailutil.so -L/usr/lib /usr/lib/libXinerama.so /usr/lib/libXi.so /usr/lib/libXrandr.so /usr/lib/libXcursor.so /usr/lib/libXcomposite.so /usr/lib/libgtk-x11-2.0.so /usr/lib/libgdk-x11-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libharfbuzz.so -licule -licuuc -licudata /usr/lib/libstdc++.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so -lresolv /usr/lib/libcairo.so /usr/lib/libpixman-1.so /usr/lib/libEGL.so /usr/lib/libxcb-xfixes.so /usr/lib/libxcb-shape.so /usr/lib/libudev.so /usr/lib/libxcb-shm.so /usr/lib/libxcb-render.so /usr/lib/libXrender.so /usr/lib/libGL.so /usr/lib/libglapi.so /usr/lib/libXdamage.so /usr/lib/libXfixes.so /usr/lib/libX11-xcb.so /usr/lib/libxcb-glx.so /usr/lib/libxcb-dri2.so /usr/lib/libXxf86vm.so /usr/lib/libXext.so /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so /usr/lib/libdrm.so -lrt /usr/lib/libart_lgpl_2.so /usr/lib/libpangoft2-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libgmodule-2.0.so -ldl /usr/lib/libgthread-2.0.so /usr/lib/libpng14.so /usr/lib/libfontconfig.so /usr/lib/libfreetype.so -lz -lbz2 /usr/lib/libexpat.so /usr/lib/libgobject-2.0.so /usr/lib/libffi.so /usr/lib/libglib-2.0.so -lpthread -lm  -O2   -pthread -Wl,-soname -Wl,libgnomecanvas-2.so.0 -o .libs/libgnomecanvas-2.so.0.3000.3
+libtool: link: (cd ".libs" && rm -f "libgnomecanvas-2.so.0" && ln -s "libgnomecanvas-2.so.0.3000.3" "libgnomecanvas-2.so.0")
+libtool: link: (cd ".libs" && rm -f "libgnomecanvas-2.so" && ln -s "libgnomecanvas-2.so.0.3000.3" "libgnomecanvas-2.so")
+libtool: link: ( cd ".libs" && rm -f "libgnomecanvas-2.la" && ln -s "../libgnomecanvas-2.la" "libgnomecanvas-2.la" )
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+Making all in glade
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/glade'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/glade'
+Making all in demos
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/demos'
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0   -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DGTK_VERSION=\"""\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT canvas.o -MD -MP -MF .deps/canvas.Tpo -c -o canvas.o canvas.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0   -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DGTK_VERSION=\"""\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT canvas-primitives.o -MD -MP -MF .deps/canvas-primitives.Tpo -c -o canvas-primitives.o canvas-primitives.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0   -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DGTK_VERSION=\"""\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT canvas-arrowhead.o -MD -MP -MF .deps/canvas-arrowhead.Tpo -c -o canvas-arrowhead.o canvas-arrowhead.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0   -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DGTK_VERSION=\"""\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT canvas-features.o -MD -MP -MF .deps/canvas-features.Tpo -c -o canvas-features.o canvas-features.c
+mv -f .deps/canvas.Tpo .deps/canvas.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0   -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DGTK_VERSION=\"""\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT canvas-fifteen.o -MD -MP -MF .deps/canvas-fifteen.Tpo -c -o canvas-fifteen.o canvas-fifteen.c
+mv -f .deps/canvas-features.Tpo .deps/canvas-features.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0   -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DGTK_VERSION=\"""\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT canvas-rich-text.o -MD -MP -MF .deps/canvas-rich-text.Tpo -c -o canvas-rich-text.o canvas-rich-text.c
+mv -f .deps/canvas-arrowhead.Tpo .deps/canvas-arrowhead.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0   -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DGTK_VERSION=\"""\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT canvas-curve.o -MD -MP -MF .deps/canvas-curve.Tpo -c -o canvas-curve.o canvas-curve.c
+mv -f .deps/canvas-primitives.Tpo .deps/canvas-primitives.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/gail-1.0 -I/usr/include/libart-2.0   -DGNOMECANVASLIBDIR=\""/usr/lib"\" -DGNOMECANVASDATADIR=\""/usr/share"\" -DGNOMECANVASPIXMAPDIR=\""/usr/share/pixmaps"\" -DGNOMECANVASBINDIR=\""/usr/bin"\" -DGNOMECANVASLOCALSTATEDIR=\""/var/lib"\" -DGTK_VERSION=\"""\" -DG_LOG_DOMAIN=\"GnomeCanvas\"    -g -O2 -MT dash-demo.o -MD -MP -MF .deps/dash-demo.Tpo -c -o dash-demo.o dash-demo.c
+mv -f .deps/canvas-rich-text.Tpo .deps/canvas-rich-text.Po
+mv -f .deps/canvas-fifteen.Tpo .deps/canvas-fifteen.Po
+dash-demo.c: In function ‘main’:
+dash-demo.c:36:19: warning: variable ‘ellipsis’ set but not used [-Wunused-but-set-variable]
+  GnomeCanvasItem* ellipsis;
+                   ^
+mv -f .deps/dash-demo.Tpo .deps/dash-demo.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2   -o dash-demo dash-demo.o ../libgnomecanvas/libgnomecanvas-2.la  
+mv -f .deps/canvas-curve.Tpo .deps/canvas-curve.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2   -o canvas_demo canvas.o canvas-primitives.o canvas-arrowhead.o canvas-features.o canvas-fifteen.o canvas-rich-text.o canvas-curve.o ../libgnomecanvas/libgnomecanvas-2.la  
+libtool: link: gcc -g -O2 -o .libs/canvas_demo canvas.o canvas-primitives.o canvas-arrowhead.o canvas-features.o canvas-fifteen.o canvas-rich-text.o canvas-curve.o  ../libgnomecanvas/.libs/libgnomecanvas-2.so -L/usr/lib /usr/lib/libgailutil.so /usr/lib/libXinerama.so /usr/lib/libXi.so /usr/lib/libXrandr.so /usr/lib/libXcursor.so /usr/lib/libXcomposite.so /usr/lib/libgtk-x11-2.0.so /usr/lib/libgdk-x11-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libharfbuzz.so -licule -licuuc -licudata /usr/lib/libstdc++.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so -lresolv /usr/lib/libcairo.so /usr/lib/libpixman-1.so /usr/lib/libEGL.so /usr/lib/libxcb-xfixes.so /usr/lib/libxcb-shape.so /usr/lib/libudev.so /usr/lib/libxcb-shm.so /usr/lib/libxcb-render.so /usr/lib/libXrender.so /usr/lib/libGL.so /usr/lib/libglapi.so /usr/lib/libXdamage.so /usr/lib/libXfixes.so /usr/lib/libX11-xcb.so /usr/lib/libxcb-glx.so /usr/lib/libxcb-dri2.so /usr/lib/libXxf86vm.so /usr/lib/libXext.so /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so /usr/lib/libdrm.so -lrt /usr/lib/libart_lgpl_2.so /usr/lib/libpangoft2-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libgmodule-2.0.so -ldl /usr/lib/libgthread-2.0.so /usr/lib/libfontconfig.so /usr/lib/libfreetype.so /usr/lib/libpng14.so -lz -lbz2 /usr/lib/libexpat.so /usr/lib/libgobject-2.0.so /usr/lib/libffi.so /usr/lib/libglib-2.0.so -lpthread -lm -pthread
+libtool: link: gcc -g -O2 -o .libs/dash-demo dash-demo.o  ../libgnomecanvas/.libs/libgnomecanvas-2.so -L/usr/lib /usr/lib/libgailutil.so /usr/lib/libXinerama.so /usr/lib/libXi.so /usr/lib/libXrandr.so /usr/lib/libXcursor.so /usr/lib/libXcomposite.so /usr/lib/libgtk-x11-2.0.so /usr/lib/libgdk-x11-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libharfbuzz.so -licule -licuuc -licudata /usr/lib/libstdc++.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so -lresolv /usr/lib/libcairo.so /usr/lib/libpixman-1.so /usr/lib/libEGL.so /usr/lib/libxcb-xfixes.so /usr/lib/libxcb-shape.so /usr/lib/libudev.so /usr/lib/libxcb-shm.so /usr/lib/libxcb-render.so /usr/lib/libXrender.so /usr/lib/libGL.so /usr/lib/libglapi.so /usr/lib/libXdamage.so /usr/lib/libXfixes.so /usr/lib/libX11-xcb.so /usr/lib/libxcb-glx.so /usr/lib/libxcb-dri2.so /usr/lib/libXxf86vm.so /usr/lib/libXext.so /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so /usr/lib/libdrm.so -lrt /usr/lib/libart_lgpl_2.so /usr/lib/libpangoft2-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libgmodule-2.0.so -ldl /usr/lib/libgthread-2.0.so /usr/lib/libfontconfig.so /usr/lib/libfreetype.so /usr/lib/libpng14.so -lz -lbz2 /usr/lib/libexpat.so /usr/lib/libgobject-2.0.so /usr/lib/libffi.so /usr/lib/libglib-2.0.so -lpthread -lm -pthread
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/demos'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/po'
+file=`echo am | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file am.po
+file=`echo ang | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ang.po
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo as | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file as.po
+file=`echo ast | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ast.po
+file=`echo az | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file az.po
+file=`echo be | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file be.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo bn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bn.po
+file=`echo bn_IN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bn_IN.po
+file=`echo br | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file br.po
+file=`echo bs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bs.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo ca@valencia | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca@valencia.po
+file=`echo crh | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file crh.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo cy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cy.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo dz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file dz.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_CA | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_CA.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo en@shaw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en@shaw.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eo.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo et | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file et.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fa.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo ga | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ga.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gu.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file he.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hi.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hr.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo is | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file is.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo kn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file kn.po
+file=`echo ka | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ka.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo ku | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ku.po
+file=`echo li | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file li.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo lv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lv.po
+file=`echo mai | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mai.po
+file=`echo mg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mg.po
+file=`echo mk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mk.po
+file=`echo ml | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ml.po
+file=`echo mn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mn.po
+file=`echo mr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mr.po
+file=`echo ms | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ms.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo ne | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ne.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo nn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nn.po
+file=`echo oc | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file oc.po
+file=`echo or | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file or.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pa.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sr@latin | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr@latin.po
+file=`echo sr@ije | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr@ije.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo ta | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ta.po
+file=`echo te | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file te.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo ug | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ug.po
+file=`echo tt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tt.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo wa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file wa.po
+file=`echo xh | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file xh.po
+file=`echo yi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file yi.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_HK | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_HK.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/po'
+Making all in docs
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+Making all in reference
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs/reference'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs/reference'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3'
+Making install in libgnomecanvas
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+make  install-am
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+test -z "/usr/lib" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   libgnomecanvas-2.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/libgnomecanvas-2.so.0.3000.3 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib/libgnomecanvas-2.so.0.3000.3
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib && { ln -s -f libgnomecanvas-2.so.0.3000.3 libgnomecanvas-2.so.0 || { rm -f libgnomecanvas-2.so.0 && ln -s libgnomecanvas-2.so.0.3000.3 libgnomecanvas-2.so.0; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib && { ln -s -f libgnomecanvas-2.so.0.3000.3 libgnomecanvas-2.so || { rm -f libgnomecanvas-2.so && ln -s libgnomecanvas-2.so.0.3000.3 libgnomecanvas-2.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libgnomecanvas-2.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib/libgnomecanvas-2.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/libgnomecanvas-2.0/libgnomecanvas" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas"
+ /usr/bin/ginstall -c -m 644 gnome-canvas-shape.h gnome-canvas-bpath.h gnome-canvas-clipgroup.h gnome-canvas-line.h gnome-canvas-pixbuf.h gnome-canvas-polygon.h gnome-canvas-rect-ellipse.h gnome-canvas-text.h gnome-canvas-rich-text.h gnome-canvas-util.h gnome-canvas-widget.h gnome-canvas-path-def.h gnome-canvas.h libgnomecanvas.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas'
+test -z "/usr/lib/pkgconfig" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 libgnomecanvas-2.0.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib/pkgconfig'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/libgnomecanvas'
+Making install in glade
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/glade'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/glade'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/lib/libglade/2.0" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/lib/libglade/2.0"
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/glade'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/glade'
+Making install in demos
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/demos'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/demos'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/demos'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/demos'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/po'
+linguas="am ang ar as ast az be bg bn bn_IN br bs ca ca@valencia crh cs cy da de dz el en_CA en_GB en@shaw eo es et eu fa fi fr ga gl gu he hi hr hu id is it ja kn ka ko ku li lt lv mai mg mk ml mn mr ms nb ne nl nn oc or pa pl pt pt_BR ro ru rw sk sl sq sr sr@latin sr@ije sv ta te th tr ug tt uk vi wa xh yi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo $dir/libgnomecanvas-2.0.mo; \
+    echo "installing $lang.gmo as $dir/libgnomecanvas-2.0.mo"; \
+  else \
+    /usr/bin/ginstall -c -m 644 ./$lang.gmo $dir/libgnomecanvas-2.0.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/libgnomecanvas-2.0.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo.m $dir/libgnomecanvas-2.0.mo.m; \
+    echo "installing $lang.gmo.m as $dir/libgnomecanvas-2.0.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/ginstall -c -m 644 ./$lang.gmo.m \
+	$dir/libgnomecanvas-2.0.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/libgnomecanvas-2.0.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing am.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/am/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ang.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ang/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ar.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ar/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing as.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/as/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ast.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ast/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing az.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/az/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing be.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/be/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing bg.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/bg/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing bn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/bn/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing bn_IN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/bn_IN/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing br.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/br/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing bs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/bs/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ca.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ca/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ca@valencia.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ca@valencia/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing crh.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/crh/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/cs/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing cy.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/cy/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing da.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/da/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/de/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing dz.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/dz/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing el.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/el/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing en_CA.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/en_CA/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing en_GB.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/en_GB/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing en@shaw.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/en@shaw/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing eo.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/eo/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/es/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing et.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/et/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing eu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/eu/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing fa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/fa/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing fi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/fi/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/fr/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ga.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ga/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing gl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/gl/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing gu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/gu/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing he.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/he/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing hi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/hi/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing hr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/hr/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/hu/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing id.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/id/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing is.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/is/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/it/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ja/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing kn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/kn/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ka.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ka/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ko.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ko/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ku.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ku/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing li.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/li/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing lt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/lt/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing lv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/lv/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing mai.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/mai/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing mg.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/mg/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing mk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/mk/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ml.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ml/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing mn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/mn/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing mr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/mr/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ms.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ms/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing nb.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/nb/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ne.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ne/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/nl/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing nn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/nn/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing oc.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/oc/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing or.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/or/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing pa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/pa/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/pl/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing pt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/pt/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/pt_BR/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ro.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ro/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ru/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing rw.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/rw/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing sk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/sk/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing sl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/sl/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing sq.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/sq/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing sr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/sr/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing sr@latin.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/sr@latin/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing sr@ije.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/sr@ije/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing sv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/sv/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ta.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ta/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing te.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/te/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing th.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/th/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing tr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/tr/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing ug.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/ug/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing tt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/tt/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing uk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/uk/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing vi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/vi/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing wa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/wa/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing xh.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/xh/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing yi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/yi/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing zh_CN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/zh_CN/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing zh_HK.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/zh_HK/LC_MESSAGES/libgnomecanvas-2.0.mo
+installing zh_TW.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/locale/zh_TW/LC_MESSAGES/libgnomecanvas-2.0.mo
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/po'
+Making install in docs
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+Making install in reference
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs/reference'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs/reference'
+make[3]: Nothing to be done for `install-exec-am'.
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/gtk-doc
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/gtk-doc/html
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas
+-- Installing ./html/ch01.html
+-- Installing ./html/ch02.html
+-- Installing ./html/GnomeCanvasBpath.html
+-- Installing ./html/GnomeCanvasClipgroup.html
+-- Installing ./html/GnomeCanvasEllipse.html
+-- Installing ./html/GnomeCanvasGroup.html
+-- Installing ./html/GnomeCanvas.html
+-- Installing ./html/GnomeCanvasItem.html
+-- Installing ./html/GnomeCanvasLine.html
+-- Installing ./html/GnomeCanvasPixbuf.html
+-- Installing ./html/GnomeCanvasPolygon.html
+-- Installing ./html/GnomeCanvasRect.html
+-- Installing ./html/GnomeCanvasRE.html
+-- Installing ./html/GnomeCanvasRichText.html
+-- Installing ./html/GnomeCanvasShape.html
+-- Installing ./html/GnomeCanvasWidget.html
+-- Installing ./html/home.png
+-- Installing ./html/index.html
+-- Installing ./html/index.sgml
+-- Installing ./html/left.png
+-- Installing ./html/libgnomecanvas.devhelp
+-- Installing ./html/libgnomecanvas.devhelp2
+-- Installing ./html/libgnomecanvas-gnome-canvas-path-def.html
+-- Installing ./html/libgnomecanvas-gnome-canvas-text.html
+-- Installing ./html/libgnomecanvas-gnome-canvas-util.html
+-- Installing ./html/right.png
+-- Installing ./html/style.css
+-- Installing ./html/up.png
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs/reference'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs/reference'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3/docs'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas/libgnomecanvas-2.30.3'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecanvas
+Found 'i686'
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-bpath.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-clipgroup.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-line.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-path-def.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-pixbuf.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-polygon.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-rect-ellipse.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-rich-text.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-shape.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-text.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-util.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/gnome-canvas-widget.h
+Processing ../libgnomecanvas-install/usr/include/libgnomecanvas-2.0/libgnomecanvas/libgnomecanvas.h
+Processing ../libgnomecanvas-install/usr/lib/libglade/2.0
+Processing ../libgnomecanvas-install/usr/lib/libgnomecanvas-2.la
+Processing ../libgnomecanvas-install/usr/lib/libgnomecanvas-2.so
+Processing ../libgnomecanvas-install/usr/lib/libgnomecanvas-2.so.0
+Processing ../libgnomecanvas-install/usr/lib/libgnomecanvas-2.so.0.3000.3
+Processing ../libgnomecanvas-install/usr/lib/pkgconfig/libgnomecanvas-2.0.pc
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/ch01.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/ch02.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasBpath.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasClipgroup.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasEllipse.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasGroup.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvas.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasItem.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasLine.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasPixbuf.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasPolygon.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasRect.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasRE.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasRichText.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasShape.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasWidget.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/home.png
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/index.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/index.sgml
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/left.png
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/libgnomecanvas.devhelp
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/libgnomecanvas.devhelp2
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/libgnomecanvas-gnome-canvas-path-def.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/libgnomecanvas-gnome-canvas-text.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/libgnomecanvas-gnome-canvas-util.html
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/right.png
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/style.css
+Processing ../libgnomecanvas-install/usr/share/gtk-doc/html/libgnomecanvas/up.png
+Processing ../libgnomecanvas-install/usr/share/locale/am/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ang/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ar/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/as/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ast/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/az/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/be/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/bg/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/bn_IN/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/bn/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/br/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/bs/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ca/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ca@valencia/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/crh/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/cs/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/cy/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/da/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/de/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/dz/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/el/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/en_CA/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/en_GB/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/en@shaw/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/eo/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/es/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/et/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/eu/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/fa/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/fi/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/fr/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ga/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/gl/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/gu/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/he/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/hi/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/hr/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/hu/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/id/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/is/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/it/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ja/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ka/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/kn/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ko/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ku/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/li/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/lt/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/lv/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/mai/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/mg/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/mk/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ml/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/mn/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/mr/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ms/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/nb/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ne/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/nl/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/nn/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/oc/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/or/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/pa/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/pl/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/pt_BR/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/pt/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ro/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ru/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/rw/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/sk/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/sl/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/sq/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/sr@ije/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/sr@latin/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/sr/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/sv/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ta/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/te/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/th/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/tr/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/tt/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/ug/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/uk/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/vi/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/wa/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/xh/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/yi/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/zh_CN/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/zh_HK/LC_MESSAGES/libgnomecanvas-2.0.mo
+Processing ../libgnomecanvas-install/usr/share/locale/zh_TW/LC_MESSAGES/libgnomecanvas-2.0.mo
+all done
+packaging libgnomecanvas-2.30.3-i686_slk600
+packaging libgnomecanvas_DEV-2.30.3-i686_slk600
+packaging libgnomecanvas_DOC-2.30.3-i686_slk600
+packaging libgnomecanvas_NLS-2.30.3-i686_slk600
+done!

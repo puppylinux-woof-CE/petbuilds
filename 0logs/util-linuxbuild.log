@@ -1,0 +1,2953 @@
+util-linux-2.24.2/
+util-linux-2.24.2/mount-deprecated/
+util-linux-2.24.2/mount-deprecated/mount_constants.h
+util-linux-2.24.2/mount-deprecated/fsprobe.h
+util-linux-2.24.2/mount-deprecated/umount.8
+util-linux-2.24.2/mount-deprecated/sundries.h
+util-linux-2.24.2/mount-deprecated/mount.8
+util-linux-2.24.2/mount-deprecated/mount_mntent.c
+util-linux-2.24.2/mount-deprecated/fstab.h
+util-linux-2.24.2/mount-deprecated/mount.c
+util-linux-2.24.2/mount-deprecated/umount.c
+util-linux-2.24.2/mount-deprecated/fstab.c
+util-linux-2.24.2/mount-deprecated/mount_mntent.h
+util-linux-2.24.2/mount-deprecated/getusername.h
+util-linux-2.24.2/mount-deprecated/sundries.c
+util-linux-2.24.2/mount-deprecated/devname.c
+util-linux-2.24.2/mount-deprecated/getusername.c
+util-linux-2.24.2/mount-deprecated/devname.h
+util-linux-2.24.2/mount-deprecated/Makemodule.am
+util-linux-2.24.2/mount-deprecated/fsprobe.c
+util-linux-2.24.2/Makefile.in
+util-linux-2.24.2/term-utils/
+util-linux-2.24.2/term-utils/write.1
+util-linux-2.24.2/term-utils/wall.1
+util-linux-2.24.2/term-utils/reset.1
+util-linux-2.24.2/term-utils/script.1
+util-linux-2.24.2/term-utils/scriptreplay.c
+util-linux-2.24.2/term-utils/ttymsg.h
+util-linux-2.24.2/term-utils/setterm.1
+util-linux-2.24.2/term-utils/write.c
+util-linux-2.24.2/term-utils/reset.033c
+util-linux-2.24.2/term-utils/mesg.1
+util-linux-2.24.2/term-utils/mesg.c
+util-linux-2.24.2/term-utils/wall.c
+util-linux-2.24.2/term-utils/ttymsg.c
+util-linux-2.24.2/term-utils/setterm.c
+util-linux-2.24.2/term-utils/agetty.8
+util-linux-2.24.2/term-utils/reset
+util-linux-2.24.2/term-utils/script.c
+util-linux-2.24.2/term-utils/scriptreplay.1
+util-linux-2.24.2/term-utils/Makemodule.am
+util-linux-2.24.2/term-utils/agetty.c
+util-linux-2.24.2/text-utils/
+util-linux-2.24.2/text-utils/column.1
+util-linux-2.24.2/text-utils/conv.c
+util-linux-2.24.2/text-utils/tailf.1
+util-linux-2.24.2/text-utils/ul.c
+util-linux-2.24.2/text-utils/more.c
+util-linux-2.24.2/text-utils/hexdump.c
+util-linux-2.24.2/text-utils/colcrt.c
+util-linux-2.24.2/text-utils/pg.c
+util-linux-2.24.2/text-utils/col.c
+util-linux-2.24.2/text-utils/more.1
+util-linux-2.24.2/text-utils/colrm.c
+util-linux-2.24.2/text-utils/display.c
+util-linux-2.24.2/text-utils/hexdump.1
+util-linux-2.24.2/text-utils/pg.1
+util-linux-2.24.2/text-utils/ul.1
+util-linux-2.24.2/text-utils/column.c
+util-linux-2.24.2/text-utils/tailf.c
+util-linux-2.24.2/text-utils/rev.c
+util-linux-2.24.2/text-utils/parse.c
+util-linux-2.24.2/text-utils/rev.1
+util-linux-2.24.2/text-utils/colcrt.1
+util-linux-2.24.2/text-utils/colrm.1
+util-linux-2.24.2/text-utils/line.c
+util-linux-2.24.2/text-utils/line.1
+util-linux-2.24.2/text-utils/hexsyntax.c
+util-linux-2.24.2/text-utils/col.1
+util-linux-2.24.2/text-utils/Makemodule.am
+util-linux-2.24.2/text-utils/hexdump.h
+util-linux-2.24.2/AUTHORS
+util-linux-2.24.2/disk-utils/
+util-linux-2.24.2/disk-utils/raw.c
+util-linux-2.24.2/disk-utils/blockdev.c
+util-linux-2.24.2/disk-utils/fsck.minix.8
+util-linux-2.24.2/disk-utils/mkfs.bfs.c
+util-linux-2.24.2/disk-utils/fdformat.c
+util-linux-2.24.2/disk-utils/mkfs.minix.8
+util-linux-2.24.2/disk-utils/swaplabel.c
+util-linux-2.24.2/disk-utils/fsck.minix.c
+util-linux-2.24.2/disk-utils/fsck.cramfs.c
+util-linux-2.24.2/disk-utils/mkfs.bfs.8
+util-linux-2.24.2/disk-utils/mkswap.c
+util-linux-2.24.2/disk-utils/isosize.c
+util-linux-2.24.2/disk-utils/mkfs.cramfs.c
+util-linux-2.24.2/disk-utils/mkfs.c
+util-linux-2.24.2/disk-utils/mkfs.cramfs.8
+util-linux-2.24.2/disk-utils/isosize.8
+util-linux-2.24.2/disk-utils/addpart.8
+util-linux-2.24.2/disk-utils/mkfs.minix.c
+util-linux-2.24.2/disk-utils/raw.8
+util-linux-2.24.2/disk-utils/blockdev.8
+util-linux-2.24.2/disk-utils/partx.8
+util-linux-2.24.2/disk-utils/mkfs.8
+util-linux-2.24.2/disk-utils/resizepart.8
+util-linux-2.24.2/disk-utils/delpart.8
+util-linux-2.24.2/disk-utils/minix_programs.h
+util-linux-2.24.2/disk-utils/fsck.cramfs.8
+util-linux-2.24.2/disk-utils/partx.c
+util-linux-2.24.2/disk-utils/mkswap.8
+util-linux-2.24.2/disk-utils/addpart.c
+util-linux-2.24.2/disk-utils/fdformat.8
+util-linux-2.24.2/disk-utils/fsck.8
+util-linux-2.24.2/disk-utils/fsck.c
+util-linux-2.24.2/disk-utils/partx.h
+util-linux-2.24.2/disk-utils/delpart.c
+util-linux-2.24.2/disk-utils/Makemodule.am
+util-linux-2.24.2/disk-utils/resizepart.c
+util-linux-2.24.2/disk-utils/swaplabel.8
+util-linux-2.24.2/disk-utils/cramfs.h
+util-linux-2.24.2/disk-utils/cramfs_common.c
+util-linux-2.24.2/po/
+util-linux-2.24.2/po/da.po
+util-linux-2.24.2/po/es.gmo
+util-linux-2.24.2/po/ru.gmo
+util-linux-2.24.2/po/ca.gmo
+util-linux-2.24.2/po/Makefile.in.in
+util-linux-2.24.2/po/tr.po
+util-linux-2.24.2/po/sv.po
+util-linux-2.24.2/po/uk.gmo
+util-linux-2.24.2/po/pl.gmo
+util-linux-2.24.2/po/nl.gmo
+util-linux-2.24.2/po/de.po
+util-linux-2.24.2/po/stamp-po
+util-linux-2.24.2/po/sl.po
+util-linux-2.24.2/po/uk.po
+util-linux-2.24.2/po/ca.po
+util-linux-2.24.2/po/util-linux.pot
+util-linux-2.24.2/po/zh_CN.po
+util-linux-2.24.2/po/en@quot.header
+util-linux-2.24.2/po/fi.po
+util-linux-2.24.2/po/hu.po
+util-linux-2.24.2/po/it.po
+util-linux-2.24.2/po/eu.gmo
+util-linux-2.24.2/po/update-potfiles
+util-linux-2.24.2/po/nl.po
+util-linux-2.24.2/po/Rules-quot
+util-linux-2.24.2/po/sl.gmo
+util-linux-2.24.2/po/POTFILES.in
+util-linux-2.24.2/po/vi.po
+util-linux-2.24.2/po/tr.gmo
+util-linux-2.24.2/po/ru.po
+util-linux-2.24.2/po/pt_BR.po
+util-linux-2.24.2/po/ja.po
+util-linux-2.24.2/po/sv.gmo
+util-linux-2.24.2/po/pt_BR.gmo
+util-linux-2.24.2/po/zh_TW.gmo
+util-linux-2.24.2/po/hr.po
+util-linux-2.24.2/po/Makevars
+util-linux-2.24.2/po/fi.gmo
+util-linux-2.24.2/po/cs.gmo
+util-linux-2.24.2/po/boldquot.sed
+util-linux-2.24.2/po/pl.po
+util-linux-2.24.2/po/de.gmo
+util-linux-2.24.2/po/zh_TW.po
+util-linux-2.24.2/po/zh_CN.gmo
+util-linux-2.24.2/po/fr.po
+util-linux-2.24.2/po/id.gmo
+util-linux-2.24.2/po/id.po
+util-linux-2.24.2/po/et.po
+util-linux-2.24.2/po/hr.gmo
+util-linux-2.24.2/po/gl.gmo
+util-linux-2.24.2/po/insert-header.sin
+util-linux-2.24.2/po/hu.gmo
+util-linux-2.24.2/po/fr.gmo
+util-linux-2.24.2/po/es.po
+util-linux-2.24.2/po/remove-potcdate.sin
+util-linux-2.24.2/po/et.gmo
+util-linux-2.24.2/po/ja.gmo
+util-linux-2.24.2/po/da.gmo
+util-linux-2.24.2/po/quot.sed
+util-linux-2.24.2/po/it.gmo
+util-linux-2.24.2/po/gl.po
+util-linux-2.24.2/po/vi.gmo
+util-linux-2.24.2/po/eu.po
+util-linux-2.24.2/po/cs.po
+util-linux-2.24.2/po/en@boldquot.header
+util-linux-2.24.2/.tarball-version
+util-linux-2.24.2/COPYING
+util-linux-2.24.2/schedutils/
+util-linux-2.24.2/schedutils/ionice.1
+util-linux-2.24.2/schedutils/chrt.c
+util-linux-2.24.2/schedutils/chrt.1
+util-linux-2.24.2/schedutils/taskset.1
+util-linux-2.24.2/schedutils/ionice.c
+util-linux-2.24.2/schedutils/Makemodule.am
+util-linux-2.24.2/schedutils/taskset.c
+util-linux-2.24.2/autogen.sh
+util-linux-2.24.2/ChangeLog
+util-linux-2.24.2/bash-completion/
+util-linux-2.24.2/bash-completion/wdctl
+util-linux-2.24.2/bash-completion/mkfs.bfs
+util-linux-2.24.2/bash-completion/fallocate
+util-linux-2.24.2/bash-completion/raw
+util-linux-2.24.2/bash-completion/whereis
+util-linux-2.24.2/bash-completion/chcpu
+util-linux-2.24.2/bash-completion/write
+util-linux-2.24.2/bash-completion/fdformat
+util-linux-2.24.2/bash-completion/fsck
+util-linux-2.24.2/bash-completion/uuidd
+util-linux-2.24.2/bash-completion/cfdisk
+util-linux-2.24.2/bash-completion/colcrt
+util-linux-2.24.2/bash-completion/column
+util-linux-2.24.2/bash-completion/fsck.minix
+util-linux-2.24.2/bash-completion/prlimit
+util-linux-2.24.2/bash-completion/logger
+util-linux-2.24.2/bash-completion/wall
+util-linux-2.24.2/bash-completion/look
+util-linux-2.24.2/bash-completion/rename
+util-linux-2.24.2/bash-completion/findmnt
+util-linux-2.24.2/bash-completion/eject
+util-linux-2.24.2/bash-completion/rtcwake
+util-linux-2.24.2/bash-completion/cytune
+util-linux-2.24.2/bash-completion/colrm
+util-linux-2.24.2/bash-completion/ipcrm
+util-linux-2.24.2/bash-completion/more
+util-linux-2.24.2/bash-completion/namei
+util-linux-2.24.2/bash-completion/sfdisk
+util-linux-2.24.2/bash-completion/nsenter
+util-linux-2.24.2/bash-completion/setterm
+util-linux-2.24.2/bash-completion/mcookie
+util-linux-2.24.2/bash-completion/mkfs.minix
+util-linux-2.24.2/bash-completion/mkfs.cramfs
+util-linux-2.24.2/bash-completion/last
+util-linux-2.24.2/bash-completion/wipefs
+util-linux-2.24.2/bash-completion/resizepart
+util-linux-2.24.2/bash-completion/ionice
+util-linux-2.24.2/bash-completion/readprofile
+util-linux-2.24.2/bash-completion/blockdev
+util-linux-2.24.2/bash-completion/swapon
+util-linux-2.24.2/bash-completion/chrt
+util-linux-2.24.2/bash-completion/lslocks
+util-linux-2.24.2/bash-completion/col
+util-linux-2.24.2/bash-completion/dmesg
+util-linux-2.24.2/bash-completion/mountpoint
+util-linux-2.24.2/bash-completion/pivot_root
+util-linux-2.24.2/bash-completion/cal
+util-linux-2.24.2/bash-completion/chsh
+util-linux-2.24.2/bash-completion/utmpdump
+util-linux-2.24.2/bash-completion/unshare
+util-linux-2.24.2/bash-completion/setsid
+util-linux-2.24.2/bash-completion/ldattach
+util-linux-2.24.2/bash-completion/lscpu
+util-linux-2.24.2/bash-completion/ipcs
+util-linux-2.24.2/bash-completion/taskset
+util-linux-2.24.2/bash-completion/scriptreplay
+util-linux-2.24.2/bash-completion/tunelp
+util-linux-2.24.2/bash-completion/hexdump
+util-linux-2.24.2/bash-completion/delpart
+util-linux-2.24.2/bash-completion/fsck.cramfs
+util-linux-2.24.2/bash-completion/partx
+util-linux-2.24.2/bash-completion/fstrim
+util-linux-2.24.2/bash-completion/script
+util-linux-2.24.2/bash-completion/rev
+util-linux-2.24.2/bash-completion/lsblk
+util-linux-2.24.2/bash-completion/pg
+util-linux-2.24.2/bash-completion/losetup
+util-linux-2.24.2/bash-completion/flock
+util-linux-2.24.2/bash-completion/hwclock
+util-linux-2.24.2/bash-completion/newgrp
+util-linux-2.24.2/bash-completion/blkid
+util-linux-2.24.2/bash-completion/su
+util-linux-2.24.2/bash-completion/tailf
+util-linux-2.24.2/bash-completion/mesg
+util-linux-2.24.2/bash-completion/addpart
+util-linux-2.24.2/bash-completion/swaplabel
+util-linux-2.24.2/bash-completion/renice
+util-linux-2.24.2/bash-completion/getopt
+util-linux-2.24.2/bash-completion/setpriv
+util-linux-2.24.2/bash-completion/uuidgen
+util-linux-2.24.2/bash-completion/isosize
+util-linux-2.24.2/bash-completion/mkswap
+util-linux-2.24.2/bash-completion/chfn
+util-linux-2.24.2/bash-completion/Makemodule.am
+util-linux-2.24.2/bash-completion/ctrlaltdel
+util-linux-2.24.2/bash-completion/fdisk
+util-linux-2.24.2/bash-completion/setarch
+util-linux-2.24.2/bash-completion/mkfs
+util-linux-2.24.2/bash-completion/blkdiscard
+util-linux-2.24.2/bash-completion/fsfreeze
+util-linux-2.24.2/bash-completion/ul
+util-linux-2.24.2/m4/
+util-linux-2.24.2/m4/libtool.m4
+util-linux-2.24.2/m4/ltoptions.m4
+util-linux-2.24.2/m4/nls.m4
+util-linux-2.24.2/m4/tls.m4
+util-linux-2.24.2/m4/ltsugar.m4
+util-linux-2.24.2/m4/po.m4
+util-linux-2.24.2/m4/gettext.m4
+util-linux-2.24.2/m4/lib-link.m4
+util-linux-2.24.2/m4/gtk-doc.m4
+util-linux-2.24.2/m4/progtest.m4
+util-linux-2.24.2/m4/lt~obsolete.m4
+util-linux-2.24.2/m4/iconv.m4
+util-linux-2.24.2/m4/ul.m4
+util-linux-2.24.2/m4/lib-ld.m4
+util-linux-2.24.2/m4/ltversion.m4
+util-linux-2.24.2/m4/compiler.m4
+util-linux-2.24.2/m4/lib-prefix.m4
+util-linux-2.24.2/configure.ac
+util-linux-2.24.2/libuuid/
+util-linux-2.24.2/libuuid/COPYING
+util-linux-2.24.2/libuuid/uuid.pc.in
+util-linux-2.24.2/libuuid/man/
+util-linux-2.24.2/libuuid/man/uuid_time.3
+util-linux-2.24.2/libuuid/man/uuid_is_null.3
+util-linux-2.24.2/libuuid/man/uuid_generate_time_safe.3
+util-linux-2.24.2/libuuid/man/uuid_generate_time.3
+util-linux-2.24.2/libuuid/man/uuid_compare.3
+util-linux-2.24.2/libuuid/man/uuid_unparse.3
+util-linux-2.24.2/libuuid/man/uuid_parse.3
+util-linux-2.24.2/libuuid/man/uuid_copy.3
+util-linux-2.24.2/libuuid/man/uuid_generate.3
+util-linux-2.24.2/libuuid/man/uuid_generate_random.3
+util-linux-2.24.2/libuuid/man/uuid.3
+util-linux-2.24.2/libuuid/man/uuid_clear.3
+util-linux-2.24.2/libuuid/man/Makemodule.am
+util-linux-2.24.2/libuuid/src/
+util-linux-2.24.2/libuuid/src/uuid_time.c
+util-linux-2.24.2/libuuid/src/gen_uuid.c
+util-linux-2.24.2/libuuid/src/unparse.c
+util-linux-2.24.2/libuuid/src/uuid.sym
+util-linux-2.24.2/libuuid/src/isnull.c
+util-linux-2.24.2/libuuid/src/uuid.h
+util-linux-2.24.2/libuuid/src/unpack.c
+util-linux-2.24.2/libuuid/src/test_uuid.c
+util-linux-2.24.2/libuuid/src/uuidd.h
+util-linux-2.24.2/libuuid/src/pack.c
+util-linux-2.24.2/libuuid/src/copy.c
+util-linux-2.24.2/libuuid/src/parse.c
+util-linux-2.24.2/libuuid/src/compare.c
+util-linux-2.24.2/libuuid/src/uuidP.h
+util-linux-2.24.2/libuuid/src/clear.c
+util-linux-2.24.2/libuuid/src/Makemodule.am
+util-linux-2.24.2/libuuid/Makemodule.am
+util-linux-2.24.2/README.licensing
+util-linux-2.24.2/ABOUT-NLS
+util-linux-2.24.2/Makefile.am
+util-linux-2.24.2/README
+util-linux-2.24.2/lib/
+util-linux-2.24.2/lib/setproctitle.c
+util-linux-2.24.2/lib/blkdev.c
+util-linux-2.24.2/lib/mbsalign.c
+util-linux-2.24.2/lib/strutils.c
+util-linux-2.24.2/lib/randutils.c
+util-linux-2.24.2/lib/crc32.c
+util-linux-2.24.2/lib/langinfo.c
+util-linux-2.24.2/lib/pager.c
+util-linux-2.24.2/lib/colors.c
+util-linux-2.24.2/lib/loopdev.c
+util-linux-2.24.2/lib/xgetpass.c
+util-linux-2.24.2/lib/crc64.c
+util-linux-2.24.2/lib/at.c
+util-linux-2.24.2/lib/tt.c
+util-linux-2.24.2/lib/sysfs.c
+util-linux-2.24.2/lib/ismounted.c
+util-linux-2.24.2/lib/env.c
+util-linux-2.24.2/lib/path.c
+util-linux-2.24.2/lib/canonicalize.c
+util-linux-2.24.2/lib/ttyutils.c
+util-linux-2.24.2/lib/timeutils.c
+util-linux-2.24.2/lib/linux_version.c
+util-linux-2.24.2/lib/match.c
+util-linux-2.24.2/lib/exec_shell.c
+util-linux-2.24.2/lib/md5.c
+util-linux-2.24.2/lib/procutils.c
+util-linux-2.24.2/lib/wholedisk.c
+util-linux-2.24.2/lib/mangle.c
+util-linux-2.24.2/lib/cpuset.c
+util-linux-2.24.2/lib/Makemodule.am
+util-linux-2.24.2/lib/fileutils.c
+util-linux-2.24.2/Documentation/
+util-linux-2.24.2/Documentation/sfdisk.txt
+util-linux-2.24.2/Documentation/howto-contribute.txt
+util-linux-2.24.2/Documentation/modems-with-agetty.txt
+util-linux-2.24.2/Documentation/blkid.txt
+util-linux-2.24.2/Documentation/TODO
+util-linux-2.24.2/Documentation/howto-compilation.txt
+util-linux-2.24.2/Documentation/licenses/
+util-linux-2.24.2/Documentation/licenses/COPYING.LGPLv2.1
+util-linux-2.24.2/Documentation/licenses/COPYING.GPLv2
+util-linux-2.24.2/Documentation/licenses/COPYING.BSD-3
+util-linux-2.24.2/Documentation/licenses/COPYING.UCB
+util-linux-2.24.2/Documentation/howto-tests.txt
+util-linux-2.24.2/Documentation/howto-debug.txt
+util-linux-2.24.2/Documentation/cfdisk.txt
+util-linux-2.24.2/Documentation/release-schedule.txt
+util-linux-2.24.2/Documentation/source-code-management.txt
+util-linux-2.24.2/Documentation/example.files/
+util-linux-2.24.2/Documentation/example.files/securetty
+util-linux-2.24.2/Documentation/example.files/udev-raw.rules
+util-linux-2.24.2/Documentation/example.files/fstab
+util-linux-2.24.2/Documentation/example.files/filesystems
+util-linux-2.24.2/Documentation/example.files/motd
+util-linux-2.24.2/Documentation/example.files/shells
+util-linux-2.24.2/Documentation/poeigl.txt
+util-linux-2.24.2/Documentation/hwclock.txt
+util-linux-2.24.2/Documentation/fdisk.txt
+util-linux-2.24.2/Documentation/howto-usage-function.txt
+util-linux-2.24.2/Documentation/deprecated.txt
+util-linux-2.24.2/Documentation/00-about-docs.txt
+util-linux-2.24.2/Documentation/pg.txt
+util-linux-2.24.2/Documentation/mount.txt
+util-linux-2.24.2/Documentation/PAM-configuration.txt
+util-linux-2.24.2/Documentation/col.txt
+util-linux-2.24.2/Documentation/getopt.txt
+util-linux-2.24.2/Documentation/cal.txt
+util-linux-2.24.2/Documentation/howto-build-sys.txt
+util-linux-2.24.2/Documentation/howto-man-page.txt
+util-linux-2.24.2/Documentation/releases/
+util-linux-2.24.2/Documentation/releases/v2.24.2-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.24-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.15-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.19-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.17-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.22-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.24.1-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.14-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.23-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.13-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.16-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.21-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.20-ReleaseNotes
+util-linux-2.24.2/Documentation/releases/v2.18-ReleaseNotes
+util-linux-2.24.2/Documentation/getopt_changelog.txt
+util-linux-2.24.2/config/
+util-linux-2.24.2/config/mkinstalldirs
+util-linux-2.24.2/config/config.sub
+util-linux-2.24.2/config/ltmain.sh
+util-linux-2.24.2/config/test-driver
+util-linux-2.24.2/config/config.guess
+util-linux-2.24.2/config/compile
+util-linux-2.24.2/config/config.rpath
+util-linux-2.24.2/config/depcomp
+util-linux-2.24.2/config/install-sh
+util-linux-2.24.2/config/gtk-doc.make
+util-linux-2.24.2/config/missing
+util-linux-2.24.2/config.h.in
+util-linux-2.24.2/tools/
+util-linux-2.24.2/tools/git-version-gen
+util-linux-2.24.2/.version
+util-linux-2.24.2/NEWS
+util-linux-2.24.2/misc-utils/
+util-linux-2.24.2/misc-utils/kill.c
+util-linux-2.24.2/misc-utils/findfs.c
+util-linux-2.24.2/misc-utils/uuidgen.c
+util-linux-2.24.2/misc-utils/cal.1
+util-linux-2.24.2/misc-utils/look.1
+util-linux-2.24.2/misc-utils/blkid.8
+util-linux-2.24.2/misc-utils/uuidd.rc.in
+util-linux-2.24.2/misc-utils/wipefs.8
+util-linux-2.24.2/misc-utils/getopt.1
+util-linux-2.24.2/misc-utils/sd-daemon.c
+util-linux-2.24.2/misc-utils/sd-daemon.h
+util-linux-2.24.2/misc-utils/namei.c
+util-linux-2.24.2/misc-utils/uuidd.8
+util-linux-2.24.2/misc-utils/findmnt.8
+util-linux-2.24.2/misc-utils/findfs.8
+util-linux-2.24.2/misc-utils/uuidd.c
+util-linux-2.24.2/misc-utils/kill.1
+util-linux-2.24.2/misc-utils/logger.1
+util-linux-2.24.2/misc-utils/lslocks.c
+util-linux-2.24.2/misc-utils/blkid.c
+util-linux-2.24.2/misc-utils/mcookie.1
+util-linux-2.24.2/misc-utils/uuidd.8.in
+util-linux-2.24.2/misc-utils/uuidd.socket.in
+util-linux-2.24.2/misc-utils/cal.c
+util-linux-2.24.2/misc-utils/lslocks.8
+util-linux-2.24.2/misc-utils/lsblk.8
+util-linux-2.24.2/misc-utils/getopt-parse.bash
+util-linux-2.24.2/misc-utils/uuidd.service.in
+util-linux-2.24.2/misc-utils/mcookie.c
+util-linux-2.24.2/misc-utils/lsblk.c
+util-linux-2.24.2/misc-utils/whereis.1
+util-linux-2.24.2/misc-utils/whereis.c
+util-linux-2.24.2/misc-utils/getopt-parse.tcsh
+util-linux-2.24.2/misc-utils/logger.c
+util-linux-2.24.2/misc-utils/wipefs.c
+util-linux-2.24.2/misc-utils/namei.1
+util-linux-2.24.2/misc-utils/getopt.c
+util-linux-2.24.2/misc-utils/look.c
+util-linux-2.24.2/misc-utils/Makemodule.am
+util-linux-2.24.2/misc-utils/rename.1
+util-linux-2.24.2/misc-utils/rename.c
+util-linux-2.24.2/misc-utils/findmnt.c
+util-linux-2.24.2/misc-utils/uuidgen.1
+util-linux-2.24.2/tests/
+util-linux-2.24.2/tests/expected/
+util-linux-2.24.2/tests/expected/md5/
+util-linux-2.24.2/tests/expected/md5/md5
+util-linux-2.24.2/tests/expected/fsck/
+util-linux-2.24.2/tests/expected/fsck/ismounted
+util-linux-2.24.2/tests/expected/column/
+util-linux-2.24.2/tests/expected/column/multi-file
+util-linux-2.24.2/tests/expected/column/separator_table
+util-linux-2.24.2/tests/expected/column/fillrow
+util-linux-2.24.2/tests/expected/mount/
+util-linux-2.24.2/tests/expected/mount/fstab-uuid2label
+util-linux-2.24.2/tests/expected/mount/shared-subtree-make-unbindable
+util-linux-2.24.2/tests/expected/mount/fstab-uuid
+util-linux-2.24.2/tests/expected/mount/fstab-broken-mount
+util-linux-2.24.2/tests/expected/mount/rlimit-mount
+util-linux-2.24.2/tests/expected/mount/move
+util-linux-2.24.2/tests/expected/mount/remount
+util-linux-2.24.2/tests/expected/mount/shared-subtree
+util-linux-2.24.2/tests/expected/mount/shared-subtree-make-shared
+util-linux-2.24.2/tests/expected/mount/fstab-symlink
+util-linux-2.24.2/tests/expected/mount/shared-subtree-mount-private-ro
+util-linux-2.24.2/tests/expected/mount/uuid
+util-linux-2.24.2/tests/expected/mount/umount-alltargets-all-targets-mnt
+util-linux-2.24.2/tests/expected/mount/fstab-devname
+util-linux-2.24.2/tests/expected/mount/fstab-uuid2devname
+util-linux-2.24.2/tests/expected/mount/umount-alltargets-all-targets-recursive
+util-linux-2.24.2/tests/expected/mount/fstab-label2uuid
+util-linux-2.24.2/tests/expected/mount/rlimit
+util-linux-2.24.2/tests/expected/mount/regfile
+util-linux-2.24.2/tests/expected/mount/fstab-devname2uuid
+util-linux-2.24.2/tests/expected/mount/umount-alltargets
+util-linux-2.24.2/tests/expected/mount/umount-recursive
+util-linux-2.24.2/tests/expected/mount/fstab-label2devname
+util-linux-2.24.2/tests/expected/mount/fstab-broken-mount-all
+util-linux-2.24.2/tests/expected/mount/special
+util-linux-2.24.2/tests/expected/mount/noncanonical
+util-linux-2.24.2/tests/expected/mount/devname
+util-linux-2.24.2/tests/expected/mount/paths
+util-linux-2.24.2/tests/expected/mount/shared-subtree-mount-private
+util-linux-2.24.2/tests/expected/mount/shared-subtree-make-private
+util-linux-2.24.2/tests/expected/mount/fstab-none
+util-linux-2.24.2/tests/expected/mount/shared-subtree-bind-shared
+util-linux-2.24.2/tests/expected/mount/fstab-devname2label
+util-linux-2.24.2/tests/expected/mount/label
+util-linux-2.24.2/tests/expected/mount/fstab-broken
+util-linux-2.24.2/tests/expected/mount/fstab-label
+util-linux-2.24.2/tests/expected/mount/rlimit-umount
+util-linux-2.24.2/tests/expected/mount/umount-alltargets-all-targets-dev
+util-linux-2.24.2/tests/expected/cramfs/
+util-linux-2.24.2/tests/expected/cramfs/mkfs-endianness
+util-linux-2.24.2/tests/expected/cramfs/doubles
+util-linux-2.24.2/tests/expected/cramfs/fsck-endianness
+util-linux-2.24.2/tests/expected/cramfs/mkfs
+util-linux-2.24.2/tests/expected/look/
+util-linux-2.24.2/tests/expected/look/separator
+util-linux-2.24.2/tests/expected/eject/
+util-linux-2.24.2/tests/expected/eject/umount-by-disk
+util-linux-2.24.2/tests/expected/eject/umount-by-partition-mounted
+util-linux-2.24.2/tests/expected/eject/umount-by-disk-mounted-partition
+util-linux-2.24.2/tests/expected/eject/umount-by-partition
+util-linux-2.24.2/tests/expected/eject/umount
+util-linux-2.24.2/tests/expected/eject/umount-by-disk-mounted
+util-linux-2.24.2/tests/expected/colrm/
+util-linux-2.24.2/tests/expected/colrm/rm2-2
+util-linux-2.24.2/tests/expected/more/
+util-linux-2.24.2/tests/expected/more/squeeze
+util-linux-2.24.2/tests/expected/more/regexp
+util-linux-2.24.2/tests/expected/schedutils/
+util-linux-2.24.2/tests/expected/schedutils/cpuset
+util-linux-2.24.2/tests/expected/namei/
+util-linux-2.24.2/tests/expected/namei/logic
+util-linux-2.24.2/tests/expected/last/
+util-linux-2.24.2/tests/expected/last/last
+util-linux-2.24.2/tests/expected/last/ipv6
+util-linux-2.24.2/tests/expected/misc/
+util-linux-2.24.2/tests/expected/misc/fallocate
+util-linux-2.24.2/tests/expected/misc/whereis
+util-linux-2.24.2/tests/expected/misc/line
+util-linux-2.24.2/tests/expected/misc/mcookie
+util-linux-2.24.2/tests/expected/misc/strtosize
+util-linux-2.24.2/tests/expected/misc/ionice
+util-linux-2.24.2/tests/expected/misc/setsid
+util-linux-2.24.2/tests/expected/misc/rev
+util-linux-2.24.2/tests/expected/misc/getopt
+util-linux-2.24.2/tests/expected/misc/setarch
+util-linux-2.24.2/tests/expected/misc/ul
+util-linux-2.24.2/tests/expected/wipefs/
+util-linux-2.24.2/tests/expected/wipefs/wipefs
+util-linux-2.24.2/tests/expected/bitops/
+util-linux-2.24.2/tests/expected/bitops/swapbytes
+util-linux-2.24.2/tests/expected/swapon/
+util-linux-2.24.2/tests/expected/swapon/uuid
+util-linux-2.24.2/tests/expected/swapon/devname
+util-linux-2.24.2/tests/expected/swapon/fixpgsz
+util-linux-2.24.2/tests/expected/swapon/label
+util-linux-2.24.2/tests/expected/swapon/fixsig
+util-linux-2.24.2/tests/expected/col/
+util-linux-2.24.2/tests/expected/col/multibyte
+util-linux-2.24.2/tests/expected/dmesg/
+util-linux-2.24.2/tests/expected/dmesg/decode
+util-linux-2.24.2/tests/expected/dmesg/console-levels
+util-linux-2.24.2/tests/expected/dmesg/delta
+util-linux-2.24.2/tests/expected/dmesg/facilities
+util-linux-2.24.2/tests/expected/cal/
+util-linux-2.24.2/tests/expected/cal/1m
+util-linux-2.24.2/tests/expected/cal/color
+util-linux-2.24.2/tests/expected/cal/sep1752
+util-linux-2.24.2/tests/expected/cal/year
+util-linux-2.24.2/tests/expected/cal/3m
+util-linux-2.24.2/tests/expected/cal/bigyear
+util-linux-2.24.2/tests/expected/utmpdump/
+util-linux-2.24.2/tests/expected/utmpdump/to-binary
+util-linux-2.24.2/tests/expected/utmpdump/ipv6totxt
+util-linux-2.24.2/tests/expected/utmpdump/ipv6tobin
+util-linux-2.24.2/tests/expected/utmpdump/to-text
+util-linux-2.24.2/tests/expected/paths/
+util-linux-2.24.2/tests/expected/paths/built-in
+util-linux-2.24.2/tests/expected/lscpu/
+util-linux-2.24.2/tests/expected/lscpu/lscpu-s390-zvm
+util-linux-2.24.2/tests/expected/lscpu/lscpu-s390-lpar
+util-linux-2.24.2/tests/expected/lscpu/lscpu-s390-kvm
+util-linux-2.24.2/tests/expected/lscpu/lscpu-ppc64-POWER7-64cpu
+util-linux-2.24.2/tests/expected/lscpu/lscpu-armv7
+util-linux-2.24.2/tests/expected/lscpu/lscpu-ppc64-POWER7
+util-linux-2.24.2/tests/expected/lscpu/lscpu-x86_64-64cpu
+util-linux-2.24.2/tests/expected/lscpu/lscpu-x86_64-dell_e4310
+util-linux-2.24.2/tests/expected/lscpu/lscpu-ppc-qemu
+util-linux-2.24.2/tests/expected/ipcs/
+util-linux-2.24.2/tests/expected/ipcs/limits2
+util-linux-2.24.2/tests/expected/ipcs/headers
+util-linux-2.24.2/tests/expected/ipcs/mk-rm-sem
+util-linux-2.24.2/tests/expected/ipcs/limits
+util-linux-2.24.2/tests/expected/ipcs/mk-rm-shm
+util-linux-2.24.2/tests/expected/ipcs/mk-rm-msg
+util-linux-2.24.2/tests/expected/hexdump/
+util-linux-2.24.2/tests/expected/hexdump/empty-format
+util-linux-2.24.2/tests/expected/partx/
+util-linux-2.24.2/tests/expected/partx/partx-detect-parts
+util-linux-2.24.2/tests/expected/partx/partx-bsd
+util-linux-2.24.2/tests/expected/partx/partx-delpart
+util-linux-2.24.2/tests/expected/partx/partx-sun
+util-linux-2.24.2/tests/expected/partx/partx-gpt
+util-linux-2.24.2/tests/expected/partx/partx-sgi
+util-linux-2.24.2/tests/expected/partx/partx-addpart
+util-linux-2.24.2/tests/expected/partx/partx-delete-one
+util-linux-2.24.2/tests/expected/partx/partx-delete-non-existent
+util-linux-2.24.2/tests/expected/partx/partx-dos+bsd
+util-linux-2.24.2/tests/expected/partx/partx-delete-all
+util-linux-2.24.2/tests/expected/partx/partx-add-existing
+util-linux-2.24.2/tests/expected/partx/partx-add-all
+util-linux-2.24.2/tests/expected/partx/partx-change-by-range
+util-linux-2.24.2/tests/expected/script/
+util-linux-2.24.2/tests/expected/script/race
+util-linux-2.24.2/tests/expected/losetup/
+util-linux-2.24.2/tests/expected/losetup/losetup-file-offset
+util-linux-2.24.2/tests/expected/losetup/losetup-blkdev
+util-linux-2.24.2/tests/expected/losetup/losetup-blkdev-offset
+util-linux-2.24.2/tests/expected/losetup/losetup-file-secton
+util-linux-2.24.2/tests/expected/losetup/losetup-blkdev-section
+util-linux-2.24.2/tests/expected/losetup/losetup-blkdev-sizelimit
+util-linux-2.24.2/tests/expected/losetup/losetup-file-section
+util-linux-2.24.2/tests/expected/losetup/losetup-file
+util-linux-2.24.2/tests/expected/losetup/losetup
+util-linux-2.24.2/tests/expected/losetup/losetup-file-sizelimit
+util-linux-2.24.2/tests/expected/blkid/
+util-linux-2.24.2/tests/expected/blkid/low-probe-exfat
+util-linux-2.24.2/tests/expected/blkid/low-probe-ntfs
+util-linux-2.24.2/tests/expected/blkid/low-probe-tuxonice
+util-linux-2.24.2/tests/expected/blkid/low-probe-hfs
+util-linux-2.24.2/tests/expected/blkid/md-raid1-part
+util-linux-2.24.2/tests/expected/blkid/low-probe-bcache-B
+util-linux-2.24.2/tests/expected/blkid/low-probe-ext3
+util-linux-2.24.2/tests/expected/blkid/low-probe-ubifs
+util-linux-2.24.2/tests/expected/blkid/low-probe-small-fat32
+util-linux-2.24.2/tests/expected/blkid/low-probe-lsi-raid
+util-linux-2.24.2/tests/expected/blkid/lowprobe-pt-bsd
+util-linux-2.24.2/tests/expected/blkid/md-raid0-whole
+util-linux-2.24.2/tests/expected/blkid/low-probe-jbd
+util-linux-2.24.2/tests/expected/blkid/low-probe-vmfs_volume
+util-linux-2.24.2/tests/expected/blkid/low-probe-reiser4
+util-linux-2.24.2/tests/expected/blkid/md-raid1-whole
+util-linux-2.24.2/tests/expected/blkid/low-probe-bfs
+util-linux-2.24.2/tests/expected/blkid/low-probe-udf
+util-linux-2.24.2/tests/expected/blkid/low-probe-fat32_label_64MB
+util-linux-2.24.2/tests/expected/blkid/low-probe-ddf-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-ufs
+util-linux-2.24.2/tests/expected/blkid/low-probe-swap0
+util-linux-2.24.2/tests/expected/blkid/low-probe-xfs
+util-linux-2.24.2/tests/expected/blkid/low-probe-xfs-log
+util-linux-2.24.2/tests/expected/blkid/low-probe-romfs
+util-linux-2.24.2/tests/expected/blkid/low-probe-jmicron-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-lvm2
+util-linux-2.24.2/tests/expected/blkid/low-probe-zfs
+util-linux-2.24.2/tests/expected/blkid/low-probe-nilfs2
+util-linux-2.24.2/tests/expected/blkid/low-probe-netware
+util-linux-2.24.2/tests/expected/blkid/lowprobe-pt-sgi
+util-linux-2.24.2/tests/expected/blkid/low-probe-gfs2
+util-linux-2.24.2/tests/expected/blkid/low-probe-jfs
+util-linux-2.24.2/tests/expected/blkid/low-probe-iso-joliet
+util-linux-2.24.2/tests/expected/blkid/low-probe-isw-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-iso-rr-joliet
+util-linux-2.24.2/tests/expected/blkid/low-probe-ext2
+util-linux-2.24.2/tests/expected/blkid/low-probe-bcache-C
+util-linux-2.24.2/tests/expected/blkid/lowprobe-pt-dos+bsd
+util-linux-2.24.2/tests/expected/blkid/low-probe-fat16_noheads
+util-linux-2.24.2/tests/expected/blkid/low-probe-mdraid
+util-linux-2.24.2/tests/expected/blkid/low-probe-hpt37x-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-via-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-promise-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-cramfs
+util-linux-2.24.2/tests/expected/blkid/low-probe-hpfs
+util-linux-2.24.2/tests/expected/blkid/lowprobe-pt-sun
+util-linux-2.24.2/tests/expected/blkid/low-probe-vmfs
+util-linux-2.24.2/tests/expected/blkid/low-probe-swap1
+util-linux-2.24.2/tests/expected/blkid/low-probe-hfsplus
+util-linux-2.24.2/tests/expected/blkid/low-probe-silicon-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-fat
+util-linux-2.24.2/tests/expected/blkid/low-probe-befs
+util-linux-2.24.2/tests/expected/blkid/low-probe-minix-LE
+util-linux-2.24.2/tests/expected/blkid/low-probe-f2fs
+util-linux-2.24.2/tests/expected/blkid/low-probe-hpt45x-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-nvidia-raid
+util-linux-2.24.2/tests/expected/blkid/low-probe-adaptec-raid
+util-linux-2.24.2/tests/expected/blkid/lowprobe-pt-gpt
+util-linux-2.24.2/tests/expected/blkid/low-probe-reiser3
+util-linux-2.24.2/tests/expected/blkid/low-probe-iso
+util-linux-2.24.2/tests/expected/blkid/low-probe-ocfs2
+util-linux-2.24.2/tests/expected/blkid/low-probe-minix-BE
+util-linux-2.24.2/tests/expected/build-sys/
+util-linux-2.24.2/tests/expected/build-sys/config-audit
+util-linux-2.24.2/tests/expected/build-sys/config-all-non-nls
+util-linux-2.24.2/tests/expected/build-sys/config-devel-new-mount
+util-linux-2.24.2/tests/expected/build-sys/config-non-libblkid
+util-linux-2.24.2/tests/expected/build-sys/config-non-libuuid
+util-linux-2.24.2/tests/expected/build-sys/config-non-libmount
+util-linux-2.24.2/tests/expected/build-sys/config-chfnsh-libuser
+util-linux-2.24.2/tests/expected/build-sys/config-old-mount
+util-linux-2.24.2/tests/expected/build-sys/config-devel
+util-linux-2.24.2/tests/expected/build-sys/config-slang
+util-linux-2.24.2/tests/expected/build-sys/config-non-libs
+util-linux-2.24.2/tests/expected/build-sys/config-all
+util-linux-2.24.2/tests/expected/build-sys/config
+util-linux-2.24.2/tests/expected/build-sys/config-selinux
+util-linux-2.24.2/tests/expected/build-sys/config-core
+util-linux-2.24.2/tests/expected/build-sys/config-chfnsh-pam
+util-linux-2.24.2/tests/expected/build-sys/config-devel-non-docs
+util-linux-2.24.2/tests/expected/build-sys/config-chfnsh-no-password
+util-linux-2.24.2/tests/expected/build-sys/config-non-nls
+util-linux-2.24.2/tests/expected/build-sys/config-static
+util-linux-2.24.2/tests/expected/build-sys/config-all-devel
+util-linux-2.24.2/tests/expected/tailf/
+util-linux-2.24.2/tests/expected/tailf/simple
+util-linux-2.24.2/tests/expected/libmount/
+util-linux-2.24.2/tests/expected/libmount/context-utab-py
+util-linux-2.24.2/tests/expected/libmount/tabfiles-copy
+util-linux-2.24.2/tests/expected/libmount/lock
+util-linux-2.24.2/tests/expected/libmount/utils-match-options
+util-linux-2.24.2/tests/expected/libmount/tabfiles-find-pair
+util-linux-2.24.2/tests/expected/libmount/context-mount-by-devname
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-fstab-uuid
+util-linux-2.24.2/tests/expected/libmount/utils-fs-root-subdir2
+util-linux-2.24.2/tests/expected/libmount/context-x-mount.mkdir
+util-linux-2.24.2/tests/expected/libmount/context-utab-umount
+util-linux-2.24.2/tests/expected/libmount/utils-match-options-list
+util-linux-2.24.2/tests/expected/libmount/context-mount-loopdev
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-parse-mtab
+util-linux-2.24.2/tests/expected/libmount/utils-fs-root
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-find-pair
+util-linux-2.24.2/tests/expected/libmount/context-py-mount-by-devname
+util-linux-2.24.2/tests/expected/libmount/optstr-remove-value
+util-linux-2.24.2/tests/expected/libmount/context-utab-py-umount-subvol
+util-linux-2.24.2/tests/expected/libmount/context-py
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-fstab-label
+util-linux-2.24.2/tests/expected/libmount/context-umount-by-mountpoint
+util-linux-2.24.2/tests/expected/libmount/context-utab-mount-uhelper-subvol
+util-linux-2.24.2/tests/expected/libmount/update-utab-move
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-parse-fstab-broken
+util-linux-2.24.2/tests/expected/libmount/context-utab-umount-by-devname
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-parse-fstab-full
+util-linux-2.24.2/tests/expected/libmount/optstr-set-new-end
+util-linux-2.24.2/tests/expected/libmount/tabfiles-find-target2
+util-linux-2.24.2/tests/expected/libmount/context-py-umount-by-devname
+util-linux-2.24.2/tests/expected/libmount/update-mtab-umount
+util-linux-2.24.2/tests/expected/libmount/tabfiles-parse-fstab-broken
+util-linux-2.24.2/tests/expected/libmount/update-mtab-mount
+util-linux-2.24.2/tests/expected/libmount/utils-ends-with
+util-linux-2.24.2/tests/expected/libmount/context-utab-py-umount-by-devname
+util-linux-2.24.2/tests/expected/libmount/context-utab-py-umount
+util-linux-2.24.2/tests/expected/libmount/utils-mountpoint-root
+util-linux-2.24.2/tests/expected/libmount/tabfiles-parse-fstab-full
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-parse-fstab
+util-linux-2.24.2/tests/expected/libmount/tabdiff-remount
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-fstab-label2uuid
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-fstab-dev2label
+util-linux-2.24.2/tests/expected/libmount/optstr-append-value
+util-linux-2.24.2/tests/expected/libmount/tabdiff-move
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-fstab-label2dev
+util-linux-2.24.2/tests/expected/libmount/utils-match-options-neg-list
+util-linux-2.24.2/tests/expected/libmount/utils-fs-root-subdir
+util-linux-2.24.2/tests/expected/libmount/utils-match-fstype
+util-linux-2.24.2/tests/expected/libmount/optstr-flags
+util-linux-2.24.2/tests/expected/libmount/context-py-mount-flags
+util-linux-2.24.2/tests/expected/libmount/tabfiles-parse-fstab
+util-linux-2.24.2/tests/expected/libmount/optstr-set-remove
+util-linux-2.24.2/tests/expected/libmount/optstr-remove
+util-linux-2.24.2/tests/expected/libmount/update-utab-mount
+util-linux-2.24.2/tests/expected/libmount/update-mtab-move
+util-linux-2.24.2/tests/expected/libmount/context-py-mount-loopdev
+util-linux-2.24.2/tests/expected/libmount/context-py-mount-by-uuid
+util-linux-2.24.2/tests/expected/libmount/optstr-fix
+util-linux-2.24.2/tests/expected/libmount/context-py-mount-by-label
+util-linux-2.24.2/tests/expected/libmount/context-utab
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-py-fstab-dev2label
+util-linux-2.24.2/tests/expected/libmount/utils-match-fstype-neg
+util-linux-2.24.2/tests/expected/libmount/tabfiles-parse-mountinfo
+util-linux-2.24.2/tests/expected/libmount/optstr-get
+util-linux-2.24.2/tests/expected/libmount/context-utab-mount-uhelper
+util-linux-2.24.2/tests/expected/libmount/context-py-umount-by-mountpoint
+util-linux-2.24.2/tests/expected/libmount/tabfiles-find-source
+util-linux-2.24.2/tests/expected/libmount/context-mount-flags
+util-linux-2.24.2/tests/expected/libmount/utils-mountpoint
+util-linux-2.24.2/tests/expected/libmount/context
+util-linux-2.24.2/tests/expected/libmount/tabdiff
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-find-target
+util-linux-2.24.2/tests/expected/libmount/context-py-x-mount.mkdir
+util-linux-2.24.2/tests/expected/libmount/update-py-fstab-replace
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-fstab-dev
+util-linux-2.24.2/tests/expected/libmount/optstr-prepend
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-py-fstab-label
+util-linux-2.24.2/tests/expected/libmount/optstr-prepend-value
+util-linux-2.24.2/tests/expected/libmount/tabdiff-umount
+util-linux-2.24.2/tests/expected/libmount/optstr-set-large
+util-linux-2.24.2/tests/expected/libmount/context-utab-py-mount-uhelper
+util-linux-2.24.2/tests/expected/libmount/optstr-remove-quoted
+util-linux-2.24.2/tests/expected/libmount/tabfiles-parse-mtab
+util-linux-2.24.2/tests/expected/libmount/optstr-set-small
+util-linux-2.24.2/tests/expected/libmount/context-mount-by-uuid
+util-linux-2.24.2/tests/expected/libmount/optstr-set-new
+util-linux-2.24.2/tests/expected/libmount/utils-match-fstype-neg2
+util-linux-2.24.2/tests/expected/libmount/update-fstab-add
+util-linux-2.24.2/tests/expected/libmount/optstr-append
+util-linux-2.24.2/tests/expected/libmount/context-mount-by-label
+util-linux-2.24.2/tests/expected/libmount/optstr-deduplicate
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-find-target3
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-find-target2
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-py-fstab-label2uuid
+util-linux-2.24.2/tests/expected/libmount/update-utab-remount
+util-linux-2.24.2/tests/expected/libmount/context-utab-py-mount-uhelper-subvol
+util-linux-2.24.2/tests/expected/libmount/tabfiles-find-target
+util-linux-2.24.2/tests/expected/libmount/utils-match-options-neg
+util-linux-2.24.2/tests/expected/libmount/update-mtab-remount
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-py-fstab-uuid
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-copy
+util-linux-2.24.2/tests/expected/libmount/utils-kernel-cmdline
+util-linux-2.24.2/tests/expected/libmount/context-umount-by-devname
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-find-source
+util-linux-2.24.2/tests/expected/libmount/utils-starts-with
+util-linux-2.24.2/tests/expected/libmount/optstr-get-value
+util-linux-2.24.2/tests/expected/libmount/utils-mountpoint-subdir
+util-linux-2.24.2/tests/expected/libmount/optstr-split
+util-linux-2.24.2/tests/expected/libmount/tabdiff-mount
+util-linux-2.24.2/tests/expected/libmount/tabfiles-find-target3
+util-linux-2.24.2/tests/expected/libmount/utils-match-options-neg-list2
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-py-fstab-label2dev
+util-linux-2.24.2/tests/expected/libmount/optstr-apply-linux
+util-linux-2.24.2/tests/expected/libmount/optstr-apply-user
+util-linux-2.24.2/tests/expected/libmount/context-utab-py-mount-by-devname
+util-linux-2.24.2/tests/expected/libmount/update-fstab-replace
+util-linux-2.24.2/tests/expected/libmount/context-utab-umount-subvol
+util-linux-2.24.2/tests/expected/libmount/tabfiles-py-parse-mountinfo
+util-linux-2.24.2/tests/expected/libmount/context-utab-mount-by-devname
+util-linux-2.24.2/tests/expected/libmount/update-utab-umount
+util-linux-2.24.2/tests/expected/libmount/tabfiles-tags-py-fstab-dev
+util-linux-2.24.2/tests/expected/login/
+util-linux-2.24.2/tests/expected/login/logindefs
+util-linux-2.24.2/tests/expected/login/islocal
+util-linux-2.24.2/tests/expected/isosize/
+util-linux-2.24.2/tests/expected/isosize/print-size
+util-linux-2.24.2/tests/expected/fdisk/
+util-linux-2.24.2/tests/expected/fdisk/gpt
+util-linux-2.24.2/tests/expected/fdisk/align-512-4K-md
+util-linux-2.24.2/tests/expected/fdisk/align-512-4K-63
+util-linux-2.24.2/tests/expected/fdisk/sunlabel
+util-linux-2.24.2/tests/expected/fdisk/mbr-dos-mode
+util-linux-2.24.2/tests/expected/fdisk/bsd
+util-linux-2.24.2/tests/expected/fdisk/align-512-4K-topology
+util-linux-2.24.2/tests/expected/fdisk/align-512-4K
+util-linux-2.24.2/tests/expected/fdisk/align-512-512-topology
+util-linux-2.24.2/tests/expected/fdisk/mbr-sort
+util-linux-2.24.2/tests/expected/fdisk/mbr-nondos-mode
+util-linux-2.24.2/tests/expected/fdisk/oddinput
+util-linux-2.24.2/tests/expected/fdisk/id
+util-linux-2.24.2/tests/expected/fdisk/oddinput.toosmall
+util-linux-2.24.2/tests/expected/fdisk/align-512-512
+util-linux-2.24.2/tests/expected/minix/
+util-linux-2.24.2/tests/expected/minix/fsck
+util-linux-2.24.2/tests/expected/minix/mkfs
+util-linux-2.24.2/tests/run.sh
+util-linux-2.24.2/tests/commands.sh
+util-linux-2.24.2/tests/helpers/
+util-linux-2.24.2/tests/helpers/test_byteswap.c
+util-linux-2.24.2/tests/helpers/test_md5.c
+util-linux-2.24.2/tests/helpers/test_pathnames.c
+util-linux-2.24.2/tests/helpers/Makemodule.am
+util-linux-2.24.2/tests/helpers/test_sysinfo.c
+util-linux-2.24.2/tests/ts/
+util-linux-2.24.2/tests/ts/md5/
+util-linux-2.24.2/tests/ts/md5/md5
+util-linux-2.24.2/tests/ts/md5/data
+util-linux-2.24.2/tests/ts/fsck/
+util-linux-2.24.2/tests/ts/fsck/ismounted
+util-linux-2.24.2/tests/ts/column/
+util-linux-2.24.2/tests/ts/column/multi-file
+util-linux-2.24.2/tests/ts/column/input
+util-linux-2.24.2/tests/ts/column/separator_table
+util-linux-2.24.2/tests/ts/column/fillrow
+util-linux-2.24.2/tests/ts/mount/
+util-linux-2.24.2/tests/ts/mount/fstab-uuid2label
+util-linux-2.24.2/tests/ts/mount/fstab-uuid
+util-linux-2.24.2/tests/ts/mount/move
+util-linux-2.24.2/tests/ts/mount/remount
+util-linux-2.24.2/tests/ts/mount/shared-subtree
+util-linux-2.24.2/tests/ts/mount/fstab-symlink
+util-linux-2.24.2/tests/ts/mount/uuid
+util-linux-2.24.2/tests/ts/mount/fstab-devname
+util-linux-2.24.2/tests/ts/mount/fstab-uuid2devname
+util-linux-2.24.2/tests/ts/mount/fstab-label2uuid
+util-linux-2.24.2/tests/ts/mount/rlimit
+util-linux-2.24.2/tests/ts/mount/regfile
+util-linux-2.24.2/tests/ts/mount/fstab-devname2uuid
+util-linux-2.24.2/tests/ts/mount/umount-alltargets
+util-linux-2.24.2/tests/ts/mount/umount-recursive
+util-linux-2.24.2/tests/ts/mount/fstab-label2devname
+util-linux-2.24.2/tests/ts/mount/special
+util-linux-2.24.2/tests/ts/mount/noncanonical
+util-linux-2.24.2/tests/ts/mount/devname
+util-linux-2.24.2/tests/ts/mount/paths
+util-linux-2.24.2/tests/ts/mount/fstab-none
+util-linux-2.24.2/tests/ts/mount/fstab-devname2label
+util-linux-2.24.2/tests/ts/mount/label
+util-linux-2.24.2/tests/ts/mount/fstab-broken
+util-linux-2.24.2/tests/ts/mount/fstab-label
+util-linux-2.24.2/tests/ts/cramfs/
+util-linux-2.24.2/tests/ts/cramfs/mkfs-endianness
+util-linux-2.24.2/tests/ts/cramfs/cramfs-little.img
+util-linux-2.24.2/tests/ts/cramfs/doubles
+util-linux-2.24.2/tests/ts/cramfs/cramfs-big.img
+util-linux-2.24.2/tests/ts/cramfs/fsck-endianness
+util-linux-2.24.2/tests/ts/cramfs/mkfs
+util-linux-2.24.2/tests/ts/look/
+util-linux-2.24.2/tests/ts/look/words
+util-linux-2.24.2/tests/ts/look/separator
+util-linux-2.24.2/tests/ts/eject/
+util-linux-2.24.2/tests/ts/eject/umount
+util-linux-2.24.2/tests/ts/colrm/
+util-linux-2.24.2/tests/ts/colrm/rm2-2
+util-linux-2.24.2/tests/ts/more/
+util-linux-2.24.2/tests/ts/more/squeeze
+util-linux-2.24.2/tests/ts/more/regexp
+util-linux-2.24.2/tests/ts/schedutils/
+util-linux-2.24.2/tests/ts/schedutils/cpuset
+util-linux-2.24.2/tests/ts/namei/
+util-linux-2.24.2/tests/ts/namei/logic
+util-linux-2.24.2/tests/ts/last/
+util-linux-2.24.2/tests/ts/last/wtmp
+util-linux-2.24.2/tests/ts/last/last
+util-linux-2.24.2/tests/ts/last/ipv6
+util-linux-2.24.2/tests/ts/last/ipv6-input
+util-linux-2.24.2/tests/ts/misc/
+util-linux-2.24.2/tests/ts/misc/fallocate
+util-linux-2.24.2/tests/ts/misc/whereis
+util-linux-2.24.2/tests/ts/misc/line
+util-linux-2.24.2/tests/ts/misc/mcookie
+util-linux-2.24.2/tests/ts/misc/strtosize
+util-linux-2.24.2/tests/ts/misc/ionice
+util-linux-2.24.2/tests/ts/misc/setsid
+util-linux-2.24.2/tests/ts/misc/rev
+util-linux-2.24.2/tests/ts/misc/getopt
+util-linux-2.24.2/tests/ts/misc/setarch
+util-linux-2.24.2/tests/ts/misc/ul
+util-linux-2.24.2/tests/ts/wipefs/
+util-linux-2.24.2/tests/ts/wipefs/wipefs
+util-linux-2.24.2/tests/ts/bitops/
+util-linux-2.24.2/tests/ts/bitops/swapbytes
+util-linux-2.24.2/tests/ts/swapon/
+util-linux-2.24.2/tests/ts/swapon/uuid
+util-linux-2.24.2/tests/ts/swapon/devname
+util-linux-2.24.2/tests/ts/swapon/fixpgsz
+util-linux-2.24.2/tests/ts/swapon/label
+util-linux-2.24.2/tests/ts/swapon/fixsig
+util-linux-2.24.2/tests/ts/col/
+util-linux-2.24.2/tests/ts/col/multibyte
+util-linux-2.24.2/tests/ts/col/multibyte.data
+util-linux-2.24.2/tests/ts/dmesg/
+util-linux-2.24.2/tests/ts/dmesg/decode
+util-linux-2.24.2/tests/ts/dmesg/console-levels
+util-linux-2.24.2/tests/ts/dmesg/delta
+util-linux-2.24.2/tests/ts/dmesg/input
+util-linux-2.24.2/tests/ts/dmesg/facilities
+util-linux-2.24.2/tests/ts/cal/
+util-linux-2.24.2/tests/ts/cal/1m
+util-linux-2.24.2/tests/ts/cal/color
+util-linux-2.24.2/tests/ts/cal/sep1752
+util-linux-2.24.2/tests/ts/cal/year
+util-linux-2.24.2/tests/ts/cal/3m
+util-linux-2.24.2/tests/ts/cal/bigyear
+util-linux-2.24.2/tests/ts/utmpdump/
+util-linux-2.24.2/tests/ts/utmpdump/ipv6bin
+util-linux-2.24.2/tests/ts/utmpdump/to-binary
+util-linux-2.24.2/tests/ts/utmpdump/ipv6totxt
+util-linux-2.24.2/tests/ts/utmpdump/text
+util-linux-2.24.2/tests/ts/utmpdump/ipv6tobin
+util-linux-2.24.2/tests/ts/utmpdump/ipv6txt
+util-linux-2.24.2/tests/ts/utmpdump/binary
+util-linux-2.24.2/tests/ts/utmpdump/to-text
+util-linux-2.24.2/tests/ts/paths/
+util-linux-2.24.2/tests/ts/paths/built-in
+util-linux-2.24.2/tests/ts/lscpu/
+util-linux-2.24.2/tests/ts/lscpu/mk-input.sh
+util-linux-2.24.2/tests/ts/lscpu/lscpu
+util-linux-2.24.2/tests/ts/lscpu/dumps/
+util-linux-2.24.2/tests/ts/lscpu/dumps/ppc-qemu.tar.gz
+util-linux-2.24.2/tests/ts/lscpu/dumps/s390-kvm.tar.gz
+util-linux-2.24.2/tests/ts/lscpu/dumps/ppc64-POWER7.tar.gz
+util-linux-2.24.2/tests/ts/lscpu/dumps/s390-zvm.tar.gz
+util-linux-2.24.2/tests/ts/lscpu/dumps/x86_64-64cpu.tar.gz
+util-linux-2.24.2/tests/ts/lscpu/dumps/ppc64-POWER7-64cpu.tar.gz
+util-linux-2.24.2/tests/ts/lscpu/dumps/armv7.tar.gz
+util-linux-2.24.2/tests/ts/lscpu/dumps/s390-lpar.tar.gz
+util-linux-2.24.2/tests/ts/lscpu/dumps/x86_64-dell_e4310.tar.gz
+util-linux-2.24.2/tests/ts/ipcs/
+util-linux-2.24.2/tests/ts/ipcs/limits2
+util-linux-2.24.2/tests/ts/ipcs/headers
+util-linux-2.24.2/tests/ts/ipcs/mk-rm-sem
+util-linux-2.24.2/tests/ts/ipcs/limits
+util-linux-2.24.2/tests/ts/ipcs/mk-rm-shm
+util-linux-2.24.2/tests/ts/ipcs/mk-rm-msg
+util-linux-2.24.2/tests/ts/ipcs/functions.sh
+util-linux-2.24.2/tests/ts/hexdump/
+util-linux-2.24.2/tests/ts/hexdump/empty-format
+util-linux-2.24.2/tests/ts/partx/
+util-linux-2.24.2/tests/ts/partx/partx
+util-linux-2.24.2/tests/ts/script/
+util-linux-2.24.2/tests/ts/script/race
+util-linux-2.24.2/tests/ts/losetup/
+util-linux-2.24.2/tests/ts/losetup/losetup
+util-linux-2.24.2/tests/ts/hwclock/
+util-linux-2.24.2/tests/ts/hwclock/systohc
+util-linux-2.24.2/tests/ts/blkid/
+util-linux-2.24.2/tests/ts/blkid/md-raid1-part
+util-linux-2.24.2/tests/ts/blkid/md-raid0-whole
+util-linux-2.24.2/tests/ts/blkid/md-raid1-whole
+util-linux-2.24.2/tests/ts/blkid/images-fs/
+util-linux-2.24.2/tests/ts/blkid/images-fs/ubifs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/small-fat32.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/udf.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/tuxonice.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/silicon-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/xfs-log.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/hpt37x-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/ocfs2.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/gfs2.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/reiser3.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/vmfs_volume.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/f2fs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/swap0.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/adaptec-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/promise-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/jbd.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/bcache-C.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/lvm2.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/lsi-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/isw-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/xfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/swap1.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/romfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/iso-rr-joliet.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/jmicron-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/nilfs2.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/minix-LE.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/via-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/hfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/fat16_noheads.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/mdraid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/reiser4.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/netware.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/ext3.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/nvidia-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/befs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/hpt45x-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/zfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/iso-joliet.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/bfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/ufs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/vmfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/ntfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/ddf-raid.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/iso.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/cramfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/hfsplus.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/bcache-B.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/fat32_label_64MB.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/exfat.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/hpfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/minix-BE.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/ext2.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/fat.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-fs/jfs.img.bz2
+util-linux-2.24.2/tests/ts/blkid/lowprobe-pt
+util-linux-2.24.2/tests/ts/blkid/images-pt/
+util-linux-2.24.2/tests/ts/blkid/images-pt/sgi.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-pt/sun.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-pt/dos+bsd.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-pt/gpt.img.bz2
+util-linux-2.24.2/tests/ts/blkid/images-pt/bsd.img.bz2
+util-linux-2.24.2/tests/ts/blkid/low-probe
+util-linux-2.24.2/tests/ts/build-sys/
+util-linux-2.24.2/tests/ts/build-sys/config
+util-linux-2.24.2/tests/ts/tailf/
+util-linux-2.24.2/tests/ts/tailf/simple
+util-linux-2.24.2/tests/ts/libmount/
+util-linux-2.24.2/tests/ts/libmount/context-utab-py
+util-linux-2.24.2/tests/ts/libmount/lock
+util-linux-2.24.2/tests/ts/libmount/tabfiles
+util-linux-2.24.2/tests/ts/libmount/context-py
+util-linux-2.24.2/tests/ts/libmount/tabfiles-tags-py
+util-linux-2.24.2/tests/ts/libmount/utils
+util-linux-2.24.2/tests/ts/libmount/tabfiles-tags
+util-linux-2.24.2/tests/ts/libmount/files/
+util-linux-2.24.2/tests/ts/libmount/files/mountinfo_re
+util-linux-2.24.2/tests/ts/libmount/files/mountinfo_mv
+util-linux-2.24.2/tests/ts/libmount/files/fstab
+util-linux-2.24.2/tests/ts/libmount/files/mtab
+util-linux-2.24.2/tests/ts/libmount/files/mountinfo
+util-linux-2.24.2/tests/ts/libmount/files/kernel_cmdline
+util-linux-2.24.2/tests/ts/libmount/files/fstab.comment
+util-linux-2.24.2/tests/ts/libmount/files/mountinfo_u
+util-linux-2.24.2/tests/ts/libmount/files/fstab.broken
+util-linux-2.24.2/tests/ts/libmount/context-utab
+util-linux-2.24.2/tests/ts/libmount/optstr
+util-linux-2.24.2/tests/ts/libmount/context
+util-linux-2.24.2/tests/ts/libmount/tabdiff
+util-linux-2.24.2/tests/ts/libmount/tabfiles-py
+util-linux-2.24.2/tests/ts/libmount/update
+util-linux-2.24.2/tests/ts/libmount/update-py
+util-linux-2.24.2/tests/ts/login/
+util-linux-2.24.2/tests/ts/login/logindefs
+util-linux-2.24.2/tests/ts/login/islocal.data
+util-linux-2.24.2/tests/ts/login/logindefs.data
+util-linux-2.24.2/tests/ts/login/islocal
+util-linux-2.24.2/tests/ts/isosize/
+util-linux-2.24.2/tests/ts/isosize/sample.iso.gz
+util-linux-2.24.2/tests/ts/isosize/print-size
+util-linux-2.24.2/tests/ts/fdisk/
+util-linux-2.24.2/tests/ts/fdisk/gpt
+util-linux-2.24.2/tests/ts/fdisk/align-512-4K-md
+util-linux-2.24.2/tests/ts/fdisk/align-512-4K-63
+util-linux-2.24.2/tests/ts/fdisk/sunlabel
+util-linux-2.24.2/tests/ts/fdisk/mbr-dos-mode
+util-linux-2.24.2/tests/ts/fdisk/bsd
+util-linux-2.24.2/tests/ts/fdisk/align-512-4K
+util-linux-2.24.2/tests/ts/fdisk/align-512-512-topology
+util-linux-2.24.2/tests/ts/fdisk/mbr-sort
+util-linux-2.24.2/tests/ts/fdisk/mbr-nondos-mode
+util-linux-2.24.2/tests/ts/fdisk/oddinput
+util-linux-2.24.2/tests/ts/fdisk/id
+util-linux-2.24.2/tests/ts/fdisk/align-512-512
+util-linux-2.24.2/tests/ts/minix/
+util-linux-2.24.2/tests/ts/minix/fsck
+util-linux-2.24.2/tests/ts/minix/mkfs
+util-linux-2.24.2/tests/Makemodule.am
+util-linux-2.24.2/tests/functions.sh
+util-linux-2.24.2/include/
+util-linux-2.24.2/include/crc32.h
+util-linux-2.24.2/include/closestream.h
+util-linux-2.24.2/include/carefulputc.h
+util-linux-2.24.2/include/pt-sgi.h
+util-linux-2.24.2/include/exec_shell.h
+util-linux-2.24.2/include/bitops.h
+util-linux-2.24.2/include/md5.h
+util-linux-2.24.2/include/mbsalign.h
+util-linux-2.24.2/include/match.h
+util-linux-2.24.2/include/loopdev.h
+util-linux-2.24.2/include/fileutils.h
+util-linux-2.24.2/include/pt-mbr-partnames.h
+util-linux-2.24.2/include/pt-bsd.h
+util-linux-2.24.2/include/cpuset.h
+util-linux-2.24.2/include/colors.h
+util-linux-2.24.2/include/optutils.h
+util-linux-2.24.2/include/tt.h
+util-linux-2.24.2/include/all-io.h
+util-linux-2.24.2/include/pt-sun.h
+util-linux-2.24.2/include/ttyutils.h
+util-linux-2.24.2/include/timeutils.h
+util-linux-2.24.2/include/strutils.h
+util-linux-2.24.2/include/linux_version.h
+util-linux-2.24.2/include/timer.h
+util-linux-2.24.2/include/minix.h
+util-linux-2.24.2/include/xgetpass.h
+util-linux-2.24.2/include/ismounted.h
+util-linux-2.24.2/include/crc64.h
+util-linux-2.24.2/include/randutils.h
+util-linux-2.24.2/include/widechar.h
+util-linux-2.24.2/include/pt-mbr.h
+util-linux-2.24.2/include/xalloc.h
+util-linux-2.24.2/include/pathnames.h
+util-linux-2.24.2/include/linux_reboot.h
+util-linux-2.24.2/include/at.h
+util-linux-2.24.2/include/wholedisk.h
+util-linux-2.24.2/include/pamfail.h
+util-linux-2.24.2/include/exitcodes.h
+util-linux-2.24.2/include/canonicalize.h
+util-linux-2.24.2/include/env.h
+util-linux-2.24.2/include/procutils.h
+util-linux-2.24.2/include/namespace.h
+util-linux-2.24.2/include/list.h
+util-linux-2.24.2/include/sysfs.h
+util-linux-2.24.2/include/pager.h
+util-linux-2.24.2/include/blkdev.h
+util-linux-2.24.2/include/path.h
+util-linux-2.24.2/include/nls.h
+util-linux-2.24.2/include/swapheader.h
+util-linux-2.24.2/include/c.h
+util-linux-2.24.2/include/setproctitle.h
+util-linux-2.24.2/include/Makemodule.am
+util-linux-2.24.2/include/mangle.h
+util-linux-2.24.2/include/rpmatch.h
+util-linux-2.24.2/libfdisk/
+util-linux-2.24.2/libfdisk/src/
+util-linux-2.24.2/libfdisk/src/utils.c
+util-linux-2.24.2/libfdisk/src/ask.c
+util-linux-2.24.2/libfdisk/src/dos.c
+util-linux-2.24.2/libfdisk/src/context.c
+util-linux-2.24.2/libfdisk/src/test.c
+util-linux-2.24.2/libfdisk/src/libfdisk.h
+util-linux-2.24.2/libfdisk/src/gpt.c
+util-linux-2.24.2/libfdisk/src/init.c
+util-linux-2.24.2/libfdisk/src/sgi.c
+util-linux-2.24.2/libfdisk/src/parttype.c
+util-linux-2.24.2/libfdisk/src/sun.c
+util-linux-2.24.2/libfdisk/src/fdiskP.h
+util-linux-2.24.2/libfdisk/src/alignment.c
+util-linux-2.24.2/libfdisk/src/label.c
+util-linux-2.24.2/libfdisk/src/Makemodule.am
+util-linux-2.24.2/libfdisk/src/bsd.c
+util-linux-2.24.2/libfdisk/Makemodule.am
+util-linux-2.24.2/libmount/
+util-linux-2.24.2/libmount/COPYING
+util-linux-2.24.2/libmount/mount.pc.in
+util-linux-2.24.2/libmount/docs/
+util-linux-2.24.2/libmount/docs/Makefile.in
+util-linux-2.24.2/libmount/docs/version.xml
+util-linux-2.24.2/libmount/docs/libmount-sections.txt
+util-linux-2.24.2/libmount/docs/Makefile.am
+util-linux-2.24.2/libmount/docs/libmount-docs.xml
+util-linux-2.24.2/libmount/docs/version.xml.in
+util-linux-2.24.2/libmount/src/
+util-linux-2.24.2/libmount/src/libmount.sym
+util-linux-2.24.2/libmount/src/utils.c
+util-linux-2.24.2/libmount/src/context_mount.c
+util-linux-2.24.2/libmount/src/cache.c
+util-linux-2.24.2/libmount/src/mountP.h
+util-linux-2.24.2/libmount/src/iter.c
+util-linux-2.24.2/libmount/src/context.c
+util-linux-2.24.2/libmount/src/test.c
+util-linux-2.24.2/libmount/src/context_loopdev.c
+util-linux-2.24.2/libmount/src/lock.c
+util-linux-2.24.2/libmount/src/optstr.c
+util-linux-2.24.2/libmount/src/init.c
+util-linux-2.24.2/libmount/src/version.c
+util-linux-2.24.2/libmount/src/context_umount.c
+util-linux-2.24.2/libmount/src/tab_update.c
+util-linux-2.24.2/libmount/src/libmount.h
+util-linux-2.24.2/libmount/src/fs.c
+util-linux-2.24.2/libmount/src/tab_diff.c
+util-linux-2.24.2/libmount/src/libmount.h.in
+util-linux-2.24.2/libmount/src/Makemodule.am
+util-linux-2.24.2/libmount/src/tab.c
+util-linux-2.24.2/libmount/src/tab_parse.c
+util-linux-2.24.2/libmount/src/optmap.c
+util-linux-2.24.2/libmount/python/
+util-linux-2.24.2/libmount/python/context.c
+util-linux-2.24.2/libmount/python/pylibmount.c
+util-linux-2.24.2/libmount/python/__init__.py
+util-linux-2.24.2/libmount/python/fs.c
+util-linux-2.24.2/libmount/python/pylibmount.h
+util-linux-2.24.2/libmount/python/Makemodule.am
+util-linux-2.24.2/libmount/python/tab.c
+util-linux-2.24.2/libmount/Makemodule.am
+util-linux-2.24.2/sys-utils/
+util-linux-2.24.2/sys-utils/fsfreeze.c
+util-linux-2.24.2/sys-utils/readprofile.c
+util-linux-2.24.2/sys-utils/blkdiscard.8
+util-linux-2.24.2/sys-utils/flock.1
+util-linux-2.24.2/sys-utils/switch_root.8
+util-linux-2.24.2/sys-utils/unshare.c
+util-linux-2.24.2/sys-utils/tunelp.c
+util-linux-2.24.2/sys-utils/fallocate.c
+util-linux-2.24.2/sys-utils/prlimit.1
+util-linux-2.24.2/sys-utils/fstrim.c
+util-linux-2.24.2/sys-utils/fsfreeze.8
+util-linux-2.24.2/sys-utils/pivot_root.8
+util-linux-2.24.2/sys-utils/ipcmk.1
+util-linux-2.24.2/sys-utils/nsenter.c
+util-linux-2.24.2/sys-utils/ipcmk.c
+util-linux-2.24.2/sys-utils/swapoff.c
+util-linux-2.24.2/sys-utils/wdctl.c
+util-linux-2.24.2/sys-utils/mountpoint.c
+util-linux-2.24.2/sys-utils/nsenter.1
+util-linux-2.24.2/sys-utils/setarch.8
+util-linux-2.24.2/sys-utils/lscpu-dmi.c
+util-linux-2.24.2/sys-utils/setpriv.1
+util-linux-2.24.2/sys-utils/umount.8
+util-linux-2.24.2/sys-utils/ipcs.1
+util-linux-2.24.2/sys-utils/mount.8
+util-linux-2.24.2/sys-utils/ctrlaltdel.c
+util-linux-2.24.2/sys-utils/hwclock-rtc.c
+util-linux-2.24.2/sys-utils/hwclock.8
+util-linux-2.24.2/sys-utils/chcpu.c
+util-linux-2.24.2/sys-utils/fstrim.8
+util-linux-2.24.2/sys-utils/hwclock-kd.c
+util-linux-2.24.2/sys-utils/dmesg.1
+util-linux-2.24.2/sys-utils/eject.c
+util-linux-2.24.2/sys-utils/lscpu.1
+util-linux-2.24.2/sys-utils/rtcwake.c
+util-linux-2.24.2/sys-utils/mount.c
+util-linux-2.24.2/sys-utils/hwclock.c
+util-linux-2.24.2/sys-utils/wdctl.8
+util-linux-2.24.2/sys-utils/cyclades.h
+util-linux-2.24.2/sys-utils/losetup.c
+util-linux-2.24.2/sys-utils/fallocate.1
+util-linux-2.24.2/sys-utils/ldattach.8
+util-linux-2.24.2/sys-utils/losetup.8
+util-linux-2.24.2/sys-utils/setsid.c
+util-linux-2.24.2/sys-utils/swapon-common.h
+util-linux-2.24.2/sys-utils/umount.c
+util-linux-2.24.2/sys-utils/dmesg.c
+util-linux-2.24.2/sys-utils/setarch.c
+util-linux-2.24.2/sys-utils/ipcs.c
+util-linux-2.24.2/sys-utils/prlimit.c
+util-linux-2.24.2/sys-utils/swapon.c
+util-linux-2.24.2/sys-utils/rtcwake.8
+util-linux-2.24.2/sys-utils/lscpu.h
+util-linux-2.24.2/sys-utils/eject.1
+util-linux-2.24.2/sys-utils/ipcrm.1
+util-linux-2.24.2/sys-utils/pivot_root.c
+util-linux-2.24.2/sys-utils/ctrlaltdel.8
+util-linux-2.24.2/sys-utils/mountpoint.1
+util-linux-2.24.2/sys-utils/lscpu.c
+util-linux-2.24.2/sys-utils/flock.c
+util-linux-2.24.2/sys-utils/tunelp.8
+util-linux-2.24.2/sys-utils/unshare.1
+util-linux-2.24.2/sys-utils/cytune.8
+util-linux-2.24.2/sys-utils/swapon.8
+util-linux-2.24.2/sys-utils/readprofile.8
+util-linux-2.24.2/sys-utils/chcpu.8
+util-linux-2.24.2/sys-utils/cytune.c
+util-linux-2.24.2/sys-utils/ipcutils.c
+util-linux-2.24.2/sys-utils/renice.c
+util-linux-2.24.2/sys-utils/ipcutils.h
+util-linux-2.24.2/sys-utils/hwclock-cmos.c
+util-linux-2.24.2/sys-utils/blkdiscard.c
+util-linux-2.24.2/sys-utils/swapon-common.c
+util-linux-2.24.2/sys-utils/renice.1
+util-linux-2.24.2/sys-utils/swapoff.8
+util-linux-2.24.2/sys-utils/fstab.5
+util-linux-2.24.2/sys-utils/hwclock.h
+util-linux-2.24.2/sys-utils/setsid.1
+util-linux-2.24.2/sys-utils/ipcrm.c
+util-linux-2.24.2/sys-utils/Makemodule.am
+util-linux-2.24.2/sys-utils/lp.h
+util-linux-2.24.2/sys-utils/switch_root.c
+util-linux-2.24.2/sys-utils/setpriv.c
+util-linux-2.24.2/sys-utils/ldattach.c
+util-linux-2.24.2/libblkid/
+util-linux-2.24.2/libblkid/blkid.pc.in
+util-linux-2.24.2/libblkid/COPYING
+util-linux-2.24.2/libblkid/libblkid.3
+util-linux-2.24.2/libblkid/samples/
+util-linux-2.24.2/libblkid/samples/partitions.c
+util-linux-2.24.2/libblkid/samples/superblocks.c
+util-linux-2.24.2/libblkid/samples/mkfs.c
+util-linux-2.24.2/libblkid/samples/topology.c
+util-linux-2.24.2/libblkid/samples/Makemodule.am
+util-linux-2.24.2/libblkid/docs/
+util-linux-2.24.2/libblkid/docs/Makefile.in
+util-linux-2.24.2/libblkid/docs/libblkid-docs.xml
+util-linux-2.24.2/libblkid/docs/version.xml
+util-linux-2.24.2/libblkid/docs/Makefile.am
+util-linux-2.24.2/libblkid/docs/version.xml.in
+util-linux-2.24.2/libblkid/docs/libblkid-sections.txt
+util-linux-2.24.2/libblkid/docs/libblkid-config.xml
+util-linux-2.24.2/libblkid/src/
+util-linux-2.24.2/libblkid/src/config.c
+util-linux-2.24.2/libblkid/src/evaluate.c
+util-linux-2.24.2/libblkid/src/partitions/
+util-linux-2.24.2/libblkid/src/partitions/mac.c
+util-linux-2.24.2/libblkid/src/partitions/aix.h
+util-linux-2.24.2/libblkid/src/partitions/partitions.c
+util-linux-2.24.2/libblkid/src/partitions/minix.c
+util-linux-2.24.2/libblkid/src/partitions/dos.c
+util-linux-2.24.2/libblkid/src/partitions/partitions.h
+util-linux-2.24.2/libblkid/src/partitions/aix.c
+util-linux-2.24.2/libblkid/src/partitions/ultrix.c
+util-linux-2.24.2/libblkid/src/partitions/gpt.c
+util-linux-2.24.2/libblkid/src/partitions/sgi.c
+util-linux-2.24.2/libblkid/src/partitions/unixware.c
+util-linux-2.24.2/libblkid/src/partitions/sun.c
+util-linux-2.24.2/libblkid/src/partitions/solaris_x86.c
+util-linux-2.24.2/libblkid/src/partitions/bsd.c
+util-linux-2.24.2/libblkid/src/blkid.h.in
+util-linux-2.24.2/libblkid/src/save.c
+util-linux-2.24.2/libblkid/src/cache.c
+util-linux-2.24.2/libblkid/src/tag.c
+util-linux-2.24.2/libblkid/src/read.c
+util-linux-2.24.2/libblkid/src/devno.c
+util-linux-2.24.2/libblkid/src/blkid.h
+util-linux-2.24.2/libblkid/src/dev.c
+util-linux-2.24.2/libblkid/src/init.c
+util-linux-2.24.2/libblkid/src/superblocks/
+util-linux-2.24.2/libblkid/src/superblocks/btrfs.c
+util-linux-2.24.2/libblkid/src/superblocks/promise_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/xfs.c
+util-linux-2.24.2/libblkid/src/superblocks/vfat.c
+util-linux-2.24.2/libblkid/src/superblocks/vxfs.c
+util-linux-2.24.2/libblkid/src/superblocks/sysv.c
+util-linux-2.24.2/libblkid/src/superblocks/iso9660.c
+util-linux-2.24.2/libblkid/src/superblocks/cramfs.c
+util-linux-2.24.2/libblkid/src/superblocks/lvm.c
+util-linux-2.24.2/libblkid/src/superblocks/minix.c
+util-linux-2.24.2/libblkid/src/superblocks/jmicron_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/adaptec_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/luks.c
+util-linux-2.24.2/libblkid/src/superblocks/ddf_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/romfs.c
+util-linux-2.24.2/libblkid/src/superblocks/ufs.c
+util-linux-2.24.2/libblkid/src/superblocks/superblocks.c
+util-linux-2.24.2/libblkid/src/superblocks/netware.c
+util-linux-2.24.2/libblkid/src/superblocks/drbdproxy_datalog.c
+util-linux-2.24.2/libblkid/src/superblocks/superblocks.h
+util-linux-2.24.2/libblkid/src/superblocks/udf.c
+util-linux-2.24.2/libblkid/src/superblocks/highpoint_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/vmfs.c
+util-linux-2.24.2/libblkid/src/superblocks/ext.c
+util-linux-2.24.2/libblkid/src/superblocks/iso9660.h
+util-linux-2.24.2/libblkid/src/superblocks/gfs.c
+util-linux-2.24.2/libblkid/src/superblocks/swap.c
+util-linux-2.24.2/libblkid/src/superblocks/hpfs.c
+util-linux-2.24.2/libblkid/src/superblocks/ubifs.c
+util-linux-2.24.2/libblkid/src/superblocks/zfs.c
+util-linux-2.24.2/libblkid/src/superblocks/reiserfs.c
+util-linux-2.24.2/libblkid/src/superblocks/ocfs.c
+util-linux-2.24.2/libblkid/src/superblocks/hfs.c
+util-linux-2.24.2/libblkid/src/superblocks/exfat.c
+util-linux-2.24.2/libblkid/src/superblocks/bfs.c
+util-linux-2.24.2/libblkid/src/superblocks/isw_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/silicon_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/refs.c
+util-linux-2.24.2/libblkid/src/superblocks/via_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/befs.c
+util-linux-2.24.2/libblkid/src/superblocks/drbd.c
+util-linux-2.24.2/libblkid/src/superblocks/nilfs.c
+util-linux-2.24.2/libblkid/src/superblocks/nvidia_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/squashfs.c
+util-linux-2.24.2/libblkid/src/superblocks/lsi_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/linux_raid.c
+util-linux-2.24.2/libblkid/src/superblocks/ntfs.c
+util-linux-2.24.2/libblkid/src/superblocks/f2fs.c
+util-linux-2.24.2/libblkid/src/superblocks/jfs.c
+util-linux-2.24.2/libblkid/src/superblocks/bcache.c
+util-linux-2.24.2/libblkid/src/llseek.c
+util-linux-2.24.2/libblkid/src/resolve.c
+util-linux-2.24.2/libblkid/src/version.c
+util-linux-2.24.2/libblkid/src/getsize.c
+util-linux-2.24.2/libblkid/src/verify.c
+util-linux-2.24.2/libblkid/src/devname.c
+util-linux-2.24.2/libblkid/src/encode.c
+util-linux-2.24.2/libblkid/src/probe.c
+util-linux-2.24.2/libblkid/src/topology/
+util-linux-2.24.2/libblkid/src/topology/lvm.c
+util-linux-2.24.2/libblkid/src/topology/md.c
+util-linux-2.24.2/libblkid/src/topology/sysfs.c
+util-linux-2.24.2/libblkid/src/topology/topology.h
+util-linux-2.24.2/libblkid/src/topology/dm.c
+util-linux-2.24.2/libblkid/src/topology/ioctl.c
+util-linux-2.24.2/libblkid/src/topology/evms.c
+util-linux-2.24.2/libblkid/src/topology/topology.c
+util-linux-2.24.2/libblkid/src/blkidP.h
+util-linux-2.24.2/libblkid/src/blkid.sym
+util-linux-2.24.2/libblkid/src/Makemodule.am
+util-linux-2.24.2/libblkid/Makemodule.am
+util-linux-2.24.2/login-utils/
+util-linux-2.24.2/login-utils/vipw.c
+util-linux-2.24.2/login-utils/auth.c
+util-linux-2.24.2/login-utils/libuser.c
+util-linux-2.24.2/login-utils/runuser.1
+util-linux-2.24.2/login-utils/login.c
+util-linux-2.24.2/login-utils/setpwnam.c
+util-linux-2.24.2/login-utils/su-common.c
+util-linux-2.24.2/login-utils/lastb.1
+util-linux-2.24.2/login-utils/newgrp.1
+util-linux-2.24.2/login-utils/selinux_utils.h
+util-linux-2.24.2/login-utils/su-common.h
+util-linux-2.24.2/login-utils/last.1
+util-linux-2.24.2/login-utils/chsh.1
+util-linux-2.24.2/login-utils/chfn.1
+util-linux-2.24.2/login-utils/libuser.h
+util-linux-2.24.2/login-utils/login.1
+util-linux-2.24.2/login-utils/sulogin-consoles.h
+util-linux-2.24.2/login-utils/islocal.c
+util-linux-2.24.2/login-utils/logindefs.h
+util-linux-2.24.2/login-utils/nologin.c
+util-linux-2.24.2/login-utils/last.c
+util-linux-2.24.2/login-utils/vigr.8
+util-linux-2.24.2/login-utils/su.c
+util-linux-2.24.2/login-utils/vipw.8
+util-linux-2.24.2/login-utils/utmpdump.1
+util-linux-2.24.2/login-utils/selinux_utils.c
+util-linux-2.24.2/login-utils/nologin.8
+util-linux-2.24.2/login-utils/last-deprecated.c
+util-linux-2.24.2/login-utils/chsh.c
+util-linux-2.24.2/login-utils/islocal.h
+util-linux-2.24.2/login-utils/sulogin.8
+util-linux-2.24.2/login-utils/chfn.c
+util-linux-2.24.2/login-utils/su.1
+util-linux-2.24.2/login-utils/runuser.c
+util-linux-2.24.2/login-utils/sulogin.c
+util-linux-2.24.2/login-utils/last-deprecated.1
+util-linux-2.24.2/login-utils/sulogin-consoles.c
+util-linux-2.24.2/login-utils/utmpdump.c
+util-linux-2.24.2/login-utils/setpwnam.h
+util-linux-2.24.2/login-utils/Makemodule.am
+util-linux-2.24.2/login-utils/logindefs.c
+util-linux-2.24.2/login-utils/auth.h
+util-linux-2.24.2/login-utils/newgrp.c
+util-linux-2.24.2/configure
+util-linux-2.24.2/fdisks/
+util-linux-2.24.2/fdisks/fdisk-menu.c
+util-linux-2.24.2/fdisks/partname.h
+util-linux-2.24.2/fdisks/fdisk.8
+util-linux-2.24.2/fdisks/fdisk.h
+util-linux-2.24.2/fdisks/fdisk-ask.c
+util-linux-2.24.2/fdisks/partname.c
+util-linux-2.24.2/fdisks/sfdisk.8
+util-linux-2.24.2/fdisks/cfdisk.c
+util-linux-2.24.2/fdisks/fdisk.c
+util-linux-2.24.2/fdisks/Makemodule.am
+util-linux-2.24.2/fdisks/sfdisk.c
+util-linux-2.24.2/fdisks/cfdisk.8
+util-linux-2.24.2/aclocal.m4
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... config/install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking how to create a pax tar archive... gnutar
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+configure: Default --exec-prefix detected.
+configure:   --bindir defaults to /bin
+configure:   --sbindir defaults to /sbin
+checking whether gcc and cc understand -c and -o together... yes
+checking for gcc option to accept ISO C99... -std=gnu99
+checking for gcc -std=gnu99 option to accept ISO Standard C... (cached) -std=gnu99
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for an ANSI C-conforming const... yes
+checking for working volatile... yes
+checking whether byte ordering is bigendian... no
+checking whether compiler handles -fno-common... yes
+checking whether compiler handles -Wall... yes
+checking whether compiler handles -Werror=sequence-point... yes
+checking whether compiler handles -Wextra... yes
+checking whether compiler handles -Wmissing-declarations... yes
+checking whether compiler handles -Wmissing-parameter-type... yes
+checking whether compiler handles -Wmissing-prototypes... yes
+checking whether compiler handles -Wno-missing-field-initializers... yes
+checking whether compiler handles -Wredundant-decls... yes
+checking whether compiler handles -Wsign-compare... yes
+checking whether compiler handles -Wtype-limits... yes
+checking whether compiler handles -Wuninitialized... yes
+checking whether compiler handles -Wunused-but-set-parameter... yes
+checking whether compiler handles -Wunused-but-set-variable... yes
+checking whether compiler handles -Wunused-parameter... yes
+checking whether compiler handles -Wunused-result... yes
+checking whether compiler handles -Wunused-variable... yes
+checking whether compiler handles -Wnested-externs... yes
+checking whether compiler handles -Wpointer-arith... yes
+checking whether compiler handles -Wstrict-prototypes... yes
+checking whether compiler handles -Wformat-security... no
+checking whether compiler handles -Wno-clobbered... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc -std=gnu99... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -std=gnu99 object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -std=gnu99 supports -fno-rtti -fno-exceptions... no
+checking for gcc -std=gnu99 option to produce PIC... -fPIC -DPIC
+checking if gcc -std=gnu99 PIC flag -fPIC -DPIC works... yes
+checking if gcc -std=gnu99 static flag -static works... yes
+checking if gcc -std=gnu99 supports -c -o file.o... yes
+checking if gcc -std=gnu99 supports -c -o file.o... (cached) yes
+checking whether the gcc -std=gnu99 linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether to build gtk-doc documentation... no
+checking for gtkdoc-check... no
+checking for xsltproc... /usr/bin/xsltproc
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for linux/compiler.h... no
+checking for linux/blkpg.h... yes
+checking for linux/major.h... yes
+checking asm/io.h usability... no
+checking asm/io.h presence... no
+checking for asm/io.h... no
+checking err.h usability... yes
+checking err.h presence... yes
+checking for err.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for inttypes.h... (cached) yes
+checking linux/cdrom.h usability... yes
+checking linux/cdrom.h presence... yes
+checking for linux/cdrom.h... yes
+checking linux/falloc.h usability... yes
+checking linux/falloc.h presence... yes
+checking for linux/falloc.h... yes
+checking linux/watchdog.h usability... yes
+checking linux/watchdog.h presence... yes
+checking for linux/watchdog.h... yes
+checking linux/fd.h usability... yes
+checking linux/fd.h presence... yes
+checking for linux/fd.h... yes
+checking linux/raw.h usability... yes
+checking linux/raw.h presence... yes
+checking for linux/raw.h... yes
+checking linux/tiocl.h usability... yes
+checking linux/tiocl.h presence... yes
+checking for linux/tiocl.h... yes
+checking linux/version.h usability... yes
+checking linux/version.h presence... yes
+checking for linux/version.h... yes
+checking linux/securebits.h usability... yes
+checking linux/securebits.h presence... yes
+checking for linux/securebits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking mntent.h usability... yes
+checking mntent.h presence... yes
+checking for mntent.h... yes
+checking net/if.h usability... yes
+checking net/if.h presence... yes
+checking for net/if.h... yes
+checking net/if_dl.h usability... no
+checking net/if_dl.h presence... no
+checking for net/if_dl.h... no
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking pty.h usability... yes
+checking pty.h presence... yes
+checking for pty.h... yes
+checking security/pam_misc.h usability... no
+checking security/pam_misc.h presence... no
+checking for security/pam_misc.h... no
+checking for stdint.h... (cached) yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking for stdlib.h... (cached) yes
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking byteswap.h usability... yes
+checking byteswap.h presence... yes
+checking for byteswap.h... yes
+checking sys/endian.h usability... no
+checking sys/endian.h presence... no
+checking for sys/endian.h... no
+checking sys/disk.h usability... no
+checking sys/disk.h presence... no
+checking for sys/disk.h... no
+checking sys/disklabel.h usability... no
+checking sys/disklabel.h presence... no
+checking for sys/disklabel.h... no
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/io.h usability... yes
+checking sys/io.h presence... yes
+checking for sys/io.h... yes
+checking sys/ioccom.h usability... no
+checking sys/ioccom.h presence... no
+checking for sys/ioccom.h... no
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking sys/queue.h usability... yes
+checking sys/queue.h presence... yes
+checking for sys/queue.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/sockio.h usability... no
+checking sys/sockio.h presence... no
+checking for sys/sockio.h... no
+checking for sys/stat.h... (cached) yes
+checking sys/swap.h usability... yes
+checking sys/swap.h presence... yes
+checking for sys/swap.h... yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/ttydefaults.h usability... yes
+checking sys/ttydefaults.h presence... yes
+checking for sys/ttydefaults.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking for unistd.h... (cached) yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking for struct termios.c_line... yes
+checking for struct stat.st_mtim.tv_nsec... yes
+checking whether _NL_TIME_WEEK_1STDAY is declared... yes
+checking whether llseek is declared... no
+checking whether lseek64 is declared... yes
+checking whether environ is declared... yes
+checking whether strsignal is declared... yes
+checking for __fpending... yes
+checking for secure_getenv... yes
+checking for __secure_getenv... no
+checking for err... yes
+checking for errx... yes
+checking for fsync... yes
+checking for futimens... yes
+checking for getdomainname... yes
+checking for getdtablesize... yes
+checking for getexecname... no
+checking for getmntinfo... no
+checking for getrlimit... yes
+checking for inotify_init... yes
+checking for jrand48... yes
+checking for lchown... yes
+checking for llseek... yes
+checking for lseek64... yes
+checking for mempcpy... yes
+checking for nanosleep... yes
+checking for personality... yes
+checking for posix_fadvise... yes
+checking for prctl... yes
+checking for qsort_r... yes
+checking for rpmatch... yes
+checking for scandirat... yes
+checking for setresgid... yes
+checking for setresuid... yes
+checking for sigqueue... yes
+checking for srandom... yes
+checking for strnchr... no
+checking for strndup... yes
+checking for strnlen... yes
+checking for strtoull... yes
+checking for sysconf... yes
+checking for updwtmp... yes
+checking for usleep... yes
+checking for warn... yes
+checking for warnx... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for openat... yes
+checking for fstatat... yes
+checking for unlinkat... yes
+checking for ioperm... yes
+checking for iopl... yes
+checking for struct sockaddr.sa_len... no
+checking for library containing socket... none required
+checking for dirfd... yes
+checking whether program_invocation_short_name is defined... yes
+checking whether __progname is defined... yes
+checking whether the target supports thread-local storage... yes
+checking scanf string alloc modifiers... (%ms) yes
+checking for openpty in -lutil... yes
+checking for tgetnum in -ltermcap... yes
+checking for union semun... no
+checking for loff_t... yes
+checking for cpu_set_t... yes
+checking for sighandler_t... yes
+checking whether CPU_ALLOC is declared... yes
+checking crypt.h usability... yes
+checking crypt.h presence... yes
+checking for crypt.h... yes
+checking for udev_new in -ludev... yes
+checking for NCURSESW... yes
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking for TINFO... no
+checking for tgetent in -ltinfo... no
+checking for syscall fallocate... SYS_fallocate
+checking for valid fallocate() function... yes
+checking for syscall unshare... SYS_unshare
+checking for unshare... yes
+checking for syscall setns... SYS_setns
+checking for setns... yes
+checking for capng_apply in -lcap-ng... no
+configure: WARNING: libcap-ng library not found; do not build setpriv
+checking for crc32 in -lz... yes
+checking for syscall prlimit64... SYS_prlimit64
+checking for prlimit... yes
+checking for syscall pivot_root... SYS_pivot_root
+checking for LIBUSER... no
+configure: WARNING: PAM header file not found; do not build login
+configure: WARNING: PAM header file not found; do not build su
+configure: WARNING: PAM header file not found; do not build runuser
+checking for syscall ioprio_set... SYS_ioprio_set
+checking for syscall ioprio_get... SYS_ioprio_get
+checking for syscall sched_getaffinity... SYS_sched_getaffinity
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libblkid/docs/Makefile
+config.status: creating libblkid/docs/version.xml
+config.status: creating libblkid/src/blkid.h
+config.status: creating libmount/docs/Makefile
+config.status: creating libmount/docs/version.xml
+config.status: creating libmount/src/libmount.h
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+	util-linux  2.24.2
+
+	prefix:            /usr
+	exec prefix:       ${prefix}
+
+        localstatedir:     /var
+	bindir:	           /bin
+	sbindir:           /sbin
+	libdir:            /usr/lib
+	includedir:        ${prefix}/include
+        usrbin_execdir:    ${exec_prefix}/bin
+        usrsbin_execdir:   ${exec_prefix}/sbin
+        usrlib_execdir:    /usr/lib
+
+	compiler:          gcc -std=gnu99
+	cflags:            -g -O2
+	suid cflags:       
+	ldflags:           
+	suid ldflags:      
+
+	Python:            
+	Python version:    
+	Python libs:       
+
+	Bash completions:  ${datarootdir}/bash-completion/completions
+
+	warnings:
+
+ -fno-common -Wall -Werror=sequence-point -Wextra -Wmissing-declarations -Wmissing-parameter-type -Wmissing-prototypes -Wno-missing-field-initializers -Wredundant-decls -Wsign-compare -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-parameter -Wunused-result -Wunused-variable -Wnested-externs -Wpointer-arith -Wstrict-prototypes
+
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2/po'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+  CC       lib/libuuid_la-randutils.lo
+  CC       sys-utils/fstrim-fstrim.o
+  CC       sys-utils/ctrlaltdel.o
+  CC       sys-utils/fsfreeze.o
+  CC       sys-utils/blkdiscard.o
+  CC       sys-utils/losetup.o
+  CC       sys-utils/swapon-swapon.o
+  CC       sys-utils/swapon-swapon-common.o
+  CC       sys-utils/swapoff-swapoff.o
+  CC       sys-utils/swapoff-swapon-common.o
+  CC       sys-utils/chcpu.o
+  CC       sys-utils/pivot_root.o
+  CC       sys-utils/switch_root.o
+  CC       sys-utils/hwclock.o
+  CC       sys-utils/hwclock-cmos.o
+sys-utils/switch_root.c: In function ‘switchroot’:
+sys-utils/switch_root.c:187:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+        (stfs.f_type == STATFS_RAMFS_MAGIC ||
+                     ^
+  CC       sys-utils/hwclock-kd.o
+  CC       sys-utils/hwclock-rtc.o
+  CC       misc-utils/blkid-blkid.o
+  CC       misc-utils/findfs-findfs.o
+  CC       misc-utils/wipefs-wipefs.o
+  CC       text-utils/col.o
+  CC       text-utils/colcrt.o
+  CC       text-utils/colrm.o
+  CC       text-utils/column.o
+  CC       text-utils/conv.o
+  CC       text-utils/display.o
+  CC       text-utils/hexdump.o
+  CC       text-utils/hexsyntax.o
+  CC       text-utils/parse.o
+  CC       text-utils/rev.o
+  CC       text-utils/tailf.o
+  CC       text-utils/pg-pg.o
+  CC       text-utils/ul-ul.o
+  CC       term-utils/script.o
+  CC       term-utils/scriptreplay.o
+  CC       term-utils/setterm-setterm.o
+  CC       term-utils/mesg.o
+  CC       term-utils/wall-wall.o
+  CC       term-utils/wall-ttymsg.o
+  CC       login-utils/last.o
+  CC       lib/strutils.o
+  CC       login-utils/utmpdump.o
+  CC       sys-utils/flock.o
+  CC       sys-utils/ipcmk.o
+  CC       sys-utils/ipcrm.o
+  CC       sys-utils/ipcs.o
+  CC       sys-utils/ipcutils.o
+  CC       sys-utils/renice.o
+  CC       sys-utils/setsid.o
+  CC       sys-utils/cytune.o
+  CC       sys-utils/setarch.o
+  CC       sys-utils/eject-eject.o
+  CC       sys-utils/prlimit.o
+  CC       sys-utils/lscpu.o
+  CC       sys-utils/lscpu-dmi.o
+  CC       sys-utils/fallocate.o
+  CC       sys-utils/unshare-unshare.o
+  CC       sys-utils/nsenter.o
+  CC       misc-utils/cal-cal.o
+  CC       lib/cal-mbsalign.o
+  CC       lib/cal-strutils.o
+  CC       misc-utils/logger.o
+  CC       misc-utils/look.o
+  CC       misc-utils/mcookie.o
+  CC       lib/md5.o
+  CC       misc-utils/namei.o
+  CC       misc-utils/whereis.o
+  CC       misc-utils/lslocks-lslocks.o
+  CC       misc-utils/uuidgen-uuidgen.o
+  CC       misc-utils/rename.o
+  CC       misc-utils/getopt.o
+  CC       disk-utils/isosize.o
+  CC       sys-utils/readprofile.o
+  CC       sys-utils/ldattach.o
+  CC       sys-utils/rtcwake.o
+  CC       misc-utils/uuidd-uuidd.o
+  CC       disk-utils/fdformat.o
+  CC       disk-utils/partx-partx.o
+  CC       disk-utils/addpart.o
+  CC       disk-utils/delpart.o
+  CC       disk-utils/resizepart.o
+  GEN      misc-utils/uuidd.8
+  GEN      sys-utils/linux32.8
+  GEN      sys-utils/linux64.8
+  GEN      sys-utils/i386.8
+  GEN      libuuid/uuid.pc
+  GEN      libblkid/blkid.pc
+  GEN      libmount/mount.pc
+  CC       lib/libcommon_la-at.lo
+  CC       lib/libcommon_la-blkdev.lo
+  CC       lib/libcommon_la-canonicalize.lo
+  CC       lib/libcommon_la-colors.lo
+  CC       lib/libcommon_la-crc32.lo
+  CC       lib/libcommon_la-crc64.lo
+  CC       lib/libcommon_la-env.lo
+  CC       lib/libcommon_la-fileutils.lo
+  CC       lib/libcommon_la-ismounted.lo
+  CC       lib/libcommon_la-mangle.lo
+  CC       lib/libcommon_la-match.lo
+  CC       lib/libcommon_la-mbsalign.lo
+  CC       lib/libcommon_la-md5.lo
+  CC       lib/libcommon_la-pager.lo
+  CC       lib/libcommon_la-path.lo
+  CC       lib/libcommon_la-procutils.lo
+  CC       lib/libcommon_la-randutils.lo
+  CC       lib/libcommon_la-setproctitle.lo
+  CC       lib/libcommon_la-strutils.lo
+  CC       lib/libcommon_la-sysfs.lo
+  CC       lib/libcommon_la-tt.lo
+  CC       lib/libcommon_la-wholedisk.lo
+  CC       lib/libcommon_la-timeutils.lo
+  CC       lib/libcommon_la-ttyutils.lo
+  CC       lib/libcommon_la-xgetpass.lo
+  CC       lib/libcommon_la-exec_shell.lo
+  CC       lib/libcommon_la-linux_version.lo
+  CC       lib/libcommon_la-loopdev.lo
+  CC       lib/libcommon_la-cpuset.lo
+  CC       libfdisk/src/libfdisk_la-init.lo
+  CC       libfdisk/src/libfdisk_la-test.lo
+  CC       libfdisk/src/libfdisk_la-ask.lo
+  CC       libfdisk/src/libfdisk_la-alignment.lo
+  CC       libfdisk/src/libfdisk_la-label.lo
+  CC       libfdisk/src/libfdisk_la-utils.lo
+  CC       libfdisk/src/libfdisk_la-context.lo
+  CC       libfdisk/src/libfdisk_la-parttype.lo
+  CC       libfdisk/src/libfdisk_la-sun.lo
+  CC       libfdisk/src/libfdisk_la-sgi.lo
+  CC       libfdisk/src/libfdisk_la-dos.lo
+  CC       libfdisk/src/libfdisk_la-bsd.lo
+  CC       libfdisk/src/libfdisk_la-gpt.lo
+  CC       libblkid/src/libblkid_la-init.lo
+  CC       libblkid/src/libblkid_la-cache.lo
+  CC       libblkid/src/libblkid_la-config.lo
+  CC       libblkid/src/libblkid_la-dev.lo
+  CC       libblkid/src/libblkid_la-devname.lo
+  CC       libblkid/src/libblkid_la-devno.lo
+  CC       libblkid/src/libblkid_la-encode.lo
+  CC       libblkid/src/libblkid_la-evaluate.lo
+  CC       libblkid/src/libblkid_la-getsize.lo
+  CC       libblkid/src/libblkid_la-llseek.lo
+  CC       libblkid/src/libblkid_la-probe.lo
+  CC       libblkid/src/libblkid_la-read.lo
+  CC       libblkid/src/libblkid_la-resolve.lo
+  CC       libblkid/src/libblkid_la-save.lo
+  CC       libblkid/src/libblkid_la-tag.lo
+  CC       libblkid/src/libblkid_la-verify.lo
+  CC       libblkid/src/libblkid_la-version.lo
+  CC       libblkid/src/partitions/libblkid_la-aix.lo
+  CC       libblkid/src/partitions/libblkid_la-bsd.lo
+  CC       libblkid/src/partitions/libblkid_la-dos.lo
+  CC       libblkid/src/partitions/libblkid_la-gpt.lo
+  CC       libblkid/src/partitions/libblkid_la-mac.lo
+  CC       libblkid/src/partitions/libblkid_la-minix.lo
+  CC       libblkid/src/partitions/libblkid_la-partitions.lo
+  CC       libblkid/src/partitions/libblkid_la-sgi.lo
+  CC       libblkid/src/partitions/libblkid_la-solaris_x86.lo
+  CC       libblkid/src/partitions/libblkid_la-sun.lo
+  CC       libblkid/src/partitions/libblkid_la-ultrix.lo
+  CC       libblkid/src/partitions/libblkid_la-unixware.lo
+  CC       libblkid/src/superblocks/libblkid_la-adaptec_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-bcache.lo
+  CC       libblkid/src/superblocks/libblkid_la-befs.lo
+  CC       libblkid/src/superblocks/libblkid_la-bfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-btrfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-cramfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-ddf_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-drbd.lo
+  CC       libblkid/src/superblocks/libblkid_la-drbdproxy_datalog.lo
+  CC       libblkid/src/superblocks/libblkid_la-exfat.lo
+  CC       libblkid/src/superblocks/libblkid_la-ext.lo
+  CC       libblkid/src/superblocks/libblkid_la-f2fs.lo
+  CC       libblkid/src/superblocks/libblkid_la-gfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-hfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-highpoint_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-hpfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-iso9660.lo
+  CC       libblkid/src/superblocks/libblkid_la-isw_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-jfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-jmicron_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-linux_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-lsi_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-luks.lo
+  CC       libblkid/src/superblocks/libblkid_la-lvm.lo
+  CC       libblkid/src/superblocks/libblkid_la-minix.lo
+  CC       libblkid/src/superblocks/libblkid_la-netware.lo
+  CC       libblkid/src/superblocks/libblkid_la-nilfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-ntfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-refs.lo
+  CC       libblkid/src/superblocks/libblkid_la-nvidia_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-ocfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-promise_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-reiserfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-romfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-silicon_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-squashfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-superblocks.lo
+  CC       libblkid/src/superblocks/libblkid_la-swap.lo
+  CC       libblkid/src/superblocks/libblkid_la-sysv.lo
+  CC       libblkid/src/superblocks/libblkid_la-ubifs.lo
+  CC       libblkid/src/superblocks/libblkid_la-udf.lo
+  CC       libblkid/src/superblocks/libblkid_la-ufs.lo
+  CC       libblkid/src/superblocks/libblkid_la-vfat.lo
+  CC       libblkid/src/superblocks/libblkid_la-via_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-vmfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-vxfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-xfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-zfs.lo
+  CC       libblkid/src/topology/libblkid_la-topology.lo
+  CC       libblkid/src/topology/libblkid_la-dm.lo
+  CC       libblkid/src/topology/libblkid_la-evms.lo
+  CC       libblkid/src/topology/libblkid_la-ioctl.lo
+  CC       libblkid/src/topology/libblkid_la-lvm.lo
+  CC       libblkid/src/topology/libblkid_la-md.lo
+  CC       libblkid/src/topology/libblkid_la-sysfs.lo
+  CC       libuuid/src/libuuid_la-clear.lo
+  CC       libuuid/src/libuuid_la-compare.lo
+  CC       libuuid/src/libuuid_la-copy.lo
+  CC       libuuid/src/libuuid_la-gen_uuid.lo
+  CC       libuuid/src/libuuid_la-isnull.lo
+  CC       libuuid/src/libuuid_la-pack.lo
+  CC       libuuid/src/libuuid_la-parse.lo
+  CC       libuuid/src/libuuid_la-unpack.lo
+  CC       libuuid/src/libuuid_la-unparse.lo
+  CC       libuuid/src/libuuid_la-uuid_time.lo
+  CC       libmount/src/libmount_la-cache.lo
+  CC       libmount/src/libmount_la-context.lo
+  CC       libmount/src/libmount_la-context_loopdev.lo
+  CC       libmount/src/libmount_la-context_mount.lo
+  CC       libmount/src/libmount_la-context_umount.lo
+  CC       libmount/src/libmount_la-fs.lo
+  CC       libmount/src/libmount_la-init.lo
+  CC       libmount/src/libmount_la-iter.lo
+  CC       libmount/src/libmount_la-lock.lo
+  CC       libmount/src/libmount_la-optmap.lo
+  CC       libmount/src/libmount_la-optstr.lo
+  CC       libmount/src/libmount_la-tab.lo
+  CC       libmount/src/libmount_la-tab_diff.lo
+  CC       libmount/src/libmount_la-tab_parse.lo
+  CC       libmount/src/libmount_la-tab_update.lo
+  CC       libmount/src/libmount_la-test.lo
+  CC       libmount/src/libmount_la-utils.lo
+  CC       libmount/src/libmount_la-version.lo
+  CC       text-utils/more-more.o
+  CC       sys-utils/dmesg.o
+  CC       sys-utils/mount-mount.o
+  CC       sys-utils/umount-umount.o
+  CC       sys-utils/wdctl.o
+  CC       sys-utils/mountpoint-mountpoint.o
+  CC       misc-utils/lsblk-lsblk.o
+  CC       misc-utils/findmnt-findmnt.o
+  CC       misc-utils/kill.o
+  CC       term-utils/agetty.o
+  CC       login-utils/sulogin.o
+  CC       login-utils/sulogin-consoles.o
+  CC       login-utils/nologin.o
+  CCLD     ctrlaltdel
+  CCLD     fsfreeze
+  CCLD     pivot_root
+  CCLD     switch_root
+  CC       disk-utils/fsck.minix.o
+  CC       disk-utils/mkfs.minix.o
+  CC       disk-utils/mkfs.o
+  CC       disk-utils/mkfs.bfs.o
+  CC       disk-utils/mkswap-mkswap.o
+  CC       disk-utils/swaplabel-swaplabel.o
+  CC       disk-utils/fsck-fsck.o
+  CC       disk-utils/raw.o
+  CC       disk-utils/fsck.cramfs.o
+  CC       disk-utils/cramfs_common.o
+  CC       disk-utils/mkfs.cramfs.o
+  CC       disk-utils/blockdev.o
+  CC       fdisks/fdisk-fdisk.o
+  CC       fdisks/fdisk-fdisk-ask.o
+  CC       fdisks/fdisk-fdisk-menu.o
+  CC       fdisks/partname.o
+  CC       fdisks/cfdisk-cfdisk.o
+  CC       fdisks/sfdisk.o
+  CC       schedutils/chrt.o
+  CC       schedutils/ionice.o
+  CC       schedutils/taskset.o
+  CCLD     colcrt
+  CCLD     rev
+  CCLD     ul
+  CCLD     script
+  CCLD     scriptreplay
+  CCLD     setterm
+  CCLD     mesg
+  CCLD     utmpdump
+  CCLD     renice
+  CCLD     setsid
+  CCLD     setarch
+  CCLD     logger
+  CCLD     look
+  CCLD     mcookie
+  CCLD     namei
+  CCLD     rename
+  CCLD     getopt
+  CCLD     readprofile
+  CCLD     fdformat
+  CCLD     libcommon.la
+  CCLD     libuuid.la
+  CCLD     more
+  CCLD     nologin
+  CCLD     mkfs
+  CCLD     mkfs.bfs
+  CCLD     raw
+  CCLD     fsck.cramfs
+  CCLD     mkfs.cramfs
+  CCLD     blockdev
+  CCLD     sfdisk
+  CCLD     chrt
+  CCLD     ionice
+  CCLD     taskset
+  CCLD     col
+  CCLD     colrm
+  CCLD     column
+  CCLD     hexdump
+  CCLD     tailf
+  CCLD     pg
+  CCLD     wall
+  CCLD     last
+  CCLD     flock
+  CCLD     ipcmk
+  CCLD     ipcrm
+  CCLD     ipcs
+  CCLD     cytune
+  CCLD     prlimit
+  CCLD     lscpu
+  CCLD     fallocate
+  CCLD     unshare
+  CCLD     nsenter
+  CCLD     cal
+  CCLD     whereis
+  CCLD     uuidgen
+  CCLD     isosize
+  CCLD     ldattach
+  CCLD     rtcwake
+  CCLD     uuidd
+  CCLD     addpart
+  CCLD     delpart
+  CCLD     resizepart
+  CCLD     libblkid.la
+  CCLD     dmesg
+  CCLD     wdctl
+  CCLD     kill
+  CCLD     agetty
+  CCLD     sulogin
+  CCLD     blkdiscard
+copying selected object files to avoid basename conflicts...
+  CCLD     losetup
+  CCLD     chcpu
+  CCLD     hwclock
+  CCLD     blkid
+  CCLD     findfs
+  CCLD     wipefs
+  CCLD     fsck.minix
+  CCLD     mkfs.minix
+  CCLD     mkswap
+  CCLD     swaplabel
+  CCLD     cfdisk
+  CCLD     partx
+  CCLD     libfdisk.la
+  CCLD     libmount.la
+  CCLD     fdisk
+  CCLD     mount
+  CCLD     umount
+  CCLD     mountpoint
+  CCLD     lsblk
+  CCLD     findmnt
+  CCLD     fstrim
+  CCLD     swapon
+  CCLD     swapoff
+  CCLD     fsck
+  CCLD     eject
+  CCLD     lslocks
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+make  install-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+Making install in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2/po'
+/bin/sh ../config/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/ca/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/cs/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/da/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/de/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/es/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/et/LC_MESSAGES
+installing et.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/et/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/eu/LC_MESSAGES
+installing eu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/eu/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/fi/LC_MESSAGES
+installing fi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/fi/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/fr/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/gl/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/hr/LC_MESSAGES
+installing hr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/hr/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/hu/LC_MESSAGES
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/hu/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/id/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/it/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/ja/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/nl/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/pl/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/pt_BR/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/ru/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/sl/LC_MESSAGES
+installing sl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/sl/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/sv/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/tr/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/uk/LC_MESSAGES
+installing uk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/uk/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/vi/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/zh_CN/LC_MESSAGES/util-linux.mo
+mkdir -p -- /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/locale/zh_TW/LC_MESSAGES/util-linux.mo
+if test "util-linux" = "gettext-tools"; then \
+  /bin/sh ../config/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/ginstall -c -m 644 ./$file \
+		    /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2/po'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/ginstall -c more dmesg mount umount wdctl mountpoint lsblk findmnt kill '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin'
+libtool: install: /usr/bin/ginstall -c more /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/more
+libtool: install: /usr/bin/ginstall -c dmesg /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/dmesg
+libtool: install: /usr/bin/ginstall -c .libs/mount /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/mount
+libtool: install: /usr/bin/ginstall -c .libs/umount /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/umount
+libtool: install: /usr/bin/ginstall -c wdctl /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/wdctl
+libtool: install: /usr/bin/ginstall -c .libs/mountpoint /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/mountpoint
+libtool: install: /usr/bin/ginstall -c .libs/lsblk /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/lsblk
+libtool: install: /usr/bin/ginstall -c .libs/findmnt /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/findmnt
+libtool: install: /usr/bin/ginstall -c kill /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/kill
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin'
+  /bin/sh ./libtool   --mode=install /usr/bin/ginstall -c agetty sulogin nologin fstrim ctrlaltdel fsfreeze blkdiscard losetup swapon swapoff chcpu pivot_root switch_root hwclock blkid findfs wipefs fsck.minix mkfs.minix mkfs mkfs.bfs mkswap swaplabel fsck raw fsck.cramfs mkfs.cramfs blockdev fdisk sfdisk cfdisk '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin'
+libtool: install: /usr/bin/ginstall -c agetty /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/agetty
+libtool: install: /usr/bin/ginstall -c sulogin /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/sulogin
+libtool: install: /usr/bin/ginstall -c nologin /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/nologin
+libtool: install: /usr/bin/ginstall -c .libs/fstrim /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/fstrim
+libtool: install: /usr/bin/ginstall -c ctrlaltdel /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/ctrlaltdel
+libtool: install: /usr/bin/ginstall -c fsfreeze /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/fsfreeze
+libtool: install: /usr/bin/ginstall -c blkdiscard /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/blkdiscard
+libtool: install: /usr/bin/ginstall -c losetup /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/losetup
+libtool: install: /usr/bin/ginstall -c .libs/swapon /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/swapon
+libtool: install: /usr/bin/ginstall -c .libs/swapoff /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/swapoff
+libtool: install: /usr/bin/ginstall -c chcpu /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/chcpu
+libtool: install: /usr/bin/ginstall -c pivot_root /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/pivot_root
+libtool: install: /usr/bin/ginstall -c switch_root /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/switch_root
+libtool: install: /usr/bin/ginstall -c hwclock /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/hwclock
+libtool: install: /usr/bin/ginstall -c .libs/blkid /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/blkid
+libtool: install: /usr/bin/ginstall -c .libs/findfs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/findfs
+libtool: install: /usr/bin/ginstall -c .libs/wipefs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/wipefs
+libtool: install: /usr/bin/ginstall -c fsck.minix /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/fsck.minix
+libtool: install: /usr/bin/ginstall -c mkfs.minix /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/mkfs.minix
+libtool: install: /usr/bin/ginstall -c mkfs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/mkfs
+libtool: install: /usr/bin/ginstall -c mkfs.bfs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/mkfs.bfs
+libtool: install: /usr/bin/ginstall -c .libs/mkswap /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/mkswap
+libtool: install: /usr/bin/ginstall -c .libs/swaplabel /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/swaplabel
+libtool: install: /usr/bin/ginstall -c .libs/fsck /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/fsck
+libtool: install: /usr/bin/ginstall -c raw /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/raw
+libtool: install: /usr/bin/ginstall -c fsck.cramfs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/fsck.cramfs
+libtool: install: /usr/bin/ginstall -c mkfs.cramfs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/mkfs.cramfs
+libtool: install: /usr/bin/ginstall -c blockdev /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/blockdev
+libtool: install: /usr/bin/ginstall -c .libs/fdisk /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/fdisk
+libtool: install: /usr/bin/ginstall -c sfdisk /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/sfdisk
+libtool: install: /usr/bin/ginstall -c .libs/cfdisk /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/sbin/cfdisk
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/ginstall -c chrt ionice taskset col colcrt colrm column hexdump rev tailf pg ul script scriptreplay setterm mesg wall last utmpdump flock ipcmk ipcrm ipcs renice setsid cytune setarch eject prlimit lscpu fallocate unshare nsenter cal logger look mcookie namei whereis lslocks uuidgen rename getopt isosize '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c chrt /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/chrt
+libtool: install: /usr/bin/ginstall -c ionice /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/ionice
+libtool: install: /usr/bin/ginstall -c taskset /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/taskset
+libtool: install: /usr/bin/ginstall -c col /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/col
+libtool: install: /usr/bin/ginstall -c colcrt /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/colcrt
+libtool: install: /usr/bin/ginstall -c colrm /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/colrm
+libtool: install: /usr/bin/ginstall -c column /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/column
+libtool: install: /usr/bin/ginstall -c hexdump /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/hexdump
+libtool: install: /usr/bin/ginstall -c rev /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/rev
+libtool: install: /usr/bin/ginstall -c tailf /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/tailf
+libtool: install: /usr/bin/ginstall -c pg /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/pg
+libtool: install: /usr/bin/ginstall -c ul /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/ul
+libtool: install: /usr/bin/ginstall -c script /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/script
+libtool: install: /usr/bin/ginstall -c scriptreplay /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/scriptreplay
+libtool: install: /usr/bin/ginstall -c setterm /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/setterm
+libtool: install: /usr/bin/ginstall -c mesg /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/mesg
+libtool: install: /usr/bin/ginstall -c wall /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/wall
+libtool: install: /usr/bin/ginstall -c last /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/last
+libtool: install: /usr/bin/ginstall -c utmpdump /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/utmpdump
+libtool: install: /usr/bin/ginstall -c flock /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/flock
+libtool: install: /usr/bin/ginstall -c ipcmk /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/ipcmk
+libtool: install: /usr/bin/ginstall -c ipcrm /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/ipcrm
+libtool: install: /usr/bin/ginstall -c ipcs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/ipcs
+libtool: install: /usr/bin/ginstall -c renice /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/renice
+libtool: install: /usr/bin/ginstall -c setsid /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/setsid
+libtool: install: /usr/bin/ginstall -c cytune /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/cytune
+libtool: install: /usr/bin/ginstall -c setarch /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/setarch
+libtool: install: /usr/bin/ginstall -c .libs/eject /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/eject
+libtool: install: /usr/bin/ginstall -c prlimit /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/prlimit
+libtool: install: /usr/bin/ginstall -c lscpu /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/lscpu
+libtool: install: /usr/bin/ginstall -c fallocate /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/fallocate
+libtool: install: /usr/bin/ginstall -c unshare /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/unshare
+libtool: install: /usr/bin/ginstall -c nsenter /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/nsenter
+libtool: install: /usr/bin/ginstall -c cal /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/cal
+libtool: install: /usr/bin/ginstall -c logger /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/logger
+libtool: install: /usr/bin/ginstall -c look /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/look
+libtool: install: /usr/bin/ginstall -c mcookie /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/mcookie
+libtool: install: /usr/bin/ginstall -c namei /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/namei
+libtool: install: /usr/bin/ginstall -c whereis /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/whereis
+libtool: install: /usr/bin/ginstall -c .libs/lslocks /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/lslocks
+libtool: install: /usr/bin/ginstall -c .libs/uuidgen /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/uuidgen
+libtool: install: /usr/bin/ginstall -c rename /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/rename
+libtool: install: /usr/bin/ginstall -c getopt /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/getopt
+libtool: install: /usr/bin/ginstall -c isosize /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/isosize
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/ginstall -c   libuuid.la libblkid.la libmount.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/libuuid.so.1.3.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libuuid.so.1.3.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && { ln -s -f libuuid.so.1.3.0 libuuid.so.1 || { rm -f libuuid.so.1 && ln -s libuuid.so.1.3.0 libuuid.so.1; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && { ln -s -f libuuid.so.1.3.0 libuuid.so || { rm -f libuuid.so && ln -s libuuid.so.1.3.0 libuuid.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libuuid.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libuuid.la
+libtool: install: warning: relinking `libblkid.la'
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2; /bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2/libtool  --silent --tag CC --mode=relink gcc -std=gnu99 -I./libblkid/src -I./libblkid/src -I./libuuid/src -g -O2 -Wl,--version-script=./libblkid/src/blkid.sym -version-info 2:0:1 -o libblkid.la -rpath /usr/lib libblkid/src/libblkid_la-init.lo libblkid/src/libblkid_la-cache.lo libblkid/src/libblkid_la-config.lo libblkid/src/libblkid_la-dev.lo libblkid/src/libblkid_la-devname.lo libblkid/src/libblkid_la-devno.lo libblkid/src/libblkid_la-encode.lo libblkid/src/libblkid_la-evaluate.lo libblkid/src/libblkid_la-getsize.lo libblkid/src/libblkid_la-llseek.lo libblkid/src/libblkid_la-probe.lo libblkid/src/libblkid_la-read.lo libblkid/src/libblkid_la-resolve.lo libblkid/src/libblkid_la-save.lo libblkid/src/libblkid_la-tag.lo libblkid/src/libblkid_la-verify.lo libblkid/src/libblkid_la-version.lo libblkid/src/partitions/libblkid_la-aix.lo libblkid/src/partitions/libblkid_la-bsd.lo libblkid/src/partitions/libblkid_la-dos.lo libblkid/src/partitions/libblkid_la-gpt.lo libblkid/src/partitions/libblkid_la-mac.lo libblkid/src/partitions/libblkid_la-minix.lo libblkid/src/partitions/libblkid_la-partitions.lo libblkid/src/partitions/libblkid_la-sgi.lo libblkid/src/partitions/libblkid_la-solaris_x86.lo libblkid/src/partitions/libblkid_la-sun.lo libblkid/src/partitions/libblkid_la-ultrix.lo libblkid/src/partitions/libblkid_la-unixware.lo libblkid/src/superblocks/libblkid_la-adaptec_raid.lo libblkid/src/superblocks/libblkid_la-bcache.lo libblkid/src/superblocks/libblkid_la-befs.lo libblkid/src/superblocks/libblkid_la-bfs.lo libblkid/src/superblocks/libblkid_la-btrfs.lo libblkid/src/superblocks/libblkid_la-cramfs.lo libblkid/src/superblocks/libblkid_la-ddf_raid.lo libblkid/src/superblocks/libblkid_la-drbd.lo libblkid/src/superblocks/libblkid_la-drbdproxy_datalog.lo libblkid/src/superblocks/libblkid_la-exfat.lo libblkid/src/superblocks/libblkid_la-ext.lo libblkid/src/superblocks/libblkid_la-f2fs.lo libblkid/src/superblocks/libblkid_la-gfs.lo libblkid/src/superblocks/libblkid_la-hfs.lo libblkid/src/superblocks/libblkid_la-highpoint_raid.lo libblkid/src/superblocks/libblkid_la-hpfs.lo libblkid/src/superblocks/libblkid_la-iso9660.lo libblkid/src/superblocks/libblkid_la-isw_raid.lo libblkid/src/superblocks/libblkid_la-jfs.lo libblkid/src/superblocks/libblkid_la-jmicron_raid.lo libblkid/src/superblocks/libblkid_la-linux_raid.lo libblkid/src/superblocks/libblkid_la-lsi_raid.lo libblkid/src/superblocks/libblkid_la-luks.lo libblkid/src/superblocks/libblkid_la-lvm.lo libblkid/src/superblocks/libblkid_la-minix.lo libblkid/src/superblocks/libblkid_la-netware.lo libblkid/src/superblocks/libblkid_la-nilfs.lo libblkid/src/superblocks/libblkid_la-ntfs.lo libblkid/src/superblocks/libblkid_la-refs.lo libblkid/src/superblocks/libblkid_la-nvidia_raid.lo libblkid/src/superblocks/libblkid_la-ocfs.lo libblkid/src/superblocks/libblkid_la-promise_raid.lo libblkid/src/superblocks/libblkid_la-reiserfs.lo libblkid/src/superblocks/libblkid_la-romfs.lo libblkid/src/superblocks/libblkid_la-silicon_raid.lo libblkid/src/superblocks/libblkid_la-squashfs.lo libblkid/src/superblocks/libblkid_la-superblocks.lo libblkid/src/superblocks/libblkid_la-swap.lo libblkid/src/superblocks/libblkid_la-sysv.lo libblkid/src/superblocks/libblkid_la-ubifs.lo libblkid/src/superblocks/libblkid_la-udf.lo libblkid/src/superblocks/libblkid_la-ufs.lo libblkid/src/superblocks/libblkid_la-vfat.lo libblkid/src/superblocks/libblkid_la-via_raid.lo libblkid/src/superblocks/libblkid_la-vmfs.lo libblkid/src/superblocks/libblkid_la-vxfs.lo libblkid/src/superblocks/libblkid_la-xfs.lo libblkid/src/superblocks/libblkid_la-zfs.lo libblkid/src/topology/libblkid_la-topology.lo libblkid/src/topology/libblkid_la-dm.lo libblkid/src/topology/libblkid_la-evms.lo libblkid/src/topology/libblkid_la-ioctl.lo libblkid/src/topology/libblkid_la-lvm.lo libblkid/src/topology/libblkid_la-md.lo libblkid/src/topology/libblkid_la-sysfs.lo libcommon.la libuuid.la -inst-prefix-dir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install)
+libtool: install: /usr/bin/ginstall -c .libs/libblkid.so.1.1.0T /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libblkid.so.1.1.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && { ln -s -f libblkid.so.1.1.0 libblkid.so.1 || { rm -f libblkid.so.1 && ln -s libblkid.so.1.1.0 libblkid.so.1; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && { ln -s -f libblkid.so.1.1.0 libblkid.so || { rm -f libblkid.so && ln -s libblkid.so.1.1.0 libblkid.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libblkid.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libblkid.la
+libtool: install: warning: relinking `libmount.la'
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2; /bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2/libtool  --silent --tag CC --mode=relink gcc -std=gnu99 -I./libblkid/src -I./libmount/src -I./libmount/src -g -O2 -Wl,--version-script=./libmount/src/libmount.sym -version-info 2:0:1 -o libmount.la -rpath /usr/lib libmount/src/libmount_la-cache.lo libmount/src/libmount_la-context.lo libmount/src/libmount_la-context_loopdev.lo libmount/src/libmount_la-context_mount.lo libmount/src/libmount_la-context_umount.lo libmount/src/libmount_la-fs.lo libmount/src/libmount_la-init.lo libmount/src/libmount_la-iter.lo libmount/src/libmount_la-lock.lo libmount/src/libmount_la-optmap.lo libmount/src/libmount_la-optstr.lo libmount/src/libmount_la-tab.lo libmount/src/libmount_la-tab_diff.lo libmount/src/libmount_la-tab_parse.lo libmount/src/libmount_la-tab_update.lo libmount/src/libmount_la-test.lo libmount/src/libmount_la-utils.lo libmount/src/libmount_la-version.lo libcommon.la libblkid.la -inst-prefix-dir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install)
+libtool: install: /usr/bin/ginstall -c .libs/libmount.so.1.1.0T /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libmount.so.1.1.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && { ln -s -f libmount.so.1.1.0 libmount.so.1 || { rm -f libmount.so.1 && ln -s libmount.so.1.1.0 libmount.so.1; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && { ln -s -f libmount.so.1.1.0 libmount.so || { rm -f libmount.so && ln -s libmount.so.1.1.0 libmount.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libmount.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libmount.la
+libtool: install: /usr/bin/ginstall -c .libs/libuuid.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libuuid.a
+libtool: install: chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libuuid.a
+libtool: install: ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libuuid.a
+libtool: install: /usr/bin/ginstall -c .libs/libblkid.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libblkid.a
+libtool: install: chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libblkid.a
+libtool: install: ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libblkid.a
+libtool: install: /usr/bin/ginstall -c .libs/libmount.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libmount.a
+libtool: install: chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libmount.a
+libtool: install: ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libmount.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin'
+  /bin/sh ./libtool   --mode=install /usr/bin/ginstall -c readprofile ldattach rtcwake uuidd fdformat partx addpart delpart resizepart '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin'
+libtool: install: /usr/bin/ginstall -c readprofile /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/readprofile
+libtool: install: /usr/bin/ginstall -c ldattach /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/ldattach
+libtool: install: /usr/bin/ginstall -c rtcwake /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/rtcwake
+libtool: install: /usr/bin/ginstall -c .libs/uuidd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/uuidd
+libtool: install: /usr/bin/ginstall -c fdformat /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/fdformat
+libtool: install: /usr/bin/ginstall -c .libs/partx /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/partx
+libtool: install: /usr/bin/ginstall -c addpart /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/addpart
+libtool: install: /usr/bin/ginstall -c delpart /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/delpart
+libtool: install: /usr/bin/ginstall -c resizepart /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/sbin/resizepart
+make  install-exec-hook
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+if test "/usr/lib" != "/usr/lib"; then \
+	mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib; \
+	mv /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libuuid.so.* /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib; \
+	so_img_name=$(readlink /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libuuid.so); \
+	so_img_rel_target=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && \
+		rm -f libuuid.so && \
+		ln -s $so_img_rel_target/usr/lib/$so_img_name libuuid.so); \
+fi
+if test "/usr/lib" != "/usr/lib"; then \
+	mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib; \
+	mv /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libblkid.so.* /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib; \
+	so_img_name=$(readlink /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libblkid.so); \
+	so_img_rel_target=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && \
+		rm -f libblkid.so && \
+		ln -s $so_img_rel_target/usr/lib/$so_img_name libblkid.so); \
+fi
+if test "/usr/lib" != "/usr/lib"; then \
+	mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib; \
+	mv /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libmount.so.* /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib; \
+	so_img_name=$(readlink /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/libmount.so); \
+	so_img_rel_target=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib && \
+		rm -f libmount.so && \
+		ln -s $so_img_rel_target/usr/lib/$so_img_name libmount.so); \
+fi
+chgrp tty /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/wall
+chmod g+s /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin/wall
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin && ln -sf last lastb
+for I in linux32 linux64  i386      ; do \
+	cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/bin && ln -sf setarch $I ; \
+done
+chmod 4755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/mount
+chmod 4755 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/bin/umount
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/bash-completion/completions'
+ /usr/bin/ginstall -c -m 644 bash-completion/blkid bash-completion/cal bash-completion/col bash-completion/colcrt bash-completion/colrm bash-completion/column bash-completion/findmnt bash-completion/flock bash-completion/fsck.minix bash-completion/getopt bash-completion/hexdump bash-completion/ipcrm bash-completion/ipcs bash-completion/isosize bash-completion/logger bash-completion/look bash-completion/mcookie bash-completion/mkfs bash-completion/mkfs.minix bash-completion/mkswap bash-completion/namei bash-completion/prlimit bash-completion/readprofile bash-completion/renice bash-completion/rev bash-completion/script bash-completion/scriptreplay bash-completion/setsid bash-completion/tailf bash-completion/whereis bash-completion/wipefs bash-completion/mkfs.bfs bash-completion/fsck.cramfs bash-completion/mkfs.cramfs bash-completion/fsck bash-completion/addpart bash-completion/delpart bash-completion/resizepart bash-completion/partx bash-completion/raw '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/bash-completion/completions'
+ /usr/bin/ginstall -c -m 644 bash-completion/swaplabel bash-completion/fdformat bash-completion/blockdev bash-completion/fdisk bash-completion/sfdisk bash-completion/cfdisk bash-completion/utmpdump bash-completion/uuidgen bash-completion/uuidd bash-completion/lsblk bash-completion/lslocks bash-completion/rename bash-completion/chrt bash-completion/ionice bash-completion/taskset bash-completion/chcpu bash-completion/eject bash-completion/fallocate bash-completion/hwclock bash-completion/lscpu bash-completion/losetup bash-completion/mountpoint bash-completion/nsenter bash-completion/pivot_root bash-completion/swapon bash-completion/unshare bash-completion/wdctl bash-completion/cytune bash-completion/blkdiscard bash-completion/ctrlaltdel bash-completion/dmesg bash-completion/fsfreeze bash-completion/fstrim bash-completion/ldattach bash-completion/rtcwake bash-completion/setarch bash-completion/mesg bash-completion/wall bash-completion/setterm bash-completion/more '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/bash-completion/completions'
+ /usr/bin/ginstall -c -m 644 bash-completion/pg bash-completion/ul '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/bash-completion/completions'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/doc/util-linux/getopt/'
+ /usr/bin/ginstall -c misc-utils/getopt-parse.bash misc-utils/getopt-parse.tcsh '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/doc/util-linux/getopt/'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 schedutils/chrt.1 schedutils/ionice.1 schedutils/taskset.1 text-utils/col.1 text-utils/colcrt.1 text-utils/colrm.1 text-utils/column.1 text-utils/hexdump.1 text-utils/rev.1 text-utils/tailf.1 text-utils/pg.1 text-utils/ul.1 text-utils/more.1 term-utils/script.1 term-utils/scriptreplay.1 term-utils/setterm.1 term-utils/mesg.1 term-utils/wall.1 login-utils/last.1 login-utils/lastb.1 login-utils/utmpdump.1 sys-utils/flock.1 sys-utils/ipcmk.1 sys-utils/ipcrm.1 sys-utils/ipcs.1 sys-utils/renice.1 sys-utils/setsid.1 sys-utils/dmesg.1 sys-utils/eject.1 sys-utils/prlimit.1 sys-utils/lscpu.1 sys-utils/mountpoint.1 sys-utils/fallocate.1 sys-utils/unshare.1 sys-utils/nsenter.1 misc-utils/cal.1 misc-utils/logger.1 misc-utils/look.1 misc-utils/mcookie.1 misc-utils/namei.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 misc-utils/whereis.1 misc-utils/uuidgen.1 misc-utils/kill.1 misc-utils/rename.1 misc-utils/getopt.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man1'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man3'
+ /usr/bin/ginstall -c -m 644 libuuid/man/uuid.3 libuuid/man/uuid_clear.3 libuuid/man/uuid_compare.3 libuuid/man/uuid_copy.3 libuuid/man/uuid_generate.3 libuuid/man/uuid_is_null.3 libuuid/man/uuid_parse.3 libuuid/man/uuid_time.3 libuuid/man/uuid_unparse.3 libuuid/man/uuid_generate_random.3 libuuid/man/uuid_generate_time.3 libuuid/man/uuid_generate_time_safe.3 libblkid/libblkid.3 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man3'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man5'
+ /usr/bin/ginstall -c -m 644 sys-utils/fstab.5 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man5'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man8'
+ /usr/bin/ginstall -c -m 644 term-utils/agetty.8 login-utils/sulogin.8 login-utils/nologin.8 sys-utils/readprofile.8 sys-utils/cytune.8 sys-utils/fstrim.8 sys-utils/ctrlaltdel.8 sys-utils/fsfreeze.8 sys-utils/blkdiscard.8 sys-utils/ldattach.8 sys-utils/rtcwake.8 sys-utils/setarch.8 sys-utils/losetup.8 sys-utils/mount.8 sys-utils/umount.8 sys-utils/swapoff.8 sys-utils/swapon.8 sys-utils/chcpu.8 sys-utils/wdctl.8 sys-utils/pivot_root.8 sys-utils/switch_root.8 sys-utils/hwclock.8 misc-utils/lslocks.8 misc-utils/lsblk.8 misc-utils/uuidd.8 misc-utils/blkid.8 misc-utils/findfs.8 misc-utils/wipefs.8 misc-utils/findmnt.8 disk-utils/fsck.minix.8 disk-utils/mkfs.minix.8 disk-utils/mkfs.8 disk-utils/isosize.8 disk-utils/mkfs.bfs.8 disk-utils/mkswap.8 disk-utils/swaplabel.8 disk-utils/fsck.8 disk-utils/raw.8 disk-utils/fsck.cramfs.8 disk-utils/mkfs.cramfs.8 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man8'
+ /usr/bin/ginstall -c -m 644 disk-utils/fdformat.8 disk-utils/blockdev.8 disk-utils/addpart.8 disk-utils/delpart.8 disk-utils/resizepart.8 disk-utils/partx.8 fdisks/fdisk.8 fdisks/sfdisk.8 fdisks/cfdisk.8 sys-utils/linux32.8 sys-utils/linux64.8 sys-utils/i386.8 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/share/man/man8'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/include/blkid'
+ /usr/bin/ginstall -c -m 644 ./libblkid/src/blkid.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/include/blkid'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/include/libmount'
+ /usr/bin/ginstall -c -m 644 ./libmount/src/libmount.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/include/libmount'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/pkgconfig'
+ /usr/bin/ginstall -c -m 644 libuuid/uuid.pc libblkid/blkid.pc libmount/mount.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/lib/pkgconfig'
+ config/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/include/uuid'
+ /usr/bin/ginstall -c -m 644 libuuid/src/uuid.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-install/usr/include/uuid'
+make  install-data-hook
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+make[4]: Nothing to be done for `install-data-hook'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux/util-linux-2.24.2'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/util-linux
+Found 'i686'
+Processing ../util-linux-install/bin/dmesg
+Processing ../util-linux-install/bin/findmnt
+Processing ../util-linux-install/bin/kill
+Processing ../util-linux-install/bin/lsblk
+Processing ../util-linux-install/bin/more
+Processing ../util-linux-install/bin/mount
+Processing ../util-linux-install/bin/mountpoint
+Processing ../util-linux-install/bin/umount
+Processing ../util-linux-install/bin/wdctl
+Processing ../util-linux-install/sbin/agetty
+Processing ../util-linux-install/sbin/blkdiscard
+Processing ../util-linux-install/sbin/blkid
+Processing ../util-linux-install/sbin/blockdev
+Processing ../util-linux-install/sbin/cfdisk
+Processing ../util-linux-install/sbin/chcpu
+Processing ../util-linux-install/sbin/ctrlaltdel
+Processing ../util-linux-install/sbin/fdisk
+Processing ../util-linux-install/sbin/findfs
+Processing ../util-linux-install/sbin/fsck
+Processing ../util-linux-install/sbin/fsck.cramfs
+Processing ../util-linux-install/sbin/fsck.minix
+Processing ../util-linux-install/sbin/fsfreeze
+Processing ../util-linux-install/sbin/fstrim
+Processing ../util-linux-install/sbin/hwclock
+Processing ../util-linux-install/sbin/losetup
+Processing ../util-linux-install/sbin/mkfs
+Processing ../util-linux-install/sbin/mkfs.bfs
+Processing ../util-linux-install/sbin/mkfs.cramfs
+Processing ../util-linux-install/sbin/mkfs.minix
+Processing ../util-linux-install/sbin/mkswap
+Processing ../util-linux-install/sbin/nologin
+Processing ../util-linux-install/sbin/pivot_root
+Processing ../util-linux-install/sbin/raw
+Processing ../util-linux-install/sbin/sfdisk
+Processing ../util-linux-install/sbin/sulogin
+Processing ../util-linux-install/sbin/swaplabel
+Processing ../util-linux-install/sbin/swapoff
+Processing ../util-linux-install/sbin/swapon
+Processing ../util-linux-install/sbin/switch_root
+Processing ../util-linux-install/sbin/wipefs
+Processing ../util-linux-install/usr/bin/cal
+Processing ../util-linux-install/usr/bin/chrt
+Processing ../util-linux-install/usr/bin/col
+Processing ../util-linux-install/usr/bin/colcrt
+Processing ../util-linux-install/usr/bin/colrm
+Processing ../util-linux-install/usr/bin/column
+Processing ../util-linux-install/usr/bin/cytune
+Processing ../util-linux-install/usr/bin/eject
+Processing ../util-linux-install/usr/bin/fallocate
+Processing ../util-linux-install/usr/bin/flock
+Processing ../util-linux-install/usr/bin/getopt
+Processing ../util-linux-install/usr/bin/hexdump
+Processing ../util-linux-install/usr/bin/i386
+Processing ../util-linux-install/usr/bin/ionice
+Processing ../util-linux-install/usr/bin/ipcmk
+Processing ../util-linux-install/usr/bin/ipcrm
+Processing ../util-linux-install/usr/bin/ipcs
+Processing ../util-linux-install/usr/bin/isosize
+Processing ../util-linux-install/usr/bin/last
+Processing ../util-linux-install/usr/bin/lastb
+Processing ../util-linux-install/usr/bin/linux32
+Processing ../util-linux-install/usr/bin/linux64
+Processing ../util-linux-install/usr/bin/logger
+Processing ../util-linux-install/usr/bin/look
+Processing ../util-linux-install/usr/bin/lscpu
+Processing ../util-linux-install/usr/bin/lslocks
+Processing ../util-linux-install/usr/bin/mcookie
+Processing ../util-linux-install/usr/bin/mesg
+Processing ../util-linux-install/usr/bin/namei
+Processing ../util-linux-install/usr/bin/nsenter
+Processing ../util-linux-install/usr/bin/pg
+Processing ../util-linux-install/usr/bin/prlimit
+Processing ../util-linux-install/usr/bin/rename
+Processing ../util-linux-install/usr/bin/renice
+Processing ../util-linux-install/usr/bin/rev
+Processing ../util-linux-install/usr/bin/script
+Processing ../util-linux-install/usr/bin/scriptreplay
+Processing ../util-linux-install/usr/bin/setarch
+Processing ../util-linux-install/usr/bin/setsid
+Processing ../util-linux-install/usr/bin/setterm
+Processing ../util-linux-install/usr/bin/tailf
+Processing ../util-linux-install/usr/bin/taskset
+Processing ../util-linux-install/usr/bin/ul
+Processing ../util-linux-install/usr/bin/unshare
+Processing ../util-linux-install/usr/bin/utmpdump
+Processing ../util-linux-install/usr/bin/uuidgen
+Processing ../util-linux-install/usr/bin/wall
+Processing ../util-linux-install/usr/bin/whereis
+Processing ../util-linux-install/usr/include/blkid/blkid.h
+Processing ../util-linux-install/usr/include/libmount/libmount.h
+Processing ../util-linux-install/usr/include/uuid/uuid.h
+Processing ../util-linux-install/usr/lib/libblkid.a
+Processing ../util-linux-install/usr/lib/libblkid.la
+Processing ../util-linux-install/usr/lib/libblkid.so
+Processing ../util-linux-install/usr/lib/libblkid.so.1
+Processing ../util-linux-install/usr/lib/libblkid.so.1.1.0
+Processing ../util-linux-install/usr/lib/libmount.a
+Processing ../util-linux-install/usr/lib/libmount.la
+Processing ../util-linux-install/usr/lib/libmount.so
+Processing ../util-linux-install/usr/lib/libmount.so.1
+Processing ../util-linux-install/usr/lib/libmount.so.1.1.0
+Processing ../util-linux-install/usr/lib/libuuid.a
+Processing ../util-linux-install/usr/lib/libuuid.la
+Processing ../util-linux-install/usr/lib/libuuid.so
+Processing ../util-linux-install/usr/lib/libuuid.so.1
+Processing ../util-linux-install/usr/lib/libuuid.so.1.3.0
+Processing ../util-linux-install/usr/lib/pkgconfig/blkid.pc
+Processing ../util-linux-install/usr/lib/pkgconfig/mount.pc
+Processing ../util-linux-install/usr/lib/pkgconfig/uuid.pc
+Processing ../util-linux-install/usr/sbin/addpart
+Processing ../util-linux-install/usr/sbin/delpart
+Processing ../util-linux-install/usr/sbin/fdformat
+Processing ../util-linux-install/usr/sbin/ldattach
+Processing ../util-linux-install/usr/sbin/partx
+Processing ../util-linux-install/usr/sbin/readprofile
+Processing ../util-linux-install/usr/sbin/resizepart
+Processing ../util-linux-install/usr/sbin/rtcwake
+Processing ../util-linux-install/usr/sbin/uuidd
+Processing ../util-linux-install/usr/share/bash-completion/completions/addpart
+Processing ../util-linux-install/usr/share/bash-completion/completions/blkdiscard
+Processing ../util-linux-install/usr/share/bash-completion/completions/blkid
+Processing ../util-linux-install/usr/share/bash-completion/completions/blockdev
+Processing ../util-linux-install/usr/share/bash-completion/completions/cal
+Processing ../util-linux-install/usr/share/bash-completion/completions/cfdisk
+Processing ../util-linux-install/usr/share/bash-completion/completions/chcpu
+Processing ../util-linux-install/usr/share/bash-completion/completions/chrt
+Processing ../util-linux-install/usr/share/bash-completion/completions/col
+Processing ../util-linux-install/usr/share/bash-completion/completions/colcrt
+Processing ../util-linux-install/usr/share/bash-completion/completions/colrm
+Processing ../util-linux-install/usr/share/bash-completion/completions/column
+Processing ../util-linux-install/usr/share/bash-completion/completions/ctrlaltdel
+Processing ../util-linux-install/usr/share/bash-completion/completions/cytune
+Processing ../util-linux-install/usr/share/bash-completion/completions/delpart
+Processing ../util-linux-install/usr/share/bash-completion/completions/dmesg
+Processing ../util-linux-install/usr/share/bash-completion/completions/eject
+Processing ../util-linux-install/usr/share/bash-completion/completions/fallocate
+Processing ../util-linux-install/usr/share/bash-completion/completions/fdformat
+Processing ../util-linux-install/usr/share/bash-completion/completions/fdisk
+Processing ../util-linux-install/usr/share/bash-completion/completions/findmnt
+Processing ../util-linux-install/usr/share/bash-completion/completions/flock
+Processing ../util-linux-install/usr/share/bash-completion/completions/fsck
+Processing ../util-linux-install/usr/share/bash-completion/completions/fsck.cramfs
+Processing ../util-linux-install/usr/share/bash-completion/completions/fsck.minix
+Processing ../util-linux-install/usr/share/bash-completion/completions/fsfreeze
+Processing ../util-linux-install/usr/share/bash-completion/completions/fstrim
+Processing ../util-linux-install/usr/share/bash-completion/completions/getopt
+Processing ../util-linux-install/usr/share/bash-completion/completions/hexdump
+Processing ../util-linux-install/usr/share/bash-completion/completions/hwclock
+Processing ../util-linux-install/usr/share/bash-completion/completions/ionice
+Processing ../util-linux-install/usr/share/bash-completion/completions/ipcrm
+Processing ../util-linux-install/usr/share/bash-completion/completions/ipcs
+Processing ../util-linux-install/usr/share/bash-completion/completions/isosize
+Processing ../util-linux-install/usr/share/bash-completion/completions/ldattach
+Processing ../util-linux-install/usr/share/bash-completion/completions/logger
+Processing ../util-linux-install/usr/share/bash-completion/completions/look
+Processing ../util-linux-install/usr/share/bash-completion/completions/losetup
+Processing ../util-linux-install/usr/share/bash-completion/completions/lsblk
+Processing ../util-linux-install/usr/share/bash-completion/completions/lscpu
+Processing ../util-linux-install/usr/share/bash-completion/completions/lslocks
+Processing ../util-linux-install/usr/share/bash-completion/completions/mcookie
+Processing ../util-linux-install/usr/share/bash-completion/completions/mesg
+Processing ../util-linux-install/usr/share/bash-completion/completions/mkfs
+Processing ../util-linux-install/usr/share/bash-completion/completions/mkfs.bfs
+Processing ../util-linux-install/usr/share/bash-completion/completions/mkfs.cramfs
+Processing ../util-linux-install/usr/share/bash-completion/completions/mkfs.minix
+Processing ../util-linux-install/usr/share/bash-completion/completions/mkswap
+Processing ../util-linux-install/usr/share/bash-completion/completions/more
+Processing ../util-linux-install/usr/share/bash-completion/completions/mountpoint
+Processing ../util-linux-install/usr/share/bash-completion/completions/namei
+Processing ../util-linux-install/usr/share/bash-completion/completions/nsenter
+Processing ../util-linux-install/usr/share/bash-completion/completions/partx
+Processing ../util-linux-install/usr/share/bash-completion/completions/pg
+Processing ../util-linux-install/usr/share/bash-completion/completions/pivot_root
+Processing ../util-linux-install/usr/share/bash-completion/completions/prlimit
+Processing ../util-linux-install/usr/share/bash-completion/completions/raw
+Processing ../util-linux-install/usr/share/bash-completion/completions/readprofile
+Processing ../util-linux-install/usr/share/bash-completion/completions/rename
+Processing ../util-linux-install/usr/share/bash-completion/completions/renice
+Processing ../util-linux-install/usr/share/bash-completion/completions/resizepart
+Processing ../util-linux-install/usr/share/bash-completion/completions/rev
+Processing ../util-linux-install/usr/share/bash-completion/completions/rtcwake
+Processing ../util-linux-install/usr/share/bash-completion/completions/script
+Processing ../util-linux-install/usr/share/bash-completion/completions/scriptreplay
+Processing ../util-linux-install/usr/share/bash-completion/completions/setarch
+Processing ../util-linux-install/usr/share/bash-completion/completions/setsid
+Processing ../util-linux-install/usr/share/bash-completion/completions/setterm
+Processing ../util-linux-install/usr/share/bash-completion/completions/sfdisk
+Processing ../util-linux-install/usr/share/bash-completion/completions/swaplabel
+Processing ../util-linux-install/usr/share/bash-completion/completions/swapon
+Processing ../util-linux-install/usr/share/bash-completion/completions/tailf
+Processing ../util-linux-install/usr/share/bash-completion/completions/taskset
+Processing ../util-linux-install/usr/share/bash-completion/completions/ul
+Processing ../util-linux-install/usr/share/bash-completion/completions/unshare
+Processing ../util-linux-install/usr/share/bash-completion/completions/utmpdump
+Processing ../util-linux-install/usr/share/bash-completion/completions/uuidd
+Processing ../util-linux-install/usr/share/bash-completion/completions/uuidgen
+Processing ../util-linux-install/usr/share/bash-completion/completions/wall
+Processing ../util-linux-install/usr/share/bash-completion/completions/wdctl
+Processing ../util-linux-install/usr/share/bash-completion/completions/whereis
+Processing ../util-linux-install/usr/share/bash-completion/completions/wipefs
+Processing ../util-linux-install/usr/share/doc/util-linux/getopt/getopt-parse.bash
+Processing ../util-linux-install/usr/share/doc/util-linux/getopt/getopt-parse.tcsh
+Processing ../util-linux-install/usr/share/locale/ca/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/cs/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/da/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/de/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/es/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/et/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/eu/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/fi/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/fr/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/gl/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/hr/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/hu/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/id/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/it/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/ja/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/nl/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/pl/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/pt_BR/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/ru/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/sl/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/sv/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/tr/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/uk/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/vi/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/zh_CN/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/locale/zh_TW/LC_MESSAGES/util-linux.mo
+Processing ../util-linux-install/usr/share/man/man1/cal.1
+Processing ../util-linux-install/usr/share/man/man1/chrt.1
+Processing ../util-linux-install/usr/share/man/man1/col.1
+Processing ../util-linux-install/usr/share/man/man1/colcrt.1
+Processing ../util-linux-install/usr/share/man/man1/colrm.1
+Processing ../util-linux-install/usr/share/man/man1/column.1
+Processing ../util-linux-install/usr/share/man/man1/dmesg.1
+Processing ../util-linux-install/usr/share/man/man1/eject.1
+Processing ../util-linux-install/usr/share/man/man1/fallocate.1
+Processing ../util-linux-install/usr/share/man/man1/flock.1
+Processing ../util-linux-install/usr/share/man/man1/getopt.1
+Processing ../util-linux-install/usr/share/man/man1/hexdump.1
+Processing ../util-linux-install/usr/share/man/man1/ionice.1
+Processing ../util-linux-install/usr/share/man/man1/ipcmk.1
+Processing ../util-linux-install/usr/share/man/man1/ipcrm.1
+Processing ../util-linux-install/usr/share/man/man1/ipcs.1
+Processing ../util-linux-install/usr/share/man/man1/kill.1
+Processing ../util-linux-install/usr/share/man/man1/last.1
+Processing ../util-linux-install/usr/share/man/man1/lastb.1
+Processing ../util-linux-install/usr/share/man/man1/logger.1
+Processing ../util-linux-install/usr/share/man/man1/look.1
+Processing ../util-linux-install/usr/share/man/man1/lscpu.1
+Processing ../util-linux-install/usr/share/man/man1/mcookie.1
+Processing ../util-linux-install/usr/share/man/man1/mesg.1
+Processing ../util-linux-install/usr/share/man/man1/more.1
+Processing ../util-linux-install/usr/share/man/man1/mountpoint.1
+Processing ../util-linux-install/usr/share/man/man1/namei.1
+Processing ../util-linux-install/usr/share/man/man1/nsenter.1
+Processing ../util-linux-install/usr/share/man/man1/pg.1
+Processing ../util-linux-install/usr/share/man/man1/prlimit.1
+Processing ../util-linux-install/usr/share/man/man1/rename.1
+Processing ../util-linux-install/usr/share/man/man1/renice.1
+Processing ../util-linux-install/usr/share/man/man1/rev.1
+Processing ../util-linux-install/usr/share/man/man1/script.1
+Processing ../util-linux-install/usr/share/man/man1/scriptreplay.1
+Processing ../util-linux-install/usr/share/man/man1/setsid.1
+Processing ../util-linux-install/usr/share/man/man1/setterm.1
+Processing ../util-linux-install/usr/share/man/man1/tailf.1
+Processing ../util-linux-install/usr/share/man/man1/taskset.1
+Processing ../util-linux-install/usr/share/man/man1/ul.1
+Processing ../util-linux-install/usr/share/man/man1/unshare.1
+Processing ../util-linux-install/usr/share/man/man1/utmpdump.1
+Processing ../util-linux-install/usr/share/man/man1/uuidgen.1
+Processing ../util-linux-install/usr/share/man/man1/wall.1
+Processing ../util-linux-install/usr/share/man/man1/whereis.1
+Processing ../util-linux-install/usr/share/man/man3/libblkid.3
+Processing ../util-linux-install/usr/share/man/man3/uuid.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_clear.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_compare.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_copy.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_generate.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_generate_random.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_generate_time.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_generate_time_safe.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_is_null.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_parse.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_time.3
+Processing ../util-linux-install/usr/share/man/man3/uuid_unparse.3
+Processing ../util-linux-install/usr/share/man/man5/fstab.5
+Processing ../util-linux-install/usr/share/man/man8/addpart.8
+Processing ../util-linux-install/usr/share/man/man8/agetty.8
+Processing ../util-linux-install/usr/share/man/man8/blkdiscard.8
+Processing ../util-linux-install/usr/share/man/man8/blkid.8
+Processing ../util-linux-install/usr/share/man/man8/blockdev.8
+Processing ../util-linux-install/usr/share/man/man8/cfdisk.8
+Processing ../util-linux-install/usr/share/man/man8/chcpu.8
+Processing ../util-linux-install/usr/share/man/man8/ctrlaltdel.8
+Processing ../util-linux-install/usr/share/man/man8/cytune.8
+Processing ../util-linux-install/usr/share/man/man8/delpart.8
+Processing ../util-linux-install/usr/share/man/man8/fdformat.8
+Processing ../util-linux-install/usr/share/man/man8/fdisk.8
+Processing ../util-linux-install/usr/share/man/man8/findfs.8
+Processing ../util-linux-install/usr/share/man/man8/findmnt.8
+Processing ../util-linux-install/usr/share/man/man8/fsck.8
+Processing ../util-linux-install/usr/share/man/man8/fsck.cramfs.8
+Processing ../util-linux-install/usr/share/man/man8/fsck.minix.8
+Processing ../util-linux-install/usr/share/man/man8/fsfreeze.8
+Processing ../util-linux-install/usr/share/man/man8/fstrim.8
+Processing ../util-linux-install/usr/share/man/man8/hwclock.8
+Processing ../util-linux-install/usr/share/man/man8/i386.8
+Processing ../util-linux-install/usr/share/man/man8/isosize.8
+Processing ../util-linux-install/usr/share/man/man8/ldattach.8
+Processing ../util-linux-install/usr/share/man/man8/linux32.8
+Processing ../util-linux-install/usr/share/man/man8/linux64.8
+Processing ../util-linux-install/usr/share/man/man8/losetup.8
+Processing ../util-linux-install/usr/share/man/man8/lsblk.8
+Processing ../util-linux-install/usr/share/man/man8/lslocks.8
+Processing ../util-linux-install/usr/share/man/man8/mkfs.8
+Processing ../util-linux-install/usr/share/man/man8/mkfs.bfs.8
+Processing ../util-linux-install/usr/share/man/man8/mkfs.cramfs.8
+Processing ../util-linux-install/usr/share/man/man8/mkfs.minix.8
+Processing ../util-linux-install/usr/share/man/man8/mkswap.8
+Processing ../util-linux-install/usr/share/man/man8/mount.8
+Processing ../util-linux-install/usr/share/man/man8/nologin.8
+Processing ../util-linux-install/usr/share/man/man8/partx.8
+Processing ../util-linux-install/usr/share/man/man8/pivot_root.8
+Processing ../util-linux-install/usr/share/man/man8/raw.8
+Processing ../util-linux-install/usr/share/man/man8/readprofile.8
+Processing ../util-linux-install/usr/share/man/man8/resizepart.8
+Processing ../util-linux-install/usr/share/man/man8/rtcwake.8
+Processing ../util-linux-install/usr/share/man/man8/setarch.8
+Processing ../util-linux-install/usr/share/man/man8/sfdisk.8
+Processing ../util-linux-install/usr/share/man/man8/sulogin.8
+Processing ../util-linux-install/usr/share/man/man8/swaplabel.8
+Processing ../util-linux-install/usr/share/man/man8/swapoff.8
+Processing ../util-linux-install/usr/share/man/man8/swapon.8
+Processing ../util-linux-install/usr/share/man/man8/switch_root.8
+Processing ../util-linux-install/usr/share/man/man8/umount.8
+Processing ../util-linux-install/usr/share/man/man8/uuidd.8
+Processing ../util-linux-install/usr/share/man/man8/wdctl.8
+Processing ../util-linux-install/usr/share/man/man8/wipefs.8
+all done
+packaging util-linux-2.24.2-i686_slk600
+packaging util-linux_DEV-2.24.2-i686_slk600
+packaging util-linux_DOC-2.24.2-i686_slk600
+packaging util-linux_NLS-2.24.2-i686_slk600
+done!

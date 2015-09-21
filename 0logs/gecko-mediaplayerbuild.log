@@ -1,0 +1,378 @@
+gecko-mediaplayer-1.0.9b/
+gecko-mediaplayer-1.0.9b/COPYING
+gecko-mediaplayer-1.0.9b/configure.in
+gecko-mediaplayer-1.0.9b/compile
+gecko-mediaplayer-1.0.9b/configure
+gecko-mediaplayer-1.0.9b/gecko-mediaplayer.spec
+gecko-mediaplayer-1.0.9b/missing
+gecko-mediaplayer-1.0.9b/gecko-mediaplayer.spec.in
+gecko-mediaplayer-1.0.9b/install-sh
+gecko-mediaplayer-1.0.9b/Makefile.am
+gecko-mediaplayer-1.0.9b/ChangeLog
+gecko-mediaplayer-1.0.9b/aclocal.m4
+gecko-mediaplayer-1.0.9b/Makefile.in
+gecko-mediaplayer-1.0.9b/config.h.in
+gecko-mediaplayer-1.0.9b/ltmain.sh
+gecko-mediaplayer-1.0.9b/NEWS
+gecko-mediaplayer-1.0.9b/README
+gecko-mediaplayer-1.0.9b/po/
+gecko-mediaplayer-1.0.9b/po/ja.gmo
+gecko-mediaplayer-1.0.9b/po/pt.gmo
+gecko-mediaplayer-1.0.9b/po/es.gmo
+gecko-mediaplayer-1.0.9b/po/gecko-mediaplayer.pot
+gecko-mediaplayer-1.0.9b/po/nl.gmo
+gecko-mediaplayer-1.0.9b/po/de.gmo
+gecko-mediaplayer-1.0.9b/po/cs.po
+gecko-mediaplayer-1.0.9b/po/ChangeLog
+gecko-mediaplayer-1.0.9b/po/pt_BR.gmo
+gecko-mediaplayer-1.0.9b/po/it.po
+gecko-mediaplayer-1.0.9b/po/tr.gmo
+gecko-mediaplayer-1.0.9b/po/pl.po
+gecko-mediaplayer-1.0.9b/po/tr.po
+gecko-mediaplayer-1.0.9b/po/fr.po
+gecko-mediaplayer-1.0.9b/po/cs.gmo
+gecko-mediaplayer-1.0.9b/po/pl.gmo
+gecko-mediaplayer-1.0.9b/po/pt_BR.po
+gecko-mediaplayer-1.0.9b/po/POTFILES.in
+gecko-mediaplayer-1.0.9b/po/it.gmo
+gecko-mediaplayer-1.0.9b/po/es.po
+gecko-mediaplayer-1.0.9b/po/Makefile.in.in
+gecko-mediaplayer-1.0.9b/po/pt.po
+gecko-mediaplayer-1.0.9b/po/nl.po
+gecko-mediaplayer-1.0.9b/po/fr.gmo
+gecko-mediaplayer-1.0.9b/po/de.po
+gecko-mediaplayer-1.0.9b/po/ja.po
+gecko-mediaplayer-1.0.9b/gecko-mediaplayer.schemas
+gecko-mediaplayer-1.0.9b/depcomp
+gecko-mediaplayer-1.0.9b/config.sub
+gecko-mediaplayer-1.0.9b/INSTALL
+gecko-mediaplayer-1.0.9b/config.guess
+gecko-mediaplayer-1.0.9b/config.h
+gecko-mediaplayer-1.0.9b/mkinstalldirs
+gecko-mediaplayer-1.0.9b/AUTHORS
+gecko-mediaplayer-1.0.9b/DOCS/
+gecko-mediaplayer-1.0.9b/DOCS/tech/
+gecko-mediaplayer-1.0.9b/DOCS/tech/javascript.txt
+gecko-mediaplayer-1.0.9b/src/
+gecko-mediaplayer-1.0.9b/src/plugin_setup.h
+gecko-mediaplayer-1.0.9b/src/plugin_setup.cpp
+gecko-mediaplayer-1.0.9b/src/plugin.cpp
+gecko-mediaplayer-1.0.9b/src/Makefile.am
+gecko-mediaplayer-1.0.9b/src/npupp.h
+gecko-mediaplayer-1.0.9b/src/Makefile.in
+gecko-mediaplayer-1.0.9b/src/plugin_dbus.h
+gecko-mediaplayer-1.0.9b/src/plugin.h
+gecko-mediaplayer-1.0.9b/src/memmem_compat.cpp
+gecko-mediaplayer-1.0.9b/src/plugin_types_std.cpp
+gecko-mediaplayer-1.0.9b/src/plugin_list.h
+gecko-mediaplayer-1.0.9b/src/npp_gate.cpp
+gecko-mediaplayer-1.0.9b/src/plugin_list.cpp
+gecko-mediaplayer-1.0.9b/src/plugin_types_wmp.cpp
+gecko-mediaplayer-1.0.9b/src/memmem_compat.h
+gecko-mediaplayer-1.0.9b/src/npn_gate.cpp
+gecko-mediaplayer-1.0.9b/src/plugin_dbus.cpp
+gecko-mediaplayer-1.0.9b/src/plugin_types_rm.cpp
+gecko-mediaplayer-1.0.9b/src/plugin_types_dvx.cpp
+gecko-mediaplayer-1.0.9b/src/plugin_types.h
+gecko-mediaplayer-1.0.9b/src/plugin_types_qt.cpp
+gecko-mediaplayer-1.0.9b/src/np_entry.cpp
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/missing: Unknown '--is-lightweight' option
+Try '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for ranlib... ranlib
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for catalogs to be installed...  cs de es fr ja it nl pl pt pt_BR tr
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GLIB... yes
+checking for GMLIB... yes
+checking for GECKO... no
+configure: libxul >= 25 not found, trying another
+checking for GECKO... no
+configure: libxul >= 2.23 not found, trying another
+checking for GECKO... no
+configure: libxul >= 2 not found, trying another
+checking for GECKO... no
+configure: libxul >= 1.9.2 not found, trying another
+checking for GECKO... no
+configure: WARNING: libxul < 1.9.2 not found, trying another
+checking for GECKO... no
+configure: WARNING: libxul-unstable not found, trying another
+checking for GECKO... no
+configure: WARNING: mozilla-plugin not found, trying another
+checking for GECKO... no
+configure: WARNING: firefox-plugin not found, trying another
+checking for GECKO... no
+configure: seamonkey-plugin >= 2.23 not found, trying another
+checking for GECKO... no
+configure: WARNING: seamonkey-plugin not found, trying another
+checking for GECKO... no
+configure: WARNING: xulrunner-plugin not found, trying another
+checking for GECKO... no
+configure: WARNING: iceape-plugin not found, trying another
+checking for GECKO... yes
+configure: Using npapi-sdk
+checking for const return value of NPP_GetMIMEDescription... yes
+checking for usage of UTF8Characters... yes
+checking for NSPR... yes
+checking for DBUS... yes
+checking for CURL... yes
+configure: gmlib is using gsettings for preference storage
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating gecko-mediaplayer.spec
+config.status: creating src/Makefile
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+Making all in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+  CXX      plugin_types_std.o
+  CXX      plugin.o
+  CXX      memmem_compat.o
+  CXX      plugin_list.o
+  CXX      plugin_setup.o
+plugin_types_std.cpp: In function ‘gchar* GetMIMEDescription()’:
+plugin_types_std.cpp:46:5: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+     ^
+plugin_types_std.cpp:46:17: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+                 ^
+  CXX      plugin_dbus.o
+plugin.cpp: In constructor ‘CPlugin::CPlugin(NPP)’:
+plugin.cpp:425:5: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+     ^
+plugin.cpp:425:17: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+                 ^
+plugin.cpp: In member function ‘NPError CPlugin::GetURLNotify(NPP, const char*, const char*, void*)’:
+plugin.cpp:1598:9: warning: ‘GThread* g_thread_create(GThreadFunc, gpointer, gboolean, GError**)’ is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:100): Use 'g_thread_new' instead [-Wdeprecated-declarations]
+         g_thread_create(CURLGetURLNotify, item, FALSE, NULL);
+         ^
+plugin.cpp:1598:60: warning: ‘GThread* g_thread_create(GThreadFunc, gpointer, gboolean, GError**)’ is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:100): Use 'g_thread_new' instead [-Wdeprecated-declarations]
+         g_thread_create(CURLGetURLNotify, item, FALSE, NULL);
+                                                            ^
+  CXX      np_entry.o
+  CXX      npn_gate.o
+  CXX      npp_gate.o
+  CXX      plugin_types_qt.o
+  CXX      plugin_types_wmp.o
+  CXX      plugin_types_rm.o
+plugin_types_qt.cpp: In function ‘gchar* GetMIMEDescription()’:
+plugin_types_qt.cpp:46:5: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+     ^
+plugin_types_qt.cpp:46:17: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+                 ^
+plugin_types_wmp.cpp: In function ‘gchar* GetMIMEDescription()’:
+plugin_types_wmp.cpp:46:5: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+     ^
+plugin_types_wmp.cpp:46:17: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+                 ^
+  CXX      plugin_types_dvx.o
+plugin_types_rm.cpp: In function ‘gchar* GetMIMEDescription()’:
+plugin_types_rm.cpp:46:5: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+     ^
+plugin_types_rm.cpp:46:17: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+                 ^
+  CXXLD    gecko-mediaplayer.so
+  CXXLD    gecko-mediaplayer-qt.so
+  CXXLD    gecko-mediaplayer-wmp.so
+plugin_types_dvx.cpp: In function ‘gchar* GetMIMEDescription()’:
+plugin_types_dvx.cpp:46:5: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+     ^
+plugin_types_dvx.cpp:46:17: warning: ‘void g_type_init()’ is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+     g_type_init();
+                 ^
+  CXXLD    gecko-mediaplayer-rm.so
+  CXXLD    gecko-mediaplayer-dvx.so
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/po'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/lib/mozilla/plugins'
+  /usr/bin/ginstall -c gecko-mediaplayer.so gecko-mediaplayer-qt.so gecko-mediaplayer-wmp.so gecko-mediaplayer-rm.so gecko-mediaplayer-dvx.so '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/lib/mozilla/plugins'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/src'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/po'
+if test -r ".././mkinstalldirs"; then \
+  .././mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share; \
+else \
+  /bin/sh ../mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share; \
+fi
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/cs
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/cs/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/de
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/de/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/es
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/es/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/fr
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/fr/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/ja
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/ja/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/it
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/it/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/nl
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/nl/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pl
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pl/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pt
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pt/LC_MESSAGES
+installing pt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pt/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pt_BR
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/pt_BR/LC_MESSAGES/gecko-mediaplayer.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/tr
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/locale/tr/LC_MESSAGES/gecko-mediaplayer.mo
+if test "gecko-mediaplayer" = "glib"; then \
+  if test -r ".././mkinstalldirs"; then \
+    .././mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/glib-2.0/gettext/po; \
+  else \
+    /bin/sh ../mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/glib-2.0/gettext/po; \
+  fi; \
+  /usr/bin/ginstall -c -m 644 ./Makefile.in.in \
+		  /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/glib-2.0/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b/po'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+make[2]: Nothing to be done for `install-exec-am'.
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer'
+ /usr/bin/ginstall -c -m 644 README COPYING AUTHORS ChangeLog INSTALL NEWS DOCS/tech/javascript.txt '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer'
+make  install-data-hook
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+make[3]: Nothing to be done for `install-data-hook'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer/gecko-mediaplayer-1.0.9b'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gecko-mediaplayer
+Processing ../gecko-mediaplayer-install/usr/lib/mozilla/plugins/gecko-mediaplayer-dvx.so
+Processing ../gecko-mediaplayer-install/usr/lib/mozilla/plugins/gecko-mediaplayer-qt.so
+Processing ../gecko-mediaplayer-install/usr/lib/mozilla/plugins/gecko-mediaplayer-rm.so
+Processing ../gecko-mediaplayer-install/usr/lib/mozilla/plugins/gecko-mediaplayer.so
+Processing ../gecko-mediaplayer-install/usr/lib/mozilla/plugins/gecko-mediaplayer-wmp.so
+Processing ../gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer/AUTHORS
+Processing ../gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer/ChangeLog
+Processing ../gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer/COPYING
+Processing ../gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer/INSTALL
+Processing ../gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer/javascript.txt
+Processing ../gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer/NEWS
+Processing ../gecko-mediaplayer-install/usr/share/doc/gecko-mediaplayer/README
+Processing ../gecko-mediaplayer-install/usr/share/locale/cs/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/de/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/es/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/fr/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/it/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/ja/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/nl/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/pl/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/pt_BR/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/pt/LC_MESSAGES/gecko-mediaplayer.mo
+Processing ../gecko-mediaplayer-install/usr/share/locale/tr/LC_MESSAGES/gecko-mediaplayer.mo
+all done
+packaging gecko-mediaplayer-1.0.9b-i686_slk600
+packaging gecko-mediaplayer_DOC-1.0.9b-i686_slk600
+packaging gecko-mediaplayer_NLS-1.0.9b-i686_slk600
+done!

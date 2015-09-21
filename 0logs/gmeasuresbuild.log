@@ -1,0 +1,243 @@
+gmeasures-0.7/
+gmeasures-0.7/gmeasures.prj
+gmeasures-0.7/autogen.sh
+gmeasures-0.7/acconfig.h
+gmeasures-0.7/acinclude.m4
+gmeasures-0.7/setup-gettext
+gmeasures-0.7/gmeasures.glade
+gmeasures-0.7/gmeasures.gladep
+gmeasures-0.7/configure.in
+gmeasures-0.7/Makefile.am
+gmeasures-0.7/TODO
+gmeasures-0.7/NEWS
+gmeasures-0.7/README
+gmeasures-0.7/AUTHORS
+gmeasures-0.7/ChangeLog
+gmeasures-0.7/stamp-h.in
+gmeasures-0.7/src/
+gmeasures-0.7/src/Makefile.am
+gmeasures-0.7/src/support.h
+gmeasures-0.7/src/support.c
+gmeasures-0.7/src/main.c
+gmeasures-0.7/src/interface.h
+gmeasures-0.7/src/interface.c
+gmeasures-0.7/src/callbacks.h
+gmeasures-0.7/src/callbacks.c
+gmeasures-0.7/src/Makefile.in
+gmeasures-0.7/src/jpslib2.c
+gmeasures-0.7/src/jpslib2.h
+gmeasures-0.7/src/main.h
+gmeasures-0.7/Makefile.in
+gmeasures-0.7/config.h.in
+gmeasures-0.7/COPYING
+gmeasures-0.7/depcomp
+gmeasures-0.7/INSTALL
+gmeasures-0.7/install-sh
+gmeasures-0.7/missing
+gmeasures-0.7/gmeasures.pws
+processing .
+Running libtoolize...
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: warning: no serial number on `/usr/share/aclocal/libtool.m4', not copying.
+libtoolize: You should add the contents of the following files to `aclocal.m4':
+libtoolize:   `/usr/share/aclocal/libtool.m4'
+libtoolize:   `/usr/share/aclocal/ltoptions.m4'
+libtoolize:   `/usr/share/aclocal/ltversion.m4'
+libtoolize:   `/usr/share/aclocal/ltsugar.m4'
+libtoolize:   `/usr/share/aclocal/lt~obsolete.m4'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.in and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+Running aclocal  ...
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+Running autoheader...
+autoheader: WARNING: Using auxiliary files such as `acconfig.h', `config.h.bot'
+autoheader: WARNING: and `config.h.top', to define templates for `config.h.in'
+autoheader: WARNING: is deprecated and discouraged.
+autoheader: 
+autoheader: WARNING: Using the third argument of `AC_DEFINE' and
+autoheader: WARNING: `AC_DEFINE_UNQUOTED' allows one to define a template without
+autoheader: WARNING: `acconfig.h':
+autoheader: 
+autoheader: WARNING:   AC_DEFINE([NEED_FUNC_MAIN], 1,
+autoheader: 		[Define if a function `main' is needed.])
+autoheader: 
+autoheader: WARNING: More sophisticated templates can also be produced, see the
+autoheader: WARNING: documentation.
+Running automake --gnu  ...
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+configure.in:7: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.in:7: http://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+src/Makefile.am:7: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+Running autoconf ...
+Running ./configure --prefix=/usr --localstatedir=/var --sysconfdir=/etc --libdir=/usr/lib ...
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7/missing: Unknown `--is-lightweight' option
+Try `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GTK... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Now type `make' to compile the package.
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7'
+Making all in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7/src'
+gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz     -Wall -g  -MT support.o -MD -MP -MF .deps/support.Tpo -c -o support.o support.c
+gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz     -Wall -g  -MT jpslib2.o -MD -MP -MF .deps/jpslib2.Tpo -c -o jpslib2.o jpslib2.c
+gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz     -Wall -g  -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz     -Wall -g  -MT interface.o -MD -MP -MF .deps/interface.Tpo -c -o interface.o interface.c
+jpslib2.c: In function ‘EditorSelectLine’:
+jpslib2.c:290:17: warning: variable ‘end’ set but not used [-Wunused-but-set-variable]
+  int start = 0, end = 0;
+                 ^
+jpslib2.c:290:6: warning: variable ‘start’ set but not used [-Wunused-but-set-variable]
+  int start = 0, end = 0;
+      ^
+jpslib2.c: In function ‘FnSplit’:
+jpslib2.c:529:2: warning: ‘g_basename’ is deprecated (declared at /usr/include/glib-2.0/glib/gfileutils.h:169): Use 'g_path_get_basename' instead [-Wdeprecated-declarations]
+  strcpy(file, g_basename(rpath));
+  ^
+main.c: In function ‘AppCalculate’:
+main.c:48:19: warning: variable ‘valstr2’ set but not used [-Wunused-but-set-variable]
+  gchar *valstr1, *valstr2;
+                   ^
+mv -f .deps/support.Tpo .deps/support.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng14 -I/usr/include/libdrm -I/usr/include/harfbuzz     -Wall -g  -MT callbacks.o -MD -MP -MF .deps/callbacks.Tpo -c -o callbacks.o callbacks.c
+mv -f .deps/main.Tpo .deps/main.Po
+mv -f .deps/jpslib2.Tpo .deps/jpslib2.Po
+mv -f .deps/interface.Tpo .deps/interface.Po
+callbacks.c: In function ‘on_editdlg_btn_ok_clicked’:
+callbacks.c:204:6: warning: variable ‘cnt’ set but not used [-Wunused-but-set-variable]
+  int cnt, ndx = 0;
+      ^
+mv -f .deps/callbacks.Tpo .deps/callbacks.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -Wall -g    -o gmeasures support.o jpslib2.o main.o interface.o callbacks.o -lgtk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lfreetype -lfontconfig -lgdk-x11-2.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0   
+libtool: link: gcc -Wall -g -o gmeasures support.o jpslib2.o main.o interface.o callbacks.o  /usr/lib/libgtk-x11-2.0.so /usr/lib/libatk-1.0.so -L/usr/lib /usr/lib/libgdk-x11-2.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpangoft2-1.0.so /usr/lib/libharfbuzz.so -licule -licuuc -licudata /usr/lib/libstdc++.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so -lresolv /usr/lib/libpango-1.0.so /usr/lib/libgmodule-2.0.so /usr/lib/libgthread-2.0.so /usr/lib/libcairo.so /usr/lib/libpixman-1.so /usr/lib/libfontconfig.so /usr/lib/libexpat.so /usr/lib/libfreetype.so -lbz2 /usr/lib/libEGL.so /usr/lib/libxcb-xfixes.so /usr/lib/libxcb-shape.so /usr/lib/libudev.so /usr/lib/libpng14.so /usr/lib/libxcb-shm.so /usr/lib/libxcb-render.so /usr/lib/libXrender.so -lz /usr/lib/libGL.so /usr/lib/libglapi.so /usr/lib/libXdamage.so /usr/lib/libXfixes.so /usr/lib/libX11-xcb.so /usr/lib/libxcb-glx.so /usr/lib/libxcb-dri2.so /usr/lib/libXxf86vm.so /usr/lib/libXext.so /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so /usr/lib/libdrm.so -ldl -lrt -lm /usr/lib/libgobject-2.0.so /usr/lib/libffi.so /usr/lib/libglib-2.0.so -lpthread -pthread
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7/src'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-install/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c gmeasures '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c gmeasures /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-install/usr/bin/gmeasures
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7/src'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7'
+make[2]: Nothing to be done for `install-exec-am'.
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-install/usr/doc/gmeasures'
+ /usr/bin/ginstall -c -m 644 README COPYING AUTHORS ChangeLog INSTALL NEWS TODO '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-install/usr/doc/gmeasures'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures/gmeasures-0.7'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gmeasures
+Found 'i686'
+Processing ../gmeasures-install/usr/bin/gmeasures
+Processing ../gmeasures-install/usr/doc/gmeasures/AUTHORS
+Processing ../gmeasures-install/usr/doc/gmeasures/ChangeLog
+Processing ../gmeasures-install/usr/doc/gmeasures/COPYING
+Processing ../gmeasures-install/usr/doc/gmeasures/INSTALL
+Processing ../gmeasures-install/usr/doc/gmeasures/NEWS
+Processing ../gmeasures-install/usr/doc/gmeasures/README
+Processing ../gmeasures-install/usr/doc/gmeasures/TODO
+all done
+packaging gmeasures-0.7-i686_slk600
+packaging gmeasures_DOC-0.7-i686_slk600
+done!

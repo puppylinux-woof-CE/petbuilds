@@ -1,0 +1,31 @@
+hotplug2stdout-1.2.2/
+hotplug2stdout-1.2.2/hotplug2stdout-V1.1.c
+hotplug2stdout-1.2.2/hotplug2stdout.c
+hotplug2stdout-1.2.2/hotplug2stdout_notimeout.c
+hotplug2stdout-1.2.2/cddetect_quick.c
+hotplug2stdout-1.2.2/hotplug2stdout-everitt1.c
+hotplug2stdout-1.2.2/howtocompile.txt
+hotplug2stdout-1.2.2/Makefile
+gcc -Wall -O2     cddetect_quick.c   -o cddetect_quick
+cddetect_quick.c: In function ‘main’:
+cddetect_quick.c:55:4: warning: pointer targets in passing argument 1 of ‘__builtin_strncpy’ differ in signedness [-Wpointer-sign]
+    case 'd': strncpy(opts.device, optarg, sizeof(opts.device)); break;
+    ^
+cddetect_quick.c:55:4: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+cddetect_quick.c:67:2: warning: pointer targets in passing argument 1 of ‘open’ differ in signedness [-Wpointer-sign]
+  fd = open(opts.device, O_RDONLY | O_NONBLOCK);
+  ^
+In file included from cddetect_quick.c:18:0:
+/usr/include/fcntl.h:163:12: note: expected ‘const char *’ but argument is of type ‘unsigned char *’
+ extern int open (const char *__file, int __oflag, ...) __nonnull ((1));
+            ^
+gcc -Wall -O2     hotplug2stdout.c   -o hotplug2stdout
+gcc -Wall -O2     hotplug2stdout_notimeout.c   -o hotplug2stdout_notimeout
+hotplug2stdout_notimeout.c: In function ‘main’:
+hotplug2stdout_notimeout.c:29:6: warning: unused variable ‘eventstatus’ [-Wunused-variable]
+  int eventstatus;
+      ^
+rm -f cddetect_quick hotplug2stdout hotplug2stdout_notimeout
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/hotplug2stdout
+packaging hotplug2stdout-1.2.2-i686_slk600
+done!

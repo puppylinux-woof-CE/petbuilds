@@ -1,0 +1,15 @@
+rtmpdump-install/usr/bin/rtmpdump
+rtmpdump-install/usr/include/librtmp/amf.h
+rtmpdump-install/usr/include/librtmp/http.h
+rtmpdump-install/usr/include/librtmp/log.h
+rtmpdump-install/usr/include/librtmp/rtmp.h
+rtmpdump-install/usr/lib/librtmp.a
+rtmpdump-install/usr/lib/librtmp.so
+rtmpdump-install/usr/lib/librtmp.so.0
+rtmpdump-install/usr/lib/pkgconfig/librtmp.pc
+rtmpdump-install/usr/man/man1/rtmpdump.1
+rtmpdump-install/usr/man/man3/librtmp.3
+rtmpdump-install/usr/man/man8/rtmpgw.8
+rtmpdump-install/usr/sbin/rtmpgw
+rtmpdump-install/usr/sbin/rtmpsrv
+rtmpdump-install/usr/sbin/rtmpsuck

@@ -1,0 +1,20 @@
+alsaequal/
+alsaequal/Makefile~
+alsaequal/COPYING
+alsaequal/Makefile
+alsaequal/ladspa_utils.c
+alsaequal/pcm_equal.c
+alsaequal/ladspa.h
+alsaequal/ladspa_utils.h
+alsaequal/makefile.dep
+alsaequal/README
+alsaequal/ctl_equal.c
+GCC pcm_equal.c
+GCC ladspa_utils.c
+LD libasound_module_pcm_equal.so
+GCC ctl_equal.c
+LD libasound_module_ctl_equal.so
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/alsaequal
+packaging alsaequal-0.6-i686_slk600
+packaging alsaequal_DEV-0.6-i686_slk600
+done!

@@ -1,0 +1,788 @@
+gphoto2-2.5.3/
+gphoto2-2.5.3/configure
+gphoto2-2.5.3/tests/
+gphoto2-2.5.3/tests/Makefile.in
+gphoto2-2.5.3/tests/Makefile.am
+gphoto2-2.5.3/tests/data/
+gphoto2-2.5.3/tests/data/test018.param
+gphoto2-2.5.3/tests/data/test032.param
+gphoto2-2.5.3/tests/data/test001.param
+gphoto2-2.5.3/tests/data/test033.result
+gphoto2-2.5.3/tests/data/test034.result
+gphoto2-2.5.3/tests/data/test017.param
+gphoto2-2.5.3/tests/data/test013.result
+gphoto2-2.5.3/tests/data/Makefile.in
+gphoto2-2.5.3/tests/data/test037.param
+gphoto2-2.5.3/tests/data/Makefile.am
+gphoto2-2.5.3/tests/data/test010.param
+gphoto2-2.5.3/tests/data/test012.param
+gphoto2-2.5.3/tests/data/test029.param
+gphoto2-2.5.3/tests/data/test015.param
+gphoto2-2.5.3/tests/data/test038.param
+gphoto2-2.5.3/tests/data/test028.result
+gphoto2-2.5.3/tests/data/test027.result
+gphoto2-2.5.3/tests/data/test014.param
+gphoto2-2.5.3/tests/data/test005.param
+gphoto2-2.5.3/tests/data/test014.result
+gphoto2-2.5.3/tests/data/test030.result
+gphoto2-2.5.3/tests/data/test009.param
+gphoto2-2.5.3/tests/data/test008.param
+gphoto2-2.5.3/tests/data/test029.result
+gphoto2-2.5.3/tests/data/test036.param
+gphoto2-2.5.3/tests/data/test013.param
+gphoto2-2.5.3/tests/data/test020.param
+gphoto2-2.5.3/tests/data/test016.result
+gphoto2-2.5.3/tests/data/test003.param
+gphoto2-2.5.3/tests/data/test015.result
+gphoto2-2.5.3/tests/data/test039.param
+gphoto2-2.5.3/tests/data/test006.param
+gphoto2-2.5.3/tests/data/test040.param
+gphoto2-2.5.3/tests/data/test034.param
+gphoto2-2.5.3/tests/data/test028.param
+gphoto2-2.5.3/tests/data/test023.param
+gphoto2-2.5.3/tests/data/test019.param
+gphoto2-2.5.3/tests/data/test021.param
+gphoto2-2.5.3/tests/data/test023.result
+gphoto2-2.5.3/tests/data/test002.result
+gphoto2-2.5.3/tests/data/test012.result
+gphoto2-2.5.3/tests/data/test031.param
+gphoto2-2.5.3/tests/data/test004.result
+gphoto2-2.5.3/tests/data/test022.param
+gphoto2-2.5.3/tests/data/test035.param
+gphoto2-2.5.3/tests/data/test004.param
+gphoto2-2.5.3/tests/data/test024.param
+gphoto2-2.5.3/tests/data/test022.result
+gphoto2-2.5.3/tests/data/test032.result
+gphoto2-2.5.3/tests/data/test010.result
+gphoto2-2.5.3/tests/data/test016.param
+gphoto2-2.5.3/tests/data/test002.param
+gphoto2-2.5.3/tests/data/test009.result
+gphoto2-2.5.3/tests/data/test001.result
+gphoto2-2.5.3/tests/data/test037.result
+gphoto2-2.5.3/tests/data/test027.param
+gphoto2-2.5.3/tests/data/test033.param
+gphoto2-2.5.3/tests/data/test017.result
+gphoto2-2.5.3/tests/data/test035.result
+gphoto2-2.5.3/tests/data/test011.result
+gphoto2-2.5.3/tests/data/test018.result
+gphoto2-2.5.3/tests/data/test011.param
+gphoto2-2.5.3/tests/data/test026.param
+gphoto2-2.5.3/tests/data/test030.param
+gphoto2-2.5.3/tests/data/test025.param
+gphoto2-2.5.3/tests/data/test031.result
+gphoto2-2.5.3/tests/data/test005.result
+gphoto2-2.5.3/tests/data/test007.param
+gphoto2-2.5.3/tests/testsuite
+gphoto2-2.5.3/tests/TESTING
+gphoto2-2.5.3/tests/staging/
+gphoto2-2.5.3/tests/staging/gphotobutton.jpg
+gphoto2-2.5.3/tests/staging/Makefile.in
+gphoto2-2.5.3/tests/staging/Makefile.am
+gphoto2-2.5.3/tests/staging/subdir1/
+gphoto2-2.5.3/tests/staging/subdir1/Makefile.in
+gphoto2-2.5.3/tests/staging/subdir1/Makefile.am
+gphoto2-2.5.3/tests/staging/subdir1/architecture.png
+gphoto2-2.5.3/tests/staging/xexif.jpg
+gphoto2-2.5.3/tests/staging/subdir2/
+gphoto2-2.5.3/tests/staging/subdir2/Makefile.in
+gphoto2-2.5.3/tests/staging/subdir2/Makefile.am
+gphoto2-2.5.3/tests/staging/smalllogo.png
+gphoto2-2.5.3/tests/staging/pop.wav
+gphoto2-2.5.3/contrib/
+gphoto2-2.5.3/contrib/README
+gphoto2-2.5.3/contrib/Makefile.in
+gphoto2-2.5.3/contrib/Makefile.am
+gphoto2-2.5.3/contrib/simple-mtpupload/
+gphoto2-2.5.3/contrib/simple-mtpupload/Makefile-files
+gphoto2-2.5.3/contrib/simple-mtpupload/uploadmp3s.pl
+gphoto2-2.5.3/contrib/multi-capture/
+gphoto2-2.5.3/contrib/multi-capture/Makefile-files
+gphoto2-2.5.3/README
+gphoto2-2.5.3/Makefile.in
+gphoto2-2.5.3/config.h.in
+gphoto2-2.5.3/Makefile.am
+gphoto2-2.5.3/NEWS
+gphoto2-2.5.3/aclocal.m4
+gphoto2-2.5.3/m4m/
+gphoto2-2.5.3/m4m/gp-packaging.m4
+gphoto2-2.5.3/m4m/gp-dynamic-libraries.m4
+gphoto2-2.5.3/m4m/gp-libltdl.m4
+gphoto2-2.5.3/m4m/gp-va-copy.m4
+gphoto2-2.5.3/m4m/gp-manual-pstoimg.m4
+gphoto2-2.5.3/m4m/README.m4
+gphoto2-2.5.3/m4m/Makefile.in
+gphoto2-2.5.3/m4m/gp-stdint.m4
+gphoto2-2.5.3/m4m/gp-manual-w3m.m4
+gphoto2-2.5.3/m4m/Makefile.am
+gphoto2-2.5.3/m4m/gp-references.m4
+gphoto2-2.5.3/m4m/gp-manual-graphviz.m4
+gphoto2-2.5.3/m4m/gp-pkg-config.m4
+gphoto2-2.5.3/m4m/gp-udev.m4
+gphoto2-2.5.3/m4m/gp-camlibs.m4
+gphoto2-2.5.3/m4m/gp-manual-docbook-xml.m4
+gphoto2-2.5.3/m4m/gp-internal-docs.m4
+gphoto2-2.5.3/m4m/gp-check-shell-environment.m4
+gphoto2-2.5.3/m4m/gp-manual-gtk-doc.m4
+gphoto2-2.5.3/m4m/gp-manual-documentation.m4
+gphoto2-2.5.3/m4m/gp-manual-fig2dev.m4
+gphoto2-2.5.3/m4m/gp-check-doxygen.m4
+gphoto2-2.5.3/m4m/gp-documentation.m4
+gphoto2-2.5.3/m4m/gp-byteorder.m4
+gphoto2-2.5.3/m4m/gp-config-msg.m4
+gphoto2-2.5.3/m4m/gp-gettext-hack.m4
+gphoto2-2.5.3/m4m/gp-check-library.m4
+gphoto2-2.5.3/m4m/gp-check-popt.m4
+gphoto2-2.5.3/doc/
+gphoto2-2.5.3/doc/Makefile.in
+gphoto2-2.5.3/doc/Makefile.am
+gphoto2-2.5.3/doc/gphoto2.1
+gphoto2-2.5.3/TODO
+gphoto2-2.5.3/auto-aux/
+gphoto2-2.5.3/auto-aux/compile
+gphoto2-2.5.3/auto-aux/depcomp
+gphoto2-2.5.3/auto-aux/config.sub
+gphoto2-2.5.3/auto-aux/test-driver
+gphoto2-2.5.3/auto-aux/install-sh
+gphoto2-2.5.3/auto-aux/ltmain.sh
+gphoto2-2.5.3/auto-aux/config.rpath
+gphoto2-2.5.3/auto-aux/mkinstalldirs
+gphoto2-2.5.3/auto-aux/config.guess
+gphoto2-2.5.3/auto-aux/missing
+gphoto2-2.5.3/COPYING
+gphoto2-2.5.3/AUTHORS
+gphoto2-2.5.3/ABOUT-NLS
+gphoto2-2.5.3/ChangeLog
+gphoto2-2.5.3/configure.ac
+gphoto2-2.5.3/auto-m4/
+gphoto2-2.5.3/auto-m4/ltoptions.m4
+gphoto2-2.5.3/auto-m4/ltversion.m4
+gphoto2-2.5.3/auto-m4/po.m4
+gphoto2-2.5.3/auto-m4/lt~obsolete.m4
+gphoto2-2.5.3/auto-m4/iconv.m4
+gphoto2-2.5.3/auto-m4/libtool.m4
+gphoto2-2.5.3/auto-m4/progtest.m4
+gphoto2-2.5.3/auto-m4/lib-link.m4
+gphoto2-2.5.3/auto-m4/gettext.m4
+gphoto2-2.5.3/auto-m4/lib-ld.m4
+gphoto2-2.5.3/auto-m4/nls.m4
+gphoto2-2.5.3/auto-m4/lib-prefix.m4
+gphoto2-2.5.3/auto-m4/ltsugar.m4
+gphoto2-2.5.3/INSTALL
+gphoto2-2.5.3/po/
+gphoto2-2.5.3/po/insert-header.sin
+gphoto2-2.5.3/po/ja.gmo
+gphoto2-2.5.3/po/is.po
+gphoto2-2.5.3/po/Rules-quot
+gphoto2-2.5.3/po/zh_CN.gmo
+gphoto2-2.5.3/po/zh_TW.po
+gphoto2-2.5.3/po/az.gmo
+gphoto2-2.5.3/po/fr.gmo
+gphoto2-2.5.3/po/de.po
+gphoto2-2.5.3/po/ja.po
+gphoto2-2.5.3/po/ru.gmo
+gphoto2-2.5.3/po/sv.po
+gphoto2-2.5.3/po/POTFILES.in
+gphoto2-2.5.3/po/rw.gmo
+gphoto2-2.5.3/po/sr.gmo
+gphoto2-2.5.3/po/es.po
+gphoto2-2.5.3/po/stamp-po
+gphoto2-2.5.3/po/pa.gmo
+gphoto2-2.5.3/po/en_GB.po
+gphoto2-2.5.3/po/eu.gmo
+gphoto2-2.5.3/po/Makefile.in.in
+gphoto2-2.5.3/po/id.po
+gphoto2-2.5.3/po/sr.po
+gphoto2-2.5.3/po/es.gmo
+gphoto2-2.5.3/po/gphoto2.pot
+gphoto2-2.5.3/po/nl.po
+gphoto2-2.5.3/po/sk.po
+gphoto2-2.5.3/po/ro.gmo
+gphoto2-2.5.3/po/quot.sed
+gphoto2-2.5.3/po/eu.po
+gphoto2-2.5.3/po/pa.po
+gphoto2-2.5.3/po/it.gmo
+gphoto2-2.5.3/po/fi.po
+gphoto2-2.5.3/po/pl.po
+gphoto2-2.5.3/po/zh_CN.po
+gphoto2-2.5.3/po/rw.po
+gphoto2-2.5.3/po/de.gmo
+gphoto2-2.5.3/po/cs.gmo
+gphoto2-2.5.3/po/id.gmo
+gphoto2-2.5.3/po/vi.gmo
+gphoto2-2.5.3/po/sv.gmo
+gphoto2-2.5.3/po/en_GB.gmo
+gphoto2-2.5.3/po/Makevars
+gphoto2-2.5.3/po/pl.gmo
+gphoto2-2.5.3/po/da.gmo
+gphoto2-2.5.3/po/pt_BR.gmo
+gphoto2-2.5.3/po/en@quot.header
+gphoto2-2.5.3/po/uk.po
+gphoto2-2.5.3/po/en@boldquot.header
+gphoto2-2.5.3/po/vi.po
+gphoto2-2.5.3/po/uk.gmo
+gphoto2-2.5.3/po/boldquot.sed
+gphoto2-2.5.3/po/nl.gmo
+gphoto2-2.5.3/po/ro.po
+gphoto2-2.5.3/po/fi.gmo
+gphoto2-2.5.3/po/hu.po
+gphoto2-2.5.3/po/da.po
+gphoto2-2.5.3/po/it.po
+gphoto2-2.5.3/po/ru.po
+gphoto2-2.5.3/po/fr.po
+gphoto2-2.5.3/po/remove-potcdate.sin
+gphoto2-2.5.3/po/pt_BR.po
+gphoto2-2.5.3/po/sk.gmo
+gphoto2-2.5.3/po/hu.gmo
+gphoto2-2.5.3/po/cs.po
+gphoto2-2.5.3/po/az.po
+gphoto2-2.5.3/po/is.gmo
+gphoto2-2.5.3/po/zh_TW.gmo
+gphoto2-2.5.3/gphoto2/
+gphoto2-2.5.3/gphoto2/gphoto2-cmd-config.h
+gphoto2-2.5.3/gphoto2/gphoto2-cmd-capture.h
+gphoto2-2.5.3/gphoto2/Makefile.in
+gphoto2-2.5.3/gphoto2/Makefile.am
+gphoto2-2.5.3/gphoto2/i18n.h
+gphoto2-2.5.3/gphoto2/actions.c
+gphoto2-2.5.3/gphoto2/gphoto2-cmd-capture.c
+gphoto2-2.5.3/gphoto2/shell.h
+gphoto2-2.5.3/gphoto2/shell.c
+gphoto2-2.5.3/gphoto2/globals.h
+gphoto2-2.5.3/gphoto2/spawnve.h
+gphoto2-2.5.3/gphoto2/gphoto2-cmd-config.c
+gphoto2-2.5.3/gphoto2/gp-params.c
+gphoto2-2.5.3/gphoto2/gp-params.h
+gphoto2-2.5.3/gphoto2/main.c
+gphoto2-2.5.3/gphoto2/test-hook.sh
+gphoto2-2.5.3/gphoto2/spawntest.c
+gphoto2-2.5.3/gphoto2/range.c
+gphoto2-2.5.3/gphoto2/version.c
+gphoto2-2.5.3/gphoto2/range.h
+gphoto2-2.5.3/gphoto2/main.h
+gphoto2-2.5.3/gphoto2/foreach.h
+gphoto2-2.5.3/gphoto2/spawnve.c
+gphoto2-2.5.3/gphoto2/foreach.c
+gphoto2-2.5.3/gphoto2/version.h
+gphoto2-2.5.3/gphoto2/actions.h
+gphoto2-2.5.3/packaging/
+gphoto2-2.5.3/packaging/Makefile.in
+gphoto2-2.5.3/packaging/Makefile.am
+gphoto2-2.5.3/packaging/rpm/
+gphoto2-2.5.3/packaging/rpm/Makefile.in
+gphoto2-2.5.3/packaging/rpm/Makefile.am
+gphoto2-2.5.3/packaging/rpm/package.spec.in
+gphoto2-2.5.3/packaging/rpm/gphoto2.spec
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... auto-aux/install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for POSIX sh $() command substitution... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether gcc and cc understand -c and -o together... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking PKG_CONFIG_PATH... empty
+checking for pkg-config... /usr/bin/pkg-config
+checking for po/Makevars requiring hack... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for msgmerge... (cached) /usr/bin/msgmerge
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for dynamic library extension... .so
+checking pkg-config is at least version 0.9.0... yes
+checking for libgphoto2 to use... autodetect
+checking for LIBGPHOTO2... yes
+checking libgphoto2 library flags... "-lgphoto2 -lgphoto2_port -lm -lexif  "
+checking libgphoto2 cpp flags... "-I/usr/include/gphoto2 -I/usr/include/libexif  "
+checking for strptime... yes
+checking for signal... yes
+checking for pause... yes
+checking for sleep... yes
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for floor in -lm... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_exit in -lpthread... yes
+checking cdk/cdk.h usability... no
+checking cdk/cdk.h presence... no
+checking for cdk/cdk.h... no
+checking jpeglib.h usability... yes
+checking jpeglib.h presence... yes
+checking for jpeglib.h... yes
+checking for jpeg_read_scanlines in -ljpeg... yes
+checking for libexif to use... autodetect
+checking for LIBEXIF... yes
+checking libexif/exif-log.h usability... yes
+checking libexif/exif-log.h presence... yes
+checking for libexif/exif-log.h... yes
+checking libexif/exif-ifd.h usability... yes
+checking libexif/exif-ifd.h presence... yes
+checking for libexif/exif-ifd.h... yes
+checking libexif/exif-data.h usability... yes
+checking libexif/exif-data.h presence... yes
+checking for libexif/exif-data.h... yes
+checking for function exif_data_new in libexif... yes
+checking libexif library flags... "-lexif  "
+checking libexif cpp flags... "-I/usr/include/libexif  "
+checking whether popt is required... yes
+checking popt.h usability... yes
+checking popt.h presence... yes
+checking for popt.h... yes
+checking for poptStuffArgs in -lpopt... yes
+checking if popt is functional... yes
+checking readline/readline.h usability... yes
+checking readline/readline.h presence... yes
+checking for readline/readline.h... yes
+checking for rl_completion_append_character in -lreadline... no
+checking for rl_completion_matches in -lreadline... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating Makefile
+config.status: creating gphoto2/Makefile
+config.status: creating m4m/Makefile
+config.status: creating doc/Makefile
+config.status: creating contrib/Makefile
+config.status: creating packaging/Makefile
+config.status: creating packaging/rpm/Makefile
+config.status: creating packaging/rpm/package.spec
+config.status: creating tests/data/Makefile
+config.status: creating tests/staging/subdir1/Makefile
+config.status: creating tests/staging/subdir2/Makefile
+config.status: creating tests/staging/Makefile
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default-2 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+Configuration (gphoto2 2.5.3):
+
+  Build
+    Source code location:          .
+    Compiler:                      gcc
+
+  Features
+    Use translations:              yes
+    libgphoto2:                    yes
+    pthread support:               yes (-lpthread)
+    Interactive config support:    no (http://dickey.his.com/cdk/cdk.html)
+    JPEG support:                  yes
+    libexif:                       yes
+    Text preview support:          no (not requested)
+    use popt library:              yes
+    popt libs:                     -L/usr/ -lpopt
+    popt cppflags:                 -I/usr/include
+    Readline support:              yes (requires explicit -lncurses)
+
+You may run "make" and "make install" now.
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3'
+Making all in m4m
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/m4m'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/m4m'
+Making all in contrib
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/contrib'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/contrib'
+Making all in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/doc'
+Making all in gphoto2
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/gphoto2'
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-actions.o -MD -MP -MF .deps/gphoto2-actions.Tpo -c -o gphoto2-actions.o `test -f 'actions.c' || echo './'`actions.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-foreach.o -MD -MP -MF .deps/gphoto2-foreach.Tpo -c -o gphoto2-foreach.o `test -f 'foreach.c' || echo './'`foreach.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-gp-params.o -MD -MP -MF .deps/gphoto2-gp-params.Tpo -c -o gphoto2-gp-params.o `test -f 'gp-params.c' || echo './'`gp-params.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-spawnve.o -MD -MP -MF .deps/gphoto2-spawnve.Tpo -c -o gphoto2-spawnve.o `test -f 'spawnve.c' || echo './'`spawnve.c
+gp-params.c: In function ‘ctx_message_func’:
+gp-params.c:231:13: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+         int c;
+             ^
+mv -f .deps/gphoto2-spawnve.Tpo .deps/gphoto2-spawnve.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-main.o -MD -MP -MF .deps/gphoto2-main.Tpo -c -o gphoto2-main.o `test -f 'main.c' || echo './'`main.c
+actions.c: In function ‘action_camera_upload_metadata’:
+actions.c:126:6: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+   fn = path+5;
+      ^
+mv -f .deps/gphoto2-foreach.Tpo .deps/gphoto2-foreach.Po
+mv -f .deps/gphoto2-gp-params.Tpo .deps/gphoto2-gp-params.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-version.o -MD -MP -MF .deps/gphoto2-version.Tpo -c -o gphoto2-version.o `test -f 'version.c' || echo './'`version.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-range.o -MD -MP -MF .deps/gphoto2-range.Tpo -c -o gphoto2-range.o `test -f 'range.c' || echo './'`range.c
+mv -f .deps/gphoto2-version.Tpo .deps/gphoto2-version.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-shell.o -MD -MP -MF .deps/gphoto2-shell.Tpo -c -o gphoto2-shell.o `test -f 'shell.c' || echo './'`shell.c
+mv -f .deps/gphoto2-range.Tpo .deps/gphoto2-range.Po
+mv -f .deps/gphoto2-shell.Tpo .deps/gphoto2-shell.Po
+mv -f .deps/gphoto2-actions.Tpo .deps/gphoto2-actions.Po
+mv -f .deps/gphoto2-main.Tpo .deps/gphoto2-main.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif   -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE    -I/usr/include/libexif    -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g  -g -o gphoto2   gphoto2-actions.o gphoto2-foreach.o gphoto2-gp-params.o gphoto2-spawnve.o gphoto2-main.o gphoto2-version.o gphoto2-range.o gphoto2-shell.o -lgphoto2 -lgphoto2_port -lm -lexif     -ljpeg -lpthread -lexif    -lreadline -lncurses -L/usr/ -lpopt -lm 
+libtool: link: gcc -I.. -I../gphoto2 -I/usr/include/gphoto2 -I/usr/include/libexif -DLOCALEDIR=\"/usr/share/locale\" -D_GPHOTO2_INTERNAL_CODE -I/usr/include/libexif -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -g -o gphoto2 gphoto2-actions.o gphoto2-foreach.o gphoto2-gp-params.o gphoto2-spawnve.o gphoto2-main.o gphoto2-version.o gphoto2-range.o gphoto2-shell.o  /usr/lib/libgphoto2.so /usr/lib/libgphoto2_port.so /usr/lib/libltdl.so -ldl /usr/lib/libjpeg.so -lpthread /usr/lib/libexif.so -lreadline -lncurses -L/usr/ /usr/lib/libpopt.so -lm
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/gphoto2'
+Making all in packaging
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+Making all in rpm
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging/rpm'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging/rpm'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/po'
+Making all in tests
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+Making all in data
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/data'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/data'
+Making all in staging
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+Making all in subdir1
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir1'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir1'
+Making all in subdir2
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir2'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir2'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3'
+Making install in m4m
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/m4m'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/m4m'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/m4m'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/m4m'
+Making install in contrib
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/contrib'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/contrib'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/contrib'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/contrib'
+Making install in doc
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/doc'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+ ../auto-aux/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 gphoto2.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/man/man1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/doc'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/doc'
+Making install in gphoto2
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/gphoto2'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/gphoto2'
+ ../auto-aux/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c gphoto2 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/bin'
+libtool: install: /usr/bin/ginstall -c gphoto2 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/bin/gphoto2
+ ../auto-aux/install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/doc/gphoto2'
+ /usr/bin/ginstall -c -m 644 test-hook.sh '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/doc/gphoto2'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/gphoto2'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/gphoto2'
+Making install in packaging
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+Making install in rpm
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging/rpm'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging/rpm'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging/rpm'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging/rpm'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/packaging'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/po'
+/bin/sh ../auto-aux/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/az
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/az/LC_MESSAGES
+installing az.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/az/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/cs
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/cs/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/da
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/da/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/de
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/de/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/en_GB
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/en_GB/LC_MESSAGES
+installing en_GB.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/en_GB/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/es
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/es/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/eu
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/eu/LC_MESSAGES
+installing eu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/eu/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/fi
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/fi/LC_MESSAGES
+installing fi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/fi/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/fr
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/fr/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/hu
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/hu/LC_MESSAGES
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/hu/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/id
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/id/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/is
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/is/LC_MESSAGES
+installing is.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/is/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/it
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/it/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ja
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ja/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/nl
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/nl/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pa
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pa/LC_MESSAGES
+installing pa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pa/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pl
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pl/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pt_BR
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/pt_BR/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ro
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ro/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ru
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/ru/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/rw
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/rw/LC_MESSAGES
+installing rw.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/rw/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sk
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sk/LC_MESSAGES
+installing sk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sk/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sr
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sr/LC_MESSAGES
+installing sr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sr/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sv
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/sv/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/uk
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/uk/LC_MESSAGES
+installing uk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/uk/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/vi
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/vi/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/zh_CN
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/zh_CN/LC_MESSAGES/gphoto2.mo
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/zh_TW
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/locale/zh_TW/LC_MESSAGES/gphoto2.mo
+if test "gphoto2" = "gettext-tools"; then \
+  /bin/sh ../auto-aux/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/ginstall -c -m 644 ./$file \
+		    /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-install/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/po'
+Making install in tests
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+Making install in data
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/data'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/data'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/data'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/data'
+Making install in staging
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+Making install in subdir1
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir1'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir1'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir1'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir1'
+Making install in subdir2
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir2'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir2'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir2'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging/subdir2'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests/staging'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3/tests'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2/gphoto2-2.5.3'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gphoto2
+Found 'i686'
+Processing ../gphoto2-install/usr/bin/gphoto2
+Processing ../gphoto2-install/usr/share/doc/gphoto2/test-hook.sh
+Processing ../gphoto2-install/usr/share/locale/az/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/cs/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/da/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/de/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/en_GB/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/es/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/eu/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/fi/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/fr/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/hu/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/id/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/is/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/it/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/ja/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/nl/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/pa/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/pl/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/pt_BR/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/ro/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/ru/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/rw/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/sk/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/sr/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/sv/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/uk/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/vi/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/zh_CN/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/locale/zh_TW/LC_MESSAGES/gphoto2.mo
+Processing ../gphoto2-install/usr/share/man/man1/gphoto2.1
+all done
+packaging gphoto2-2.5.3-i686_slk600
+packaging gphoto2_DOC-2.5.3-i686_slk600
+packaging gphoto2_NLS-2.5.3-i686_slk600
+done!

@@ -1,0 +1,73 @@
+# parcellite
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=http://downloads.sourceforge.net/project/parcellite/parcellite/parcellite-1.1.9/
+PKG=parcellite
+VER=1.1.9
+COMP=tar.gz
+DESC="Parcellite is a lightweight GTK+ clipboard manager"
+DEPS=+gtk+2
+CAT=Document
+DESKTOP=
+BUILD=slk600
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+build() {
+	# since not X compiling forget build triplet
+	cd ${PKG}-${VER}
+	./configure --prefix=/usr \
+				--localstatedir=/var \
+				--sysconfdir=/etc \
+				--libdir=/usr/$LIBDIR
+	[ "$?" -eq 0 ] || exit
+	make
+	[ "$?" -eq 0 ] || exit
+	cd -
+}
+	
+package() {
+	cp -arf ${PKG}-template ${PKG}-${VER}-${ARCH}_${BUILD}
+	EXE=`find ${PKG}-${VER} -type f -name "$PKG"`
+	install -s -m 0755 $EXE ${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin
+	# add this recipe
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+	fi
+	# delete any icon cache or library cache
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
+	done
+	rm -r ${PKG}-${VER}
+	rm *.files 2>/dev/null
+	echo "done!"
+}
+
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+build
+package	

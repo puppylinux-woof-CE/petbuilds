@@ -1,0 +1,76 @@
+disktype-9-patched_pardus_bk/
+disktype-9-patched_pardus_bk/amiga.c
+disktype-9-patched_pardus_bk/apple.c
+disktype-9-patched_pardus_bk/archives.c
+disktype-9-patched_pardus_bk/atari.c
+disktype-9-patched_pardus_bk/beos.c
+disktype-9-patched_pardus_bk/blank.c
+disktype-9-patched_pardus_bk/buffer.c
+disktype-9-patched_pardus_bk/cdaccess.c
+disktype-9-patched_pardus_bk/cdimage.c
+disktype-9-patched_pardus_bk/cdrom.c
+disktype-9-patched_pardus_bk/cloop.c
+disktype-9-patched_pardus_bk/compressed.c
+disktype-9-patched_pardus_bk/detect.c
+disktype-9-patched_pardus_bk/disktype.1
+disktype-9-patched_pardus_bk/dos.c
+disktype-9-patched_pardus_bk/file.c
+disktype-9-patched_pardus_bk/global.h
+disktype-9-patched_pardus_bk/HISTORY
+disktype-9-patched_pardus_bk/lib.c
+disktype-9-patched_pardus_bk/LICENSE
+disktype-9-patched_pardus_bk/linux.c
+disktype-9-patched_pardus_bk/main.c
+disktype-9-patched_pardus_bk/Makefile
+disktype-9-patched_pardus_bk/README
+disktype-9-patched_pardus_bk/Seedfile
+disktype-9-patched_pardus_bk/TODO
+disktype-9-patched_pardus_bk/udf.c
+disktype-9-patched_pardus_bk/unix.c
+disktype-9-patched_pardus_bk/vpc.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c main.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c lib.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c buffer.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c file.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c cdaccess.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c cdimage.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c vpc.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c compressed.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c detect.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c apple.c
+apple.c: In function ‘detect_apple_volume’:
+apple.c:109:13: warning: variable ‘version’ set but not used [-Wunused-but-set-variable]
+   u2 magic, version, volnamelen;
+             ^
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c amiga.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c atari.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c dos.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c cdrom.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c linux.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c unix.c
+unix.c: In function ‘detect_bsd_disklabel’:
+unix.c:254:58: warning: variable ‘secperunit’ set but not used [-Wunused-but-set-variable]
+   u4 sectsize, nsectors, ntracks, ncylinders, secpercyl, secperunit;
+                                                          ^
+unix.c:254:47: warning: variable ‘secpercyl’ set but not used [-Wunused-but-set-variable]
+   u4 sectsize, nsectors, ntracks, ncylinders, secpercyl, secperunit;
+                                               ^
+unix.c:254:35: warning: variable ‘ncylinders’ set but not used [-Wunused-but-set-variable]
+   u4 sectsize, nsectors, ntracks, ncylinders, secpercyl, secperunit;
+                                   ^
+unix.c:254:26: warning: variable ‘ntracks’ set but not used [-Wunused-but-set-variable]
+   u4 sectsize, nsectors, ntracks, ncylinders, secpercyl, secperunit;
+                          ^
+unix.c:254:16: warning: variable ‘nsectors’ set but not used [-Wunused-but-set-variable]
+   u4 sectsize, nsectors, ntracks, ncylinders, secpercyl, secperunit;
+                ^
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c beos.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c archives.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c udf.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c blank.c
+gcc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_IOCTL_LINUX -Wall -c cloop.c
+gcc  -o disktype main.o lib.o buffer.o file.o cdaccess.o cdimage.o vpc.o compressed.o detect.o apple.o amiga.o atari.o dos.o cdrom.o linux.o unix.o beos.o archives.o udf.o blank.o cloop.o 
+rm -f *.o *~ *% disktype
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/disktype
+packaging disktype-9-patched_pardus_bk-i686_slk600
+done!

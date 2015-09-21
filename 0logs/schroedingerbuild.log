@@ -1,0 +1,1289 @@
+schroedinger-1.0.11/
+schroedinger-1.0.11/missing
+schroedinger-1.0.11/compile
+schroedinger-1.0.11/configure
+schroedinger-1.0.11/COPYING.MPL
+schroedinger-1.0.11/TODO
+schroedinger-1.0.11/gtk-doc.make
+schroedinger-1.0.11/configure.ac
+schroedinger-1.0.11/ltmain.sh
+schroedinger-1.0.11/config.h.in
+schroedinger-1.0.11/testsuite/
+schroedinger-1.0.11/testsuite/wavelet_max_gain.c
+schroedinger-1.0.11/testsuite/phasecorrelation.c
+schroedinger-1.0.11/testsuite/prototype/
+schroedinger-1.0.11/testsuite/prototype/Makefile.am
+schroedinger-1.0.11/testsuite/prototype/Makefile.in
+schroedinger-1.0.11/testsuite/filter_coeff.c
+schroedinger-1.0.11/testsuite/wavelet_gain_curve.c
+schroedinger-1.0.11/testsuite/decode_loop.c
+schroedinger-1.0.11/testsuite/installation/
+schroedinger-1.0.11/testsuite/installation/header_test
+schroedinger-1.0.11/testsuite/installation/Makefile.am
+schroedinger-1.0.11/testsuite/installation/Makefile.in
+schroedinger-1.0.11/testsuite/cache/
+schroedinger-1.0.11/testsuite/cache/upsample_speed.c
+schroedinger-1.0.11/testsuite/cache/Makefile.am
+schroedinger-1.0.11/testsuite/cache/Makefile.in
+schroedinger-1.0.11/testsuite/cache/wavelet_speed.c
+schroedinger-1.0.11/testsuite/common.c
+schroedinger-1.0.11/testsuite/fft.c
+schroedinger-1.0.11/testsuite/downsample.c
+schroedinger-1.0.11/testsuite/dirac/
+schroedinger-1.0.11/testsuite/dirac/dirac_test_intra
+schroedinger-1.0.11/testsuite/dirac/Makefile.am
+schroedinger-1.0.11/testsuite/dirac/Makefile.in
+schroedinger-1.0.11/testsuite/dirac/dirac_vts_streams
+schroedinger-1.0.11/testsuite/perf/
+schroedinger-1.0.11/testsuite/perf/schroorc.orc
+schroedinger-1.0.11/testsuite/perf/schroorc-dist.h
+schroedinger-1.0.11/testsuite/perf/upsample_speed.c
+schroedinger-1.0.11/testsuite/perf/quantise_speed.c
+schroedinger-1.0.11/testsuite/perf/schroorc-dist.c
+schroedinger-1.0.11/testsuite/perf/report.c
+schroedinger-1.0.11/testsuite/perf/unpack_speed.c
+schroedinger-1.0.11/testsuite/perf/Makefile.am
+schroedinger-1.0.11/testsuite/perf/dequantise_speed.c
+schroedinger-1.0.11/testsuite/perf/Makefile.in
+schroedinger-1.0.11/testsuite/perf/wavelet_speed.c
+schroedinger-1.0.11/testsuite/abi.c
+schroedinger-1.0.11/testsuite/manual/
+schroedinger-1.0.11/testsuite/manual/build_from_git
+schroedinger-1.0.11/testsuite/manual/Makefile.am
+schroedinger-1.0.11/testsuite/manual/Makefile.in
+schroedinger-1.0.11/testsuite/coder/
+schroedinger-1.0.11/testsuite/coder/arith_dirac_byte.c
+schroedinger-1.0.11/testsuite/coder/arith_exp.c
+schroedinger-1.0.11/testsuite/coder/arith_dirac.c
+schroedinger-1.0.11/testsuite/coder/arith.h
+schroedinger-1.0.11/testsuite/coder/arith_qm.c
+schroedinger-1.0.11/testsuite/coder/arith_dirac_stats.c
+schroedinger-1.0.11/testsuite/coder/speed.c
+schroedinger-1.0.11/testsuite/coder/coding_efficiency.c
+schroedinger-1.0.11/testsuite/coder/speed2.c
+schroedinger-1.0.11/testsuite/coder/decode.c
+schroedinger-1.0.11/testsuite/coder/arith_bit.c
+schroedinger-1.0.11/testsuite/coder/arith_dirac_both.c
+schroedinger-1.0.11/testsuite/coder/Makefile.am
+schroedinger-1.0.11/testsuite/coder/Makefile.in
+schroedinger-1.0.11/testsuite/quant.c
+schroedinger-1.0.11/testsuite/wavelet_noise_gain.c
+schroedinger-1.0.11/testsuite/wavelet_2d.c
+schroedinger-1.0.11/testsuite/motion2.c
+schroedinger-1.0.11/testsuite/taps.c
+schroedinger-1.0.11/testsuite/utils.c
+schroedinger-1.0.11/testsuite/extension.c
+schroedinger-1.0.11/testsuite/ramp.c
+schroedinger-1.0.11/testsuite/wavelet_gain.c
+schroedinger-1.0.11/testsuite/wavelet_noise_2d.c
+schroedinger-1.0.11/testsuite/perceptual_curves.c
+schroedinger-1.0.11/testsuite/decode.c
+schroedinger-1.0.11/testsuite/cuda/
+schroedinger-1.0.11/testsuite/cuda/cuda.c
+schroedinger-1.0.11/testsuite/cuda/Makefile.am
+schroedinger-1.0.11/testsuite/cuda/Makefile.in
+schroedinger-1.0.11/testsuite/divide.c
+schroedinger-1.0.11/testsuite/streams/
+schroedinger-1.0.11/testsuite/streams/Makefile.am
+schroedinger-1.0.11/testsuite/streams/Makefile.in
+schroedinger-1.0.11/testsuite/streams/make_vts_streams
+schroedinger-1.0.11/testsuite/perceptual_weight.c
+schroedinger-1.0.11/testsuite/tables2/
+schroedinger-1.0.11/testsuite/tables2/wavelet_tables.c
+schroedinger-1.0.11/testsuite/tables2/unpack_tables.c
+schroedinger-1.0.11/testsuite/tables2/quant_tables.c
+schroedinger-1.0.11/testsuite/tables2/Makefile.am
+schroedinger-1.0.11/testsuite/tables2/Makefile.in
+schroedinger-1.0.11/testsuite/tables2/lowdelay_tables.c
+schroedinger-1.0.11/testsuite/colorspace.c
+schroedinger-1.0.11/testsuite/bits.c
+schroedinger-1.0.11/testsuite/Makefile.am
+schroedinger-1.0.11/testsuite/bits3.c
+schroedinger-1.0.11/testsuite/Makefile.in
+schroedinger-1.0.11/testsuite/encode.c
+schroedinger-1.0.11/testsuite/motion.c
+schroedinger-1.0.11/testsuite/orc_test.c
+schroedinger-1.0.11/testsuite/README
+schroedinger-1.0.11/testsuite/common.h
+schroedinger-1.0.11/testsuite/arith.c
+schroedinger-1.0.11/testsuite/upsample.c
+schroedinger-1.0.11/testsuite/sort.c
+schroedinger-1.0.11/testsuite/decode_coded_order.c
+schroedinger-1.0.11/testsuite/opengl/
+schroedinger-1.0.11/testsuite/opengl/opengl_pushpull.c
+schroedinger-1.0.11/testsuite/opengl/opengl_combine.c
+schroedinger-1.0.11/testsuite/opengl/opengl.c
+schroedinger-1.0.11/testsuite/opengl/opengl_util.c
+schroedinger-1.0.11/testsuite/opengl/Makefile.am
+schroedinger-1.0.11/testsuite/opengl/Makefile.in
+schroedinger-1.0.11/testsuite/unpack.c
+schroedinger-1.0.11/testsuite/bits2.c
+schroedinger-1.0.11/testsuite/ssim.c
+schroedinger-1.0.11/testsuite/arith_encode.c
+schroedinger-1.0.11/tools/
+schroedinger-1.0.11/tools/dirac_parse.c
+schroedinger-1.0.11/tools/drc-to-png
+schroedinger-1.0.11/tools/parse_header.c
+schroedinger-1.0.11/tools/drc-cut.c
+schroedinger-1.0.11/tools/dirac_parse.h
+schroedinger-1.0.11/tools/dump_packets.c
+schroedinger-1.0.11/tools/dump_gop.c
+schroedinger-1.0.11/tools/Makefile.am
+schroedinger-1.0.11/tools/Makefile.in
+schroedinger-1.0.11/COPYING.LGPL
+schroedinger-1.0.11/install-sh
+schroedinger-1.0.11/m4/
+schroedinger-1.0.11/m4/gtk-doc.m4
+schroedinger-1.0.11/m4/as-compiler-flag.m4
+schroedinger-1.0.11/m4/as-host-defines.m4
+schroedinger-1.0.11/m4/libtool.m4
+schroedinger-1.0.11/m4/ltversion.m4
+schroedinger-1.0.11/m4/ltoptions.m4
+schroedinger-1.0.11/m4/ltsugar.m4
+schroedinger-1.0.11/m4/pkg.m4
+schroedinger-1.0.11/m4/as-version.m4
+schroedinger-1.0.11/m4/as-auto-alt.m4
+schroedinger-1.0.11/m4/lt~obsolete.m4
+schroedinger-1.0.11/m4/gst-args.m4
+schroedinger-1.0.11/config.guess
+schroedinger-1.0.11/config.sub
+schroedinger-1.0.11/AUTHORS
+schroedinger-1.0.11/COPYING.GPL
+schroedinger-1.0.11/schroedinger/
+schroedinger-1.0.11/schroedinger/schrogpumotion.c
+schroedinger-1.0.11/schroedinger/schrofft.c
+schroedinger-1.0.11/schroedinger/schroasync-none.c
+schroedinger-1.0.11/schroedinger/schrobitstream.h
+schroedinger-1.0.11/schroedinger/schrohierbm.c
+schroedinger-1.0.11/schroedinger/schroarith.h
+schroedinger-1.0.11/schroedinger/schrovirtframe.c
+schroedinger-1.0.11/schroedinger/schromotionest.c
+schroedinger-1.0.11/schroedinger/schroutils.h
+schroedinger-1.0.11/schroedinger/schroparams.c
+schroedinger-1.0.11/schroedinger/schroquantiser.c
+schroedinger-1.0.11/schroedinger/schrocuda.h
+schroedinger-1.0.11/schroedinger/schrossim.h
+schroedinger-1.0.11/schroedinger/schrometric.c
+schroedinger-1.0.11/schroedinger/schromotionref.c
+schroedinger-1.0.11/schroedinger/schroversion.h.in
+schroedinger-1.0.11/schroedinger/schrounpack.c
+schroedinger-1.0.11/schroedinger/schromotion8.c
+schroedinger-1.0.11/schroedinger/schrolist.c
+schroedinger-1.0.11/schroedinger/schro.h
+schroedinger-1.0.11/schroedinger/schroorc.orc
+schroedinger-1.0.11/schroedinger/schroorc-dist.h
+schroedinger-1.0.11/schroedinger/schroqueue.h
+schroedinger-1.0.11/schroedinger/schrowavelettables.c
+schroedinger-1.0.11/schroedinger/schrofft.h
+schroedinger-1.0.11/schroedinger/schrofilter.c
+schroedinger-1.0.11/schroedinger/schrounpack.h
+schroedinger-1.0.11/schroedinger/schrobufferlist.h
+schroedinger-1.0.11/schroedinger/schroarith.c
+schroedinger-1.0.11/schroedinger/schroparams.h
+schroedinger-1.0.11/schroedinger/schromotion.c
+schroedinger-1.0.11/schroedinger/schrobufferlist.c
+schroedinger-1.0.11/schroedinger/schrounpacktables.c
+schroedinger-1.0.11/schroedinger/schromotion.h
+schroedinger-1.0.11/schroedinger/schromotionfast.c
+schroedinger-1.0.11/schroedinger/schroframe.c
+schroedinger-1.0.11/schroedinger/schrodebug.h
+schroedinger-1.0.11/schroedinger/schroglobalest.c
+schroedinger-1.0.11/schroedinger/schrocuda.c
+schroedinger-1.0.11/schroedinger/schroengine.h
+schroedinger-1.0.11/schroedinger/schroencoder.c
+schroedinger-1.0.11/schroedinger/schrolimits.h
+schroedinger-1.0.11/schroedinger/schropack.c
+schroedinger-1.0.11/schroedinger/schrodecoder.h
+schroedinger-1.0.11/schroedinger/schroorc-dist.c
+schroedinger-1.0.11/schroedinger/schrolist.h
+schroedinger-1.0.11/schroedinger/schrovideoformat.h
+schroedinger-1.0.11/schroedinger/schrometric.h
+schroedinger-1.0.11/schroedinger/schroasync.h
+schroedinger-1.0.11/schroedinger/schroasync-win32.c
+schroedinger-1.0.11/schroedinger/schrotables.c
+schroedinger-1.0.11/schroedinger/schrotables.h
+schroedinger-1.0.11/schroedinger/schroqueue.c
+schroedinger-1.0.11/schroedinger/schropack.h
+schroedinger-1.0.11/schroedinger/schrossim.c
+schroedinger-1.0.11/schroedinger/cuda/
+schroedinger-1.0.11/schroedinger/cuda/iwt5_3.cu
+schroedinger-1.0.11/schroedinger/cuda/cudawavelet.cu
+schroedinger-1.0.11/schroedinger/cuda/upsample.cu
+schroedinger-1.0.11/schroedinger/cuda/haar_iwt.cu
+schroedinger-1.0.11/schroedinger/cuda/iiwt5_3.cu
+schroedinger-1.0.11/schroedinger/cuda/init.cu
+schroedinger-1.0.11/schroedinger/cuda/iwt9_7.cu
+schroedinger-1.0.11/schroedinger/cuda/iwt9_3.cu
+schroedinger-1.0.11/schroedinger/cuda/iwt13_5.cu
+schroedinger-1.0.11/schroedinger/cuda/iiwt9_3.cu
+schroedinger-1.0.11/schroedinger/cuda/motion_tex.cu
+schroedinger-1.0.11/schroedinger/cuda/iiwt13_5.cu
+schroedinger-1.0.11/schroedinger/cuda/haar_iiwt.cu
+schroedinger-1.0.11/schroedinger/cuda/iiwtfidelity.cu
+schroedinger-1.0.11/schroedinger/cuda/Makefile.am
+schroedinger-1.0.11/schroedinger/cuda/Makefile.in
+schroedinger-1.0.11/schroedinger/cuda/dummy.c
+schroedinger-1.0.11/schroedinger/cuda/iiwt9_7.cu
+schroedinger-1.0.11/schroedinger/cuda/iwtfidelity.cu
+schroedinger-1.0.11/schroedinger/cuda/frame.cu
+schroedinger-1.0.11/schroedinger/schrovirtframe.h
+schroedinger-1.0.11/schroedinger/schroframe.h
+schroedinger-1.0.11/schroedinger/schrophasecorrelation.c
+schroedinger-1.0.11/schroedinger/schroanalysis.c
+schroedinger-1.0.11/schroedinger/schro-stdint.h
+schroedinger-1.0.11/schroedinger/schrodomain.c
+schroedinger-1.0.11/schroedinger/schrophasecorrelation.h
+schroedinger-1.0.11/schroedinger/schro.c
+schroedinger-1.0.11/schroedinger/schroanalysis.h
+schroedinger-1.0.11/schroedinger/schrodecoder.c
+schroedinger-1.0.11/schroedinger/dummy.cc
+schroedinger-1.0.11/schroedinger/schrotablesinit.c
+schroedinger-1.0.11/schroedinger/schrowaveletorc.c
+schroedinger-1.0.11/schroedinger/Makefile.am
+schroedinger-1.0.11/schroedinger/schrowavelet.h
+schroedinger-1.0.11/schroedinger/Makefile.in
+schroedinger-1.0.11/schroedinger/schrodebug.c
+schroedinger-1.0.11/schroedinger/schroarith-i386.c
+schroedinger-1.0.11/schroedinger/schromotionest.h
+schroedinger-1.0.11/schroedinger/schroencoder.h
+schroedinger-1.0.11/schroedinger/schrogpuframe.h
+schroedinger-1.0.11/schroedinger/schrohistogram.c
+schroedinger-1.0.11/schroedinger/schrogpuframe.c
+schroedinger-1.0.11/schroedinger/schrobuffer.h
+schroedinger-1.0.11/schroedinger/schrohistogram.h
+schroedinger-1.0.11/schroedinger/schroroughmotion.c
+schroedinger-1.0.11/schroedinger/schrobuffer.c
+schroedinger-1.0.11/schroedinger/schrolowdelay.c
+schroedinger-1.0.11/schroedinger/opengl/
+schroedinger-1.0.11/schroedinger/opengl/schroopenglshader.c
+schroedinger-1.0.11/schroedinger/opengl/schroopengltypes.h
+schroedinger-1.0.11/schroedinger/opengl/schroopenglframe.c
+schroedinger-1.0.11/schroedinger/opengl/schroopenglframe_convert.c
+schroedinger-1.0.11/schroedinger/opengl/schroopenglmotion.h
+schroedinger-1.0.11/schroedinger/opengl/schroopengl.h
+schroedinger-1.0.11/schroedinger/opengl/schroopenglframe_combine.c
+schroedinger-1.0.11/schroedinger/opengl/schroopenglframe.h
+schroedinger-1.0.11/schroedinger/opengl/schroopenglwavelet.c
+schroedinger-1.0.11/schroedinger/opengl/schroopenglframe_pull.c
+schroedinger-1.0.11/schroedinger/opengl/schroopenglmotion.c
+schroedinger-1.0.11/schroedinger/opengl/Makefile.am
+schroedinger-1.0.11/schroedinger/opengl/Makefile.in
+schroedinger-1.0.11/schroedinger/opengl/schroopenglframe_push.c
+schroedinger-1.0.11/schroedinger/opengl/schroopenglcanvas.c
+schroedinger-1.0.11/schroedinger/opengl/schroopengl.c
+schroedinger-1.0.11/schroedinger/schrodomain.h
+schroedinger-1.0.11/schroedinger/schroasync-gthread.c
+schroedinger-1.0.11/schroedinger/schroasync-pthread.c
+schroedinger-1.0.11/schroedinger/schroparse.c
+schroedinger-1.0.11/schroedinger/schrovideoformat.c
+schroedinger-1.0.11/schroedinger/schrofilter.h
+schroedinger-1.0.11/schroedinger/schroengine.c
+schroedinger-1.0.11/schroedinger/schroparse.h
+schroedinger-1.0.11/schroedinger/schroutils.c
+schroedinger-1.0.11/Makefile.am
+schroedinger-1.0.11/Makefile.in
+schroedinger-1.0.11/schroedinger.pc.in
+schroedinger-1.0.11/README
+schroedinger-1.0.11/schroedinger.spec
+schroedinger-1.0.11/autogen.sh
+schroedinger-1.0.11/COPYING.MIT
+schroedinger-1.0.11/NEWS
+schroedinger-1.0.11/doc/
+schroedinger-1.0.11/doc/xml/
+schroedinger-1.0.11/doc/xml/schrodomain.xml
+schroedinger-1.0.11/doc/xml/schrohistogram.xml
+schroedinger-1.0.11/doc/xml/schrovideoformat.xml
+schroedinger-1.0.11/doc/xml/schrolist.xml
+schroedinger-1.0.11/doc/xml/schroarith.xml
+schroedinger-1.0.11/doc/xml/schrodecoder.xml
+schroedinger-1.0.11/doc/xml/schrosubband.xml
+schroedinger-1.0.11/doc/xml/schroencoder.xml
+schroedinger-1.0.11/doc/xml/schrowavelet.xml
+schroedinger-1.0.11/doc/xml/schrometric.xml
+schroedinger-1.0.11/doc/xml/schrofilter.xml
+schroedinger-1.0.11/doc/xml/schrounpack.xml
+schroedinger-1.0.11/doc/xml/api-index-deprecated.xml
+schroedinger-1.0.11/doc/xml/schrocuda.xml
+schroedinger-1.0.11/doc/xml/schroutils.xml
+schroedinger-1.0.11/doc/xml/schroasync.xml
+schroedinger-1.0.11/doc/xml/schro.xml
+schroedinger-1.0.11/doc/xml/schroqueue.xml
+schroedinger-1.0.11/doc/xml/schrooil.xml
+schroedinger-1.0.11/doc/xml/schromotionest.xml
+schroedinger-1.0.11/doc/xml/api-index-full.xml
+schroedinger-1.0.11/doc/xml/schrodebug.xml
+schroedinger-1.0.11/doc/xml/schropack.xml
+schroedinger-1.0.11/doc/xml/schroparams.xml
+schroedinger-1.0.11/doc/xml/schroframe.xml
+schroedinger-1.0.11/doc/xml/schrolimits.xml
+schroedinger-1.0.11/doc/xml/schrofft.xml
+schroedinger-1.0.11/doc/xml/schrobuffer.xml
+schroedinger-1.0.11/doc/xml/schrobitstream.xml
+schroedinger-1.0.11/doc/xml/schromotion.xml
+schroedinger-1.0.11/doc/schroedinger-sections.txt
+schroedinger-1.0.11/doc/schroedinger.types
+schroedinger-1.0.11/doc/schroedinger-overrides.txt
+schroedinger-1.0.11/doc/Makefile.am
+schroedinger-1.0.11/doc/Makefile.in
+schroedinger-1.0.11/doc/html/
+schroedinger-1.0.11/doc/html/schroedinger-schroarith.html
+schroedinger-1.0.11/doc/html/schroedinger-schroutils.html
+schroedinger-1.0.11/doc/html/schroedinger-schrolist.html
+schroedinger-1.0.11/doc/html/left.png
+schroedinger-1.0.11/doc/html/schroedinger-schrowavelet.html
+schroedinger-1.0.11/doc/html/schroedinger-schrodomain.html
+schroedinger-1.0.11/doc/html/right.png
+schroedinger-1.0.11/doc/html/schropublic.html
+schroedinger-1.0.11/doc/html/up.png
+schroedinger-1.0.11/doc/html/schroedinger-schrodebug.html
+schroedinger-1.0.11/doc/html/schroedinger-schrobitstream.html
+schroedinger-1.0.11/doc/html/schroedinger-schrooil.html
+schroedinger-1.0.11/doc/html/schroedinger-schrometric.html
+schroedinger-1.0.11/doc/html/index.html
+schroedinger-1.0.11/doc/html/schroedinger-schroencoder.html
+schroedinger-1.0.11/doc/html/home.png
+schroedinger-1.0.11/doc/html/schroedinger-schrohistogram.html
+schroedinger-1.0.11/doc/html/schroedinger-schroqueue.html
+schroedinger-1.0.11/doc/html/schroedinger-schroparams.html
+schroedinger-1.0.11/doc/html/schroedinger-schrofilter.html
+schroedinger-1.0.11/doc/html/schroedinger-schrosubband.html
+schroedinger-1.0.11/doc/html/schroedinger-schrodecoder.html
+schroedinger-1.0.11/doc/html/schrointernal.html
+schroedinger-1.0.11/doc/html/schroedinger.devhelp2
+schroedinger-1.0.11/doc/html/schroedinger-schroframe.html
+schroedinger-1.0.11/doc/html/schroedinger-schromotion.html
+schroedinger-1.0.11/doc/html/index.sgml
+schroedinger-1.0.11/doc/html/schroedinger-schromotionest.html
+schroedinger-1.0.11/doc/html/schroedinger-schroasync.html
+schroedinger-1.0.11/doc/html/schroedinger-schrobuffer.html
+schroedinger-1.0.11/doc/html/schroedinger-schropack.html
+schroedinger-1.0.11/doc/html/style.css
+schroedinger-1.0.11/doc/html/schroedinger-schro.html
+schroedinger-1.0.11/doc/html/schroedinger-schrovideoformat.html
+schroedinger-1.0.11/doc/html/schroedinger-schrounpack.html
+schroedinger-1.0.11/doc/html/schroedinger-schrofft.html
+schroedinger-1.0.11/doc/html/schroedinger-schrolimits.html
+schroedinger-1.0.11/doc/html/schroedinger-schrocuda.html
+schroedinger-1.0.11/doc/schroedinger-docs.sgml
+schroedinger-1.0.11/doc/tmpl/
+schroedinger-1.0.11/doc/tmpl/schrofilter.sgml
+schroedinger-1.0.11/doc/tmpl/schromotion.sgml
+schroedinger-1.0.11/doc/tmpl/schrogpumotion.sgml
+schroedinger-1.0.11/doc/tmpl/schroasync.sgml
+schroedinger-1.0.11/doc/tmpl/schropredict.sgml
+schroedinger-1.0.11/doc/tmpl/common.sgml
+schroedinger-1.0.11/doc/tmpl/schrounpack.sgml
+schroedinger-1.0.11/doc/tmpl/schrotables.sgml
+schroedinger-1.0.11/doc/tmpl/schrossim.sgml
+schroedinger-1.0.11/doc/tmpl/schro.sgml
+schroedinger-1.0.11/doc/tmpl/schrofft.sgml
+schroedinger-1.0.11/doc/tmpl/schrometric.sgml
+schroedinger-1.0.11/doc/tmpl/wavelets.sgml
+schroedinger-1.0.11/doc/tmpl/schrogpuframe.sgml
+schroedinger-1.0.11/doc/tmpl/cudainit.sgml
+schroedinger-1.0.11/doc/tmpl/schrooil.sgml
+schroedinger-1.0.11/doc/tmpl/wavelet_common.sgml
+schroedinger-1.0.11/doc/tmpl/cudaupsample.sgml
+schroedinger-1.0.11/doc/tmpl/schrodomain.sgml
+schroedinger-1.0.11/doc/tmpl/schroobmc.sgml
+schroedinger-1.0.11/doc/tmpl/motion_kernel_shared.sgml
+schroedinger-1.0.11/doc/tmpl/upsample_kernel.sgml
+schroedinger-1.0.11/doc/tmpl/cudaframe.sgml
+schroedinger-1.0.11/doc/tmpl/schroanalysis.sgml
+schroedinger-1.0.11/doc/tmpl/schroparams.sgml
+schroedinger-1.0.11/doc/tmpl/schrocuda.sgml
+schroedinger-1.0.11/doc/tmpl/schrovideoformat.sgml
+schroedinger-1.0.11/doc/tmpl/arith_coalesce.sgml
+schroedinger-1.0.11/doc/tmpl/wavelet.sgml
+schroedinger-1.0.11/doc/tmpl/ignore.sgml
+schroedinger-1.0.11/doc/tmpl/convert_base.sgml
+schroedinger-1.0.11/doc/tmpl/schroarith.sgml
+schroedinger-1.0.11/doc/tmpl/motion_kernel_tex.sgml
+schroedinger-1.0.11/doc/tmpl/schrolist.sgml
+schroedinger-1.0.11/doc/tmpl/schroframe.sgml
+schroedinger-1.0.11/doc/tmpl/arith.sgml
+schroedinger-1.0.11/doc/tmpl/schrobitstream.sgml
+schroedinger-1.0.11/doc/tmpl/cudawavelet.sgml
+schroedinger-1.0.11/doc/tmpl/schrosubband.sgml
+schroedinger-1.0.11/doc/tmpl/motion_kernel_divb.sgml
+schroedinger-1.0.11/doc/tmpl/schroengine.sgml
+schroedinger-1.0.11/doc/tmpl/schrophasecorrelation.sgml
+schroedinger-1.0.11/doc/tmpl/schrobuffer.sgml
+schroedinger-1.0.11/doc/tmpl/schrohistogram.sgml
+schroedinger-1.0.11/doc/tmpl/cudamotion.sgml
+schroedinger-1.0.11/doc/tmpl/schroedinger-0.9-unused.sgml
+schroedinger-1.0.11/doc/tmpl/schropack.sgml
+schroedinger-1.0.11/doc/tmpl/schrodebug.sgml
+schroedinger-1.0.11/doc/tmpl/convert_base_coalesce.sgml
+schroedinger-1.0.11/doc/tmpl/schroedinger-1.0-unused.sgml
+schroedinger-1.0.11/doc/tmpl/schrolimits.sgml
+schroedinger-1.0.11/doc/tmpl/convert_packed.sgml
+schroedinger-1.0.11/doc/tmpl/schromotionest.sgml
+schroedinger-1.0.11/doc/tmpl/schroutils.sgml
+schroedinger-1.0.11/doc/tmpl/schrowavelet.sgml
+schroedinger-1.0.11/doc/tmpl/schroqueue.sgml
+schroedinger-1.0.11/doc/tmpl/schroencoder.sgml
+schroedinger-1.0.11/doc/tmpl/schroedinger-unused.sgml
+schroedinger-1.0.11/doc/tmpl/schrocog.sgml
+schroedinger-1.0.11/doc/tmpl/schrodecoder.sgml
+schroedinger-1.0.11/orc.mak
+schroedinger-1.0.11/COPYING
+schroedinger-1.0.11/aclocal.m4
+schroedinger-1.0.11/depcomp
+schroedinger-1.0.11/schroedinger.spec.in
+schroedinger-1.0.11/schroedinger-uninstalled.pc.in
+checking nano version... 0 (release)
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert i686-pc-linux-gnu file names to i686-pc-linux-gnu format... func_convert_file_noop
+checking how to convert i686-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking whether byte ordering is bigendian... no
+checking for cos in -lm... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ORC... yes
+checking threading implementation to use... pthread
+checking whether to build gtk-doc documentation... no
+checking for gtkdoc-check... no
+checking to see if compiler understands -Wall... yes
+checking to see if compiler understands -O3... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating schroedinger/Makefile
+config.status: creating schroedinger/cuda/Makefile
+config.status: creating schroedinger/opengl/Makefile
+config.status: creating testsuite/Makefile
+config.status: creating testsuite/cache/Makefile
+config.status: creating testsuite/cuda/Makefile
+config.status: creating testsuite/perf/Makefile
+config.status: creating testsuite/coder/Makefile
+config.status: creating testsuite/dirac/Makefile
+config.status: creating testsuite/installation/Makefile
+config.status: creating testsuite/manual/Makefile
+config.status: creating testsuite/opengl/Makefile
+config.status: creating testsuite/prototype/Makefile
+config.status: creating testsuite/streams/Makefile
+config.status: creating testsuite/tables2/Makefile
+config.status: creating tools/Makefile
+config.status: creating schroedinger/schroversion.h
+config.status: creating schroedinger-uninstalled.pc
+config.status: creating schroedinger.pc
+config.status: creating schroedinger.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+cp schroedinger-uninstalled.pc schroedinger-1.0-uninstalled.pc
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+Making all in schroedinger
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+/usr/bin/orcc  --inline --implementation -o tmp-orc.c ./schroorc.orc
+/usr/bin/orcc  --inline --header -o schroorc.h ./schroorc.orc
+make  all-recursive
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schro.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schro.Tpo -c -o libschroedinger_1.0_la-schro.lo `test -f 'schro.c' || echo './'`schro.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroarith.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroarith.Tpo -c -o libschroedinger_1.0_la-schroarith.lo `test -f 'schroarith.c' || echo './'`schroarith.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrodecoder.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrodecoder.Tpo -c -o libschroedinger_1.0_la-schrodecoder.lo `test -f 'schrodecoder.c' || echo './'`schrodecoder.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrodebug.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrodebug.Tpo -c -o libschroedinger_1.0_la-schrodebug.lo `test -f 'schrodebug.c' || echo './'`schrodebug.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrodecoder.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrodecoder.Tpo -c schrodecoder.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrodecoder.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schro.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schro.Tpo -c schro.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schro.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroarith.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroarith.Tpo -c schroarith.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroarith.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrodebug.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrodebug.Tpo -c schrodebug.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrodebug.o
+mv -f .deps/libschroedinger_1.0_la-schro.Tpo .deps/libschroedinger_1.0_la-schro.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrodomain.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrodomain.Tpo -c -o libschroedinger_1.0_la-schrodomain.lo `test -f 'schrodomain.c' || echo './'`schrodomain.c
+mv -f .deps/libschroedinger_1.0_la-schrodebug.Tpo .deps/libschroedinger_1.0_la-schrodebug.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroframe.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroframe.Tpo -c -o libschroedinger_1.0_la-schroframe.lo `test -f 'schroframe.c' || echo './'`schroframe.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrodomain.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrodomain.Tpo -c schrodomain.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrodomain.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroframe.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroframe.Tpo -c schroframe.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroframe.o
+mv -f .deps/libschroedinger_1.0_la-schrodomain.Tpo .deps/libschroedinger_1.0_la-schrodomain.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrohistogram.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrohistogram.Tpo -c -o libschroedinger_1.0_la-schrohistogram.lo `test -f 'schrohistogram.c' || echo './'`schrohistogram.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrohistogram.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrohistogram.Tpo -c schrohistogram.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrohistogram.o
+mv -f .deps/libschroedinger_1.0_la-schroarith.Tpo .deps/libschroedinger_1.0_la-schroarith.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrobuffer.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrobuffer.Tpo -c -o libschroedinger_1.0_la-schrobuffer.lo `test -f 'schrobuffer.c' || echo './'`schrobuffer.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrobuffer.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrobuffer.Tpo -c schrobuffer.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrobuffer.o
+mv -f .deps/libschroedinger_1.0_la-schrohistogram.Tpo .deps/libschroedinger_1.0_la-schrohistogram.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrobufferlist.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrobufferlist.Tpo -c -o libschroedinger_1.0_la-schrobufferlist.lo `test -f 'schrobufferlist.c' || echo './'`schrobufferlist.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrobufferlist.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrobufferlist.Tpo -c schrobufferlist.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrobufferlist.o
+mv -f .deps/libschroedinger_1.0_la-schrobuffer.Tpo .deps/libschroedinger_1.0_la-schrobuffer.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrolowdelay.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrolowdelay.Tpo -c -o libschroedinger_1.0_la-schrolowdelay.lo `test -f 'schrolowdelay.c' || echo './'`schrolowdelay.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrolowdelay.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrolowdelay.Tpo -c schrolowdelay.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrolowdelay.o
+mv -f .deps/libschroedinger_1.0_la-schrobufferlist.Tpo .deps/libschroedinger_1.0_la-schrobufferlist.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotion.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotion.Tpo -c -o libschroedinger_1.0_la-schromotion.lo `test -f 'schromotion.c' || echo './'`schromotion.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotion.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotion.Tpo -c schromotion.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schromotion.o
+mv -f .deps/libschroedinger_1.0_la-schromotion.Tpo .deps/libschroedinger_1.0_la-schromotion.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotion8.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotion8.Tpo -c -o libschroedinger_1.0_la-schromotion8.lo `test -f 'schromotion8.c' || echo './'`schromotion8.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotion8.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotion8.Tpo -c schromotion8.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schromotion8.o
+mv -f .deps/libschroedinger_1.0_la-schroframe.Tpo .deps/libschroedinger_1.0_la-schroframe.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotionfast.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotionfast.Tpo -c -o libschroedinger_1.0_la-schromotionfast.lo `test -f 'schromotionfast.c' || echo './'`schromotionfast.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotionfast.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotionfast.Tpo -c schromotionfast.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schromotionfast.o
+mv -f .deps/libschroedinger_1.0_la-schrolowdelay.Tpo .deps/libschroedinger_1.0_la-schrolowdelay.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroparams.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroparams.Tpo -c -o libschroedinger_1.0_la-schroparams.lo `test -f 'schroparams.c' || echo './'`schroparams.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroparams.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroparams.Tpo -c schroparams.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroparams.o
+mv -f .deps/libschroedinger_1.0_la-schromotionfast.Tpo .deps/libschroedinger_1.0_la-schromotionfast.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroroughmotion.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroroughmotion.Tpo -c -o libschroedinger_1.0_la-schroroughmotion.lo `test -f 'schroroughmotion.c' || echo './'`schroroughmotion.c
+mv -f .deps/libschroedinger_1.0_la-schroparams.Tpo .deps/libschroedinger_1.0_la-schroparams.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroparse.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroparse.Tpo -c -o libschroedinger_1.0_la-schroparse.lo `test -f 'schroparse.c' || echo './'`schroparse.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroroughmotion.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroroughmotion.Tpo -c schroroughmotion.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroroughmotion.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroparse.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroparse.Tpo -c schroparse.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroparse.o
+mv -f .deps/libschroedinger_1.0_la-schromotion8.Tpo .deps/libschroedinger_1.0_la-schromotion8.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroqueue.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroqueue.Tpo -c -o libschroedinger_1.0_la-schroqueue.lo `test -f 'schroqueue.c' || echo './'`schroqueue.c
+mv -f .deps/libschroedinger_1.0_la-schroparse.Tpo .deps/libschroedinger_1.0_la-schroparse.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrotables.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrotables.Tpo -c -o libschroedinger_1.0_la-schrotables.lo `test -f 'schrotables.c' || echo './'`schrotables.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroqueue.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroqueue.Tpo -c schroqueue.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroqueue.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrotables.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrotables.Tpo -c schrotables.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrotables.o
+mv -f .deps/libschroedinger_1.0_la-schroroughmotion.Tpo .deps/libschroedinger_1.0_la-schroroughmotion.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrotablesinit.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrotablesinit.Tpo -c -o libschroedinger_1.0_la-schrotablesinit.lo `test -f 'schrotablesinit.c' || echo './'`schrotablesinit.c
+mv -f .deps/libschroedinger_1.0_la-schroqueue.Tpo .deps/libschroedinger_1.0_la-schroqueue.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrounpack.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrounpack.Tpo -c -o libschroedinger_1.0_la-schrounpack.lo `test -f 'schrounpack.c' || echo './'`schrounpack.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrotablesinit.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrotablesinit.Tpo -c schrotablesinit.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrotablesinit.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrounpack.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrounpack.Tpo -c schrounpack.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrounpack.o
+mv -f .deps/libschroedinger_1.0_la-schrotables.Tpo .deps/libschroedinger_1.0_la-schrotables.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrounpacktables.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrounpacktables.Tpo -c -o libschroedinger_1.0_la-schrounpacktables.lo `test -f 'schrounpacktables.c' || echo './'`schrounpacktables.c
+mv -f .deps/libschroedinger_1.0_la-schrotablesinit.Tpo .deps/libschroedinger_1.0_la-schrotablesinit.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroutils.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroutils.Tpo -c -o libschroedinger_1.0_la-schroutils.lo `test -f 'schroutils.c' || echo './'`schroutils.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrounpacktables.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrounpacktables.Tpo -c schrounpacktables.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrounpacktables.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroutils.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroutils.Tpo -c schroutils.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroutils.o
+mv -f .deps/libschroedinger_1.0_la-schrounpacktables.Tpo .deps/libschroedinger_1.0_la-schrounpacktables.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrovideoformat.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrovideoformat.Tpo -c -o libschroedinger_1.0_la-schrovideoformat.lo `test -f 'schrovideoformat.c' || echo './'`schrovideoformat.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrovideoformat.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrovideoformat.Tpo -c schrovideoformat.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrovideoformat.o
+mv -f .deps/libschroedinger_1.0_la-schrodecoder.Tpo .deps/libschroedinger_1.0_la-schrodecoder.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrovirtframe.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrovirtframe.Tpo -c -o libschroedinger_1.0_la-schrovirtframe.lo `test -f 'schrovirtframe.c' || echo './'`schrovirtframe.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrovirtframe.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrovirtframe.Tpo -c schrovirtframe.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrovirtframe.o
+mv -f .deps/libschroedinger_1.0_la-schroutils.Tpo .deps/libschroedinger_1.0_la-schroutils.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrowaveletorc.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrowaveletorc.Tpo -c -o libschroedinger_1.0_la-schrowaveletorc.lo `test -f 'schrowaveletorc.c' || echo './'`schrowaveletorc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrowaveletorc.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrowaveletorc.Tpo -c schrowaveletorc.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrowaveletorc.o
+mv -f .deps/libschroedinger_1.0_la-schrounpack.Tpo .deps/libschroedinger_1.0_la-schrounpack.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroasync-pthread.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroasync-pthread.Tpo -c -o libschroedinger_1.0_la-schroasync-pthread.lo `test -f 'schroasync-pthread.c' || echo './'`schroasync-pthread.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroasync-pthread.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroasync-pthread.Tpo -c schroasync-pthread.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroasync-pthread.o
+mv -f .deps/libschroedinger_1.0_la-schrovideoformat.Tpo .deps/libschroedinger_1.0_la-schrovideoformat.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotionref.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotionref.Tpo -c -o libschroedinger_1.0_la-schromotionref.lo `test -f 'schromotionref.c' || echo './'`schromotionref.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotionref.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotionref.Tpo -c schromotionref.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schromotionref.o
+mv -f .deps/libschroedinger_1.0_la-schroasync-pthread.Tpo .deps/libschroedinger_1.0_la-schroasync-pthread.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroanalysis.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroanalysis.Tpo -c -o libschroedinger_1.0_la-schroanalysis.lo `test -f 'schroanalysis.c' || echo './'`schroanalysis.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroanalysis.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroanalysis.Tpo -c schroanalysis.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroanalysis.o
+mv -f .deps/libschroedinger_1.0_la-schromotionref.Tpo .deps/libschroedinger_1.0_la-schromotionref.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroencoder.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroencoder.Tpo -c -o libschroedinger_1.0_la-schroencoder.lo `test -f 'schroencoder.c' || echo './'`schroencoder.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroencoder.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroencoder.Tpo -c schroencoder.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroencoder.o
+mv -f .deps/libschroedinger_1.0_la-schroanalysis.Tpo .deps/libschroedinger_1.0_la-schroanalysis.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroengine.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroengine.Tpo -c -o libschroedinger_1.0_la-schroengine.lo `test -f 'schroengine.c' || echo './'`schroengine.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroengine.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroengine.Tpo -c schroengine.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroengine.o
+mv -f .deps/libschroedinger_1.0_la-schrovirtframe.Tpo .deps/libschroedinger_1.0_la-schrovirtframe.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrofft.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrofft.Tpo -c -o libschroedinger_1.0_la-schrofft.lo `test -f 'schrofft.c' || echo './'`schrofft.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrofft.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrofft.Tpo -c schrofft.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrofft.o
+mv -f .deps/libschroedinger_1.0_la-schrofft.Tpo .deps/libschroedinger_1.0_la-schrofft.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrofilter.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrofilter.Tpo -c -o libschroedinger_1.0_la-schrofilter.lo `test -f 'schrofilter.c' || echo './'`schrofilter.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrofilter.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrofilter.Tpo -c schrofilter.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrofilter.o
+mv -f .deps/libschroedinger_1.0_la-schroengine.Tpo .deps/libschroedinger_1.0_la-schroengine.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroglobalest.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroglobalest.Tpo -c -o libschroedinger_1.0_la-schroglobalest.lo `test -f 'schroglobalest.c' || echo './'`schroglobalest.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroglobalest.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroglobalest.Tpo -c schroglobalest.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroglobalest.o
+mv -f .deps/libschroedinger_1.0_la-schrofilter.Tpo .deps/libschroedinger_1.0_la-schrofilter.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrohierbm.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrohierbm.Tpo -c -o libschroedinger_1.0_la-schrohierbm.lo `test -f 'schrohierbm.c' || echo './'`schrohierbm.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrohierbm.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrohierbm.Tpo -c schrohierbm.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrohierbm.o
+mv -f .deps/libschroedinger_1.0_la-schroglobalest.Tpo .deps/libschroedinger_1.0_la-schroglobalest.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrolist.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrolist.Tpo -c -o libschroedinger_1.0_la-schrolist.lo `test -f 'schrolist.c' || echo './'`schrolist.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrolist.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrolist.Tpo -c schrolist.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrolist.o
+mv -f .deps/libschroedinger_1.0_la-schrolist.Tpo .deps/libschroedinger_1.0_la-schrolist.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrometric.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrometric.Tpo -c -o libschroedinger_1.0_la-schrometric.lo `test -f 'schrometric.c' || echo './'`schrometric.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrometric.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrometric.Tpo -c schrometric.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrometric.o
+mv -f .deps/libschroedinger_1.0_la-schrohierbm.Tpo .deps/libschroedinger_1.0_la-schrohierbm.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotionest.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotionest.Tpo -c -o libschroedinger_1.0_la-schromotionest.lo `test -f 'schromotionest.c' || echo './'`schromotionest.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schromotionest.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schromotionest.Tpo -c schromotionest.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schromotionest.o
+mv -f .deps/libschroedinger_1.0_la-schrowaveletorc.Tpo .deps/libschroedinger_1.0_la-schrowaveletorc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schropack.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schropack.Tpo -c -o libschroedinger_1.0_la-schropack.lo `test -f 'schropack.c' || echo './'`schropack.c
+mv -f .deps/libschroedinger_1.0_la-schrometric.Tpo .deps/libschroedinger_1.0_la-schrometric.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrophasecorrelation.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrophasecorrelation.Tpo -c -o libschroedinger_1.0_la-schrophasecorrelation.lo `test -f 'schrophasecorrelation.c' || echo './'`schrophasecorrelation.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schropack.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schropack.Tpo -c schropack.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schropack.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrophasecorrelation.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrophasecorrelation.Tpo -c schrophasecorrelation.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrophasecorrelation.o
+mv -f .deps/libschroedinger_1.0_la-schropack.Tpo .deps/libschroedinger_1.0_la-schropack.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroquantiser.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroquantiser.Tpo -c -o libschroedinger_1.0_la-schroquantiser.lo `test -f 'schroquantiser.c' || echo './'`schroquantiser.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schroquantiser.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schroquantiser.Tpo -c schroquantiser.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schroquantiser.o
+mv -f .deps/libschroedinger_1.0_la-schrophasecorrelation.Tpo .deps/libschroedinger_1.0_la-schrophasecorrelation.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrossim.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrossim.Tpo -c -o libschroedinger_1.0_la-schrossim.lo `test -f 'schrossim.c' || echo './'`schrossim.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrossim.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrossim.Tpo -c schrossim.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrossim.o
+mv -f .deps/libschroedinger_1.0_la-schrossim.Tpo .deps/libschroedinger_1.0_la-schrossim.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrowavelettables.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrowavelettables.Tpo -c -o libschroedinger_1.0_la-schrowavelettables.lo `test -f 'schrowavelettables.c' || echo './'`schrowavelettables.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-schrowavelettables.lo -MD -MP -MF .deps/libschroedinger_1.0_la-schrowavelettables.Tpo -c schrowavelettables.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-schrowavelettables.o
+mv -f .deps/libschroedinger_1.0_la-schrowavelettables.Tpo .deps/libschroedinger_1.0_la-schrowavelettables.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I.. -I/usr/include/orc-0.4    -DSCHRO_ENABLE_UNSTABLE_API    -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-tmp-orc.lo -MD -MP -MF .deps/libschroedinger_1.0_la-tmp-orc.Tpo -c -o libschroedinger_1.0_la-tmp-orc.lo `test -f 'tmp-orc.c' || echo './'`tmp-orc.c
+mv -f .deps/libschroedinger_1.0_la-schroquantiser.Tpo .deps/libschroedinger_1.0_la-schroquantiser.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -I./cuda -I./opengl -g -O3 -MT libschroedinger_1.0_la-tmp-orc.lo -MD -MP -MF .deps/libschroedinger_1.0_la-tmp-orc.Tpo -c tmp-orc.c  -fPIC -DPIC -o .libs/libschroedinger_1.0_la-tmp-orc.o
+mv -f .deps/libschroedinger_1.0_la-schromotionest.Tpo .deps/libschroedinger_1.0_la-schromotionest.Plo
+mv -f .deps/libschroedinger_1.0_la-schroencoder.Tpo .deps/libschroedinger_1.0_la-schroencoder.Plo
+mv -f .deps/libschroedinger_1.0_la-tmp-orc.Tpo .deps/libschroedinger_1.0_la-tmp-orc.Plo
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2 -no-undefined -version-info 11:0:11 -export-symbols-regex '^schro_'  -o libschroedinger-1.0.la -rpath /usr/lib libschroedinger_1.0_la-schro.lo libschroedinger_1.0_la-schroarith.lo libschroedinger_1.0_la-schrodecoder.lo libschroedinger_1.0_la-schrodebug.lo libschroedinger_1.0_la-schrodomain.lo libschroedinger_1.0_la-schroframe.lo libschroedinger_1.0_la-schrohistogram.lo libschroedinger_1.0_la-schrobuffer.lo libschroedinger_1.0_la-schrobufferlist.lo libschroedinger_1.0_la-schrolowdelay.lo libschroedinger_1.0_la-schromotion.lo libschroedinger_1.0_la-schromotion8.lo libschroedinger_1.0_la-schromotionfast.lo libschroedinger_1.0_la-schroparams.lo libschroedinger_1.0_la-schroroughmotion.lo libschroedinger_1.0_la-schroparse.lo libschroedinger_1.0_la-schroqueue.lo libschroedinger_1.0_la-schrotables.lo libschroedinger_1.0_la-schrotablesinit.lo libschroedinger_1.0_la-schrounpack.lo libschroedinger_1.0_la-schrounpacktables.lo libschroedinger_1.0_la-schroutils.lo libschroedinger_1.0_la-schrovideoformat.lo libschroedinger_1.0_la-schrovirtframe.lo libschroedinger_1.0_la-schrowaveletorc.lo  libschroedinger_1.0_la-schroasync-pthread.lo libschroedinger_1.0_la-schromotionref.lo libschroedinger_1.0_la-schroanalysis.lo libschroedinger_1.0_la-schroencoder.lo libschroedinger_1.0_la-schroengine.lo libschroedinger_1.0_la-schrofft.lo libschroedinger_1.0_la-schrofilter.lo libschroedinger_1.0_la-schroglobalest.lo libschroedinger_1.0_la-schrohierbm.lo libschroedinger_1.0_la-schrolist.lo libschroedinger_1.0_la-schrometric.lo libschroedinger_1.0_la-schromotionest.lo libschroedinger_1.0_la-schropack.lo libschroedinger_1.0_la-schrophasecorrelation.lo libschroedinger_1.0_la-schroquantiser.lo libschroedinger_1.0_la-schrossim.lo libschroedinger_1.0_la-schrowavelettables.lo libschroedinger_1.0_la-tmp-orc.lo     -lorc-0.4    -lpthread 
+libtool: link: /usr/bin/nm -B  .libs/libschroedinger_1.0_la-schro.o .libs/libschroedinger_1.0_la-schroarith.o .libs/libschroedinger_1.0_la-schrodecoder.o .libs/libschroedinger_1.0_la-schrodebug.o .libs/libschroedinger_1.0_la-schrodomain.o .libs/libschroedinger_1.0_la-schroframe.o .libs/libschroedinger_1.0_la-schrohistogram.o .libs/libschroedinger_1.0_la-schrobuffer.o .libs/libschroedinger_1.0_la-schrobufferlist.o .libs/libschroedinger_1.0_la-schrolowdelay.o .libs/libschroedinger_1.0_la-schromotion.o .libs/libschroedinger_1.0_la-schromotion8.o .libs/libschroedinger_1.0_la-schromotionfast.o .libs/libschroedinger_1.0_la-schroparams.o .libs/libschroedinger_1.0_la-schroroughmotion.o .libs/libschroedinger_1.0_la-schroparse.o .libs/libschroedinger_1.0_la-schroqueue.o .libs/libschroedinger_1.0_la-schrotables.o .libs/libschroedinger_1.0_la-schrotablesinit.o .libs/libschroedinger_1.0_la-schrounpack.o .libs/libschroedinger_1.0_la-schrounpacktables.o .libs/libschroedinger_1.0_la-schroutils.o .libs/libschroedinger_1.0_la-schrovideoformat.o .libs/libschroedinger_1.0_la-schrovirtframe.o .libs/libschroedinger_1.0_la-schrowaveletorc.o .libs/libschroedinger_1.0_la-schroasync-pthread.o .libs/libschroedinger_1.0_la-schromotionref.o .libs/libschroedinger_1.0_la-schroanalysis.o .libs/libschroedinger_1.0_la-schroencoder.o .libs/libschroedinger_1.0_la-schroengine.o .libs/libschroedinger_1.0_la-schrofft.o .libs/libschroedinger_1.0_la-schrofilter.o .libs/libschroedinger_1.0_la-schroglobalest.o .libs/libschroedinger_1.0_la-schrohierbm.o .libs/libschroedinger_1.0_la-schrolist.o .libs/libschroedinger_1.0_la-schrometric.o .libs/libschroedinger_1.0_la-schromotionest.o .libs/libschroedinger_1.0_la-schropack.o .libs/libschroedinger_1.0_la-schrophasecorrelation.o .libs/libschroedinger_1.0_la-schroquantiser.o .libs/libschroedinger_1.0_la-schrossim.o .libs/libschroedinger_1.0_la-schrowavelettables.o .libs/libschroedinger_1.0_la-tmp-orc.o   | sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' | /bin/sed 's/.* //' | sort | uniq > .libs/libschroedinger-1.0.exp
+libtool: link: /bin/grep -E -e "^schro_" ".libs/libschroedinger-1.0.exp" > ".libs/libschroedinger-1.0.expT"
+libtool: link: mv -f ".libs/libschroedinger-1.0.expT" ".libs/libschroedinger-1.0.exp"
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/i486-slackware-linux/4.8.2/../../../crti.o /usr/lib/gcc/i486-slackware-linux/4.8.2/crtbeginS.o  .libs/libschroedinger_1.0_la-schro.o .libs/libschroedinger_1.0_la-schroarith.o .libs/libschroedinger_1.0_la-schrodecoder.o .libs/libschroedinger_1.0_la-schrodebug.o .libs/libschroedinger_1.0_la-schrodomain.o .libs/libschroedinger_1.0_la-schroframe.o .libs/libschroedinger_1.0_la-schrohistogram.o .libs/libschroedinger_1.0_la-schrobuffer.o .libs/libschroedinger_1.0_la-schrobufferlist.o .libs/libschroedinger_1.0_la-schrolowdelay.o .libs/libschroedinger_1.0_la-schromotion.o .libs/libschroedinger_1.0_la-schromotion8.o .libs/libschroedinger_1.0_la-schromotionfast.o .libs/libschroedinger_1.0_la-schroparams.o .libs/libschroedinger_1.0_la-schroroughmotion.o .libs/libschroedinger_1.0_la-schroparse.o .libs/libschroedinger_1.0_la-schroqueue.o .libs/libschroedinger_1.0_la-schrotables.o .libs/libschroedinger_1.0_la-schrotablesinit.o .libs/libschroedinger_1.0_la-schrounpack.o .libs/libschroedinger_1.0_la-schrounpacktables.o .libs/libschroedinger_1.0_la-schroutils.o .libs/libschroedinger_1.0_la-schrovideoformat.o .libs/libschroedinger_1.0_la-schrovirtframe.o .libs/libschroedinger_1.0_la-schrowaveletorc.o .libs/libschroedinger_1.0_la-schroasync-pthread.o .libs/libschroedinger_1.0_la-schromotionref.o .libs/libschroedinger_1.0_la-schroanalysis.o .libs/libschroedinger_1.0_la-schroencoder.o .libs/libschroedinger_1.0_la-schroengine.o .libs/libschroedinger_1.0_la-schrofft.o .libs/libschroedinger_1.0_la-schrofilter.o .libs/libschroedinger_1.0_la-schroglobalest.o .libs/libschroedinger_1.0_la-schrohierbm.o .libs/libschroedinger_1.0_la-schrolist.o .libs/libschroedinger_1.0_la-schrometric.o .libs/libschroedinger_1.0_la-schromotionest.o .libs/libschroedinger_1.0_la-schropack.o .libs/libschroedinger_1.0_la-schrophasecorrelation.o .libs/libschroedinger_1.0_la-schroquantiser.o .libs/libschroedinger_1.0_la-schrossim.o .libs/libschroedinger_1.0_la-schrowavelettables.o .libs/libschroedinger_1.0_la-tmp-orc.o   /usr/lib/liborc-0.4.so -lpthread -L/usr/lib/gcc/i486-slackware-linux/4.8.2 -L/usr/lib/gcc/i486-slackware-linux/4.8.2/../../../../i486-slackware-linux/lib -L/usr/lib/gcc/i486-slackware-linux/4.8.2/../../.. /usr/lib/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/i486-slackware-linux/4.8.2/crtendS.o /usr/lib/gcc/i486-slackware-linux/4.8.2/../../../crtn.o  -O2   -Wl,-soname -Wl,libschroedinger-1.0.so.0 -Wl,-retain-symbols-file -Wl,.libs/libschroedinger-1.0.exp -o .libs/libschroedinger-1.0.so.0.11.0
+libtool: link: (cd ".libs" && rm -f "libschroedinger-1.0.so.0" && ln -s "libschroedinger-1.0.so.0.11.0" "libschroedinger-1.0.so.0")
+libtool: link: (cd ".libs" && rm -f "libschroedinger-1.0.so" && ln -s "libschroedinger-1.0.so.0.11.0" "libschroedinger-1.0.so")
+libtool: link: ( cd ".libs" && rm -f "libschroedinger-1.0.la" && ln -s "../libschroedinger-1.0.la" "libschroedinger-1.0.la" )
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+Making all in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/doc'
+Making all in tools
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/tools'
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT dump_packets.o -MD -MP -MF .deps/dump_packets.Tpo -c -o dump_packets.o dump_packets.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT dump_gop.o -MD -MP -MF .deps/dump_gop.Tpo -c -o dump_gop.o dump_gop.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT drc-cut.o -MD -MP -MF .deps/drc-cut.Tpo -c -o drc-cut.o drc-cut.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT dirac_parse.o -MD -MP -MF .deps/dirac_parse.Tpo -c -o dirac_parse.o dirac_parse.c
+mv -f .deps/dump_gop.Tpo .deps/dump_gop.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT parse_header.o -MD -MP -MF .deps/parse_header.Tpo -c -o parse_header.o parse_header.c
+mv -f .deps/drc-cut.Tpo .deps/drc-cut.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o dump_gop dump_gop.o ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm 
+mv -f .deps/parse_header.Tpo .deps/parse_header.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o drc-cut drc-cut.o ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/dump_gop dump_gop.o  ../schroedinger/.libs/libschroedinger-1.0.so /usr/lib/liborc-0.4.so -lpthread -lm
+mv -f .deps/dump_packets.Tpo .deps/dump_packets.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o dump_packets dump_packets.o ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/drc-cut drc-cut.o  ../schroedinger/.libs/libschroedinger-1.0.so /usr/lib/liborc-0.4.so -lpthread -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/dump_packets dump_packets.o  ../schroedinger/.libs/libschroedinger-1.0.so /usr/lib/liborc-0.4.so -lpthread -lm
+mv -f .deps/dirac_parse.Tpo .deps/dirac_parse.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o parse_header dirac_parse.o parse_header.o ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/parse_header dirac_parse.o parse_header.o  ../schroedinger/.libs/libschroedinger-1.0.so /usr/lib/liborc-0.4.so -lpthread -lm
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/tools'
+Making all in testsuite
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+Making all in .
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT common.lo -MD -MP -MF .deps/common.Tpo -c -o common.lo common.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT arith.o -MD -MP -MF .deps/arith.Tpo -c -o arith.o arith.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT arith_encode.o -MD -MP -MF .deps/arith_encode.Tpo -c -o arith_encode.o arith_encode.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_2d.o -MD -MP -MF .deps/wavelet_2d.Tpo -c -o wavelet_2d.o wavelet_2d.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT common.lo -MD -MP -MF .deps/common.Tpo -c common.c  -fPIC -DPIC -o .libs/common.o
+mv -f .deps/arith_encode.Tpo .deps/arith_encode.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT tmp-orc.o -MD -MP -MF .deps/tmp-orc.Tpo -c -o tmp-orc.o `test -f '../schroedinger/tmp-orc.c' || echo './'`../schroedinger/tmp-orc.c
+mv -f .deps/arith.Tpo .deps/arith.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT phasecorrelation.o -MD -MP -MF .deps/phasecorrelation.Tpo -c -o phasecorrelation.o phasecorrelation.c
+mv -f .deps/phasecorrelation.Tpo .deps/phasecorrelation.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT motion.o -MD -MP -MF .deps/motion.Tpo -c -o motion.o motion.c
+mv -f .deps/wavelet_2d.Tpo .deps/wavelet_2d.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT quant.o -MD -MP -MF .deps/quant.Tpo -c -o quant.o quant.c
+mv -f .deps/motion.Tpo .deps/motion.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT decode.o -MD -MP -MF .deps/decode.Tpo -c -o decode.o decode.c
+mv -f .deps/decode.Tpo .deps/decode.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT decode_coded_order.o -MD -MP -MF .deps/decode_coded_order.Tpo -c -o decode_coded_order.o decode_coded_order.c
+mv -f .deps/decode_coded_order.Tpo .deps/decode_coded_order.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT decode_loop.o -MD -MP -MF .deps/decode_loop.Tpo -c -o decode_loop.o decode_loop.c
+mv -f .deps/quant.Tpo .deps/quant.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT divide.o -MD -MP -MF .deps/divide.Tpo -c -o divide.o divide.c
+mv -f .deps/divide.Tpo .deps/divide.Po
+mv -f .deps/decode_loop.Tpo .deps/decode_loop.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT upsample.o -MD -MP -MF .deps/upsample.Tpo -c -o upsample.o upsample.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT motion2.o -MD -MP -MF .deps/motion2.Tpo -c -o motion2.o motion2.c
+mv -f .deps/motion2.Tpo .deps/motion2.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT sort.o -MD -MP -MF .deps/sort.Tpo -c -o sort.o sort.c
+mv -f .deps/common.Tpo .deps/common.Plo
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT fft.o -MD -MP -MF .deps/fft.Tpo -c -o fft.o fft.c
+mv -f .deps/upsample.Tpo .deps/upsample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_noise_gain.o -MD -MP -MF .deps/wavelet_noise_gain.Tpo -c -o wavelet_noise_gain.o wavelet_noise_gain.c
+mv -f .deps/sort.Tpo .deps/sort.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_max_gain.o -MD -MP -MF .deps/wavelet_max_gain.Tpo -c -o wavelet_max_gain.o wavelet_max_gain.c
+mv -f .deps/wavelet_noise_gain.Tpo .deps/wavelet_noise_gain.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT downsample.o -MD -MP -MF .deps/downsample.Tpo -c -o downsample.o downsample.c
+mv -f .deps/fft.Tpo .deps/fft.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT taps.o -MD -MP -MF .deps/taps.Tpo -c -o taps.o taps.c
+mv -f .deps/downsample.Tpo .deps/downsample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT ramp.o -MD -MP -MF .deps/ramp.Tpo -c -o ramp.o ramp.c
+mv -f .deps/taps.Tpo .deps/taps.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT colorspace.o -MD -MP -MF .deps/colorspace.Tpo -c -o colorspace.o colorspace.c
+mv -f .deps/wavelet_max_gain.Tpo .deps/wavelet_max_gain.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT filter_coeff.o -MD -MP -MF .deps/filter_coeff.Tpo -c -o filter_coeff.o filter_coeff.c
+mv -f .deps/ramp.Tpo .deps/ramp.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT utils.o -MD -MP -MF .deps/utils.Tpo -c -o utils.o utils.c
+mv -f .deps/utils.Tpo .deps/utils.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT extension.o -MD -MP -MF .deps/extension.Tpo -c -o extension.o extension.c
+mv -f .deps/extension.Tpo .deps/extension.Po
+mv -f .deps/filter_coeff.Tpo .deps/filter_coeff.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I/usr/include/orc-0.4   -g -O3 -MT orc_test-orc_test.o -MD -MP -MF .deps/orc_test-orc_test.Tpo -c -o orc_test-orc_test.o `test -f 'orc_test.c' || echo './'`orc_test.c
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT encode.o -MD -MP -MF .deps/encode.Tpo -c -o encode.o encode.c
+mv -f .deps/colorspace.Tpo .deps/colorspace.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT ssim.o -MD -MP -MF .deps/ssim.Tpo -c -o ssim.o ssim.c
+mv -f .deps/encode.Tpo .deps/encode.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_gain.o -MD -MP -MF .deps/wavelet_gain.Tpo -c -o wavelet_gain.o wavelet_gain.c
+mv -f .deps/ssim.Tpo .deps/ssim.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_gain_curve.o -MD -MP -MF .deps/wavelet_gain_curve.Tpo -c -o wavelet_gain_curve.o wavelet_gain_curve.c
+mv -f .deps/wavelet_gain.Tpo .deps/wavelet_gain.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT perceptual_weight.o -MD -MP -MF .deps/perceptual_weight.Tpo -c -o perceptual_weight.o perceptual_weight.c
+mv -f .deps/wavelet_gain_curve.Tpo .deps/wavelet_gain_curve.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT perceptual_curves.o -MD -MP -MF .deps/perceptual_curves.Tpo -c -o perceptual_curves.o perceptual_curves.c
+mv -f .deps/perceptual_weight.Tpo .deps/perceptual_weight.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_noise_2d.o -MD -MP -MF .deps/wavelet_noise_2d.Tpo -c -o wavelet_noise_2d.o wavelet_noise_2d.c
+mv -f .deps/perceptual_curves.Tpo .deps/perceptual_curves.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT unpack.o -MD -MP -MF .deps/unpack.Tpo -c -o unpack.o unpack.c
+mv -f .deps/wavelet_noise_2d.Tpo .deps/wavelet_noise_2d.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT abi.o -MD -MP -MF .deps/abi.Tpo -c -o abi.o abi.c
+mv -f .deps/unpack.Tpo .deps/unpack.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o libschrotest.la -rpath /usr/lib common.lo ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-0.4   -lorc-test-0.4 -lm 
+mv -f .deps/abi.Tpo .deps/abi.Po
+mv -f .deps/tmp-orc.Tpo .deps/tmp-orc.Po
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/common.o   -Wl,-rpath -Wl,/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger/.libs ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-0.4.so /usr/lib/liborc-test-0.4.so -lm  -O3   -Wl,-soname -Wl,libschrotest.so.0 -o .libs/libschrotest.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libschrotest.so.0" && ln -s "libschrotest.so.0.0.0" "libschrotest.so.0")
+libtool: link: (cd ".libs" && rm -f "libschrotest.so" && ln -s "libschrotest.so.0.0.0" "libschrotest.so")
+libtool: link: ( cd ".libs" && rm -f "libschrotest.la" && ln -s "../libschrotest.la" "libschrotest.la" )
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o arith arith.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o arith_encode arith_encode.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_2d wavelet_2d.o tmp-orc.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/arith arith.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/arith_encode arith_encode.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_2d wavelet_2d.o tmp-orc.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o phasecorrelation phasecorrelation.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o motion motion.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o quant quant.o tmp-orc.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/phasecorrelation phasecorrelation.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/motion motion.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o decode decode.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/quant quant.o tmp-orc.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o decode_coded_order decode_coded_order.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o decode_loop decode_loop.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/decode decode.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/decode_coded_order decode_coded_order.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o divide divide.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o upsample upsample.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/decode_loop decode_loop.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/divide divide.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o motion2 motion2.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/upsample upsample.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o sort sort.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/motion2 motion2.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o fft fft.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_noise_gain wavelet_noise_gain.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/sort sort.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_max_gain wavelet_max_gain.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/fft fft.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_noise_gain wavelet_noise_gain.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o downsample downsample.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o taps taps.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_max_gain wavelet_max_gain.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/downsample downsample.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o ramp ramp.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/taps taps.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o colorspace colorspace.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o filter_coeff filter_coeff.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/ramp ramp.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o utils utils.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/colorspace colorspace.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/filter_coeff filter_coeff.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o extension extension.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o encode encode.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/utils utils.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/extension extension.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o ssim ssim.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/encode encode.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_gain wavelet_gain.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_gain_curve wavelet_gain_curve.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/ssim ssim.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_gain wavelet_gain.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_gain_curve wavelet_gain_curve.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o perceptual_weight perceptual_weight.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o perceptual_curves perceptual_curves.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_noise_2d wavelet_noise_2d.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/perceptual_curves perceptual_curves.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/perceptual_weight perceptual_weight.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_noise_2d wavelet_noise_2d.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o unpack unpack.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -I..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o abi abi.o libschrotest.la ../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/unpack unpack.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/abi abi.o  ./.libs/libschrotest.so ../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+mv -f .deps/orc_test-orc_test.Tpo .deps/orc_test-orc_test.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I/usr/include/orc-0.4   -g -O3   -o orc_test orc_test-orc_test.o -lorc-0.4   -lorc-test-0.4 
+libtool: link: gcc -I/usr/include/orc-0.4 -g -O3 -o orc_test orc_test-orc_test.o  /usr/lib/liborc-0.4.so /usr/lib/liborc-test-0.4.so
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+Making all in perf
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+/usr/bin/orcc  --inline --implementation -o tmp-orc.c ./schroorc.orc
+/usr/bin/orcc  --inline --header -o schroorc.h ./schroorc.orc
+make  all-am
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_speed.o -MD -MP -MF .deps/wavelet_speed.Tpo -c -o wavelet_speed.o wavelet_speed.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT upsample_speed.o -MD -MP -MF .deps/upsample_speed.Tpo -c -o upsample_speed.o upsample_speed.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT report.o -MD -MP -MF .deps/report.Tpo -c -o report.o report.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT quantise_speed.o -MD -MP -MF .deps/quantise_speed.Tpo -c -o quantise_speed.o quantise_speed.c
+mv -f .deps/report.Tpo .deps/report.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT dequantise_speed.o -MD -MP -MF .deps/dequantise_speed.Tpo -c -o dequantise_speed.o dequantise_speed.c
+mv -f .deps/upsample_speed.Tpo .deps/upsample_speed.Po
+mv -f .deps/wavelet_speed.Tpo .deps/wavelet_speed.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT tmp-orc.o -MD -MP -MF .deps/tmp-orc.Tpo -c -o tmp-orc.o tmp-orc.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT unpack_speed.o -MD -MP -MF .deps/unpack_speed.Tpo -c -o unpack_speed.o unpack_speed.c
+mv -f .deps/quantise_speed.Tpo .deps/quantise_speed.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_speed wavelet_speed.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+mv -f .deps/unpack_speed.Tpo .deps/unpack_speed.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o upsample_speed upsample_speed.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_speed wavelet_speed.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+mv -f .deps/dequantise_speed.Tpo .deps/dequantise_speed.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o report report.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o quantise_speed quantise_speed.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/upsample_speed upsample_speed.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/report report.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/quantise_speed quantise_speed.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o unpack_speed unpack_speed.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/unpack_speed unpack_speed.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+mv -f .deps/tmp-orc.Tpo .deps/tmp-orc.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o dequantise_speed dequantise_speed.o tmp-orc.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/dequantise_speed dequantise_speed.o tmp-orc.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+Making all in coder
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/coder'
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT coding_efficiency.o -MD -MP -MF .deps/coding_efficiency.Tpo -c -o coding_efficiency.o coding_efficiency.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT arith_qm.o -MD -MP -MF .deps/arith_qm.Tpo -c -o arith_qm.o arith_qm.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT arith_exp.o -MD -MP -MF .deps/arith_exp.Tpo -c -o arith_exp.o arith_exp.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT arith_dirac.o -MD -MP -MF .deps/arith_dirac.Tpo -c -o arith_dirac.o arith_dirac.c
+mv -f .deps/coding_efficiency.Tpo .deps/coding_efficiency.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT arith_bit.o -MD -MP -MF .deps/arith_bit.Tpo -c -o arith_bit.o arith_bit.c
+mv -f .deps/arith_qm.Tpo .deps/arith_qm.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT arith_dirac_byte.o -MD -MP -MF .deps/arith_dirac_byte.Tpo -c -o arith_dirac_byte.o arith_dirac_byte.c
+mv -f .deps/arith_bit.Tpo .deps/arith_bit.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT arith_dirac_stats.o -MD -MP -MF .deps/arith_dirac_stats.Tpo -c -o arith_dirac_stats.o arith_dirac_stats.c
+mv -f .deps/arith_exp.Tpo .deps/arith_exp.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT arith_dirac_both.o -MD -MP -MF .deps/arith_dirac_both.Tpo -c -o arith_dirac_both.o arith_dirac_both.c
+mv -f .deps/arith_dirac.Tpo .deps/arith_dirac.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT speed.o -MD -MP -MF .deps/speed.Tpo -c -o speed.o speed.c
+mv -f .deps/speed.Tpo .deps/speed.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT speed2.o -MD -MP -MF .deps/speed2.Tpo -c -o speed2.o speed2.c
+mv -f .deps/arith_dirac_byte.Tpo .deps/arith_dirac_byte.Po
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -g -O3 -MT decode.o -MD -MP -MF .deps/decode.Tpo -c -o decode.o decode.c
+mv -f .deps/speed2.Tpo .deps/speed2.Po
+mv -f .deps/arith_dirac_stats.Tpo .deps/arith_dirac_stats.Po
+mv -f .deps/decode.Tpo .deps/decode.Po
+mv -f .deps/arith_dirac_both.Tpo .deps/arith_dirac_both.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -g -O3   -o coding_efficiency coding_efficiency.o arith_qm.o arith_exp.o arith_dirac.o arith_bit.o arith_dirac_byte.o arith_dirac_stats.o arith_dirac_both.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -g -O3   -o speed speed.o arith_qm.o arith_exp.o arith_dirac.o arith_bit.o arith_dirac_byte.o arith_dirac_stats.o arith_dirac_both.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -g -O3   -o speed2 speed2.o arith_qm.o arith_exp.o arith_dirac.o arith_bit.o arith_dirac_byte.o arith_dirac_stats.o arith_dirac_both.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -g -O3   -o decode decode.o arith_qm.o arith_exp.o arith_dirac.o arith_bit.o arith_dirac_byte.o arith_dirac_stats.o arith_dirac_both.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -g -O3 -o .libs/speed speed.o arith_qm.o arith_exp.o arith_dirac.o arith_bit.o arith_dirac_byte.o arith_dirac_stats.o arith_dirac_both.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -g -O3 -o .libs/decode decode.o arith_qm.o arith_exp.o arith_dirac.o arith_bit.o arith_dirac_byte.o arith_dirac_stats.o arith_dirac_both.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -g -O3 -o .libs/coding_efficiency coding_efficiency.o arith_qm.o arith_exp.o arith_dirac.o arith_bit.o arith_dirac_byte.o arith_dirac_stats.o arith_dirac_both.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -g -O3 -o .libs/speed2 speed2.o arith_qm.o arith_exp.o arith_dirac.o arith_bit.o arith_dirac_byte.o arith_dirac_stats.o arith_dirac_both.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/coder'
+Making all in installation
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/installation'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/installation'
+Making all in prototype
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/prototype'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/prototype'
+Making all in streams
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/streams'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/streams'
+Making all in tables2
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/tables2'
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT lowdelay_tables.o -MD -MP -MF .deps/lowdelay_tables.Tpo -c -o lowdelay_tables.o lowdelay_tables.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT quant_tables.o -MD -MP -MF .deps/quant_tables.Tpo -c -o quant_tables.o quant_tables.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT unpack_tables.o -MD -MP -MF .deps/unpack_tables.Tpo -c -o unpack_tables.o unpack_tables.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_tables.o -MD -MP -MF .deps/wavelet_tables.Tpo -c -o wavelet_tables.o wavelet_tables.c
+mv -f .deps/unpack_tables.Tpo .deps/unpack_tables.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o unpack_tables unpack_tables.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lm 
+mv -f .deps/lowdelay_tables.Tpo .deps/lowdelay_tables.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o lowdelay_tables lowdelay_tables.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lm 
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/lowdelay_tables lowdelay_tables.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so /usr/lib/liborc-0.4.so -lpthread -lm
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/unpack_tables unpack_tables.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so /usr/lib/liborc-0.4.so -lpthread -lm
+mv -f .deps/wavelet_tables.Tpo .deps/wavelet_tables.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_tables wavelet_tables.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lm 
+mv -f .deps/quant_tables.Tpo .deps/quant_tables.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o quant_tables quant_tables.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lm 
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_tables wavelet_tables.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so /usr/lib/liborc-0.4.so -lpthread -lm
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -I./.. -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/quant_tables quant_tables.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so /usr/lib/liborc-0.4.so -lpthread -lm
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/tables2'
+Making all in dirac
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/dirac'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/dirac'
+Making all in manual
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/manual'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/manual'
+Making all in cache
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cache'
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT wavelet_speed.o -MD -MP -MF .deps/wavelet_speed.Tpo -c -o wavelet_speed.o wavelet_speed.c
+gcc -DHAVE_CONFIG_H -I. -I../..    -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -MT upsample_speed.o -MD -MP -MF .deps/upsample_speed.Tpo -c -o upsample_speed.o upsample_speed.c
+mv -f .deps/upsample_speed.Tpo .deps/upsample_speed.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o upsample_speed upsample_speed.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+mv -f .deps/wavelet_speed.Tpo .deps/wavelet_speed.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc -Wall -I../..  -I/usr/include/orc-0.4   -DSCHRO_ENABLE_UNSTABLE_API -g -O3   -o wavelet_speed wavelet_speed.o ../libschrotest.la ../../schroedinger/libschroedinger-1.0.la -lorc-0.4     -lpthread  -lm -lorc-test-0.4 -lorc-0.4   -lm 
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/upsample_speed upsample_speed.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+libtool: link: gcc -Wall -I../.. -I/usr/include/orc-0.4 -DSCHRO_ENABLE_UNSTABLE_API -g -O3 -o .libs/wavelet_speed wavelet_speed.o  ../.libs/libschrotest.so ../../schroedinger/.libs/libschroedinger-1.0.so -lpthread /usr/lib/liborc-test-0.4.so /usr/lib/liborc-0.4.so -lm
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cache'
+Making all in cuda
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cuda'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cuda'
+Making all in opengl
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/opengl'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/opengl'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+cp schroedinger.pc schroedinger-1.0.pc
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+make  install-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+Making install in schroedinger
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make  install-recursive
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+test -z "/usr/lib" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   libschroedinger-1.0.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/libschroedinger-1.0.so.0.11.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/lib/libschroedinger-1.0.so.0.11.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/lib && { ln -s -f libschroedinger-1.0.so.0.11.0 libschroedinger-1.0.so.0 || { rm -f libschroedinger-1.0.so.0 && ln -s libschroedinger-1.0.so.0.11.0 libschroedinger-1.0.so.0; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/lib && { ln -s -f libschroedinger-1.0.so.0.11.0 libschroedinger-1.0.so || { rm -f libschroedinger-1.0.so && ln -s libschroedinger-1.0.so.0.11.0 libschroedinger-1.0.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libschroedinger-1.0.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/lib/libschroedinger-1.0.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/schroedinger-1.0/schroedinger" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/include/schroedinger-1.0/schroedinger"
+ /usr/bin/ginstall -c -m 644 schroversion.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/include/schroedinger-1.0/schroedinger'
+test -z "/usr/include/schroedinger-1.0/schroedinger" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/include/schroedinger-1.0/schroedinger"
+ /usr/bin/ginstall -c -m 644 schro.h schrobuffer.h schrobufferlist.h schrodecoder.h schroencoder.h schroengine.h schrofilter.h schroframe.h schro-stdint.h schroarith.h schroanalysis.h schroasync.h schrobitstream.h schrodebug.h schrodomain.h schrofft.h schrohistogram.h schrolimits.h schrolist.h schrometric.h schromotion.h schromotionest.h schropack.h schroparams.h schroparse.h schrophasecorrelation.h schroqueue.h schrossim.h schrotables.h schrounpack.h schroutils.h schrovideoformat.h schrovirtframe.h schrowavelet.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/include/schroedinger-1.0/schroedinger'
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/schroedinger'
+Making install in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/doc'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+installfiles=`echo ./html/*`; \
+if test "$installfiles" = './html/*'; \
+then echo '-- Nothing to install' ; \
+else \
+  /bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/install-sh -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/share/doc/schroedinger//schroedinger; \
+  for i in $installfiles; do \
+    echo '-- Installing '$i ; \
+    /usr/bin/ginstall -c -m 644 $i /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/share/doc/schroedinger//schroedinger; \
+  done; \
+  echo '-- Installing ./html/index.sgml' ; \
+  /usr/bin/ginstall -c -m 644 ./html/index.sgml /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/share/doc/schroedinger//schroedinger || :; \
+  which gtkdoc-rebase >/dev/null && \
+    gtkdoc-rebase --relative --dest-dir=/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install --html-dir=/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/share/doc/schroedinger//schroedinger ; \
+fi
+-- Installing ./html/home.png
+-- Installing ./html/index.html
+-- Installing ./html/index.sgml
+-- Installing ./html/left.png
+-- Installing ./html/right.png
+-- Installing ./html/schroedinger.devhelp2
+-- Installing ./html/schroedinger-schroarith.html
+-- Installing ./html/schroedinger-schroasync.html
+-- Installing ./html/schroedinger-schrobitstream.html
+-- Installing ./html/schroedinger-schrobuffer.html
+-- Installing ./html/schroedinger-schrocuda.html
+-- Installing ./html/schroedinger-schrodebug.html
+-- Installing ./html/schroedinger-schrodecoder.html
+-- Installing ./html/schroedinger-schrodomain.html
+-- Installing ./html/schroedinger-schroencoder.html
+-- Installing ./html/schroedinger-schrofft.html
+-- Installing ./html/schroedinger-schrofilter.html
+-- Installing ./html/schroedinger-schroframe.html
+-- Installing ./html/schroedinger-schrohistogram.html
+-- Installing ./html/schroedinger-schro.html
+-- Installing ./html/schroedinger-schrolimits.html
+-- Installing ./html/schroedinger-schrolist.html
+-- Installing ./html/schroedinger-schrometric.html
+-- Installing ./html/schroedinger-schromotionest.html
+-- Installing ./html/schroedinger-schromotion.html
+-- Installing ./html/schroedinger-schrooil.html
+-- Installing ./html/schroedinger-schropack.html
+-- Installing ./html/schroedinger-schroparams.html
+-- Installing ./html/schroedinger-schroqueue.html
+-- Installing ./html/schroedinger-schrosubband.html
+-- Installing ./html/schroedinger-schrounpack.html
+-- Installing ./html/schroedinger-schroutils.html
+-- Installing ./html/schroedinger-schrovideoformat.html
+-- Installing ./html/schroedinger-schrowavelet.html
+-- Installing ./html/schrointernal.html
+-- Installing ./html/schropublic.html
+-- Installing ./html/style.css
+-- Installing ./html/up.png
+-- Installing ./html/index.sgml
+make[3]: [install-data-local] Error 1 (ignored)
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/doc'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/doc'
+Making install in tools
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/tools'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/tools'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/tools'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/tools'
+Making install in testsuite
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+Making install in .
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+Making install in perf
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+make  install-am
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+make[5]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/perf'
+Making install in coder
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/coder'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/coder'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/coder'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/coder'
+Making install in installation
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/installation'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/installation'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/installation'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/installation'
+Making install in prototype
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/prototype'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/prototype'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/prototype'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/prototype'
+Making install in streams
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/streams'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/streams'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/streams'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/streams'
+Making install in tables2
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/tables2'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/tables2'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/tables2'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/tables2'
+Making install in dirac
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/dirac'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/dirac'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/dirac'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/dirac'
+Making install in manual
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/manual'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/manual'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/manual'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/manual'
+Making install in cache
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cache'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cache'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cache'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cache'
+Making install in cuda
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cuda'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cuda'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cuda'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/cuda'
+Making install in opengl
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/opengl'
+make[4]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/opengl'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/opengl'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite/opengl'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11/testsuite'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/lib/pkgconfig" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 schroedinger-1.0.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-install/usr/lib/pkgconfig'
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger/schroedinger-1.0.11'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/schroedinger
+Found 'i686'
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroanalysis.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroarith.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroasync.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrobitstream.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrobuffer.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrobufferlist.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrodebug.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrodecoder.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrodomain.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroencoder.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroengine.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrofft.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrofilter.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroframe.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schro.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrohistogram.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrolimits.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrolist.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrometric.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schromotionest.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schromotion.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schropack.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroparams.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroparse.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrophasecorrelation.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroqueue.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrossim.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schro-stdint.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrotables.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrounpack.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroutils.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schroversion.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrovideoformat.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrovirtframe.h
+Processing ../schroedinger-install/usr/include/schroedinger-1.0/schroedinger/schrowavelet.h
+Processing ../schroedinger-install/usr/lib/libschroedinger-1.0.la
+Processing ../schroedinger-install/usr/lib/libschroedinger-1.0.so
+Processing ../schroedinger-install/usr/lib/libschroedinger-1.0.so.0
+Processing ../schroedinger-install/usr/lib/libschroedinger-1.0.so.0.11.0
+Processing ../schroedinger-install/usr/lib/pkgconfig/schroedinger-1.0.pc
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/home.png
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/index.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/index.sgml
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/left.png
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/right.png
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger.devhelp2
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schroarith.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schroasync.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrobitstream.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrobuffer.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrocuda.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrodebug.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrodecoder.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrodomain.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schroencoder.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrofft.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrofilter.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schroframe.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrohistogram.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schro.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrolimits.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrolist.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrometric.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schromotionest.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schromotion.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrooil.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schropack.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schroparams.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schroqueue.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrosubband.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrounpack.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schroutils.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrovideoformat.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schroedinger-schrowavelet.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schrointernal.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/schropublic.html
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/style.css
+Processing ../schroedinger-install/usr/share/doc/schroedinger/schroedinger/up.png
+all done
+packaging schroedinger-1.0.11-i686_slk600
+packaging schroedinger_DEV-1.0.11-i686_slk600
+packaging schroedinger_DOC-1.0.11-i686_slk600
+done!

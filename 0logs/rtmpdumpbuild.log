@@ -1,0 +1,102 @@
+rtmpdump-2.3/ChangeLog
+rtmpdump-2.3/COPYING
+rtmpdump-2.3/librtmp/
+rtmpdump-2.3/librtmp/dh.h
+rtmpdump-2.3/librtmp/bytes.h
+rtmpdump-2.3/librtmp/Makefile
+rtmpdump-2.3/librtmp/handshake.h
+rtmpdump-2.3/librtmp/amf.c
+rtmpdump-2.3/librtmp/amf.h
+rtmpdump-2.3/librtmp/parseurl.c
+rtmpdump-2.3/librtmp/log.c
+rtmpdump-2.3/librtmp/log.h
+rtmpdump-2.3/librtmp/librtmp.3
+rtmpdump-2.3/librtmp/librtmp.3.html
+rtmpdump-2.3/librtmp/dhgroups.h
+rtmpdump-2.3/librtmp/hashswf.c
+rtmpdump-2.3/librtmp/http.h
+rtmpdump-2.3/librtmp/librtmp.pc.in
+rtmpdump-2.3/librtmp/rtmp.c
+rtmpdump-2.3/librtmp/rtmp.h
+rtmpdump-2.3/librtmp/COPYING
+rtmpdump-2.3/librtmp/rtmp_sys.h
+rtmpdump-2.3/Makefile
+rtmpdump-2.3/README
+rtmpdump-2.3/rtmpdump.1
+rtmpdump-2.3/rtmpdump.1.html
+rtmpdump-2.3/rtmpdump.c
+rtmpdump-2.3/rtmpgw.8
+rtmpdump-2.3/rtmpgw.8.html
+rtmpdump-2.3/rtmpgw.c
+rtmpdump-2.3/rtmpsrv.c
+rtmpdump-2.3/rtmpsuck.c
+rtmpdump-2.3/thread.c
+rtmpdump-2.3/thread.h
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\"   -O2   -c -o rtmpdump.o rtmpdump.c
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\"   -O2   -c -o rtmpgw.o rtmpgw.c
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\"   -O2   -c -o thread.o thread.c
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-2.3/librtmp'
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\" -DUSE_OPENSSL  -O2 -fPIC   -c -o rtmp.o rtmp.c
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\"   -O2   -c -o rtmpsrv.o rtmpsrv.c
+rtmp.c: In function ‘RTMP_ReadPacket’:
+rtmp.c:2862:7: warning: variable ‘didAlloc’ set but not used [-Wunused-but-set-variable]
+   int didAlloc = FALSE;
+       ^
+rtmpsrv.c: In function ‘dumpAMF’:
+rtmpsrv.c:404:10: warning: variable ‘len’ set but not used [-Wunused-but-set-variable]
+   int i, len, ac = *argc;
+          ^
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\" -DUSE_OPENSSL  -O2 -fPIC   -c -o log.o log.c
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\" -DUSE_OPENSSL  -O2 -fPIC   -c -o amf.o amf.c
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\"   -O2   -c -o rtmpsuck.o rtmpsuck.c
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\" -DUSE_OPENSSL  -O2 -fPIC   -c -o hashswf.o hashswf.c
+gcc -Wall   -DRTMPDUMP_VERSION=\"v2.3\" -DUSE_OPENSSL  -O2 -fPIC   -c -o parseurl.o parseurl.c
+ar rs librtmp.a rtmp.o log.o amf.o hashswf.o parseurl.o
+gcc -shared -Wl,-soname,librtmp.so.0  -o librtmp.so.0 rtmp.o log.o amf.o hashswf.o parseurl.o  -lssl -lcrypto -lz 
+ar: creating librtmp.a
+ln -sf librtmp.so.0 librtmp.so
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-2.3/librtmp'
+gcc -Wall  rtmpdump.o librtmp/librtmp.a  -o rtmpdump -lssl -lcrypto -lz  
+gcc -Wall  rtmpgw.o thread.o librtmp/librtmp.a  -o rtmpgw -lpthread -lssl -lcrypto -lz  
+gcc -Wall  rtmpsrv.o thread.o librtmp/librtmp.a  -o rtmpsrv -lpthread -lssl -lcrypto -lz  
+gcc -Wall  rtmpsuck.o thread.o librtmp/librtmp.a  -o rtmpsuck -lpthread -lssl -lcrypto -lz  
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-2.3/librtmp'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-2.3/librtmp'
+mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/bin /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/sbin /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/man/man1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/man/man8
+cp rtmpdump /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/bin
+cp rtmpgw rtmpsrv rtmpsuck /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/sbin
+cp rtmpdump.1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/man/man1
+cp rtmpgw.8 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/man/man8
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-2.3/librtmp'
+sed -e "s;@prefix@;/usr;" -e "s;@VERSION@;v2.3;" \
+	-e "s;@CRYPTO_REQ@;libssl,libcrypto;" librtmp.pc.in > librtmp.pc
+mkdir -p /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/include/librtmp /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/lib/pkgconfig /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/man/man3
+cp amf.h http.h log.h rtmp.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/include/librtmp
+cp librtmp.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/lib
+cp librtmp.pc /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/lib/pkgconfig
+cp librtmp.3 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/man/man3
+cp librtmp.so.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/lib
+cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-install/usr/lib; ln -sf librtmp.so.0 librtmp.so
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump/rtmpdump-2.3/librtmp'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/rtmpdump
+Processing ../rtmpdump-install/usr/bin/rtmpdump
+Processing ../rtmpdump-install/usr/include/librtmp/amf.h
+Processing ../rtmpdump-install/usr/include/librtmp/http.h
+Processing ../rtmpdump-install/usr/include/librtmp/log.h
+Processing ../rtmpdump-install/usr/include/librtmp/rtmp.h
+Processing ../rtmpdump-install/usr/lib/librtmp.a
+Processing ../rtmpdump-install/usr/lib/librtmp.so
+Processing ../rtmpdump-install/usr/lib/librtmp.so.0
+Processing ../rtmpdump-install/usr/lib/pkgconfig/librtmp.pc
+Processing ../rtmpdump-install/usr/man/man1/rtmpdump.1
+Processing ../rtmpdump-install/usr/man/man3/librtmp.3
+Processing ../rtmpdump-install/usr/man/man8/rtmpgw.8
+Processing ../rtmpdump-install/usr/sbin/rtmpgw
+Processing ../rtmpdump-install/usr/sbin/rtmpsrv
+Processing ../rtmpdump-install/usr/sbin/rtmpsuck
+all done
+packaging rtmpdump-2.3-i686_slk600
+packaging rtmpdump_DEV-2.3-i686_slk600
+packaging rtmpdump_DOC-2.3-i686_slk600
+done!

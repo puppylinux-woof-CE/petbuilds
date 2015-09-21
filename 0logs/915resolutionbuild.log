@@ -1,0 +1,14 @@
+915resolution-0.5.3-patched20110617/
+915resolution-0.5.3-patched20110617/chipset_info.txt
+915resolution-0.5.3-patched20110617/changes.log
+915resolution-0.5.3-patched20110617/Makefile
+915resolution-0.5.3-patched20110617/915resolution.c-20101123
+915resolution-0.5.3-patched20110617/915resolution.c
+915resolution-0.5.3-patched20110617/dump_bios
+915resolution-0.5.3-patched20110617/LICENSE.txt
+915resolution-0.5.3-patched20110617/README.txt
+cc -s -Wall -ggdb    -c -o 915resolution.o 915resolution.c
+cc   915resolution.o   -o 915resolution
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/915resolution
+packaging 915resolution-0.5.3-patched20110617-i686_slk600
+done!

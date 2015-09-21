@@ -1,0 +1,577 @@
+a52dec-0.7.4/
+a52dec-0.7.4/Makefile.in
+a52dec-0.7.4/README
+a52dec-0.7.4/AUTHORS
+a52dec-0.7.4/COPYING
+a52dec-0.7.4/ChangeLog
+a52dec-0.7.4/INSTALL
+a52dec-0.7.4/Makefile.am
+a52dec-0.7.4/NEWS
+a52dec-0.7.4/TODO
+a52dec-0.7.4/acinclude.m4
+a52dec-0.7.4/aclocal.m4
+a52dec-0.7.4/configure
+a52dec-0.7.4/configure.in
+a52dec-0.7.4/HISTORY
+a52dec-0.7.4/bootstrap
+a52dec-0.7.4/autotools/
+a52dec-0.7.4/autotools/Makefile.in
+a52dec-0.7.4/autotools/Makefile.am
+a52dec-0.7.4/autotools/config.guess
+a52dec-0.7.4/autotools/config.sub
+a52dec-0.7.4/autotools/install-sh
+a52dec-0.7.4/autotools/ltmain.sh
+a52dec-0.7.4/autotools/missing
+a52dec-0.7.4/autotools/mkinstalldirs
+a52dec-0.7.4/include/
+a52dec-0.7.4/include/Makefile.in
+a52dec-0.7.4/include/stamp-h.in
+a52dec-0.7.4/include/Makefile.am
+a52dec-0.7.4/include/config.h.in
+a52dec-0.7.4/include/a52.h
+a52dec-0.7.4/include/attributes.h
+a52dec-0.7.4/include/audio_out.h
+a52dec-0.7.4/include/mm_accel.h
+a52dec-0.7.4/include/tendra.h
+a52dec-0.7.4/doc/
+a52dec-0.7.4/doc/Makefile.in
+a52dec-0.7.4/doc/Makefile.am
+a52dec-0.7.4/doc/liba52.txt
+a52dec-0.7.4/liba52/
+a52dec-0.7.4/liba52/Makefile.in
+a52dec-0.7.4/liba52/Makefile.am
+a52dec-0.7.4/liba52/bitstream.c
+a52dec-0.7.4/liba52/imdct.c
+a52dec-0.7.4/liba52/bit_allocate.c
+a52dec-0.7.4/liba52/parse.c
+a52dec-0.7.4/liba52/downmix.c
+a52dec-0.7.4/liba52/configure.incl
+a52dec-0.7.4/liba52/a52_internal.h
+a52dec-0.7.4/liba52/bitstream.h
+a52dec-0.7.4/liba52/tables.h
+a52dec-0.7.4/libao/
+a52dec-0.7.4/libao/Makefile.in
+a52dec-0.7.4/libao/Makefile.am
+a52dec-0.7.4/libao/audio_out.c
+a52dec-0.7.4/libao/float2s16.c
+a52dec-0.7.4/libao/audio_out_null.c
+a52dec-0.7.4/libao/audio_out_float.c
+a52dec-0.7.4/libao/audio_out_oss.c
+a52dec-0.7.4/libao/audio_out_solaris.c
+a52dec-0.7.4/libao/audio_out_al.c
+a52dec-0.7.4/libao/audio_out_win.c
+a52dec-0.7.4/libao/audio_out_wav.c
+a52dec-0.7.4/libao/audio_out_aif.c
+a52dec-0.7.4/libao/audio_out_peak.c
+a52dec-0.7.4/libao/configure.incl
+a52dec-0.7.4/libao/audio_out_internal.h
+a52dec-0.7.4/src/
+a52dec-0.7.4/src/Makefile.in
+a52dec-0.7.4/src/Makefile.am
+a52dec-0.7.4/src/a52dec.c
+a52dec-0.7.4/src/getopt.c
+a52dec-0.7.4/src/gettimeofday.c
+a52dec-0.7.4/src/extract_a52.c
+a52dec-0.7.4/src/configure.incl
+a52dec-0.7.4/src/getopt.h
+a52dec-0.7.4/src/gettimeofday.h
+a52dec-0.7.4/src/a52dec.1
+a52dec-0.7.4/src/extract_a52.1
+a52dec-0.7.4/vc++/
+a52dec-0.7.4/vc++/Makefile.in
+a52dec-0.7.4/vc++/Makefile.am
+a52dec-0.7.4/vc++/config.h
+a52dec-0.7.4/vc++/inttypes.h
+a52dec-0.7.4/vc++/liba52.dsp
+a52dec-0.7.4/vc++/libao.dsp
+a52dec-0.7.4/vc++/a52dec.dsp
+a52dec-0.7.4/vc++/a52dec.dsw
+a52dec-0.7.4/test/
+a52dec-0.7.4/test/Makefile.in
+a52dec-0.7.4/test/Makefile.am
+a52dec-0.7.4/test/compare.c
+a52dec-0.7.4/test/regression
+a52dec-0.7.4/test/tests
+a52dec-0.7.4/test/compile
+a52dec-0.7.4/test/globals
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking whether make sets ${MAKE}... yes
+checking for working aclocal... found
+checking for working autoconf... found
+checking for working automake... found
+checking for working autoheader... found
+checking for working makeinfo... found
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking how to run the C preprocessor... gcc -E
+checking whether gcc needs -traditional... no
+checking if gcc supports -g  -O3 flags... yes
+checking if gcc supports -g  -O3 -fomit-frame-pointer flags... yes
+checking if gcc supports -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro flags... yes
+checking for ld used by GCC... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognise dependant libraries... pass_all
+checking command to parse /usr/bin/nm -B output... ok
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for ranlib... ranlib
+checking for strip... strip
+checking for objdir... .libs
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... no
+checking if we can lock with hard links... yes
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking whether the linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether -lc should be explicitly linked in... no
+creating libtool
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking for inttypes.h... (cached) yes
+checking for gcc option to accept ANSI C... none needed
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for always_inline... yes
+checking for restrict... __restrict__
+checking for size_t... yes
+checking whether byte ordering is bigendian... no
+checking for memalign... yes
+checking for gettimeofday... yes
+checking for ftime... yes
+checking return type of signal handlers... void
+checking for _oss_ioctl in -lossaudio... no
+checking __attribute__ ((aligned ())) support... 64
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating autotools/Makefile
+config.status: creating include/Makefile
+config.status: creating test/Makefile
+config.status: creating doc/Makefile
+config.status: creating src/Makefile
+config.status: creating liba52/Makefile
+config.status: creating libao/Makefile
+config.status: creating vc++/Makefile
+config.status: creating include/config.h
+config.status: executing default-1 commands
+Making all in autotools
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/autotools'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/autotools'
+Making all in include
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/include'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/include'
+Making all in doc
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/doc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/doc'
+Making all in liba52
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/liba52'
+/bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -prefer-non-pic -c bitstream.c
+/bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -prefer-non-pic -c imdct.c
+/bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -prefer-non-pic -c bit_allocate.c
+/bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -prefer-non-pic -c parse.c
+mkdir .libs
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include -g -O3 -fomit-frame-pointer -mcpu=pentiumpro -c bitstream.c
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+bitstream.c:44:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void bitstream_fill_current (a52_state_t * state)
+                    ^
+In file included from bitstream.c:30:0:
+bitstream.h:66:23: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int32_t bitstream_get_2 (a52_state_t * state, uint32_t num_bits)
+                       ^
+bitstream.h:53:24: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline uint32_t bitstream_get (a52_state_t * state, uint32_t num_bits)
+                        ^
+mv -f bitstream.o .libs/bitstream.lo
+mv -f .libs/bitstream.lo bitstream.o
+(cd . && ln -s bitstream.o bitstream.lo)
+/bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -prefer-non-pic -c downmix.c
+rm -f .libs/parse.lo
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include -g -O3 -fomit-frame-pointer -mcpu=pentiumpro -c parse.c
+rm -f .libs/imdct.lo
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include -g -O3 -fomit-frame-pointer -mcpu=pentiumpro -c imdct.c
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+rm -f .libs/bit_allocate.lo
+parse.c:306:23: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int16_t dither_gen (a52_state_t * state)
+                       ^
+parse.c:292:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int zero_snr_offsets (int nfchans, a52_state_t * state)
+                   ^
+In file included from parse.c:32:0:
+bitstream.h:66:23: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int32_t bitstream_get_2 (a52_state_t * state, uint32_t num_bits)
+                       ^
+bitstream.h:53:24: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline uint32_t bitstream_get (a52_state_t * state, uint32_t num_bits)
+                        ^
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include -g -O3 -fomit-frame-pointer -mcpu=pentiumpro -c bit_allocate.c
+imdct.c:170:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ifft8 (complex_t * buf)
+                    ^
+imdct.c:88:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ifft4 (complex_t * buf)
+                    ^
+imdct.c:76:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ifft2 (complex_t * buf)
+                    ^
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+rm -f .libs/downmix.lo
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include -g -O3 -fomit-frame-pointer -mcpu=pentiumpro -c downmix.c
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+mv -f bit_allocate.o .libs/bit_allocate.lo
+mv -f .libs/bit_allocate.lo bit_allocate.o
+(cd . && ln -s bit_allocate.o bit_allocate.lo)
+mv -f imdct.o .libs/imdct.lo
+mv -f .libs/imdct.lo imdct.o
+(cd . && ln -s imdct.o imdct.lo)
+mv -f downmix.o .libs/downmix.lo
+mv -f .libs/downmix.lo downmix.o
+(cd . && ln -s downmix.o downmix.lo)
+mv -f parse.o .libs/parse.lo
+mv -f .libs/parse.lo parse.o
+(cd . && ln -s parse.o parse.lo)
+/bin/sh ../libtool --mode=link gcc  -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -prefer-non-pic  -o liba52.la -rpath /usr/lib -no-undefined bitstream.lo imdct.lo bit_allocate.lo parse.lo downmix.lo -lm 
+rm -fr .libs/liba52.la .libs/liba52.* .libs/liba52.*
+gcc -shared  bitstream.lo imdct.lo bit_allocate.lo parse.lo downmix.lo  -lm  -Wl,-soname -Wl,liba52.so.0 -o .libs/liba52.so.0.0.0
+(cd .libs && rm -f liba52.so.0 && ln -s liba52.so.0.0.0 liba52.so.0)
+(cd .libs && rm -f liba52.so && ln -s liba52.so.0.0.0 liba52.so)
+ar cru .libs/liba52.a  bitstream.o imdct.o bit_allocate.o parse.o downmix.o 
+ranlib .libs/liba52.a
+creating liba52.la
+(cd .libs && rm -f liba52.la && ln -s ../liba52.la liba52.la)
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/liba52'
+Making all in libao
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/libao'
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c float2s16.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_null.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_float.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+float2s16.c:31:23: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int16_t convert (int32_t i)
+                       ^
+In file included from float2s16.c:29:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+In file included from audio_out.c:30:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+In file included from audio_out_null.c:29:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_oss.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_solaris.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+In file included from audio_out_float.c:30:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_al.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_win.c
+In file included from audio_out_oss.c:52:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_wav.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_aif.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+In file included from audio_out_wav.c:32:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+In file included from audio_out_aif.c:32:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c audio_out_peak.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+In file included from audio_out_peak.c:9:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+rm -f libao.a
+ar cru libao.a audio_out.o float2s16.o audio_out_null.o audio_out_float.o audio_out_oss.o audio_out_solaris.o audio_out_al.o audio_out_win.o audio_out_wav.o audio_out_aif.o audio_out_peak.o 
+ranlib libao.a
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/libao'
+Making all in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/src'
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c a52dec.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c getopt.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c gettimeofday.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c extract_a52.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+In file included from a52dec.c:40:0:
+../include/audio_out.h:60:20: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline void ao_close (ao_instance_t * instance)
+                    ^
+../include/audio_out.h:54:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_play (ao_instance_t * instance, int flags,
+                   ^
+../include/audio_out.h:48:19: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline int ao_setup (ao_instance_t * instance, int sample_rate,
+                   ^
+../include/audio_out.h:43:31: warning: always_inline function might not be inlinable [-Wattributes]
+ static inline ao_instance_t * ao_open (ao_open_t * open)
+                               ^
+/bin/sh ../libtool --mode=link gcc  -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -o extract_a52  extract_a52.o getopt.o  
+mkdir .libs
+gcc -g -O3 -fomit-frame-pointer -mcpu=pentiumpro -o extract_a52 extract_a52.o getopt.o 
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+/bin/sh ../libtool --mode=link gcc  -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -o a52dec  a52dec.o getopt.o gettimeofday.o ../liba52/liba52.la 	       ../libao/libao.a  
+gcc -g -O3 -fomit-frame-pointer -mcpu=pentiumpro -o .libs/a52dec a52dec.o getopt.o gettimeofday.o  ../liba52/.libs/liba52.so -lm ../libao/libao.a
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+creating a52dec
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/src'
+Making all in vc++
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/vc++'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/vc++'
+Making all in test
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/test'
+gcc -DHAVE_CONFIG_H -I. -I. -I../include -I../include -I../include    -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro -c compare.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+/bin/sh ../libtool --mode=link gcc  -g  -O3 -fomit-frame-pointer -mcpu=pentiumpro  -o compare  compare.o -lm 
+mkdir .libs
+gcc -g -O3 -fomit-frame-pointer -mcpu=pentiumpro -o compare compare.o  -lm
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/test'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4'
+Making install in autotools
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/autotools'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/autotools'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/autotools'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/autotools'
+Making install in include
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/include'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/include'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../autotools/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/include/a52dec
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/include
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/include/a52dec
+ /usr/bin/ginstall -c -m 644 a52.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/include/a52dec/a52.h
+ /usr/bin/ginstall -c -m 644 attributes.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/include/a52dec/attributes.h
+ /usr/bin/ginstall -c -m 644 audio_out.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/include/a52dec/audio_out.h
+ /usr/bin/ginstall -c -m 644 mm_accel.h /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/include/a52dec/mm_accel.h
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/include'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/include'
+Making install in doc
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/doc'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/doc'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/doc'
+Making install in liba52
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/liba52'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/liba52'
+/bin/sh ../autotools/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib
+/bin/sh ../libtool  --mode=install /usr/bin/ginstall -c liba52.la /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib/liba52.la
+/usr/bin/ginstall -c .libs/liba52.so.0.0.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib/liba52.so.0.0.0
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib && rm -f liba52.so.0 && ln -s liba52.so.0.0.0 liba52.so.0)
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib && rm -f liba52.so && ln -s liba52.so.0.0.0 liba52.so)
+/usr/bin/ginstall -c .libs/liba52.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib/liba52.la
+/usr/bin/ginstall -c .libs/liba52.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib/liba52.a
+ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib/liba52.a
+chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/lib/liba52.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/liba52'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/liba52'
+Making install in libao
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/libao'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/libao'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/libao'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/libao'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/src'
+/bin/sh ../autotools/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/bin
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/bin
+ /bin/sh ../libtool  --mode=install /usr/bin/ginstall -c  a52dec /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/bin/a52dec
+/usr/bin/ginstall -c .libs/a52dec /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/bin/a52dec
+ /bin/sh ../libtool  --mode=install /usr/bin/ginstall -c  extract_a52 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/bin/extract_a52
+/usr/bin/ginstall -c extract_a52 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/bin/extract_a52
+make  install-man1
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/src'
+/bin/sh ../autotools/mkinstalldirs /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/man/man1
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/man
+mkdir /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/man/man1
+ /usr/bin/ginstall -c -m 644 ./a52dec.1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/man/man1/a52dec.1
+ /usr/bin/ginstall -c -m 644 ./extract_a52.1 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-install/usr/man/man1/extract_a52.1
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/src'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/src'
+Making install in vc++
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/vc++'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/vc++'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/vc++'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/vc++'
+Making install in test
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/test'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/test'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/test'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4/test'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec/a52dec-0.7.4'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/a52dec
+Processing ../a52dec-install/usr/bin/a52dec
+Processing ../a52dec-install/usr/bin/extract_a52
+Processing ../a52dec-install/usr/include/a52dec/a52.h
+Processing ../a52dec-install/usr/include/a52dec/attributes.h
+Processing ../a52dec-install/usr/include/a52dec/audio_out.h
+Processing ../a52dec-install/usr/include/a52dec/mm_accel.h
+Processing ../a52dec-install/usr/lib/liba52.a
+Processing ../a52dec-install/usr/lib/liba52.la
+Processing ../a52dec-install/usr/lib/liba52.so
+Processing ../a52dec-install/usr/lib/liba52.so.0
+Processing ../a52dec-install/usr/lib/liba52.so.0.0.0
+Processing ../a52dec-install/usr/man/man1/a52dec.1
+Processing ../a52dec-install/usr/man/man1/extract_a52.1
+all done
+packaging a52dec-0.7.4-i686_slk600
+packaging a52dec_DEV-0.7.4-i686_slk600
+packaging a52dec_DOC-0.7.4-i686_slk600
+done!

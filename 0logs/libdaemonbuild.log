@@ -1,0 +1,307 @@
+libdaemon-0.14/
+libdaemon-0.14/LICENSE
+libdaemon-0.14/config.guess
+libdaemon-0.14/compile
+libdaemon-0.14/config.h.in
+libdaemon-0.14/Makefile.in
+libdaemon-0.14/depcomp
+libdaemon-0.14/pkgconfig/
+libdaemon-0.14/pkgconfig/libdaemon.pc.in
+libdaemon-0.14/pkgconfig/libdaemon-uninstalled.pc.in
+libdaemon-0.14/config.rpath
+libdaemon-0.14/m4/
+libdaemon-0.14/m4/lt~obsolete.m4
+libdaemon-0.14/m4/attributes.m4
+libdaemon-0.14/m4/ltoptions.m4
+libdaemon-0.14/m4/ltversion.m4
+libdaemon-0.14/m4/zp_lynx_doc.m4
+libdaemon-0.14/m4/libtool.m4
+libdaemon-0.14/m4/ltsugar.m4
+libdaemon-0.14/Makefile.am
+libdaemon-0.14/bootstrap.sh
+libdaemon-0.14/missing
+libdaemon-0.14/ltmain.sh
+libdaemon-0.14/examples/
+libdaemon-0.14/examples/Makefile.in
+libdaemon-0.14/examples/testd.c
+libdaemon-0.14/examples/Makefile.am
+libdaemon-0.14/configure.ac
+libdaemon-0.14/configure
+libdaemon-0.14/install-sh
+libdaemon-0.14/aclocal.m4
+libdaemon-0.14/config.sub
+libdaemon-0.14/doc/
+libdaemon-0.14/doc/doxygen.conf.in
+libdaemon-0.14/doc/style.css
+libdaemon-0.14/doc/Makefile.in
+libdaemon-0.14/doc/README.html
+libdaemon-0.14/doc/Makefile.am
+libdaemon-0.14/doc/README.html.in
+libdaemon-0.14/doc/README
+libdaemon-0.14/libdaemon/
+libdaemon-0.14/libdaemon/dlog.h
+libdaemon-0.14/libdaemon/dsignal.h
+libdaemon-0.14/libdaemon/dpid.h
+libdaemon-0.14/libdaemon/dnonblock.h
+libdaemon-0.14/libdaemon/Makefile.in
+libdaemon-0.14/libdaemon/dlog.c
+libdaemon-0.14/libdaemon/Makefile.am
+libdaemon-0.14/libdaemon/dexec.h
+libdaemon-0.14/libdaemon/dexec.c
+libdaemon-0.14/libdaemon/daemon.h
+libdaemon-0.14/libdaemon/dsignal.c
+libdaemon-0.14/libdaemon/dfork.h
+libdaemon-0.14/libdaemon/dpid.c
+libdaemon-0.14/libdaemon/dnonblock.c
+libdaemon-0.14/libdaemon/dfork.c
+libdaemon-0.14/README
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for gcc option to accept ISO C99... -std=gnu99
+checking whether gcc -std=gnu99 and cc understand -c and -o together... yes
+checking how to run the C preprocessor... gcc -std=gnu99 -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc -std=gnu99... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -std=gnu99 object... ok
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -std=gnu99 supports -fno-rtti -fno-exceptions... no
+checking for gcc -std=gnu99 option to produce PIC... -fPIC -DPIC
+checking if gcc -std=gnu99 PIC flag -fPIC -DPIC works... yes
+checking if gcc -std=gnu99 static flag -static works... yes
+checking if gcc -std=gnu99 supports -c -o file.o... yes
+checking if gcc -std=gnu99 supports -c -o file.o... (cached) yes
+checking whether the gcc -std=gnu99 linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking if gcc -std=gnu99 supports -pipe flag... yes
+checking if gcc -std=gnu99 supports -Wall flag... yes
+checking if gcc -std=gnu99 supports -W flag... yes
+checking if gcc -std=gnu99 supports -Wextra flag... yes
+checking if gcc -std=gnu99 supports -pedantic flag... yes
+checking if gcc -std=gnu99 supports -Wformat flag... yes
+checking if gcc -std=gnu99 supports -Wold-style-definition flag... yes
+checking if gcc -std=gnu99 supports -Wdeclaration-after-statement flag... yes
+checking if gcc -std=gnu99 supports -Wfloat-equal flag... yes
+checking if gcc -std=gnu99 supports -Wmissing-declarations flag... yes
+checking if gcc -std=gnu99 supports -Wmissing-prototypes flag... yes
+checking if gcc -std=gnu99 supports -Wstrict-prototypes flag... yes
+checking if gcc -std=gnu99 supports -Wredundant-decls flag... yes
+checking if gcc -std=gnu99 supports -Wmissing-noreturn flag... yes
+checking if gcc -std=gnu99 supports -Wshadow flag... yes
+checking if gcc -std=gnu99 supports -Wendif-labels flag... yes
+checking if gcc -std=gnu99 supports -Wpointer-arith flag... yes
+checking if gcc -std=gnu99 supports -Wbad-function-cast flag... yes
+checking if gcc -std=gnu99 supports -Wcast-qual flag... yes
+checking if gcc -std=gnu99 supports -Wcast-align flag... yes
+checking if gcc -std=gnu99 supports -Wwrite-strings flag... yes
+checking if gcc -std=gnu99 supports -Winline flag... yes
+checking if gcc -std=gnu99 supports -Wno-unused-parameter flag... yes
+checking if gcc -std=gnu99 supports -Wstrict-aliasing flag... yes
+checking whether to enable assertions... yes
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for working volatile... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking for vprintf... yes
+checking for _doprnt... no
+checking for select... yes
+checking for strerror... yes
+checking for dup2... yes
+checking for memset... yes
+checking for strrchr... yes
+checking for asprintf... yes
+checking for mode_t... yes
+checking whether setpgrp takes no argument... yes
+checking return type of signal handlers... void
+checking for size_t... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking if gcc -std=gnu99 supports -Wl,--no-undefined flag... yes
+checking for lynx... no
+configure: WARNING: *** lynx not found, plain text README will not be built ***
+configure: creating ./config.status
+config.status: creating libdaemon/Makefile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/README.html
+config.status: creating doc/doxygen.conf
+config.status: creating examples/Makefile
+config.status: creating pkgconfig/libdaemon.pc
+config.status: creating pkgconfig/libdaemon-uninstalled.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14'
+Making all in libdaemon
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/libdaemon'
+  CC     dlog.lo
+  CC     dfork.lo
+  CC     dsignal.lo
+  CC     dnonblock.lo
+  CC     dpid.lo
+  CC     dexec.lo
+  CCLD   libdaemon.la
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/libdaemon'
+Making all in doc
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/doc'
+Making all in examples
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/examples'
+  CC     testd.o
+  CCLD   testd
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/examples'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14'
+Making install in libdaemon
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/libdaemon'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/libdaemon'
+test -z "/usr/lib" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c   libdaemon.la '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib'
+libtool: install: /usr/bin/ginstall -c .libs/libdaemon.so.0.5.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib/libdaemon.so.0.5.0
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib && { ln -s -f libdaemon.so.0.5.0 libdaemon.so.0 || { rm -f libdaemon.so.0 && ln -s libdaemon.so.0.5.0 libdaemon.so.0; }; })
+libtool: install: (cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib && { ln -s -f libdaemon.so.0.5.0 libdaemon.so || { rm -f libdaemon.so && ln -s libdaemon.so.0.5.0 libdaemon.so; }; })
+libtool: install: /usr/bin/ginstall -c .libs/libdaemon.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib/libdaemon.la
+libtool: install: /usr/bin/ginstall -c .libs/libdaemon.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib/libdaemon.a
+libtool: install: chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib/libdaemon.a
+libtool: install: ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib/libdaemon.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/libdaemon" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/include/libdaemon"
+ /usr/bin/ginstall -c -m 644 dlog.h dfork.h dsignal.h dnonblock.h dpid.h dexec.h daemon.h '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/include/libdaemon'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/libdaemon'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/libdaemon'
+Making install in doc
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/doc'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/doc/libdaemon" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/share/doc/libdaemon"
+test -z "/usr/share/doc/libdaemon" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/share/doc/libdaemon"
+ /usr/bin/ginstall -c -m 644 README.html style.css '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/share/doc/libdaemon'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/doc'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/doc'
+Making install in examples
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/examples'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/examples'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/examples'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14/examples'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/lib/pkgconfig" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 pkgconfig/libdaemon.pc '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-install/usr/lib/pkgconfig'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon/libdaemon-0.14'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libdaemon
+Found 'i686'
+Processing ../libdaemon-install/usr/include/libdaemon/daemon.h
+Processing ../libdaemon-install/usr/include/libdaemon/dexec.h
+Processing ../libdaemon-install/usr/include/libdaemon/dfork.h
+Processing ../libdaemon-install/usr/include/libdaemon/dlog.h
+Processing ../libdaemon-install/usr/include/libdaemon/dnonblock.h
+Processing ../libdaemon-install/usr/include/libdaemon/dpid.h
+Processing ../libdaemon-install/usr/include/libdaemon/dsignal.h
+Processing ../libdaemon-install/usr/lib/libdaemon.a
+Processing ../libdaemon-install/usr/lib/libdaemon.la
+Processing ../libdaemon-install/usr/lib/libdaemon.so
+Processing ../libdaemon-install/usr/lib/libdaemon.so.0
+Processing ../libdaemon-install/usr/lib/libdaemon.so.0.5.0
+Processing ../libdaemon-install/usr/lib/pkgconfig/libdaemon.pc
+Processing ../libdaemon-install/usr/share/doc/libdaemon/README.html
+Processing ../libdaemon-install/usr/share/doc/libdaemon/style.css
+all done
+packaging libdaemon-0.14-i686_slk600
+packaging libdaemon_DEV-0.14-i686_slk600
+packaging libdaemon_DOC-0.14-i686_slk600
+done!

@@ -1,0 +1,222 @@
+--2015-06-29 09:24:09--  http://www.lcdf.org/gifsicle/gifsicle-1.87.tar.gz
+Resolving www.lcdf.org (www.lcdf.org)... 18.26.4.9
+Connecting to www.lcdf.org (www.lcdf.org)|18.26.4.9|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 565438 (552K) [application/x-tar]
+Saving to: ‘gifsicle-1.87.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  9% 54.8K 9s
+    50K .......... .......... .......... .......... .......... 18%  131K 6s
+   100K .......... .......... .......... .......... .......... 27%  153K 4s
+   150K .......... .......... .......... .......... .......... 36%  152K 3s
+   200K .......... .......... .......... .......... .......... 45%  152K 3s
+   250K .......... .......... .......... .......... .......... 54%  156K 2s
+   300K .......... .......... .......... .......... .......... 63%  152K 2s
+   350K .......... .......... .......... .......... .......... 72%  156K 1s
+   400K .......... .......... .......... .......... .......... 81%  152K 1s
+   450K .......... .......... .......... .......... .......... 90%  156K 0s
+   500K .......... .......... .......... .......... .......... 99%  152K 0s
+   550K ..                                                    100%  240K=4.2s
+
+2015-06-29 09:24:14 (130 KB/s) - ‘gifsicle-1.87.tar.gz’ saved [565438/565438]
+
+gifsicle-1.87/
+gifsicle-1.87/aclocal.m4
+gifsicle-1.87/compile
+gifsicle-1.87/config.h.in
+gifsicle-1.87/configure
+gifsicle-1.87/configure.ac
+gifsicle-1.87/COPYING
+gifsicle-1.87/depcomp
+gifsicle-1.87/gifdiff.1
+gifsicle-1.87/gifsicle.1
+gifsicle-1.87/gifsicle.spec
+gifsicle-1.87/gifview.1
+gifsicle-1.87/include/
+gifsicle-1.87/INSTALL
+gifsicle-1.87/install-sh
+gifsicle-1.87/._logo.gif
+gifsicle-1.87/logo.gif
+gifsicle-1.87/._logo1.gif
+gifsicle-1.87/logo1.gif
+gifsicle-1.87/Makefile.am
+gifsicle-1.87/Makefile.in
+gifsicle-1.87/missing
+gifsicle-1.87/NEWS
+gifsicle-1.87/README.md
+gifsicle-1.87/src/
+gifsicle-1.87/test/
+gifsicle-1.87/test/001-transexpand.testie
+gifsicle-1.87/test/002-cropresize.testie
+gifsicle-1.87/test/003-bgopt.testie
+gifsicle-1.87/test/004-careful.testie
+gifsicle-1.87/test/005-resize.testie
+gifsicle-1.87/test/006-unoptdisposal.testie
+gifsicle-1.87/test/007-alltransp.testie
+gifsicle-1.87/test/008-resizemix.testie
+gifsicle-1.87/test/009-zerowidth.testie
+gifsicle-1.87/test/010-warnings.testie
+gifsicle-1.87/test/011-resizemix.testie
+gifsicle-1.87/test/testie
+gifsicle-1.87/src/clp.c
+gifsicle-1.87/src/fmalloc.c
+gifsicle-1.87/src/gifdiff.c
+gifsicle-1.87/src/giffunc.c
+gifsicle-1.87/src/gifread.c
+gifsicle-1.87/src/gifsicle.c
+gifsicle-1.87/src/gifsicle.h
+gifsicle-1.87/src/gifunopt.c
+gifsicle-1.87/src/gifview.c
+gifsicle-1.87/src/gifwrite.c
+gifsicle-1.87/src/gifx.c
+gifsicle-1.87/src/kcolor.h
+gifsicle-1.87/src/Makefile.am
+gifsicle-1.87/src/Makefile.bcc
+gifsicle-1.87/src/Makefile.in
+gifsicle-1.87/src/Makefile.w32
+gifsicle-1.87/src/merge.c
+gifsicle-1.87/src/optimize.c
+gifsicle-1.87/src/opttemplate.c
+gifsicle-1.87/src/quantize.c
+gifsicle-1.87/src/strerror.c
+gifsicle-1.87/src/support.c
+gifsicle-1.87/src/ungifwrt.c
+gifsicle-1.87/src/win32cfg.h
+gifsicle-1.87/src/xform.c
+gifsicle-1.87/include/lcdf/
+gifsicle-1.87/include/lcdfgif/
+gifsicle-1.87/include/lcdfgif/gif.h
+gifsicle-1.87/include/lcdfgif/gifx.h
+gifsicle-1.87/include/lcdf/clp.h
+gifsicle-1.87/include/lcdf/inttypes.h
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for gettimeofday prototype... 2
+checking for random... yes
+checking for strerror... yes
+checking for strtoul... yes
+checking for mkstemp... yes
+checking for library containing pow... -lm
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for inttypes.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for uintptr_t... yes
+checking for int64_t... yes
+checking size of unsigned int... 4
+checking size of unsigned long... 4
+checking size of void *... 4
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87'
+Making all in src
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87/src'
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT clp.o -MD -MP -MF .deps/clp.Tpo -c -o clp.o clp.c
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT fmalloc.o -MD -MP -MF .deps/fmalloc.Tpo -c -o fmalloc.o fmalloc.c
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT giffunc.o -MD -MP -MF .deps/giffunc.Tpo -c -o giffunc.o giffunc.c
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT gifread.o -MD -MP -MF .deps/gifread.Tpo -c -o gifread.o gifread.c
+mv -f .deps/fmalloc.Tpo .deps/fmalloc.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT gifunopt.o -MD -MP -MF .deps/gifunopt.Tpo -c -o gifunopt.o gifunopt.c
+mv -f .deps/gifunopt.Tpo .deps/gifunopt.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT merge.o -MD -MP -MF .deps/merge.Tpo -c -o merge.o merge.c
+mv -f .deps/gifread.Tpo .deps/gifread.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT optimize.o -MD -MP -MF .deps/optimize.Tpo -c -o optimize.o optimize.c
+mv -f .deps/giffunc.Tpo .deps/giffunc.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT quantize.o -MD -MP -MF .deps/quantize.Tpo -c -o quantize.o quantize.c
+mv -f .deps/merge.Tpo .deps/merge.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT support.o -MD -MP -MF .deps/support.Tpo -c -o support.o support.c
+mv -f .deps/clp.Tpo .deps/clp.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT xform.o -MD -MP -MF .deps/xform.Tpo -c -o xform.o xform.c
+mv -f .deps/support.Tpo .deps/support.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT gifsicle.o -MD -MP -MF .deps/gifsicle.Tpo -c -o gifsicle.o gifsicle.c
+mv -f .deps/xform.Tpo .deps/xform.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT gifwrite.o -MD -MP -MF .deps/gifwrite.Tpo -c -o gifwrite.o gifwrite.c
+mv -f .deps/quantize.Tpo .deps/quantize.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT gifx.o -MD -MP -MF .deps/gifx.Tpo -c -o gifx.o gifx.c
+mv -f .deps/gifwrite.Tpo .deps/gifwrite.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT gifview.o -MD -MP -MF .deps/gifview.Tpo -c -o gifview.o gifview.c
+mv -f .deps/gifsicle.Tpo .deps/gifsicle.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -I../include   -g -O2 -MT gifdiff.o -MD -MP -MF .deps/gifdiff.Tpo -c -o gifdiff.o gifdiff.c
+mv -f .deps/optimize.Tpo .deps/optimize.Po
+gcc  -g -O2   -o gifsicle clp.o fmalloc.o giffunc.o gifread.o gifunopt.o merge.o optimize.o quantize.o support.o xform.o gifsicle.o  gifwrite.o -lm 
+mv -f .deps/gifx.Tpo .deps/gifx.Po
+mv -f .deps/gifdiff.Tpo .deps/gifdiff.Po
+gcc  -g -O2   -o gifdiff clp.o fmalloc.o giffunc.o gifread.o gifdiff.o  -lm 
+mv -f .deps/gifview.Tpo .deps/gifview.Po
+gcc  -g -O2   -o gifview clp.o fmalloc.o giffunc.o gifread.o gifx.o gifview.o    -lSM -lICE -lX11  -lm 
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87'
+Making install in src
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87/src'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87/src'
+ .././install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-install/usr/bin'
+  /usr/bin/ginstall -c gifsicle gifview gifdiff '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-install/usr/bin'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87/src'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87/src'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87'
+make[2]: Nothing to be done for `install-exec-am'.
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-install/usr/share/man/man1'
+ /usr/bin/ginstall -c -m 644 gifsicle.1 gifview.1 gifdiff.1 '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-install/usr/share/man/man1'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle/gifsicle-1.87'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/gifsicle
+Processing ../gifsicle-install/usr/bin/gifdiff
+Processing ../gifsicle-install/usr/bin/gifsicle
+Processing ../gifsicle-install/usr/bin/gifview
+Processing ../gifsicle-install/usr/share/man/man1/gifdiff.1
+Processing ../gifsicle-install/usr/share/man/man1/gifsicle.1
+Processing ../gifsicle-install/usr/share/man/man1/gifview.1
+all done
+packaging gifsicle-1.87-i686_slk600
+packaging gifsicle_DOC-1.87-i686_slk600
+done!

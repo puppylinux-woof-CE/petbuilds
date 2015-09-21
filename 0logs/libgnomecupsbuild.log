@@ -1,0 +1,718 @@
+libgnomecups-0.2.3/
+libgnomecups-0.2.3/intltool-merge.in
+libgnomecups-0.2.3/intltool-extract.in
+libgnomecups-0.2.3/depcomp
+libgnomecups-0.2.3/COPYING.LIB
+libgnomecups-0.2.3/Makefile.in
+libgnomecups-0.2.3/config.sub
+libgnomecups-0.2.3/NEWS
+libgnomecups-0.2.3/INSTALL
+libgnomecups-0.2.3/libgnomecups/
+libgnomecups-0.2.3/libgnomecups/util.h
+libgnomecups-0.2.3/libgnomecups/gnome-cups-request.c
+libgnomecups-0.2.3/libgnomecups/Makefile.in
+libgnomecups-0.2.3/libgnomecups/util.c
+libgnomecups-0.2.3/libgnomecups/gnome-cups-printer.c
+libgnomecups-0.2.3/libgnomecups/gnome-cups-init.c
+libgnomecups-0.2.3/libgnomecups/gnome-cups-i18n.c
+libgnomecups-0.2.3/libgnomecups/gnome-cups-request.h
+libgnomecups-0.2.3/libgnomecups/gnome-cups-util.h
+libgnomecups-0.2.3/libgnomecups/Makefile.am
+libgnomecups-0.2.3/libgnomecups/gnome-cups-init.h
+libgnomecups-0.2.3/libgnomecups/gnome-cups-queue.c
+libgnomecups-0.2.3/libgnomecups/gnome-cups-i18n.h
+libgnomecups-0.2.3/libgnomecups/gnome-cups-queue.h
+libgnomecups-0.2.3/libgnomecups/gnome-cups-util.c
+libgnomecups-0.2.3/libgnomecups/gnome-cups-printer.h
+libgnomecups-0.2.3/README
+libgnomecups-0.2.3/po/
+libgnomecups-0.2.3/po/zh_CN.po
+libgnomecups-0.2.3/po/sv.po
+libgnomecups-0.2.3/po/es.po
+libgnomecups-0.2.3/po/tr.po
+libgnomecups-0.2.3/po/rw.po
+libgnomecups-0.2.3/po/ca.po
+libgnomecups-0.2.3/po/ja.po
+libgnomecups-0.2.3/po/en_CA.po
+libgnomecups-0.2.3/po/uk.po
+libgnomecups-0.2.3/po/ne.po
+libgnomecups-0.2.3/po/hr.po
+libgnomecups-0.2.3/po/Makefile.in.in
+libgnomecups-0.2.3/po/da.po
+libgnomecups-0.2.3/po/hi.po
+libgnomecups-0.2.3/po/bg.po
+libgnomecups-0.2.3/po/wa.po
+libgnomecups-0.2.3/po/de.po
+libgnomecups-0.2.3/po/sq.po
+libgnomecups-0.2.3/po/oc.po
+libgnomecups-0.2.3/po/POTFILES.skip
+libgnomecups-0.2.3/po/eu.po
+libgnomecups-0.2.3/po/dz.po
+libgnomecups-0.2.3/po/pt_BR.po
+libgnomecups-0.2.3/po/en_GB.po
+libgnomecups-0.2.3/po/it.po
+libgnomecups-0.2.3/po/pl.po
+libgnomecups-0.2.3/po/nl.po
+libgnomecups-0.2.3/po/hu.po
+libgnomecups-0.2.3/po/ar.po
+libgnomecups-0.2.3/po/POTFILES.in
+libgnomecups-0.2.3/po/lt.po
+libgnomecups-0.2.3/po/zh_TW.po
+libgnomecups-0.2.3/po/cs.po
+libgnomecups-0.2.3/po/gl.po
+libgnomecups-0.2.3/po/sk.po
+libgnomecups-0.2.3/po/sr.po
+libgnomecups-0.2.3/po/pa.po
+libgnomecups-0.2.3/po/fr.po
+libgnomecups-0.2.3/po/zh_HK.po
+libgnomecups-0.2.3/po/is.po
+libgnomecups-0.2.3/po/sr@Latn.po
+libgnomecups-0.2.3/po/mk.po
+libgnomecups-0.2.3/po/vi.po
+libgnomecups-0.2.3/po/gu.po
+libgnomecups-0.2.3/po/sl.po
+libgnomecups-0.2.3/po/fi.po
+libgnomecups-0.2.3/po/pt.po
+libgnomecups-0.2.3/po/ChangeLog
+libgnomecups-0.2.3/po/nb.po
+libgnomecups-0.2.3/po/th.po
+libgnomecups-0.2.3/missing
+libgnomecups-0.2.3/AUTHORS
+libgnomecups-0.2.3/config.guess
+libgnomecups-0.2.3/mkinstalldirs
+libgnomecups-0.2.3/intltool-update.in
+libgnomecups-0.2.3/configure.in
+libgnomecups-0.2.3/aclocal.m4
+libgnomecups-0.2.3/Makefile.am
+libgnomecups-0.2.3/libgnomecups-1.0.pc.in
+libgnomecups-0.2.3/COPYING
+libgnomecups-0.2.3/ltmain.sh
+libgnomecups-0.2.3/config.h.in
+libgnomecups-0.2.3/install-sh
+libgnomecups-0.2.3/ChangeLog
+libgnomecups-0.2.3/configure
+libgnomecups-0.2.3/autogen.sh
+Applying libgnomecups-glib.patch
+patching file libgnomecups-0.2.3/libgnomecups/gnome-cups-i18n.c
+patching file libgnomecups-0.2.3/libgnomecups/gnome-cups-init.h
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ld used by gcc... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for /usr/i486-slackware-linux/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/i486-slackware-linux/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking whether gcc understands -Wno-sign-compare... yes
+checking what warning flags to pass to the C compiler... -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare
+checking what language compliance flags to pass to the C compiler... 
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for LIBGNOMECUPS... yes
+checking for cups-config... /usr/bin/cups-config
+checking for intltool >= 0.20... 0.37.0 found
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for XML::Parser... ok
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  ar bg ca cs da de dz en_CA en_GB es eu fi fr gl gu hi hr hu is it ja lt mk nb ne nl oc pa pl pt pt_BR rw sk sl sq sr sr@Latn sv th tr uk vi wa zh_CN zh_HK zh_TW
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libgnomecups/Makefile
+config.status: creating libgnomecups-1.0.pc
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing intltool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3'
+Making all in libgnomecups
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/libgnomecups'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare   -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DDATADIR=\""/usr/share"\"    -g -O2 -MT gnome-cups-i18n.lo -MD -MP -MF .deps/gnome-cups-i18n.Tpo -c -o gnome-cups-i18n.lo gnome-cups-i18n.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare   -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DDATADIR=\""/usr/share"\"    -g -O2 -MT gnome-cups-init.lo -MD -MP -MF .deps/gnome-cups-init.Tpo -c -o gnome-cups-init.lo gnome-cups-init.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare   -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DDATADIR=\""/usr/share"\"    -g -O2 -MT gnome-cups-printer.lo -MD -MP -MF .deps/gnome-cups-printer.Tpo -c -o gnome-cups-printer.lo gnome-cups-printer.c
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare   -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DDATADIR=\""/usr/share"\"    -g -O2 -MT gnome-cups-queue.lo -MD -MP -MF .deps/gnome-cups-queue.Tpo -c -o gnome-cups-queue.lo gnome-cups-queue.c
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-init.lo -MD -MP -MF .deps/gnome-cups-init.Tpo -c gnome-cups-init.c  -fPIC -DPIC -o .libs/gnome-cups-init.o
+gnome-cups-init.c: In function 'gnome_cups_init':
+gnome-cups-init.c:17:2: warning: 'g_type_init' is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:669) [-Wdeprecated-declarations]
+  g_type_init ();
+  ^
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-init.lo -MD -MP -MF .deps/gnome-cups-init.Tpo -c gnome-cups-init.c -o gnome-cups-init.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-queue.lo -MD -MP -MF .deps/gnome-cups-queue.Tpo -c gnome-cups-queue.c  -fPIC -DPIC -o .libs/gnome-cups-queue.o
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-printer.lo -MD -MP -MF .deps/gnome-cups-printer.Tpo -c gnome-cups-printer.c  -fPIC -DPIC -o .libs/gnome-cups-printer.o
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-i18n.lo -MD -MP -MF .deps/gnome-cups-i18n.Tpo -c gnome-cups-i18n.c  -fPIC -DPIC -o .libs/gnome-cups-i18n.o
+mv -f .deps/gnome-cups-init.Tpo .deps/gnome-cups-init.Plo
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-i18n.lo -MD -MP -MF .deps/gnome-cups-i18n.Tpo -c gnome-cups-i18n.c -o gnome-cups-i18n.o >/dev/null 2>&1
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare   -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DDATADIR=\""/usr/share"\"    -g -O2 -MT gnome-cups-request.lo -MD -MP -MF .deps/gnome-cups-request.Tpo -c -o gnome-cups-request.lo gnome-cups-request.c
+gnome-cups-printer.c: In function 'set_timeout':
+gnome-cups-printer.c:795:10: warning: passing argument 2 of 'g_timeout_add' from incompatible pointer type [enabled by default]
+          NULL);
+          ^
+In file included from /usr/include/glib-2.0/glib/giochannel.h:35:0,
+                 from /usr/include/glib-2.0/glib.h:56,
+                 from gnome-cups-printer.h:4,
+                 from gnome-cups-printer.c:26:
+/usr/include/glib-2.0/glib/gmain.h:559:10: note: expected 'GSourceFunc' but argument is of type 'gboolean (*)(void)'
+ guint    g_timeout_add              (guint           interval,
+          ^
+gnome-cups-printer.c: In function '_gnome_cups_printer_get_host':
+gnome-cups-printer.c:2004:2: warning: #warning this is broken for smb: [-Wcpp]
+ #warning this is broken for smb://user:pass@host/printer urls
+  ^
+mv -f .deps/gnome-cups-i18n.Tpo .deps/gnome-cups-i18n.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare   -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DDATADIR=\""/usr/share"\"    -g -O2 -MT gnome-cups-util.lo -MD -MP -MF .deps/gnome-cups-util.Tpo -c -o gnome-cups-util.lo gnome-cups-util.c
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-queue.lo -MD -MP -MF .deps/gnome-cups-queue.Tpo -c gnome-cups-queue.c -o gnome-cups-queue.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-request.lo -MD -MP -MF .deps/gnome-cups-request.Tpo -c gnome-cups-request.c  -fPIC -DPIC -o .libs/gnome-cups-request.o
+gnome-cups-request.c: In function '_gnome_cups_request_init':
+gnome-cups-request.c:118:3: warning: 'g_thread_init' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:260) [-Wdeprecated-declarations]
+   g_thread_init (NULL);
+   ^
+gnome-cups-request.c:120:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_lock (&request_mutex);
+  ^
+gnome-cups-request.c:135:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_unlock (&request_mutex);
+  ^
+gnome-cups-request.c: In function '_gnome_cups_request_shutdown':
+gnome-cups-request.c:146:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_lock (&request_mutex);
+  ^
+gnome-cups-request.c:155:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_unlock (&request_mutex);
+  ^
+gnome-cups-request.c: In function 'idle_stop_unused_threads':
+gnome-cups-request.c:161:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_lock (&request_mutex);
+  ^
+gnome-cups-request.c:164:3: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+   g_static_mutex_unlock (&request_mutex);
+   ^
+gnome-cups-request.c:167:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_unlock (&request_mutex);
+  ^
+gnome-cups-request.c: In function 'idle_close_unused_connections':
+gnome-cups-request.c:194:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_lock (&request_mutex);
+  ^
+gnome-cups-request.c:197:3: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+   g_static_mutex_unlock (&request_mutex);
+   ^
+gnome-cups-request.c:206:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_unlock (&request_mutex);
+  ^
+gnome-cups-request.c: In function 'gnome_cups_request_connection_destroy':
+gnome-cups-request.c:234:2: warning: 'g_mutex_free' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:274) [-Wdeprecated-declarations]
+  g_mutex_free (connection->mutex);
+  ^
+gnome-cups-request.c: In function 'idle_signal_request_complete':
+gnome-cups-request.c:252:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_lock (&request_mutex);
+  ^
+gnome-cups-request.c:254:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_unlock (&request_mutex);
+  ^
+gnome-cups-request.c: In function '_gnome_cups_outstanding_request_count':
+gnome-cups-request.c:389:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_lock (&request_mutex);
+  ^
+gnome-cups-request.c:391:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_unlock (&request_mutex);
+  ^
+gnome-cups-request.c: In function 'gnome_cups_request_add_requested_attributes':
+gnome-cups-request.c:469:10: warning: passing argument 7 of 'ippAddStrings' from incompatible pointer type [enabled by default]
+          n_attributes, NULL, attributes);
+          ^
+In file included from gnome-cups-request.h:4:0,
+                 from gnome-cups-request.c:3:
+/usr/include/cups/ipp.h:447:25: note: expected 'const char * const*' but argument is of type 'char **'
+ extern ipp_attribute_t *ippAddStrings(ipp_t *ipp, ipp_tag_t group,
+                         ^
+gnome-cups-request.c: In function 'gnome_cups_request_execute_sync_internal':
+gnome-cups-request.c:529:2: warning: 'g_mutex_new' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:272) [-Wdeprecated-declarations]
+  data.mutex = g_mutex_new ();
+  ^
+gnome-cups-request.c:530:2: warning: 'g_cond_new' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:276) [-Wdeprecated-declarations]
+  data.cond = g_cond_new ();
+  ^
+gnome-cups-request.c:547:2: warning: 'g_mutex_free' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:274) [-Wdeprecated-declarations]
+  g_mutex_free (data.mutex);
+  ^
+gnome-cups-request.c:548:2: warning: 'g_cond_free' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:278) [-Wdeprecated-declarations]
+  g_cond_free (data.cond);
+  ^
+gnome-cups-request.c: In function 'gnome_cups_request_execute_async_internal':
+gnome-cups-request.c:627:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_lock (&request_mutex);
+  ^
+gnome-cups-request.c:634:3: warning: 'g_mutex_new' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:272) [-Wdeprecated-declarations]
+   connection->mutex = g_mutex_new ();
+   ^
+gnome-cups-request.c:662:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_unlock (&request_mutex);
+  ^
+gnome-cups-request.c: In function 'gnome_cups_request_cancel':
+gnome-cups-request.c:672:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_lock (&request_mutex);
+  ^
+gnome-cups-request.c:676:2: warning: 'g_static_mutex_get_mutex_impl' is deprecated (declared at /usr/include/glib-2.0/glib/deprecated/gthread.h:149): Use 'GMutex' instead [-Wdeprecated-declarations]
+  g_static_mutex_unlock (&request_mutex);
+  ^
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-util.lo -MD -MP -MF .deps/gnome-cups-util.Tpo -c gnome-cups-util.c  -fPIC -DPIC -o .libs/gnome-cups-util.o
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-request.lo -MD -MP -MF .deps/gnome-cups-request.Tpo -c gnome-cups-request.c -o gnome-cups-request.o >/dev/null 2>&1
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9:0,
+                 from /usr/include/glib-2.0/glib/gtypes.h:34,
+                 from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from gnome-cups-util.h:4,
+                 from gnome-cups-util.c:6:
+gnome-cups-util.c: In function 'gnome_cups_util_escape_uri_string':
+gnome-cups-util.c:95:30: warning: comparison between 'GnomeCupsUnsafeCharacterSet' and 'enum <anonymous>' [-Wenum-compare]
+   g_return_val_if_fail (mask == UNSAFE_ALL
+                              ^
+/usr/include/glib-2.0/glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+/usr/include/glib-2.0/glib/gmessages.h:345:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+gnome-cups-util.c:96:12: warning: comparison between 'GnomeCupsUnsafeCharacterSet' and 'enum <anonymous>' [-Wenum-compare]
+    || mask == UNSAFE_ALLOW_PLUS
+            ^
+/usr/include/glib-2.0/glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+/usr/include/glib-2.0/glib/gmessages.h:345:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+gnome-cups-util.c:97:12: warning: comparison between 'GnomeCupsUnsafeCharacterSet' and 'enum <anonymous>' [-Wenum-compare]
+    || mask == UNSAFE_PATH
+            ^
+/usr/include/glib-2.0/glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+/usr/include/glib-2.0/glib/gmessages.h:345:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+gnome-cups-util.c:98:12: warning: comparison between 'GnomeCupsUnsafeCharacterSet' and 'enum <anonymous>' [-Wenum-compare]
+    || mask == UNSAFE_HOST
+            ^
+/usr/include/glib-2.0/glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+/usr/include/glib-2.0/glib/gmessages.h:345:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+gnome-cups-util.c:99:12: warning: comparison between 'GnomeCupsUnsafeCharacterSet' and 'enum <anonymous>' [-Wenum-compare]
+    || mask == UNSAFE_SLASHES, NULL);
+            ^
+/usr/include/glib-2.0/glib/gmacros.h:290:8: note: in definition of macro '_G_BOOLEAN_EXPR'
+    if (expr)                                    \
+        ^
+/usr/include/glib-2.0/glib/gmessages.h:345:9: note: in expansion of macro 'G_LIKELY'
+      if G_LIKELY(expr) { } else      \
+         ^
+mv -f .deps/gnome-cups-queue.Tpo .deps/gnome-cups-queue.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare   -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DDATADIR=\""/usr/share"\"    -g -O2 -MT util.lo -MD -MP -MF .deps/util.Tpo -c -o util.lo util.c
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-util.lo -MD -MP -MF .deps/gnome-cups-util.Tpo -c gnome-cups-util.c -o gnome-cups-util.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT gnome-cups-printer.lo -MD -MP -MF .deps/gnome-cups-printer.Tpo -c gnome-cups-printer.c -o gnome-cups-printer.o >/dev/null 2>&1
+mv -f .deps/gnome-cups-request.Tpo .deps/gnome-cups-request.Plo
+mv -f .deps/gnome-cups-util.Tpo .deps/gnome-cups-util.Plo
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT util.lo -MD -MP -MF .deps/util.Tpo -c util.c  -fPIC -DPIC -o .libs/util.o
+ gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I.. -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DDATADIR=\"/usr/share\" -g -O2 -MT util.lo -MD -MP -MF .deps/util.Tpo -c util.c -o util.o >/dev/null 2>&1
+mv -f .deps/util.Tpo .deps/util.Plo
+mv -f .deps/gnome-cups-printer.Tpo .deps/gnome-cups-printer.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -version-info 1:0:0  -o libgnomecups-1.0.la -rpath /usr/lib gnome-cups-i18n.lo gnome-cups-init.lo gnome-cups-printer.lo gnome-cups-queue.lo gnome-cups-request.lo gnome-cups-util.lo util.lo -pthread -lgobject-2.0 -lgthread-2.0 -lglib-2.0   -lcups -lssl -lcrypto -lz -lpthread -lm -lcrypt  
+gcc -shared  .libs/gnome-cups-i18n.o .libs/gnome-cups-init.o .libs/gnome-cups-printer.o .libs/gnome-cups-queue.o .libs/gnome-cups-request.o .libs/gnome-cups-util.o .libs/util.o  /usr/lib/libgobject-2.0.so -L/usr/lib /usr/lib/libgthread-2.0.so /usr/lib/libglib-2.0.so -lcups -lssl -lcrypto -lz -lpthread -lm -lcrypt  -pthread -Wl,-soname -Wl,libgnomecups-1.0.so.1 -o .libs/libgnomecups-1.0.so.1.0.0
+(cd .libs && rm -f libgnomecups-1.0.so.1 && ln -s libgnomecups-1.0.so.1.0.0 libgnomecups-1.0.so.1)
+(cd .libs && rm -f libgnomecups-1.0.so && ln -s libgnomecups-1.0.so.1.0.0 libgnomecups-1.0.so)
+ar cru .libs/libgnomecups-1.0.a  gnome-cups-i18n.o gnome-cups-init.o gnome-cups-printer.o gnome-cups-queue.o gnome-cups-request.o gnome-cups-util.o util.o
+ranlib .libs/libgnomecups-1.0.a
+creating libgnomecups-1.0.la
+(cd .libs && rm -f libgnomecups-1.0.la && ln -s ../libgnomecups-1.0.la libgnomecups-1.0.la)
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/libgnomecups'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/po'
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo dz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file dz.po
+file=`echo en_CA | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_CA.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gu.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hi.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hr.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo is | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file is.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo mk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mk.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo ne | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ne.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo oc | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file oc.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pa.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sr@Latn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr@Latn.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo wa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file wa.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_HK | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_HK.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/po'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3'
+Making install in libgnomecups
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/libgnomecups'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/libgnomecups'
+test -z "/usr/lib" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/ginstall -c  'libgnomecups-1.0.la' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib/libgnomecups-1.0.la'
+/usr/bin/ginstall -c .libs/libgnomecups-1.0.so.1.0.0 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib/libgnomecups-1.0.so.1.0.0
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib && { ln -s -f libgnomecups-1.0.so.1.0.0 libgnomecups-1.0.so.1 || { rm -f libgnomecups-1.0.so.1 && ln -s libgnomecups-1.0.so.1.0.0 libgnomecups-1.0.so.1; }; })
+(cd /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib && { ln -s -f libgnomecups-1.0.so.1.0.0 libgnomecups-1.0.so || { rm -f libgnomecups-1.0.so && ln -s libgnomecups-1.0.so.1.0.0 libgnomecups-1.0.so; }; })
+/usr/bin/ginstall -c .libs/libgnomecups-1.0.lai /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib/libgnomecups-1.0.la
+/usr/bin/ginstall -c .libs/libgnomecups-1.0.a /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib/libgnomecups-1.0.a
+chmod 644 /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib/libgnomecups-1.0.a
+ranlib /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib/libgnomecups-1.0.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/libgnomecups-1/libgnomecups" || .././install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/include/libgnomecups-1/libgnomecups"
+ /usr/bin/ginstall -c -m 644 'gnome-cups-init.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-init.h'
+ /usr/bin/ginstall -c -m 644 'gnome-cups-printer.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-printer.h'
+ /usr/bin/ginstall -c -m 644 'gnome-cups-queue.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-queue.h'
+ /usr/bin/ginstall -c -m 644 'gnome-cups-request.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-request.h'
+ /usr/bin/ginstall -c -m 644 'gnome-cups-util.h' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-util.h'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/libgnomecups'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/libgnomecups'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/po'
+/bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/install-sh -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale
+linguas="ar bg ca cs da de dz en_CA en_GB es eu fi fr gl gu hi hr hu is it ja lt mk nb ne nl oc pa pl pt pt_BR rw sk sl sq sr sr@Latn sv th tr uk vi wa zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo $dir/libgnomecups.mo; \
+    echo "installing $lang.gmo as $dir/libgnomecups.mo"; \
+  else \
+    /usr/bin/ginstall -c -m 644 ./$lang.gmo $dir/libgnomecups.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/libgnomecups.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/ginstall -c -m 644 $lang.gmo.m $dir/libgnomecups.mo.m; \
+    echo "installing $lang.gmo.m as $dir/libgnomecups.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/ginstall -c -m 644 ./$lang.gmo.m \
+	$dir/libgnomecups.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/libgnomecups.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/ar/LC_MESSAGES/libgnomecups.mo
+installing bg.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/bg/LC_MESSAGES/libgnomecups.mo
+installing ca.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/ca/LC_MESSAGES/libgnomecups.mo
+installing cs.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/cs/LC_MESSAGES/libgnomecups.mo
+installing da.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/da/LC_MESSAGES/libgnomecups.mo
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/de/LC_MESSAGES/libgnomecups.mo
+installing dz.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/dz/LC_MESSAGES/libgnomecups.mo
+installing en_CA.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/en_CA/LC_MESSAGES/libgnomecups.mo
+installing en_GB.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/en_GB/LC_MESSAGES/libgnomecups.mo
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/es/LC_MESSAGES/libgnomecups.mo
+installing eu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/eu/LC_MESSAGES/libgnomecups.mo
+installing fi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/fi/LC_MESSAGES/libgnomecups.mo
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/fr/LC_MESSAGES/libgnomecups.mo
+installing gl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/gl/LC_MESSAGES/libgnomecups.mo
+installing gu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/gu/LC_MESSAGES/libgnomecups.mo
+installing hi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/hi/LC_MESSAGES/libgnomecups.mo
+installing hr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/hr/LC_MESSAGES/libgnomecups.mo
+installing hu.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/hu/LC_MESSAGES/libgnomecups.mo
+installing is.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/is/LC_MESSAGES/libgnomecups.mo
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/it/LC_MESSAGES/libgnomecups.mo
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/ja/LC_MESSAGES/libgnomecups.mo
+installing lt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/lt/LC_MESSAGES/libgnomecups.mo
+installing mk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/mk/LC_MESSAGES/libgnomecups.mo
+installing nb.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/nb/LC_MESSAGES/libgnomecups.mo
+installing ne.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/ne/LC_MESSAGES/libgnomecups.mo
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/nl/LC_MESSAGES/libgnomecups.mo
+installing oc.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/oc/LC_MESSAGES/libgnomecups.mo
+installing pa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/pa/LC_MESSAGES/libgnomecups.mo
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/pl/LC_MESSAGES/libgnomecups.mo
+installing pt.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/pt/LC_MESSAGES/libgnomecups.mo
+installing pt_BR.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/pt_BR/LC_MESSAGES/libgnomecups.mo
+installing rw.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/rw/LC_MESSAGES/libgnomecups.mo
+installing sk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/sk/LC_MESSAGES/libgnomecups.mo
+installing sl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/sl/LC_MESSAGES/libgnomecups.mo
+installing sq.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/sq/LC_MESSAGES/libgnomecups.mo
+installing sr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/sr/LC_MESSAGES/libgnomecups.mo
+installing sr@Latn.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/sr@Latn/LC_MESSAGES/libgnomecups.mo
+installing sv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/sv/LC_MESSAGES/libgnomecups.mo
+installing th.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/th/LC_MESSAGES/libgnomecups.mo
+installing tr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/tr/LC_MESSAGES/libgnomecups.mo
+installing uk.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/uk/LC_MESSAGES/libgnomecups.mo
+installing vi.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/vi/LC_MESSAGES/libgnomecups.mo
+installing wa.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/wa/LC_MESSAGES/libgnomecups.mo
+installing zh_CN.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/zh_CN/LC_MESSAGES/libgnomecups.mo
+installing zh_HK.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/zh_HK/LC_MESSAGES/libgnomecups.mo
+installing zh_TW.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/share/locale/zh_TW/LC_MESSAGES/libgnomecups.mo
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3/po'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/lib/pkgconfig" || ./install-sh -c -d "/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib/pkgconfig"
+ /usr/bin/ginstall -c -m 644 'libgnomecups-1.0.pc' '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-install/usr/lib/pkgconfig/libgnomecups-1.0.pc'
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups/libgnomecups-0.2.3'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/libgnomecups
+Found 'i686'
+Processing ../libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-init.h
+Processing ../libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-printer.h
+Processing ../libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-queue.h
+Processing ../libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-request.h
+Processing ../libgnomecups-install/usr/include/libgnomecups-1/libgnomecups/gnome-cups-util.h
+Processing ../libgnomecups-install/usr/lib/libgnomecups-1.0.a
+Processing ../libgnomecups-install/usr/lib/libgnomecups-1.0.la
+Processing ../libgnomecups-install/usr/lib/libgnomecups-1.0.so
+Processing ../libgnomecups-install/usr/lib/libgnomecups-1.0.so.1
+Processing ../libgnomecups-install/usr/lib/libgnomecups-1.0.so.1.0.0
+Processing ../libgnomecups-install/usr/lib/pkgconfig/libgnomecups-1.0.pc
+Processing ../libgnomecups-install/usr/share/locale/ar/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/bg/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/ca/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/cs/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/da/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/de/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/dz/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/en_CA/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/en_GB/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/es/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/eu/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/fi/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/fr/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/gl/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/gu/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/hi/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/hr/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/hu/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/is/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/it/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/ja/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/lt/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/mk/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/nb/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/ne/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/nl/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/oc/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/pa/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/pl/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/pt_BR/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/pt/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/rw/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/sk/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/sl/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/sq/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/sr@Latn/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/sr/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/sv/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/th/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/tr/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/uk/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/vi/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/wa/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/zh_CN/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/zh_HK/LC_MESSAGES/libgnomecups.mo
+Processing ../libgnomecups-install/usr/share/locale/zh_TW/LC_MESSAGES/libgnomecups.mo
+all done
+packaging libgnomecups-0.2.3-i686_slk600
+packaging libgnomecups_DEV-0.2.3-i686_slk600
+packaging libgnomecups_NLS-0.2.3-i686_slk600
+done!

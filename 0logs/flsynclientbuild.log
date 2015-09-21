@@ -1,0 +1,18 @@
+flsynclient-0.7/
+flsynclient-0.7/Makefile
+flsynclient-0.7/.depend.mk
+flsynclient-0.7/flsynclient.png
+flsynclient-0.7/flsynclient.xpm
+flsynclient-0.7/UImain.c
+flsynclient-0.7/README.txt
+flsynclient-0.7/main.c
+flsynclient-0.7/nohup.out
+flsynclient-0.7/UImain.h
+flsynclient-0.7/UImain.fl
+g++ -MM UImain.c main.c >.depend
+g++ -O2   -c -o UImain.o UImain.c
+g++ -O2   -c -o main.o main.c
+g++ -o flsynclient -O2 UImain.o main.o `fltk-config --ldflags`
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/flsynclient
+packaging flsynclient-0.7-i686_slk600
+done!

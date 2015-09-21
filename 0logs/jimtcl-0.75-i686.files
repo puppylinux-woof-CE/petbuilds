@@ -1,0 +1,11 @@
+jimtcl-install/usr/bin/build-jim-ext
+jimtcl-install/usr/bin/jimsh
+jimtcl-install/usr/doc/jim/Tcl.html
+jimtcl-install/usr/include/jim-config.h
+jimtcl-install/usr/include/jim-eventloop.h
+jimtcl-install/usr/include/jim.h
+jimtcl-install/usr/include/jim-signal.h
+jimtcl-install/usr/include/jim-subcmd.h
+jimtcl-install/usr/include/jim-win32compat.h
+jimtcl-install/usr/lib/jim/README.extensions
+jimtcl-install/usr/lib/libjim.a

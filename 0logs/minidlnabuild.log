@@ -1,0 +1,579 @@
+minidlna-1.1.4/
+minidlna-1.1.4/tivo_commands.c
+minidlna-1.1.4/INSTALL
+minidlna-1.1.4/upnpdescgen.h
+minidlna-1.1.4/clients.c
+minidlna-1.1.4/config.h.in
+minidlna-1.1.4/config.guess
+minidlna-1.1.4/upnpevents.c
+minidlna-1.1.4/minidlna.conf
+minidlna-1.1.4/log.h
+minidlna-1.1.4/upnpreplyparse.c
+minidlna-1.1.4/Makefile.in
+minidlna-1.1.4/albumart.c
+minidlna-1.1.4/inotify.h
+minidlna-1.1.4/upnpsoap.h
+minidlna-1.1.4/tivo_commands.h
+minidlna-1.1.4/playlist.h
+minidlna-1.1.4/upnphttp.c
+minidlna-1.1.4/AUTHORS
+minidlna-1.1.4/config.rpath
+minidlna-1.1.4/README
+minidlna-1.1.4/image_utils.h
+minidlna-1.1.4/containers.h
+minidlna-1.1.4/minissdp.h
+minidlna-1.1.4/po/
+minidlna-1.1.4/po/sl.po
+minidlna-1.1.4/po/LINGUAS
+minidlna-1.1.4/po/sv.po
+minidlna-1.1.4/po/ru.po
+minidlna-1.1.4/po/en@boldquot.header
+minidlna-1.1.4/po/pl.po
+minidlna-1.1.4/po/nl.po
+minidlna-1.1.4/po/minidlna.pot
+minidlna-1.1.4/po/nb.po
+minidlna-1.1.4/po/es.po
+minidlna-1.1.4/po/quot.sed
+minidlna-1.1.4/po/insert-header.sin
+minidlna-1.1.4/po/Makevars
+minidlna-1.1.4/po/it.po
+minidlna-1.1.4/po/de.po
+minidlna-1.1.4/po/ja.po
+minidlna-1.1.4/po/boldquot.sed
+minidlna-1.1.4/po/Makefile.in.in
+minidlna-1.1.4/po/POTFILES.in
+minidlna-1.1.4/po/remove-potcdate.sin
+minidlna-1.1.4/po/Makevars.template
+minidlna-1.1.4/po/da.po
+minidlna-1.1.4/po/fr.po
+minidlna-1.1.4/po/en@quot.header
+minidlna-1.1.4/po/Rules-quot
+minidlna-1.1.4/ABOUT-NLS
+minidlna-1.1.4/depcomp
+minidlna-1.1.4/ChangeLog
+minidlna-1.1.4/getifaddr.h
+minidlna-1.1.4/install-sh
+minidlna-1.1.4/albumart.h
+minidlna-1.1.4/tagutils/
+minidlna-1.1.4/tagutils/tagutils-flc.h
+minidlna-1.1.4/tagutils/tagutils-mp3.h
+minidlna-1.1.4/tagutils/tagutils-misc.c
+minidlna-1.1.4/tagutils/tagutils.c
+minidlna-1.1.4/tagutils/tagutils.h
+minidlna-1.1.4/tagutils/tagutils-asf.h
+minidlna-1.1.4/tagutils/tagutils-flc.c
+minidlna-1.1.4/tagutils/tagutils-wav.c
+minidlna-1.1.4/tagutils/tagutils-wav.h
+minidlna-1.1.4/tagutils/tagutils-plist.c
+minidlna-1.1.4/tagutils/tagutils-asf.c
+minidlna-1.1.4/tagutils/tagutils-aac.h
+minidlna-1.1.4/tagutils/tagutils-aac.c
+minidlna-1.1.4/tagutils/tagutils-ogg.c
+minidlna-1.1.4/tagutils/tagutils-ogg.h
+minidlna-1.1.4/tagutils/tagutils-pcm.c
+minidlna-1.1.4/tagutils/tagutils-pcm.h
+minidlna-1.1.4/tagutils/tagutils-mp3.c
+minidlna-1.1.4/upnpevents.h
+minidlna-1.1.4/uuid.c
+minidlna-1.1.4/uuid.h
+minidlna-1.1.4/upnpglobalvars.h
+minidlna-1.1.4/log.c
+minidlna-1.1.4/sql.h
+minidlna-1.1.4/process.c
+minidlna-1.1.4/upnpreplyparse.h
+minidlna-1.1.4/scanner.c
+minidlna-1.1.4/options.c
+minidlna-1.1.4/process.h
+minidlna-1.1.4/COPYING
+minidlna-1.1.4/tivo_beacon.h
+minidlna-1.1.4/metadata.c
+minidlna-1.1.4/linux/
+minidlna-1.1.4/linux/inotify.h
+minidlna-1.1.4/linux/inotify-syscalls.h
+minidlna-1.1.4/linux/minidlna.init.d.script.tmpl
+minidlna-1.1.4/clients.h
+minidlna-1.1.4/minidlnatypes.h
+minidlna-1.1.4/testupnpdescgen.c
+minidlna-1.1.4/TODO
+minidlna-1.1.4/icons.c
+minidlna-1.1.4/playlist.c
+minidlna-1.1.4/libav.h
+minidlna-1.1.4/tivo_beacon.c
+minidlna-1.1.4/minixml.h
+minidlna-1.1.4/sql.c
+minidlna-1.1.4/getifaddr.c
+minidlna-1.1.4/tivo_utils.c
+minidlna-1.1.4/utils.c
+minidlna-1.1.4/minixml.c
+minidlna-1.1.4/minidlnapath.h
+minidlna-1.1.4/scanner.h
+minidlna-1.1.4/minissdp.c
+minidlna-1.1.4/utils.h
+minidlna-1.1.4/upnpdescgen.c
+minidlna-1.1.4/NEWS
+minidlna-1.1.4/minidlna.conf.5
+minidlna-1.1.4/configure.ac
+minidlna-1.1.4/Makefile.am
+minidlna-1.1.4/configure
+minidlna-1.1.4/aclocal.m4
+minidlna-1.1.4/image_utils.c
+minidlna-1.1.4/missing
+minidlna-1.1.4/metadata.h
+minidlna-1.1.4/compile
+minidlna-1.1.4/LICENCE.miniupnpd
+minidlna-1.1.4/options.h
+minidlna-1.1.4/upnpsoap.c
+minidlna-1.1.4/minidlna.c
+minidlna-1.1.4/config.sub
+minidlna-1.1.4/sendfile.h
+minidlna-1.1.4/containers.c
+minidlna-1.1.4/upnpglobalvars.c
+minidlna-1.1.4/minidlnad.8
+minidlna-1.1.4/tivo_utils.h
+minidlna-1.1.4/codelength.h
+minidlna-1.1.4/inotify.c
+minidlna-1.1.4/autogen.sh
+minidlna-1.1.4/scanner_sqlite.h
+minidlna-1.1.4/upnphttp.h
+minidlna-1.1.4/m4/
+minidlna-1.1.4/m4/intdiv0.m4
+minidlna-1.1.4/m4/threadlib.m4
+minidlna-1.1.4/m4/size_max.m4
+minidlna-1.1.4/m4/lib-link.m4
+minidlna-1.1.4/m4/fcntl-o.m4
+minidlna-1.1.4/m4/intmax.m4
+minidlna-1.1.4/m4/glibc21.m4
+minidlna-1.1.4/m4/progtest.m4
+minidlna-1.1.4/m4/uintmax_t.m4
+minidlna-1.1.4/m4/longlong.m4
+minidlna-1.1.4/m4/visibility.m4
+minidlna-1.1.4/m4/po.m4
+minidlna-1.1.4/m4/wint_t.m4
+minidlna-1.1.4/m4/glibc2.m4
+minidlna-1.1.4/m4/inttypes_h.m4
+minidlna-1.1.4/m4/wchar_t.m4
+minidlna-1.1.4/m4/nls.m4
+minidlna-1.1.4/m4/stdint_h.m4
+minidlna-1.1.4/m4/codeset.m4
+minidlna-1.1.4/m4/printf-posix.m4
+minidlna-1.1.4/m4/intldir.m4
+minidlna-1.1.4/m4/lib-ld.m4
+minidlna-1.1.4/m4/lib-prefix.m4
+minidlna-1.1.4/m4/lcmessage.m4
+minidlna-1.1.4/m4/intl.m4
+minidlna-1.1.4/m4/inttypes-pri.m4
+minidlna-1.1.4/m4/gettext.m4
+minidlna-1.1.4/m4/intlmacosx.m4
+minidlna-1.1.4/m4/iconv.m4
+minidlna-1.1.4/m4/xsize.m4
+minidlna-1.1.4/m4/lock.m4
+minidlna-1.1.4/.gitignore
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking target system type... i686-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for ld used by GCC... /usr/i486-slackware-linux/bin/ld
+checking if the linker (/usr/i486-slackware-linux/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for gawk... (cached) gawk
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for inline... inline
+checking for mode_t... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for uint8_t... yes
+checking for int32_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for ssize_t... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for struct dirent.d_type... yes
+checking for struct stat.st_blocks... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking whether byte ordering is bigendian... no
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking whether lstat correctly handles trailing slash... yes
+checking for gethostname... yes
+checking for getifaddrs... yes
+checking for gettimeofday... yes
+checking for inet_ntoa... yes
+checking for memmove... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for realpath... yes
+checking for select... yes
+checking for sendfile... yes
+checking for setlocale... yes
+checking for socket... yes
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strpbrk... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for struct ip_mreqn... yes
+checking syscall.h usability... yes
+checking syscall.h presence... yes
+checking for syscall.h... yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking mach/mach_time.h usability... no
+checking mach/mach_time.h presence... no
+checking for mach/mach_time.h... no
+checking for __NR_clock_gettime syscall... yes
+checking for linux/netlink.h... yes
+checking libavutil/avutil.h usability... yes
+checking libavutil/avutil.h presence... yes
+checking for libavutil/avutil.h... yes
+checking ffmpeg/libavutil/avutil.h usability... no
+checking ffmpeg/libavutil/avutil.h presence... no
+checking for ffmpeg/libavutil/avutil.h... no
+checking libav/libavutil/avutil.h usability... no
+checking libav/libavutil/avutil.h presence... no
+checking for libav/libavutil/avutil.h... no
+checking avutil.h usability... no
+checking avutil.h presence... no
+checking for avutil.h... no
+checking ffmpeg/avutil.h usability... no
+checking ffmpeg/avutil.h presence... no
+checking for ffmpeg/avutil.h... no
+checking libav/avutil.h usability... no
+checking libav/avutil.h presence... no
+checking for libav/avutil.h... no
+checking libavcodec/avcodec.h usability... yes
+checking libavcodec/avcodec.h presence... yes
+checking for libavcodec/avcodec.h... yes
+checking ffmpeg/libavcodec/avcodec.h usability... no
+checking ffmpeg/libavcodec/avcodec.h presence... no
+checking for ffmpeg/libavcodec/avcodec.h... no
+checking libav/libavcodec/avcodec.h usability... no
+checking libav/libavcodec/avcodec.h presence... no
+checking for libav/libavcodec/avcodec.h... no
+checking avcodec.h usability... no
+checking avcodec.h presence... no
+checking for avcodec.h... no
+checking ffmpeg/avcodec.h usability... no
+checking ffmpeg/avcodec.h presence... no
+checking for ffmpeg/avcodec.h... no
+checking libav/avcodec.h usability... no
+checking libav/avcodec.h presence... no
+checking for libav/avcodec.h... no
+checking libavformat/avformat.h usability... yes
+checking libavformat/avformat.h presence... yes
+checking for libavformat/avformat.h... yes
+checking ffmpeg/libavformat/avformat.h usability... no
+checking ffmpeg/libavformat/avformat.h presence... no
+checking for ffmpeg/libavformat/avformat.h... no
+checking libav/libavformat/avformat.h usability... no
+checking libav/libavformat/avformat.h presence... no
+checking for libav/libavformat/avformat.h... no
+checking avformat.h usability... no
+checking avformat.h presence... no
+checking for avformat.h... no
+checking ffmpeg/avformat.h usability... no
+checking ffmpeg/avformat.h presence... no
+checking for ffmpeg/avformat.h... no
+checking libav/avformat.h usability... no
+checking libav/avformat.h presence... no
+checking for libav/avformat.h... no
+checking jpeglib.h usability... yes
+checking jpeglib.h presence... yes
+checking for jpeglib.h... yes
+checking sqlite3.h usability... yes
+checking sqlite3.h presence... yes
+checking for sqlite3.h... yes
+checking libexif/exif-loader.h usability... yes
+checking libexif/exif-loader.h presence... yes
+checking for libexif/exif-loader.h... yes
+checking id3tag.h usability... yes
+checking id3tag.h presence... yes
+checking for id3tag.h... yes
+checking ogg/ogg.h usability... yes
+checking ogg/ogg.h presence... yes
+checking for ogg/ogg.h... yes
+checking vorbis/codec.h usability... yes
+checking vorbis/codec.h presence... yes
+checking for vorbis/codec.h... yes
+checking FLAC/metadata.h usability... yes
+checking FLAC/metadata.h presence... yes
+checking for FLAC/metadata.h... yes
+checking if we should use the daemon() libc function... yes
+checking if scandir declaration requires const char cast... yes
+checking for linux sendfile support... yes
+checking for darwin sendfile support... no
+checking for freebsd sendfile support... no
+checking for jpeg_set_defaults in -ljpeg... yes
+checking for exif_data_new_from_file in -lexif... yes
+checking for id3_file_open in -lid3tag... yes
+checking for sqlite3_open in -lsqlite3... yes
+checking for sqlite3_malloc in -lsqlite3... yes
+checking for sqlite3_prepare_v2 in -lsqlite3... yes
+checking for av_open_input_file in -lavformat... no
+checking for avformat_open_input in -lavformat... yes
+checking for av_rescale_q in -lavutil ... yes
+checking for pthread_create in -lpthread... yes
+checking for ov_open_callbacks in -lvorbisfile... yes
+checking vorbis/vorbisfile.h usability... yes
+checking vorbis/vorbisfile.h presence... yes
+checking for vorbis/vorbisfile.h... yes
+checking for FLAC__stream_decoder_init_stream in -lFLAC... yes
+checking FLAC/all.h usability... yes
+checking FLAC/all.h presence... yes
+checking for FLAC/all.h... yes
+checking for FLAC__stream_decoder_init_ogg_stream in -lFLAC... yes
+checking for vorbis_comment_query in -lvorbisfile... no
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking asm/unistd.h usability... yes
+checking asm/unistd.h presence... yes
+checking for asm/unistd.h... yes
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking machine/endian.h usability... no
+checking machine/endian.h presence... no
+checking for machine/endian.h... no
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/inotify.h usability... yes
+checking sys/inotify.h presence... yes
+checking for sys/inotify.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for inotify_init... yes
+checking whether to enable TiVo support... no
+checking whether to enable generic NETGEAR device support... no
+checking whether to enable NETGEAR ReadyNAS support... no
+checking whether to build a static binary executable... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating po/Makefile.in
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+make  all-recursive
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4'
+Making all in po
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4/po'
+test ! -f ./minidlna.pot || \
+  test -z "da.gmo de.gmo es.gmo fr.gmo it.gmo ja.gmo nb.gmo nl.gmo pl.gmo ru.gmo sl.gmo sv.gmo" || make da.gmo de.gmo es.gmo fr.gmo it.gmo ja.gmo nb.gmo nl.gmo pl.gmo ru.gmo sl.gmo sv.gmo
+make[3]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4/po'
+rm -f da.gmo && /usr/bin/msgfmt -c --statistics --verbose -o da.gmo da.po
+da.po: 22 translated messages.
+rm -f es.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es.gmo es.po
+rm -f de.gmo && /usr/bin/msgfmt -c --statistics --verbose -o de.gmo de.po
+es.po: 22 translated messages.
+rm -f fr.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fr.gmo fr.po
+rm -f it.gmo && /usr/bin/msgfmt -c --statistics --verbose -o it.gmo it.po
+de.po: 22 translated messages.
+it.po: 22 translated messages.
+rm -f ja.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ja.gmo ja.po
+fr.po: 22 translated messages.
+rm -f nl.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nl.gmo nl.po
+rm -f nb.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nb.gmo nb.po
+nl.po: 22 translated messages.
+nb.po: 22 translated messages.
+ja.po: 22 translated messages.
+rm -f pl.gmo && /usr/bin/msgfmt -c --statistics --verbose -o pl.gmo pl.po
+rm -f ru.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ru.gmo ru.po
+rm -f sl.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sl.gmo sl.po
+pl.po: 22 translated messagesru.po: 22 translated messages.
+.
+sl.po: 22 translated messages.
+rm -f sv.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sv.gmo sv.po
+sv.po: 22 translated messages.
+make[3]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4/po'
+touch stamp-po
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4/po'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4'
+  CC       minidlna.o
+  CC       upnphttp.o
+  CC       upnpdescgen.o
+  CC       upnpsoap.o
+  CC       upnpreplyparse.o
+  CC       minixml.o
+  CC       clients.o
+  CC       getifaddr.o
+  CC       process.o
+  CC       upnpglobalvars.o
+  CC       options.o
+  CC       minissdp.o
+  CC       uuid.o
+  CC       upnpevents.o
+  CC       sql.o
+  CC       utils.o
+  CC       metadata.o
+  CC       scanner.o
+  CC       inotify.o
+  CC       tivo_utils.o
+  CC       tivo_beacon.o
+  CC       tivo_commands.o
+  CC       playlist.o
+  CC       image_utils.o
+  CC       albumart.o
+  CC       log.o
+  CC       containers.o
+sed -e s@:SBINDIR:@/usr/sbin@ <linux/minidlna.init.d.script.tmpl >linux/minidlna.init.d.script
+  CC       tagutils/tagutils.o
+  CCLD     minidlnad
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4'
+Making install in po
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4/po'
+installing da.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/da/LC_MESSAGES/minidlna.mo
+installing de.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/de/LC_MESSAGES/minidlna.mo
+installing es.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/es/LC_MESSAGES/minidlna.mo
+installing fr.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/fr/LC_MESSAGES/minidlna.mo
+installing it.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/it/LC_MESSAGES/minidlna.mo
+installing ja.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/ja/LC_MESSAGES/minidlna.mo
+installing nb.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/nb/LC_MESSAGES/minidlna.mo
+installing nl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/nl/LC_MESSAGES/minidlna.mo
+installing pl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/pl/LC_MESSAGES/minidlna.mo
+installing ru.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/ru/LC_MESSAGES/minidlna.mo
+installing sl.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/sl/LC_MESSAGES/minidlna.mo
+installing sv.gmo as /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/locale/sv/LC_MESSAGES/minidlna.mo
+if test "minidlna" = "gettext-tools"; then \
+  .././install-sh -c -d /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/ginstall -c -m 644 ./$file \
+		    /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4/po'
+make[1]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4'
+make[2]: Entering directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4'
+ ./install-sh -c -d '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/sbin'
+  /usr/bin/ginstall -c minidlnad '/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-install/usr/sbin'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4'
+make[1]: Leaving directory `/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna/minidlna-1.1.4'
+/mnt/sda6/00_new-woof/petbuilds-slacko-32/builds/minidlna
+Found 'i686'
+Processing ../minidlna-install/usr/sbin/minidlnad
+Processing ../minidlna-install/usr/share/locale/da/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/de/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/es/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/fr/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/it/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/ja/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/nb/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/nl/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/pl/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/ru/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/sl/LC_MESSAGES/minidlna.mo
+Processing ../minidlna-install/usr/share/locale/sv/LC_MESSAGES/minidlna.mo
+all done
+packaging minidlna-1.1.4-i686_slk600
+packaging minidlna_NLS-1.1.4-i686_slk600
+done!

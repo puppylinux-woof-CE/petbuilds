@@ -1,0 +1,13 @@
+#!/bin/sh
+
+PACKAGE_NAME=wvdial
+PACKAGE_VERSION=1.61
+
+sed -e "s/@PACKAGE_NAME@/$PACKAGE_NAME/g" \
+    -e "s/@PACKAGE_TARNAME@/$PACKAGE_NAME/g" \
+    -e "s/@PACKAGE_STRING@/$PACKAGE_NAME $PACKAGE_VERSION/g" \
+    -e "s/@PACKAGE_VERSION@/$PACKAGE_VERSION/g" \
+    Makefile.in > Makefile
+
+sed -e "s/@PACKAGE_VERSION@/$PACKAGE_VERSION/g" version.h.in > version.h
+

@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NoteCase notes manager
+Type=Application
+Comment=Notes Manager
+Icon=/usr/share/pixmaps/puppy/notes.svg
+TryExec=notecase
+Exec=notecase
+Terminal=false
+Categories=X-Document
+MimeType=application/notecase-plain;application/notecase-enc;
+GenericName=Hierarchical Note Manager
+X-Window-Icon=notecase
+X-Window-Icon-Dimmed=notecase
+X-Osso-Service=com.nokia.notecase
+X-Osso-Type=application/x-executable
+X-HildonDesk-ShowInToolbar=true

@@ -1,0 +1,98 @@
+#!/bin/sh
+
+# by Aleksey Cheusov <vle@gmx.net>
+
+sysconfdir=/etc
+
+#####################################
+if test -z "$DICTL_SERVER_CHARSET"; then
+    DICTL_SERVER_CHARSET=utf-8
+fi
+
+if test -z "$DICTL_CHARSET"; then
+    if which locale >/dev/null 2>&1; then
+	DICTL_CHARSET=`locale -k LC_CTYPE | sed -n 's/charmap="\(.*\)"/\1/p'`;
+    fi
+
+    if test -z "$DICTL_CHARSET"; then
+	DICTL_CHARSET=C
+    fi
+fi
+
+charset2charset (){
+    if test "$DICTL_USE_ICONV"; then
+	# `iconv --help' gives more options than `man iconv' (on my SuSE 9.0 system at least)
+	# the -c makes iconv omit invalid characters from output
+	iconv -c -f $1 -t $2
+    else if test "$DICTL_USE_KONWERT"; then
+	konwert $1-$2
+    else
+	recode -f $1..$2
+    fi fi
+}
+
+#####################################
+
+if
+    test "_$DICTL_CHARSET" = "_C" ||
+    test "_$DICTL_CHARSET" = "_POSIX"
+then
+    echo "iconv/recode/konwert do not support coversions to/from locale \"$DICTL_CHARSET\""
+    exit 1
+fi
+
+if
+    test "_$DICTL_SERVER_CHARSET" = "_C" ||
+    test "_$DICTL_SERVER_CHARSET" = "_POSIX"
+then
+    echo "iconv/recode/konwert do not support coversions to/from locale \"$DICTL_SERVER_CHARSET\""
+    exit 1
+fi
+
+if test "$DICTL_USE_ICONV"; then
+    if ! which iconv >/dev/null 2>&1; then
+	echo "'iconv' is not available. See dictl(1) for help." 1>&2
+	exit 2
+    fi
+elif test "$DICTL_USE_KONWERT"; then
+    if ! which konwert >/dev/null 2>&1; then
+	echo "'konwert' is not available. See dictl(1) for help." 1>&2
+	exit 2
+    fi
+else
+    if ! which recode >/dev/null 2>&1; then
+	echo "'recode' is not available. See dictl(1) for help." 1>&2
+	exit 2
+    fi
+fi
+
+#####################################
+
+params="dict"
+
+while test $# -ne 0; do
+    case $1 in
+	--run-a-pipe)
+	    charset2charset $DICTL_SERVER_CHARSET $DICTL_CHARSET
+	    exit $?;;
+	*)
+	    p=`echo "$1" |
+		charset2charset $DICTL_CHARSET $DICTL_SERVER_CHARSET |
+		sed "s/'/'\"'\"'/g"`
+
+	    params="$params '$p'"
+
+	    # ...to be compatible with dict
+	    if echo $1 |
+		awk '{
+		    exit ($0 !~ /^(-L|--license|-V|--version|--help)$/)
+		}'
+	    then
+		break
+	    fi;;
+    esac
+
+    shift
+done
+
+eval $params -P - | $0 --run-a-pipe

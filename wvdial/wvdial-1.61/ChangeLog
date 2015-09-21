@@ -1,0 +1,2068 @@
+commit 6d6d7ff6df3caa8da0bf5ce6ff646a2d08199284
+Author: William Lachance <wrlach@gmail.com>
+Date:   Tue Sep 29 13:30:03 2009 -0400
+
+    Make a bunch of static character stuff const
+    
+    The fact that it wasn't const was (mostly) harmless, but it never hurts to
+    be careful. Plus, the huge stream of error messages was annoying.
+
+commit 8417e178b528919e96a5c8ff06c5f27d60e746fe
+Author: Andrey Vihrov <andrey.vihrov@gmail.com>
+Date:   Tue Sep 29 13:08:04 2009 -0400
+
+    Fix compilation of wvmodemscan with glibc 2.10
+
+commit c98e15ea7309255ba6533dd9aea6c0a85642e440
+Author: Peter McCurdy <petermccurdy@alumni.uwaterloo.ca>
+Date:   Wed May 6 11:49:30 2009 +0800
+
+    Properly retry sending the init string to the modem.
+    
+    As reported by Sergey Ostashenko, if the modem times out when sending it
+    the init string the first time, we resend if the modem doesn't respond.
+    If the modem responds the second time, we should accept it and move on,
+    instead of ignoring it.
+    
+    Signed-off-by: William Lachance <wrlach@gmail.com>
+
+commit 089d50df13068ca645fef368275e4e0d5bfd4ec9
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 17:24:03 2008 -0300
+
+    Also recurse into subdirectories when deleting stuff
+
+commit 184538ec18e3dcb5c185419b2b1f19c762f5780d
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 17:07:31 2008 -0300
+
+    Remove the config.mk/config.mk.in, and just generate the makefile
+    
+    Much harder to screw things up this way, and it's way simpler to boot.
+
+commit 57ce2b60a112a8e97955322ff2192e0526bc3c16
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 16:55:08 2008 -0300
+
+    Oops, gen-cc isn't generated, it's required.
+
+commit 8ed5ffd4724d5767bd5c08d3c2170d2587abdec0
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 16:52:47 2008 -0300
+
+    Update .gitignore
+
+commit e179f0293b824f461eb3f3119cef61e01f5fa864
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 16:52:33 2008 -0300
+
+    Update distclean target
+
+commit 6a82423394ae796043f44921e04b87e21d2146b4
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 16:50:58 2008 -0300
+
+    Eugh, need to incorporate a few more artifacts from wvstreams' build system
+    
+    A bit of a rat's nest of makefile rules, but I guess as long as it works...
+
+commit 22a538006b60aca7dde7fe0e174cd1894b2d2998
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 16:34:01 2008 -0300
+
+    Update debian packaging.
+
+commit d31f5bc2a2fdabb5844fb733d13d5571db07f8af
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 16:29:00 2008 -0300
+
+    dist now generates a primitive changelog
+
+commit 86c5f8f96eff57276ace672b34ac2142afda1eec
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 16:11:26 2008 -0300
+
+    Add a very simple configure script (written in shell)
+    
+    This allows us to make wvdial distributables easily.
+
+commit b4691b2d5afda10f1b5fc96250c50df2bf514c26
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 11:46:43 2008 -0300
+
+    Remove obsolete references to WvStreams mailing list
+
+commit 268035c679629ac9d40185bbc5f4e6bb0de2d4be
+Author: Steve Marple <S.Marple@lancaster.ac.uk>
+Date:   Wed Oct 22 10:59:37 2008 -0300
+
+    Include patch from Fedora that allows you to customize the dial timeout.
+
+commit 82596460e27ee2c816f707b93ec3d4f3e2097e48
+Author: William Lachance <wrlach@gmail.com>
+Date:   Wed Oct 22 10:51:40 2008 -0300
+
+    Changes and additions to build correctly out of a git repository
+
+commit c566f26a1fc87dcc1a196a18b859b1cff761d6d7
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Oct 9 04:54:00 2007 +0000
+
+    Merged in everything from the dbus-win32 branch using this command:
+    
+    svn merge svn+ssh://svn.alumnit.ca/svn/branches/{death_to_wvcallback@11813,dbus-win32@11815}
+    
+    The dbus-win32 branch is now obsolete.  This branch is now the basis for
+    what we hope will be WvStreams 5.
+    
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/branches/death_to_wvcallback@11816 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 24238323bb5ef5a4e01e533d9f60be3aff0b3f54
+Author: wlach <wlach@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Jul 20 16:29:13 2007 +0000
+
+    Updated debian packaging stuff for WvDial.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@11654 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 2c7991ad57da21636425ec3e63d8d19a0e3d03e6
+Author: wlach <wlach@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Jul 19 20:17:49 2007 +0000
+
+    Merge in inversion changes from 'wvstreams_inversion_2': pre_select
+    now returns void.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@11646 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit b560dc58e4b05839dea5e734e6f935b539d415f8
+Author: wlach <wlach@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jul 18 18:29:16 2007 +0000
+
+    Documentation updates for wvdial.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@11641 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 90c92430cdca75f6a8bc4fa9e6adc4331192a734
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 19 09:41:05 2007 +0000
+
+    Remove the support for building from NITI's tree, fix building
+    from Subversion in the alumnit tree.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@11571 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit de09d69e88fc03c8226bee087ff78d458a500f9f
+Author: wlach <wlach@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Dec 13 03:54:41 2006 +0000
+
+    Merged revisions 10677-11457 via svnmerge from
+    /trunk
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@11462 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 8146b2fb9c1ef86b2961d81bfc4a5b9022cf4cb7
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu May 25 13:54:37 2006 +0000
+
+    Postinst should make the log world-readable.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@11223 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 513d5614f27a632b71ee525160a4564e6eb55fea
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu May 25 12:49:41 2006 +0000
+
+    Don't let the Debian configuration silently abort, just because something
+    isn't in /etc/wvdial.conf.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@11222 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 83fc3257a6668c2512e583822ad3236bae534c8e
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu May 25 12:46:18 2006 +0000
+
+    Make wvdialconf log things to /var/log/wvdialconf.log, instead of writing
+    to console in the Debian postinst.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@11221 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 3af376f11339dd4f6df7c92ced750f71b82c4412
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu May 25 12:43:22 2006 +0000
+
+    We don't actually need to include WvConfEmu headers any more.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@11220 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 0b63524e4227bdb593f0507fdb7d54ea5058db92
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Mar 4 00:49:45 2006 +0000
+
+    WvDial changes for 1.56.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@11027 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 9ce53bea07ad9d3c3295dfb5672df5ebc7b3acec
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Feb 22 18:06:17 2006 +0000
+
+    WvDialConf should actually write out its configuration file.
+    
+    I've also rewritten it so it no longer uses WvConfEmu.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@11011 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit b6b261f3347defc437d8d5e7d0e86a0198975854
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Jan 5 21:02:42 2006 +0000
+
+    Merged revisions 10837-10911 via svnmerge from
+    /branches/wvstreams_4_2
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@10912 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 83faccb273769ff49daa47558dd0f391f055bc4e
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Dec 6 22:14:41 2005 +0000
+
+    Merged revisions 10758-10831 via svnmerge from
+    /branches/wvstreams_4_2
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/releases/freesw@10832 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 8f1bc770fcc7f945393fc86f9f690d58214250af
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Jul 5 21:02:55 2005 +0000
+
+    Merged revisions 10143-10145 via svnmerge from
+    /branches/carambola
+    BUGZID:13451
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@10146 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a2efe43eb15ad97b0b053310fc565f4a7193d5ef
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Jul 5 02:49:45 2005 +0000
+
+    Merged revisions 9923-10128 via svnmerge from
+    /branches/carambola
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@10139 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit eb4d73a13dc7a4ff76fca1355d37c2ffdf4726a9
+Author: pmccurdy <pmccurdy@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Jun 25 06:25:34 2005 +0000
+
+    head: Finish merging the Subversion-related Makefile changes.  Any other
+    branches will just have to fix them in Subversion.  This is probably the last
+    CVS commit ever; so long, CVS repository, it's been fun.  BUGZID:5749
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@10087 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 76591bf9a877bba52ea543f27b788594300a009a
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed May 11 19:59:52 2005 +0000
+
+    HEAD: Update WvDial's build system to work with pkg-config.
+    
+    BUGZID: 7558
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@9803 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 42da9a31308bc0ce3789570192b1310e0d90dfb5
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed May 11 19:59:23 2005 +0000
+
+    HEAD: Update WvDial's Debian packages to match the ones in Debian
+    right now.  With some minor alterations.
+    
+    BUGZID: 7559
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@9802 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 73ebe2f075da71d629de85531f7d30cdaa243fd8
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Sep 1 17:40:54 2004 +0000
+
+    Using getline() with a non-zero timeout is fundamentally evil, but when you
+    need it, you do need it. What to do? Enter Guilt-Oriented Orthodontic
+    Programming (also known as GOOP). Renamed getline() to blocking_getline(),
+    and put a short inline getline() that does not have the timeout parameter at
+    all and calls blocking_getline() with a zero timeout. This way, you can still
+    specify a non-zero timeout if you need to, but you'll be guilt-ridden by the
+    obviously evil function you'll be using. Also, it's more easily greppable, so
+    we can find offenders quicker and fix them.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@6933 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 1345cb65435d15247a172f6f749dc13d1dff2526
+Author: apm <apm@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Aug 26 17:21:35 2004 +0000
+
+    head: standardize log messages so that they start with uppercase letter. (tedious!)
+    BUGZID:7004
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@6883 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 005e65f0c009c229308b4cf3eba53e57bcea0266
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Aug 17 00:53:45 2004 +0000
+
+    Changed RELEASE to WVRELEASE and DELETE to WVDELETE. Why? Because Avery said
+    so, that's why!
+    BUGZID:6603
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@6591 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a25c210c5f7f4334ee6855a6cde6b600c8ac7b78
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Aug 16 21:27:18 2004 +0000
+
+    Removed the mixing of WvConfEmu and WvConf in WvDial.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@6585 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit e1b24c32f4ab45cfaeb2406bf4d53eb8c2913c00
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Aug 5 18:45:40 2004 +0000
+
+    Backing out my previous changes, they have too many subleties and cornercases.
+    BUGZID:6101
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@6227 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 8d4f1f985f46f9828f7f5adc3e30be6a4ad8652e
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Aug 2 22:02:01 2004 +0000
+
+    Removed usage of uses_continue_select and replaced them with explicit uses
+    of WvCont.
+    BUGZID:6101
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@6155 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 21e9aaff09157e28b0bcd436ada5fef5bf048758
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Jul 29 17:24:44 2004 +0000
+
+    HEAD: Ssoya now depends on OpenSLP actually being built first.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@6062 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit b5474e118a58797fce1797c0890ab96406d1a2fe
+Author: sfllaw <sfllaw@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Jul 27 21:39:43 2004 +0000
+
+    HEAD: Update .cvsignore files for files generated by snapshot.sh
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@6017 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit c214932aa8d0e424230f7d832f57c082837564ac
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Jun 12 00:08:33 2004 +0000
+
+    Fixed a bunch of foo->release() into the safer RELEASE(foo);
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@5007 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 64a5d7187c7459f7bf2766bc18836e919ed57cf8
+Author: pmccurdy <pmccurdy@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Jun 10 23:19:43 2004 +0000
+
+    head: compile fix to wvdial, the ?: operator didn't like dealing with a
+    WvString and a char*.  Probably a gcc2.95 issue.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@4997 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 45736af152769aa8c2d90edce06d5501da8d3ad1
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Jun 10 21:34:13 2004 +0000
+
+    HEAD: Make WvMapi/WvTnef and the Evolution Connector compile again after
+    Pierre's futzing.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@4993 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 38f1cef5396f1591e9fefd8beafeea3d4ee6cef9
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Jun 10 20:45:28 2004 +0000
+
+    HEAD: Fix up a few places where pphaneuf's changes wrt xplc_ptr hadn't
+    propagated (HINT: type make in src/weaver :).
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@4989 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 19740a9ce53436035f2c067bcb47e1e52da0f55e
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jun 9 21:16:23 2004 +0000
+
+    Converted our codebase to use release() instead of delete. Left the "XPLC
+    delete detector" enabled.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@4951 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 6cb751b92261ff32904966514946d2b799cdeacc
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Apr 19 18:01:31 2004 +0000
+
+    Merged from r3_80.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@4434 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 64e5363d4aa5f1bf20329d92ee8b0f55c9a4e810
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 1 21:28:32 2004 +0000
+
+    HEAD: More UPS Scanner cleanups...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@3997 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 980f04b5a309f0280427804ceab3aee049f9aa54
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Feb 16 21:43:29 2004 +0000
+
+    HEAD: UPS Detection now sort of works... more testing is required, but this
+    at least helps BUGZID:1398
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@3930 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 2acae9b5529c26e54164eb3fc6e875222205bf33
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Jan 19 23:22:06 2004 +0000
+
+    HEAD: merged everything from wvstreams_unittest.  If you were working in
+    wvstreams_unittest, please switch to HEAD from now on!
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@3674 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4861a6dee299d49b094c175145d01bc3c67f1cb3
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Nov 20 02:09:57 2003 +0000
+
+    HEAD: merged *all* recent changes from r3_75.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@3165 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit c8dfa94625694af14abab4cf20948675f11ecf7a
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Nov 12 22:31:09 2003 +0000
+
+    Removed all USE_WVCONFEMU references, along with a double-delete of "freeswan"
+    in weaver.cc.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@3111 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit bb33d2071fe4f65c6fa2677c7b486ae1d2917f6b
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Nov 6 00:52:43 2003 +0000
+
+    HEAD: Added apcupsd (UPS Daemon to shut the Net Integrator down nicely on a
+    power failure) support. Starts work on fixing BUGZID: 1398. While I was
+    there, made the code to handle template files for wvffilter the same across
+    most services. Also cleaned up some random spacing in a variety of places.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@3055 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit d0ddab71cdbbec6b046763612eed3055cf8c58e5
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Oct 22 22:23:10 2003 +0000
+
+    Screw WvConfEmu::isclean. I hate it and it's stupid, so I removed it from the
+    two places that used it (not in weaver code anyway).
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2983 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 97fd28593bd109f0b6b0974a2ee3241598a1d2c7
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Oct 15 06:12:40 2003 +0000
+
+    HEAD: merged netguide_reversion branch, and therefore all recent r3_74
+    changes.  It seems unstable when I tried it, but I think it was also
+    unstable before I started.  And maybe 3.74 is unstable too.  Hmm.  Anyway,
+    now that it's merged, we can begin to think about testing and fixing stuff.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2952 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit fbf843a705d39af036dbce0af39206d17811c9cf
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Oct 10 23:24:26 2003 +0000
+
+    More WvConfEmu hacking... Did I run this without the USE_WVCONFEMU flag? Of
+    course not!
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2930 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 8a232f5fdd088a907d87af93770b5bdff205e4c3
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Oct 8 01:05:45 2003 +0000
+
+    Yet some more WvConfEmu hacking...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2902 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit d10c896e5706633a2a5fe9ce7c14a6cf3c56b790
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Oct 1 20:26:59 2003 +0000
+
+    Began converting weaver to WvConfEmu. This is turned on by compiling with a
+    USE_WVCONFEMU preprocessor symbol, so don't worry, I'm not actually breaking
+    everything... :-)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2880 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 04523a85a7c2acf68cf2db2355f00ba8825be8db
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Sep 10 03:42:20 2003 +0000
+
+    The great Makefile re-merger: now wvstreams and the rest of niti use the
+    same wvrules.mk.  The wvstreams one is still unnecessarily messy, but I'm
+    too lazy to fix it right now.  Big new bonus feature: you can now do things
+    like "make t/whatever.t" and it'll work, because the compile rule no longer
+    assumes you're compiling something in the current directory.  Other big
+    bonus feature: there's only one way to enable/disable optimizations now.
+    Darn it.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2771 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit e0e147bd1430776f80f54b1171266259c0eb8f9d
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Aug 27 14:36:55 2003 +0000
+
+    Merging fastforward, polly, wvdial and wvprint from r3_74.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2728 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit fd40b143e80cb79d44f1f84e1bbffefabbbfdaab
+Author: jim <jim@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Apr 25 18:05:49 2003 +0000
+
+    HEAD: src/wvdial: * debian/rules: install pon and poff
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2370 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 22da18a533cb68c0b7964eddfb456efb834d4e57
+Author: jim <jim@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Apr 23 13:58:02 2003 +0000
+
+    HEAD: src/wvdial: * Makefile: rework the install targets, i.e. make install
+    now installs everything that is wanted.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2355 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 3120ebf4d33269985a3359953b2c3c322f21ac41
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Apr 14 19:53:28 2003 +0000
+
+    Fixed massive breakage in jim's Makefile mangling.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2270 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 116318e67e2a7dbc7b821b6bcee9c152bcedce28
+Author: jim <jim@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Apr 14 15:55:20 2003 +0000
+
+    HEAD: niti/src/wvdial
+    Fix some debian packaging issues.  I will upload a new wvdial on the
+    weekend on hppa so we any PIC issues.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2269 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit e7c670788d24f258be91b9188110e73ddffb38c5
+Author: jim <jim@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Apr 10 17:45:26 2003 +0000
+
+    HEAD: Remove extra whitespace in Makefile and add myself to the uploaders
+    list.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2239 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 5a508367f3c704c027630888cdcdb9987af3c381
+Author: drheld <drheld@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Apr 8 23:03:00 2003 +0000
+
+    HEAD: *MERGE* r3_73=>HEAD. Should maybe possibly even work. ;)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2224 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 64bc64686d769ea011d06254b26200548bd9d57b
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Mar 14 17:27:28 2003 +0000
+
+    HEAD: Debian Packaging "Fixes" to fix some lintian buglets, and start
+    wvstreams into it's mega packaging split (since we now have hooks into a TON
+    of stuff :)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2086 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit ac6947715cc3bdb2639a8a3b2994f68c44632e94
+Author: ilguiz <ilguiz@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 3 08:57:34 2003 +0000
+
+    HEAD: change compiler to the one that fits Qt library when
+    configuring --with-qt
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2020 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a068d3412a4998a57a3ee9eac98acce4f986a898
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Feb 12 04:45:50 2003 +0000
+
+    HEAD: Huge number of files touched while updating the copyright notice on
+    all of the open source files. Also, while I was there, cleaned up the option
+    entry on the polly binary, fixed some random spacing in Retchmail, and made
+    the Makefiles for unithingy not suck so much.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@1876 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit bcfbb520f5b0ab4b90a693fcae6c67b98bf48ac9
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Feb 1 10:15:12 2003 +0000
+
+    The Great Class Renaming.  "UniConf*" mostly becomes "Uni*Gen", "Wv*Buffer*"
+    usually becomes "Wv*Buf*", and a few nonstandard renamings are thrown in for
+    good measure.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@1836 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 45c9f39900cc178d95686dfc26af941827e57d5d
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Feb 1 06:05:04 2003 +0000
+
+    Removed silly /file and \file tags from the tops of files.  Removed silly
+    html tags from comments.  Removed spurious "inline" keywords where inline is
+    implicit.  All praise sed!
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@1829 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 81685c81feda19b32500ee062eccd0d078330a54
+Author: mag <mag@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jan 29 22:26:34 2003 +0000
+
+    Some random tweaks to WvLinkList. DeclareWvList# macros are now just a typedef,
+    like in Table/Dict.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@1820 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit e0d6f9122c8c43f3ecc15e68fb8a5edaef688db7
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Jan 13 08:22:07 2003 +0000
+
+    Merging unifix into the main branch.  And now the REAL fun begins...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@1707 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 84ce36eb85481ea5179fc4bbe1a1776798d033ef
+Author: jbrown <jbrown@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 1 02:12:05 2002 +0000
+
+    Split WvStream file-descriptor related code off into WvFDStream subclass.
+    Removed obsolete WvSplitStream.
+    Added wvin, wvout, wverr console streams.
+    Fixed up all users of any of the above features and fixed any
+      obvious existing bugs that were uncovered by the refactoring.
+    This all seems to work fine (Weaver runs okay)...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@1304 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 927129b5c94d28d03a8a0830d6d171aacc2fbbfd
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Oct 7 22:18:28 2002 +0000
+
+    Fix the Makefiles so that the "tar straight out of the tree and distribute" stuff works...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@1152 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 74e3490302c9dc0d7aa79c9c6e36266305f9744e
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Sep 30 18:04:09 2002 +0000
+
+    Continue moving distribution files into the main tree... this was wvdial
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@1102 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit f237af63633a4502d4d484125a39182a381f6c4c
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Aug 2 21:31:56 2002 +0000
+
+    Fix a bug in wvdialconf that tried setting the mode to 660 decimal, instead
+    of octal. How the HELL did this EVER work???
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@845 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 5b11f552c4f57cdc06dbb804ea1de29803835218
+Author: pphaneuf <pphaneuf@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jul 31 23:08:04 2002 +0000
+
+    WARNING: big WvStreamClone change in here (and fixing of all things it
+    broke).
+    
+    WvStreamClone changed to take a WvStream* instead of a WvStream**, so you
+    can just give it a NULL instead of pointing to a WvStream* of yours, then
+    set WvStreamClone::cloned. WvStreamClone changed from not owning the cloned
+    stream to owning it (it WILL delete it in its destructor!). If you don't
+    want it to delete the cloned stream, set WvStreamClone::cloned to NULL
+    before deleting the WvStreamClone.
+    
+    So in summary, you don't have to keep a redundant WvStream* anymore, you
+    don't have to (and SHOULDN'T!) delete the cloned stream, so you can just
+    go and do crazy things like WvStream* mystream = new
+    WvCompressStream(new WvSSLStream(listener->accept())); and then just
+    delete mystream without any remorse (it's just like shell pipes!).
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@844 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 26460f5547074c64f20373be2756a7507318ea42
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Jul 29 21:34:39 2002 +0000
+
+    Add SmartLink modem support to WvModemScan
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@836 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit c0a2884d58b1dbc01236f54b5707446c87f81b02
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Jun 14 20:20:15 2002 +0000
+
+    Merged changes from 3.70 into the main branch.  Again.  It really needed it!
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@785 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 0d855925b8b21d8eaecb6eef6726945e729ae8b7
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu May 16 21:32:21 2002 +0000
+
+    Merged changes from r3_70 into the main branch.  Whew, we've been busy.
+    Look Mom, no conflicts!
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@721 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a5706d3c59ed198f4cd4a93760d298268c7296d9
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Apr 25 15:08:51 2002 +0000
+
+    In a desperate effort to break as much stuff as humanly possible, I've
+    WvStringParm-ified the rest of weaver (there were a few files apenwarr
+    missed) and removed every extraneous call to WvString::unique().
+    
+    It all still compiles, and weaver seems to run on peanut.  I haven't tried
+    anything more complicated than that, though.
+    
+    Let the fireworks begin. :)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@690 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit b7329fa72f31b425754fee92070836b784460d77
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Apr 25 05:06:40 2002 +0000
+
+    Removed the ancient iterator auto-typecast operator from wvlink.h (and thus
+    WvList, WvHashTable, and WvDirIter) because I think I only added it in the
+    first place to be confusing.  One day I'll get rid of operator()() too...
+    see how you like that.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@689 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 84d32e51a5b32b8b768ac37286899c36daa464a2
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Apr 25 04:49:54 2002 +0000
+
+    Changed WvString semi-incompatibly to supposedly eliminate any imaginable
+    need for explicit unique().  Yes, that's right, the Single Most Horrible
+    Thing about WvString has been eliminated. :)
+    
+    Expect crashes.  DEATH TO ALL WHO STAND IN MY WAY!
+    
+    (I didn't actually take _out_ the unique() calls, though.  Feel free to
+    delete any you see - they're all unneeded now.)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@687 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 498c7566439fdd39d4af828d2b547dec2a6393e7
+Author: andrew <andrew@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Apr 24 20:44:22 2002 +0000
+
+    Made wvfork() even safer. Also minor changes to WvPrintService.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@682 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit dc4ac9647e86d546ca909bdc008aa1719e852295
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Apr 20 02:29:20 2002 +0000
+
+    I have returned to the main branch and am wreaking havoc: got rid of extra
+    messages from dhparm in auto-scanner.sh.  Supplied default values for
+    [HTTPD]Admin Email and Admin Team in the httpd.conf template.  Fixed the
+    Makefile so it builds again under the autobuilder again (I hope).
+    Downgraded the severity (annoyingness) of some netguide messages.  Fixed a
+    bunchload of electric-fence crash bugs and some memory leaks.  Reformatted
+    some, but certainly not all, ArbitrarySpacing.  Made wvapache shut up when
+    it's disabled.  Defined [HTTPD]AliasImp when webmail is turned off, but I
+    think I did that wrong.  Made WvNIS not do things when disabled, and made it
+    call 'domainname' at the right times.  Made WvDialConf sane again (the SuSE
+    people may be helpful, but they don't know C++ :))
+    
+    Ha, so who's Random Bugfix Man now?
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@656 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit ce8c4a250c9d821ebafc1b05549e29d90eff726c
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Apr 15 18:16:44 2002 +0000
+
+    Update Retchmail Changelog and fix a couple of silly Debian pickinesses,
+    Update to WvDial Changelog, fix in wvdialer.cc for unecessary cast in
+    start_ppp WvPipe Call, updates to versions for new releases of WvDial,
+    WvStreams, and Retchmail.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@623 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 5aadbceacb30ed21b0a87b6b710b4509a82a87a5
+Author: socrates <socrates@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Apr 4 17:07:47 2002 +0000
+
+    Changed call for WvPipe to fit new WvPipe Signature
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@574 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit d1901f9d8593e725bf71645fee905ed3b891c352
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Apr 1 20:06:30 2002 +0000
+
+    All OSS projects now build into Debian packages... also incorporated command
+    line fix for WvDial.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@566 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a4ead040a768cdb93eae2abc55b069933ff32bfc
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 18 21:37:39 2002 +0000
+
+    Makefile cleanup for WvDial
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@546 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4ddcc9b6532f70d4ede83fd503411d9967b07e50
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Mar 12 20:23:00 2002 +0000
+
+    WvDial Cleanups to (finally) get the command line option=value stuff
+    working...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@540 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit b80bc9ad22125d99ee367de4953cb66c50e5ee6e
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Mar 10 18:43:24 2002 +0000
+
+    Well, at long last, I finally got a chance to try WvDial on a box that had a
+    modem - and guess what? It was completely broken. This is now no longer the
+    case. As far as I can tell(tested with 2 ISP's), WvDial now is back in
+    working order.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@535 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit e52834dd510b26115aaf0d9ea1e636cc93dfc7d9
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Mar 7 21:53:56 2002 +0000
+
+    More WvDial cleanup following the SuSE patch - I think that's the last of
+    the sprintf'd buffers, and goofy output routines...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@530 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 2f201e902994e5b1c86a0ab588644e831fb9ddc3
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Mar 5 23:37:07 2002 +0000
+
+    Cleanups of WvDial code after yesterday's big merge - mainly formatting, and
+    "WvStreamsifying" of wvdialmon.
+    
+    Also added a check so that WvDial gives some usefull information if you try
+    and compile it without WvStreams present...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@523 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 120a72d7cd7cbef8df193195c1305b2bfa4c5f20
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 4 22:54:25 2002 +0000
+
+    Documentation Cleanup from the SuSE patch... this should be the last of
+    it... at this point, like apenwarr said, we might want to give some thought
+    to calling this version 1.6
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@520 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit bea9eb11f6c76ab41f12d01949d5e54f751f6621
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 4 22:39:14 2002 +0000
+
+    Monster SuSE patch merge... this should break WvDial REAL good... (actually
+    probably not too badly.. but we'll see). Adds a raft of new stuff - ability
+    to have WvDial prompt for password on the command line, ISDN goodies, USB
+    (??) Modem support, and all sorts of other coolness...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@519 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 58d35c60ccf6ca9a787864c6c462bec34be87656
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 4 21:10:49 2002 +0000
+
+    Added more SuSE patches - this time to make sure inherited wvdial.conf
+    sections are present, and also add in a REALLY ugly patch that adds multi
+    phone number support.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@518 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 959820a78cf25796905f7b424287a58521377f8a
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 4 20:21:05 2002 +0000
+
+    Added support for "No Answer" from patch from "Andrew W. Nosenko"
+    <awn@bcs.zp.ua>.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@517 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a1f6a42318d1d145672b43c4ade46cc6050a53aa
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 4 18:58:56 2002 +0000
+
+    Incorporate a patch from Dushyanth Harinath <dushy@symonds.net> that
+    implements a "Dial Attempts" option in wvdial.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@516 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 29b3b56ea3e0defb0ab1e8f624cd2813b824d796
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 4 17:31:05 2002 +0000
+
+    Fix Makefiles for FF,WvTFTP and WvDial so that they don't link against
+    libwvcrypto
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@515 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit c62afbe6fe1336516967dfe9532c4a7535414a6a
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Mar 4 17:27:24 2002 +0000
+
+    Have WvDial now try and use the remote ends suggested DNS Settings (should
+    cut down on the number of "It looks like it works, but Netscape can't find
+    anything" emails). Updated Debian Changelog, and made wvdialconf create
+    wvdial.conf mode 660 (instead of 666, which some people consider a security
+    hole).
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@514 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 79aec6fcfd3b4eb1764f23d99c19b362a730dfa4
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Mar 2 04:33:08 2002 +0000
+
+    A bunch of highly incompatible wvstreams hacks: renamed
+    select_setup/test_set to pre_select/post_select.  Simplified force_select
+    implementation and added undo_force_select.  Added read_requires_writable
+    and write_requires_readable pointers to WvStream, to make it _much_ easier
+    to copy from one stream to another without using the outbuf.  Split getfd()
+    into getrfd() and getwfd(), even in basic wvstream, to simply implementation
+    of WvSplitStream.  Made select-for-write do the right thing when outbuf is
+    in use (I think!).  Got rid of auto_select, replacing it instead with two
+    different variants of select(), one of which does what the old auto_select()
+    does.  Changed WvStream callbacks to use WvCallback (finally!), which means
+    stream callbacks don't have to be static anymore.
+    
+    All of this will surely introduce some bugs, but at first glance, Weaver and
+    various streams test programs seem to still work.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@507 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 3c3bfcfe5824516dc4583b5c299f4a138390769b
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Feb 19 21:14:57 2002 +0000
+
+    Merged recent r3_65 changes into the main branch.  I guess we haven't done
+    this for a while!
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@455 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit ae801455a621ff11d5cd322d2a79d2a67f7500c8
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jan 30 01:07:23 2002 +0000
+
+    Updated WvDial version to 1.5, remove some legacy @worldvisions.ca
+    references, and make wvcrash compile on non-Debian boxen
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@416 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 20acc4124d44730661af365cd86b076becb620eb
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Jan 28 18:59:55 2002 +0000
+
+     - Debianize FastForward (as WvFastForward)
+     - Change the Date from sometime in 1997 to now in retchmail's changelog
+     - Patch WvDial to recognise Lucent Winmodems, Handle Config files in places
+       other than /etc/wvdial.conf, and accept configuration options on the command
+       line
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@413 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 5274f3f5974ee26a3108c0c02db0c2ed0d87c2e7
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Jan 21 18:23:59 2002 +0000
+
+    Changes for WvDial to make it build outside of Weaver tree - see previous
+    entry for retchmail for details
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@400 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a57fea9f7f9219b91d04519a5e890c18520d7824
+Author: ppatters <ppatters@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Jan 18 16:10:41 2002 +0000
+
+    Makefile changes to hopefully get things to package nicely for the
+    opensource release - if you get Make errors, make sure that src/wvrules.mk
+    exists and is a symlink to ./wvrules.mk
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@395 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 3f82fb988bd215a389e9b7d5b4758bbdfd472a76
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jan 2 02:42:32 2002 +0000
+
+    Updated copyrights to 2002.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@382 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 27129e36f21aab916692083e134d1c81915af2de
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Jan 1 06:39:47 2002 +0000
+
+    A bunch of Makefile changes to make the whole source tree build again.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@377 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 917984b3c58da5dee09d691e8962c68ac98a87f8
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Jan 1 05:44:00 2002 +0000
+
+    Changed other makefiles to handle rename of rules.mk to wvrules.mk.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@376 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit ef45d0a0c1eb5ce3c4d7508d5dc16355adaa0e9e
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Dec 14 10:10:29 2001 +0000
+
+    Merged recent changes from r3_6 into the main branch.  I guess it's been a
+    while...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@364 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit fcf4bd6964fda76746bb6526f4da16f2c603cc67
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Dec 8 22:26:49 2001 +0000
+
+    Fixed some header files for portability.  Always use comments rather than
+    bare words after '#endif' if you're going to use anything at all.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@359 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 70c5bc137a7a90acb7e50338f44899f3404e2cca
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Nov 28 22:12:29 2001 +0000
+
+    Decided to add an assertion to verify that WvStream::execute() ended up
+    being called whenever callback() was called.  An astonishing number of
+    classes were forgetting to do that, which is technically okay... but might
+    not always be.  Anyway, fixed them all (I think).  If you get my new
+    wvstream_execute_called assertion, please fix the broken class :)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@348 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 7db49c8f6db1a3308298e77cea2aa2be3f2d054d
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Nov 14 17:34:26 2001 +0000
+
+    wvpapchap fix in main branch too
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@339 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 184ea646aae9b2f2c2de8b6f870e8ca14c8dd207
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Nov 12 21:24:08 2001 +0000
+
+    It was getting far to easy to build weaver.  Rearranged the way .a files are
+    generated, so now we have a central libwvstreams.a rather than linking
+    configfile, ipstreams, etc separately.  I haven't moved the directory
+    structure around yet, but I will...
+    
+    Also added the beginnings of a WvDaemon class, but it's not used anywhere
+    yet.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@332 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 3031736ad421f3a3f07d5826f85983cb72d61711
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Oct 25 15:17:21 2001 +0000
+
+    wrote backslash_escape() in strutils.cc, which takes a string, puts a
+    backslash in front of every !isalnum() character, and returns a new string.
+    Using it when writing the chap-secrets and pap-secrets files.  Also took
+    this opportunity to make wvpapchap.cc slightly more modern.  (I apparently
+    didn't know about ThingList::zap() when I wrote it...)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@307 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit bd055873b3ec182fdf12a030b77496bfd2b36f3f
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Oct 22 13:25:56 2001 +0000
+
+    Added "abort on busy" and "abort on no dialtone" wvdial patch from Kenn
+    Humborg <kenn@bluetree.ie>.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@298 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 2ed0339184939197bf2c80f1019637b20bf60c1a
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Aug 16 21:23:02 2001 +0000
+
+    Merged recent changes from r3_5 into main branch.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@274 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit c27b4b2f2f840bc6215904a8e44ec62f199720de
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Jun 29 10:46:56 2001 +0000
+
+    Finished porting pppoe and wvdial to the new netguide stuff, and started
+    testing.  wvdial seems to work on insight, but it looks like the modem on my
+    weaver is broken -- it uses the old pctel_daa and is sharing the modem IRQ
+    with eth0.  Any activity on eth0 confuses the modem and causes NO DIALTONE
+    or NO CARRIER!  Also, I found out that with pctel_amr, apparently having
+    /dev/ttyS15 open at all (even if not dialing or online) causes thousands of
+    interrupts per second, which probably slows the CPU down a lot.  So we'll
+    have to change wvdialguide to only create the wvdialer object when
+    absolutely necessary...
+    
+    Not checking in the failover stuff right now, since there's _really_ no way
+    to test if that works, and Ozzy might want a "stable" version while I'm on
+    holidays, and there's an off chance that Dave can fix any bugs in the current
+    stuff, whereas if I put in the failover/doublevision stuff it would be
+    hopeless.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@258 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit c28ef16764491792f07d232c59eba7e92878dc5d
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Jun 22 04:53:26 2001 +0000
+
+    Fixed a raft of netguide bugs.  Split the "killall" section of weaver.sh
+    into killstuff.sh, which makes killing daemons easier when you core dump a
+    test version of the weaver binary.  Changed various WvLog source names to
+    make the log viewer look nicer.  Made the log viewer highlight any line that
+    _starts_ with the selected string, so now you can pick "tunnel vision" and
+    all the specific tunnels also get highlighted, or "wvdial" and "wvdial
+    modem" and "wvdial modem #2" get highlighted too.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@256 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 1a690f425a8f67941785c256e1911ec46f5d6670
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Jun 5 06:14:02 2001 +0000
+
+    Updated copyright notices on C++ files.  Gee, I put that one off for almost
+    as long as I put off doing my taxes :)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@247 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 09a64ae345c7a882e80b28f7e3dc4bd4f4e10855
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri May 11 19:57:37 2001 +0000
+
+    Preparing to release wvdial 1.42.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@240 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit f85dfdf06f020f06ad4549043a70cf1cc0b7581a
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Feb 11 23:10:43 2001 +0000
+
+    Fixed doublev randomness to make it more even.  Changed apache settings to
+    make Ozzy's benchmarks happier.  Changed backup status emails to be a little
+    more friendly.  Accidentally left the 'weaver' binary statically linked.
+    Changed status web page to support multi-modems again.  Fixed idle detection
+    for multi-modems, basically, but not quite.  Made wvdial modem
+    initialization try 3 times before giving up.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@232 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 1c73e0312b38b24a0c01f7d9fbf966273a5c85c3
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Jul 30 20:10:56 2000 +0000
+
+    Fixed the hits-enter-sometimes bug that was happening on the LCD panel.
+    Stupid uninitialized variables.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@225 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 25da2acceacf140f6a8aeac508e360fb0b9b505c
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Jun 25 05:10:28 2000 +0000
+
+    Fixed the Init1/Init bug that Dave introduced (I think).  DHCP server gets
+    enabled automatically, if the user doesn't choose.  Improved the "nameserver
+    ping probe" to use hardping() instead of softping(), removing the need to
+    fiddle with the routing table and/or use ARP.  weaverlogin.c's init process
+    unloads the cloop module now, which allows us to properly umount /.
+    Starting/stopping samba doesn't start/stop appletalk, and vice versa.
+    Domain name setting on "create first user" screen has a default value now,
+    rather than blank.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@224 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit ed488a451ce83de557c9fb860e706913695696a0
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Jun 24 20:19:09 2000 +0000
+
+    Fixed small bug in WvDial, where it thought a blank line was a prompt if it
+    had a guess.  Now it thinks a blank line is a prompt if it has a guess and
+    the most recent non-blank line really WAS a prompt.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@223 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 059c4e2debd9ada43508fa99f690656904018a11
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Jun 24 20:11:05 2000 +0000
+
+    Made [Dialer]Init1 vs Init consistent with itself.  Always sets Init1, but
+    WvDial accepts both now anyway.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@222 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4f55eb45da8fb8278158a50cd2c2434af0ad3333
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Jun 23 23:03:44 2000 +0000
+
+    Weaver turns on most services automatically ("Trusted hosts only") after a
+    zap.  Dhcpd refuses to create entries for 0.0.0.0 interfaces.  Fix for
+    wvdial bug relating to garbage characters and 0x80->0x00.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@221 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 25d4bbed925f58e3b319c35f07beb4d56091b1bb
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jun 21 07:50:00 2000 +0000
+
+    Took out some baud rate weirdness in WvModemScan.  Since the speed-detection
+    bug was fixed, there's no need to be "safe" by stepping down one, and
+    therefore there's no need to force ISDN to 115200, which fixes 9600 baud
+    modems that identify themselves as "960" (the same as a known ISDN modem).
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@219 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4dd65a120190088963678bc2c8e83b34f7bc5579
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Apr 2 11:31:10 2000 +0000
+
+    Modem dialer control stuff is back.  I'm not quite sure I like the way it
+    looks, though...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@201 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 0484a7c3bfaaa5eebc4be5ffa37c9c418c1d4f2f
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Apr 2 09:22:10 2000 +0000
+
+    WvDial now uses continue_select() instead of sleep() or usleep().  No
+    crashes... yet :)
+    
+    Also, it seems wvdial's code for reading its config file entries into a set
+    of wvstrings was messed up.  It needed to call unique() on each string... if
+    the dialer config entries changed after creating the WvDialer object, wacky
+    things would happen.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@200 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit c0355a8605ffbe8af3b0a636f94a083831d37183
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Apr 2 08:12:55 2000 +0000
+
+    "Advanced" localnet page seems to do interfaces and routing properly now.
+    _That_ was certainly a lot of work.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@199 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit aba4097d9e7e33a3472d0d1e5642745f167afe01
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Mar 15 20:44:55 2000 +0000
+
+    Updated copyright notices to "1997-2000" and "Net Integration Technologies,
+    Inc."  It still says "Worldvisions Weaver software", though, because that's
+    really what it is.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@185 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 5adaa2811ee0ab22ef8a0ec62803e366ab839100
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Mar 15 20:41:23 2000 +0000
+
+    Split WvFile out of wvstream.h into its own file, with dramatically more
+    widespread consequences than I was expecting.  I think I fixed all the
+    missing headers now though.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@184 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit f517b10969f11df24d159142bdf94ae3f9fa9753
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Feb 27 22:14:28 2000 +0000
+
+    WebConfig produces output based on aml... not well integrated yet (at ALL!)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@179 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4e6dcf093fb1e4afdbd484c4b08c41a9a6b548a7
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Nov 28 19:39:36 1999 +0000
+
+    wvdial now reads .wvdialrc when it starts, in addition to /etc/wvdial.conf.
+    The user config file overrides the system-wide one.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@174 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit fbc1820d254829a94bc4a265a93e6d905c4f1af1
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Nov 25 21:48:04 1999 +0000
+
+    Weaver 2.20c changes, from a while ago.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@173 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 265f6322ce4c57c5151fee358d3f20c43a331534
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 19 05:14:46 1999 +0000
+
+    A better fix to the previous wvdial problem.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@172 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 6d8e0d04e1cf47c441566c17d7f2f3151c27190a
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 19 05:00:29 1999 +0000
+
+    Wvdial patch to work with "CONNECT...PPP" lines, thanks to a report by
+    Renaud Guerin.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@171 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit b6fa357eb49ea0ba6ec8c4e9d32ac24fb16c76ec
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Oct 15 01:09:20 1999 +0000
+
+    Updated version number to 2.20.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@162 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit c24847b3bae5513944de699ea70474566e17e4aa
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Sep 19 03:07:55 1999 +0000
+
+    Another wvdial tweak from mkj.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@159 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit fb2f97817ffcad3e8eb5f52c991677e990f8bb4b
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Sep 13 21:48:57 1999 +0000
+
+    cfg.get() split into cfg.get(string) and cfg.getint(int) for portability
+    (especially to glibc2.1).  Same with set().
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@155 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 80b4cf8e0c4d93530ebe69f55cb66d4f4919dccf
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Sep 13 20:07:35 1999 +0000
+
+    Support for the USR ISDN TA... (id 346800)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@154 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 2740a9a4949ee8aec9a5518a9acb031f340fa5da
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Aug 12 04:51:52 1999 +0000
+
+    WvDialconf creates wvdial.ini 0600.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@152 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 522345b83359ce5a938a6cb44bf3fe9493b9f8f0
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Aug 7 17:06:16 1999 +0000
+
+    Area Code support from Michael K. Johnson.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@151 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 247e71e926445d771476c56d673aa7105e94aca9
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Aug 2 18:30:47 1999 +0000
+
+    WvSyslog allows you to override which WvLog debug levels are LOG_DEBUG; now
+    the wvdial application uses this feature.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@149 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit af00468d1942b3434f0978f3db718d022769ecce
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Aug 2 18:20:52 1999 +0000
+
+    wvdial (main application) prints a helpful message if pppd dies too quickly.
+    A "connect" line in /etc/ppp/options also elicits a warning from wvdialconf.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@148 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 6c0d79895a0a318c1db3340328d9a635d918e96a
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Aug 2 18:01:49 1999 +0000
+
+    Updated wvdial version to 1.40.
+    
+    Added optional support for the liblockdev library to WvLockFile, and made
+    rules.mk able to merge .a files together (for now, so that liblockdev.a
+    could be linked automatically, but later, so we can easily build a
+    libwvstreams.a from all the various libraries).
+    
+    More virtual function fixes in WvModem.
+    
+    wvdialconf now checks /etc/ppp/options for common errors, and sends
+    people to the FAQ, then to wvdial-list@worldvisions.ca rather than asking
+    people to personally report problems to wvdial@worldvisions.ca
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@147 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 8ac1529e0ed98d5591db6fa0ddc092cf68da4b1c
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Aug 2 15:47:10 1999 +0000
+
+    Moved some wvmodembase virtual functions from a .h file into a .cc file.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@146 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 7c7cde499a4ce7abacdbaabeba2d9a869e88c906
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Aug 1 16:00:38 1999 +0000
+
+    Patch from Michael K. Johnson to add the "--chat" option to wvdial.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@145 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit d3d575487860688872fce37cb8f28e4485e8f1d4
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Jul 29 00:20:15 1999 +0000
+
+    *** empty log message ***
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@143 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit ae79bad97c83dc32fecd46c4c190b3dcd7360b21
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jul 21 01:26:54 1999 +0000
+
+    Correction to Michael's previous patch.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@142 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4c126a0acbecc1756b22119184a0e9773d26d3b3
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Jul 21 01:20:29 1999 +0000
+
+    Patch from Michale K. Johnson <johnsonm@redhat.com> to fix a bug with baud
+    rate detection in wvdialconf; we also now detect modems on /dev/modem.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@141 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit e83d4c03987aff817273d901c24eb74e55500504
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Jun 21 04:15:11 1999 +0000
+
+    WvDial should now revert to default_reply after using its "intelligent"
+    guess once.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@117 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 63381d2f60c5396e2510e8e2ff4fb9d7095a0304
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Jun 20 17:18:36 1999 +0000
+
+    *** empty log message ***
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@112 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4cfbb5e33900ac8f8a7bee52ffe47dc796e710dc
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Jun 6 17:08:49 1999 +0000
+
+    Tweaked version numbers and SNMP webconfig display.  WvDial's pap-secrets
+    writer now uses \\ for \, so that pppd accepts it properly.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@109 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 9ced3783360de3063e4b42400c921aa68928b421
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Apr 10 05:16:15 1999 +0000
+
+    Oops.  Fixed a bug that I just introduced in rules.mk.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@100 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 7830da56818f7288115e7f04f3cdba05cfd4c076
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Mar 25 19:52:57 1999 +0000
+
+    Kernel 2.2.4.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@97 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 0cf1ab0ee785d34cb6858c83bc1859808d90ce10
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Mar 24 05:30:49 1999 +0000
+
+    DEATH TO BUGS!  Lots of bugs!  I think!
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@95 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 97bcc9abd586eca35f3efaa5a35ade48c3b60192
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Mar 24 03:41:42 1999 +0000
+
+    Updated all the copyright notices to include 1999.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@94 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit d806b4f1906ebf947364862a26f18aa3e94c66d0
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Mar 21 21:36:19 1999 +0000
+
+    Fixed various netguide bugs.  Dialer should now not disconnect every time a
+    dialerconfig option is changed in webconfig.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@92 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 2e3e652355d505feb4a7bb5dca79fee3824d05d7
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Feb 23 15:49:29 1999 +0000
+
+    Added a broken menu to WvDial's MENUS file.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@82 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4db844de52915d73270c92684ba34ef61d5f07b2
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Feb 13 21:01:36 1999 +0000
+
+    Added /sbin/hwclock.  Added O_TRUNC on most file create calls (oops... that
+    should have been done LONG ago!)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@75 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit bf0ae486cb9e8d18468da6d5eece841e5091b06f
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Jan 25 22:44:10 1999 +0000
+
+    hdparm spins down the hard drive after 5 minutes... we'll see if that's
+    useful.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@74 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit cd189604663fb439bbe71a9cfc274b5ccb01f450
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Jan 23 18:54:48 1999 +0000
+
+    *** empty log message ***
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@73 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit edf2a85ecc20bc2b3eac9ecff63eeb55d64392e0
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Dec 11 12:07:31 1998 +0000
+
+    Initial attempt at Double Vision.  LD_PRELOAD the libdoublev.so.0 library
+    and it will cause outgoing TCP connections to alternate between the list of
+    addresses in /tmp/doublev.conf.  Set the DV_DEBUG environment variable to
+    get debug output.
+    
+    Also fixed some ugly demand dialer bugs and fiddled with the firewall
+    settings.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@71 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4fd21f3c20fe593a302f7763babed9e6a1285252
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Dec 11 10:02:02 1998 +0000
+
+    Double Vision network setup is in place... now we just need to make sure
+    things bind to the right addresses.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@70 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit b0edaed2b8c8074c4784601a13775a88368e6082
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Dec 11 05:51:18 1998 +0000
+
+    General cleanup of the demand dialer stuff.  Added a bunch of short
+    functions to the WvWeaver class to make it more manageable. (net_online(),
+    net_dynamic(), dialer_configured(), etc).
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@69 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 566d2c8239f263ab9955cad61217e385029613d6
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Dec 10 20:15:26 1998 +0000
+
+    The beginnins of transparent proxy support in Fast Forward...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@67 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 6ea0c87b1520575f6c0d62cb27fe7bdfa426b05a
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Dec 4 10:05:00 1998 +0000
+
+    Demand dialing "works".  Well, it could use some fixing, but it does dial :)
+    webconfig/lcdconfig/rcmd still horribly broken.  Idle timer is shot.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@62 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a498e49aabc4dd9c56eb0d50398343325ada7385
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Dec 4 08:36:03 1998 +0000
+
+    Well, it's not getting any prettier...
+    
+    Commented out huge portions of webconfig/lcdconfig/rcmd code because it no
+    longer works with the way I'm doing demand dialing.  Of course, demand
+    dialing doesn't work either, but that's next :)  All the pieces are in
+    place, I think.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@61 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 3fb8787eaf0a16ccd6ccca93b7bfe5e6ec12e18e
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Nov 30 15:54:43 1998 +0000
+
+    De-accelerifated the delay loops in the LCD stuff by reading from an I/O
+    port instead of just using NOP.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@58 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a37bff22546251a6c80a8821e5a0bbff36e40b4f
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Nov 21 07:24:20 1998 +0000
+
+    Updated TODO and wvdial/MENUS.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@56 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 8ac9aee4787422421ba6364f4e60b75f15e5e8f1
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Nov 18 19:43:39 1998 +0000
+
+    fixed a bug in papchap.  WvString related...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@51 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit ed8ba0740b2d23f874ef07e79e4fe69639033779
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Nov 17 02:19:35 1998 +0000
+
+    Made (I think) my last major change to WvString and fixed lots of code to go
+    with it. Also found some bugs related to previous changes, and fixed those.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@48 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 6e9a453d0a45726b0c9b94b95af17b6a828dabc9
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Nov 15 03:36:15 1998 +0000
+
+    Changed WvStream::select_setup() and test_set() calls to use a new
+    SelectInfo struct, instead of the few parameters we were passing them
+    before.  This should make things easier (and reduces the source code size
+    still further :))
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@47 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 608d35392aeafe55c97070cc22264ff77d4b9180
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Nov 15 02:48:43 1998 +0000
+
+    Percent '%' is now a prompt character.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@46 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 5c0dbb55148affc33b0139b33e2550e3fc3b8d46
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Nov 14 22:55:08 1998 +0000
+
+    Stage 3: operator(char*)() in WvString now returns a const char * instead.
+    To get an editable string, use WvString::edit().  This means we can finally
+    reimplement the way WvString works, without breaking anything (I hope).
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@45 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit cc05e087c55a50e9f4eaa3c338313699b4824f3f
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Nov 14 22:14:19 1998 +0000
+
+    Phase 2: changed WvLinkList::Iter and WvHashTable::Iter to give references
+    to their objects, not pointers, and to provide operator(_type&) and
+    operator() functions.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@44 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a463b1723ad6d0d47424ceaa0c7fda242857dff4
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Nov 14 21:13:08 1998 +0000
+
+    Phase 1 of the Massive WvString Changes: the .str member has been renamed
+    and should no longer be referred to directly.  Typecast (often
+    automatically) to (char *) instead.  Also, the auto-typecast to int has been
+    removed -- it was used in exactly one place :)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@43 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 7741f2dcd11b021a0e0295fede4f992eb1527f71
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 13 17:38:51 1998 +0000
+
+    Renamed tmp_html.cc to html.tmp.cc, because I'm pedantic :)
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@41 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 386d8373ba29124cbbb53be20f2d479fa6649bcd
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Nov 11 20:10:42 1998 +0000
+
+    Rewrote configfile stuff yesterday, with associated massive changes.  It
+    seems to work, but there may still be some bugs lurking...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@40 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit de877c7e7ad65c0a7185f209094615f85dddf7f4
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 6 17:33:15 1998 +0000
+
+    WvDial handles almost everything in MENUS.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@39 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 35dc3aeed939640746881ef8b7ddf6d4d84530ac
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 6 17:12:11 1998 +0000
+
+    WvDial handles Golden Triangle properly.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@38 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 2bf8f8c51fe496a5553a7934a019d7f40178b312
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 6 16:10:15 1998 +0000
+
+    added Golden Triangle's menu to WvDial's MENUS file.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@37 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit e93e38f619a105f22e3c36a5d495aac8f6c7d66c
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 6 15:59:43 1998 +0000
+
+    Teeny fix to wvdialbrain... guess_menu always returned NULL.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@36 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a5adbcf20cb8881d2ee4c7b1fcbed052a84f040b
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Nov 6 12:10:15 1998 +0000
+
+    Slight fix to WvDialBrain so that it won't do stupid things (like clear the
+    buffer) when the entire menu, including prompt, arrives in one giant chunk.
+    Also, blank lines count as prompts _if_ a menu has been parsed.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@35 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 450fc1f28a82d80594e5f4d5cbd6711d06fe1331
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Thu Nov 5 15:57:53 1998 +0000
+
+    Checked in some of my incomplete udp2test.cc changes.  Need to work on some
+    other stuff before I finish that...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@32 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 4041701ecd5b4fe13057c6052b4fd5644b767961
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Wed Oct 28 20:02:00 1998 +0000
+
+    Fixed a crash bug with wvmodemscan, if the identifier string was
+    unavailable.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@28 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a28ba02fc0043d5c7e32137b467b06d9b37b5ffa
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Oct 26 00:27:08 1998 +0000
+
+    Changed WvModemScan.cc to avoid egcs warnings.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@27 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 9f19b7e91a319c5d15823d4a3ee696ff549636e5
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Oct 25 22:25:30 1998 +0000
+
+    bitsurfr returns 960 for ati0, not 940.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@26 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 885c9c4b5dc516e5e92237ec9a400d0ca1ae1caa
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sun Oct 25 22:12:12 1998 +0000
+
+    Weaver now writes the ISDN identifier to the config file.  This will help
+    with supporting the BitSurfr...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@25 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 00ceede9fb229573e987444ee09a348139baef50
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Oct 23 00:19:29 1998 +0000
+
+    Started looking at the WvNetMap code.  I just realized that the IPtoHWDict
+    is useless, and HWtoIPDict is needlessly complicated.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@24 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a299dde02c31f48aebe95ee74011e950dd8df07a
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Tue Oct 20 19:14:32 1998 +0000
+
+    Added to wvdial/TODO.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@16 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 56ab18e91e17385c9ec02c47dcb4b42acc02e790
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Fri Oct 16 17:16:50 1998 +0000
+
+    Changed WvDial's auto reconnect delays.  30 seconds is too long for the
+    first retry...
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@14 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 734178aeebcda3018c046d8caa3610a738a7a898
+Author: dcoombs <dcoombs@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Mon Oct 5 14:22:27 1998 +0000
+
+    Turned Auto Reconnect on by default in WvDial.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@13 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit 34e301f10c63e03f00fe6e7f822c67185c379c21
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Oct 3 06:55:03 1998 +0000
+
+    WvStream::Callback functions now all return void -- no one ever used the
+    return values anyway.  A new virtual function, WvStream::execute(), is
+    used if no callback is defined.  That way, derived classes can simply
+    override execute() instead of fiddling with static member functions and
+    other uglies.
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@7 6619c942-59fa-0310-bf43-a07aaa81d9ac
+
+commit a0eaaa2d642f64f2fa61e25fd1d17fe23ece6eb6
+Author: apenwarr <apenwarr@6619c942-59fa-0310-bf43-a07aaa81d9ac>
+Date:   Sat Oct 3 02:04:39 1998 +0000
+
+    Initial revision
+    
+    
+    git-svn-id: file:///home/apenwarr/alumnit-svn/public/trunk@2 6619c942-59fa-0310-bf43-a07aaa81d9ac

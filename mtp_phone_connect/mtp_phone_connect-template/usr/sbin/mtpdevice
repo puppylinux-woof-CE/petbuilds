@@ -1,0 +1,410 @@
+#!/bin/bash
+
+v=0.16
+# simple mtp mounting gui
+# with wizard style interface to create udev rules
+# revision 16
+
+running=`pidof ${0##*/}`
+running2=`echo $running | wc -w`
+[ "$running2" = 1 ] || exit # ensure 1 instance
+
+#===========================error function=====================================
+func_note() {
+	OPT0=$1
+	POPUP=  # set this if a notification daemon is installed
+	[ "$POPUP" ] && NOTIFY="notify-send" || \
+	NOTIFY="gtkdialog-splash"
+	case $NOTIFY in
+	notify-send*) 
+	  case $OPT0 in
+	    l)T=2000
+	      OPT1='--urgency=low' ;;
+	    n)T=2000
+	      OPT1='--urgency=normal' ;;
+	    c)T=5000
+	      OPT1='--urgency=critical' ;;
+	  esac
+	  MSG="$2"
+	  notify-send -t $T "$OPT1" "$MSG" ;;
+	gtkdialog-splash*)
+	  case $OPT0 in
+	    l)OPT1="yellow" ;;
+	    n)OPT1="green" ;;
+	    c)OPT1="red" ;;
+	  esac
+	  MSG=$2
+	  gtkdialog-splash -bg $OPT1 -close never -timeout 3 -text "$2" ;;
+	esac
+}
+err_func() {
+	func_note c "$@"
+	exit 1
+}
+
+#=========================== dep check ========================================
+type go-mtpfs &>/dev/null || err_func "go-mtpfs is not installed"
+
+#===========================   vars    ========================================
+PIDOFGO=`ps -A | grep "go\-mtpfs" | awk '{print $1}'`
+ICON=/usr/share/pixmaps/go.svg
+
+#=========================== functions ========================================
+# test function for unknown devices
+func_test() {
+	[ -f /tmp/mtptest ] && rm /tmp/mtptest
+	mkdir -p /mnt/MTPtest 2>/dev/null
+	go-mtpfs -debug="mtp" /mnt/MTPtest &>/tmp/mtptest &
+	sleep 2
+	fusermount -u /mnt/MTPtest
+	defaulttextviewer /tmp/mtptest &
+}
+export -f func_test
+# connection?
+func_connected() {
+	if [ -f /etc/resolv.conf ];then
+	 NAMESERVER=`grep ^nameserver /etc/resolv.conf|awk '{print $2}'|head -n1`
+	 ping -q -c1 $NAMESERVER &>/dev/null && CON=1 || CON=0 
+	else
+	 CON=0
+	fi
+	return $CON
+}
+export -f func_connected
+# generic gui function, facillitates a nice little wizard
+# main gtkdialog func
+func_splash() {
+	#$1=title
+	#$2=optional header ("n" for none)
+	#$3=message
+	#$4=extra text, n for none
+	#$5=box type (y=yes/no, o=ok)
+	#$6=GPL button
+	case $2 in
+	 "n") HEAD="" ;;
+	 *)HEAD='<frame>
+	   <hbox space-expand="true" space-fill="true">
+	    <pixmap><height>32</height>
+	     <input file>"'$ICON'"</input>
+	    </pixmap>
+	    <text use-markup="true" space-expand="true" space-fill="true">
+	      <label>"<b>'$2'</b>"</label>
+	    </text>
+	    </hbox>
+	   </frame>' ;;
+	esac
+	case $4 in
+	  "n")TEXT="" ;;
+	   *)TEXT='
+	   <text use-markup="true" space-expand="true" space-fill="true" justify="2">
+	     <label>"<b>'$4'</b>"</label>
+	   </text>' ;;
+	esac
+	[ "$6" ] && GPL='<button>
+        <label>GPL2</label>
+        <input file stock="gtk-index"></input>
+        <action>defaulttextviewer /usr/share/doc/legal/gpl-2.0.txt &</action>
+       </button>
+       <button>
+        <label>Test</label>
+        <input file stock="gtk-execute"></input>
+        <action>func_test</action>
+       </button>'
+	case $5 in
+	 y)BTNS='<hbox homogeneous="true">
+	     <button yes></button>
+         <button no></button>
+         '$GPL'
+        </hbox>' ;;
+     o)BTNS='<hbox homogeneous="true">
+         <button ok></button>
+        </hbox>' ;;
+     *)BTNS='' ;;
+    esac
+    export splash='<window title="'$1' v'${v}'" icon-name="gtk-connect">
+      <vbox>
+        '$HEAD'
+       <frame>
+        <text space-expand="true" space-fill="true"><label>'$3'</label></text>
+        '$TEXT'
+       </frame>  
+        '$BTNS'
+      </vbox>
+    </window>'
+	eval $(gtkdialog -c -p splash)
+}
+kill_status() {
+	STATUSPID=`ps -A | grep "mtpstatus" | awk '{print $1}'`
+	[ "$STATUSPID" ] && kill -9 $STATUSPID &>/dev/null
+}
+# add to existing udev rule
+func_add() {
+	DEVICE_NAME=$1 #spaces get removed
+	DEVICE_ID=$2
+	VENDOR_ID=$3
+	while read line; do
+	[ "$line" = "# Autoprobe vendor-specific, communication and PTP devices" ] \
+&& break || echo "$line" >> /tmp/69-libmtp.rules
+	done < /etc/udev/rules.d/69-libmtp.rules
+	echo -e "ATTR{idVendor}==\"$VENDOR_ID\", ATTR{idProduct}==\"$DEVICE_ID\", \
+RUN+=\"/usr/sbin/pupautodetect android-device\"\n" >> /tmp/69-libmtp.rules
+	echo "# Autoprobe vendor-specific, communication and PTP devices
+ENV{ID_MTP_DEVICE}!=\"1\", \
+ENV{MTP_NO_PROBE}!=\1\", \
+ENV{COLOR_MEASUREMENT_DEVICE}!=\"1\", \
+ENV{libsane_matched}!=\"yes\", \
+ATTR{bDeviceClass}==\"00|02|06|ef|ff\", \
+PROGRAM=\"/etc/udev/mtp-probe /sys$env{DEVPATH} $attr{busnum} $attr{devnum}\", \
+RESULT==\"1\", ACTION==\"add\", RUN+=\"/usr/sbin/pupautodetect android-device\"
+
+LABEL=\"libmtp_rules_end\"" >> /tmp/69-libmtp.rules
+	cat /tmp/69-libmtp.rules > /etc/udev/rules.d/69-libmtp.rules
+	sleep 1
+	rm /tmp/69-libmtp.rules
+	sync
+	udevadm control --reload-rules # reloads rules without reboot
+}
+# pre start if no connection
+connect() {
+	IFACE="`dmesg|tail -1 | grep "rndis_host" |tr ' ' '\n' | grep "^usb[0-9]"`"
+	[ "$IFACE" ] && IFACE=${IFACE%%:*} ||\
+	err_func "No interface registered."
+	ifconfig $IFACE up
+	func_note l "Attempting to get IP address for $IFACE." &
+	DHCPCD=`pidof dhcpcd`
+	[ "$DHCPCD" ] && kill -9 $DHCPCD
+	PIDFILE=`find /var/run -type f -name 'dhcpcd*.pid'`
+	[ "$PIDFILE" ] && rm $PIDFILE
+	dhcpcd $IFACE
+	ret=$?
+	[ "$ret" -ne 0 ] && err_func "failed to get an IP addrees for $IFACE"
+	IPADD=`ifconfig $IFACE|grep "inet addr:"|awk '{print $2}' |awk -F: '{print $2}'`
+	[ "$IPADD" ] || err_func "failed to get an IP addrees for $IFACE"
+	func_note n "Success! IP address $IPADD is alive on $IFACE interface."
+}
+
+connect_gui() {
+	func_splash "Connection" "Connect to the Internet" \
+	"Would you like to use your $CURDEVICE to connect to the Internet?" \
+	"By choosing 'Yes', the 'Internet Connection Wizard' will open. \
+Be sure to choose the interface 'USB0' (or similar) and an \
+attempt will be made to connect to the internet using your device's \
+network connection" y
+	 case $EXIT in
+	   Yes)connect ;;
+	   *) exit 0 ;;
+	 esac
+	 exit 0
+}
+func_con_test() {
+	func_connected && echo hello || return
+	CURDEVICE=`cat /tmp/myMTPdevice`
+	func_splash "Android Device" n "Would you like to use your $CURDEVICE \
+as a modem?" n y
+	case $EXIT in
+	  Yes)
+cat >/tmp/dlg << _EOD
+On your $CURDEVICE
+You must:
+
+ • go into “Settings” on your Android
+ • under “Wireless & Networks” choose “More..”
+ • select “Tethering and portable hotspots”
+ • check the “USB Tethering” checkbox ✓
+ • Your device should try to get an IP address automatically
+
+NOTE: Instructions may vary for different devices.
+____________________________________________________________
+
+On your $HOSTNAME computer
+You must:
+
+ • click the “Yes” Button in the “Connection” window.
+ • The “Internet Connection Wizard” will then open.
+ 
+_EOD
+	
+	export helpgui='<window title="Android Modem"><vbox><frame>
+	   <text><input>'"cat /tmp/dlg"'</input></text></frame>
+	   <hbox><button ok></button></hbox></vbox></window>'
+	eval `gtkdialog -p helpgui`
+	  rm /tmp/dlg
+	if [ "$EXIT" = "OK" ];then
+		echo connect
+		connect_gui
+	else exit 0
+	fi 
+	;;
+	  *) return ;;
+	esac
+	
+}
+# first start
+func_new() {
+	[ -x /usr/bin/mtpstatus ] && MSG1="either from the status icon or" || \
+	MSG1= #detect status icon
+	func_splash "MTP Device" "Plug in your device right now." \
+"The system should automatically detect what type of device you have \
+and offer to browse the files on the device by 'mounting' the device." \
+"Once you do mount the device it is very important to unmount the device \
+$MSG1 from the menu entry for 'MTP Device'. \
+Please click OK" o # $4 $5
+	[ "$EXIT" = "OK" ] || err_func "Aborted"
+	# grok out some details
+	USBBUS=`dmesg|tail -6|grep -w usb|tr ' ' '\n'|grep '[0-9]-[0-9]'|tr -d : |head -1` # eg:2-3
+	[ -z "$USBBUS" ] && \
+	USBBUS=`dmesg|tail -6|grep -w 'usb'|grep -w 'SerialNumber:'|tr ' ' '\n'|grep '[0-9]-[0-9]'|tr -d : |head -1` # last entry
+	USBDIR=/sys/bus/usb/devices/${USBBUS}
+	[ -d "$USBDIR" ] || err_func "No device present." # make sure its plugged
+	MANU=`cat ${USBDIR}/manufacturer|sed 's/ //g'`
+	PRODUCT=`cat ${USBDIR}/product|sed 's/ //g'`
+	ID=`cat ${USBDIR}/idProduct`
+	VENDOR=`cat ${USBDIR}/idVendor`
+	EXISTS=`grep "$VENDOR" /etc/udev/rules.d/69-libmtp.rules | grep "$ID"`
+	[ "$VENDOR" = "05ac" ] && err_func "$MANU devices are unsupported by MTP."
+	if [ "$EXISTS" ];then
+	  [ -z "$ID" ] && err_func "An error occured."
+	  func_mount_gui
+	else
+	  [ -z "$ID" ] && err_func "An error occured."
+	  func_splash "MTP ID" "$MANU $PRODUCT (${VENDOR}:${ID})" \
+"The system says you have a "$MANU" $PRODUCT. Usually Android devices just 'work'. \
+including Sony, LG, Samsung, Google, HTC, Huawei and many more. Your $PRODUCT \
+is not listed in the data base so may or may not work. If it is an \
+iPhone it WILL NOT work (and if you got this far and are using an iPhone or iPad \
+please report a bug) with this program so click 'No'. Some Nokias may \
+work. Some Blackberrys are problematic. You can test it if you wish with no \
+guarantees that it will work or that something else may go wrong under the \
+terms of the GNU GENERAL PUBLIC LICENSE Version 2. If the test works you may \
+want continue to set up your device by clicking 'Yes'. If not, definitely click 'No'." \
+"Choose 'Yes', 'No', Test or read the licence" y  x # $5, $6 added for this
+	  case $EXIT in
+	   Yes)
+	     func_note n "Creating special rule to auto mount your device when plugged." ;;
+	   *) exit 0 ;;
+	  esac
+	  func_add $PRODUCT $ID $VENDOR
+	  func_splash "Reload" "Your special rule for $MANU $PRODUCT has been loaded." \
+	  "Your device should now auto mount when plugged. \
+Click OK and you will be offered to mount your device if you wish." n o # $4=n $5=o
+	  func_mount_gui
+	fi
+}
+# mount backend
+func_mount() {
+	if [ "$PIDOFGO" ];then func_splash "Go-mtpfs is already running" \
+	 "It seems the mount process has hung." \
+	 "Recommended action is to kill it by clicking Yes. Do you want to continue?" n y
+	 case $EXIT in
+	  Yes)for mount_point in /mnt/MTPdevice* ; do
+	       fusermount -u $mount_point 2>/dev/null
+	      done
+	      kill_status
+	  ;;
+	  *) exit 0
+	  ;;
+	 esac
+	fi
+	MNT=`cat /tmp/myMTPdevice | sed 's% %%g'`
+	[ -d /mnt/MTPdevice${MNT} ] || mkdir -p /mnt/MTPdevice${MNT}
+	#gtkdialog-splash -bg orange -close never -timeout 2 -text "Please wait..." &
+	func_note l "Please wait..."
+	go-mtpfs /mnt/MTPdevice${MNT} >>/tmp/MTP.log 2>&1 & # added log
+	[ "$?" = 0 ] || err_func "Something went wrong, aborting. Check the log at /tmp/MTP.log."
+	sleep 2
+	grep -q 'MTP' /proc/mounts || err_func "Failed to mount. Check the log at /tmp/MTP.log."
+	#gtkdialog-splash -bg green -close never -timeout 2 -text "Device mounted successfully."
+	# check mount point isn't empty
+	mount_point_empty=`ls /mnt/MTPdevice${MNT}|wc -l`
+	if [ "$mount_point_empty" -eq 0 ];then
+	  fusermount -u /mnt/MTPdevice${MNT} 2>/dev/null
+	  echo "Device likely locked." >>/tmp/MTP.log
+	  err_func "An error occured. Try unlocking your ${MNT} device then replug."
+	fi
+	func_note n "Device mounted successfully."
+	mtpstatus & # start status icon
+	return 0;
+}
+# unmount backend
+func_unmount() {
+	#gtkdialog-splash -bg yellow -close never -timeout 2 -text "Please Wait..." &
+	func_note l "Please Wait..."
+	sync #finish any writes
+	GO=`mount | grep fuse |grep /mnt/MTPdevice`
+	MNT=`cat /tmp/myMTPdevice | sed 's% %%g'`
+	while [ "$GO" ];do
+	  fusermount -u /mnt/MTPdevice${MNT} 2>/dev/null || break
+	done # this should also kill go
+	# precaution
+	[ "$PIDOFGO" ] && kill -9 $PIDOFGO &>/dev/null # this makes sure its dead
+	rox -D /mnt/MTPdevice${MNT} 2>/dev/null # close rox, leave others
+	#gtkdialog-splash -bg green -timeout 3 -close never -text "It is safe to unplug your device."
+	func_note n "It is safe to unplug your device."
+	kill_status
+	return 0;
+}
+# frontends
+func_unmount_gui() {
+	[ "$PIDOFGO" ] || err_func "Go-mtpfs is not running"
+	CURDEVICE=`cat /tmp/myMTPdevice`
+	func_splash "Unmount" \
+"Would you like to unmount your $CURDEVICE device?" \
+"You MUST unmount the device before you unplug it to ensure the integrity of the filesystem." \
+"This is important." y
+	case $EXIT in
+	 Yes) func_unmount ;;
+	 *) exit 0 ;;
+	esac
+}
+
+func_mount_gui() {
+	USBBUS=`dmesg|tail -6|grep -w usb|tr ' ' '\n'|grep '[0-9]-[0-9]'|tr -d :|head -1` # eg : 2-3
+	[ -z "$USBBUS" ] && \
+	USBBUS=`dmesg|tail -6|grep -w 'usb'|grep -w 'SerialNumber:'|tr ' ' '\n'|grep '[0-9]-[0-9]'|tr -d :` # last entry
+	USBDIR=/sys/bus/usb/devices/${USBBUS}
+	echo $USBDIR
+	[ -d "$USBDIR" ] || err_func "No device present."
+	MANU=`cat ${USBDIR}/manufacturer|sed 's/ //g'`
+	PRODUCT=`cat ${USBDIR}/product|sed 's/ //g'`
+	ID=`cat ${USBDIR}/idProduct`
+	VENDOR=`cat ${USBDIR}/idVendor`
+	[ -z "$ID" ] && err_func "No MTP device present."
+	[ "$VENDOR" = "05ac" ] && exit 1 # apple, shouldn't get this far 
+	echo -n ""$MANU" $PRODUCT" > /tmp/myMTPdevice
+	# pre start
+	func_con_test
+	func_splash "MTP Device" ""$MANU" ${PRODUCT} detected" \
+"A Media Transfer Protocol device identified as "$MANU" ${PRODUCT} has \
+been connected to your system. You can browse and manipulate the files \
+on this device by 'mounting' the device. When you are finished it is very \
+important that you unmount the device." \
+"Would you like to mount your ${PRODUCT}?" y
+	case $EXIT in
+	 Yes)
+	 func_mount
+	 sleep 1
+	 MNT=`cat /tmp/myMTPdevice | sed 's% %%g'`
+	 FILEMGR="rox" # change to suit yourself
+	 type thunar &>/dev/null && FILEMGR="thunar"
+	 type pcmanfm &>/dev/null && FILEMGR="pcmanfm"
+	 type xfe &>/dev/null && FILEMGR="xfe"
+	 if [ "$FILEMGR" = "rox" ];then 
+	   rox -x /mnt/MTPdevice${MNT}
+	   rox -d /mnt/MTPdevice${MNT}
+	 else
+	   "$FILEMGR" /mnt/MTPdevice${MNT}
+	 fi 
+	 return 0;;
+	 *) exit 0 ;;
+	esac
+}
+
+#===========================   main    ========================================
+case $1 in
+ mount) func_mount_gui ;; # called from puppyautodetect
+ unmount) func_unmount_gui ;; # called as needed also from status icon
+ *)PIDOFGO=`ps -A | grep "go\-mtpfs" | awk '{print $1}'` # ensure var is fresh
+   [ "$PIDOFGO" ] && func_unmount_gui || func_new ;; # call depending on state
+esac
+exit 0
+#end

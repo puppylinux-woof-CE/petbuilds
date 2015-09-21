@@ -1,8 +1,0 @@
-ifplugd-install/etc/ifplugd/ifplugd.action
-ifplugd-install/etc/ifplugd/ifplugd.conf
-ifplugd-install/etc/init.d/ifplugd
-ifplugd-install/man/man5/ifplugd.conf.5
-ifplugd-install/man/man8/ifplugd.8
-ifplugd-install/man/man8/ifplugstatus.8
-ifplugd-install/sbin/ifplugd
-ifplugd-install/sbin/ifplugstatus

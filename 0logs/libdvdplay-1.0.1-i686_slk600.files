@@ -1,9 +1,0 @@
-libdvdplay-install/usr/include/dvdplay/dvdplay.h
-libdvdplay-install/usr/include/dvdplay/info.h
-libdvdplay-install/usr/include/dvdplay/nav.h
-libdvdplay-install/usr/include/dvdplay/state.h
-libdvdplay-install/usr/lib/libdvdplay.a
-libdvdplay-install/usr/lib/libdvdplay.la
-libdvdplay-install/usr/lib/libdvdplay.so
-libdvdplay-install/usr/lib/libdvdplay.so.0
-libdvdplay-install/usr/lib/libdvdplay.so.0.0.1

@@ -1,5 +1,0 @@
-gpptp-2.0-jafadmin/
-gpptp-2.0-jafadmin/Makefile
-gpptp-2.0-jafadmin/mk-vpn-key.c
-gpptp-2.0-jafadmin/gpptp.c
-gpptp-2.0.petbuild: line 27: ./configure: No such file or directory

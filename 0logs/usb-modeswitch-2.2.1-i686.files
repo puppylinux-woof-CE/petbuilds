@@ -1,7 +1,0 @@
-usb-modeswitch-install/etc/usb_modeswitch.conf
-usb-modeswitch-install/lib/udev/usb_modeswitch
-usb-modeswitch-install/usr/sbin/usb_modeswitch
-usb-modeswitch-install/usr/sbin/usb_modeswitch_dispatcher
-usb-modeswitch-install/usr/share/man/man1/usb_modeswitch.1
-usb-modeswitch-install/usr/share/man/man1/usb_modeswitch_dispatcher.1
-usb-modeswitch-install/var/lib/usb_modeswitch

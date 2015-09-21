@@ -30,8 +30,8 @@ build() {
 				--with-lfs
 	[ "$?" -eq 0 ] || exit
 	make $MKFLG
-	[ "$?" -eq 0 ] || exit
-	make DESTDIR=$CWD/${PKG}-install install
+	install -d -m 0755 ../${PKG}-install/usr/bin
+	install -m 0755 vobcopy ../${PKG}-install/usr/bin
 	cd -
 }
 	

@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+
+MODE=$1
+BASE=$2
+DIR=$(dirname $BASE)
+DEPFILE=$(dirname $BASE)/.$(basename $BASE .o).d
+shift
+shift
+
+cc $MODE -o $BASE.o $BASE.c \
+        -MMD -MF $DEPFILE -MP -MQ $BASE.o \
+        -I/usr/include/wvstreams    -ggdb -DDEBUG=1 -DDEBUG_yes  -D_BSD_SOURCE -D_GNU_SOURCE  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DUNSTABLE \
+        -fPIC  -Wall \
+        "$@"

@@ -12,19 +12,21 @@ DESC="a utility to rip DVD movies to hard drive"
 DEPS=+libdvdcss,+libdvdnav
 CAT=Multimedia
 DESKTOP=vobcopy.desktop
+BUILD=
 CWD=$(pwd)
-[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$MWD" ] && MWD=$(dirname $CWD)
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
+ #*64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
 esac
 
 build() {
 	cd ${PKG}-${VER}
 	./configure.sh --prefix=/usr \
-				--mandir=/share/man \
+				--mandir=/usr/share/man \
 				--with-lfs
 	[ "$?" -eq 0 ] || exit
 	make $MKFLG
@@ -34,20 +36,20 @@ build() {
 }
 	
 package() {
-	get_files ${PKG}-install ${PKG}-${VER}-${ARCH}
-	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install)
+	get_files ${PKG}-install ${PKG}-${VER}-${ARCH}_${BUILD}
+	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install $BUILD)
 	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}/usr/share/doc/${PKG}-build-recipe
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe
 	if [ -f "$DESKTOP" ];then
-		install -d -m 0755 ./${PKG}-${VER}-${ARCH}/usr/share/applications
-		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}/usr/share/applications/$DESKTOP
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
 	fi
 	# delete any icon cache or library cache
-	find ./${PKG}-${VER}-${ARCH} -type f -name '*cache' -delete
-	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}/
-	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}/
-	for p in $(ls|grep "\-${ARCH}"|grep -v "files$") ; do
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	for p in $(ls|grep "\-${ARCH}_${BUILD}"|grep -v "files$") ; do
 		case $p in
 			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;

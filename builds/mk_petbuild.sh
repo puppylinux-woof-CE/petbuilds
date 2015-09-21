@@ -1,14 +1,17 @@
 #!/bin/sh
 
-# scriot to generate a petbuild
+# script to generate a petbuild
 #set -x
+
+. ./build.conf
+
 CWD=`pwd`
 
 usage() {
-	echo "USAGE:	./${0##*/} <URL/of/PACKAGE> <\"A DESCRIPTION\"> <DEPENDS> <CATEGORY>"
+	echo "USAGE:	./${0##*/} <URL/of/PACKAGE> <\"DESCRIPTION\"> <DEPENDS> <CATEGORY> <BUILD>"
 	echo "eg;	./${0##*/} http://example.com/example_source-1.2.3.tar.gz \
-\"a light weight example\" +libsample,+libexample BuildingBlock"
-	echo "	CATEGORY and DEPENDS are optional"
+\"a light weight example\" +libsample,+libexample BuildingBlock 2slacko"
+	echo "	CATEGORY, DEPENDS and BUILD are optional"
 	echo
 	echo "	You can add .desktop and pinstall/puninstall files if you wish"
 	echo "	to the resulting program directory which you will find in"
@@ -34,10 +37,14 @@ usage() {
 	exit 0
 }
 
+[ -z "$DEF_BUILD" ] && DEF_BUILD=0
+
 [ "$1" ] || usage
 [ "$2" ] || usage
 [ "$3" ] && DEPENDS="$3" || DEPENDS=''
 [ "$4" ] && CATEGORY="$4"|| CATEGORY=BuildingBlock
+[ "$5" ] && BUILD="$5" || BUILD="$DEF_BUILD"
+
 
 SOURCE="${1##*/}" 
 SRCURL="${1%/*}" 
@@ -65,6 +72,7 @@ DESC=$DESCRIPTION
 DEPS=$DEPENDS
 CAT=$CATEGORY
 DESKTOP=${PROG}.desktop
+BUILD=${BUILD}
 CWD=\$(pwd)
 [ -z "\$MWD" ] && MWD=\$(dirname \$CWD)	
 
@@ -88,19 +96,19 @@ build() {
 }
 	
 package() {
-	get_files \${PKG}-install \${PKG}-\${VER}-\${ARCH}
-	(cd \${PKG}-\${VER}; \$MWD/split.sh ../\${PKG}-install)
+	get_files \${PKG}-install \${PKG}-\${VER}-\${ARCH}_\${BUILD}
+	(cd \${PKG}-\${VER}; \$MWD/split.sh ../\${PKG}-install \$BUILD)
 	# add this recipe
-	install -d -m 0755 ./\${PKG}-\${VER}-\${ARCH}/usr/share/doc
-	cat \${PKG}.petbuild > ./\${PKG}-\${VER}-\${ARCH}/usr/share/doc/\${PKG}-build-recipe
+	install -d -m 0755 ./\${PKG}-\${VER}-\${ARCH}_\${BUILD}/usr/share/doc
+	cat \${PKG}.petbuild > ./\${PKG}-\${VER}-\${ARCH}_\${BUILD}/usr/share/doc/\${PKG}-build-recipe
 	if [ -f "\$DESKTOP" ];then
-		install -d -m 0755 ./\${PKG}-\${VER}-\${ARCH}/usr/share/applications
-		cat \$DESKTOP > ./\${PKG}-\${VER}-\${ARCH}/usr/share/applications/\$DESKTOP
+		install -d -m 0755 ./\${PKG}-\${VER}-\${ARCH}_\${BUILD}/usr/share/applications
+		cat \$DESKTOP > ./\${PKG}-\${VER}-\${ARCH}_\${BUILD}/usr/share/applications/\$DESKTOP
 	fi
 	# delete any icon cache or library cache
-	find ./\${PKG}-\${VER}-\${ARCH} -type f -name '*cache' -delete
-	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./\${PKG}-\${VER}-\${ARCH}/
-	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./\${PKG}-\${VER}-\${ARCH}/
+	find ./\${PKG}-\${VER}-\${ARCH}_\${BUILD} -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./\${PKG}-\${VER}-\${ARCH}_\${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./\${PKG}-\${VER}-\${ARCH}_\${BUILD}/
 	for p in \$(ls|grep "\\-\${ARCH}"|grep -v "files\$") ; do
 		case \$p in
 			*_DEV*) DESC="\$PKG development"; DEPS=+\${PKG} ;;
@@ -124,3 +132,5 @@ extract \${PKG}-\${VER}.\${COMP}
 build
 package	
 _PET
+
+echo -e "Please check $PROG/${PROG}.petbuild for sanity\ndone!"

@@ -12,12 +12,14 @@ DESC="DidiWiki personal wiki"
 DEPS=+gtk2+
 CAT=Document
 DESKTOP=DidiWiki-personal-wiki.desktop
+BUILD=
 CWD=`pwd`
 [ -z "$MWD" ] && MWD=`dirname $CWD`	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in
- *64) LIBDIR=lib64 ;;
+ #*64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
 esac
 
@@ -28,10 +30,11 @@ build() {
 				--localstatedir=/var \
 				--sysconfdir=/etc \
 				--libdir=/usr/${LIBDIR}
-	[ "$?" -eq 0 ] || exit
+	[ "$?" -eq 0 ] || build_fail $PKG
 	make
-	[ "$?" -eq 0 ] || exit
+	[ "$?" -eq 0 ] || build_fail $PKG
 	make DESTDIR=$CWD/$PKG-install install
+	[ "$?" -ne 0 ] && build_fail 
 	cd -
 }
 	

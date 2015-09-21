@@ -1,5 +1,6 @@
 #!/bin/sh
 # directly pilfered from new2dir
+#support build number
 
 [ "$1" ] && tgt="${1}"
 
@@ -25,7 +26,7 @@ if [ ! "$CPUTYPE" ];then
   fi
 fi
 
-CPU="$CPUTYPE"
+[ -z "$2" ] || CPUTYPE=${CPUTYPE}_${2}
 CURRDIR="`pwd`"
 PKGDIR="../`basename "$CURRDIR"`"
 xPKGDIR="`basename "$CURRDIR"`"
@@ -70,6 +71,24 @@ do
  fi
  sync
 
+ if [ "$DEVSPLIT" = "yes" ];then
+  #find out if this is development file...
+  DEVFILE="`echo -n "$ONEFILE" | grep -E '/include/|/pkgconfig/|/aclocal|/cvs/|/svn/'`"
+  if [ "$DEVFILE" ];then
+   mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
+   cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
+   continue
+  fi
+  
+  #all .a and .la files... and any stray .m4 files...
+  LAFILE="`echo -n "$ONEBASE" | grep --extended-regexp '\.a$|\.la$|\.m4$'`"
+  if [ "$LAFILE" ];then
+    mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
+    cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
+   continue
+  fi  
+ fi
+
  if [ "$NLSSPLIT" = "yes" ];then
   #find out if this is an international language file...
   NLSFILE="`echo -n "$ONEFILE" | grep -E '/locale|/nls|/i18n'`"
@@ -88,24 +107,6 @@ do
    cp -af "$ONEFILE" "${DOC_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
   fi
- fi
-
- if [ "$DEVSPLIT" = "yes" ];then
-  #find out if this is development file...
-  DEVFILE="`echo -n "$ONEFILE" | grep -E '/include/|/pkgconfig/|/aclocal|/cvs/|/svn/'`"
-  if [ "$DEVFILE" ];then
-   mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
-   cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
-   continue
-  fi
-  
-  #all .a and .la files... and any stray .m4 files...
-  LAFILE="`echo -n "$ONEBASE" | grep --extended-regexp '\.a$|\.la$|\.m4$'`"
-  if [ "$LAFILE" ];then
-    mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
-    cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
-   continue
-  fi  
  fi
 
  #anything left over goes into the main 'executable' package...

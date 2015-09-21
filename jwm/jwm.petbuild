@@ -12,9 +12,10 @@ COMP=tar.xz
 DESC="Joes Window Manager for X"
 DEPS=+cairo,+rsvg,+libpng,+libjpeg,+xpm,+fribidi
 CAT=Desktop
-BUILD=slk600
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

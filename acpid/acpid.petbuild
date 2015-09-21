@@ -11,7 +11,10 @@ COMP=tar.xz
 DESC="A daemon for delivering ACPI events"
 DEPS=
 CAT=BuildingBlock
-BUILD=slk600
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

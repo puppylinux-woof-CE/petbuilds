@@ -13,9 +13,10 @@ DESC="file archiver with the highest compression ratio"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=p7zip_9.20.1_src_all.tar.bz2.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in
@@ -48,7 +49,8 @@ EOF
 #!/bin/sh
 exec /usr/libexec/7z "\$@"
 EOF
-	
+	chmod 755 ../${PKG}-install/usr/bin/*
+	chmod 755 ../${PKG}-install/usr/libexec/*
 	cd -
 }
 	

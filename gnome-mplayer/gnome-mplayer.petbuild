@@ -12,9 +12,10 @@ DESC="A light weight graphical front end to MPlayer"
 DEPS=+gmtk,+gtk+2,+mplayer
 CAT=Multimedia
 DESKTOP=gnome-mplayer.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

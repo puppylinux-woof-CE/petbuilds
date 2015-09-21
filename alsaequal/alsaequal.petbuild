@@ -11,7 +11,10 @@ COMP=tar.bz2
 DESC="Alsaequal is a real-time adjustable equalizer plugin for ALSA"
 DEPS=+alsa-lib,+caps
 CAT=BuildingBlock
-BUILD=slk600
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

@@ -12,9 +12,10 @@ DESC="convert measurements from imperial to metric and back"
 DEPS=+gtk+2
 CAT=Business
 DESKTOP=gmeasures.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

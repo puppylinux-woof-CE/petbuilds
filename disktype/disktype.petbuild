@@ -10,9 +10,10 @@ VER=9-patched_pardus_bk
 COMP=tar.gz
 DESC="utility to determine the disk filesystem"
 DEPS=
-BUILD=slk600
-CAT=BuildingBlock
-CWD=`pwd`
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

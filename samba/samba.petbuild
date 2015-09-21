@@ -6,15 +6,16 @@
 
 URL=http://samba.org/samba/ftp/stable
 PKG=samba
-VER=4.1.19
+VER=4.1.20
 COMP=tar.gz
 DESC="share files with M.S. Windows"
 DEPS=
 CAT=Network
 DESKTOP=samba.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

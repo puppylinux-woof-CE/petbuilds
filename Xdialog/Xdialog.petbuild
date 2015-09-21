@@ -4,19 +4,19 @@
 . ../func
 . ../build.conf
 
-URL=http://distro.ibiblio.org/puppylinux/sources/x/
+URL=http://distro.ibiblio.org/fatdog/source/700/
 PKG=Xdialog
-VER=131231-patched_JB
-FOSSIL_VER=ec30703399f1ea0f ## see http://chiselapp.com/user/jamesbond/repository/xdialog/home
-COMP=tar.gz
+VER=2015.08
+COMP=tar.bz2
 DESC="Xdialog is designed to be a drop in replacement for the dialog or cdialog programs"
 DEPS=+gtk+2
 CAT=BuildingBlock
-BUILD=slk600
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
-ARCH=`uname -m`
+ARCH=$(uname -m)
 case $ARCH in
  *64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
@@ -24,7 +24,7 @@ esac
 
 build() {
 	# since not X compiling forget build triplet
-	mv ${PKG}-${FOSSIL_VER} ${PKG}-${VER}
+	mv ${PKG} ${PKG}-${VER}
 	cd ${PKG}-${VER}
 	./configure --prefix=/usr \
 				--localstatedir=/var \

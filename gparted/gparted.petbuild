@@ -13,9 +13,10 @@ DEPS=+gtk+2,+parted
 #NOTE: build time deps are all the *mm_static libs. That way these go to devx
 CAT=System
 DESKTOP=gparted.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

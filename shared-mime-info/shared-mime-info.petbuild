@@ -12,9 +12,10 @@ DESC="mime type information"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=shared-mime-info.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

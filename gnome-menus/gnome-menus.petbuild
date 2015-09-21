@@ -11,9 +11,10 @@ COMP=tar.bz2
 DESC="gnome-menus controls the heirarchy of the menu system"
 DEPS=
 CAT=BuildingBlock
-BUILD=slk600
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

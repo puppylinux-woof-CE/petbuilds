@@ -6,15 +6,16 @@
 
 URL=http://www.draisberghof.de/usb_modeswitch
 PKG=usb-modeswitch-data
-VER=20150115
+VER=20150627
 COMP=tar.bz2
 DESC="Data for usb_modeswitch"
 DEPS=+usb-modeswitch,+jimtcl
 CAT=BuildingBlock
 DESKTOP=usb-modeswitch-data.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

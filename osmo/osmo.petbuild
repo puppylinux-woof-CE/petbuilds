@@ -13,9 +13,10 @@ DESC="Light weight calendar and organiser"
 DEPS=+gtk+2,+libgtkhtml,+libnotify
 CAT=Personal
 DESKTOP=osmo.desktop
-BUILD=slk600
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

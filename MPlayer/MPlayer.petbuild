@@ -12,9 +12,10 @@ DESC="Media player for audio and video"
 DEPS=+ffmpeg
 CAT=Multimedia
 DESKTOP=MPlayer.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

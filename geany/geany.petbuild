@@ -6,15 +6,16 @@
 
 URL=http://download.geany.org/
 PKG=geany
-VER=1.24.1
+VER=1.25
 COMP=tar.bz2
 DESC="Light weight powerful gtk text editor and IDE"
 DEPS=+gtk+2
 CAT=Document
 DESKTOP=geany.desktop
-BUILD=slk600
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

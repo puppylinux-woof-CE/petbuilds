@@ -12,9 +12,10 @@ DESC="Light weight PDF viewer"
 DEPS=+libspectre,+djvulibre,+poppler,+gtk+2,+gnome-icon-theme
 CAT=Document
 DESKTOP=evince.desktop
-BUILD=slk600
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

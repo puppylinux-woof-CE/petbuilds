@@ -12,9 +12,10 @@ DESC="a utility to rip DVD movies to hard drive"
 DEPS=+libdvdcss,+libdvdnav
 CAT=Multimedia
 DESKTOP=vobcopy.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

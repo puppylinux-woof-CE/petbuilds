@@ -12,9 +12,10 @@ DESC="a generic interface into various existing spell checking libraries"
 DEPS=+hunspell
 CAT=BuildingBlock
 DESKTOP=enchant.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

@@ -12,9 +12,10 @@ DESC="Unicode terminal emulator"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=Urxvt-terminal-emulator.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

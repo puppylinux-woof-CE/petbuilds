@@ -12,9 +12,10 @@ DESC="Record, play, edit and convert sound files"
 DEPS=+gtk+2,+alsa-lib
 CAT=Document
 DESKTOP=mhwaveedit.desktop
-BUILD=slk600
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

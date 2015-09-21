@@ -12,9 +12,10 @@ DESC="Library for en/de-coding video in the Dirac format"
 DEPS=+orc
 CAT=BuildingBlock
 DESKTOP=schroedinger.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

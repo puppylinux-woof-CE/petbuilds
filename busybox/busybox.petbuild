@@ -10,8 +10,10 @@ VER=1.23.1
 COMP=tar.bz2
 DESC="BusyBox - The Swiss Army Knife of Embedded Linux"
 DEPS=
-BUILD=slk600
-CAT=BuildingBlock
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

@@ -12,9 +12,10 @@ DESC="library for gtk based office programs"
 DEPS=+glib2
 CAT=BuildingBlock
 DESKTOP=goffice.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

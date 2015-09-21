@@ -12,9 +12,10 @@ DESC="FFmpeg is the leading multimedia framework, able to decode, encode, transc
 DEPS=+sdl,+x264,+speex,+libogg,+libvorbis,+faac,+libvpx,+schroedinger,+libtheora,+lame
 CAT=Multimedia
 DESKTOP=ffmpeg.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

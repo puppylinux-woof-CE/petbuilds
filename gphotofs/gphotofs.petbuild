@@ -12,9 +12,10 @@ DESC="gphotofs is a FUSE filesystem module to mount your camera as a filesystem 
 DEPS=+fuse
 CAT=BuildingBlock
 DESKTOP=gphotofs.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

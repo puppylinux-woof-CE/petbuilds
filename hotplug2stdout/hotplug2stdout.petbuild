@@ -11,8 +11,10 @@ COMP=tar.gz
 DESC="utilities for CD detection and hotplug detection"
 DEPS=
 CAT=BuildingBlock
-BUILD=slk600
-CWD=`pwd`
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

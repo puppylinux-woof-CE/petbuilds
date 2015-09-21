@@ -12,9 +12,10 @@ DESC="open source MPEG-4 and MPEG-2 AAC encoder"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=faac.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

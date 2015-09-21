@@ -12,9 +12,10 @@ DESC="gnome-mplayer toolkit library"
 DEPS=+gtk+2
 CAT=BuildingBlock
 DESKTOP=gmtk.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

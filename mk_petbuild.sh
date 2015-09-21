@@ -72,9 +72,10 @@ DESC=$DESCRIPTION
 DEPS=$DEPENDS
 CAT=$CATEGORY
 DESKTOP=${PROG}.desktop
-BUILD=${BUILD}
+BUILD=
 CWD=\$(pwd)
 [ -z "\$MWD" ] && MWD=\$(dirname \$CWD)	
+[ -z "\$BUILD" ] && BUILD=\$DEF_BUILD
 
 ARCH=\$(uname -m)
 case \$ARCH in

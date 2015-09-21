@@ -8,15 +8,16 @@
 URL=http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-dev/
 PKG=ntpdate
 SRC_PKG=ntp-dev
-VER=4.2.7p476
+VER=4.3.71
 COMP=tar.gz
 DESC="ntpdate is a web centric time synchronisation tool"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

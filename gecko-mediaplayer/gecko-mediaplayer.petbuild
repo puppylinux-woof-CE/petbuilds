@@ -12,9 +12,10 @@ DESC="A Firefox plugin to play media off the net using gnome-mplayer"
 DEPS=+gmtk,+gtk+2,+gnome-mplayer,+mplayer
 CAT=Multimedia
 DESKTOP=gecko-mediaplayer.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

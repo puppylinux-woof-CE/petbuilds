@@ -13,9 +13,10 @@ DESC="a graphical Frontend to CUPS"
 DEPS=+cairo
 CAT=System
 DESKTOP=gtklp.desktop
+BUILD=
 CWD=$(pwd)
-BUILD=slk600
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

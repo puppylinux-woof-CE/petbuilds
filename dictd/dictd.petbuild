@@ -11,9 +11,10 @@ COMP=tar.gz
 DESC="dictd is a dictionary client connecting to servers around the globe"
 DEPS=+curl
 CAT=Personal
-CWD=`pwd`
-BUILD=slk600
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in
@@ -55,7 +56,7 @@ package() {
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
-		#rm -r $p
+		rm -r $p
 		mv ${p}.pet ../0pets_out
 	done
 	rm -r $PKG-install

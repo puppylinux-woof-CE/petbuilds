@@ -12,9 +12,10 @@ DESC="A light weight bit torrent client which supports magnet links"
 DEPS=+gtk+2,+curl
 CAT=Internet
 DESKTOP=transmission-gtk.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

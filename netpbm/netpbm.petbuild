@@ -12,9 +12,10 @@ DESC="a comprehensive suite of image manipulaton tools"
 DEPS=+libjpeg,+libpng
 CAT=BuildingBlock
 DESKTOP=netpbm.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

@@ -6,16 +6,17 @@
 
 URL=ftp://source:current@ftp.palemoon.org
 PKG=palemoon
-SVER=25.6.0-source
-VER=25.6.0
+SVER=25.7.0-source
+VER=25.7.0
 COMP=7z
 DESC="A lighter weight browser based on Firefox"
 DEPS=+gtk2+,+zlib
 CAT=Internet
 DESKTOP=palemoon.desktop
-BUILD=slk600_1
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

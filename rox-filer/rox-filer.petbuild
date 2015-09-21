@@ -11,10 +11,11 @@ COMP=tar.bz2
 DESC="Light weight gtk file manager"
 DEPS=+gtk+2
 CAT=Filesystem
-BUILD=slk600
+DESKTOP=ROX-Filer-file-manager.desktop
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
-DESKTOP=ROX-Filer-file-manager.desktop
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

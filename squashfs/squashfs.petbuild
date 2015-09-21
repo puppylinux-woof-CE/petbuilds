@@ -13,9 +13,10 @@ DESC="Squashfs tools needed to make a compressed filesystem"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=squashfs4.3.tar.gz.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

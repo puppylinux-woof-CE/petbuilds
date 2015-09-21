@@ -13,9 +13,10 @@ DESC="fast ligh tool kit"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=fltk-1.3.0.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

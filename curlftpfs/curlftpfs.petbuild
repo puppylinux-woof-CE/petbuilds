@@ -11,9 +11,10 @@ COMP=tar.gz
 DESC="CurlFtpFS is a filesystem for acessing ftp hosts based on FUSE and libcurl"
 DEPS=+curl,+fuse
 CAT=BuildingBlock
-BUILD=slk600
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

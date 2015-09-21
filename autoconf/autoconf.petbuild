@@ -12,9 +12,10 @@ DESC="part of GNU autotools"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=autoconf.desktop
-BUILD=slacko_570
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

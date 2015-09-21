@@ -13,8 +13,10 @@ COMP=tar.xz
 DESC="sanitised Linux headers suitable for musl"
 DEPS=
 CAT=BuildingBlock
-BUILD=slk600
-CWD=`pwd`
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 PREFIX=/usr/local/musl
 
 ARCH=`uname -m`

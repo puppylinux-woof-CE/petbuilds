@@ -6,15 +6,16 @@
 
 URL=http://sylpheed.sraoss.jp/sylpheed/v3.4
 PKG=sylpheed
-VER=3.4.2
+VER=3.4.3
 COMP=tar.gz
 DESC="Light weight email client"
 DEPS=+gtk+2,+curl
 CAT=Internet
 DESKTOP=sylpheed.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

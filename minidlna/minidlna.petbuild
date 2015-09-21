@@ -12,9 +12,10 @@ DESC="minidlna is a DLNA media server for your network"
 DEPS=+ffmpeg
 CAT=Multimedia
 DESKTOP=minidlna.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

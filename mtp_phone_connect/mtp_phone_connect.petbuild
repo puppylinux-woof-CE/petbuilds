@@ -18,9 +18,10 @@ GO_EXE=go-mtpfs
 DESC="Connect Android phones and tablets over usb"
 DEPS=+gtk+2,+fuse
 CAT=Filesystem
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 # set this if you have a notification daemon
 POPUP_NOTIFY=

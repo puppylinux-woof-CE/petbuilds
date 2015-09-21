@@ -12,9 +12,10 @@ DESC="a light weight notification daemon"
 DEPS=+libxdg-basedir
 CAT=BuildingBlock
 DESKTOP=dunst.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

@@ -12,8 +12,10 @@ COMP=tar.gz
 DESC="add widescreen resolutions to video bios, intel video chips only"
 DEPS=
 CAT=BuildingBlock
-BUILD=slk600
-CWD=`pwd`
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=`uname -m`
 case $ARCH in

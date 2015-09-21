@@ -13,9 +13,10 @@ DESC="excellent note takiing software"
 DEPS=+gtk+2
 CAT=Document
 DESKTOP=notecase.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

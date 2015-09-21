@@ -12,9 +12,10 @@ DESC="A light weight spread sheet application"
 DEPS=+goffice,+gtk+2,+glib2
 CAT=Business
 DESKTOP=gnumeric.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

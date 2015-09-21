@@ -13,9 +13,10 @@ DESC="A classic game where you join the pipes"
 DEPS=+sdl
 CAT=Fun
 DESKTOP=pipepanic.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

@@ -20,7 +20,10 @@ GDK=gdk.bac
 KO=./hug.so
 VIM=bacon.vim
 SYNTAX=bacon.lang
-BUILD=slk600
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 BAC_VER=`bacon -v|awk '{print $3}'|grep [0-9]|cut -d '.' -f1`
 [ "$BAC_VER" -lt 3 ] && echo "bacon verion is too old" && exit 0

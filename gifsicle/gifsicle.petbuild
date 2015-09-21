@@ -12,9 +12,10 @@ DESC="command-line tool for creating, editing, and getting information about GIF
 DEPS=
 CAT=BuildingBlock
 DESKTOP=gifsicle.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

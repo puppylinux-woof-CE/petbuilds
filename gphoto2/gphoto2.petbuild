@@ -12,9 +12,10 @@ DESC="gPhoto2 is a free, redistributable, ready to use set of digital camera sof
 DEPS=+gphotofs,+libgphoto2
 CAT=BuildingBlock
 DESKTOP=gphoto2.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

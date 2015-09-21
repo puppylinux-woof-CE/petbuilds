@@ -12,9 +12,10 @@ DESC="Utility program suite for gnu linux"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=util-linux.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

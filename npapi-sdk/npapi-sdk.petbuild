@@ -12,9 +12,10 @@ DESC="Netscape Plugin API - Mozilla"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=npapi-sdk.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

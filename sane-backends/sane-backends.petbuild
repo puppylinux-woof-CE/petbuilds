@@ -12,9 +12,10 @@ DESC="sane scanner utility backends and drivers"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=sane-backends.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

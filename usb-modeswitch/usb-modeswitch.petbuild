@@ -6,15 +6,16 @@
 
 URL=http://www.draisberghof.de/usb_modeswitch
 PKG=usb-modeswitch
-VER=2.2.1
+VER=2.2.5
 COMP=tar.bz2
 DESC="Utility for switching usb modems"
 DEPS=+jimtcl
 CAT=BuildingBlock
 DESKTOP=usb-modeswitch.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

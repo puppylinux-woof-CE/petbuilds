@@ -12,9 +12,10 @@ DESC="Sound mixer with tray icon and volume control"
 DEPS=+alsa-lib,+gtk+2
 CAT=Multimedia
 DESKTOP=retrovol.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

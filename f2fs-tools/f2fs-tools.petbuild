@@ -12,9 +12,10 @@ DESC="tools for the flash friendly filesystem"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=f2fs-tools.desktop
-BUILD=slk600
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in

@@ -14,24 +14,24 @@ CAT=Multimedia
 DESKTOP=vobcopy.desktop
 BUILD=
 CWD=$(pwd)
-[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$MWD" ] && MWD=$(dirname $CWD)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
+ #*64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
 esac
 
 build() {
 	cd ${PKG}-${VER}
 	./configure.sh --prefix=/usr \
-				--mandir=/share/man \
+				--mandir=/usr/share/man \
 				--with-lfs
 	[ "$?" -eq 0 ] || exit
 	make $MKFLG
-	[ "$?" -eq 0 ] || exit
-	make DESTDIR=$CWD/${PKG}-install install
+	install -d -m 0755 ../${PKG}-install/usr/bin
+	install -m 0755 vobcopy ../${PKG}-install/usr/bin
 	cd -
 }
 	

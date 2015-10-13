@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gcolor2 color chooser
+Icon=icon.png
+Comment=color chooser and picker
+Exec=gcolorsel
+Terminal=false
+Type=Application
+Categories=X-GraphicUtility
+GenericName=Gcolor2

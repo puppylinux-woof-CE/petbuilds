@@ -1,0 +1,118 @@
+# mtp_phone_connect
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+#. ../func
+. ../build.conf
+
+#URL= the shell source is included in templeate
+PKG=mtp_phone_connect
+TODAY=`date +%y%m%d`
+VER=$TODAY
+STATUS_URL=http://distro.ibiblio.org/puppylinux/sources/m/
+STATUS_PKG=mtpstatus
+STATUS_VER=0.5
+COMP=tar.gz
+GO_URL=http://hanwen.home.xs4all.nl/public/software/go-mtpfs/
+GO_PKG=
+GO_EXE=go-mtpfs
+DESC="Connect Android phones and tablets over usb"
+DEPS=+gtk+2,+fuse
+CAT=Filesystem
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+
+# set this if you have a notification daemon
+POPUP_NOTIFY=
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 
+	GO_PKG=go-mtpfs.x86_64;;
+ *) LIBDIR=lib 
+	GO_PKG=go-mtpfs.x86;;
+esac
+
+retrieve_custom() {
+	if [ -f "../0sources/${STATUS_PKG}-${STATUS_VER}.${COMP}" ];then
+		cp -a ../0sources/${STATUS_PKG}-${STATUS_VER}.${COMP} .
+	else
+		wget -t0 -c ${STATUS_URL}/${STATUS_PKG}-${STATUS_VER}.${COMP}
+		[ "$?" -eq 0 ] || exit 1
+	fi
+	if [ -f "../0sources/${GO_PKG}.${COMP}" ];then
+		cp -a ../0sources/${GO_PKG}.${COMP} .
+	else
+		wget -t0 -c ${GO_URL}/${GO_PKG}
+		[ "$?" -eq 0 ] || exit 1
+	fi
+	if [ "$DLD_ONLY" -eq 0 ];then
+		mv -f ${STATUS_PKG}-${STATUS_VER}.${COMP} ../0sources
+		mv -f ${STATUS_PKG}-${STATUS_VER}.${COMP} ../0sources
+		tar -czf ${GO_PKG}.${COMP} ${GO_PKG}
+		mv -f ${GO_PKG}.${COMP} ../0sources
+		exit 0
+	fi	
+}
+
+extract_custom() {
+	tar -xvf ${STATUS_PKG}-${STATUS_VER}.${COMP}
+	[ "$?" -eq 0 ] || exit 1
+	[ -f "${GO_PKG}.${COMP}" ] &&\
+	tar -xvf ${GO_PKG}.${COMP}
+}
+
+build() {
+	cp -arf $PKG-template  ${PKG}-${VER}-${ARCH}_${BUILD}
+	[ "$POPUP_NOTIFY" ] &&\
+	sed -i 's%POPUP\=%POPUP=1%' $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/sbin/mtpdevice
+	# since not X compiling forget build triplet
+	cd ${STATUS_PKG}-${STATUS_VER}
+	make
+	[ "$?" -eq 0 ] || exit 1
+	strip --strip-unneeded ${STATUS_PKG} 
+	install -d -m 0755 $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/
+	install -m 0755 ${STATUS_PKG} $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/
+	cd -
+	rm -r ${STATUS_PKG}-${STATUS_VER}
+	install -m 0755 ${GO_PKG} $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/ #can't strip!
+	(cd $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/; mv ${GO_PKG} ${GO_EXE} )
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+	fi
+	# delete any icon cache or library cache
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
+	done
+	tar -czf ${GO_PKG}.${COMP} ${GO_PKG}
+	[ "$?" -eq 0 ] && mv -f ${GO_PKG}.${COMP} ../0sources || exit 1
+	rm ${GO_PKG}
+	mv -f ${STATUS_PKG}-${STATUS_VER}.${COMP} ../0sources
+	rm *.files 2>/dev/null
+	echo "done!"
+}
+
+# main
+retrieve_custom
+extract_custom
+build
+package	

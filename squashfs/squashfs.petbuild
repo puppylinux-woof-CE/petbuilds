@@ -1,0 +1,72 @@
+# squashfs
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=http://downloads.sourceforge.net/project/squashfs/squashfs/squashfs4.3
+PKG=squashfs-tools4
+VER=4.3
+SRC=squashfs4.3
+COMP=tar.gz
+DESC="Squashfs tools needed to make a compressed filesystem"
+DEPS=
+CAT=BuildingBlock
+DESKTOP=squashfs4.3.tar.gz.desktop
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+
+ARCH=$(uname -m)
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+build() {
+	mv ${SRC} ${PKG}-${VER}
+	cp -af Makefile.new ${PKG}-${VER}/squashfs-tools/Makefile
+	cd ${PKG}-${VER}
+	make -C squashfs-tools
+	[ "$?" -eq 0 ] || exit
+	make -C squashfs-tools INSTALL_DIR=$CWD/${PKG}-install/usr/bin install
+	cd -
+}
+	
+package() {
+	get_files ${PKG}-install ${PKG}-${VER}-${ARCH}_${BUILD}
+	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install $BUILD)
+	# add this recipe
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe
+	if [ -f "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+	fi
+	# delete any icon cache or library cache
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	for p in $(ls|grep "\-${ARCH}_${BUILD}"|grep -v "files$") ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c="$CAT" -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
+	done
+	rm -r ${PKG}-install
+	rm -r ${PKG}-${VER}
+	mv -f *.files ../0logs
+	echo "done!"
+}
+
+# main
+retrieve ${SRC}.${COMP}
+extract ${SRC}.${COMP}
+build
+package	

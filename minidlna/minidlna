@@ -1,0 +1,130 @@
+#!/bin/sh
+#
+# minildna       minidlna starter
+#
+# chkconfig: - 88 12
+# description: MiniDLNA (aka ReadyDLNA) is server software\
+# with the aim of being fully compliant with DLNA/UPnP-AV clients.
+# processname: minidlna
+# config: /etc/$PROGBASE.conf
+#
+# minildna starter for puppy linux
+# 10 Oct 2010 by shinobar <shino@pos.to>
+#  4 Jan 2012 shinobar: auto mount
+
+PROGBASE=minidlnad
+PROG="/usr/sbin/$PROGBASE"
+CONF="/etc/$PROGBASE.conf"
+DBDIR="/tmp/$PROGBASE"
+MYPID=$$
+
+# Check conf exists.
+[ -s "$CONF" ] || exit 0
+
+reset_db() {
+	rm -fr "$DBDIR"
+}
+mount_shared() {
+	SHARED=$(grep '^[^#]*media_dir[ ]*=[ ]*/mnt/' $CONF | tail -n 1 | cut -d'=' -f2)
+	[ "$SHARED" ] || return
+	PART=$(echo $SHARED | cut -d'/' -f3)
+	mount| grep -q "^/dev/$PART[ ]" && return
+	FS=$(probepart|grep "^/dev/$PART|"| cut -d'|' -f2)
+	[ "$FS" ] || return
+	MOUNTOPT=""
+	case $FS in
+		ntfs)	MOUNTOPT="-o $IDOPT"
+		;;
+		vfat)	NLS_PARAM=""
+		if [ -f /etc/codepage ]; then #100127...
+			grep -q -i '850' /etc/codepage && [ "$(echo $LANG|cut -d'.' -f1)" != "en_US" ] && NLS_PARAM=",codepage=850"
+			grep -q -i '852' /etc/codepage && NLS_PARAM=",codepage=852,iocharset=iso8859-2"
+		fi
+		MOUNTOPT="-o shortname=mixed,quiet$NLS_PARAM,utf8,$IDOPT"
+		;;
+	esac
+	mkdir -p  /mnt/$PART
+	echo "mount $MOUNTOPT -t $FS /dev/$PART /mnt/$PART" >&2
+	mount $MOUNTOPT -t $FS /dev/$PART /mnt/$PART
+}
+
+start() {
+	[ -x $PROG ] || exit 0
+	[ -f $CONF ] || exit 0
+	mount_shared
+	#wait until IP up
+	CONNECTED=""
+	for I in $(seq 6); do
+	  IFES=$(ifconfig | grep HWaddr | cut -d' ' -f1)
+	  if [ "$IFES" != "" ]; then
+	    for IF in $IFES; do
+	     ifconfig $IF | grep -q inet && CONNECTED="yes" && break
+	    done
+	  fi
+	  [ "$CONNECTED" != "" ] && break
+	  [ $I -eq 1 ] && echo "Waiting IP ready..."
+	  sleep 10
+	done
+	$PROG -R -f $CONF "$@"
+}
+stop() {
+  for T in $(seq 6); do
+	PIDS=$(pidof -o %PPID $PROGBASE) || break
+	for I in $PIDS; do
+	 kill $I
+	done
+	sleep 5
+  done
+  reset_db
+  return 0
+}
+status() {
+	FLAG=0
+	PIDS=$(pidof -o %PPID $PROGBASE)
+	if [ "$PIDS" ]; then
+		echo "$PROGBASE is running ... (PID= "$(echo $PIDS|tr ' ' ',')")."
+	else
+		FLAG=1
+		echo "$PROGBASE is not running."
+	fi
+	if [ ! -x $PROG ]; then
+		FLAG=1
+		echo "The excutable $PROG not found."
+	fi
+	if [ ! -f $CONF ]; then
+		FLAG=1
+		echo "The configuration file $CONF not found."
+	fi
+	return $FLAG
+}
+
+case $1 in
+start)
+	start
+	;;
+stop)
+	stop
+	;;
+restart|reload)
+	stop && echo "$PROGBASE stopped."
+	#sleep 8
+	start -R && echo "$PROGBASE restarted."
+	sleep 1
+	status
+	;;
+condrestart)
+	[ "$(pidof $PROGBASE)" ] || exit 0
+	#status
+	#[ $? != 0 ] || exit 1
+	stop
+	sleep 1
+	start -R && echo "$PROGBASE restarted."
+	;;
+status)
+	status
+	exit $?
+	;;
+ *)
+	echo $"Usage: $0 {start|stop|restart|reload|status|condrestart}"
+	exit 1
+esac

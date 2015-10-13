@@ -1,0 +1,75 @@
+#!/bin/sh
+#(c) copyright 2008 Barry Kauler
+#2008 Lesser GPL licence v2 (http://www.fsf.org/licensing/licenses/lgpl.html)
+#v411 BK: wrapper for gparted, prevent indefinite scan at startup on some systems.
+#v424 update desktop drive icons. note, this is also done in /usr/sbin/bootflash, puppyinstaller.
+#v424 report that gparted crash with a non-english locale.
+
+#v424 report that gparted crash with a non-english locale. well, maybe just do this...
+export LANG=C
+
+echo -n "" > /tmp/gparted_shell_probe
+PROBEDISK="`probedisk2 | grep -v '|optical|'`"
+echo "$PROBEDISK" |
+while read ONEPROBE
+do
+ ONEDRIVE="`echo -n "$ONEPROBE" | cut -f 1 -d '|' | cut -f 3 -d '/'`"
+ ONECATEG="`echo -n "$ONEPROBE" | cut -f 2 -d '|'`"
+ case $ONECATEG in
+  drive) ONECATEG="internal drive";;
+  usbdrv) ONECATEG="USB drive";;
+ esac
+ ONEDESCR="`echo -n "$ONEPROBE" | cut -f 3 -d '|' | tr '\"' ' '`"
+ echo "<radiobutton><label>${ONEDRIVE} ${ONECATEG}. Descr: ${ONEDESCR}</label><variable>RADIO_${ONEDRIVE}</variable></radiobutton>" >> /tmp/gparted_shell_probe
+done
+
+ echo "<radiobutton><label>ALL DRIVES. Scan all drives at startup</label><variable>RADIO_all</variable></radiobutton>" >> /tmp/gparted_shell_probe
+ 
+DRVTAGS="`cat /tmp/gparted_shell_probe`"
+
+export MAIN_DIALOG="
+<window title=\"Gparted\">
+ <vbox>
+  <text><label>Welcome, Gparted is an application to examine and modify partitions in a disk drive. At startup, the default behaviour is for Gparted to scan for all drives in the computer, and on some computers this can take a very long time. Therefore, this dialog window enables you to make a choice of which drive you want to work on (and Gparted will only scan that drive at startup).</label></text>
+  <text><label>WARNING: A PC may have a single VFAT or NTFS partition, with Windows installed, and you might want to decrease the size of that partition so as to be able to create a Linux partition. For Windows XP/98/95 this is usually ok (but be careful not to make it too small, say 5GB for XP). However, Vista gets very upset if the partition is resized and may not work properly afterward (in some cases won't even start) -- there may be a fix for this, but we don't know what it is.</label></text>
+  
+  ${DRVTAGS}
+  
+  <hbox>
+   <button>
+    <label>OKAY</label>
+    <action type=\"exit\">OKAYBUTTON</action>
+   </button>
+   <button>
+    <label>CANCEL</label>
+    <action type=\"exit\">CANCELBUTTON</action>
+   </button>
+  </hbox>
+
+ </vbox>
+</window>
+"
+
+RETVALS="`gtkdialog3 --program=MAIN_DIALOG`"
+
+[ "`echo "$RETVALS" | grep 'OKAYBUTTON'`" = "" ] && exit
+
+THEDRIVE="`echo "$RETVALS" | grep '"true"' | cut -f 1 -d '=' | sed -e 's/RADIO_//'`"
+
+[ "$THEDRIVE" = "all" ] && exec gparted
+
+#v424 record state...
+tdPATTERN="/dev/${THEDRIVE}"
+DRVSTATE1="`probepart | grep "$tdPATTERN"`"
+
+gparted /dev/${THEDRIVE}
+
+#v424 update desktop drive icons. note, this is also done in /usr/sbin/bootflash, puppyinstaller...
+#/tmp/pup_event_frontend_block_request is used in /sbin/pup_event_frontend_d to refresh drv...
+DRVSTATE2="`probepart | grep "$tdPATTERN"`"
+if [ "$DRVSTATE1" != "$DRVSTATE2" ];then
+ sync
+ echo "$THEDRIVE" > /tmp/pup_event_frontend_block_request
+fi
+
+###END###

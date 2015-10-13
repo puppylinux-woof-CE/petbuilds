@@ -1,0 +1,33 @@
+[Desktop Entry]
+Name=Inkscape Lite
+Comment=SVG Vector Illustrator
+Comment[ca]=Il·lustrador vectorial SVG
+Comment[cs]=Ilustrátor vektorů SVG
+Comment[de]=SVG-Vektorillustrator
+Comment[es]=Ilustrador vectorial SVG
+Comment[fr]=Illustrateur vectoriel SVG
+Comment[ja]=SVGベクターイラストレータ
+Comment[nl]=SVG vector Illustrator
+Comment[pl]=Program do tworzenia ilustracji wektorowych
+Comment[pt]=Ilustrador de Vectores SVG
+Comment[ru]=Программа для создания векторной графики
+Comment[sk]=SVG Vektorový ilustrátor
+Comment[sr]=SVG векторско цртање
+Comment[sr@Latn]=SVG vektorsko crtanje
+Comment[sv]=SVG-vektorillustrationsprogram
+
+Encoding=UTF-8
+Version=1.0
+
+Type=Application
+Categories=VectorGraphics;
+
+MimeType=image/svg+xml
+
+FilePattern=inkscape
+Exec=inkscape
+TryExec=inkscape
+Terminal=false
+StartupNotify=true
+
+Icon=inkscape.png

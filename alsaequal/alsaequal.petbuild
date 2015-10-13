@@ -1,0 +1,71 @@
+# alsaequal
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=http://www.thedigitalmachine.net/tools/
+PKG=alsaequal
+VER=0.6
+COMP=tar.bz2
+DESC="Alsaequal is a real-time adjustable equalizer plugin for ALSA"
+DEPS=+alsa-lib,+caps
+CAT=BuildingBlock
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+
+ARCH=`uname -m`
+case $ARCH in
+ *64) LIBDIR=lib64 ;;
+ *) LIBDIR=lib ;;
+esac
+
+build() {
+	# since not X compiling forget build triplet
+	mv ${PKG} ${PKG}-${VER}
+	cd ${PKG}-${VER}
+	make
+	[ "$?" -eq 0 ] || exit 1
+	cd -
+}
+	
+package() {
+	install -d -m 0755 ${PKG}-${VER}-${ARCH}_${BUILD}/usr/$LIBDIR/alsa-lib
+	install -m 0644 ${PKG}-${VER}/libasound_module_ctl_equal.so ${PKG}-${VER}-${ARCH}_${BUILD}/usr/$LIBDIR/alsa-lib/
+	install -m 0644 ${PKG}-${VER}/libasound_module_pcm_equal.so ${PKG}-${VER}-${ARCH}_${BUILD}/usr/$LIBDIR/alsa-lib/
+	install -d -m 0755 ${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/include
+	install -m 0644 ${PKG}-${VER}/ladspa.h ${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/include
+	install -m 0644 ${PKG}-${VER}/ladspa_utils.h ${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/include
+	# add this recipe
+	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+	fi
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ../0pets_out
+	done
+	rm -r ${PKG}-${VER}
+	rm *.files 2>/dev/null
+	echo "done!"
+}
+
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+build
+package	

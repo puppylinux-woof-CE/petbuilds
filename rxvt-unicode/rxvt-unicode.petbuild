@@ -4,7 +4,7 @@
 . ../func
 . ../build.conf
 
-URL=http://dist.schmorp.de/rxvt-unicode
+URL=http://dist.schmorp.de/rxvt-unicode/Attic
 PKG=rxvt-unicode
 VER=9.21
 COMP=tar.bz2
@@ -16,12 +16,25 @@ BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
 
 ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
+
+patch_me(){
+	cd ${PKG}-${VER}
+	for i in ../*.patch; do
+		echo "applying $i"
+		patch -p0 < $i
+		[ $? -ne 0 ] && echo "failed to apply $i" #&& exit 1
+	done
+	cd -
+}
 
 build() {
 	cd ${PKG}-${VER}
@@ -30,34 +43,40 @@ build() {
 				--sysconfdir=/etc \
 				--libdir=/usr/${LIBDIR} \
 				--disable-perl \
-				--enable-transparency
+				--enable-transparency \
+				--enable-iso14755 \
+				--enable-frills
 	[ "$?" -eq 0 ] || exit
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit
 	make DESTDIR=$CWD/${PKG}-install install
 	cd -
 }
-	
-package() {
+
+package_spec() {
 	# SPECIAL cut out the daemon
 	rm ${PKG}-install/usr/bin/{urxvtc,urxvtd}
-	(cd ${PKG}-install/usr/bin; ln -snf urxvt rxvt)
-	get_files ${PKG}-install ${PKG}-${VER}-${ARCH}_${BUILD}
-	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install $BUILD)
-	# SPECIAL
-	cp -arf root ./${PKG}-${VER}-${ARCH}_${BUILD}
+	cp -arf root ./${PKG}-install
+	(cd ./${PKG}-install/usr/bin; ln -s urxvt rxvt)
+}
+	
+package() {
 	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe
+	install -d -m 0755 ./${PKG}-install/usr/src/dev
+	cat ${PKG}.petbuild > ./${PKG}-install/usr/src/dev/${PKG}-build-recipe
 	if [ -f "$DESKTOP" ];then
-		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
-		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+		install -d -m 0755 ./${PKG}-install/usr/share/applications
+		cat $DESKTOP > ./${PKG}-install/usr/share/applications/$DESKTOP
 	fi
+	# split
+	get_files ${PKG}-install ${PKG}-${VER}-${ARCH}_${BUILD}
+	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install)
+	# SPECIAL
 	# delete any icon cache or library cache
 	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
 	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
 	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
-	for p in $(ls|grep "\-${ARCH}_${BUILD}"|grep -v "files$") ; do
+	for p in $(ls|grep "\-${ARCH}"|grep -v "files$") ; do
 		case $p in
 			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
@@ -77,5 +96,8 @@ package() {
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+patch_me
 build
-package	
+package_spec
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	
+

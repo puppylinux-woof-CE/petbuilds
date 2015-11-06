@@ -1,0 +1,44 @@
+# QupZilla
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=https://github.com/QupZilla/qupzilla/releases/download/v1.8.6
+PKG=QupZilla
+VER=1.8.6
+COMP=tar.xz
+DESC="Open source qt-webkit based web browser"
+DEPS=+qt
+CAT=Internet
+DESKTOP=QupZilla.desktop
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
+
+ARCH=$(uname -m)
+case $ARCH in
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
+esac
+
+build() {
+	cd ${PKG}-${VER}
+	export USE_LIBPATH="/usr/${LIBDIR}"
+	qmake
+	[ "$?" -eq 0 ] || exit
+	make $MKFLG
+	[ "$?" -eq 0 ] || exit
+	make install INSTALL_ROOT=$CWD/${PKG}-install
+	cd -
+}
+	
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+build
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

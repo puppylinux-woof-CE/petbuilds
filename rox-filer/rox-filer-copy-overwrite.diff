@@ -1,0 +1,23 @@
+From 02d78b9dbece4dd36df91a1bba4a196149f418d2 Mon Sep 17 00:00:00 2001
+From: Thomas Leonard <talex5@gmail.com>
+Date: Sun, 15 Jun 2014 10:20:29 +0100
+Subject: [PATCH] Don't confirm overwrites when copying in quiet mode
+
+Closes #111 (albast).
+---
+ ROX-Filer/src/action.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ROX-Filer/src/action.c b/ROX-Filer/src/action.c
+index 7179519..c7d48c1 100644
+--- a/ROX-Filer/src/action.c
++++ b/ROX-Filer/src/action.c
+@@ -1338,7 +1338,7 @@ static void do_copy2(const char *path, const char *dest)
+ 		{
+ 			printf_send("<%s", path);
+ 			printf_send(">%s", dest_path);
+-			if (!printf_reply(from_parent, TRUE,
++			if (!printf_reply(from_parent, merge,
+ 					  _("?'%s' already exists - %s?"),
+ 					  dest_path,
+ 					  merge ? _("merge contents")

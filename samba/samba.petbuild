@@ -16,11 +16,14 @@ BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
+#[ -f "$DESKTOP" ] || DESKTOP=not
+#[ -z "$DEPS" ] && DEPS=not	
 
 ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
 build() {
@@ -60,11 +63,12 @@ build() {
 	
 package() {
 	cp -a --remove-destination ${PKG}-template/* ${PKG}-install
+	# add this recipe
+	install -d -m 0755 ./${PKG}-install/usr/src/dev
+	cat ${PKG}.petbuild > ./${PKG}-install/usr/src/dev/${PKG}-build-recipe
+	# split
 	get_files ${PKG}-install ${PKG}-${VER}-${ARCH}_${BUILD}
 	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install $BUILD)
-	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe
 	if [ -f "$DESKTOP" ];then
 		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
 		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP

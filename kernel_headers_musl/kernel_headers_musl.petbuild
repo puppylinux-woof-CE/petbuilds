@@ -6,7 +6,7 @@
 . ../build.conf
 
 URL=http://foss.aueb.gr/mirrors/linux/sabotage/tarballs
-SRC=kernel-headers
+SRCPKG=kernel-headers
 PKG=kernel_headers_musl
 VER=3.12.6-5
 COMP=tar.xz
@@ -17,29 +17,29 @@ BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
-PREFIX=/usr/local/musl
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
 
-ARCH=`uname -m`
+ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
- *86) LIBDIR=lib 
-	ARCH=i386 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
 build() {
 	# since not X compiling forget build triplet
-	cd ${SRC}-${VER}
-	make ARCH=$ARCH prefix=$PREFIX DESTDIR=$CWD/${PKG}-${VER}-${ARCH}_${BUILD} install
+	cd ${SRCPKG}-${VER}
+	make ARCH=$ARCH prefix=$PREFIX DESTDIR=$CWD/$PKG-$VER-noarch_${BUILD} install
 	[ "$?" -eq 0 ] || exit
 	cd -
 }
 	
 package() {
 	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
-	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+	install -d -m 0755 ./$PKG-$VER-noarch_${BUILD}/usr/src/dev
+	cat ${PKG}.petbuild > ./$PKG-$VER-noarch_${BUILD}/usr/src/dev/${PKG}-build-recipe
+	for p in `ls|grep "\-noarch"|grep -v "files$"` ; do
 		case $p in
 			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
@@ -50,14 +50,16 @@ package() {
 		rm -r $p
 		mv ${p}.pet ../0pets_out
 	done
-	rm -r $SRC-$VER
+	rm -r ${SRCPKG}-${VER}
 	rm *.files 2>/dev/null
 	echo "done!"
 }
 
 # main
-retrieve ${SRC}-${VER}.${COMP}
-extract ${SRC}-${VER}.${COMP}
+echo ${SRCPKG}-${VER}.${COMP}
+retrieve ${SRCPKG}-${VER}.${COMP}
+echo $VER
+extract ${SRCPKG}-${VER}.${COMP}
 build
 package	
 alert $PKG

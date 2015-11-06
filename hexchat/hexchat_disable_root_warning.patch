@@ -1,0 +1,19 @@
+diff -rupN hexchat-2.10.2-orig/src/common/hexchat.c hexchat-2.10.2/src/common/hexchat.c
+--- hexchat-2.10.2-orig/src/common/hexchat.c	2014-11-26 03:42:31.000000000 +1000
++++ hexchat-2.10.2/src/common/hexchat.c	2015-09-24 14:13:46.612971226 +1000
+@@ -1123,15 +1123,6 @@ main (int argc, char *argv[])
+ 		fe_message (buf, FE_MSG_ERROR);
+ 	}
+ 
+-#ifndef WIN32
+-#ifndef __EMX__
+-	/* OS/2 uses UID 0 all the time */
+-	if (getuid () == 0)
+-		fe_message (_("* Running IRC as root is stupid! You should\n"
+-			      "  create a User Account and use that to login.\n"), FE_MSG_WARN|FE_MSG_WAIT);
+-#endif
+-#endif /* !WIN32 */
+-
+ 	xchat_init ();
+ 
+ 	fe_main ();

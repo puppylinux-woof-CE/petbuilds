@@ -10,19 +10,22 @@ VER=9-patched_pardus_bk
 COMP=tar.gz
 DESC="utility to determine the disk filesystem"
 DEPS=
+CAT=BuildingBlock
 BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
+#[ -f "$DESKTOP" ] || DESKTOP=not
+#[ -z "$DEPS" ] && DEPS=not	
 
-ARCH=`uname -m`
+ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
 build() {
-	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}
 	make
 	[ "$?" -eq 0 ] || exit
@@ -35,8 +38,8 @@ build() {
 	
 package() {
 	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	install -d -m 0755 ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev
+	cat ${PKG}.petbuild > ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev/$PKG-build-recipe
 	if [ "$DESKTOP" ];then
 		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
 		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
@@ -45,7 +48,7 @@ package() {
 	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
 	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
 	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
-	for p in `ls|grep "\-${ARCH}_${BUILD}"|grep -v "files$"` ; do
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
 		case $p in
 			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;

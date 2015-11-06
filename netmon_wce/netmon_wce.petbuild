@@ -6,60 +6,38 @@
 
 URL=http://distro.ibiblio.org/puppylinux/sources/n
 PKG=netmon_wce
-VER=1.0
-COMP=tar.gz
-DESC="simple system tray network monitor"
-DEPS=+gtk2+
-CAT=BuildingBlock
+VER=2.8
+COMP=tar.bz2
+DESC="Network tray monitor - supports wireless"
+DEPS=+gtk+,+wireless-tools
+CAT=Network
 DESKTOP=netmon_wce.desktop
 BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
 
 ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
-### SPECIAL
 build() {
 	cd ${PKG}-${VER}
-	./compile
-	[ ! -x netmon_wce ] && exit
-	install -d -m 0755 ../${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin
-	install -s -m 0755 ${PKG} ../${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/
-	install -d -m 0755 ../${PKG}-${VER}-${ARCH}_${BUILD}/root/.config/autostart
-	install -d -m 0755 ../${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/pixmaps/puppy # missing icon
-	install -m 0644 internet_connect_both.svg ../${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/pixmaps/puppy
-	cat $DESKTOP > ../${PKG}-${VER}-${ARCH}_${BUILD}/root/.config/autostart/$DESKTOP
+	make $MKFLG
+	[ "$?" -eq 0 ] || exit
+	make DESTDIR=$CWD/${PKG}-install install
+	install -d -m 0755 $CWD/${PKG}-install/root/.config/autostart
+	install -m 0644 $DESKTOP $CWD/${PKG}-install/root/.config/autostart
 	cd -
 }
 	
-package() {
-	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe
-	for p in $(ls|grep "\-${ARCH}"|grep -v "files$") ; do
-		case $p in
-			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
-			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
-			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
-		esac	
-		echo "packaging $p"	
-		dir2pet -x -s -w="$DESC" -d="$DEPS" -c="$CAT" -p=${p} 2>&1 >/dev/null
-		rm -r $p
-		mv ${p}.pet ../0pets_out
-	done
-	#rm -r ${PKG}-install
-	rm -r ${PKG}-${VER}
-	#mv -f *.files ../0logs
-	echo "done!"
-}
-
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 build
-package	
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

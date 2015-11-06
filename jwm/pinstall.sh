@@ -12,18 +12,22 @@ if [ "`pwd`" != "/" ];then
    fi
   fi
  fi
-else
- Xdialog -title "Fix JWM Configs" \
-	-yesno "This is a new version of JWM
-			and configs may need upgrading.
-			Click 'Yes' to upgrade, 'No' to quit.
+ #if [ -x usr/local/bin/fixjwmrc ];then
+	#echo "Attempting to fix old jwm config files"
+	#chroot . usr/local/bin/fixjwmrc
+ #fi
+#else
+ #Xdialog -title "Fix JWM Configs" \
+	#-yesno "This is a new version of JWM
+			#and configs may need upgrading.
+			#Click 'Yes' to upgrade, 'No' to quit.
 			
-			You can run /usr/local/bin/fixjwmrc later." 0 0 || \
-			exit
-	[ ! -x /usr/local/bin/fixjwmrc ] && \
-	Xdialog -title "Fix JWM Configs" -msgbox "Fail" 0 0 && \
-	exit
-	/usr/local/bin/fixjwmrc | xmessage -name 'Fix JWM Configs' -file -
+			#You can run /usr/local/bin/fixjwmrc later." 0 0 || \
+			#exit
+	#[ ! -x /usr/local/bin/fixjwmrc ] && \
+	#Xdialog -title "Fix JWM Configs" -msgbox "Fail" 0 0 && \
+	#exit
+	#/usr/local/bin/fixjwmrc | xmessage -name 'Fix JWM Configs' -file -
 	
 fi
 

@@ -17,11 +17,14 @@ BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
 
-ARCH=`uname -m`
+ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
 build() {
@@ -41,8 +44,8 @@ package() {
 	EXE=`find ${PKG}-${VER} -type f -name $PKG`
 	install -s -m 0755 $EXE ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin
 	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	install -d -m 0755 ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev
+	cat ${PKG}.petbuild > ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev/$PKG-build-recipe
 	if [ "$DESKTOP" ];then
 		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
 		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
@@ -63,7 +66,7 @@ package() {
 		mv ${p}.pet ../0pets_out
 	done
 	rm -r ${PKG}-${VER}
-	rm *.files 2>/dev/null
+	#rm *.files 2>/dev/null
 	echo "done!"
 }
 

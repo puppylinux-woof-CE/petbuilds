@@ -1,0 +1,22 @@
+#!/bin/sh
+
+. /etc/DISTRO_SPECS
+
+CONF=$HOME/.config/hexchat/hexchat.conf
+NUM=$RANDOM
+
+NICK=${DISTRO_FILE_PREFIX}_${NUM}
+
+if grep '^irc_nick1' ${CONF} | grep -q 'X' ;then
+	x=0
+	while [ $x -lt 3 ];do
+		case $x in
+			0) sed -i "s%^irc_nick1.*%irc_nick1 = ${NICK}%" ${CONF};;
+			1) sed -i "s%^irc_nick2.*%irc_nick1 = ${NICK}0%" ${CONF};;
+			2) sed -i "s%^irc_nick3.*%irc_nick1 = ${NICK}1%" ${CONF};;
+		esac
+		x=$(($x + 1))
+	done
+fi
+exec hexchat "$@"
+exit $?

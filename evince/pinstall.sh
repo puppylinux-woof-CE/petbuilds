@@ -1,6 +1,6 @@
 #!/bin/sh
 # evince
-if [ `pwd` -ne '/' ];then
+if [ `pwd` != '/' ];then
 	echo '#! /bin/sh
 exec evince "$@"' > root/Choices/MIME-types/application_pdf
 	chmod 755 root/Choices/MIME-types/application_pdf

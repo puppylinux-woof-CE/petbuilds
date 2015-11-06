@@ -1,0 +1,12 @@
+diff -rupN libdv-1.0.0.orig/libdv/enc_input.c libdv-1.0.0/libdv/enc_input.c
+--- libdv-1.0.0.orig/libdv/enc_input.c	2004-10-20 13:49:24.000000000 +1000
++++ libdv-1.0.0/libdv/enc_input.c	2015-11-06 11:48:39.721102015 +1000
+@@ -51,6 +51,7 @@
+ #define _LINUX_TIME_H
+ #include <sys/types.h>
+ #include <linux/videodev.h>
++#include <libv4l1-videodev.h>
+ #include <sys/time.h>
+ #include <unistd.h>
+ #include <fcntl.h>
+ 

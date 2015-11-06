@@ -1,0 +1,11 @@
+--- src/rxvttoolkit.C.orig	2012-05-27 16:02:06.000000000 +0000
++++ src/rxvttoolkit.C	2012-05-27 15:57:26.000000000 +0000
+@@ -326,7 +326,7 @@
+   // 6. System wide per application default file.
+ 
+   /* Add in $XAPPLRESDIR/Rxvt only; not bothering with XUSERFILESEARCHPATH */
+-  if ((xe = getenv ("XAPPLRESDIR")))
++  if ((xe = getenv ("XAPPLRESDIR")) || (xe = "/etc/X11/app-defaults") )
+     {
+       snprintf (fname, sizeof (fname), "%s/%s", xe, RESCLASS);
+ 

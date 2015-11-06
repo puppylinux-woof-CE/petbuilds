@@ -16,32 +16,29 @@ BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
+#[ -f "$DESKTOP" ] || DESKTOP=not
+#[ -z "$DEPS" ] && DEPS=not	
 
 ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
-build() {
-	cd ${PKG}-${VER}
-	./configure --prefix=/usr \
-				--localstatedir=/var \
-				--sysconfdir=/etc \
-				--libdir=/usr/${LIBDIR}
-	[ "$?" -eq 0 ] || exit
-	make $MKFLG
-	[ "$?" -eq 0 ] || exit
-	make DESTDIR=$CWD/${PKG}-install install
-	cd -
-}
-	
 package() {
+	# add this recipe
+	install -d -m 0755 ./${PKG}-install/usr/src/dev
+	cat ${PKG}.petbuild > ./${PKG}-install/usr/src/dev/${PKG}-build-recipe
+	# SPECIAL - mv mount and umount
+	echo "fixing mount, umount"
+	(cd ./${PKG}-install/bin;mv mount mount-FULL;mv umount umount-FULL)
+	echo "fixing losetup"
+	(cd ./${PKG}-install/sbin;mv losetup losetup-FULL)
+	sleep 2
+	# split
 	get_files ${PKG}-install ${PKG}-${VER}-${ARCH}_${BUILD}
 	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install $BUILD)
-	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe
 	if [ -f "$DESKTOP" ];then
 		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
 		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
@@ -70,5 +67,5 @@ package() {
 # main
 retrieve "${PKG}-${VER}.${COMP} --no-check-certificate"
 extract ${PKG}-${VER}.${COMP}
-build
+build_configure $PKG $VER $LIBDIR
 package	

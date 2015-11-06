@@ -3,9 +3,9 @@ for the right-click app menu. It now uses a method similar to the full "sendto" 
 
 James 2014
 
-diff -ur ROX-Filer-orig/src/appmenu.c ROX-Filer/src/appmenu.c
---- ROX-Filer-orig/src/appmenu.c	2013-06-02 15:11:26.000000000 +0700
-+++ ROX-Filer/src/appmenu.c	2014-05-22 20:50:16.892560608 +0700
+diff -ur rox-filer-2013.6/ROX-Filer/src/appmenu.c rox-filer-2013.6-new/ROX-Filer/src/appmenu.c
+--- rox-filer-2013.6/ROX-Filer/src/appmenu.c	2013-06-02 15:11:26.000000000 +0700
++++ rox-filer-2013.6-new/ROX-Filer/src/appmenu.c	2014-05-22 20:50:16.892560608 +0700
 @@ -323,41 +323,50 @@
  
  static void build_menu_for_type(MIME_type *type)

@@ -134,6 +134,7 @@ c9df5107ae9d26b10a1736a261250139  usbutils-007.tar.xz
 38e3048669a25de0b2c2962e410bba2f  v1.88.tar.gz
 23e9c5354fb3c5584eab20955ee9d478  vamps-0.99.2.tar.gz
 88f735ccd051093ff40dab4597bc586e  vobcopy-1.2.0.tar.bz2
+e06c222e186f7cc013fd272d023710cb  wireless_tools.29.tar.gz
 acd3b2050c9b65fff2aecda6576ee7bc  wvdial-1.61.tar.gz
 f0782040612c69d46bff3139c5cc1557  wvstreams-4.6.1.tar.bz2
 0273bcc6779e5aec3ad4dfff17f45c56  x264-20131101-2245.tar.bz2

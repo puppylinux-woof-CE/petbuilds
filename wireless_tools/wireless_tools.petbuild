@@ -36,8 +36,10 @@ fix() {
 build() {
 	cd ${PKG}-${VER}
 	make || exit
-	make PREFIX=${CWD}/${PKG}-install/usr IWLIB_INSTALL=install-dynamic install \
-	|| exit #ugh
+	make PREFIX=${CWD}/${PKG}-install/usr \
+		IWLIB_INSTALL=install-dynamic \
+		INSTALL_LIB=${CWD}/${PKG}-install/usr/${LIBDIR} \
+		install || exit #ugh
 	cd -	
 }
 

@@ -48,5 +48,6 @@ build() {
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+patch_me
 build
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

@@ -24,7 +24,7 @@ ARCH=$(uname -m)
 case $ARCH in
  *64) 	LIBDIR=$LIBCONF64 ;;
  arm*)	LIBDIR=$LIBCONFarm;;
- *) 	LIBDIR=$LIBCONF32 ;;
+ *) 	LIBDIR=$LIBCONF32 ARCH=i386;; #hack
 esac
 
 build() {

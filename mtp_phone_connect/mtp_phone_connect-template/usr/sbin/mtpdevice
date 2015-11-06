@@ -12,9 +12,9 @@ running2=`echo $running | wc -w`
 #===========================error function=====================================
 func_note() {
 	OPT0=$1
-	POPUP=  # set this if a notification daemon is installed
-	[ "$POPUP" ] && NOTIFY="notify-send" || \
 	NOTIFY="gtkdialog-splash"
+	which dunst 2>&1 > /dev/null && NOTIFY="notify-send"
+	which xfce4-notifyd 2>&1 > /dev/null && NOTIFY="notify-send"
 	case $NOTIFY in
 	notify-send*) 
 	  case $OPT0 in

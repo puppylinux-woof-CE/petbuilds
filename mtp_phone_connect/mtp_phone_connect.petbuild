@@ -20,18 +20,16 @@ DEPS=+gtk+2,+fuse
 CAT=Filesystem
 BUILD=
 CWD=$(pwd)
-[ -z "$MWD" ] && MWD=$(dirname $CWD)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
 
-# set this if you have a notification daemon
-POPUP_NOTIFY=
-
-ARCH=`uname -m`
+ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib
-	GO_PKG=go-mtpfs.x86_64;;
- *) LIBDIR=lib 
-	GO_PKG=go-mtpfs.x86;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
 retrieve_custom() {
@@ -65,8 +63,6 @@ extract_custom() {
 
 build() {
 	cp -arf $PKG-template  ${PKG}-${VER}-${ARCH}_${BUILD}
-	[ "$POPUP_NOTIFY" ] &&\
-	sed -i 's%POPUP\=%POPUP=1%' $CWD/${PKG}-${VER}-${ARCH}_${BUILD}/usr/sbin/mtpdevice
 	# since not X compiling forget build triplet
 	cd ${STATUS_PKG}-${STATUS_VER}
 	make
@@ -82,11 +78,11 @@ build() {
 	
 package() {
 	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	install -d -m 0755 ${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev
+	cat ${PKG}.petbuild > ${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev/$PKG-build-recipe
 	if [ "$DESKTOP" ];then
-		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
-		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+		install -d -m 0755 ${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
 	fi
 	# delete any icon cache or library cache
 	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete

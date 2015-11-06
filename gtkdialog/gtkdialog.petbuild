@@ -11,25 +11,27 @@ COMP=tar.xz
 DESC="gtkialog is a small utility for fast and easy GUI building"
 DEPS=+gtk+2
 CAT=BuildingBlock
-BUILD=tahr64
-CWD=`pwd`
-[ -z "$MWD" ] && MWD=`dirname $CWD`	
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
 
-ARCH=`uname -m`
+ARCH=$(uname -m)
 case $ARCH in
- #*64) LIBDIR=lib64 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
 build() {
-	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}
 	./configure --prefix=/usr \
 				--localstatedir=/var \
 				--sysconfdir=/etc \
 				--libdir=/usr/${LIBDIR} \
-				--bindir=/usr/sbin \
-				--enable-maintainer-mode
+				--bindir=/usr/sbin
 	[ "$?" -eq 0 ] || exit 1
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit 1
@@ -37,44 +39,17 @@ build() {
 	cd -
 }
 	
-package() {
-	get_files $PKG-install ${PKG}-${VER}-${ARCH}_${BUILD}
-	(cd ${PKG}-${VER}; $MWD/split.sh ../$PKG-install $BUILD)
-	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
-	if [ "$DESKTOP" ];then
-		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
-		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
-	fi
-	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
-	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
-	(cd ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/sbin; ln -sf $PKG ${PKG}4; ln -sf $PKG ${PKG}3) #legacy
-	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+package_ext() {
 	EXAMPLES=`find . -type d -name 'examples'`
 	DOCS=`find . -type d -name 'reference'`
-	install -d -m 0755 ${PKG}_DOC-${VER}-${ARCH}_${BUILD}/usr/share/doc/gtkdialog
-	cp -arf $EXAMPLES ${PKG}_DOC-${VER}-${ARCH}_${BUILD}/usr/share/doc/gtkdialog/
-	cp -arf $DOCS ${PKG}_DOC-${VER}-${ARCH}_${BUILD}/usr/share/doc/gtkdialog/
-	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
-		case $p in
-			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
-			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
-			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
-		esac	
-		echo "packaging $p"	
-		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
-		rm -r $p
-		mv ${p}.pet ../0pets_out
-	done
-	rm -r $PKG-install
-	rm -r ${PKG}-${VER}
-	mv -f *.files ../0logs
-	echo "done!"
+	install -d -m 0755 ${PKG}-install/usr/share/doc/gtkdialog
+	cp -arf $EXAMPLES ${PKG}-install/usr/share/doc/gtkdialog/
+	cp -arf $DOCS ${PKG}-install/usr/share/doc/gtkdialog/
 }
 
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 build
-package	
+package_ext
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

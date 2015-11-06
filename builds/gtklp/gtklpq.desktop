@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=GtkLPQ queue manager
-Comment=CUPS printer queue manager
-Exec=gtklpq
-Icon=gtklpq.png
-Terminal=false
-Type=Application
-Categories=System;
-StartupNotify=true

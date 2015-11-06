@@ -71,9 +71,29 @@ do
  fi
  sync
 
+ if [ "$NLSSPLIT" = "yes" ];then
+  #find out if this is an international language file...
+  NLSFILE="`echo -n "$ONEFILE" | grep -E '/locale|/nls|/i18n'|grep -v '\.h$'`" #eg 'i18n.h' in glibmm_static
+  if [ "$NLSFILE" ];then
+   mkdir -p "${NLS_TARGETDIR}/${NEWPATH}" 2>/dev/null
+   cp -af "$ONEFILE" "${NLS_TARGETDIR}/${NEWPATH}/" 2>/dev/null
+   continue
+  fi
+ fi
+
+ if [ "$DOCSPLIT" = "yes" ];then
+  #find out if this is a documentation file...
+  DOCFILE="`echo "$ONEFILE" | grep -E '/man|/doc|/docs|/info|/gtk-doc|/faq|/manual|/examples|/help|/htdocs'|grep -v '\.h$'`" #eg 'documents.h' in geany
+  if [ "$DOCFILE" != "" ];then
+   mkdir -p "${DOC_TARGETDIR}/${NEWPATH}" 2>/dev/null
+   cp -af "$ONEFILE" "${DOC_TARGETDIR}/${NEWPATH}/" 2>/dev/null
+   continue
+  fi
+ fi
+
  if [ "$DEVSPLIT" = "yes" ];then
   #find out if this is development file...
-  DEVFILE="`echo -n "$ONEFILE" | grep -E '/include/|/pkgconfig/|/aclocal|/cvs/|/svn/'`"
+  DEVFILE="`echo -n "$ONEFILE" | grep -E '/include/|/pkgconfig/|/aclocal|/cvs/|/svn/|/src/'`"
   if [ "$DEVFILE" ];then
    mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
    cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
@@ -87,26 +107,6 @@ do
     cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
   fi  
- fi
-
- if [ "$NLSSPLIT" = "yes" ];then
-  #find out if this is an international language file...
-  NLSFILE="`echo -n "$ONEFILE" | grep -E '/locale|/nls|/i18n'`"
-  if [ "$NLSFILE" ];then
-   mkdir -p "${NLS_TARGETDIR}/${NEWPATH}" 2>/dev/null
-   cp -af "$ONEFILE" "${NLS_TARGETDIR}/${NEWPATH}/" 2>/dev/null
-   continue
-  fi
- fi
-
- if [ "$DOCSPLIT" = "yes" ];then
-  #find out if this is a documentation file...
-  DOCFILE="`echo "$ONEFILE" | grep -E '/man|/doc|/docs|/info|/gtk-doc|/faq|/manual|/examples|/help|/htdocs'|grep -v '\.h'`" #eg 'documents.h' in geany
-  if [ "$DOCFILE" != "" ];then
-   mkdir -p "${DOC_TARGETDIR}/${NEWPATH}" 2>/dev/null
-   cp -af "$ONEFILE" "${DOC_TARGETDIR}/${NEWPATH}/" 2>/dev/null
-   continue
-  fi
  fi
 
  #anything left over goes into the main 'executable' package...

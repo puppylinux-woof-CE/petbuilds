@@ -48,8 +48,8 @@ void usage(){
 	printf("\t-z\t: floating point RGB, quoted, "
 					"space delimited values for colour\n\t(mandatory arg!)\n");
 	printf("\t-o [offset] floating point value from 0.0 to 1.0 for the gradient"
-								"offset\n");
-	printf("\t-a [angle] integer value from 0 to 20 for the gradient angle");
+								" offset\n");
+	printf("\t-a [angle] integer value from 0 to 20 for the gradient angle\n");
 	printf("\t-w\t: \"woof\" FOR WOOF USE ONLY!!!\n");
 	printf("\t-h\t: show this help and exit.\n");
 	exit (EXIT_SUCCESS);

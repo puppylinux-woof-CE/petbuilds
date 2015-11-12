@@ -6,8 +6,8 @@
 
 URL=http://distro.ibiblio.org/fatdog/source/700
 PKG=mdview
-PKGVER=2015-10-13
-VER=2015.10
+PKGVER=2015-11-12
+VER=2015.11
 COMP=tar.bz2
 DESC="lightweight MD file viewer"
 DEPS=+gtk2+

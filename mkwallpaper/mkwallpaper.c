@@ -13,7 +13,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.
- * (c) Michael Amadio. Gold Coast QLD, Australia 01micko@gmail.com
+ * (c)2015 Michael Amadio. Gold Coast QLD, Australia 01micko@gmail.com
  */
  
 /** This program is designed to be used in Puppy Linux.
@@ -32,7 +32,7 @@
 #include <pango/pangocairo.h>
 
 #define PROG "mkwallpaper"
-#define THIS_VERSION "0.4"
+#define THIS_VERSION "0.6"
 
 void usage(){
 	printf("%s-%s\n\n", PROG , THIS_VERSION);
@@ -45,12 +45,15 @@ void usage(){
 	printf("\t-p\t: \"png\" or \"svg\" format\n");
 	printf("\t-x\t: width of image in pixels\n");
 	printf("\t-y\t: height of image in pixels\n");
+	printf("\t-s\t: font size in pixels\n");
+	printf("\t-k\t: \"yes\" : embossed effect on font\n");
 	printf("\t-z\t: floating point RGB, quoted, "
-					"space delimited values for colour\n\t(mandatory arg!)\n");
+					"space delimited values for colour\n"
+					"\t(mandatory arg!) eg: -z \"0.1 0.2 0.3\"\n");
 	printf("\t-o [offset] floating point value from 0.0 to 1.0 for the gradient"
 								" offset\n");
 	printf("\t-a [angle] integer value from 0 to 20 for the gradient angle\n");
-	printf("\t-w\t: \"woof\" FOR WOOF USE ONLY!!!\n");
+	printf("\t-w\t: \"woof\" : FOR WOOF USE ONLY!!!\n");
 	printf("\t-h\t: show this help and exit.\n");
 	exit (EXIT_SUCCESS);
 }
@@ -68,6 +71,10 @@ static const char *get_user_out_file(const char *ww){
 		}
 	}
 	mkdir(out_file, 0755);
+	if (access(out_file, W_OK) == -1) {
+		fprintf(stderr, "Failed to access directory %s\n", out_file);
+		exit (EXIT_FAILURE);
+	}
 	return out_file;
 }
 
@@ -81,7 +88,8 @@ static void paint_img (const char *label,
 						int f_size,
 						const char *woofy,
 						double offset,
-						int angle) {
+						int angle,
+						const char *kfont) {
 	char destimg[PATH_MAX];
 
 	if (!fp_color) exit (EXIT_FAILURE);
@@ -118,8 +126,10 @@ static void paint_img (const char *label,
 		exit (EXIT_FAILURE);
 	}
 	int result = sscanf(fp_color, "%s %s %s", red, green, blue);
-	if (result < 3) fprintf(stderr,"ERROR: less than 3 colour aguments!\n");
-
+	if (result < 3) {
+		fprintf(stderr,"ERROR: less than 3 colour aguments!\n");
+		exit (EXIT_FAILURE);
+	}
 	r = atof(red);
 	g = atof(green);
 	b = atof(blue);
@@ -147,8 +157,16 @@ static void paint_img (const char *label,
 		rf = 0.1;
 	else
 		rf = 0.9;
-		
 	
+	/* offset font for effect option */	
+	float or, og, ob;
+	int fc = 0;
+	if (strncmp(kfont, "yes", 3) == 0) {
+		or = (r1 + r2) / 2;
+		og = (g1 + g2) /2 ;
+		ob = (b1 + b2) / 2;
+		fc = 1;
+	}
 
 	cairo_surface_t *cs;
 
@@ -188,8 +206,26 @@ static void paint_img (const char *label,
 	pango_layout_set_text (layout, label, -1);
 	
 	cairo_move_to(c, wdth / 2 , 4 * hght / 7);
-	cairo_set_source_rgba(c, rf, rf, rf, 0.85);
+	cairo_set_source_rgba(c, rf, rf, rf, 0.55);
 	pango_cairo_show_layout (c, layout);
+	
+	if (fc == 1) {
+		cairo_move_to(c, (wdth / 2) - 1.5 , (4 * hght / 7) - 1.2);
+		cairo_set_source_rgba(c, or, og, ob, 0.65);
+		pango_cairo_show_layout (c, layout);
+	}
+	
+	cairo_status_t res = cairo_surface_status(cs);
+	const char *ret;
+	ret = cairo_status_to_string (res);
+	if (res != CAIRO_STATUS_SUCCESS) {
+		g_object_unref (layout);
+		pango_font_description_free (font_description);
+		cairo_surface_destroy(cs);
+		cairo_destroy(c);
+		fprintf(stderr, "Cairo : %s\n", ret);
+		exit (EXIT_FAILURE);
+	}
 	
 	g_object_unref (layout);
 	pango_font_description_free (font_description);
@@ -211,18 +247,19 @@ int main(int argc, char **argv) {
 		return 0;
 	}
 	
-	char *lvalue = "hello wallpaer!"; /* the cli string that appears in image */
+	char *lvalue = "hello wallpaper!"; /* the cli string that appears in image */
 	char *nvalue = "foo"; /* image name */
 	char *fvalue = "Sans"; /* font */
 	char *pvalue = "svg";
 	char *wvalue = "notwoof"; /* used for woof */
 	char *zvalue = NULL; /* fp colour */
+	char *kvalue = "no";
 	double ovalue = 0.65;
 	int avalue = 10;
 	int width = 200; int height = 60;
 	int font_size = 20;
 	int c;
-	while ((c = getopt (argc, argv, "l:n:f:p:x:y:w:z:o:a:s::")) != -1) {
+	while ((c = getopt (argc, argv, "l:n:f:p:x:y:w:z:o:a:k:s:")) != -1) {
 		switch (c)
 		{
 			case 'l':
@@ -255,6 +292,9 @@ int main(int argc, char **argv) {
 			case 'a':
 				avalue = atoi(optarg);
 				break;
+			case 'k':
+				kvalue = optarg;
+				break;
 			case 's':
 				font_size = atoi(optarg);
 				break;
@@ -268,7 +308,7 @@ int main(int argc, char **argv) {
 		return 1;
 	}
 	paint_img(lvalue, nvalue, fvalue, pvalue,
-						width, height, zvalue, font_size, wvalue, ovalue, avalue);
+						width, height, zvalue, font_size, wvalue, ovalue, avalue, kvalue);
 	return 0;
 }
 

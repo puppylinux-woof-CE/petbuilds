@@ -1,0 +1,365 @@
+diff -Naur util-linux-2.21.2/help.log util-linux-2.21.2-patched_f2fs/help.log
+--- util-linux-2.21.2/help.log	1970-01-01 08:00:00.000000000 +0800
++++ util-linux-2.21.2-patched_f2fs/help.log	2013-02-22 09:59:19.000000000 +0800
+@@ -0,0 +1,185 @@
++`configure' configures util-linux 2.21.2 to adapt to many kinds of systems.
++
++Usage: ./configure [OPTION]... [VAR=VALUE]...
++
++To assign environment variables (e.g., CC, CFLAGS...), specify them as
++VAR=VALUE.  See below for descriptions of some of the useful variables.
++
++Defaults for the options are specified in brackets.
++
++Configuration:
++  -h, --help              display this help and exit
++      --help=short        display options specific to this package
++      --help=recursive    display the short help of all the included packages
++  -V, --version           display version information and exit
++  -q, --quiet, --silent   do not print `checking ...' messages
++      --cache-file=FILE   cache test results in FILE [disabled]
++  -C, --config-cache      alias for `--cache-file=config.cache'
++  -n, --no-create         do not create output files
++      --srcdir=DIR        find the sources in DIR [configure dir or `..']
++
++Installation directories:
++  --prefix=PREFIX         install architecture-independent files in PREFIX
++                          [/usr]
++  --exec-prefix=EPREFIX   install architecture-dependent files in EPREFIX
++                          [PREFIX]
++
++By default, `make install' will install all the files in
++`/usr/bin', `/usr/lib' etc.  You can specify
++an installation prefix other than `/usr' using `--prefix',
++for instance `--prefix=$HOME'.
++
++For better control, use the options below.
++
++Fine tuning of the installation directories:
++  --bindir=DIR            user executables [EPREFIX/bin]
++  --sbindir=DIR           system admin executables [EPREFIX/sbin]
++  --libexecdir=DIR        program executables [EPREFIX/libexec]
++  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc]
++  --sharedstatedir=DIR    modifiable architecture-independent data [PREFIX/com]
++  --localstatedir=DIR     modifiable single-machine data [PREFIX/var]
++  --libdir=DIR            object code libraries [EPREFIX/lib]
++  --includedir=DIR        C header files [PREFIX/include]
++  --oldincludedir=DIR     C header files for non-gcc [/usr/include]
++  --datarootdir=DIR       read-only arch.-independent data root [PREFIX/share]
++  --datadir=DIR           read-only architecture-independent data [DATAROOTDIR]
++  --infodir=DIR           info documentation [DATAROOTDIR/info]
++  --localedir=DIR         locale-dependent data [DATAROOTDIR/locale]
++  --mandir=DIR            man documentation [DATAROOTDIR/man]
++  --docdir=DIR            documentation root [DATAROOTDIR/doc/util-linux]
++  --htmldir=DIR           html documentation [DOCDIR]
++  --dvidir=DIR            dvi documentation [DOCDIR]
++  --pdfdir=DIR            pdf documentation [DOCDIR]
++  --psdir=DIR             ps documentation [DOCDIR]
++
++Program names:
++  --program-prefix=PREFIX            prepend PREFIX to installed program names
++  --program-suffix=SUFFIX            append SUFFIX to installed program names
++  --program-transform-name=PROGRAM   run sed PROGRAM on installed program names
++
++System types:
++  --build=BUILD     configure for building on BUILD [guessed]
++  --host=HOST       cross-compile to build programs to run on HOST [BUILD]
++
++Optional Features:
++  --disable-option-checking  ignore unrecognized --enable/--with options
++  --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
++  --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
++  --enable-silent-rules          less verbose build output (undo: `make V=1')
++  --disable-silent-rules         verbose build output (undo: `make V=0')
++  --disable-dependency-tracking  speeds up one-time build
++  --enable-dependency-tracking   do not reject slow dependency extractors
++  --enable-shared[=PKGS]  build shared libraries [default=yes]
++  --enable-static[=PKGS]  build static libraries [default=yes]
++  --enable-fast-install[=PKGS]
++                          optimize for fast installation [default=yes]
++  --disable-libtool-lock  avoid locking (might break parallel builds)
++  --enable-gtk-doc        use gtk-doc to build documentation [[default=no]]
++  --disable-largefile     omit support for large files
++  --disable-nls           do not use Native Language Support
++  --disable-rpath         do not hardcode runtime library paths
++  --enable-static-programs=LIST
++                          link static the programs in LIST (comma-separated,
++                          supported for losetup, mount, umount, fdisk, sfdisk,
++                          blkid)
++  --disable-tls           disable use of thread local support
++  --enable-most-builds    build everthing other than experimental code
++  --disable-libuuid       do not build libuuid and uuid utilities
++  --disable-libblkid      do not build libblkid and many related utilities
++  --disable-libmount      do not build libmount
++  --disable-mount         do not build mount utilities
++  --disable-losetup       do not build losetup
++  --enable-libmount-mount link old mount(8) with libmount
++  --enable-new-mount      build new pure libmount based mount(8)
++                          (EXPERIMENTAL)
++  --disable-fsck          do not build fsck
++  --disable-partx         do not build addpart, delpart, partx
++  --disable-uuidd         do not build the uuid daemon
++  --disable-mountpoint    do not build mountpoint
++  --disable-fallocate     do not build fallocate
++  --disable-unshare       do not build unshare
++  --enable-arch           do build arch
++  --enable-ddate          do build ddate
++  --disable-agetty        do not build agetty
++  --disable-cramfs        do not build fsck.cramfs, mkfs.cramfs
++  --disable-switch_root   do not build switch_root
++  --disable-pivot_root    do not build pivot_root
++  --enable-elvtune        build elvtune (only works with 2.2 and 2.4 kernels)
++  --disable-kill          do not build kill
++  --enable-last           build last
++  --enable-line           build line
++  --enable-mesg           build mesg
++  --enable-raw            build raw
++  --disable-rename        do not build rename
++  --enable-reset          build reset
++  --enable-login-utils    build chfn, chsh, login, newgrp, vipw
++  --disable-schedutils    do not build chrt, ionice, teskset
++  --disable-wall          do not build wall
++  --enable-write          build write
++  --disable-chsh-only-listed
++                          chsh: allow shells not in /etc/shells
++  --enable-login-chown-vcs
++                          let login chown /dev/vcsN
++  --enable-login-stat-mail
++                          let login stat() the mailbox
++  --disable-pg-bell       let pg not ring the bell on invalid keys
++  --disable-require-password
++                          do not require the user to enter the password in
++                          chfn and chsh
++  --enable-fs-paths-default=paths
++                          default search path for fs helpers
++                          [/sbin:/sbin/fs.d:/sbin/fs]
++  --enable-fs-paths-extra=paths
++                          additional search paths for fs helpers
++  --disable-use-tty-group do not install wall and write setgid tty
++  --disable-makeinstall-chown
++                          do not do chown-like operations during "make
++                          install"
++  --disable-makeinstall-setuid
++                          do not do setuid chmod operations during "make
++                          install"
++
++Optional Packages:
++  --with-PACKAGE[=ARG]    use PACKAGE [ARG=yes]
++  --without-PACKAGE       do not use PACKAGE (same as --with-PACKAGE=no)
++  --with-pic              try to use only PIC/non-PIC objects [default=use
++                          both]
++  --with-gnu-ld           assume the C compiler uses GNU ld [default=no]
++  --with-sysroot=DIR Search for dependent libraries within DIR
++                        (or the compiler's sysroot if not specified).
++  --with-html-dir=PATH    path to installed docs
++  --with-gnu-ld           assume the C compiler uses GNU ld default=no
++  --with-libiconv-prefix[=DIR]  search for libiconv in DIR/include and DIR/lib
++  --without-libiconv-prefix     don't search for libiconv in includedir and libdir
++  --with-libintl-prefix[=DIR]  search for libintl in DIR/include and DIR/lib
++  --without-libintl-prefix     don't search for libintl in includedir and libdir
++  --with-selinux          compile with SELinux support
++  --with-audit            compile with audit support
++  --without-udev          compile without udev support
++  --with-ncurses          build with non-wide ncurses, default is wide version
++                          (--without-ncurses disables all ncurses(w) support)
++  --with-slang            compile cfdisk with slang
++  --with-utempter         compile script(1) with libutempter
++
++Some influential environment variables:
++  CC          C compiler command
++  CFLAGS      C compiler flags
++  LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
++              nonstandard directory <lib dir>
++  LIBS        libraries to pass to the linker, e.g. -l<library>
++  CPPFLAGS    (Objective) C/C++ preprocessor flags, e.g. -I<include dir> if
++              you have headers in a nonstandard directory <include dir>
++  CPP         C preprocessor
++  PKG_CONFIG  path to pkg-config utility
++  PKG_CONFIG_PATH
++              directories to add to pkg-config's search path
++  PKG_CONFIG_LIBDIR
++              path overriding pkg-config's built-in search path
++  SUID_CFLAGS CFLAGS used for binaries which are usually with the suid bit
++  SUID_LDFLAGS
++              LDFLAGS used for binaries which are usually with the suid bit
++
++Use these variables to override the choices made by `configure' or to help
++it to find libraries and programs with nonstandard names/locations.
++
++Report bugs to <kzak@redhat.com>.
+diff -Naur util-linux-2.21.2/libblkid/docs/version.xml util-linux-2.21.2-patched_f2fs/libblkid/docs/version.xml
+--- util-linux-2.21.2/libblkid/docs/version.xml	2012-05-25 18:31:25.000000000 +0800
++++ util-linux-2.21.2-patched_f2fs/libblkid/docs/version.xml	1970-01-01 08:00:00.000000000 +0800
+@@ -1 +0,0 @@
+-2.21.2
+diff -Naur util-linux-2.21.2/libblkid/src/superblocks/f2fs.c util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/f2fs.c
+--- util-linux-2.21.2/libblkid/src/superblocks/f2fs.c	1970-01-01 08:00:00.000000000 +0800
++++ util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/f2fs.c	2013-02-22 09:36:52.000000000 +0800
+@@ -0,0 +1,99 @@
++/*
++ * Copyright (C) 2013 Alejandro Martinez Ruiz <alex@nowcomputing.com>
++ *
++ * This file may be redistributed under the terms of the
++ * GNU Lesser General Public License
++ */
++
++#include <stddef.h>
++#include <string.h>
++
++#include "superblocks.h"
++
++#define F2FS_MAGIC		"\x10\x20\xF5\xF2"
++#define F2FS_MAGIC_OFF		0
++#define F2FS_UUID_SIZE		16
++#define F2FS_LABEL_SIZE		512
++#define F2FS_SB1_OFF		0x400
++#define F2FS_SB1_KBOFF		(F2FS_SB1_OFF >> 10)
++#define F2FS_SB2_OFF		0x1400
++#define F2FS_SB2_KBOFF		(F2FS_SB2_OFF >> 10)
++
++struct f2fs_super_block {					/* According to version 1.1 */
++/* 0x00 */	uint32_t	magic;				/* Magic Number */
++/* 0x04 */	uint16_t	major_ver;			/* Major Version */
++/* 0x06 */	uint16_t	minor_ver;			/* Minor Version */
++/* 0x08 */	uint32_t	log_sectorsize;			/* log2 sector size in bytes */
++/* 0x0C */	uint32_t	log_sectors_per_block;		/* log2 # of sectors per block */
++/* 0x10 */	uint32_t	log_blocksize;			/* log2 block size in bytes */
++/* 0x14 */	uint32_t	log_blocks_per_seg;		/* log2 # of blocks per segment */
++/* 0x18 */	uint32_t	segs_per_sec;			/* # of segments per section */
++/* 0x1C */	uint32_t	secs_per_zone;			/* # of sections per zone */
++/* 0x20 */	uint32_t	checksum_offset;		/* checksum offset inside super block */
++/* 0x24 */	uint64_t	block_count;			/* total # of user blocks */
++/* 0x2C */	uint32_t	section_count;			/* total # of sections */
++/* 0x30 */	uint32_t	segment_count;			/* total # of segments */
++/* 0x34 */	uint32_t	segment_count_ckpt;		/* # of segments for checkpoint */
++/* 0x38 */	uint32_t	segment_count_sit;		/* # of segments for SIT */
++/* 0x3C */	uint32_t	segment_count_nat;		/* # of segments for NAT */
++/* 0x40 */	uint32_t	segment_count_ssa;		/* # of segments for SSA */
++/* 0x44 */	uint32_t	segment_count_main;		/* # of segments for main area */
++/* 0x48 */	uint32_t	segment0_blkaddr;		/* start block address of segment 0 */
++/* 0x4C */	uint32_t	cp_blkaddr;			/* start block address of checkpoint */
++/* 0x50 */	uint32_t	sit_blkaddr;			/* start block address of SIT */
++/* 0x54 */	uint32_t	nat_blkaddr;			/* start block address of NAT */
++/* 0x58 */	uint32_t	ssa_blkaddr;			/* start block address of SSA */
++/* 0x5C */	uint32_t	main_blkaddr;			/* start block address of main area */
++/* 0x60 */	uint32_t	root_ino;			/* root inode number */
++/* 0x64 */	uint32_t	node_ino;			/* node inode number */
++/* 0x68 */	uint32_t	meta_ino;			/* meta inode number */
++/* 0x6C */	uint8_t		uuid[F2FS_UUID_SIZE];		/* 128-bit uuid for volume */
++/* 0x7C */	uint16_t	volume_name[F2FS_LABEL_SIZE];	/* volume name */
++#if 0
++/* 0x47C */	uint32_t	extension_count;		/* # of extensions below */
++/* 0x480 */	uint8_t		extension_list[64][8];		/* extension array */
++#endif
++} __attribute__((packed));
++
++static int probe_f2fs(blkid_probe pr, const struct blkid_idmag *mag)
++{
++	struct f2fs_super_block *sb;
++	uint16_t major, minor;
++
++	sb = blkid_probe_get_sb(pr, mag, struct f2fs_super_block);
++	if (!sb)
++		return -1;
++
++	major = le16_to_cpu(sb->major_ver);
++	minor = le16_to_cpu(sb->minor_ver);
++
++	/* For version 1.0 we cannot know the correct sb structure */
++	if (major == 1 && minor == 0)
++		return 0;
++
++	if (*((unsigned char *) sb->volume_name))
++		blkid_probe_set_utf8label(pr, (unsigned char *) sb->volume_name,
++						sizeof(sb->volume_name),
++						BLKID_ENC_UTF16LE);
++
++	blkid_probe_set_uuid(pr, sb->uuid);
++	blkid_probe_sprintf_version(pr, "%u.%u", major, minor);
++	return 0;
++}
++
++const struct blkid_idinfo f2fs_idinfo =
++{
++	.name           = "f2fs",
++	.usage          = BLKID_USAGE_FILESYSTEM,
++	.probefunc      = probe_f2fs,
++	.magics         =
++        {
++		{
++			.magic = F2FS_MAGIC,
++			.len = 4,
++			.kboff = F2FS_SB1_KBOFF,
++			.sboff = F2FS_MAGIC_OFF
++		},
++		{ NULL }
++	}
++};
+diff -Naur util-linux-2.21.2/libblkid/src/superblocks/Makefile.am util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/Makefile.am
+--- util-linux-2.21.2/libblkid/src/superblocks/Makefile.am	2012-05-25 17:44:58.000000000 +0800
++++ util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/Makefile.am	2013-02-22 09:32:21.000000000 +0800
+@@ -21,6 +21,7 @@
+ 			jfs.c \
+ 			xfs.c \
+ 			ext.c \
++			f2fs.c \
+ 			gfs.c \
+ 			ocfs.c \
+ 			reiserfs.c \
+diff -Naur util-linux-2.21.2/libblkid/src/superblocks/Makefile.in util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/Makefile.in
+--- util-linux-2.21.2/libblkid/src/superblocks/Makefile.in	2012-05-25 18:31:15.000000000 +0800
++++ util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/Makefile.in	2013-02-22 10:39:21.000000000 +0800
+@@ -59,7 +59,7 @@
+ am_libblkid_superblocks_la_OBJECTS = superblocks.lo cramfs.lo swap.lo \
+ 	adaptec_raid.lo ddf_raid.lo isw_raid.lo jmicron_raid.lo \
+ 	lsi_raid.lo nvidia_raid.lo promise_raid.lo silicon_raid.lo \
+-	via_raid.lo linux_raid.lo jfs.lo xfs.lo ext.lo gfs.lo ocfs.lo \
++	via_raid.lo linux_raid.lo jfs.lo xfs.lo ext.lo f2fs.lo gfs.lo ocfs.lo \
+ 	reiserfs.lo romfs.lo ntfs.lo hfs.lo iso9660.lo udf.lo vfat.lo \
+ 	luks.lo highpoint_raid.lo vxfs.lo minix.lo ufs.lo hpfs.lo \
+ 	squashfs.lo netware.lo sysv.lo btrfs.lo lvm.lo zfs.lo ubifs.lo \
+@@ -305,6 +305,7 @@
+ 			jfs.c \
+ 			xfs.c \
+ 			ext.c \
++			f2fs.c \
+ 			gfs.c \
+ 			ocfs.c \
+ 			reiserfs.c \
+@@ -397,6 +398,7 @@
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/drbdproxy_datalog.Plo@am__quote@
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/exfat.Plo@am__quote@
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/ext.Plo@am__quote@
++@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/f2fs.Plo@am__quote@
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/gfs.Plo@am__quote@
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/hfs.Plo@am__quote@
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/highpoint_raid.Plo@am__quote@
+diff -Naur util-linux-2.21.2/libblkid/src/superblocks/superblocks.c util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/superblocks.c
+--- util-linux-2.21.2/libblkid/src/superblocks/superblocks.c	2012-05-25 17:44:58.000000000 +0800
++++ util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/superblocks.c	2013-02-22 09:36:52.000000000 +0800
+@@ -139,7 +139,8 @@
+ 	&vmfs_fs_idinfo,
+ 	&befs_idinfo,
+ 	&nilfs2_idinfo,
+-	&exfat_idinfo
++	&exfat_idinfo,
++	&f2fs_idinfo
+ };
+ 
+ /*
+diff -Naur util-linux-2.21.2/libblkid/src/superblocks/superblocks.h util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/superblocks.h
+--- util-linux-2.21.2/libblkid/src/superblocks/superblocks.h	2012-05-15 19:51:45.000000000 +0800
++++ util-linux-2.21.2-patched_f2fs/libblkid/src/superblocks/superblocks.h	2013-02-22 10:21:24.000000000 +0800
+@@ -68,6 +68,7 @@
+ extern const struct blkid_idinfo befs_idinfo;
+ extern const struct blkid_idinfo nilfs2_idinfo;
+ extern const struct blkid_idinfo exfat_idinfo;
++extern const struct blkid_idinfo f2fs_idinfo;
+ 
+ /*
+  * superblock functions
+diff -Naur util-linux-2.21.2/libmount/docs/version.xml util-linux-2.21.2-patched_f2fs/libmount/docs/version.xml
+--- util-linux-2.21.2/libmount/docs/version.xml	2012-05-25 18:31:25.000000000 +0800
++++ util-linux-2.21.2-patched_f2fs/libmount/docs/version.xml	1970-01-01 08:00:00.000000000 +0800
+@@ -1 +0,0 @@
+-2.21.2

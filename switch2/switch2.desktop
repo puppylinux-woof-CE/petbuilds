@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GTK Theme Switch
+Comment=Theme Switch
+Exec=switch2
+Icon=/usr/share/pixmaps/puppy/puppy_theme.svg
+Terminal=false
+Type=Application
+Categories=X-Desktop-appearance
+StartupNotify=true

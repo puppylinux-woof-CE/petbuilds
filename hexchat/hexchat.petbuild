@@ -1,0 +1,56 @@
+# hexchat
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+
+. ../func
+. ../build.conf
+
+URL=https://dl.hexchat.net/hexchat
+PKG=hexchat
+VER=2.10.2
+COMP=tar.xz
+DESC="Graphical IRC chat client"
+DEPS=+gtk+,+openssl,+perl
+CAT=Internet
+DESKTOP=hexchat.desktop
+BUILD=
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
+
+ARCH=$(uname -m)
+case $ARCH in
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
+esac
+
+patch_me() {
+	for i in *.patch; do 
+		echo "applying $i"
+		patch -p0 --verbose < $i
+	done
+}
+
+build() {
+	cp -arf ${PKG}-template ${PKG}-install
+	cd ${PKG}-${VER}
+	./configure --prefix=/usr \
+				--localstatedir=/var \
+				--sysconfdir=/etc \
+				--libdir=/usr/${LIBDIR} \
+				--disable-python
+	[ "$?" -eq 0 ] || exit
+	make $MKFLG
+	[ "$?" -eq 0 ] || exit
+	make DESTDIR=$CWD/${PKG}-install install
+	cd -
+}
+	
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+patch_me
+build
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

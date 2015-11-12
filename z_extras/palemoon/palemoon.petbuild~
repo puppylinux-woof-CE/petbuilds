@@ -13,7 +13,7 @@ DESC="A lighter weight browser based on Firefox"
 DEPS=+gtk2+,+zlib
 CAT=Internet
 DESKTOP=palemoon.desktop
-BUILD=slk600_1
+BUILD=slk600
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 
@@ -32,10 +32,11 @@ extract_me() {
 
 build() {
 	cd ${PKG}-${VER}
-	chmod -R 777 .
+	chmod -R 755 .
 	#SPECIAL
 	mkdir obj
 	OPTIONS="\
+	--enable-official-branding \
 	--prefix=/usr \
 	--libdir=/usr/${LIBDIR} \
 	--with-default-mozilla-five-home=/usr/${LIBDIR}/${PKG}-${VER} \
@@ -49,7 +50,6 @@ build() {
 	--enable-logging \
 	--enable-xft \
 	--enable-webm \
-	--with-system-libvpx \
 	--enable-xinerama \
 	--enable-reorder \
 	--enable-strip \
@@ -70,9 +70,8 @@ build() {
 	--disable-profilesharing"
 	echo "mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/obj" > .mozconfig
 	echo "mk_add_options AUTOCONF=autoconf2.13" >> .mozconfig
-	echo "export MOZILLA_OFFICIAL=0" >> .mozconfig
+	echo "export MOZILLA_OFFICIAL=1" >> .mozconfig
 	for option in $OPTIONS; do echo "ac_add_options $option" >> .mozconfig; done
-	echo -e "export LDFLAGS=\"-Wl,--no-keep-memory -Wl,--reduce-memory-overheads\"" >> .mozconfig
 	
 	# build it
 	make -f client.mk build
@@ -98,19 +97,13 @@ package() {
 	cp -a --remove-destination ${DEVEL} ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/${LIBDIR}/
 	rm -r ${DEVEL}
 	#custom home page
-	#NOTE: added the useragent string too, but not needed if "official branding" is switched on
 	mkdir -p ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/${LIBDIR}/${PKG}-${VER}/browser/defaults/preferences
 	PREFDIR=./${PKG}-${VER}-${ARCH}_${BUILD}/usr/${LIBDIR}/${PKG}-${VER}/browser/defaults/preferences
 	cat > ${PREFDIR}/local-settings.js <<_EOF
 //
-//default home page and user agent
+//default home page
 pref("browser.startup.homepage", "data:text/plain,browser.startup.homepage=file:///usr/share/doc/home.htm");
-pref("general.useragent.compatMode.firefox", true);
-pref("browser.newtab.url", "about:home");
 _EOF
-	# in case icon failed... eg: unofficial branding
-	[ -f "./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/pixmaps/palemoon48.png" ] ||\
-		cp -a palemoon48.png ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/pixmaps/
 	#back to normal
 	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
 	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe

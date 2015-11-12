@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GtkLP CUPS administration
+Comment=CUPS printing and administration frontend
+Exec=gtklp
+Icon=gtklp.png
+Terminal=false
+Type=Application
+Categories=System;
+StartupNotify=true

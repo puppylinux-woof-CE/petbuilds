@@ -1,6 +1,6 @@
-diff -rupN ROX-Filer-orig/src/filer.c ROX-Filer/src/filer.c
---- ROX-Filer-orig/src/filer.c	2011-03-03 16:56:32.000000000 +0200
-+++ ROX-Filer/src/filer.c	2011-03-03 17:13:41.000000000 +0200
+diff -rupN rox-filer-2013.6/ROX-Filer-orig/src/filer.c rox-filer-2013.6-new/ROX-Filer/src/filer.c
+--- rox-filer-2013.6/ROX-Filer-orig/src/filer.c	2011-03-03 16:56:32.000000000 +0200
++++ rox-filer-2013.6-new/ROX-Filer/src/filer.c	2011-03-03 17:13:41.000000000 +0200
 @@ -1750,17 +1750,6 @@ static void filer_add_widgets(FilerWindo
  	
  	filer_window->toplevel_vbox = GTK_BOX(vbox);

@@ -8,7 +8,7 @@
 URL=http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-dev/
 PKG=ntpdate
 SRC_PKG=ntp-dev
-VER=4.3.71
+VER=4.3.77
 COMP=tar.gz
 DESC="ntpdate is a web centric time synchronisation tool"
 DEPS=
@@ -18,11 +18,14 @@ BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
+#[ -f "$DESKTOP" ] || DESKTOP=not
+#[ -z "$DEPS" ] && DEPS=not	
 
-ARCH=`uname -m`
+ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
- *) LIBDIR=lib ;;
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
 build() {
@@ -43,8 +46,8 @@ package() {
 	EXE=`find ${SRC_PKG}-${VER} -type f -name 'ntpdate'`
 	install -s -m 0755 $EXE ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin
 	# add this recipe
-	install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc
-	cat ${PKG}.petbuild > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
+	install -d -m 0755 ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/share/doc
+	cat ${PKG}.petbuild > ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/share/doc/$PKG-build-recipe
 	if [ "$DESKTOP" ];then
 		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
 		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP

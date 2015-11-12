@@ -7,7 +7,7 @@
 URL=http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1
 PKG=p7zip
 VER=9.20.1
-SRC=${PKG}_${VER}_src_all
+SRCVER=${PKG}_${VER}_src_all
 COMP=tar.bz2
 DESC="file archiver with the highest compression ratio"
 DEPS=
@@ -15,12 +15,12 @@ CAT=BuildingBlock
 DESKTOP=p7zip_9.20.1_src_all.tar.bz2.desktop
 BUILD=
 CWD=$(pwd)
-[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$MWD" ] && MWD=$(dirname $CWD)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
 
 ARCH=$(uname -m)
 case $ARCH in
- *64) LIBDIR=lib64 ;;
+ #*64) LIBDIR=lib64 ;;
  *) LIBDIR=lib ;;
 esac
 
@@ -57,7 +57,8 @@ EOF
 package() {
 	# add this recipe
 	mv ${PKG}-install ${PKG}-${VER}-${ARCH}_${BUILD}
-	cat ${PKG}.petbuild > ${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/doc/${PKG}-build-recipe
+	install -d -m 0755 ${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev
+	cat ${PKG}.petbuild > ${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev/${PKG}-build-recipe
 	for p in $(ls|grep "\-${ARCH}"|grep -v "files$") ; do
 		case $p in
 			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
@@ -76,7 +77,7 @@ package() {
 }
 
 # main
-retrieve ${SRC}.${COMP}
-extract ${SRC}.${COMP}
+retrieve ${SRCVER}.${COMP}
+extract ${SRCVER}.${COMP}
 build
 package	

@@ -14,12 +14,13 @@
 #include <limits.h>
 #include <signal.h>
 
-#define _VERSION "0.9"
+#define _VERSION "0.10"
 #define _PROGNAME "gtksplash" 
 
 /* declarations */
 static void display_window(gchar *mystring, gchar *mycolor, gchar *fcolor, 
-					gchar *position, gchar *font, gchar *deco, gchar *icon);
+									gchar *position, gchar *font, gchar *deco, 
+									gchar *title, gchar *icon);
 static void usage();
 static gint get_width();
 static gint get_height();
@@ -33,7 +34,8 @@ static void sig_handler(gint signo);
 
 /* build the window */
 static void display_window(gchar *mystring, gchar *mycolor, gchar *fcolor, 
-					gchar *position, gchar *font, gchar *deco, gchar *icon) {
+									gchar *position, gchar *font, gchar *deco, 
+									gchar *title, gchar *icon) {
 	GtkWidget *window;
 	GtkWidget *label;
 	GtkWidget *ibox; /* vbox is needed to get some vertical padding */
@@ -156,6 +158,7 @@ static void display_window(gchar *mystring, gchar *mycolor, gchar *fcolor,
 		gtk_window_set_resizable(GTK_WINDOW(window), FALSE);
 	} else
 		gtk_window_set_decorated(GTK_WINDOW(window), FALSE);
+	gtk_window_set_title(GTK_WINDOW(window), (const gchar *)title);
 	gtk_window_set_keep_above(GTK_WINDOW(window), TRUE);
  	gtk_window_set_skip_taskbar_hint(GTK_WINDOW(window), TRUE);
 	gtk_widget_show(window);
@@ -174,6 +177,8 @@ static void usage() {
 			"'c' (centre of display - default)\n"
 			"\t -f 'font' : a ttf font with size, default is \"Sans 16\"\n"
 			"\t -d 'yes' : have the window decorated\n"
+			"\t -w 'title' : a title for the window; useful with the '-d' "
+			"option.\n"
 			"\t -i '/path/to/icon' : an svg|png|gif icon. No default.\n"
 			"\t\t OR a stock GTK icon - eg: \"gtk-apply\"\n\n"
 			"\tThe splash window can be dismissed by clicking on it.\n",
@@ -261,6 +266,14 @@ int main(int argc, char **argv) {
 		usage();
 		return 1;
 	}
+	switch (argv[1][1]) { /* help */
+		case '-':
+			usage();
+			return 0;
+		case 'h':
+			usage();
+			return 0;
+	}
 	gchar sval[512] = "Hello World!"; /* default */
 	gchar cval[32] = "slate gray"; /* default colour */
 	gchar kval[32] = "black"; /* default font colour */
@@ -268,9 +281,10 @@ int main(int argc, char **argv) {
 	gchar pval[6] = "c"; /* default position */
 	gchar fval[32] = "Sans 16"; /* default font */
 	gchar dval[32] = "no"; /* default deco */
+	gchar wval[12] = _PROGNAME; /* default title */
 	gchar ival[PATH_MAX] = "none";
 	gint c;
-	while ((c = getopt (argc, argv, "c:k:s:t:p:f:d:i:")) != -1) {
+	while ((c = getopt (argc, argv, "c:k:s:t:p:f:d:i:w:")) != -1) {
 		switch (c)
 		{
 			case 'c':
@@ -307,6 +321,13 @@ int main(int argc, char **argv) {
 			case 'd':
 				g_stpcpy(dval, optarg);
 				break;	
+			case 'w':
+				if (strlen(optarg) > 12) { 
+					g_printf("Error: Your title is too long\n");
+					return 1;
+				}
+				g_stpcpy(wval, optarg);
+				break;
 			case 'i':
 				g_stpcpy(ival, optarg);
 				break;	
@@ -317,7 +338,7 @@ int main(int argc, char **argv) {
 	if (signal(SIGINT, sig_handler) == SIG_ERR)
 		g_printf("\ncan't catch SIGINT\n");
 	gtk_init(&argc, &argv);
-	display_window(sval, cval, kval, pval, fval, dval, ival);
+	display_window(sval, cval, kval, pval, fval, dval, wval, ival);
 	if (tval != 1000){
 		g_timeout_add_seconds(tval, timeout_quit, NULL);
     }

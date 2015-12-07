@@ -147,12 +147,14 @@ f0782040612c69d46bff3139c5cc1557  wvstreams-4.6.1.tar.bz2
 0273bcc6779e5aec3ad4dfff17f45c56  x264-20131101-2245.tar.bz2
 a76308bf3b2588a2075c44cacb80da85  xarchive-0.2.8-6-i18n.tar.gz
 1b4cd37a6af03afc957a8e307417e8d0  xarchiver-0.5.4.tar.bz2
+f7e19d3e976fecdc1ea36cd39e39900d  xclip-0.12.tar.gz
 73baa34fb2b7a7bb8a5e8a1ad2a36a55  xdelta-30p.tar.bz2
 9951564c230e79f39035c89b8e582ba8  Xdialog-2015.08.tar.bz2
+62d0c2158bbaf882a1cf580421437b2f  xdotool-2.20110530.1.tar.gz
 989d1520ad6b4c89733827df06f47793  xfdiff-cut-4.5.0.tar.bz2
 59fc645f21cf1859b6792131c07caa96  xinvaders3d-1.3.6.src.tar.gz
 815c7db7d37b739a3b92a477604dc172  xlockmore-5.31-patched.tar.gz
 ef8e893468a326ee636d30239a588f77  xsane-0.997-patched.tar.gz
 f76c2e5465a1a2aca2286415b13b01a4  xsoldier-1.8.tar.gz
 f0a77572ac4694038e8519726b2883d9  xvidcore-1.3.3.tar.bz2
-56afe2aae7983176fd804c264740d6a2  mirdir-2.1-Unix.tar.gz
+2f0b5c91b701ea548883607d7b0ad8ec  xvkbd-3.7.tar.gz

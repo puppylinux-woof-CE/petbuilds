@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# starter script so we have some delay
+
+sleep 2
+
+x-key-status &

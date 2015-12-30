@@ -91,7 +91,9 @@ b90ab6e62ff089b972e79ed75c0d060a  live.2015.11.09.tar.gz
 2a75ad6487ff271424ffc00a64420990  mingetty-1.08.tar.gz
 67c9e91285bc3801fd91a5d26ea775d7  minidlna-1.1.4.tar.gz
 4465f654b7d35d0907b334060a09b615  minixcal-1.1.1.tar.gz
+56afe2aae7983176fd804c264740d6a2  mirdir-2.1-Unix.tar.gz
 9f766965ba61125c99d7102452af591f  mm-common-0.9.3.tar.bz2
+8e57037fe955f9e203fbece9e8a9714c  modem-stats-1.0.1.src.elf.tar.bz2
 39dd55f30eb5403f219a606e79a6648a  MPlayer-1.1.1.tar.xz
 f020d7267574407739a146a7d4044795  mpscan-0.1.0-kirk.tar.gz
 48be0777e32f374d387e9cf85e36ec4d  musl-1.1.11.tar.gz
@@ -131,7 +133,9 @@ e050583b7444e1d31f6f48c0d39a7108  sylpheed-3.4.3.tar.gz
 2aff84c29a3c4b51ac5682a89d96bda5  transmission-2.60.tar.xz
 07167658fb48e2901dc3a3a025971b6d  truncate-0.1.tar.gz
 f323fe700edd6ea404c40934ddf32b22  usb-modeswitch-2.2.0.tar.bz2
+ea050e3b44a2b7aa805619042f5448df  usb-modeswitch-2.2.6.tar.bz2
 dff94177781298aaf0b3c2a3c3dea6b2  usb-modeswitch-data-20140529.tar.bz2
+21af977bfc4e7a705d318e88d7a63494  usb-modeswitch-data-20151101.tar.bz2
 c9df5107ae9d26b10a1736a261250139  usbutils-007.tar.xz
 54ba880f1d66782c2287ee2c898520e9  util-linux-2.21.2.tar.xz
 3f191727a0d28f7204b755cf1b6ea0aa  util-linux-2.24.2.tar.xz

@@ -35,6 +35,9 @@ patch_me() {
 
 build() {
 	cd ${PKG}-${VER}
+	PCFLAGS="-fPIC -fpermissive -fno-strict-aliasing -fno-tree-dce -fno-optimize-sibling-calls"
+	CFLAGS="$PCFLAGS" \
+	CXXFLAGS="$PCFLAGS" \
 	./configure --prefix=/usr \
 				--localstatedir=/var \
 				--sysconfdir=/etc \

@@ -31,11 +31,13 @@ build() {
 	./configure --prefix=/usr
 	[ "$?" -eq 0 ] || exit
 	# patch Makefile config.defaults.mk
-	sed -i -e 's%prefix\=\/usr\/local%prefix=\${DESTDIR}\/usr%' -e 's%PPPDIR=\/etc\/ppp\/peers%PPPDIR=\${DESTDIR}\/etc\/ppp\/peers%' Makefile
+	sed -i -e 's%prefix\=\/usr\/local%prefix=\${DESTDIR}\/usr%' -e 's%PPPDIR=\/etc\/ppp\/peers%PPPDIR=\${DESTDIR}\/etc\/ppp%' Makefile
 	sed -i -e 's%prefix\=\/usr\/local%prefix=\${DESTDIR}\/usr%' config.defaults.mk
 	make
 	[ "$?" -eq 0 ] || exit
 	make DESTDIR=$CWD/${PKG}-install install
+	install -d -m 0755 $CWD/${PKG}-install/etc/ppp/peers
+	install -m 0644 $CWD/READMEwvdial.txt $CWD/${PKG}-install/etc/ppp/READMEwvdial.txt
 	cd -
 }
 	

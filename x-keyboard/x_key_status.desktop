@@ -1,0 +1,5 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=xkey_status
+Exec=x_key_status_start
+NoDisplay=true

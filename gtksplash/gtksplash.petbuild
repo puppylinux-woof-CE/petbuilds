@@ -1,16 +1,16 @@
-# mkwallpaper
+# gtksplash
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
 . ../func
 . ../build.conf
 
 #URL=http://distro.ibiblio.org/puppylinux/sources/m
-PKG=mkwallpaper
-VER=0.6
+PKG=gtksplash
+VER=0.10
 #COMP=tar.gz
-DESC="custom simple puppy wallpapers"
+DESC="display spash notifications"
 DEPS=
-CAT=Graphics
+CAT=Desktop
 DESKTOP=
 BUILD=
 CWD=$(pwd)

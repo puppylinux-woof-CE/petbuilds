@@ -1,0 +1,12 @@
+#!/bin/sh
+
+MAXX=`xwininfo -root|grep Width|awk '{print $2}'`
+MAXY=`xwininfo -root|grep Height|awk '{print $2}'`
+GEO=$((3*($MAXX/4)))x$(($MAXY/4))+$((($MAXX/2)-(3*$MAXX/8)))+$(($MAXY-($MAXY/5)-64))
+echo $GEO
+if which cellwriter 2>/dev/null ;then
+	cellwriter --keyboard-only  --dock-window=1 &
+else
+	[ $MAXX -gt $MAXY ] OPT2= || OPT2=-no-keypad
+	xvkbd -geometry $GEO -always-on-top  $OPT2 &
+fi

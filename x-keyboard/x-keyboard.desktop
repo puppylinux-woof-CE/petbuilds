@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=X Virtual Keyboard
+Icon=/usr/share/pixmaps/puppy/keyboard.svg
+Comment=X Virtual Keyboard
+Exec=x-keyboard
+Terminal=false
+Type=Application
+Categories=Utility;
+GenericName=X Virtual Keyboard
+NoDisplay=true

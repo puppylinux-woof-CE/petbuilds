@@ -32,7 +32,9 @@ fdd779c678d16a7949ee66287d242606  fpm2-0.75.tar.bz2
 a7a333cc4c321507434fe3f8e48fcd0a  galculator-2.1.3.tar.bz2
 223a126b8a87234d1552be4be4140789  gcolor2-0.4.tar.bz2
 888bd82d62759ac47a4a398fb27c8471  geany-1.25.tar.bz2
+bd457caba57099cfa23b063e78b6f819  geany-1.26.tar.bz2
 91f32224ab7a1eb8d05bf6cde5743427  geany-plugins-1.25.tar.bz2
+024aa0b95a038188cb467dbada5a1bf5  geany-plugins-1.26.tar.bz2
 2d19fb52830908374194f56f814fc854  gecko-mediaplayer-1.0.9b.tar.gz
 4e32df9cf0c5b48a020682f6857a3f52  getcurpos-0.1.tar.bz2
 1159779a51f06fe2014186797aeb1a1c  gexec-0.4-patched1.tar.gz
@@ -41,6 +43,7 @@ b9137e01c0065a67b0e0633efd73f7e4  gmeasures-0.7.tar.gz
 c3c08ece3741eb72f815ebe6b802ed34  gmtk-1.0.9b.tar.gz
 9926e7ad14255d1a08c7e774052f8a3a  gnome-menus-2.14.3.tar.bz2
 03321c6f9ed50f7215143e672cfc4e24  gnome-mplayer-1.0.9b.tar.gz
+cf3ab66d8860f1ab583d90fcd14637fe  gnumeric-1.10.16.tar.xz
 ee824d9656a271957d949b8769341f40  gnumeric-1.10.17.tar.xz
 e2bc2d2f51220d6883f0797d74c385b8  goffice-0.8.17.tar.xz
 5901dca33ced32213cccb13a2713dea8  gparted-0.23.0.tar.bz2
@@ -51,12 +54,14 @@ e144e4662ebe4ca5091df37352b82d28  gtkdialog-0.8.4.tar.xz
 822b04c9eba65aa14c1d6fd4a3454a37  gtklp-1.2.9.src.tar.gz
 388a63ffc40cc8e208df9a1732a67d2d  gtkmm-2.24.2.tar.xz
 1219ad1694df136f126507466aeb41aa  gtksourceview-2.10.5.tar.bz2
+f75dcc9338f182c571b321d37c606a94  gtkspell-2.0.16.tar.gz
 0b182bfd8e7ed3317269f38f06c92d9b  guess_fs-20140626.tar.gz
 7c94c714ebedbfa2db2d645cc4a4092a  gxmessage-2.12.4.tar.gz
 678635b90df183cb0800cc6ced888efe  hardinfo-5.2-i18n.tar.bz2
 c8e7477ac941295deaeb1732591ab20b  hexchat-2.10.2.tar.xz
 86f010309d064c44e9150ba4dd75a2da  hotplug2stdout-1.2.2.tar.gz
 e768b9b55c033d9c1dffda72db3a6ac7  htop-1.0.3.tar.gz
+06f76c7d644ce8ae611c9feb10439a30  htop-2.0.0.tar.gz
 4967da60b23413604c9e563beacc63b4  hunspell-1.3.3.tar.gz
 dda519a078d0dae4ab94b3a4998b3835  ifplugd-0.28.tar.bz2
 d1d0bf04ad04cb13596af195eb4b34af  inkscapelite-0.36.3_patched-glib.tar.xz
@@ -70,8 +75,11 @@ d39acdf4d31de309d484511bdc9f5924  leafpad-0.8.17.tar.gz
 443d0638e51054ff37fb8e551e07672a  libdc1394-2.2.3.tar.gz
 f895162161cfa4bb4a94c070a7caa6c7  libdv-1.0.0.tar.gz
 53cfc52a60a156763c425572e5179273  libdvdcss-1.2.13.tar.bz2
+7f0fdb3ff91d638f5e45ed7536f7eb67  libdvdcss-1.3.0.tar.bz2
 53be8903f9802e101929a3451203bbf6  libdvdnav-4.2.0.tar.bz2
+7af73e8606c7b91bd986ef1b9d6bcb24  libdvdnav-5.0.0.tar.bz2
 602bca4ef78d79aa87e5e8920d958a78  libdvdplay-1.0.1.tar.bz2
+20b964a3fb290b8df45c6b25d37411de  libdvdread-5.0.0.tar.bz2
 777fe42272a3ef49fb65a4b62109731c  libexif-gtk-0.4.0.tar.bz2
 ffcbb719c671ff5cd86e59aeba8d0b92  libgnomecanvas-2.30.3.tar.bz2
 dc4920c15c9f886f73ea74fbff0ae48b  libgnomecups-0.2.3.tar.bz2
@@ -95,6 +103,7 @@ b90ab6e62ff089b972e79ed75c0d060a  live.2015.11.09.tar.gz
 9f766965ba61125c99d7102452af591f  mm-common-0.9.3.tar.bz2
 8e57037fe955f9e203fbece9e8a9714c  modem-stats-1.0.1.src.elf.tar.bz2
 39dd55f30eb5403f219a606e79a6648a  MPlayer-1.1.1.tar.xz
+e8a4d77ad4f509e81dd5e13b51636c1d  MPlayer-1.3.0.tar.xz
 f020d7267574407739a146a7d4044795  mpscan-0.1.0-kirk.tar.gz
 48be0777e32f374d387e9cf85e36ec4d  musl-1.1.11.tar.gz
 ec21e504d27acb2a0f049c7421ace462  nbtscan-source-1.0.35.tgz
@@ -113,6 +122,8 @@ f4fe0905ee56e1ff0205005e61d2a66f  pangomm-2.28.4.tar.xz
 6c3b70165c2dee9341a81a2a8481e446  parcellite-1.1.9.tar.gz
 99b68e990012b2f58c184b8ba9e4fb4d  pipepanic-0.1.3-source.tar.gz
 17b503a5cd413e8ced1d460e4e8d17e3  pmcputemp-0.50.tar.xz
+fb6bbdb32e6af5c2d2980a32ac4ea051  qemu-2.3.1.tar.bz2
+a895e93ec1dafc34bc64ed676f0d55a6  qemu-2.4.1.tar.bz2
 f3a2a05dd4d4af928ce17985e2617bc1  QupZilla-1.8.6.tar.xz
 6bb5a37d2e04f4067cb2b1d72f6ec7af  retrovol-14.1-1.tar.bz2
 4e54f732edd04f7ac9780cc127eed8cc  rox-filer-2015.02.tar.bz2
@@ -120,6 +131,7 @@ d58a13cc4185bca6121a606ff456dec0  rp-pppoe-3.10.tar.gz
 eb961f31cd55f0acf5aad1a7b900ef59  rtmpdump-2.3.tgz
 76346b49b67dd7ade0f69b4ae77e3f3a  rubix-1.0.6.tar.bz2
 a9a06c608258c5fd247c3725d8f44582  rxvt-unicode-9.21.tar.bz2
+93782dec27494eb079467dacf6e48185  rxvt-unicode-9.22.tar.bz2
 856f6bb5c90734b949a6ad832c5dfbb2  samba-4.1.20.tar.gz
 be586a23633949cf2ecf0c9c6d769130  sane-backends-1.0.21.tar.gz
 da6af08e564ca1157348fb8d92efc891  schroedinger-1.0.11.tar.gz
@@ -129,6 +141,7 @@ d92ab59aabf5173f2a59089531e30dbf  squashfs4.3.tar.gz
 a37a1a8b8f9228522196a122a1c2dd32  streamripper-1.64.6.tar.gz
 7cc0f000f39328c34f87663c3542edd6  switch2-2.1.0.tar.gz
 e050583b7444e1d31f6f48c0d39a7108  sylpheed-3.4.3.tar.gz
+6dfd643057b9cd016c07df4de5677209  sylpheed-3.5.0.tar.gz
 665f6568cdd4987f916a32307cd64fa2  sysvinit-2.86.tar.gz
 2aff84c29a3c4b51ac5682a89d96bda5  transmission-2.60.tar.xz
 07167658fb48e2901dc3a3a025971b6d  truncate-0.1.tar.gz
@@ -155,6 +168,7 @@ f7e19d3e976fecdc1ea36cd39e39900d  xclip-0.12.tar.gz
 73baa34fb2b7a7bb8a5e8a1ad2a36a55  xdelta-30p.tar.bz2
 9951564c230e79f39035c89b8e582ba8  Xdialog-2015.08.tar.bz2
 62d0c2158bbaf882a1cf580421437b2f  xdotool-2.20110530.1.tar.gz
+3931c0e19d441cc576dc088f9eb9fd73  xf86-video-fbdev-0.4.4.tar.bz2
 989d1520ad6b4c89733827df06f47793  xfdiff-cut-4.5.0.tar.bz2
 59fc645f21cf1859b6792131c07caa96  xinvaders3d-1.3.6.src.tar.gz
 815c7db7d37b739a3b92a477604dc172  xlockmore-5.31-patched.tar.gz

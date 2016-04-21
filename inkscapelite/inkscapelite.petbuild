@@ -6,7 +6,7 @@
 
 URL=http://distro.ibiblio.org/puppylinux/sources/i/
 PKG=inkscapelite
-VER=0.36.3_patched-glib
+VER=0.36.3_patched-glib-rulers
 COMP=tar.xz
 DESC="Light weight vector graphics editor"
 DEPS=+freetype2,+pango,+libxml2,+gtk+2,+cairo,+libpng,+atk

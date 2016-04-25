@@ -26,6 +26,15 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
+patch_me() {
+	case $ARCH in
+	 *64) for p in *.patch ;do
+		patch -p0 < $p
+		done ;;
+	 *) patch -p0 < rulers.patch ;;
+	esac
+}
+
 build() {
 	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}
@@ -44,5 +53,6 @@ build() {
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+patch_me
 build
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

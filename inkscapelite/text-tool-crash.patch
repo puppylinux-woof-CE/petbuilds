@@ -1,0 +1,29 @@
+diff -ur inkscapelite-old/src/libnrtype/nr-type-xft.c inkscapelite-0.36.3_patched-glib-rulers/src/libnrtype/nr-type-xft.c
+--- inkscapelite-old/src/libnrtype/nr-type-xft.c	2003-11-17 07:52:25.000000000 +1000
++++ inkscapelite-0.36.3_patched-glib-rulers/src/libnrtype/nr-type-xft.c	2016-04-25 20:56:12.760106658 +1000
+@@ -127,9 +127,9 @@
+ 	}
+ 
+ 	/* Get family list */
+-	fs = XftListFonts (GDK_DISPLAY (), 0,
+-			   XFT_SCALABLE, XftTypeBool, 1, XFT_OUTLINE, XftTypeBool, 1, 0,
+-			   XFT_FAMILY, 0);
++	fs = XftListFonts (GDK_DISPLAY (), 0L,
++			XFT_SCALABLE, XftTypeBool, 1L, XFT_OUTLINE, XftTypeBool, 1L, 0L,
++			XFT_FAMILY, 0L);
+ 	NRXftFamilies.length = fs->nfont;
+ 	NRXftFamilies.names = nr_new (gchar *, NRXftFamilies.length);
+ 	NRXftFamilies.destructor = NULL;
+@@ -140,9 +140,9 @@
+ 	}
+ 
+ 	/* Get typeface list */
+-	NRXftPatterns = XftListFonts (GDK_DISPLAY (), 0,
+-				      XFT_SCALABLE, XftTypeBool, 1, XFT_OUTLINE, XftTypeBool, 1, 0,
+-				      XFT_FAMILY, XFT_WEIGHT, XFT_SLANT, XFT_FILE, XFT_INDEX, 0);
++	NRXftPatterns = XftListFonts (GDK_DISPLAY (), 0L,
++					  XFT_SCALABLE, XftTypeBool, 1L, XFT_OUTLINE, XftTypeBool, 1L, 0L,
++					  XFT_FAMILY, XFT_WEIGHT, XFT_SLANT, XFT_FILE, XFT_INDEX, 0L);
+ 	NRXftTypefaces.length = NRXftPatterns->nfont;
+ 	NRXftTypefaces.names = nr_new (gchar *, NRXftTypefaces.length);
+ 	NRXftTypefaces.destructor = NULL;

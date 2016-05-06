@@ -43,9 +43,16 @@ usage() {
 [ "$4" ] && CATEGORY="$4"|| CATEGORY=BuildingBlock
 [ "$5" ] && BUILD="$5" || BUILD=""
 
-
-SOURCE="${1##*/}" 
-SRCURL="${1%/*}" 
+# is it a sourceforge link?
+echo "$1" | grep -E -q '^http\/\/sourceforge.net|\/download$' && SF_URL="$1"
+if [ -n "SF_URL" ];then # yes
+	TGT=`curl  $SF_URL|grep -o 'http.*'|sed 's/\?.*//'`
+	SOURCE="${TGT##*/}"
+	SRCURL="${TGT%/*}"
+else # no
+	SOURCE="${1##*/}"
+	SRCURL="${1%/*}"
+fi
 DESCRIPTION="\"$2\"" 
 
 PROG=${SOURCE%-*}

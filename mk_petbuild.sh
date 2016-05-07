@@ -44,8 +44,8 @@ usage() {
 [ "$5" ] && BUILD="$5" || BUILD=""
 
 # is it a sourceforge link?
-echo "$1" | grep -E -q '^http\/\/sourceforge.net|\/download$' && SF_URL="$1"
-if [ -n "SF_URL" ];then # yes
+echo "$1" | grep 'sourceforge\.net'| grep -q '\/download$' && SF_URL="$1" || SF_URL=
+if [ -n "$SF_URL" ];then # yes
 	TGT=`curl  $SF_URL|grep -o 'http.*'|sed 's/\?.*//'`
 	SOURCE="${TGT##*/}"
 	SRCURL="${TGT%/*}"

@@ -123,6 +123,7 @@ f4fe0905ee56e1ff0205005e61d2a66f  pangomm-2.28.4.tar.xz
 6c3b70165c2dee9341a81a2a8481e446  parcellite-1.1.9.tar.gz
 99b68e990012b2f58c184b8ba9e4fb4d  pipepanic-0.1.3-source.tar.gz
 17b503a5cd413e8ced1d460e4e8d17e3  pmcputemp-0.50.tar.xz
+ee5b2a878fd26800e746a05f6a9e4c14  puppy_icon_theme-0.1.tar.gz
 fb6bbdb32e6af5c2d2980a32ac4ea051  qemu-2.3.1.tar.bz2
 a895e93ec1dafc34bc64ed676f0d55a6  qemu-2.4.1.tar.bz2
 f3a2a05dd4d4af928ce17985e2617bc1  QupZilla-1.8.6.tar.xz
@@ -134,6 +135,7 @@ eb961f31cd55f0acf5aad1a7b900ef59  rtmpdump-2.3.tgz
 a9a06c608258c5fd247c3725d8f44582  rxvt-unicode-9.21.tar.bz2
 93782dec27494eb079467dacf6e48185  rxvt-unicode-9.22.tar.bz2
 856f6bb5c90734b949a6ad832c5dfbb2  samba-4.1.20.tar.gz
+8a0ced1395efd62a4ff136f72e860a78  samba-4.2.12.tar.gz
 be586a23633949cf2ecf0c9c6d769130  sane-backends-1.0.21.tar.gz
 da6af08e564ca1157348fb8d92efc891  schroedinger-1.0.11.tar.gz
 86d34921a394bf0c81911233f5ccc6e8  sfontview-0.1.1.tar.gz

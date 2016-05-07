@@ -9,7 +9,8 @@ check_md5() {
 	if [ "$MD5_DLD" = "${MD5_LST}" ];then
 		echo "md5 passed"
 	else 
-		echo "md5 failed - IF YOU KNOW IT IS GOOD add the source to ./0sources and run ./update_md5_db" && exit 1
+		echo "md5 failed - IF YOU KNOW IT IS GOOD add the source to ./0sources and run 
+./update_md5_db" && exit 1
 	fi
 }
 

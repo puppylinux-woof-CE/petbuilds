@@ -3,6 +3,7 @@ f3f8052e7b4979a43b75775a381e6cb8  abiword-3.0.1.tar.gz
 d7bcdcdefcd53b03730e50ba842554ea  acpid-2.0.23.tar.xz
 3ff96a76398a2e0b75d4ca63b5682caf  align-1.7.3.tgz
 d2edc7710c72cbf3ab297c414e35ebda  alsaequal-0.6.tar.bz2
+38584d6c1edfa9f6b41d496e4a5539f1  arp-scan-1.9.tar.gz
 30f8e34c92b14f17ba3029937b2f218a  atkmm-2.22.6.tar.xz
 71b03c1bc4f587add12604587d9276d1  automake-1.13.4.tar.xz
 1cee9b57c22fac6dcecb57d5d1340fbd  bbc_provided-2003.tar.gz
@@ -118,16 +119,21 @@ be9109370447eae23f6f3f8527bb1a67  numlockx-1.2.tar.gz
 09d2c5dfb43a9f6e9fec8b1ae678e725  opencore-amr-0.1.3.tar.gz
 1a2552e8d127526c48d644fe6437b377  orc-0.4.18.tar.gz
 b711ec292fe25b54a51b8c3765bd9e68  osmo-0.2.10-patched_96dpi_version_libnotify.tar.gz
+92cca093312b5a71a7be7dc7d1d32509  p7zip_15.14.1_src_all.tar.bz2
 bd6caaea567dc0d995c990c5cc883c89  p7zip_9.20.1_src_all.tar.bz2
 f4fe0905ee56e1ff0205005e61d2a66f  pangomm-2.28.4.tar.xz
 6c3b70165c2dee9341a81a2a8481e446  parcellite-1.1.9.tar.gz
 99b68e990012b2f58c184b8ba9e4fb4d  pipepanic-0.1.3-source.tar.gz
 17b503a5cd413e8ced1d460e4e8d17e3  pmcputemp-0.50.tar.xz
+1b8a83c4e376e2c72ab12fad59d99575  pnscan-1.10.tar.gz
+2fcb161470929d8c35bdb2c67f5030e4  pnscan-1.11.tar.gz
 ee5b2a878fd26800e746a05f6a9e4c14  puppy_icon_theme-0.1.tar.gz
+434195dd8be02288ec9f1617f29affa0  puppy_icon_theme-0.2.tar.gz
 fb6bbdb32e6af5c2d2980a32ac4ea051  qemu-2.3.1.tar.bz2
 a895e93ec1dafc34bc64ed676f0d55a6  qemu-2.4.1.tar.bz2
 f3a2a05dd4d4af928ce17985e2617bc1  QupZilla-1.8.6.tar.xz
 6bb5a37d2e04f4067cb2b1d72f6ec7af  retrovol-14.1-1.tar.bz2
+4a5b67acdeafed1fc56af50dde8726a5  retrovol-14.1-3.tar.bz2
 4e54f732edd04f7ac9780cc127eed8cc  rox-filer-2015.02.tar.bz2
 d58a13cc4185bca6121a606ff456dec0  rp-pppoe-3.10.tar.gz
 eb961f31cd55f0acf5aad1a7b900ef59  rtmpdump-2.3.tgz
@@ -172,6 +178,7 @@ f7e19d3e976fecdc1ea36cd39e39900d  xclip-0.12.tar.gz
 9951564c230e79f39035c89b8e582ba8  Xdialog-2015.08.tar.bz2
 62d0c2158bbaf882a1cf580421437b2f  xdotool-2.20110530.1.tar.gz
 3931c0e19d441cc576dc088f9eb9fd73  xf86-video-fbdev-0.4.4.tar.bz2
+23f94fb7b226c14796d6618ed4b6d251  xfdiff-4.5.1.tar.gz
 989d1520ad6b4c89733827df06f47793  xfdiff-cut-4.5.0.tar.bz2
 59fc645f21cf1859b6792131c07caa96  xinvaders3d-1.3.6.src.tar.gz
 815c7db7d37b739a3b92a477604dc172  xlockmore-5.31-patched.tar.gz

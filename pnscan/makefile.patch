@@ -1,0 +1,23 @@
+--- Makefile	2016-06-09 11:18:03.373308557 +1000
++++ Makefile.new	2016-06-09 11:16:47.349977696 +1000
+@@ -2,9 +2,9 @@
+ 
+ DESTDIR=/usr/local
+ 
+-BINDIR=$(DESTDIR)/bin
+-MANDIR=$(DESTDIR)/man
+-MAN1DIR=$(MANDIR)/man1
++BINDIR=$(DESTDIR)/usr/bin
++MANDIR=$(DESTDIR)/usr/man
++MAN1DIR=$(MANDIR)/man1
+ 
+ TAR=tar
+ GZIP=gzip
+@@ -72,6 +72,7 @@ dist:	distclean version
+ 
+ 
+ install-bin: all
++	$(INSTALL) -d -m 755 $(BINDIR)
+ 	$(INSTALL) -c -m 755 pnscan $(BINDIR)
+ 	$(INSTALL) -c -m 755 ipsort $(BINDIR)
+ 

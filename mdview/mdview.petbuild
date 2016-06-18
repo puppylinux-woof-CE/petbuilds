@@ -6,7 +6,7 @@
 
 URL=http://distro.ibiblio.org/fatdog/source/710
 PKG=mdview
-PKGVER=2016-06-17
+PKGVER=2016-06-18
 VER=2016.06
 COMP=tar.bz2
 DESC="lightweight MD file viewer"

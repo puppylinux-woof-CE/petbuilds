@@ -4,9 +4,9 @@
 . ../func
 . ../build.conf
 
-URL=http://downloads.sourceforge.net/project/libmtp/libmtp/1.1.9
+URL=http://downloads.sourceforge.net/project/libmtp/libmtp/1.1.11
 PKG=libmtp
-VER=1.1.9
+VER=1.1.11
 COMP=tar.gz
 DESC="a library for MTP players such as Android devices"
 DEPS=

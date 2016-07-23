@@ -1,0 +1,42 @@
+diff -rup sane-backends-1.0.25.orig/backend/v4l.h sane-backends-1.0.25/backend/v4l.h
+--- sane-backends-1.0.25.orig/backend/v4l.h	2013-08-26 07:22:58.000000000 +1000
++++ sane-backends-1.0.25/backend/v4l.h	2016-07-13 17:07:02.056976632 +1000
+@@ -29,6 +29,8 @@
+ #ifndef v4l_h
+ #define v4l_h
+ 
++#include <libv4l1-videodev.h>
++
+ #ifndef __LINUX_VIDEODEV_H
+ /* Kernel interface */
+ /* Only the stuff we need. For more features, more defines are needed */
+@@ -47,7 +49,7 @@
+ #define VID_TYPE_MPEG_ENCODER	2048	/* Can encode MPEG streams */
+ #define VID_TYPE_MJPEG_DECODER	4096	/* Can decode MJPEG streams */
+ #define VID_TYPE_MJPEG_ENCODER	8192	/* Can encode MJPEG streams */
+-
++#if 0
+ struct video_capability
+ {
+ 	char name[32];
+@@ -103,9 +105,10 @@ struct video_window
+ /* bitmap is 1024x625, a '1' bit represents a clipped pixel */
+ #define VIDEO_CLIPMAP_SIZE	(128 * 625)
+ };
+-
++#endif
+ #define VIDEO_MAX_FRAME		32
+ 
++#if 0
+ struct video_mbuf
+ {
+ 	int	size;		/* Total memory to map */
+@@ -133,7 +136,7 @@ struct video_channel
+ #define VIDEO_TYPE_CAMERA	2	
+ 	__u16 norm;			/* Norm set by channel */
+ };
+-
++#endif
+ #define VIDIOCGCAP		_IOR('v',1,struct video_capability)	/* Get capabilities */
+ #define VIDIOCGCHAN		_IOWR('v',2,struct video_channel)	/* Get channel info (sources) */
+ #define VIDIOCSCHAN		_IOW('v',3,struct video_channel)	/* Set channel 	*/

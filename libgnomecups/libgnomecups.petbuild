@@ -29,7 +29,7 @@ esac
 patch_me() {
 	for i in *.patch; do
 		echo "Applying $i"
-		patch -p0 < $i || exit 1
+		(cd ${PKG}-${VER}; patch -p1 < ../$i) || exit 1
 	done
 }
 

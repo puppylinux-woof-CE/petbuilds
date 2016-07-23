@@ -4,9 +4,10 @@
 . ../func
 . ../build.conf
 
-URL=http://downloads.sourceforge.net/project/gphoto/libgphoto/2.5.3.1
+#VER=2.5.3.1
+VER=2.5.10
+URL=http://downloads.sourceforge.net/project/gphoto/libgphoto/${VER}
 PKG=libgphoto2
-VER=2.5.3.1
 COMP=tar.bz2
 DESC="libgphoto2 is the core library designed to allow access to digital camera by external programs"
 DEPS=+glib2
@@ -27,9 +28,17 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
+patch_me() {
+	for i in *patch;do
+		echo "applying $i"
+		patch -p0 < $i || exit 1
+	done
+}
+
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+patch_me
 build_configure $PKG $VER $LIBDIR
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	
 alert $PKG

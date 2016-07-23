@@ -12,7 +12,7 @@ DESC="Light weight vector graphics editor"
 DEPS=+freetype2,+pango,+libxml2,+gtk+2,+cairo,+libpng,+atk
 CAT=Graphic
 DESKTOP=inkscape.desktop
-BUILD=
+BUILD=s633
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -29,9 +29,10 @@ esac
 patch_me() {
 	case $ARCH in
 	 *64) for p in *.patch ;do
+		echo applying $p
 		patch -p0 < $p
 		done ;;
-	 *) patch -p0 < rulers.patch ;;
+	 *) patch -p0 < png_jmp.patch ;;
 	esac
 }
 
@@ -47,6 +48,7 @@ build() {
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit
 	make DESTDIR=$CWD/$PKG-install install
+	(cd $CWD/$PKG-install/usr/bin; ln -sf inkscape inkscapelite)
 	cd -
 }
 	

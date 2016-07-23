@@ -3,10 +3,10 @@
 
 . ../func
 . ../build.conf
-
-URL=http://distro.ibiblio.org/puppylinux/sources/x
+URL=http://www.xsane.org/download
+#URL=http://distro.ibiblio.org/puppylinux/sources/x
 PKG=xsane
-VER=0.997-patched
+VER=0.999
 COMP=tar.gz
 DESC="Xsane is the graphical scanner frontend to sane"
 DEPS=+sane-backends
@@ -26,6 +26,16 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
+patch_me() {
+	cd ${PKG}-${VER}
+	for i in `ls ${CWD}/patches`;do
+		echo applying $i
+		sleep 1
+		patch -p1 < ${CWD}/patches/$i
+	done
+	cd -
+}
+
 package_ext() {
 	# EXTRAS
 	install -d -m 0755 ${PKG}-install/usr/share/pixmaps
@@ -36,6 +46,7 @@ package_ext() {
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+patch_me
 build_configure $PKG $VER $LIBDIR
 package_ext
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

@@ -6,7 +6,7 @@
 
 URL=http://www.draisberghof.de/usb_modeswitch
 PKG=usb-modeswitch
-VER=2.2.6
+VER=2.4.0
 COMP=tar.bz2
 DESC="Utility for switching usb modems"
 DEPS=+jimtcl
@@ -28,7 +28,7 @@ esac
 
 build() {
 	cd ${PKG}-${VER}
-	# set loggin on
+	# set logging on
 	sed -i 's%EnableLogging=.*%EnableLogging=1%' ./usb_modeswitch.conf
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit

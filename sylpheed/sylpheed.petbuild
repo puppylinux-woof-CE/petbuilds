@@ -4,9 +4,9 @@
 . ../func
 . ../build.conf
 
-URL=http://sylpheed.sraoss.jp/sylpheed/v3.4
+URL=http://sylpheed.sraoss.jp/sylpheed/v3.5
 PKG=sylpheed
-VER=3.4.3
+VER=3.5.0
 COMP=tar.gz
 DESC="Light weight email client"
 DEPS=+gtk+2,+curl

@@ -28,7 +28,7 @@ esac
 
 package_spec() {
 	#SPECIAL: copy in wrappers
-	cp -arf lib ${PKG}-install/usr/$LIBDIR
+	cp -arf wrappers/* ${PKG}-install/usr/$LIBDIR/xarchive/wrappers/
 }
 
 # main

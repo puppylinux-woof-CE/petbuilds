@@ -4,15 +4,17 @@
 . ../func
 . ../build.conf
 ######http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1/p7zip_9.20.1_src_all.tar.bz2
-URL=http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1
+#URL=http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1
+URL=http://downloads.sourceforge.net/project/p7zip/p7zip/15.14.1
 PKG=p7zip
-VER=9.20.1
+#VER=9.20.1
+VER=15.14.1
 SRCVER=${PKG}_${VER}_src_all
 COMP=tar.bz2
 DESC="file archiver with the highest compression ratio"
 DEPS=
 CAT=BuildingBlock
-DESKTOP=p7zip_9.20.1_src_all.tar.bz2.desktop
+DESKTOP= #p7zip_9.20.1_src_all.tar.bz2.desktop
 BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)

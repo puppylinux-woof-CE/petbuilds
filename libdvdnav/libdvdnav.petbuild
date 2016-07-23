@@ -3,10 +3,10 @@
 
 . ../func
 . ../build.conf
-
-URL=http://dvdnav.mplayerhq.hu/releases
+URL=http://www.videolan.org/pub/videolan/libdvdnav/5.0.1
+#URL=http://dvdnav.mplayerhq.hu/releases
 PKG=libdvdnav
-VER=4.2.0
+VER=5.0.1
 COMP=tar.bz2
 DESC="DVD navigation library"
 DEPS=+libdvdread
@@ -29,5 +29,6 @@ esac
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+#(cd ${PKG}-${VER}; ./autogen.sh)
 build_configure $PKG $VER $LIBDIR
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

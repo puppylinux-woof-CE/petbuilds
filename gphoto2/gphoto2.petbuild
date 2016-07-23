@@ -4,9 +4,10 @@
 . ../func
 . ../build.conf
 
-URL=http://downloads.sourceforge.net/project/gphoto/gphoto/2.5.3
+#VER=2.5.3
+VER=2.5.10
+URL=http://downloads.sourceforge.net/project/gphoto/gphoto/${VER}
 PKG=gphoto2
-VER=2.5.3
 COMP=tar.bz2
 DESC="gPhoto2 is a free, redistributable, ready to use set of digital camera software applications for Unix-like systems"
 DEPS=+gphotofs,+libgphoto2

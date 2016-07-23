@@ -1,0 +1,61 @@
+This for libjpeg-turbo compatibility. I don't want to carry old libraries around
+if a solution can be found. 01micko 20160705
+diff -ur libgphoto2-2.5.10/camlibs/ax203/jpeg_memsrcdest.c libgphoto2-2.5.10-new/camlibs/ax203/jpeg_memsrcdest.c
+--- libgphoto2-2.5.10/camlibs/ax203/jpeg_memsrcdest.c	2015-08-09 01:57:29.000000000 +1000
++++ libgphoto2-2.5.10-new/camlibs/ax203/jpeg_memsrcdest.c	2016-07-05 11:45:21.559050254 +1000
+@@ -26,7 +26,7 @@
+ 
+ /* libjpeg8 and later come with their own (API compatible) memory source
+    and dest */
+-#if JPEG_LIB_VERSION < 80
++#if JPEG_LIB_VERSION < 80  && !defined(MEM_SRCDST_SUPPORTED)
+ 
+ /* Expanded data source object for memory input */
+ 
+diff -ur libgphoto2-2.5.10/camlibs/ax203/jpeg_memsrcdest.h libgphoto2-2.5.10-new/camlibs/ax203/jpeg_memsrcdest.h
+--- libgphoto2-2.5.10/camlibs/ax203/jpeg_memsrcdest.h	2015-08-09 01:57:29.000000000 +1000
++++ libgphoto2-2.5.10-new/camlibs/ax203/jpeg_memsrcdest.h	2016-07-05 11:42:37.953046697 +1000
+@@ -1,5 +1,7 @@
+ #include <jpeglib.h>
+ 
++#if JPEG_LIB_VERSION < 80 && !defined(MEM_SRCDST_SUPPORTED)
++
+ void
+ jpeg_mem_src (j_decompress_ptr cinfo, unsigned char * buffer,
+ 	unsigned long bufsize);
+@@ -7,3 +9,5 @@
+ void
+ jpeg_mem_dest (j_compress_ptr cinfo, unsigned char ** outbuffer,
+ 	unsigned long * outsize);
++
++#endif
+diff -ur libgphoto2-2.5.10/camlibs/jl2005c/jpeg_memsrcdest.c libgphoto2-2.5.10-new/camlibs/jl2005c/jpeg_memsrcdest.c
+--- libgphoto2-2.5.10/camlibs/jl2005c/jpeg_memsrcdest.c	2015-08-09 01:57:29.000000000 +1000
++++ libgphoto2-2.5.10-new/camlibs/jl2005c/jpeg_memsrcdest.c	2016-07-05 11:47:31.084053070 +1000
+@@ -26,7 +26,7 @@
+ 
+ /* libjpeg8 and later come with their own (API compatible) memory source
+    and dest */
+-#if JPEG_LIB_VERSION < 80
++#if JPEG_LIB_VERSION < 80  && !defined(MEM_SRCDST_SUPPORTED)
+ 
+ /* Expanded data source object for memory input */
+ 
+diff -ur libgphoto2-2.5.10/camlibs/jl2005c/jpeg_memsrcdest.h libgphoto2-2.5.10-new/camlibs/jl2005c/jpeg_memsrcdest.h
+--- libgphoto2-2.5.10/camlibs/jl2005c/jpeg_memsrcdest.h	2015-08-09 01:57:29.000000000 +1000
++++ libgphoto2-2.5.10-new/camlibs/jl2005c/jpeg_memsrcdest.h	2016-07-05 11:46:05.133051201 +1000
+@@ -1,5 +1,7 @@
+ #include <jpeglib.h>
+ 
++#if JPEG_LIB_VERSION < 80 && !defined(MEM_SRCDST_SUPPORTED)
++
+ void
+ jpeg_mem_src (j_decompress_ptr cinfo, unsigned char * buffer,
+ 	unsigned long bufsize);
+@@ -7,3 +9,5 @@
+ void
+ jpeg_mem_dest (j_compress_ptr cinfo, unsigned char ** outbuffer,
+ 	unsigned long * outsize);
++
++#endif
+

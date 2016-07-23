@@ -1,0 +1,30 @@
+diff -rup xsane-0.999-orig/src/xsane.c xsane-0.999/src/xsane.c
+--- xsane-0.999-orig/src/xsane.c	2010-11-17 06:57:51.000000000 +1000
++++ xsane-0.999/src/xsane.c	2016-07-14 09:04:38.808798902 +1000
+@@ -5831,16 +5831,16 @@ static int xsane_init(int argc, char **a
+ 
+   xsane_pref_restore_media();
+ 
+-#ifndef HAVE_OS2_H
+-  if (!getuid()) /* root ? */
+-  {
+-    if (xsane_back_gtk_decision(ERR_HEADER_WARNING, (gchar **) warning_xpm, WARN_XSANE_AS_ROOT,
+-        BUTTON_CANCEL, BUTTON_CONT_AT_OWN_RISK, TRUE /* wait */) == TRUE)
+-    {
+-      return 2; /* User selected CANCEL */
+-    } 
+-  }
+-#endif
++//#ifndef HAVE_OS2_H
++  //if (!getuid()) /* root ? */
++  //{
++    //if (xsane_back_gtk_decision(ERR_HEADER_WARNING, (gchar **) warning_xpm, WARN_XSANE_AS_ROOT,
++        //BUTTON_CANCEL, BUTTON_CONT_AT_OWN_RISK, TRUE /* wait */) == TRUE)
++    //{
++      //return 2; /* User selected CANCEL */
++    //} 
++  //}
++//#endif
+ 
+   sane_init(&xsane.sane_backend_versioncode, (void *) xsane_authorization_callback);
+ 

@@ -1,0 +1,22 @@
+fix for later libpng by 01micko 20160703
+diff -ur inkscapelite-0.36.3_patched-glib-rulers/src/helper/png-write.c inkscapelite-0.36.3_patched-glib-rulers-new/src/helper/png-write.c
+--- inkscapelite-0.36.3_patched-glib-rulers/src/helper/png-write.c	2003-12-10 14:50:31.000000000 +1000
++++ inkscapelite-0.36.3_patched-glib-rulers-new/src/helper/png-write.c	2016-07-03 10:15:19.243932446 +1000
+@@ -107,7 +107,7 @@
+ 	/* Set error handling.  REQUIRED if you aren't supplying your own
+ 	 * error hadnling functions in the png_create_write_struct() call.
+ 	 */
+-	if (setjmp(png_ptr->jmpbuf)) {
++	if (setjmp(png_jmpbuf(png_ptr))) {
+ 		/* If we get here, we had a problem reading the file */
+ 		fclose(fp);
+ 		png_destroy_write_struct(&png_ptr, &info_ptr);
+@@ -266,7 +266,7 @@
+ 	/* Set error handling.  REQUIRED if you aren't supplying your own
+ 	 * error hadnling functions in the png_create_write_struct() call.
+ 	 */
+-	if (setjmp(png_ptr->jmpbuf)) {
++	if (setjmp(png_jmpbuf(png_ptr))) {
+ 		/* If we get here, we had a problem reading the file */
+ 		fclose(fp);
+ 		png_destroy_write_struct(&png_ptr, &info_ptr);

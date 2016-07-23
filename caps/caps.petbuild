@@ -32,8 +32,8 @@ build() {
 	[ "$?" -eq 0 ] || exit 1
 	make
 	[ "$?" -eq 0 ] || exit 1
-	install -d -m 0755 $CWD/$PKG-install/usr/$LIBDIR/ladspa
-	install -m 0644 ${PKG}.so $CWD/$PKG-install/usr/$LIBDIR/ladspa
+	install -d -m 0755 $CWD/$PKG-install/usr/lib/ladspa
+	install -m 0644 ${PKG}.so $CWD/$PKG-install/usr/lib/ladspa
 	install -d -m 0755 $CWD/$PKG-install/usr/share/ladspa/rdf
 	install -m 0644 ${PKG}.rdf $CWD/$PKG-install/usr/share/ladspa/rdf
 	cd -

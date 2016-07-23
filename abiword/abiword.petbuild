@@ -34,7 +34,7 @@ build() {
 				--libdir=/usr/${LIBDIR} \
 				--enable-print \
 				--enable-spell \
-				--enable-static \
+				--disable-static \
 				--with-gtk2 \
 				--enable-plugins="freetranslation gdict mswrite opendocument openwriter openxml pdf"
 	[ "$?" -eq 0 ] || exit

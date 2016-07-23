@@ -6,7 +6,7 @@
 
 URL=http://dist.schmorp.de/rxvt-unicode/Attic
 PKG=rxvt-unicode
-VER=9.21
+VER=9.22
 COMP=tar.bz2
 DESC="Unicode terminal emulator"
 DEPS=

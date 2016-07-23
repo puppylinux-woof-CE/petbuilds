@@ -1,0 +1,22 @@
+Another victim of olf libpng API - 01micko 20160703
+diff -rup xsane-0.997-patched/src/xsane-save.c xsane-0.997-patched-new/src/xsane-save.c
+--- xsane-0.997-patched/src/xsane-save.c	2008-09-21 06:48:29.000000000 +1000
++++ xsane-0.997-patched-new/src/xsane-save.c	2016-07-03 21:54:01.579696963 +1000
+@@ -4901,7 +4901,7 @@ int xsane_save_png(FILE *outfile, int co
+     return -1; /* error */
+   }
+ 
+-  if (setjmp(png_ptr->jmpbuf))
++  if (setjmp(png_jmpbuf(png_ptr)))
+   {
+     snprintf(buf, sizeof(buf), "%s %s", ERR_DURING_SAVE, ERR_LIBPNG);
+     xsane_back_gtk_error(buf, TRUE);
+@@ -5090,7 +5090,7 @@ int xsane_save_png_16(FILE *outfile, int
+     return -1; /* error */
+   }
+ 
+-  if (setjmp(png_ptr->jmpbuf))
++  if (setjmp(png_jmpbuf(png_ptr)))
+   {
+     snprintf(buf, sizeof(buf), "%s %s", ERR_DURING_SAVE, ERR_LIBPNG);
+     xsane_back_gtk_error(buf, TRUE);

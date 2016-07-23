@@ -1,0 +1,13 @@
+fix up the font size for 96dpi
+diff -rup leafpad-0.8.18.1.orig/src/main.c leafpad-0.8.18.1/src/main.c
+--- leafpad-0.8.18.1.orig/src/main.c	2016-07-13 10:51:18.274961532 +1000
++++ leafpad-0.8.18.1/src/main.c	2009-10-24 12:38:34.000000000 +1000
+@@ -306,7 +306,7 @@ gint main(gint argc, gchar **argv)
+ 	conf = g_malloc(sizeof(Conf));
+ 	conf->width       = 600;
+ 	conf->height      = 400;
+-	conf->fontname    = g_strdup("Monospace 12");
++	conf->fontname    = g_strdup("Monospace 10");
+ 	conf->wordwrap    = FALSE;
+ 	conf->linenumbers = FALSE;
+ 	conf->autoindent  = FALSE;

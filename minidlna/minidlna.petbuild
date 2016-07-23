@@ -31,36 +31,6 @@ package() {
 	install -d -m 0755 ${PKG}-install/etc/init.d
 	install -m 0644 minidlna.conf.sample ${PKG}-install/etc
 	install -m 0644 minidlna ${PKG}-install/etc/init.d
-	# add this recipe
-	install -d -m 0755 ./${PKG}-install/usr/src/dev
-	cat ${PKG}.petbuild > ./${PKG}-install/usr/src/dev/${PKG}-build-recipe
-	# add custom .desktop
-	if [ -f "$DESKTOP" ];then
-		install -d -m 0755 ./${PKG}-install/usr/share/applications
-		cat $DESKTOP > ./${PKG}-install/usr/share/applications/$DESKTOP
-	fi
-	# split
-	get_files ${PKG}-install ${PKG}${VER}-${ARCH}_${BUILD}
-	(cd ${PKG}-${VER}; $MWD/split.sh ../${PKG}-install)
-	# delete any icon cache or library cache
-	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
-	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
-	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
-	for p in $(ls|grep "\-${ARCH}"|grep -v "files$") ; do
-		case $p in
-			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
-			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
-			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
-		esac	
-		echo "packaging $p"	
-		dir2pet -x -s -w="$DESC" -d="$DEPS" -c="$CAT" -p=${p} 2>&1 >/dev/null
-		rm -r $p
-		mv ${p}.pet ../0pets_out/
-	done
-	rm -r ${PKG}-install
-	rm -r ${PKG}-${VER}
-	mv -f *.files ../0logs
-	echo "done!"
 }
 
 # main
@@ -68,3 +38,4 @@ retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 build_configure $PKG $VER $LIBDIR
 package	
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

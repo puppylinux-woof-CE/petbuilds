@@ -1,13 +1,13 @@
 #!/bin/bash
-
-v=0.16
+#set -x
+v=0.17
 # simple mtp mounting gui
 # with wizard style interface to create udev rules
-# revision 16
+# revision 17
 
 running=`pidof ${0##*/}`
 running2=`echo $running | wc -w`
-[ "$running2" = 1 ] || exit # ensure 1 instance
+[ $running2 -le 1 ] || exit # ensure 1 instance
 
 #===========================error function=====================================
 func_note() {
@@ -307,13 +307,11 @@ func_mount() {
 	fi
 	MNT=`cat /tmp/myMTPdevice | sed 's% %%g'`
 	[ -d /mnt/MTPdevice${MNT} ] || mkdir -p /mnt/MTPdevice${MNT}
-	#gtkdialog-splash -bg orange -close never -timeout 2 -text "Please wait..." &
 	func_note l "Please wait..."
-	go-mtpfs /mnt/MTPdevice${MNT} >>/tmp/MTP.log 2>&1 & # added log
-	[ "$?" = 0 ] || err_func "Something went wrong, aborting. Check the log at /tmp/MTP.log."
-	sleep 2
+	go-mtpfs "$1" /mnt/MTPdevice${MNT} >>/tmp/MTP.log 2>&1 & # added log
+	#[ "$?" = 0 ] || err_func "Something went wrong, aborting. Check the log at /tmp/MTP.log."
+	sleep 4
 	grep -q 'MTP' /proc/mounts || err_func "Failed to mount. Check the log at /tmp/MTP.log."
-	#gtkdialog-splash -bg green -close never -timeout 2 -text "Device mounted successfully."
 	# check mount point isn't empty
 	mount_point_empty=`ls /mnt/MTPdevice${MNT}|wc -l`
 	if [ "$mount_point_empty" -eq 0 ];then
@@ -327,7 +325,6 @@ func_mount() {
 }
 # unmount backend
 func_unmount() {
-	#gtkdialog-splash -bg yellow -close never -timeout 2 -text "Please Wait..." &
 	func_note l "Please Wait..."
 	sync #finish any writes
 	GO=`mount | grep fuse |grep /mnt/MTPdevice`
@@ -338,7 +335,6 @@ func_unmount() {
 	# precaution
 	[ "$PIDOFGO" ] && kill -9 $PIDOFGO &>/dev/null # this makes sure its dead
 	rox -D /mnt/MTPdevice${MNT} 2>/dev/null # close rox, leave others
-	#gtkdialog-splash -bg green -timeout 3 -close never -text "It is safe to unplug your device."
 	func_note n "It is safe to unplug your device."
 	kill_status
 	return 0;
@@ -381,7 +377,12 @@ important that you unmount the device." \
 "Would you like to mount your ${PRODUCT}?" y
 	case $EXIT in
 	 Yes)
-	 func_mount
+		case $ID in
+			f0ca|F0CA|0ba[1-2]|0BA[1-2]|04ec|04EC|0622|063e|063E|064[0-1]|0710|0a00|0A00)
+			OPT="" ;;
+			*)OPT="-android=true" ;;
+		esac
+	 func_mount "$OPT"
 	 sleep 1
 	 MNT=`cat /tmp/myMTPdevice | sed 's% %%g'`
 	 FILEMGR="rox" # change to suit yourself

@@ -178,6 +178,8 @@ ATTR{idVendor}=="045e", ATTR{idProduct}=="0640", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="045e", ATTR{idProduct}=="0641", RUN+="/usr/sbin/pupautodetect android-device"
 # Microsoft Zune
 ATTR{idVendor}=="045e", ATTR{idProduct}=="0710", RUN+="/usr/sbin/pupautodetect android-device"
+# Microsoft Lumia 950 XL Dual SIM (RM-1116)
+ATTR{idVendor}=="045e", ATTR{idProduct}=="0a00", RUN+="/usr/sbin/pupautodetect android-device"
 # Microsoft/HTC HTC 8S
 ATTR{idVendor}=="045e", ATTR{idProduct}=="f0ca", RUN+="/usr/sbin/pupautodetect android-device"
 # JVC Alneo XA-HD500
@@ -204,10 +206,14 @@ ATTR{idVendor}=="0471", ATTR{idProduct}=="01eb", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0471", ATTR{idProduct}=="084e", RUN+="/usr/sbin/pupautodetect android-device"
 # Philips GoGear SA5145
 ATTR{idVendor}=="0471", ATTR{idProduct}=="0857", RUN+="/usr/sbin/pupautodetect android-device"
+# Philips i908
+ATTR{idVendor}=="0471", ATTR{idProduct}=="190b", RUN+="/usr/sbin/pupautodetect android-device"
 # Philips GoGear SA6125/SA6145/SA6185
 ATTR{idVendor}=="0471", ATTR{idProduct}=="2002", RUN+="/usr/sbin/pupautodetect android-device"
 # Philips GoGear SA3345
 ATTR{idVendor}=="0471", ATTR{idProduct}=="2004", RUN+="/usr/sbin/pupautodetect android-device"
+# Philips W6610
+ATTR{idVendor}=="0471", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
 # Philips SA5285
 ATTR{idVendor}=="0471", ATTR{idProduct}=="2022", RUN+="/usr/sbin/pupautodetect android-device"
 # Philips GoGear ViBE SA1VBE04
@@ -228,6 +234,8 @@ ATTR{idVendor}=="0471", ATTR{idProduct}=="20b9", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0471", ATTR{idProduct}=="20e5", RUN+="/usr/sbin/pupautodetect android-device"
 # Philips GoGear Ariaz/97
 ATTR{idVendor}=="0471", ATTR{idProduct}=="2138", RUN+="/usr/sbin/pupautodetect android-device"
+# Philips PI3900B2/58 
+ATTR{idVendor}=="0471", ATTR{idProduct}=="2190", RUN+="/usr/sbin/pupautodetect android-device"
 # Philips PSA235
 ATTR{idVendor}=="0471", ATTR{idProduct}=="7e01", RUN+="/usr/sbin/pupautodetect android-device"
 # Acer Iconia TAB A500 (ID1)
@@ -266,10 +274,40 @@ ATTR{idVendor}=="0502", ATTR{idProduct}=="33cb", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0502", ATTR{idProduct}=="33d8", RUN+="/usr/sbin/pupautodetect android-device"
 # Acer Liquid Z120 MT65xx Android Phone
 ATTR{idVendor}=="0502", ATTR{idProduct}=="3473", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Liquid E2
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3514", RUN+="/usr/sbin/pupautodetect android-device"
 # Acer Iconia A1-810
 ATTR{idVendor}=="0502", ATTR{idProduct}=="353c", RUN+="/usr/sbin/pupautodetect android-device"
 # Acer Liquid Z130 MT65xx Android Phone
 ATTR{idVendor}=="0502", ATTR{idProduct}=="355f", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Iconia A3-A11
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3586", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Liquid E3
+ATTR{idVendor}=="0502", ATTR{idProduct}=="35a8", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Z150
+ATTR{idVendor}=="0502", ATTR{idProduct}=="35e4", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Liquid X1
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3609", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Z160
+ATTR{idVendor}=="0502", ATTR{idProduct}=="361d", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Iconia A1-840FHD
+ATTR{idVendor}=="0502", ATTR{idProduct}=="362d", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer E39
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3643", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer liquid e700
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3644", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer One 7
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3657", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Z200
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3683", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Liquid S56
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3725", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Liquid Z220
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3750", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Liquid Z330
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3750", RUN+="/usr/sbin/pupautodetect android-device"
+# Acer Z530
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3822", RUN+="/usr/sbin/pupautodetect android-device"
 # SanDisk Sansa m230/m240
 ATTR{idVendor}=="0781", ATTR{idProduct}=="7400", RUN+="/usr/sbin/pupautodetect android-device"
 # SanDisk Sansa m200-tcc (MTP mode)
@@ -368,6 +406,8 @@ ATTR{idVendor}=="413c", ATTR{idProduct}=="4500", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="413c", ATTR{idProduct}=="b10b", RUN+="/usr/sbin/pupautodetect android-device"
 # Dell Inc Dell Venue 7 inch
 ATTR{idVendor}=="413c", ATTR{idProduct}=="b11a", RUN+="/usr/sbin/pupautodetect android-device"
+# Dell Inc Dell Venue 7 inch (2nd ID)
+ATTR{idVendor}=="413c", ATTR{idProduct}=="b11b", RUN+="/usr/sbin/pupautodetect android-device"
 # Toshiba Gigabeat MEGF-40
 ATTR{idVendor}=="0930", ATTR{idProduct}=="0009", RUN+="/usr/sbin/pupautodetect android-device"
 # Toshiba Gigabeat
@@ -442,6 +482,8 @@ ATTR{idVendor}=="0e79", ATTR{idProduct}=="1341", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="1351", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 5H IT (MTP mode)
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="1357", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos 48 (MTP mode)
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="1421", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos Arnova Childpad
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="1458", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos Arnova 8c G3
@@ -452,8 +494,12 @@ ATTR{idVendor}=="0e79", ATTR{idProduct}=="146b", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="149a", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 97 Titanium
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="14ad", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos 80 Titanium
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="14bf", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 101 Titanium
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="14b9", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos 70b Titanium
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="14ef", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 8o G9 (MTP mode)
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="1508", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 8o G9 Turbo (MTP mode)
@@ -468,14 +514,34 @@ ATTR{idVendor}=="0e79", ATTR{idProduct}=="1529", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="1538", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 101 G9 Turbo
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="1539", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos 101 XS
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="1548", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 70it2 (ID 1)
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="1568", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 70it2 (ID 2)
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="1569", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos 70 Cobalt
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="15ba", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos 50c
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos C40
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="31ab", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos Helium 45B
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="31d8", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos Phone
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="31e1", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos 45 Neon
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="31f3", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos 50 Diamond
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="3229", RUN+="/usr/sbin/pupautodetect android-device"
 # Archos 101 G4
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="4002", RUN+="/usr/sbin/pupautodetect android-device"
-# Archos (for Tesco) Hudl
+# Archos (for Tesco) Hudl (ID1)
 ATTR{idVendor}=="0e79", ATTR{idProduct}=="5008", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos (for Tesco) Hudl (ID2)
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="5009", RUN+="/usr/sbin/pupautodetect android-device"
+# Archos AC40DTI
+ATTR{idVendor}=="0e79", ATTR{idProduct}=="5217", RUN+="/usr/sbin/pupautodetect android-device"
 # Dunlop MP3 player 1GB / EGOMAN MD223AFD
 ATTR{idVendor}=="10d6", ATTR{idProduct}=="2200", RUN+="/usr/sbin/pupautodetect android-device"
 # Memorex or iRiver MMP 8585/8586 or iRiver E200
@@ -484,12 +550,6 @@ ATTR{idVendor}=="10d6", ATTR{idProduct}=="2300", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="18f6", ATTR{idProduct}=="0102", RUN+="/usr/sbin/pupautodetect android-device"
 # Sirius Stiletto 2
 ATTR{idVendor}=="18f6", ATTR{idProduct}=="0110", RUN+="/usr/sbin/pupautodetect android-device"
-# Canon Ixus Digital 700 (PTP/MTP mode)
-ATTR{idVendor}=="04a9", ATTR{idProduct}=="30f2", RUN+="/usr/sbin/pupautodetect android-device"
-# Canon PowerShot A640 (PTP/MTP mode)
-ATTR{idVendor}=="04a9", ATTR{idProduct}=="3139", RUN+="/usr/sbin/pupautodetect android-device"
-# Canon PowerShot SX20IS (PTP/MTP mode)
-ATTR{idVendor}=="04a9", ATTR{idProduct}=="31e4", RUN+="/usr/sbin/pupautodetect android-device"
 # Nokia N81 Mobile Phone
 ATTR{idVendor}=="0421", ATTR{idProduct}=="000a", RUN+="/usr/sbin/pupautodetect android-device"
 # Nokia 6120c Classic Mobile Phone
@@ -600,18 +660,44 @@ ATTR{idVendor}=="0421", ATTR{idProduct}=="04ef", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0421", ATTR{idProduct}=="04f1", RUN+="/usr/sbin/pupautodetect android-device"
 # Nokia N9
 ATTR{idVendor}=="0421", ATTR{idProduct}=="051a", RUN+="/usr/sbin/pupautodetect android-device"
+# Nokia N300
+ATTR{idVendor}=="0421", ATTR{idProduct}=="0524", RUN+="/usr/sbin/pupautodetect android-device"
 # Nokia C5-00
 ATTR{idVendor}=="0421", ATTR{idProduct}=="0592", RUN+="/usr/sbin/pupautodetect android-device"
+# Nokia C5-00 (ID2)
+ATTR{idVendor}=="0421", ATTR{idProduct}=="0595", RUN+="/usr/sbin/pupautodetect android-device"
 # Nokia 808 PureView
 ATTR{idVendor}=="0421", ATTR{idProduct}=="05d3", RUN+="/usr/sbin/pupautodetect android-device"
-# Nokia Nokia Lumia WP8
+# Nokia Lumia WP8
 ATTR{idVendor}=="0421", ATTR{idProduct}=="0661", RUN+="/usr/sbin/pupautodetect android-device"
+# Nokia Lumia 301
+ATTR{idVendor}=="0421", ATTR{idProduct}=="0666", RUN+="/usr/sbin/pupautodetect android-device"
+# Nokia XL
+ATTR{idVendor}=="0421", ATTR{idProduct}=="06e8", RUN+="/usr/sbin/pupautodetect android-device"
+# Nokia Lumia (RM-975)
+ATTR{idVendor}=="0421", ATTR{idProduct}=="06fc", RUN+="/usr/sbin/pupautodetect android-device"
+# Nokia X2 Dual Sim
+ATTR{idVendor}=="0421", ATTR{idProduct}=="0708", RUN+="/usr/sbin/pupautodetect android-device"
 # Qualcomm (for Nokia) 5530 Xpressmusic
 ATTR{idVendor}=="05c6", ATTR{idProduct}=="0229", RUN+="/usr/sbin/pupautodetect android-device"
 # Qualcomm (for Nokia/Verizon) 6205 Balboa/Verizon Music Phone
 ATTR{idVendor}=="05c6", ATTR{idProduct}=="3196", RUN+="/usr/sbin/pupautodetect android-device"
+# Qualcomm (for Gigabyte) GSmart G1342
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="8800", RUN+="/usr/sbin/pupautodetect android-device"
 # Qualcomm (for Smartfren) Andromax U
 ATTR{idVendor}=="05c6", ATTR{idProduct}=="9025", RUN+="/usr/sbin/pupautodetect android-device"
+# Qualcomm (for OnePlus) One (MTP)
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="6764", RUN+="/usr/sbin/pupautodetect android-device"
+# Qualcomm (for OnePlus) One (MTP+ADB)
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="6765", RUN+="/usr/sbin/pupautodetect android-device"
+# Qualcomm (for Xolo) Xolo Black (MTP)
+ATTR{idVendor}=="901b", ATTR{idProduct}=="9039", RUN+="/usr/sbin/pupautodetect android-device"
+# Qualcomm (for PhiComm) C230w (MTP)
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="9039", RUN+="/usr/sbin/pupautodetect android-device"
+# Qualcomm (for OnePlus) One Plus 2 (A2003) (MTP)
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="f003", RUN+="/usr/sbin/pupautodetect android-device"
+# Qualcomm (for Highscreen) Omega Prime S
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="f003", RUN+="/usr/sbin/pupautodetect android-device"
 # Logik LOG DAX MP3 and DAB Player
 ATTR{idVendor}=="13d1", ATTR{idProduct}=="7002", RUN+="/usr/sbin/pupautodetect android-device"
 # Technika MP-709
@@ -632,6 +718,10 @@ ATTR{idVendor}=="069b", ATTR{idProduct}=="3035", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="04c5", ATTR{idProduct}=="1140", RUN+="/usr/sbin/pupautodetect android-device"
 # Fujitsu, Ltd STYLISTIC M532
 ATTR{idVendor}=="04c5", ATTR{idProduct}=="133b", RUN+="/usr/sbin/pupautodetect android-device"
+# Fujitsu, Ltd F02-E
+ATTR{idVendor}=="04c5", ATTR{idProduct}=="1378", RUN+="/usr/sbin/pupautodetect android-device"
+# Fujitsu, Ltd Arrows 202F
+ATTR{idVendor}=="04c5", ATTR{idProduct}=="13dd", RUN+="/usr/sbin/pupautodetect android-device"
 # NormSoft, Inc. Pocket Tunes
 ATTR{idVendor}=="1703", ATTR{idProduct}=="0001", RUN+="/usr/sbin/pupautodetect android-device"
 # NormSoft, Inc. Pocket Tunes 4
@@ -642,6 +732,8 @@ ATTR{idVendor}=="066f", ATTR{idProduct}=="842a", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="066f", ATTR{idProduct}=="8550", RUN+="/usr/sbin/pupautodetect android-device"
 # Medion MD8333 (ID2)
 ATTR{idVendor}=="066f", ATTR{idProduct}=="8588", RUN+="/usr/sbin/pupautodetect android-device"
+# Verizon Ellipsis 7
+ATTR{idVendor}=="0408", ATTR{idProduct}=="3899", RUN+="/usr/sbin/pupautodetect android-device"
 # Medion MD99000 (P9514)/Olivetti Olipad 110
 ATTR{idVendor}=="0408", ATTR{idProduct}=="b009", RUN+="/usr/sbin/pupautodetect android-device"
 # Medion Lifetab P9514
@@ -654,6 +746,8 @@ ATTR{idVendor}=="066f", ATTR{idProduct}=="a010", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0402", ATTR{idProduct}=="0611", RUN+="/usr/sbin/pupautodetect android-device"
 # TrekStor i.Beat Organix 2.0
 ATTR{idVendor}=="1e68", ATTR{idProduct}=="0002", RUN+="/usr/sbin/pupautodetect android-device"
+# iRiver Tolino Tab 7
+ATTR{idVendor}=="1e68", ATTR{idProduct}=="1002", RUN+="/usr/sbin/pupautodetect android-device"
 # Disney MixMax
 ATTR{idVendor}=="0aa6", ATTR{idProduct}=="6021", RUN+="/usr/sbin/pupautodetect android-device"
 # Tevion MD 81488
@@ -714,10 +808,30 @@ ATTR{idVendor}=="1004", ATTR{idProduct}=="619a", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="1004", ATTR{idProduct}=="61f1", RUN+="/usr/sbin/pupautodetect android-device"
 # LG Electronics Inc. Android phone (ID2)
 ATTR{idVendor}=="1004", ATTR{idProduct}=="61f9", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. LG VS980
+ATTR{idVendor}=="1004", ATTR{idProduct}=="621c", RUN+="/usr/sbin/pupautodetect android-device"
 # LG Electronics Inc. LG2 Optimus
 ATTR{idVendor}=="1004", ATTR{idProduct}=="6225", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. LG VS950
+ATTR{idVendor}=="1004", ATTR{idProduct}=="622a", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. LG VS870
+ATTR{idVendor}=="1004", ATTR{idProduct}=="6239", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. LG VS890
+ATTR{idVendor}=="1004", ATTR{idProduct}=="623d", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. LG Optimus Zone 2
+ATTR{idVendor}=="1004", ATTR{idProduct}=="6259", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. VK810
+ATTR{idVendor}=="1004", ATTR{idProduct}=="6265", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. G3
+ATTR{idVendor}=="1004", ATTR{idProduct}=="627f", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. 810 tablet
+ATTR{idVendor}=="1004", ATTR{idProduct}=="6263", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. G3 (VS985)
+ATTR{idVendor}=="1004", ATTR{idProduct}=="626e", RUN+="/usr/sbin/pupautodetect android-device"
 # LG Electronics Inc. Various E and P models
 ATTR{idVendor}=="1004", ATTR{idProduct}=="631c", RUN+="/usr/sbin/pupautodetect android-device"
+# LG Electronics Inc. LG G Flex 2
+ATTR{idVendor}=="1004", ATTR{idProduct}=="633e", RUN+="/usr/sbin/pupautodetect android-device"
 # Sony NWZ-A815/NWZ-A818
 ATTR{idVendor}=="054c", ATTR{idProduct}=="0325", RUN+="/usr/sbin/pupautodetect android-device"
 # Sony NWZ-S516
@@ -818,6 +932,8 @@ ATTR{idVendor}=="0fce", ATTR{idProduct}=="10c8", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="d144", RUN+="/usr/sbin/pupautodetect android-device"
 # SonyEricsson K550i
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="e000", RUN+="/usr/sbin/pupautodetect android-device"
+# SonyEricsson c1605 Xperia Dual E MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="0146", RUN+="/usr/sbin/pupautodetect android-device"
 # SonyEricsson LT15i Xperia arc S MTP
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="014f", RUN+="/usr/sbin/pupautodetect android-device"
 # SonyEricsson MT11i Xperia Neo MTP
@@ -882,10 +998,56 @@ ATTR{idVendor}=="0fce", ATTR{idProduct}=="0193", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="0194", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY Xperia SP MTP
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="0195", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z Ultra MTP (ID2)
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="0196", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia ZR MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="0197", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia A MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="0198", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY Xperia M MTP
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="019b", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z Ultra MTP (ID3)
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="019c", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY Xperia Z1 MTP
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="019e", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia C MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01a3", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z1 Compact D5503
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01a7", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01aa", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 Dual MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01ab", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z2 MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01af", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3v MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01b0", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z2 Tablet MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01b1", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z Ultra MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01b6", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 Aqua MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01b8", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01ba", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 Compact MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01bb", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia E3 MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01bc", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 Tablet MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01c0", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria M4 Aqua Dual MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01c4", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY E2115 MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01c5", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z3+ MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01c9", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria E4g MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01cb", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z5 MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01d9", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z5 Compact MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01da", RUN+="/usr/sbin/pupautodetect android-device"
 # SonyEricsson IS12S Xperia Acro MTP+CDROM
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="4157", RUN+="/usr/sbin/pupautodetect android-device"
 # SonyEricsson ST17i Xperia Active MTP+CDROM
@@ -936,8 +1098,50 @@ ATTR{idVendor}=="0fce", ATTR{idProduct}=="4194", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="4195", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY Xperia M MTP+CDROM
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="419b", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z Ultra MTP+CDROM (ID3)
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="419c", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY Xperia Z1 MTP+CDROM
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="419e", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia C MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41a3", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z1 Compact D5503 MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41a7", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41aa", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 Dual MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41ab", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z2 MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41af", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3v MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41b0", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z2 Tablet MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41b1", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z Ultra MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41b6", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 Aqua MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41b8", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41ba", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 Compact MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41bb", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia E3 MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41bc", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 Tablet MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41c0", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria M4 Aqua Dual MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41c4", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY E2115 MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41c5", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z3+ MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41c9", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria E4g MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41cb", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z5 MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41d9", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z5 Compact MTP+CDROM
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41da", RUN+="/usr/sbin/pupautodetect android-device"
+# SonyEricsson c1605 Xperia Dual E MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="5146", RUN+="/usr/sbin/pupautodetect android-device"
 # SonyEricsson LT15i Xperia Arc MTP+ADB
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="514f", RUN+="/usr/sbin/pupautodetect android-device"
 # SonyEricsson MT11i Xperia Neo MTP+ADB
@@ -1002,10 +1206,56 @@ ATTR{idVendor}=="0fce", ATTR{idProduct}=="5193", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="5194", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY Xperia SP MTP+ADB
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="5195", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z Ultra MTP+ADB (ID2)
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="5196", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia ZR MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="5197", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia A MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="5198", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY Xperia M MTP+ADB
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="519b", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z Ultra MTP+ADB (ID3)
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="519c", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY Xperia Z1 MTP+ADB
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="519e", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia C MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51a3", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z1 Compact MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51a7", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51aa", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 Dual MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51ab", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z2 MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51af", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3v MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51b0", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z2 Tablet MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51b1", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z Ultra MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51b6", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia M2 Aqua MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51b8", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51ba", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 Compact MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51bb", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia E3 MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51bc", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY Xperia Z3 Tablet MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="41c0", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria M4 Aqua Dual MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51c4", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY E2115 MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51c5", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z3+ MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51c9", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria E4g MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51cb", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z5 MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51d9", RUN+="/usr/sbin/pupautodetect android-device"
+# SONY XPeria Z5 Compact MTP+ADB
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="51da", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY MT27i Xperia Sola MTP+UMS
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="a173", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY IS12S Xperia Acro HD MTP+UMS
@@ -1026,6 +1276,8 @@ ATTR{idVendor}=="0fce", ATTR{idProduct}=="b176", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="b177", RUN+="/usr/sbin/pupautodetect android-device"
 # SONY ST27i/ST27a Xperia go MTP+UMS+ADB
 ATTR{idVendor}=="0fce", ATTR{idProduct}=="b17e", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola XT1524 (MTP)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="002e", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola V3m/V750 verizon
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="2a65", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola Atrix/Razr HD (MTP)
@@ -1040,11 +1292,21 @@ ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e51", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e62", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola Moto X (XT1058)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e63", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Moto X (XT1080)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e66", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola Droid Maxx (XT1080)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e67", RUN+="/usr/sbin/pupautodetect android-device"
-# Motorola Moto G
+# Motorola Droid Ultra
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e68", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Moto G (ID1)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e76", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Moto G (ID2)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e82", RUN+="/usr/sbin/pupautodetect android-device"
-# Motorola Xoom 2 Media Edition (ID2)
+# Motorola Moto G (XT1032)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e84", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Moto Maxx (XT1225)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="2ea4", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Xoom 2 Media Edition (ID3)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="41cf", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola Droid X/MB525 (Defy)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="41d6", RUN+="/usr/sbin/pupautodetect android-device"
@@ -1054,10 +1316,14 @@ ATTR{idVendor}=="22b8", ATTR{idProduct}=="41da", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="41dc", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola DROID2 (ID2)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="42a7", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Xoom 2 Media Edition (ID2)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="4306", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola Xoom 2 Media Edition
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="4311", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola XT912/XT928
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="4362", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola DROID4 (PTP)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="4373", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola DROID4
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="437f", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola IdeaPad K1
@@ -1070,6 +1336,10 @@ ATTR{idVendor}=="22b8", ATTR{idProduct}=="6413", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="6415", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola Razr D1/D3/i (MTP)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="64b5", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Razr D1/D3/i (MTP+?)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="64b6", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Atrix XT687 (MTP)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="64cf", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola Atrix MB860 (MTP)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="7088", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola Xoom (Factory test)
@@ -1084,6 +1354,10 @@ ATTR{idVendor}=="22b8", ATTR{idProduct}=="70ca", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="710d", RUN+="/usr/sbin/pupautodetect android-device"
 # Motorola XT890/907/Razr (MTP+ADB)
 ATTR{idVendor}=="22b8", ATTR{idProduct}=="710e", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Droid Turbo (XT1254)
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="2ea5", RUN+="/usr/sbin/pupautodetect android-device"
+# Motorola Droid Turbo Verizon
+ATTR{idVendor}=="22b8", ATTR{idProduct}=="2ea8", RUN+="/usr/sbin/pupautodetect android-device"
 # Google Inc (for Allwinner) A31 SoC
 ATTR{idVendor}=="18d1", ATTR{idProduct}=="0006", RUN+="/usr/sbin/pupautodetect android-device"
 # Google Inc (for Ainol Novo) Fire/Flame
@@ -1108,6 +1382,12 @@ ATTR{idVendor}=="18d1", ATTR{idProduct}=="4e42", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee1", RUN+="/usr/sbin/pupautodetect android-device"
 # Google Inc (for LG Electronics/Samsung) Nexus 4/5/7/10 (MTP+ADB)
 ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee2", RUN+="/usr/sbin/pupautodetect android-device"
+# Google Nexus 5 (MTP)
+ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee5", RUN+="/usr/sbin/pupautodetect android-device"
+# Google Pixel C (MTP)
+ATTR{idVendor}=="18d1", ATTR{idProduct}=="5202", RUN+="/usr/sbin/pupautodetect android-device"
+# Google Pixel C (MTP+ADB)
+ATTR{idVendor}=="18d1", ATTR{idProduct}=="5203", RUN+="/usr/sbin/pupautodetect android-device"
 # Google Inc (for Motorola) Xoom (MZ604)
 ATTR{idVendor}=="18d1", ATTR{idProduct}=="70a8", RUN+="/usr/sbin/pupautodetect android-device"
 # Google Inc (for Toshiba) Thrive 7/AT105
@@ -1166,6 +1446,14 @@ ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c81", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c90", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus TF700 Transformer (MTP+ADB)
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c91", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus TF701T Transformer Pad (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca0", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus TF701T Transformer Pad (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca1", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ME302KL MeMo Pad FHD10 (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4cc0", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ME302KL MeMo Pad FHD10 (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4cc1", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus ME301T MeMo Pad Smart 10 (MTP)
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="4cd0", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus ME301T MeMo Pad Smart 10 (MTP+ADB)
@@ -1194,18 +1482,82 @@ ATTR{idVendor}=="0b05", ATTR{idProduct}=="5200", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="5201", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus ME302C MemoPad (MTP+?)
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="520f", RUN+="/usr/sbin/pupautodetect android-device"
-# Asus PadFone 2 (MTP+?)
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="5210", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus PadFone 2 (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5210", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus PadFone 2 (MTP+ADB)
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="5211", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus PadFone 2 (PTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5214", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus ME302C MemoPad (MTP)
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="521f", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus PadFone Infinity (2nd ID) (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5220", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus PadFone Infinity (2nd ID) (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5221", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus PadFone Infinity (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5230", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus PadFone Infinity (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5231", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus Memo ME172V (MTP)
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="5400", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Fonepad 7 LTE ME372CL (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="540f", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus Memo ME173X (MTP)
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="5410", RUN+="/usr/sbin/pupautodetect android-device"
 # Asus Memo ME173X (MTP+ADB)
 ATTR{idVendor}=="0b05", ATTR{idProduct}=="5411", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Fonepad 7 LTE ME372CL (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="541f", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Memo K00F (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5460", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Memo Pad 8 (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5466", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Memo K00F (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5468", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ZenFone 5 (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5480", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ZenFone 5 (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5481", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ZenFone 6 (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5490", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ZenFone 6 (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5491", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus K010 (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5500", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus MemoPad 7 (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5506", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus K00E (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="550f", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus MemoPad 8 ME181 CX (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5561", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Zenfone 2 (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5600", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Z00AD (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5601", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus TX201LA (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="561f", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ZenFone 4 (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="580f", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ZenFone 4 A400CG (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="581f", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus A450CG (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5a0f", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Zenfone 2 ZE550ML (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5f02", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Zenfone 2 ZE551ML (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5f03", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus MemoPad 7 (ME572CL)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7772", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus Fonepad 7 (FE375CXG)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7773", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ZenFone 5 A500KL (MTP)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7780", RUN+="/usr/sbin/pupautodetect android-device"
+# Asus ZenFone 5 A500KL (MTP+ADB)
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7781", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo P70-A
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="0c02", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo P70
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
 # Lenovo K1
 ATTR{idVendor}=="17ef", ATTR{idProduct}=="740a", RUN+="/usr/sbin/pupautodetect android-device"
 # Lenovo ThinkPad Tablet
@@ -1214,16 +1566,72 @@ ATTR{idVendor}=="17ef", ATTR{idProduct}=="741c", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="17ef", ATTR{idProduct}=="7483", RUN+="/usr/sbin/pupautodetect android-device"
 # Lenovo P700
 ATTR{idVendor}=="17ef", ATTR{idProduct}=="7497", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo A820
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="7498", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo P780
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="74a6", RUN+="/usr/sbin/pupautodetect android-device"
 # Lenovo Lifetab S9512
 ATTR{idVendor}=="17ef", ATTR{idProduct}=="74cc", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo S660
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="74f8", RUN+="/usr/sbin/pupautodetect android-device"
 # Lenovo IdeaTab A2109A
 ATTR{idVendor}=="17ef", ATTR{idProduct}=="7542", RUN+="/usr/sbin/pupautodetect android-device"
-# Lenovo IdeaPad A3000
+# Lenovo IdeaTab S2210a
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="757d", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo K900 (ID1)
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="75b5", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo IdeaPad A3000 (ID1)
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="75bc", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo IdeaPad A3000 (ID2)
 ATTR{idVendor}=="17ef", ATTR{idProduct}=="75be", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo Toga Tablet B6000-F
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="76f2", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo S930
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="7718", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo A5500-F
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="772b", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo LifeTab E733X
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="775a", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo IdeaTab S5000
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="76e8", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo Yoga Tablet 10 B8000-H
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="76ff", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo A7600-F
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="7731", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo A3500-F
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="7737", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo Yoga Tablet 2 - 1050F
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="77a4", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo Yoga Tablet 2 Pro
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="77b1", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo Vibe Z2
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="77ea", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo K3 Note
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="7883", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo A10-70F
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="789a", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo A10-70L
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="789b", RUN+="/usr/sbin/pupautodetect android-device"
+# Medion P8312 Tablet
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="78ae", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo Lifetab S1034X
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="78b0", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo A1000 Smartphone
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="7928", RUN+="/usr/sbin/pupautodetect android-device"
+# Lenovo A1000 Smartphone ADB
+ATTR{idVendor}=="17ef", ATTR{idProduct}=="7929", RUN+="/usr/sbin/pupautodetect android-device"
 # Huawei MTP device (ID1)
 ATTR{idVendor}=="12d1", ATTR{idProduct}=="1051", RUN+="/usr/sbin/pupautodetect android-device"
 # Huawei MTP device (ID2)
 ATTR{idVendor}=="12d1", ATTR{idProduct}=="1052", RUN+="/usr/sbin/pupautodetect android-device"
+# Huawei Honor 7
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="1074", RUN+="/usr/sbin/pupautodetect android-device"
+# Huawei H60-L11
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="1079", RUN+="/usr/sbin/pupautodetect android-device"
+# Huawei Ascend P8 
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="1082", RUN+="/usr/sbin/pupautodetect android-device"
+# Huawei Honor 3C 
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="2012", RUN+="/usr/sbin/pupautodetect android-device"
 # Huawei Mediapad (mode 0)
 ATTR{idVendor}=="12d1", ATTR{idProduct}=="360f", RUN+="/usr/sbin/pupautodetect android-device"
 # Huawei Mediapad (mode 1)
@@ -1236,12 +1644,42 @@ ATTR{idVendor}=="19d2", ATTR{idProduct}=="0245", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="19d2", ATTR{idProduct}=="0306", RUN+="/usr/sbin/pupautodetect android-device"
 # ZTE V880E
 ATTR{idVendor}=="19d2", ATTR{idProduct}=="0307", RUN+="/usr/sbin/pupautodetect android-device"
+# ZTE Grand X In
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="0343", RUN+="/usr/sbin/pupautodetect android-device"
 # ZTE V985
 ATTR{idVendor}=="19d2", ATTR{idProduct}=="0383", RUN+="/usr/sbin/pupautodetect android-device"
+# ZTE V5
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="ffce", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One M9 (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="040b", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC Spreadtrum SH57MYZ03342 (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="05e3", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC Desire 510 (MTP+ADB)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="05fd", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC One M8 Google Play Edition (MTP+ADB)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="060b", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC One Mini 2 (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0629", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC One M9 (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="065c", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC Desire 520
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0670", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC6515LVW/One Remix
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="07d8", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One (HTC6500LVW)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="07ae", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One M8 (HTC6525LVW)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="07ca", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One M8 (Verizon) (HTC6525LVW)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="07cb", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One Remix (HTC6515LVW)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="07d9", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC Windows Phone 8X ID1
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0ba1", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC Windows Phone 8X ID2
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0ba2", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC Android Device ID1 (Zopo, HD2, Bird...)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0c02", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC EVO 4G LTE/One V (ID1)
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0c93", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC EVO 4G LTE/One V (ID2)
@@ -1250,6 +1688,8 @@ ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0ca8", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0cec", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC One Mini (ID1)
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0dcd", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One 802w (ID1)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0dd2", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC HTC Desire X
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0dd5", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC HTC One (ID1)
@@ -1282,12 +1722,38 @@ ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0e31", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0e32", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC Droid DNA (MTP+UMS)
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0ebd", RUN+="/usr/sbin/pupautodetect android-device"
-# HTC HTC One (ID2)
-ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0f63", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC Desire 310 (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0ec6", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC Desire 310 (2nd id) (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0ec7", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC Desire 816G (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0edb", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One (MTP+ADB+CDC)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0f5f", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One (MTP+CDC)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0f60", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC HTC One (MTP+ADB)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0f63", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0f64", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One (MTP+ADB+?)
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0f87", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC HTC One (ID3)
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0f91", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One M8 (MTP)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0f25", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One M8 (MTP+ADB)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="061a", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One M8 (MTP+UMS)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0fb5", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC HTC One M8 (MTP+ADB+UMS)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0fb4", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC Android Device ID2 (Zopo, HD2...)
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC Motorola Razr D1
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="2012", RUN+="/usr/sbin/pupautodetect android-device"
+# HTC Motorola P98 4G
+ATTR{idVendor}=="0bb4", ATTR{idProduct}=="201d", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC (for Hewlett-Packard) HP Touchpad (MTP)
 ATTR{idVendor}=="0bb4", ATTR{idProduct}=="685c", RUN+="/usr/sbin/pupautodetect android-device"
 # HTC (for Hewlett-Packard) HP Touchpad (MTP+ADB)
@@ -1308,6 +1774,14 @@ ATTR{idVendor}=="0955", ATTR{idProduct}=="7100", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="0955", ATTR{idProduct}=="7102", RUN+="/usr/sbin/pupautodetect android-device"
 # nVidia Shield (ID1)
 ATTR{idVendor}=="0955", ATTR{idProduct}=="b400", RUN+="/usr/sbin/pupautodetect android-device"
+# nVidia Shield (Tegra4)
+ATTR{idVendor}=="0955", ATTR{idProduct}=="b401", RUN+="/usr/sbin/pupautodetect android-device"
+# nVidia Tegra Note
+ATTR{idVendor}=="0955", ATTR{idProduct}=="cf02", RUN+="/usr/sbin/pupautodetect android-device"
+# nVidia Shield (ID2)
+ATTR{idVendor}=="0955", ATTR{idProduct}=="cf07", RUN+="/usr/sbin/pupautodetect android-device"
+# InFocus M810
+ATTR{idVendor}=="0489", ATTR{idProduct}=="c025", RUN+="/usr/sbin/pupautodetect android-device"
 # Vizio Unknown 1
 ATTR{idVendor}=="0489", ATTR{idProduct}=="c026", RUN+="/usr/sbin/pupautodetect android-device"
 # Vizio VTAB1008
@@ -1322,16 +1796,38 @@ ATTR{idVendor}=="1949", ATTR{idProduct}=="0007", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="1949", ATTR{idProduct}=="0008", RUN+="/usr/sbin/pupautodetect android-device"
 # Amazon Kindle Fire (ID3)
 ATTR{idVendor}=="1949", ATTR{idProduct}=="000a", RUN+="/usr/sbin/pupautodetect android-device"
+# Amazon Kindle Fire (ID6)
+ATTR{idVendor}=="1949", ATTR{idProduct}=="000b", RUN+="/usr/sbin/pupautodetect android-device"
 # Amazon Kindle Fire (ID4)
 ATTR{idVendor}=="1949", ATTR{idProduct}=="000c", RUN+="/usr/sbin/pupautodetect android-device"
+# Amazon Kindle Fire (ID7)
+ATTR{idVendor}=="1949", ATTR{idProduct}=="000d", RUN+="/usr/sbin/pupautodetect android-device"
+# Amazon Kindle Fire (ID5)
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0012", RUN+="/usr/sbin/pupautodetect android-device"
+# Amazon Kindle Fire HD6
+ATTR{idVendor}=="1949", ATTR{idProduct}=="00f2", RUN+="/usr/sbin/pupautodetect android-device"
+# Amazon Kindle Fire 8
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0211", RUN+="/usr/sbin/pupautodetect android-device"
+# Amazon Kindle Fire 7
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0221", RUN+="/usr/sbin/pupautodetect android-device"
+# Amazon Kindle Fire 5
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0222", RUN+="/usr/sbin/pupautodetect android-device"
+# Amazon Fire Phone
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0800", RUN+="/usr/sbin/pupautodetect android-device"
 # Barnes&Noble Nook HD+
 ATTR{idVendor}=="2080", ATTR{idProduct}=="0005", RUN+="/usr/sbin/pupautodetect android-device"
 # Barnes&Noble Nook HD
 ATTR{idVendor}=="2080", ATTR{idProduct}=="0006", RUN+="/usr/sbin/pupautodetect android-device"
+# Barnes&Noble Nook Glowlight+
+ATTR{idVendor}=="2080", ATTR{idProduct}=="000a", RUN+="/usr/sbin/pupautodetect android-device"
 # Various Viewpia DR/bq Kepler
 ATTR{idVendor}=="2207", ATTR{idProduct}=="0001", RUN+="/usr/sbin/pupautodetect android-device"
 # YiFang BQ Tesla
 ATTR{idVendor}=="2207", ATTR{idProduct}=="0006", RUN+="/usr/sbin/pupautodetect android-device"
+# Various Viewpia DR/bq Kepler Debugging
+ATTR{idVendor}=="2207", ATTR{idProduct}=="0011", RUN+="/usr/sbin/pupautodetect android-device"
+# Kobo Arc 7 HD
+ATTR{idVendor}=="2237", ATTR{idProduct}=="b108", RUN+="/usr/sbin/pupautodetect android-device"
 # Kobo Arc (ID1)
 ATTR{idVendor}=="2237", ATTR{idProduct}=="d108", RUN+="/usr/sbin/pupautodetect android-device"
 # Kobo Arc (ID2)
@@ -1342,12 +1838,44 @@ ATTR{idVendor}=="109b", ATTR{idProduct}=="9106", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="109b", ATTR{idProduct}=="9109", RUN+="/usr/sbin/pupautodetect android-device"
 # Intel Xolo 900/AZ210A
 ATTR{idVendor}=="8087", ATTR{idProduct}=="09fb", RUN+="/usr/sbin/pupautodetect android-device"
+# Intel Noblex T7A21
+ATTR{idVendor}=="8087", ATTR{idProduct}=="0a16", RUN+="/usr/sbin/pupautodetect android-device"
+# Intel Foxconn iView i700
+ATTR{idVendor}=="8087", ATTR{idProduct}=="0a15", RUN+="/usr/sbin/pupautodetect android-device"
+# Intel Telcast Air 3G
+ATTR{idVendor}=="8087", ATTR{idProduct}=="0a5e", RUN+="/usr/sbin/pupautodetect android-device"
+# Intel Chuwi vi8
+ATTR{idVendor}=="8087", ATTR{idProduct}=="0a5f", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi Mi-3w (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="0360", RUN+="/usr/sbin/pupautodetect android-device"
 # Xiaomi Mi-3 (MTP)
 ATTR{idVendor}=="2717", ATTR{idProduct}=="0368", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi MiPad (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="0660", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi MiPad (MTP+ADB)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="0668", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi Hongmi (MTP+ADB)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="1240", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi Hongmi (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="1248", RUN+="/usr/sbin/pupautodetect android-device"
+# Redmi 1S (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="1260", RUN+="/usr/sbin/pupautodetect android-device"
+# Redmi HM 1S (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="1268", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi HM NOTE 1LTEW MIUI (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="1368", RUN+="/usr/sbin/pupautodetect android-device"
 # Xiaomi Mi-2 (MTP+ADB)
 ATTR{idVendor}=="2717", ATTR{idProduct}=="9039", RUN+="/usr/sbin/pupautodetect android-device"
 # Xiaomi Mi-2 (MTP)
 ATTR{idVendor}=="2717", ATTR{idProduct}=="f003", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi Mi-2s (id2) (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="ff40", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi Mi-2s (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="ff48", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi Redmi 2 (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="ff60", RUN+="/usr/sbin/pupautodetect android-device"
+# Xiaomi Redmi 2 2014811 (MTP)
+ATTR{idVendor}=="2717", ATTR{idProduct}=="ff68", RUN+="/usr/sbin/pupautodetect android-device"
 # Acromag Inc. XO Learning Tablet (MTP+ADB)
 ATTR{idVendor}=="16d5", ATTR{idProduct}=="8005", RUN+="/usr/sbin/pupautodetect android-device"
 # Acromag Inc. XO Learning Tablet (MTP)
@@ -1358,24 +1886,156 @@ ATTR{idVendor}=="0489", ATTR{idProduct}=="c025", RUN+="/usr/sbin/pupautodetect a
 ATTR{idVendor}=="04dd", ATTR{idProduct}=="9661", RUN+="/usr/sbin/pupautodetect android-device"
 # SHARP Corporation SH-06E
 ATTR{idVendor}=="04dd", ATTR{idProduct}=="96ca", RUN+="/usr/sbin/pupautodetect android-device"
-# Alcatel One Touch 997D
+# Alcatel One Touch 997D (MTP+ADB)
+ATTR{idVendor}=="1bbb", ATTR{idProduct}=="0c02", RUN+="/usr/sbin/pupautodetect android-device"
+# Alcatel One Touch 997D (MTP)
 ATTR{idVendor}=="1bbb", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
 # Alcatel/TCT 6010D/TCL S950
 ATTR{idVendor}=="1bbb", ATTR{idProduct}=="0167", RUN+="/usr/sbin/pupautodetect android-device"
 # Alcatel 6030a
 ATTR{idVendor}=="1bbb", ATTR{idProduct}=="0168", RUN+="/usr/sbin/pupautodetect android-device"
+# Alcatel/Bouygues BS472
+ATTR{idVendor}=="1bbb", ATTR{idProduct}=="904d", RUN+="/usr/sbin/pupautodetect android-device"
+# Alcatel OneTouch 5042D (MTP)
+ATTR{idVendor}=="1bbb", ATTR{idProduct}=="a00e", RUN+="/usr/sbin/pupautodetect android-device"
+# Alcatel OneTouch Idol 3 small (MTP)
+ATTR{idVendor}=="1bbb", ATTR{idProduct}=="af2a", RUN+="/usr/sbin/pupautodetect android-device"
+# Alcatel OneTouch Idol 3 (MTP)
+ATTR{idVendor}=="1bbb", ATTR{idProduct}=="af2b", RUN+="/usr/sbin/pupautodetect android-device"
+# Alcatel OneTouch 6034R
+ATTR{idVendor}=="1bbb", ATTR{idProduct}=="f003", RUN+="/usr/sbin/pupautodetect android-device"
 # Kyocera Rise
 ATTR{idVendor}=="0482", ATTR{idProduct}=="0571", RUN+="/usr/sbin/pupautodetect android-device"
+# Kyocera Event
+ATTR{idVendor}=="0482", ATTR{idProduct}=="0591", RUN+="/usr/sbin/pupautodetect android-device"
+# Kyocera Torque Model E6715
+ATTR{idVendor}=="0482", ATTR{idProduct}=="059a", RUN+="/usr/sbin/pupautodetect android-device"
+# Kyocera KYL22
+ATTR{idVendor}=="0482", ATTR{idProduct}=="0810", RUN+="/usr/sbin/pupautodetect android-device"
+# Kyocera 302KC
+ATTR{idVendor}=="0482", ATTR{idProduct}=="09fc", RUN+="/usr/sbin/pupautodetect android-device"
+# Kyocera DuraForce
+ATTR{idVendor}=="0482", ATTR{idProduct}=="0979", RUN+="/usr/sbin/pupautodetect android-device"
+# Kyocera KC-S701
+ATTR{idVendor}=="0482", ATTR{idProduct}=="09cb", RUN+="/usr/sbin/pupautodetect android-device"
 # HiSense Sero 7 Pro
 ATTR{idVendor}=="109b", ATTR{idProduct}=="9105", RUN+="/usr/sbin/pupautodetect android-device"
 # Hewlett-Packard Slate 7 4600
 ATTR{idVendor}=="03f0", ATTR{idProduct}=="5c1d", RUN+="/usr/sbin/pupautodetect android-device"
 # Hewlett-Packard Slate 7 2800
 ATTR{idVendor}=="03f0", ATTR{idProduct}=="5d1d", RUN+="/usr/sbin/pupautodetect android-device"
-# MediaTek Inc MT510R
+# Hewlett-Packard Slate 10 HD
+ATTR{idVendor}=="03f0", ATTR{idProduct}=="7e1d", RUN+="/usr/sbin/pupautodetect android-device"
+# MediaTek Inc MT5xx and MT6xx SoCs
 ATTR{idVendor}=="0e8d", ATTR{idProduct}=="0050", RUN+="/usr/sbin/pupautodetect android-device"
-# Jolla Sailfish
+# MediaTek Inc MT65xx
+ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# elephone p6000
+ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# MediaTek Inc Elephone P8000
+ATTR{idVendor}=="0e8d", ATTR{idProduct}=="201d", RUN+="/usr/sbin/pupautodetect android-device"
+# Jolla Sailfish (ID1)
 ATTR{idVendor}=="2931", ATTR{idProduct}=="0a01", RUN+="/usr/sbin/pupautodetect android-device"
+# TCL Alcatel one touch 986+
+ATTR{idVendor}=="0451", ATTR{idProduct}=="d108", RUN+="/usr/sbin/pupautodetect android-device"
+# Garmin Monterra
+ATTR{idVendor}=="091e", ATTR{idProduct}=="2585", RUN+="/usr/sbin/pupautodetect android-device"
+# Wacom Cintiq Companion Hybrid (MTP+ADB)
+ATTR{idVendor}=="0531", ATTR{idProduct}=="2001", RUN+="/usr/sbin/pupautodetect android-device"
+# Kurio 7S
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1006", RUN+="/usr/sbin/pupautodetect android-device"
+# DigiLand DL701Q
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="0c02", RUN+="/usr/sbin/pupautodetect android-device"
+# Jolla Sailfish (ID2)
+ATTR{idVendor}=="2931", ATTR{idProduct}=="0a05", RUN+="/usr/sbin/pupautodetect android-device"
+# bq Krillin (MTP)
+ATTR{idVendor}=="2a47", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# bq Krillin (MTP+ADB)
+ATTR{idVendor}=="2a47", ATTR{idProduct}=="0c02", RUN+="/usr/sbin/pupautodetect android-device"
+# bq Aquarius E5-4G
+ATTR{idVendor}=="2a47", ATTR{idProduct}=="7f10", RUN+="/usr/sbin/pupautodetect android-device"
+# Prestigio 5505 DUO 
+ATTR{idVendor}=="29e4", ATTR{idProduct}=="1103", RUN+="/usr/sbin/pupautodetect android-device"
+# Prestigio 5504 DUO 
+ATTR{idVendor}=="29e4", ATTR{idProduct}=="1203", RUN+="/usr/sbin/pupautodetect android-device"
+# Prestigio 3405 DUO 
+ATTR{idVendor}=="29e4", ATTR{idProduct}=="3201", RUN+="/usr/sbin/pupautodetect android-device"
+# Prestigio Multipad Color 7.0
+ATTR{idVendor}=="29e4", ATTR{idProduct}=="b003", RUN+="/usr/sbin/pupautodetect android-device"
+# Megafon MFLogin3T
+ATTR{idVendor}=="201e", ATTR{idProduct}=="42ab", RUN+="/usr/sbin/pupautodetect android-device"
+# Gensis GT-7305 
+ATTR{idVendor}=="040d", ATTR{idProduct}=="885c", RUN+="/usr/sbin/pupautodetect android-device"
+# Oppo Find 5
+ATTR{idVendor}=="22d9", ATTR{idProduct}=="2764", RUN+="/usr/sbin/pupautodetect android-device"
+# Oppo Find 7 (ID 1)
+ATTR{idVendor}=="22d9", ATTR{idProduct}=="2765", RUN+="/usr/sbin/pupautodetect android-device"
+# Oppo X9006
+ATTR{idVendor}=="22d9", ATTR{idProduct}=="2773", RUN+="/usr/sbin/pupautodetect android-device"
+# Oppo Find 7 (ID 2)
+ATTR{idVendor}=="22d9", ATTR{idProduct}=="2774", RUN+="/usr/sbin/pupautodetect android-device"
+# Gigabyte RCT6773W22 (MTP+ADB)
+ATTR{idVendor}=="0414", ATTR{idProduct}=="0c02", RUN+="/usr/sbin/pupautodetect android-device"
+# Gigabyte RCT6773W22 (MTP)
+ATTR{idVendor}=="0414", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# Meizu MX Phone (MTP)
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# Meizu MX Phone (MTP+ADB)
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="0c02", RUN+="/usr/sbin/pupautodetect android-device"
+# Caterpillar Cat S50
+ATTR{idVendor}=="04b7", ATTR{idProduct}=="88a9", RUN+="/usr/sbin/pupautodetect android-device"
+# Pegatron Chagall (ADB)
+ATTR{idVendor}=="1d4d", ATTR{idProduct}=="5035", RUN+="/usr/sbin/pupautodetect android-device"
+# Pegatron Chagall
+ATTR{idVendor}=="1d4d", ATTR{idProduct}=="5036", RUN+="/usr/sbin/pupautodetect android-device"
+# Pegatron Hudl 2
+ATTR{idVendor}=="1d4d", ATTR{idProduct}=="504a", RUN+="/usr/sbin/pupautodetect android-device"
+# Yota Phone 2
+ATTR{idVendor}=="2916", ATTR{idProduct}=="914d", RUN+="/usr/sbin/pupautodetect android-device"
+# Yota Phone 2 (ID2)
+ATTR{idVendor}=="2916", ATTR{idProduct}=="f003", RUN+="/usr/sbin/pupautodetect android-device"
+# Fly Evo Tech 4
+ATTR{idVendor}=="2970", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# Wileyfox Swift
+ATTR{idVendor}=="2970", ATTR{idProduct}=="2281", RUN+="/usr/sbin/pupautodetect android-device"
+# Megafon Login+
+ATTR{idVendor}=="1271", ATTR{idProduct}=="2012", RUN+="/usr/sbin/pupautodetect android-device"
+# Fly iq4415 era style 3
+ATTR{idVendor}=="2970", ATTR{idProduct}=="0c02", RUN+="/usr/sbin/pupautodetect android-device"
+# Fly iq449
+ATTR{idVendor}=="1782", ATTR{idProduct}=="4001", RUN+="/usr/sbin/pupautodetect android-device"
+# YU Yureka Vodafone smart turbo 4
+ATTR{idVendor}=="1ebf", ATTR{idProduct}=="7f29", RUN+="/usr/sbin/pupautodetect android-device"
+# BenQ F5
+ATTR{idVendor}=="1d45", ATTR{idProduct}=="459d", RUN+="/usr/sbin/pupautodetect android-device"
+# TomTom Rider 40
+ATTR{idVendor}=="1390", ATTR{idProduct}=="5455", RUN+="/usr/sbin/pupautodetect android-device"
+# OUYA Videogame Console
+ATTR{idVendor}=="2836", ATTR{idProduct}=="0010", RUN+="/usr/sbin/pupautodetect android-device"
+# BLU Studio HD
+ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2008", RUN+="/usr/sbin/pupautodetect android-device"
+# OnePlus ONE A2001
+ATTR{idVendor}=="2a70", ATTR{idProduct}=="9011", RUN+="/usr/sbin/pupautodetect android-device"
+# OnePlus OnePlus 2 A2005
+ATTR{idVendor}=="2a70", ATTR{idProduct}=="f003", RUN+="/usr/sbin/pupautodetect android-device"
+# Parrot Bebop Drone
+ATTR{idVendor}=="19cf", ATTR{idProduct}=="5038", RUN+="/usr/sbin/pupautodetect android-device"
+# GoPro HERO3+ Black
+ATTR{idVendor}=="2672", ATTR{idProduct}=="0011", RUN+="/usr/sbin/pupautodetect android-device"
+# GoPro HERO
+ATTR{idVendor}=="2672", ATTR{idProduct}=="000c", RUN+="/usr/sbin/pupautodetect android-device"
+# GoPro HERO4 Silver
+ATTR{idVendor}=="2672", ATTR{idProduct}=="000d", RUN+="/usr/sbin/pupautodetect android-device"
+# Gopro HERO4 Black
+ATTR{idVendor}=="2672", ATTR{idProduct}=="000e", RUN+="/usr/sbin/pupautodetect android-device"
+# GoPro HERO4 Session
+ATTR{idVendor}=="2672", ATTR{idProduct}=="000f", RUN+="/usr/sbin/pupautodetect android-device"
+# Marshall London
+ATTR{idVendor}=="2ad9", ATTR{idProduct}=="000b", RUN+="/usr/sbin/pupautodetect android-device"
+# Fairphone Fairphone 2
+ATTR{idVendor}=="2ae5", ATTR{idProduct}=="f003", RUN+="/usr/sbin/pupautodetect android-device"
+# Allview Energy P5
+ATTR{idVendor}=="271d", ATTR{idProduct}=="4016", RUN+="/usr/sbin/pupautodetect android-device"
 # Isabella Her Prototype
 ATTR{idVendor}=="0b20", ATTR{idProduct}=="ddee", RUN+="/usr/sbin/pupautodetect android-device"
 

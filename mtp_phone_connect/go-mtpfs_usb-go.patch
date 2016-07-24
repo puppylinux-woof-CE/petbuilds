@@ -1,0 +1,11 @@
+diff -rup go.orig/src/github.com/hanwen/usb/usb.go go/src/github.com/hanwen/usb/usb.go
+--- go.orig/src/github.com/hanwen/usb/usb.go	2016-07-15 23:49:34.013672660 +0800
++++ go/src/github.com/hanwen/usb/usb.go	2016-07-15 23:55:13.420348833 +0800
+@@ -5,6 +5,7 @@
+ package usb
+ 
+ // #cgo pkg-config: libusb-1.0
++// #cgo LDFLAGS: -lusb-1.0
+ // #include <libusb.h>
+ import "C"
+ import (

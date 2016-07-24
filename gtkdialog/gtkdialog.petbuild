@@ -31,7 +31,8 @@ build() {
 				--localstatedir=/var \
 				--sysconfdir=/etc \
 				--libdir=/usr/${LIBDIR} \
-				--bindir=/usr/sbin
+				--bindir=/usr/sbin \
+				--enable-maintainer-mode
 	[ "$?" -eq 0 ] || exit 1
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit 1

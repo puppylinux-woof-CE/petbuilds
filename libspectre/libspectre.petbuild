@@ -26,8 +26,13 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
+patch_me() {
+	patch -p0 --verbose < gostscript.patch
+}
+
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+patch_me
 build_configure $PKG $VER $LIBDIR
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

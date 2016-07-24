@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 07:21+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: netmon_wce.c:23
+msgid "Month"
+msgstr ""
+
+#: netmon_wce.c:203
+msgid "Active interface: "
+msgstr ""
+
+#: netmon_wce.c:231
+msgid "none\n"
+msgstr ""
+
+#: netmon_wce.c:232
+msgid "Click this icon for network setup"
+msgstr ""
+
+#: netmon_wce.c:266
+msgid ""
+"\n"
+"IP address: "
+msgstr ""
+
+#: netmon_wce.c:285
+msgid "Wireless Strength"
+msgstr ""
+
+#: netmon_wce.c:331
+msgid "Wifi stats disabled"
+msgstr ""
+
+#: netmon_wce.c:348
+msgid "Wifi Stats unreadable - disable polling in the menu."
+msgstr ""
+
+#: netmon_wce.c:424
+msgid "Quit"
+msgstr ""
+
+#: netmon_wce.c:431
+msgid "Enable wireless device polling"
+msgstr ""
+
+#: netmon_wce.c:434
+msgid "Disable wireless device polling"
+msgstr ""
+
+#: netmon_wce.c:441
+msgid "Setup networking"
+msgstr ""
+
+#: netmon_wce.c:446
+msgid "Network status information"
+msgstr ""
+
+#: netmon_wce.c:453
+msgid "Disconnect from network"
+msgstr ""
+
+#: netmon_wce.c:460
+msgid "Reconnect to network"
+msgstr ""
+
+#: netmon_wce.c:473
+msgid "Note: right-click icon for network menu"
+msgstr ""
+
+#: netmon_wce.c:521
+msgid "No active network interfaces"
+msgstr ""

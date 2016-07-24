@@ -6,7 +6,7 @@
 
 URL=http://www.musl-libc.org/releases/
 PKG=musl
-VER=1.1.11
+VER=1.1.14
 COMP=tar.gz
 DESC="Alternative LibC library for Linux"
 DEPS=

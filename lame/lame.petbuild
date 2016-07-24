@@ -28,6 +28,9 @@ esac
 
 build() {
 	cd ${PKG}-${VER}
+	case $ARCH in
+		i?86) sed -i -e '/xmmintrin\.h/d' configure ;;
+	esac
 	./configure --prefix=/usr \
 				--localstatedir=/var \
 				--sysconfdir=/etc \

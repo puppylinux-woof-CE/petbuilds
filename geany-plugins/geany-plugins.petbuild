@@ -6,7 +6,7 @@
 
 URL=http://plugins.geany.org/geany-plugins
 PKG=geany-plugins
-VER=1.25
+VER=1.27
 COMP=tar.bz2
 DESC="Plugins for geany IDE"
 DEPS=+geany

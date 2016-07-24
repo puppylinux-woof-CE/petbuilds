@@ -4,14 +4,16 @@
 . ../func
 . ../build.conf
 
-URL=http://downloads.sourceforge.net/project/netpbm/super_stable/10.35.97/
-
+#VER=10.35.97
+#VER=10.49.02
+#VER=10.47.62
+VER=10.66.02
+#URL=http://downloads.sourceforge.net/project/netpbm/super_stable/${VER}
+URL=https://mirror.aarnet.edu.au/pub/slackware/slackware64-14.2/source/l/netpbm
 #URL=http://distro.ibiblio.org/puppylinux/sources/n
 PKG=netpbm
-VER=10.35.97
-#VER=10.49.02
-COMP=tgz
-#COMP=tar.xz
+#COMP=tgz
+COMP=tar.xz
 DESC="a comprehensive suite of image manipulaton tools"
 DEPS=+libjpeg,+libpng
 CAT=BuildingBlock
@@ -30,19 +32,20 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
-patch_me () {
-	#THIS IS AWFUL!
-	(cd /usr/bin; rm -f libpng-config; ln -sf libpng12-config libpng-config)
+patch_me() {
+	for i in *patch;do
+		echo "applying $i"
+		(cd ${PKG}-${VER}; patch -p1 < ../$i) || exit 1
+	done
 }
-
 
 build() {
 	cd ${PKG}-${VER}
 	if [ "$ARCH" = "x86_64" ]; then
 	  cat $CWD/config.mk \
-	    | sed -e '/^CFLAGS/s/^CFLAGS = .*/& -fPIC/' -e 's%/usr/lib%/usr/lib64%g' > Makefile.config
+	    | sed -e '/^CFLAGS/s/^CFLAGS = .*/& -fPIC/' -e 's%/usr/lib%/usr/lib64%g' > config.mk #Makefile.config
 	else
-	  cat $CWD/config.mk > Makefile.config
+	  cat $CWD/config.mk > config.mk #Makefile.config
 	fi
 	#./configure 
 	make
@@ -57,22 +60,16 @@ build() {
 	  mkdir -p share/doc/netpbm-$VERSION
 	  mv man share/
 	  mv VERSION bin/doc.url share/doc/netpbm-$VERSION
-	  ( cd lib ; ln -sf libnetpbm.so.10 libnetpbm.so )
+	  ( cd lib ; ln -sf libnetpbm.so.11 libnetpbm.so )
 	  mv lib ${LIBDIR}
-	  rm -rf config_template link misc pkginfo man/man1/manweb.1 man/web
+	  rm -rf *config_template link misc pkginfo man/man1/manweb.1 man/web
 	)
 	cd -
 }
 	
-unpatch_me () {
-	#THIS IS AWFUL!
-	(cd /usr/bin; rm -f libpng-config; ln -sf libpng14-config libpng-config)
-}
-
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 patch_me
 build
-unpatch_me
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

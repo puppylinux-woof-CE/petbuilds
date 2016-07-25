@@ -36,6 +36,8 @@ build() {
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit
 	make DESTDIR=$CWD/${PKG}-install install
+	install -d -m 0755 $CWD/${PKG}-install/usr/share/pixmaps
+	install -m 0644 $CWD/${PKG}.png $CWD/${PKG}-install/usr/share/pixmaps/
 	cd -
 }
 	

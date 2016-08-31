@@ -127,6 +127,7 @@ f36fe041215684f57a0bd828f620dea6  mdview-2016-06-17.tar.bz2
 e8a4d77ad4f509e81dd5e13b51636c1d  MPlayer-1.3.0.tar.xz
 f020d7267574407739a146a7d4044795  mpscan-0.1.0-kirk.tar.gz
 768cfc7ead4d48b093ca273d72a8f305  mtpaint-3.49.12.tar.xz
+974b1c5a8751ef6cfc28dc2b0cb58b0d  mtpstatus-0.5.tar.gz
 48be0777e32f374d387e9cf85e36ec4d  musl-1.1.11.tar.gz
 d529ce4a2f7f79d8c3fd4b8329417b57  musl-1.1.14.tar.gz
 ec21e504d27acb2a0f049c7421ace462  nbtscan-source-1.0.35.tgz
@@ -225,3 +226,4 @@ f76c2e5465a1a2aca2286415b13b01a4  xsoldier-1.8.tar.gz
 f0a77572ac4694038e8519726b2883d9  xvidcore-1.3.3.tar.bz2
 2f0b5c91b701ea548883607d7b0ad8ec  xvkbd-3.7.tar.gz
 92dd5a1e5861a03cd75c3e0f5791b67c  yad-0.36.2.tar.xz
+c339b9631da00c869b4d65b94fb662c9  zarfy-0.1.0.tar.bz2

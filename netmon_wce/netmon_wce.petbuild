@@ -9,11 +9,11 @@ PKG=netmon_wce
 VER=3.1
 COMP=tar.bz2
 DESC="Network tray monitor - supports wireless and ipv6"
-DEPS=+gtk+,+wireless-tools
+DEPS=+gtk+,+wireless_tools
 CAT=Network
 DESKTOP=netmon_wce.desktop
 ICONS=light
-BUILD=
+BUILD=s700.1
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -29,7 +29,7 @@ esac
 
 build() {
 	mkdir ${PKG}-${VER}
-	for f in `ls|grep -v 'petbuild$'`;do
+	for f in `ls|grep -v 'petbuild$'|grep -v ${PKG}-${VER}`;do
 		cp -arf $f  ${PKG}-${VER}
 	done
 	cd ${PKG}-${VER}

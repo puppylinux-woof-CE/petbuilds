@@ -4,23 +4,26 @@
 
 . ../func
 . ../build.conf
-http://www.labs.hpe.com/personal/Jean_Tourrilhes/Linux/wireless_tools.29.tar.gz
+
 URL=http://www.labs.hpe.com/personal/Jean_Tourrilhes/Linux
+#PKG=wireless_tools.30.pre9.tar.gz
+#VER=wireless_tools.30.pre9
 PKG=wireless_tools
-SVER=29
-VER=29.0
+SVER=30.pre9
+VER=30.0
+PVER=30
 COMP=tar.gz
 DESC="tools for linux wireless networks"
 DEPS=
 CAT=BuildingBlock
-DESKTOP=wireless_tools.29.tar.gz.desktop
+DESKTOP=
 BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
 # comment these 2 below if you use a custom package() function
-[ -f "$DESKTOP" ] || DESKTOP=not
-[ -z "$DEPS" ] && DEPS=not
+#[ -f "$DESKTOP" ] || DESKTOP=not
+#[ -z "$DEPS" ] && DEPS=not
 
 ARCH=$(uname -m)
 case $ARCH in # set in build.conf
@@ -30,7 +33,7 @@ case $ARCH in # set in build.conf
 esac
 
 fix() {
-	mv ${PKG}.${SVER} ${PKG}-${VER}
+	mv ${PKG}.${PVER} ${PKG}-${VER}
 }
 
 build() {

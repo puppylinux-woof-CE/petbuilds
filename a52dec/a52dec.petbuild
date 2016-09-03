@@ -22,7 +22,7 @@ case $ARCH in
  *64) LIBDIR=lib64 
 	FLAGS='-fPIC';;
  *) LIBDIR=lib 
-    FLAGS='-02';;
+    FLAGS='-O2';;
 esac
 
 build() {

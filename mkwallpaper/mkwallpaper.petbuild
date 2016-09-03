@@ -6,7 +6,7 @@
 
 #URL=http://distro.ibiblio.org/puppylinux/sources/m
 PKG=mkwallpaper
-VER=0.6
+VER=0.8
 #COMP=tar.gz
 DESC="custom simple puppy wallpapers"
 DEPS=
@@ -16,8 +16,8 @@ BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
-[ -f "$DESKTOP" ] || DESKTOP=not
-[ -z "$DEPS" ] && DEPS=
+#[ -f "$DESKTOP" ] || DESKTOP=not
+#[ -z "$DEPS" ] && DEPS=
 
 ARCH=$(uname -m)
 case $ARCH in

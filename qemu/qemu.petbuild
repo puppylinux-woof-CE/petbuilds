@@ -7,7 +7,7 @@
 
 URL=http://wiki.qemu-project.org/download
 PKG=qemu
-VER=2.3.1
+VER=2.4.1
 COMP=tar.bz2
 DESC="qemu is an emulator and a virtualizer for linux"
 DEPS=
@@ -41,7 +41,8 @@ build() {
 		--target-list="arm-softmmu arm-linux-user $TYPE" \
 		--audio-drv-list="alsa sdl"  \
 		--enable-guest-base --enable-guest-agent \
-		--with-sdlabi=1.2
+		--with-sdlabi=1.2 \
+		--disable-strip
 	make $MKFLG || exit
 	make DESTDIR=$CWD/${PKG}-install install
 	install -m 0644 $CWD/uefi-bios.bin $CWD/${PKG}-install/usr/share/qemu/

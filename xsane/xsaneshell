@@ -9,7 +9,7 @@ WAIT_MSG="$(gettext "Please wait...")"
 
 usb_scanner() {
 	# splash
-	gtkdialog-splash -bg blue -close never -text "$WAIT_MSG" &
+	gtkdialog-splash -close never -text "$WAIT_MSG" &
 	upid=$!
 	# find scanner or list of scanners
 	LIST=`scanimage -L`
@@ -20,29 +20,26 @@ usb_scanner() {
 		SELECT_BLURB="$(gettext "Select the appropriate device from the list.")" \
 		|| SCANNER_BLURB="$(gettext "<b>The following scanner is on your system:</b>")" \
 		SELECT_BLURB="$(gettext "Please select this device.")"
-	
+
 	export Xsane1='<window title="'$(gettext 'Frontend for Xsane')'" icon-name="gtk-preferences">
 		<vbox space-expand="true" space-fill="true">
+		  '"`/usr/lib/gtkdialog/xml_info scale scanner.svg 60 "$(gettext "<b>When Xsane starts, your scanner (if it is connected and turned on) should be autodetected.</b>")"`"'
 		  <frame>
-		    <vbox space-expand="true" space-fill="true">
-		      '"`/usr/lib/gtkdialog/xml_info scale scanner.svg 60 "$(gettext "<b>When Xsane starts, your scanner (if it is connected and turned on) should be autodetected.</b>")"`"'
-		      <text height-request="5" space-expand="false" space-fill="false"><label>""</label></text>
-		        <vbox border-width="10">
-		          <text xalign="0" use-markup="true"><label>"'$SCANNER_BLURB'"</label></text>
-		          <text xalign="0" use-markup="true"><label>"'$SELECT_BLURB'"</label></text>
-		        </vbox>
-		        <tree column-header-active="false|false|false" column-resizeable="false|false|false" tooltip-text="'$(gettext "Click the appropriate entry.")'">
-					<label>Scanner|Description</label>
-					<variable>SELECTION</variable>
-					<width>500</width>
-					<height>250</height>
-					<input>cat /tmp/scanner</input>
-					<action signal="button-release-event">exit:chosen</action>
-				</tree>
-			</vbox>
+		    <vbox border-width="10">
+		      <text xalign="0" use-markup="true"><label>"'$SCANNER_BLURB'"</label></text>
+		      <text xalign="0" use-markup="true"><label>"'$SELECT_BLURB'"</label></text>
+		    </vbox>
+		    <tree column-header-active="false|false|false" column-resizeable="false|false|false" tooltip-text="'$(gettext "Click the appropriate entry.")'">
+		      <label>Scanner|Description</label>
+		      <variable>SELECTION</variable>
+		      <width>500</width>
+		      <height>250</height>
+		      <input>cat /tmp/scanner</input>
+		      <action signal="button-release-event">exit:chosen</action>
+		    </tree>
 		  </frame>
 		</vbox>
-	</window>'
+		</window>'
 	
 	. /usr/lib/gtkdialog/xml_info gtk #build bg_pixmap for gtk-theme
 	eval `gtkdialog --program=Xsane1`
@@ -61,9 +58,9 @@ old_scanner() {
 	export Xsane2='
 	<window title="'$(gettext 'Frontend for Xsane')'" icon-name="gtk-preferences">
 	<vbox space-expand="true" space-fill="true">
+	  '"`/usr/lib/gtkdialog/xml_info scale scanner.svg 60 "$(gettext "<b>When Xsane starts, your scanner (if it is connected and turned on) should be autodetected.</b>")" "$(gettext "However, some entries in the drivers list (/etc/sane.d/dll.conf) are commented-out. These are:")" "<i>$COMMOUT</i>" "$(gettext "If your scanner is one of these, then Xsane will not auto-detect it. - in that case, click 'Quit' button and open 'dll.conf' in a text editor and uncomment the appropriate entry.")"`"'
 	  <frame>
 	    <vbox space-expand="true" space-fill="true">
-	      '"`/usr/lib/gtkdialog/xml_info scale scanner.svg 60 "$(gettext "<b>When Xsane starts, your scanner (if it is connected and turned on) should be autodetected.</b>")" "$(gettext "However, some entries in the drivers list (/etc/sane.d/dll.conf) are commented-out. These are:")" "<i>$COMMOUT</i>" "$(gettext "If your scanner is one of these, then Xsane will not auto-detect it. - in that case, click 'Quit' button and open 'dll.conf' in a text editor and uncomment the appropriate entry.")"`"'
 	      <text height-request="5" space-expand="false" space-fill="false"><label>""</label></text>
 	      <expander>  
 	        <vbox border-width="10">

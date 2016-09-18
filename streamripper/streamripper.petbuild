@@ -26,8 +26,14 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
+#fix
+fixup() {
+	(cd ${PKG}-${VER}; chmod 755 *sh)
+}
+
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+fixup
 build_configure $PKG $VER $LIBDIR
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

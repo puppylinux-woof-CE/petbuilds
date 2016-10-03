@@ -1,5 +1,16 @@
 #!/bin/sh
 
+# only start the status icon on a tablet
+
+if udevadm info --export-db | grep -q 'ID_INPUT_TOUCHSCREEN=1';then
+	# don't display the desktop entry in menu on touchscreen device
+	if grep -q 'false' /usr/share/applications/x-keyboard.desktop;then
+		sed -i 's/false/true/' /usr/share/applications/x-keyboard.desktop
+		fixmenus; jwm -reload
+	fi
+else
+	exit
+fi
 # starter script so we have some delay
 
 sleep 2

@@ -1,12 +1,25 @@
 #!/bin/sh
 
-MAXX=`xwininfo -root|grep Width|awk '{print $2}'`
-MAXY=`xwininfo -root|grep Height|awk '{print $2}'`
-GEO=$((3*($MAXX/4)))x$(($MAXY/4))+$((($MAXX/2)-(3*$MAXX/8)))+$(($MAXY-($MAXY/5)-64))
-echo $GEO
+# get screen size
+read ROOTDIMS MX MY << EOF
+`xwininfo -root | grep ' \-geometry ' | cut -f 1 -d '+' | tr 'x' ' '`
+EOF
+echo $MX $MY
+
+# default landscape geometry
+GEO=$((3*($MX/4)))x$((9*($MY/32)))+$((($MX/2)-(3*$MX/8)))+$(($MY-(9*${MY}/32)))
+
+# if cellwriter is installed it takes preference
 if which cellwriter 2>/dev/null ;then
-	cellwriter --keyboard-only  --dock-window=1 &
+	exec cellwriter --keyboard-only  --dock-window=1
 else
-	[ $MAXX -gt $MAXY ] OPT2= || OPT2=-no-keypad
-	xvkbd -geometry $GEO -always-on-top  $OPT2 &
+	if [ $MX -gt $MY ];then
+		OPT2=
+	else
+		# portrait mode
+		OPT2=-no-keypad
+		GEO=${MX}x$(($MY/4))+0+$(($MY-($MY/4)))
+	fi
+	echo $GEO
+	exec xvkbd -geometry $GEO -always-on-top  $OPT2
 fi

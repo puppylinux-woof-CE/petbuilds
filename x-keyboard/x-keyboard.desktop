@@ -8,4 +8,4 @@ Terminal=false
 Type=Application
 Categories=Utility;
 GenericName=X Virtual Keyboard
-NoDisplay=true
+NoDisplay=false

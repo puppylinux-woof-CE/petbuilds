@@ -1,0 +1,78 @@
+diff -rupN xvkbd-3.7.orig/XVkbd-common.ad xvkbd-3.7/XVkbd-common.ad
+--- xvkbd-3.7.orig/XVkbd-common.ad	2013-11-02 09:39:48.000000000 +1000
++++ xvkbd-3.7/XVkbd-common.ad	2016-10-03 12:51:18.199066530 +1000
+@@ -51,11 +51,11 @@ XVkbd*Repeater.minimumDelay: 100
+ XVkbd*Repeater.decay: 500
+ 
+ XVkbd*Font: -*-helvetica-medium-r-*-*-12-*-*-*-*-*-iso8859-1
+-XVkbd*generalFont: -*-lucidatypewriter-bold-r-*-*-12-*-*-*-*-*-iso8859-1
++XVkbd*generalFont: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-1
+ XVkbd*letterFont: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-1
+ XVkbd*specialFont: -*-helvetica-medium-r-*-*-12-*-*-*-*-*-iso8859-1
+-XVkbd*keypadFont: -*-helvetica-medium-r-*-*-10-*-*-*-*-*-iso8859-1
+-XVkbd*banner.font: -*-lucida-bold-i-*-*-14-*-*-*-*-*-iso8859-1
++XVkbd*keypadFont: -*-dejavu sans-bold-r-*-*-10-*-*-*-*-*-iso8859-8
++XVkbd*banner.font: -*-dejavu sans-bold-o-*-*-14-*-*-*-*-*-iso8859-8
+ XVkbd*display_panel*label.font: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-1
+ 
+ XVkbd*beNiceToColormap: false
+@@ -222,7 +222,7 @@ XVkbd*completion_panel*view.list.width:
+ XVkbd*completion_panel*view.list.height: 150
+ 
+ XVkbd*completion_panel*label.font: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-1
+-XVkbd*completion_panel*list.font: -*-lucida-medium-r-*-*-14-*-*-*-*-*-iso8859-1
++XVkbd*completion_panel*list.font: -*-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1
+ XVkbd*completion_panel*label.label: Completion:
+ XVkbd*completion_panel*bottom: chainTop
+ XVkbd*completion_panel*label.right: chainLeft
+diff -rupN xvkbd-3.7.orig/XVkbd-common.h xvkbd-3.7/XVkbd-common.h
+--- xvkbd-3.7.orig/XVkbd-common.h	2014-05-24 17:51:01.000000000 +1000
++++ xvkbd-3.7/XVkbd-common.h	2016-10-03 12:51:51.582399493 +1000
+@@ -35,11 +35,11 @@
+ "XVkbd*Repeater.minimumDelay: 100",
+ "XVkbd*Repeater.decay: 500",
+ "XVkbd*Font: -*-helvetica-medium-r-*-*-12-*-*-*-*-*-iso8859-1",
+-"XVkbd*generalFont: -*-lucidatypewriter-bold-r-*-*-12-*-*-*-*-*-iso8859-1",
++"XVkbd*generalFont: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-1",
+ "XVkbd*letterFont: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-1",
+ "XVkbd*specialFont: -*-helvetica-medium-r-*-*-12-*-*-*-*-*-iso8859-1",
+-"XVkbd*keypadFont: -*-helvetica-medium-r-*-*-10-*-*-*-*-*-iso8859-1",
+-"XVkbd*banner.font: -*-lucida-bold-i-*-*-14-*-*-*-*-*-iso8859-1",
++"XVkbd*keypadFont: -*-dejavu sans-bold-r-*-*-10-*-*-*-*-*-iso8859-8",
++"XVkbd*banner.font: -*-dejavu sans-bold-r-*-*-14-*-*-*-*-*-iso8859-8",
+ "XVkbd*display_panel*label.font: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-1",
+ "XVkbd*beNiceToColormap: false",
+ "XVkbd*topShadowContrast: 40",
+@@ -191,7 +191,7 @@
+ "XVkbd*completion_panel*view.list.width: 400",
+ "XVkbd*completion_panel*view.list.height: 150",
+ "XVkbd*completion_panel*label.font: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-1",
+-"XVkbd*completion_panel*list.font: -*-lucida-medium-r-*-*-14-*-*-*-*-*-iso8859-1",
++"XVkbd*completion_panel*list.font: -*-helvetica-medium-r-*-*-14-*-*-*-*-*-iso8859-1",
+ "XVkbd*completion_panel*label.label: Completion:",
+ "XVkbd*completion_panel*bottom: chainTop",
+ "XVkbd*completion_panel*label.right: chainLeft",
+diff -rupN xvkbd-3.7.orig/XVkbd-slovene.ad xvkbd-3.7/XVkbd-slovene.ad
+--- xvkbd-3.7.orig/XVkbd-slovene.ad	2013-03-18 22:06:27.000000000 +1000
++++ xvkbd-3.7/XVkbd-slovene.ad	2016-10-03 12:55:14.795730594 +1000
+@@ -10,7 +10,7 @@
+ !
+ xvkbd.title: xvkbd - Virtual Keyboard (Slovene)
+ 
+-xvkbd*generalFont: -*-lucidatypewriter-bold-r-*-*-12-*-*-*-*-*-iso8859-2
++xvkbd*generalFont: -*-dejavu sans-bold-r-*-*-12-*-*-*-*-*-iso8859-2
+ xvkbd*letterFont: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-2
+ 
+ xvkbd*Shift_L.width: 45
+diff -rupN xvkbd-3.7.orig/XVkbd-turkish.ad xvkbd-3.7/XVkbd-turkish.ad
+--- xvkbd-3.7.orig/XVkbd-turkish.ad	2013-03-18 22:07:35.000000000 +1000
++++ xvkbd-3.7/XVkbd-turkish.ad	2016-10-03 12:55:43.859063605 +1000
+@@ -10,7 +10,7 @@
+ !
+ xvkbd.title: xvkbd - Virtual Keyboard (Turkish)
+ 
+-xvkbd*generalFont: -*-lucidatypewriter-bold-r-*-*-12-*-*-*-*-*-iso8859-9
++xvkbd*generalFont: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-9
+ xvkbd*letterFont: -*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-9
+ 
+ xvkbd*Shift_L.width: 45

@@ -7,8 +7,10 @@ d2edc7710c72cbf3ab297c414e35ebda  alsaequal-0.6.tar.bz2
 38584d6c1edfa9f6b41d496e4a5539f1  arp-scan-1.9.tar.gz
 30f8e34c92b14f17ba3029937b2f218a  atkmm-2.22.6.tar.xz
 71b03c1bc4f587add12604587d9276d1  automake-1.13.4.tar.xz
+fcf64309fecd564f17a3fc0610bb7d06  bacon-3.4.tar.gz
 1cee9b57c22fac6dcecb57d5d1340fbd  bbc_provided-2003.tar.gz
 8ce2873836ccd433329c8df0e37e298c  bcrypt-1.1.tar.gz
+dae2ed00c63791800ea7d10a381270a5  bluez-5.38.tar.xz
 5c94d6301a964cd91619bd4d74605245  busybox-1.23.1.tar.bz2
 b05af9645076f75429a8683f8afcbdb3  busybox-1.25.0.tar.bz2
 9c63fb1c04c8ecd3c5e6473075b8c39f  cairomm-1.10.0.tar.gz
@@ -60,6 +62,7 @@ e2bc2d2f51220d6883f0797d74c385b8  goffice-0.8.17.tar.xz
 6d19aeabf196340e1698b3734f090d42  gphoto2-2.5.3.tar.bz2
 bf88054e726e27b9c699ac4ed594cdf6  gphotofs-0.5.tar.bz2
 b209e36531f89c48e3067b389699d4c7  gpicview-0.2.4.tar.gz
+04e96b0e6f0fe6a180ae62c88fcd0af6  grep-2.25.tar.xz
 e144e4662ebe4ca5091df37352b82d28  gtkdialog-0.8.4.tar.xz
 822b04c9eba65aa14c1d6fd4a3454a37  gtklp-1.2.9.src.tar.gz
 388a63ffc40cc8e208df9a1732a67d2d  gtkmm-2.24.2.tar.xz

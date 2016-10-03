@@ -1,6 +1,8 @@
 /* 'netmon_wce' - Network monitor for system tray*/
 /* fork of Barry's 'network_tray' */
-
+/* Changes:
+mcewanw 08June2016: reserve and point to required memory storage for struct iface_info char strings i_name[] and ip_address[]
+*/
 #define _GNU_SOURCE     /* To get defns of NI_MAXSERV and NI_MAXHOST */
 #include <arpa/inet.h>
 #include <sys/socket.h>
@@ -21,6 +23,14 @@
 #include <limits.h>
 #include <libintl.h>
 #include <locale.h>
+          // mcewanw addition_start:
+#ifndef   IFACE_NAMELEN
+#define   IFACE_NAMELEN 32
+#endif
+#ifndef   INET6_ADDRSTRLEN
+#define   INET6_ADDRSTRLEN 46
+#endif
+          // mcewanw addition end
 
 #define _(STRING)	gettext(STRING)
 #define MONTH 		_("Month")
@@ -99,8 +109,10 @@ GError *gerror;
 
 //type to hold interface and ip address
 struct iface_info {
-	char *iname;
-	char *ip_address;
+//	char *iname; // mcewanw
+//	char *ip_address; // mcewanw
+	char iname[IFACE_NAMELEN];          // mcewanw
+	char ip_address[INET6_ADDRSTRLEN];  // mcewanw
 };
 
 //fill the type
@@ -130,8 +142,10 @@ struct iface_info get_info() {
 					exit(EXIT_FAILURE);
 				}
 			}
-			info[i].iname = tmp->ifa_name;
-			info[i].ip_address = host;
+//			info[i].iname = tmp->ifa_name; // mcewanw
+//			info[i].ip_address = host; // mcewanw
+			strcpy(info[i].iname,tmp->ifa_name); // mcewanw
+			strcpy(info[i].ip_address, host); // mcewanw
 			freeifaddrs(addrs);
 			return info[i];
 			
@@ -148,11 +162,14 @@ struct iface_info get_info() {
 				}
 			}
 		}
-		info[i].iname = tmp->ifa_name;
-		info[i].ip_address = host;
+//		info[i].iname = tmp->ifa_name; // mcewanw
+//		info[i].ip_address = host;  // mcewanw
+		strcpy(info[i].iname,tmp->ifa_name); // mcewanw
+		strcpy(info[i].ip_address, host); //mcewanw
 	}
 	freeifaddrs(addrs);
 	return info[i - 1]; //grab the first live one
+/* mcewanw comment: but above return does not produce active interface IPv4 address if that interface also has assigned IPv6 address since the IPv6 address often comes last in list */
 }
 
 //type to hold link quality and maximum

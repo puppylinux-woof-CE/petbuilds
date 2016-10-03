@@ -6,7 +6,7 @@
 
 URL=http://distro.ibiblio.org/puppylinux/sources/n
 PKG=netmon_wce
-VER=3.1
+VER=3.2
 COMP=tar.bz2
 DESC="Network tray monitor - supports wireless and ipv6"
 DEPS=+gtk+,+wireless_tools

@@ -3,6 +3,10 @@ netmon_wce
 Forked from Barry's version at 'network_tray-2.5' (2013) including Patriot's 
 'Lame WiFi Tray' features.
 ===============================================================================
+20161003 netmon_wce-3.2
+-----------------------
+bugfixes from mcewanw (William)
+===============================================================================
 20160120 netmon_wce-3.1
 -----------------------
 support ipv6

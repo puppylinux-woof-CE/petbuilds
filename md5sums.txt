@@ -78,6 +78,7 @@ c8e7477ac941295deaeb1732591ab20b  hexchat-2.10.2.tar.xz
 e768b9b55c033d9c1dffda72db3a6ac7  htop-1.0.3.tar.gz
 06f76c7d644ce8ae611c9feb10439a30  htop-2.0.0.tar.gz
 f75fe92b4defaa80d99109830f34b5e2  htop-2.0.1.tar.gz
+3d412eb85ce8d698460bb743deca49b1  hug-extras-0.100.tar.gz
 4967da60b23413604c9e563beacc63b4  hunspell-1.3.3.tar.gz
 dda519a078d0dae4ab94b3a4998b3835  ifplugd-0.28.tar.bz2
 84145969408c76717a38b0c4203c0abb  inkscapelite-0.36.3_patched-glib-rulers.tar.xz
@@ -162,6 +163,7 @@ ee5b2a878fd26800e746a05f6a9e4c14  puppy_icon_theme-0.1.tar.gz
 434195dd8be02288ec9f1617f29affa0  puppy_icon_theme-0.2.tar.gz
 e7bfc6b2f427d453fa5fb3b434f389c0  puppy_icon_theme-0.3.tar.gz
 2f5bb1c30c56ab9428ac12c2acbba4bd  puppy_icon_theme-0.4.tar.gz
+3d445c9d170950e73ca8c9ba547c5597  puppy_icon_theme-0.5.tar.gz
 4195af8f0e5ee2a798b1014071dae3a3  pure-ftpd-1.0.42.tar.gz
 fb6bbdb32e6af5c2d2980a32ac4ea051  qemu-2.3.1.tar.bz2
 a895e93ec1dafc34bc64ed676f0d55a6  qemu-2.4.1.tar.bz2
@@ -231,5 +233,6 @@ ef8e893468a326ee636d30239a588f77  xsane-0.997-patched.tar.gz
 f76c2e5465a1a2aca2286415b13b01a4  xsoldier-1.8.tar.gz
 f0a77572ac4694038e8519726b2883d9  xvidcore-1.3.3.tar.bz2
 2f0b5c91b701ea548883607d7b0ad8ec  xvkbd-3.7.tar.gz
+54f469a30bc0e326080752db5c9fc7b9  xvkbd_lucida.patch
 92dd5a1e5861a03cd75c3e0f5791b67c  yad-0.36.2.tar.xz
 c339b9631da00c869b4d65b94fb662c9  zarfy-0.1.0.tar.bz2

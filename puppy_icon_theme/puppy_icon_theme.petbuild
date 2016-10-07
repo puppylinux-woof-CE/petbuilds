@@ -8,7 +8,7 @@
 export THEME="Puppy Standard"
 URL=https://github.com/puppylinux-woof-CE/puppy_icon_theme/archive
 PKG=puppy_icon_theme
-VER=0.1
+VER=0.5
 COMP=tar.gz
 DESC="Puppy GTK compatible Icon Theme"
 DEPS=

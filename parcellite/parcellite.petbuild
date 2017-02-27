@@ -4,9 +4,9 @@
 . ../func
 . ../build.conf
 
-URL=http://downloads.sourceforge.net/project/parcellite/parcellite/parcellite-1.1.9/
+VER=1.2.1
+URL=http://downloads.sourceforge.net/project/parcellite/parcellite/parcellite-${VER}/
 PKG=parcellite
-VER=1.1.9
 COMP=tar.gz
 DESC="Parcellite is a lightweight GTK+ clipboard manager"
 DEPS=+gtk+2

@@ -31,7 +31,7 @@ get_specs() {
 		echo -n "$pet "
 		specs=`tar -xvJf "$pet" --no-anchored 'pet.specs' 2>/dev/null`
 		cat $specs >> ../0pets_out.specs
-		rm -r ${pet%.*}
+		rm -rf ${pet%.*}
 	done
 	cd -
 }
@@ -65,7 +65,7 @@ petbuilds_bootstrap() {
 petbuilds_bootstrap
 
 build_it() {
-	pkg=$1
+	pkg=${1/\//} # remove trailing slash if using bash completion
 	case "$1" in
 		-h|-help|--help) usage ;;
 	esac

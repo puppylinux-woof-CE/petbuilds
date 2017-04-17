@@ -5,9 +5,16 @@
 . ../func
 . ../build.conf
 
-URL=http://www.pjsip.org/release/2.6
+ARCH=$(uname -m)
+case $ARCH in # set in build.conf
+ *64) 	LIBDIR=$LIBCONF64 ; VER=2.6;;
+ arm*)	LIBDIR=$LIBCONFarm ; VER=1.10;;
+ *) 	LIBDIR=$LIBCONF32 ; VER=1.10;;
+esac
+
+URL=http://www.pjsip.org/release/$VER
 PKG=pjproject
-VER=2.6
+VER=$VER
 COMP=tar.bz2
 DESC="psjua engine for Psip"
 DEPS=
@@ -20,13 +27,6 @@ CWD=$(pwd)
 # comment these 2 below if you use a custom package() function
 [ -f "$DESKTOP" ] || DESKTOP=not
 [ -z "$DEPS" ] && DEPS=not
-
-ARCH=$(uname -m)
-case $ARCH in # set in build.conf
- *64) 	LIBDIR=$LIBCONF64 ;;
- arm*)	LIBDIR=$LIBCONFarm;;
- *) 	LIBDIR=$LIBCONF32 ;;
-esac
 
 # main
 retrieve ${PKG}-${VER}.${COMP}

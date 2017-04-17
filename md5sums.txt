@@ -172,6 +172,7 @@ f7d5ca3a31c7a558cf56b77e4e7cdc6c  parcellite-1.2.1.tar.gz
 35deb42e41cd7a13b541e2fbb09d721e  patch-makefile-in
 9279c25cb5c8749ae6356fff2ece136e  patch-src-makefile-in
 99b68e990012b2f58c184b8ba9e4fb4d  pipepanic-0.1.3-source.tar.gz
+e215d0637d3422d49a63c2cde6673951  pjproject-1.10.tar.bz2
 c347a672679e7875ce572e18517884b2  pjproject-2.6.tar.bz2
 17b503a5cd413e8ced1d460e4e8d17e3  pmcputemp-0.50.tar.xz
 1b8a83c4e376e2c72ab12fad59d99575  pnscan-1.10.tar.gz

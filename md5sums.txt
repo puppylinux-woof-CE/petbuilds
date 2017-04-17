@@ -1,5 +1,4 @@
-a1dc6f6ad97acf544504d60cfae25d4e  27.1.0_Release.tar.gz
-a4148016d84345b081a3c5350acaa9f6  27.1.1_Release.tar.gz
+85da96b5a1403be3772885f9c5852268  27.2.1_Release.tar.gz
 b60a269891ad60d622d2a27810992b17  915resolution-0.5.3-patched20110617.tar.gz
 cdfa65b6802b81f9e6e0a5ceceee65e3  a2dp-alsa-2016-01-02.tar.bz2
 caa9f5bc44232dc8aeea773fea56be80  a52dec-0.7.4.tar.gz
@@ -95,6 +94,7 @@ dda519a078d0dae4ab94b3a4998b3835  ifplugd-0.28.tar.bz2
 d1d0bf04ad04cb13596af195eb4b34af  inkscapelite-0.36.3_patched-glib.tar.xz
 0fe6a1d862feb954d8f760d23829e5b4  isomaster-1.3.13.tar.bz2
 93982d4a72924842fabfaaa6ee58a1d5  jimtcl-0.75-769d198.tar.gz
+11ebde45c16826317218614e8aa108c9  jwm-1592.tar.xz
 35063dbd19636cdb90335d4ec0f04cb8  jwm-2.2.2.tar.xz
 96bb523ea289f041146efa65b88481c4  jwm-2.3.2.tar.xz
 633a0ff5b4d321d8e553133dcc2df36c  kernel-headers-3.12.6-5.tar.xz
@@ -163,6 +163,7 @@ be9109370447eae23f6f3f8527bb1a67  numlockx-1.2.tar.gz
 670b223c5d12cee40c9137be86b6c39b  OpenSP-1.5.2.tar.gz
 1a2552e8d127526c48d644fe6437b377  orc-0.4.18.tar.gz
 b711ec292fe25b54a51b8c3765bd9e68  osmo-0.2.10-patched_96dpi_version_libnotify.tar.gz
+cf0d71d5917e30940909f72c9260c820  osxcart-1.2.0.tar.xz
 92cca093312b5a71a7be7dc7d1d32509  p7zip_15.14.1_src_all.tar.bz2
 bd6caaea567dc0d995c990c5cc883c89  p7zip_9.20.1_src_all.tar.bz2
 f4fe0905ee56e1ff0205005e61d2a66f  pangomm-2.28.4.tar.xz
@@ -171,17 +172,18 @@ f7d5ca3a31c7a558cf56b77e4e7cdc6c  parcellite-1.2.1.tar.gz
 35deb42e41cd7a13b541e2fbb09d721e  patch-makefile-in
 9279c25cb5c8749ae6356fff2ece136e  patch-src-makefile-in
 99b68e990012b2f58c184b8ba9e4fb4d  pipepanic-0.1.3-source.tar.gz
+c347a672679e7875ce572e18517884b2  pjproject-2.6.tar.bz2
 17b503a5cd413e8ced1d460e4e8d17e3  pmcputemp-0.50.tar.xz
 1b8a83c4e376e2c72ab12fad59d99575  pnscan-1.10.tar.gz
 2fcb161470929d8c35bdb2c67f5030e4  pnscan-1.11.tar.gz
-ee5b2a878fd26800e746a05f6a9e4c14  puppy_icon_theme-0.1.tar.gz
-434195dd8be02288ec9f1617f29affa0  puppy_icon_theme-0.2.tar.gz
-e7bfc6b2f427d453fa5fb3b434f389c0  puppy_icon_theme-0.3.tar.gz
-2f5bb1c30c56ab9428ac12c2acbba4bd  puppy_icon_theme-0.4.tar.gz
-3d445c9d170950e73ca8c9ba547c5597  puppy_icon_theme-0.5.tar.gz
+a7eeb0758c521a3e77548d08bf0a52c4  PSIP-0c3150ce6d.tar.gz
+2249015db77e197fbdcf5d43bef4d19d  puppy_flat_theme-0.4.tar.gz
+08ada22dd72a7dbf831111b186d97426  puppy_icon_theme-0.7.tar.gz
+fd907b15783a98b5b1697572dc0ddd37  puppy_icon_theme-0.8.tar.gz
 4195af8f0e5ee2a798b1014071dae3a3  pure-ftpd-1.0.42.tar.gz
 fb6bbdb32e6af5c2d2980a32ac4ea051  qemu-2.3.1.tar.bz2
 a895e93ec1dafc34bc64ed676f0d55a6  qemu-2.4.1.tar.bz2
+17940dce063b6ce450a12e719a6c9c43  qemu-2.8.0.tar.bz2
 1864987bdbb2f58f8ae8b350dfdbe133  qt-everywhere-opensource-src-4.8.5.tar.gz
 522c2a329b442dc19f33edaae8a8dd71  qtwebkit-2.3.1b.tar.gz
 ca8a1bde81730af3075b3c27db8862d1  qt_webkit_JSObject_gcc-5.patch
@@ -223,6 +225,7 @@ c9df5107ae9d26b10a1736a261250139  usbutils-007.tar.xz
 54ba880f1d66782c2287ee2c898520e9  util-linux-2.21.2.tar.xz
 3f191727a0d28f7204b755cf1b6ea0aa  util-linux-2.24.2.tar.xz
 708ef2f30825128b3eb9dd35a47ee7e4  v0.18.1.tar.gz
+047c3feb121261b76dc16cdb62f54483  v1.6.0.tar.gz
 38e3048669a25de0b2c2962e410bba2f  v1.88.tar.gz
 23e9c5354fb3c5584eab20955ee9d478  vamps-0.99.2.tar.gz
 8c77bda671821f5b9ede96b6816e2ade  vlc-2.1.0.tar.xz
@@ -238,6 +241,7 @@ f0782040612c69d46bff3139c5cc1557  wvstreams-4.6.1.tar.bz2
 a76308bf3b2588a2075c44cacb80da85  xarchive-0.2.8-6-i18n.tar.gz
 1b4cd37a6af03afc957a8e307417e8d0  xarchiver-0.5.4.tar.bz2
 f7e19d3e976fecdc1ea36cd39e39900d  xclip-0.12.tar.gz
+cd251b170ce1241d1809d8f7eaab9649  xcur2png-0.7.0.tar.bz2
 73baa34fb2b7a7bb8a5e8a1ad2a36a55  xdelta-30p.tar.bz2
 9951564c230e79f39035c89b8e582ba8  Xdialog-2015.08.tar.bz2
 62d0c2158bbaf882a1cf580421437b2f  xdotool-2.20110530.1.tar.gz

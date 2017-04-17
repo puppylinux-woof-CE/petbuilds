@@ -12,6 +12,16 @@
     <glob pattern="*.pet"/>
   </mime-type>
   
+  <mime-type type="application/kernel">
+    <comment>linux kernel</comment>
+    <glob pattern="vmlinuz*"/>
+  </mime-type>
+  
+  <mime-type type="application/kernel">
+    <comment>linux kernel</comment>
+    <glob pattern="bzImage*"/>
+  </mime-type>
+  
   <mime-type type="application/x-ext2-image">
     <comment>ext2 filesystem in a file</comment>
     <glob pattern="*.2fs"/>

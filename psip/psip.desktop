@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Psip Sip Phone
+Icon=/usr/share/pixmaps/psip48.png
+Comment=Psip Sip Phone
+Exec=psip
+Terminal=false
+Type=Application
+Categories=Internet
+GenericName=Sip Phone

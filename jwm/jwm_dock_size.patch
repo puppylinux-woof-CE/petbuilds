@@ -1,0 +1,436 @@
+diff -rupN jwm-2.3.2-orig/src/confirm.c jwm-2.3.2/src/confirm.c
+--- jwm-2.3.2-orig/src/confirm.c	2015-09-14 04:02:54.000000000 +1000
++++ jwm-2.3.2/src/confirm.c	2017-02-20 16:51:00.333871462 +1000
+@@ -305,6 +305,8 @@ void ShowConfirmDialog(ClientNode *np, v
+    shints.flags = PPosition;
+    JXSetWMNormalHints(display, window, &shints);
+    JXStoreName(display, window, _("Confirm"));
++   SetAtomAtom(window, ATOM_NET_WM_WINDOW_TYPE,
++               ATOM_NET_WM_WINDOW_TYPE_DIALOG);
+ 
+    /* Draw the dialog. */
+    DrawDialog();
+diff -rupN jwm-2.3.2-orig/src/dock.c jwm-2.3.2/src/dock.c
+--- jwm-2.3.2-orig/src/dock.c	2015-09-14 04:02:54.000000000 +1000
++++ jwm-2.3.2/src/dock.c	2017-02-20 16:25:13.707221813 +1000
+@@ -45,7 +45,6 @@ typedef struct DockType {
+ } DockType;
+ 
+ static const char BASE_SELECTION_NAME[] = "_NET_SYSTEM_TRAY_S%d";
+-static const char ORIENTATION_ATOM[] = "_NET_SYSTEM_TRAY_ORIENTATION";
+ 
+ static DockType *dock = NULL;
+ static char owner;
+@@ -60,7 +59,7 @@ static void DockWindow(Window win);
+ static char UndockWindow(Window win);
+ 
+ static void UpdateDock(void);
+-static void GetDockItemSize(DockNode *np, int *width, int *height);
++static void GetDockItemSize(int *size);
+ static void GetDockSize(int *width, int *height);
+ 
+ /** Initialize dock data. */
+@@ -190,8 +189,13 @@ void SetSize(TrayComponentType *cp, int
+    cp->width = width;
+    cp->height = height;
+    GetDockSize(&cp->width, &cp->height);
+-   cp->requestedWidth = cp->width;
+-   cp->requestedHeight = cp->height;
++   if(width == 0) {
++      cp->requestedWidth = cp->width;
++      cp->requestedHeight = 0;
++   } else {
++      cp->requestedWidth = 0;
++      cp->requestedHeight = cp->height;
++   }
+ 
+ }
+ 
+@@ -200,7 +204,6 @@ void Create(TrayComponentType *cp)
+ {
+ 
+    XEvent event;
+-   Atom orientationAtom;
+ 
+    Assert(cp);
+ 
+@@ -211,10 +214,8 @@ void Create(TrayComponentType *cp)
+    }
+ 
+    /* Set the orientation atom. */
+-   orientationAtom = JXInternAtom(display, ORIENTATION_ATOM, False);
+-   JXChangeProperty(display, dock->cp->window, orientationAtom,
+-                    XA_CARDINAL, 32, PropModeReplace,
+-                    (unsigned char*)&orientation, 1);
++   SetCardinalAtom(dock->cp->window, ATOM_NET_SYSTEM_TRAY_ORIENTATION,
++                   orientation);
+ 
+    /* Get the selection if we don't already own it.
+     * If we did already own it, getting it again would cause problems
+@@ -235,7 +236,7 @@ void Create(TrayComponentType *cp)
+          memset(&event, 0, sizeof(event));
+          event.xclient.type = ClientMessage;
+          event.xclient.window = rootWindow;
+-         event.xclient.message_type = JXInternAtom(display, "MANAGER", False);
++         event.xclient.message_type = atoms[ATOM_MANAGER];
+          event.xclient.format = 32;
+          event.xclient.data.l[0] = CurrentTime;
+          event.xclient.data.l[1] = dockAtom;
+@@ -290,7 +291,6 @@ char HandleDockResizeRequest(const XResi
+ 
+    for(np = dock->nodes; np; np = np->next) {
+       if(np->window == event->window) {
+-         JXResizeWindow(display, np->window, event->width, event->height);
+          UpdateDock();
+          return 1;
+       }
+@@ -420,6 +420,7 @@ void DockWindow(Window win)
+    JXAddToSaveSet(display, win);
+    JXSelectInput(display, win,
+         StructureNotifyMask
++      | EnterWindowMask
+       | ResizeRedirectMask
+       | PointerMotionMask | PointerMotionHintMask);
+    JXReparentWindow(display, win, dock->cp->window, 0, 0);
+@@ -476,59 +477,39 @@ void UpdateDock(void)
+    XConfigureEvent event;
+    DockNode *np;
+    int x, y;
+-   int width, height;
+-   int xoffset, yoffset;
+    int itemSize;
+ 
+    Assert(dock);
+ 
+    /* Determine the size of items in the dock. */
+-   if(orientation == SYSTEM_TRAY_ORIENTATION_HORZ) {
+-      itemSize = dock->cp->height;
+-   } else {
+-      itemSize = dock->cp->width;
+-   }
+-   if(dock->itemSize > 0 && itemSize > dock->itemSize) {
+-      itemSize = dock->itemSize;
+-   }
++   GetDockItemSize(&itemSize);
+ 
+    x = 0;
+    y = 0;
+    memset(&event, 0, sizeof(event));
+    for(np = dock->nodes; np; np = np->next) {
+ 
+-      GetDockItemSize(np, &width, &height);
+-      if(orientation == SYSTEM_TRAY_ORIENTATION_HORZ) {
+-         xoffset = 0;
+-         yoffset = (itemSize - height) / 2;
+-      } else {
+-         xoffset = (itemSize - width) / 2;
+-         yoffset = 0;
+-      }
+-
+-      JXMoveResizeWindow(display, np->window, x + xoffset, y + yoffset,
+-                         width, height);
++      JXMoveResizeWindow(display, np->window, x, y, itemSize, itemSize);
+ 
+       /* Reparent if this window likes to go other places. */
+       if(np->needs_reparent) {
+-         JXReparentWindow(display, np->window, dock->cp->window,
+-                          x + xoffset, y + yoffset);
++         JXReparentWindow(display, np->window, dock->cp->window, x, y);
+       }
+ 
+       event.type = ConfigureNotify;
+-      event.event = dock->window;
++      event.event = np->window;
+       event.window = np->window;
+-      event.x = x + xoffset;
+-      event.y = y + yoffset;
+-      event.width = width;
+-      event.height = height;
++      event.x = x;
++      event.y = y;
++      event.width = itemSize;
++      event.height = itemSize;
+       JXSendEvent(display, np->window, False, StructureNotifyMask,
+                   (XEvent*)&event);
+ 
+       if(orientation == SYSTEM_TRAY_ORIENTATION_HORZ) {
+-         x += width;
++         x += itemSize;
+       } else {
+-         y += height;
++         y += itemSize;
+       }
+ 
+    }
+@@ -536,52 +517,38 @@ void UpdateDock(void)
+ }
+ 
+ /** Get the size of a particular window on the dock. */
+-void GetDockItemSize(DockNode *np, int *width, int *height)
++void GetDockItemSize(int *size)
+ {
+-   int itemSize;
+-
+    /* Determine the default size of items in the dock. */
+    if(orientation == SYSTEM_TRAY_ORIENTATION_HORZ) {
+-      itemSize = dock->cp->height;
++      *size = dock->cp->height;
+    } else {
+-      itemSize = dock->cp->width;
++      *size = dock->cp->width;
+    }
+-   if(dock->itemSize > 0 && itemSize > dock->itemSize) {
+-      itemSize = dock->itemSize;
++   if(dock->itemSize > 0 && *size > dock->itemSize) {
++      *size = dock->itemSize;
+    }
+-
+-   /* Determine the size of the window. */
+-   *width = itemSize;
+-   *height = itemSize;
+-
+ }
+ 
+ /** Get the size of the dock. */
+ void GetDockSize(int *width, int *height)
+ {
+    DockNode *np;
++   int itemSize;
+ 
+    Assert(dock != NULL);
+ 
+-   /* Determine the dimension that is fixed. */
+-   if(orientation == SYSTEM_TRAY_ORIENTATION_HORZ) {
+-      *width = 0;
+-      *height = dock->cp->height;
+-   } else {
+-      *width = dock->cp->width;
+-      *height = 0;
+-   }
++   /* Get the dock item size. */
++   GetDockItemSize(&itemSize);
+ 
+    /* Determine the size of the items on the dock. */
+    for(np = dock->nodes; np; np = np->next) {
+-      int itemWidth, itemHeight;
+-      GetDockItemSize(np, &itemWidth, &itemHeight);
+       if(orientation == SYSTEM_TRAY_ORIENTATION_HORZ) {
+          /* Horizontal tray; height fixed, placement is left to right. */
+-         *width += itemWidth;
++         *width += itemSize;
+       } else {
+          /* Vertical tray; width fixed, placement is top to bottom. */
+-         *height += itemHeight;
++         *height += itemSize;
+       }
+    }
+ 
+diff -rupN jwm-2.3.2-orig/src/hint.c jwm-2.3.2/src/hint.c
+--- jwm-2.3.2-orig/src/hint.c	2015-09-14 04:02:54.000000000 +1000
++++ jwm-2.3.2/src/hint.c	2017-02-20 16:52:18.100537275 +1000
+@@ -69,13 +69,13 @@ Atom atoms[ATOM_COUNT];
+ const char jwmRestart[]    = "_JWM_RESTART";
+ const char jwmExit[]       = "_JWM_EXIT";
+ const char jwmReload[]     = "_JWM_RELOAD";
+-const char opacityAtom[]   = "_NET_WM_WINDOW_OPACITY";
+ 
+ static const AtomNode atomList[] = {
+ 
+    { &atoms[ATOM_COMPOUND_TEXT],             "COMPOUND_TEXT"               },
+    { &atoms[ATOM_UTF8_STRING],               "UTF8_STRING"                 },
+    { &atoms[ATOM_XROOTPMAP_ID],              "_XROOTPMAP_ID"               },
++   { &atoms[ATOM_MANAGER],                   "MANAGER"                     },
+ 
+    { &atoms[ATOM_WM_STATE],                  "WM_STATE"                    },
+    { &atoms[ATOM_WM_PROTOCOLS],              "WM_PROTOCOLS"                },
+@@ -145,16 +145,18 @@ static const AtomNode atomList[] = {
+    { &atoms[ATOM_NET_WM_WINDOW_TYPE_NORMAL], "_NET_WM_WINDOW_TYPE_NORMAL"  },
+    { &atoms[ATOM_NET_WM_WINDOW_TYPE_MENU],   "_NET_WM_WINDOW_TYPE_MENU"    },
+    { &atoms[ATOM_NET_WM_WINDOW_TYPE_NOTIFICATION],
+-      "_NET_WM_WINDOW_TYPE_NOTIFICATION"},
++      "_NET_WM_WINDOW_TYPE_NOTIFICATION" },
+    { &atoms[ATOM_NET_WM_WINDOW_TYPE_TOOLBAR], "_NET_WM_WINDOW_TYPE_TOOLBAR"},
+    { &atoms[ATOM_NET_WM_WINDOW_TYPE_UTILITY], "_NET_WM_WINDOW_TYPE_UTILITY"},
+    { &atoms[ATOM_NET_CLIENT_LIST],           "_NET_CLIENT_LIST"            },
+    { &atoms[ATOM_NET_CLIENT_LIST_STACKING],  "_NET_CLIENT_LIST_STACKING"   },
+    { &atoms[ATOM_NET_WM_STRUT_PARTIAL],      "_NET_WM_STRUT_PARTIAL"       },
+    { &atoms[ATOM_NET_WM_STRUT],              "_NET_WM_STRUT"               },
+-   { &atoms[ATOM_NET_WM_WINDOW_OPACITY],     &opacityAtom[0]               },
++   { &atoms[ATOM_NET_WM_WINDOW_OPACITY],     "_NET_WM_WINDOW_OPACITY"      },
+    { &atoms[ATOM_NET_WM_MOVERESIZE],         "_NET_WM_MOVERESIZE"          },
+    { &atoms[ATOM_NET_SYSTEM_TRAY_OPCODE],    "_NET_SYSTEM_TRAY_OPCODE"     },
++   { &atoms[ATOM_NET_SYSTEM_TRAY_ORIENTATION],
++      "_NET_SYSTEM_TRAY_ORIENTATION" },
+ 
+    { &atoms[ATOM_MOTIF_WM_HINTS],            "_MOTIF_WM_HINTS"             },
+ 
+@@ -1101,6 +1103,13 @@ void SetCardinalAtom(Window window, Atom
+                     PropModeReplace, (unsigned char*)&value, 1);
+ }
+ 
++/** Set an atom atom. */
++void SetAtomAtom(Window window, AtomType atom, AtomType value)
++{
++   Assert(window != None);
++   JXChangeProperty(display, window, atoms[atom], XA_ATOM, 32,
++                    PropModeReplace, (unsigned char*)&atoms[value], 1);
++}
+ /** Read a window atom. */
+ char GetWindowAtom(Window window, AtomType atom, Window *value)
+ {
+diff -rupN jwm-2.3.2-orig/src/hint.h jwm-2.3.2/src/hint.h
+--- jwm-2.3.2-orig/src/hint.h	2015-09-14 04:02:54.000000000 +1000
++++ jwm-2.3.2/src/hint.h	2017-02-20 16:53:55.693869533 +1000
+@@ -19,6 +19,7 @@ typedef enum {
+    ATOM_COMPOUND_TEXT,
+    ATOM_UTF8_STRING,
+    ATOM_XROOTPMAP_ID,
++   ATOM_MANAGER,
+ 
+    /* Standard atoms */
+    ATOM_WM_STATE,
+@@ -104,6 +105,7 @@ typedef enum {
+    ATOM_NET_WM_MOVERESIZE,
+ 
+    ATOM_NET_SYSTEM_TRAY_OPCODE,
++   ATOM_NET_SYSTEM_TRAY_ORIENTATION,
+ 
+    /* MWM atoms */
+    ATOM_MOTIF_WM_HINTS,
+@@ -123,7 +125,6 @@ typedef enum {
+ extern const char jwmRestart[];
+ extern const char jwmExit[];
+ extern const char jwmReload[];
+-extern const char opacityAtom[];
+ 
+ #define FIRST_NET_ATOM ATOM_NET_SUPPORTED
+ #define LAST_NET_ATOM  ATOM_NET_WM_STRUT
+@@ -278,5 +279,12 @@ void SetWindowAtom(Window window, AtomTy
+  */
+ void SetPixmapAtom(Window window, AtomType atom, Pixmap value);
+ 
++/** Set an atom atom.
++ * @param window The window.
++ * @param atom The atom to set.
++ * @param value The value.
++ */
++void SetAtomAtom(Window window, AtomType atom, AtomType value);
++
+ #endif /* HINT_H */
+ 
+diff -rupN jwm-2.3.2-orig/src/menu.c jwm-2.3.2/src/menu.c
+--- jwm-2.3.2-orig/src/menu.c	2015-09-14 04:02:54.000000000 +1000
++++ jwm-2.3.2/src/menu.c	2017-02-20 16:55:08.777202063 +1000
+@@ -22,6 +22,7 @@
+ #include "parse.h"
+ #include "winmenu.h"
+ #include "screen.h"
++#include "hint.h"
+ 
+ #define BASE_ICON_OFFSET   3
+ #define MENU_BORDER_SIZE   1
+@@ -463,6 +464,8 @@ void CreateMenu(Menu *menu, int x, int y
+                                  menu->width, menu->height, 0,
+                                  CopyFromParent, InputOutput,
+                                  CopyFromParent, attrMask, &attr);
++   SetAtomAtom(menu->window, ATOM_NET_WM_WINDOW_TYPE,
++               ATOM_NET_WM_WINDOW_TYPE_MENU);
+    menu->pixmap = JXCreatePixmap(display, menu->window,
+                                  menu->width, menu->height, rootDepth);
+ 
+diff -rupN jwm-2.3.2-orig/src/popup.c jwm-2.3.2/src/popup.c
+--- jwm-2.3.2-orig/src/popup.c	2015-09-14 04:02:54.000000000 +1000
++++ jwm-2.3.2/src/popup.c	2017-02-20 16:56:38.673867740 +1000
+@@ -18,6 +18,7 @@
+ #include "misc.h"
+ #include "settings.h"
+ #include "event.h"
++#include "hint.h"
+ 
+ typedef struct PopupType {
+    int x, y;   /* The coordinates of the upper-left corner of the popup. */
+@@ -135,6 +136,8 @@ void ShowPopup(int x, int y, const char
+                                     popup.width, popup.height, 0,
+                                     CopyFromParent, InputOutput,
+                                     CopyFromParent, attrMask, &attr);
++      SetAtomAtom(popup.window, ATOM_NET_WM_WINDOW_TYPE,
++                  ATOM_NET_WM_WINDOW_TYPE_NOTIFICATION);                              
+       JXMapRaised(display, popup.window);
+ 
+    } else {
+diff -rupN jwm-2.3.2-orig/src/status.c jwm-2.3.2/src/status.c
+--- jwm-2.3.2-orig/src/status.c	2015-09-14 04:02:54.000000000 +1000
++++ jwm-2.3.2/src/status.c	2017-02-20 17:03:43.583863064 +1000
+@@ -14,6 +14,7 @@
+ #include "main.h"
+ #include "client.h"
+ #include "settings.h"
++#include "hint.h"
+ 
+ static Window statusWindow;
+ static unsigned int statusWindowHeight;
+@@ -86,6 +87,8 @@ void CreateMoveResizeWindow(const Client
+       statusWindowWidth, statusWindowHeight, 0,
+       CopyFromParent, InputOutput, CopyFromParent,
+       attrMask, &attrs);
++      SetAtomAtom(statusWindow, ATOM_NET_WM_WINDOW_TYPE,
++               ATOM_NET_WM_WINDOW_TYPE_NOTIFICATION);
+ 
+    JXMapRaised(display, statusWindow);
+ 
+diff -rupN jwm-2.3.2-orig/src/tray.c jwm-2.3.2/src/tray.c
+--- jwm-2.3.2-orig/src/tray.c	2015-09-14 04:02:54.000000000 +1000
++++ jwm-2.3.2/src/tray.c	2017-02-20 16:41:07.763877982 +1000
+@@ -22,6 +22,7 @@
+ #include "event.h"
+ #include "client.h"
+ #include "misc.h"
++#include "hint.h"
+ 
+ #define DEFAULT_TRAY_WIDTH 32
+ #define DEFAULT_TRAY_HEIGHT 32
+@@ -65,7 +66,6 @@ void StartupTray(void)
+ {
+ 
+    XSetWindowAttributes attr;
+-   Atom atom;
+    unsigned long attrMask;
+    TrayType *tp;
+    TrayComponentType *cp;
+@@ -105,13 +105,12 @@ void StartupTray(void)
+                                   tp->x, tp->y, tp->width, tp->height, 0,
+                                   rootDepth, InputOutput,
+                                   rootVisual, attrMask, &attr);
+-
++      SetAtomAtom(tp->window, ATOM_NET_WM_WINDOW_TYPE,
++                  ATOM_NET_WM_WINDOW_TYPE_DOCK);
++      
+       if(settings.trayOpacity < UINT_MAX) {
+-         /* Can't use atoms yet as it hasn't been initialized. */
+-         atom = JXInternAtom(display, opacityAtom, False);
+-         JXChangeProperty(display, tp->window, atom, XA_CARDINAL, 32,
+-                          PropModeReplace,
+-                          (unsigned char*)&settings.trayOpacity, 1);
++         SetCardinalAtom(tp->window, ATOM_NET_WM_WINDOW_OPACITY,
++                         settings.trayOpacity);
+       }
+ 
+       SetDefaultCursor(tp->window);
+@@ -123,7 +122,7 @@ void StartupTray(void)
+ 
+          if(cp->Create) {
+             if(tp->layout == LAYOUT_HORIZONTAL) {
+-               height = tp->height;
++               height = tp->height - TRAY_BORDER_SIZE * 2;
+                width = cp->width;
+                if(width == 0) {
+                   width = variableSize;
+@@ -133,7 +132,7 @@ void StartupTray(void)
+                   }
+                }
+             } else {
+-               width = tp->width;
++               width = tp->width - TRAY_BORDER_SIZE * 2;
+                height = cp->height;
+                if(height == 0) {
+                   height = variableSize;

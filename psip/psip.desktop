@@ -6,5 +6,5 @@ Comment=Psip Sip Phone
 Exec=psip
 Terminal=false
 Type=Application
-Categories=Internet
+Categories=Telephony
 GenericName=Sip Phone

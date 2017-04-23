@@ -101,6 +101,7 @@ d1d0bf04ad04cb13596af195eb4b34af  inkscapelite-0.36.3_patched-glib.tar.xz
 84835b313d4a8b68f5349816d33e07ce  lame-3.99.5.tar.gz
 d39acdf4d31de309d484511bdc9f5924  leafpad-0.8.17.tar.gz
 254a72fc67505e3aa52884c729cd7b97  leafpad-0.8.18.1.tar.gz
+a1cc86a5a78d4212141b06ed098c672c  libbluray-1.0.0.tar.bz2
 443d0638e51054ff37fb8e551e07672a  libdc1394-2.2.3.tar.gz
 f895162161cfa4bb4a94c070a7caa6c7  libdv-1.0.0.tar.gz
 53cfc52a60a156763c425572e5179273  libdvdcss-1.2.13.tar.bz2
@@ -131,6 +132,7 @@ c7739c8341407f3dffa036d68b9b3857  libtubo-4.5.0.tar.bz2
 e88b2bce380ab064d146ebe4c9274498  libvpx-14.06.17.tar.bz2
 5a9eaaba2ec7f62253ecaed032af313b  libxdg-basedir-1.2.0.tar.gz
 b90ab6e62ff089b972e79ed75c0d060a  live.2015.11.09.tar.gz
+53a9c68bcc0eda58bdc2095ad5cdfc63  lua-5.3.4.tar.gz
 64ccb9b85eb2c0db9b4bb2c09ca41f73  mdview-2015-10-13.tar.bz2
 f36fe041215684f57a0bd828f620dea6  mdview-2016-06-17.tar.bz2
 001c29407f11c4801e948c71201e2ec2  mdview-2016-06-18.tar.bz2
@@ -190,6 +192,7 @@ a895e93ec1dafc34bc64ed676f0d55a6  qemu-2.4.1.tar.bz2
 ca8a1bde81730af3075b3c27db8862d1  qt_webkit_JSObject_gcc-5.patch
 f3a2a05dd4d4af928ce17985e2617bc1  QupZilla-1.8.6.tar.xz
 fede0c3c5f19687d26eeaafdec5029ac  readme
+f2a825c5477ed19c0ecee4d413c55c43  release-1.31.0.tar.gz
 6bb5a37d2e04f4067cb2b1d72f6ec7af  retrovol-14.1-1.tar.bz2
 4a5b67acdeafed1fc56af50dde8726a5  retrovol-14.1-3.tar.bz2
 4e54f732edd04f7ac9780cc127eed8cc  rox-filer-2015.02.tar.bz2
@@ -232,6 +235,7 @@ c9df5107ae9d26b10a1736a261250139  usbutils-007.tar.xz
 8c77bda671821f5b9ede96b6816e2ade  vlc-2.1.0.tar.xz
 6de050559fbb1456b35303f04705145d  vlc-2.1.6.tar.xz
 42273945758b521c408fabc7fd6d9946  vlc-2.2.1.tar.xz
+55666c9898f658c7fcca12725bf7dd1b  vlc-2.2.4.tar.xz
 88f735ccd051093ff40dab4597bc586e  vobcopy-1.2.0.tar.bz2
 e06c222e186f7cc013fd272d023710cb  wireless_tools.29.tar.gz
 ca91ba7c7eff9bfff6926b1a34a4697d  wireless_tools.30.pre9.tar.gz

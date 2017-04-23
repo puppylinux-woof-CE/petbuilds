@@ -17,8 +17,8 @@ BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
-[ -f "$DESKTOP" ] || DESKTOP=not
-[ -z "$DEPS" ] && DEPS=not	
+#[ -f "$DESKTOP" ] || DESKTOP=not
+#[ -z "$DEPS" ] && DEPS=not	
 
 ARCH=$(uname -m)
 case $ARCH in

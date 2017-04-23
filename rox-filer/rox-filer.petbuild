@@ -50,7 +50,7 @@ build() {
 	EXEC=`find ./${PKG}/ROX-Filer -type f -name 'ROX-Filer'`
 	if [ "$EXEC" ];then 
 		strip --strip-unneeded $EXEC
-		cp -arf rox_filer-template ${PKG}-${VER}-${ARCH}_${BUILD}
+		cp -arf rox-filer-template ${PKG}-${VER}-${ARCH}_${BUILD}
 		cp -af $EXEC ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
 		chmod 755 ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/ROX-Filer
 	else

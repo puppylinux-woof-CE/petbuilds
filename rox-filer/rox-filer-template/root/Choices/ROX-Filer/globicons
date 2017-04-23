@@ -21,8 +21,14 @@
   <rule match="/usr/local/bin/defaultbrowser">
     <icon>/usr/local/lib/X11/pixmaps/www48.png</icon>
   </rule>
-  <rule match="/usr/local/bin/rox">
+  <rule match="/usr/local/bin/defaultfilemanager">
     <icon>/usr/local/lib/X11/pixmaps/home48.png</icon>
+  </rule>
+   <rule match="/usr/local/bin/rox">
+    <icon>/usr/local/lib/X11/pixmaps/home48.png</icon>
+  </rule>
+  <rule match="/usr/local/bin/defaultterminal">
+    <icon>/usr/local/lib/X11/pixmaps/console48.png</icon>
   </rule>
   <rule match="/usr/bin/rxvt">
     <icon>/usr/local/lib/X11/pixmaps/console48.png</icon>

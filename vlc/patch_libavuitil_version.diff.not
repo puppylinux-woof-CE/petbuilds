@@ -1,0 +1,13 @@
+--- configure.ac.orig	2016-06-01 02:11:07.000000000 +1000
++++ configure.ac	2017-04-28 13:42:20.671001816 +1000
+@@ -2323,8 +2323,8 @@
+ [  --enable-avcodec        libavcodec codec (default enabled)])
+ AS_IF([test "${enable_avcodec}" != "no"], [
+   PKG_CHECK_MODULES(AVCODEC,[libavcodec >= 53.34.0 libavutil >= 51.22.0], [
+-    PKG_CHECK_EXISTS([libavutil < 55],, [
+-      AC_MSG_ERROR([libavutil versions 55 and later are not supported.])
++    PKG_CHECK_EXISTS([libavutil < 56],, [
++      AC_MSG_ERROR([libavutil versions 56 and later are not supported.])
+     ])
+     VLC_SAVE_FLAGS
+     CPPFLAGS="${CPPFLAGS} ${AVCODEC_CFLAGS}"

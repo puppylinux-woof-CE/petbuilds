@@ -32,7 +32,7 @@ patch_ () {
 	for i in *.diff;do
 		(cd ${PKG}-${VER};patch -p0 --verbose < ../${i})
 	done
-	#(cd ${PKG}-${VER};autoreconf -f)
+	(cd ${PKG}-${VER};autoreconf -f)
 }
 
 build_() {
@@ -43,7 +43,7 @@ build_() {
 				--localstatedir=/var \
 				--sysconfdir=/etc \
 				--enable-run-as-root \
-				--disable-lua
+				--disable-lua || exit
 	make || exit
 	make DESTDIR=${CWD}/${PKG}-install install
 	)

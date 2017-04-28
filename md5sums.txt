@@ -46,6 +46,7 @@ be9bfdddf3e5fd5e701a88d0b388dc26  f2fs-tools-1.4.0.tar.gz
 4c332fa23febc0e4648064685a3d4332  faad2-2.7.tar.bz2
 f70d394960da66fbf40a2946625690eb  fdk-aac-0.1.5.tar.gz
 62b5a37525fdf79aedd4a51a64793ed7  ffmpeg-2.6.1.tar.bz2
+b8c6953c65d0c9ef120a878064282c75  ffmpeg-2.8.11.tar.xz
 d3ebaacfa36c6e8145373785824265b4  ffmpeg-3.2.4.tar.bz2
 ecefbab9d71136ff0098b91594c43956  flsynclient-0.7.tar.gz
 44d5d7ba06afdd36ea17da6b4b703ca3  fltk-1.3.0-source.tar.gz
@@ -181,6 +182,7 @@ bd6caaea567dc0d995c990c5cc883c89  p7zip_9.20.1_src_all.tar.bz2
 f4fe0905ee56e1ff0205005e61d2a66f  pangomm-2.28.4.tar.xz
 6c3b70165c2dee9341a81a2a8481e446  parcellite-1.1.9.tar.gz
 f7d5ca3a31c7a558cf56b77e4e7cdc6c  parcellite-1.2.1.tar.gz
+60628226e39b4afea64d5897de6cb557  patch_libavuitil_version.diff
 35deb42e41cd7a13b541e2fbb09d721e  patch-makefile-in
 9279c25cb5c8749ae6356fff2ece136e  patch-src-makefile-in
 99b68e990012b2f58c184b8ba9e4fb4d  pipepanic-0.1.3-source.tar.gz

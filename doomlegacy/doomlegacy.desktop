@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Doom Legacy - shooter
+Icon=doomlegacy.png
+Comment=shooter game
+Exec=doomlegacy
+Terminal=false
+Type=Application
+Categories=X-Fun-shooter
+GenericName=Doom Legacy - shooter

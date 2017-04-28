@@ -9,7 +9,7 @@ PKG=evince
 VER=2.32.0
 COMP=tar.bz2
 DESC="Light weight PDF viewer"
-DEPS=+libspectre,libdjvulibre,+poppler,+gtk+2,+gnome-icon-theme
+DEPS=+libspectre,libdjvulibre,+poppler,+gtk+2
 CAT=Document
 DESKTOP=evince.desktop
 BUILD=
@@ -27,8 +27,10 @@ case $ARCH in
 esac
 
 build() {
-	# since not X compiling forget build triplet
 	cd ${PKG}-${VER}
+	# get rid of gnome-icon-theme dependency - how stupid is that?
+	xxx='SHELL_PLATFORM_PKGS="gnome-icon-theme >= $GNOME_ICON_THEME_REQUIRED"'
+	sed -i "/$xxx/d" configure
 	./configure --prefix=/usr \
 				--localstatedir=/var \
 				--sysconfdir=/etc \
@@ -47,6 +49,8 @@ build() {
 	[ "$?" -eq 0 ] || exit
 	make DESTDIR=$CWD/$PKG-install install
 	cd -
+	mkdir -p $PKG-install/usr/share/pixmaps
+	cp -af evince.svg $PKG-install/usr/share/pixmaps/
 }
 	
 # main

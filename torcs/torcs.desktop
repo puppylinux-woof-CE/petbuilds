@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Torcs - car racing
+Icon=torcs.png
+Comment=racing car game
+Exec=torcs
+Terminal=false
+Type=Application
+Categories=Simulation
+GenericName=Torcs - car racing

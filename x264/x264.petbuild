@@ -6,8 +6,10 @@
 
 URL=http://distro.ibiblio.org/puppylinux/sources/x
 PKG=x264
-SRCVER=20131101-2245
-VER=20131101.2245
+#SRCVER=20131101-2245
+#VER=20131101.2245
+SRCVER=20170427-2245
+VER=20170427.2245
 COMP=tar.bz2
 DESC="free software library and application for encoding video streams"
 DEPS=

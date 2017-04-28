@@ -7,10 +7,13 @@
 URL=https://www.ffmpeg.org/releases
 PKG=ffmpeg
 #VER=2.2.9
-VER=2.6.1
+#VER=2.6.1
+#SDL=sdl
+VER=3.2.4
+SDL=SDL2
 COMP=tar.bz2
 DESC="FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything"
-DEPS=+sdl,+x264,+speex,+libogg,+libvorbis,+faac,+libvpx,+schroedinger,+libtheora,+lame
+DEPS=+${SDL},+x264,+x265,+speex,+libogg,+libvorbis,+fdk-aac,+libvpx,+schroedinger,+libtheora,+lame
 CAT=Multimedia
 DESKTOP=ffmpeg.desktop
 BUILD=
@@ -33,7 +36,8 @@ build() {
 				--libdir=/usr/${LIBDIR} \
 				--enable-libmp3lame \
 				--enable-libx264 \
-				--enable-libfaac \
+				--enable-libx265 \
+				--enable-libfdk-aac \
 				--enable-pthreads \
 				--enable-small \
 				--enable-postproc \
@@ -63,10 +67,11 @@ build() {
 }
 	
 package() {
-	# this is a woeful bug in ffmeg install
+	# this is a woeful bug in old (pre 3.0?) ffmpeg install
 	if [ "$ARCH" = "x86_64" ];then
-		cp -a ${PKG}-install/usr/lib/* ${PKG}-install/usr/lib64
-		rm -r ${PKG}-install/usr/lib
+		if [ -d ${PKG}-install/usr/lib/ ];then
+			mv -f ${PKG}-install/usr/lib ${PKG}-install/usr/lib64
+		fi
 	fi
 }
 

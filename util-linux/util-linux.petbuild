@@ -18,8 +18,8 @@ CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
 # comment these 2 below if you use a custom package() function
-[ -f "$DESKTOP" ] || DESKTOP=not
-[ -z "$DEPS" ] && DEPS=not
+#[ -f "$DESKTOP" ] || DESKTOP=not
+#[ -z "$DEPS" ] && DEPS=not
 
 ARCH=$(uname -m)
 case $ARCH in # set in build.conf

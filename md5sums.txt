@@ -1,3 +1,4 @@
+644e090d118da7b17160180b638a8b11  2.4.2.tar.gz
 85da96b5a1403be3772885f9c5852268  27.2.1_Release.tar.gz
 b60a269891ad60d622d2a27810992b17  915resolution-0.5.3-patched20110617.tar.gz
 cdfa65b6802b81f9e6e0a5ceceee65e3  a2dp-alsa-2016-01-02.tar.bz2
@@ -31,19 +32,26 @@ b452123f755114cd4461d56c648d9f12  curlftpfs-0.9.2.tar.gz
 554aad93b6107bba696f4da022c41561  dillo-3.0.5.tar.bz2
 2f51ec3bd5eb896f58a4fd45cfe1b735  disktype-9-patched_pardus_bk.tar.gz
 5f45d6cd5700b4dd31b1eb963482089b  djvulibre-3.5.25.3.tar.gz
+475210fed9a750ac2875fadecea6b672  doomlegacy_1.46.3_common.zip
+d80368fb9b54098764146bf46fc9b4db  doomlegacy_1.46.3_source.tar.bz2
 8a28f8cd4b85d10a8a23e6428dd41c41  dpkg_1.18.9.tar.xz
 e967e320344cd4bfebe321e3ab8514d6  dropbear-2015.67.tar.bz2
 bb5fee3cdf6ee30f7e11b7edd35e6723  dunst-1.0.0.tar.bz2
 fbbaedb826252564ae609fd255830c71  elspci-1.1.tar.bz2
 de11011aff801dc61042828041fb59c7  enchant-1.6.0.tar.gz
+474b26c3642312c153587b59676b2e86  etr-0.7.4.tar.xz
 ebc3ce6df8dcbf29cb9492f8dd031319  evince-2.32.0.tar.bz2
 be9bfdddf3e5fd5e701a88d0b388dc26  f2fs-tools-1.4.0.tar.gz
 80763728d392c7d789cde25614c878f6  faac-1.28.tar.gz
 4c332fa23febc0e4648064685a3d4332  faad2-2.7.tar.bz2
+f70d394960da66fbf40a2946625690eb  fdk-aac-0.1.5.tar.gz
 62b5a37525fdf79aedd4a51a64793ed7  ffmpeg-2.6.1.tar.bz2
+d3ebaacfa36c6e8145373785824265b4  ffmpeg-3.2.4.tar.bz2
 ecefbab9d71136ff0098b91594c43956  flsynclient-0.7.tar.gz
 44d5d7ba06afdd36ea17da6b4b703ca3  fltk-1.3.0-source.tar.gz
 fdd779c678d16a7949ee66287d242606  fpm2-0.75.tar.bz2
+e089b28a0267faabdb6c079ee173664a  freealut-1.1.0.tar.gz
+132bd25dd909c4ae24ff46ca86af098d  freedoom-0.11.2.zip
 3d614f1b596fc3cc9a5b35f3cad33481  freememapplet-2.8.6.tar.bz2
 a7a333cc4c321507434fe3f8e48fcd0a  galculator-2.1.3.tar.bz2
 223a126b8a87234d1552be4be4140789  gcolor2-0.4.tar.bz2
@@ -130,9 +138,11 @@ ea273836b1e1b670eee6f211bd5d9acf  libreoffice-help-5.2.2.2.tar.xz
 8f759c0e6cd88d68fc8149130fcbc3d3  libspectre-0.2.7.tar.gz
 c7739c8341407f3dffa036d68b9b3857  libtubo-4.5.0.tar.bz2
 e88b2bce380ab064d146ebe4c9274498  libvpx-14.06.17.tar.bz2
+a19518c8111fa93bdabdd85259162611  libvpx-1.6.1.tar.bz2
 5a9eaaba2ec7f62253ecaed032af313b  libxdg-basedir-1.2.0.tar.gz
 b90ab6e62ff089b972e79ed75c0d060a  live.2015.11.09.tar.gz
 53a9c68bcc0eda58bdc2095ad5cdfc63  lua-5.3.4.tar.gz
+006c5e27fb78cdd14a628fdfa5aa1905  lzop-1.03.tar.gz
 64ccb9b85eb2c0db9b4bb2c09ca41f73  mdview-2015-10-13.tar.bz2
 f36fe041215684f57a0bd828f620dea6  mdview-2016-06-17.tar.bz2
 001c29407f11c4801e948c71201e2ec2  mdview-2016-06-18.tar.bz2
@@ -176,6 +186,7 @@ f7d5ca3a31c7a558cf56b77e4e7cdc6c  parcellite-1.2.1.tar.gz
 99b68e990012b2f58c184b8ba9e4fb4d  pipepanic-0.1.3-source.tar.gz
 e215d0637d3422d49a63c2cde6673951  pjproject-1.10.tar.bz2
 c347a672679e7875ce572e18517884b2  pjproject-2.6.tar.bz2
+47a6fbf63668c1eed631024038b2ea90  plib-1.8.5.tar.gz
 17b503a5cd413e8ced1d460e4e8d17e3  pmcputemp-0.50.tar.xz
 1b8a83c4e376e2c72ab12fad59d99575  pnscan-1.10.tar.gz
 2fcb161470929d8c35bdb2c67f5030e4  pnscan-1.11.tar.gz
@@ -208,6 +219,7 @@ b16919d43dfb5dd8c8ccf0af3a8e115b  samba-4.4.4.tar.gz
 be586a23633949cf2ecf0c9c6d769130  sane-backends-1.0.21.tar.gz
 f9ed5405b3c12f07c6ca51ee60225fe7  sane-backends-1.0.25.tar.gz
 da6af08e564ca1157348fb8d92efc891  schroedinger-1.0.11.tar.gz
+d4055424d556b4a908aa76fad63abd3c  SDL2-2.0.5.tar.gz
 86d34921a394bf0c81911233f5ccc6e8  sfontview-0.1.1.tar.gz
 8f90f3f2b8478fa47e70678d34013f99  shared-mime-info-1.2.tar.xz
 c4438b22c08e5811ff10e2b06ee9b9ae  speex-1.2rc1.tar.gz
@@ -217,6 +229,8 @@ a37a1a8b8f9228522196a122a1c2dd32  streamripper-1.64.6.tar.gz
 e050583b7444e1d31f6f48c0d39a7108  sylpheed-3.4.3.tar.gz
 6dfd643057b9cd016c07df4de5677209  sylpheed-3.5.0.tar.gz
 665f6568cdd4987f916a32307cd64fa2  sysvinit-2.86.tar.gz
+de314c3e421e8d7d4323d819c5010d23  torcs-1.3.7.tar.bz2
+fc602cd8b2cc49b77a76d278754484a6  torcs.tar.gz
 2aff84c29a3c4b51ac5682a89d96bda5  transmission-2.60.tar.xz
 07167658fb48e2901dc3a3a025971b6d  truncate-0.1.tar.gz
 f323fe700edd6ea404c40934ddf32b22  usb-modeswitch-2.2.0.tar.bz2
@@ -243,6 +257,8 @@ c1861c560491f121e12917fa76970ac5  wv-1.2.4.tar.gz
 acd3b2050c9b65fff2aecda6576ee7bc  wvdial-1.61.tar.gz
 f0782040612c69d46bff3139c5cc1557  wvstreams-4.6.1.tar.bz2
 0273bcc6779e5aec3ad4dfff17f45c56  x264-20131101-2245.tar.bz2
+14de0e779409712573e50af627e25d0b  x264-20170427-2245.tar.bz2
+ab0986aa5c4465b874de94095b0d0cae  x265_2.4.tar.gz
 a76308bf3b2588a2075c44cacb80da85  xarchive-0.2.8-6-i18n.tar.gz
 1b4cd37a6af03afc957a8e307417e8d0  xarchiver-0.5.4.tar.bz2
 f7e19d3e976fecdc1ea36cd39e39900d  xclip-0.12.tar.gz

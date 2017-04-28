@@ -1,4 +1,4 @@
-# functions library
+#functions library
 
 . ../build.conf
 
@@ -61,7 +61,10 @@ build_configure() {
 	PKG=$1
 	VER=$2
 	LIBDIR=$3
+	FLAGS="$4"
 	cd ${PKG}-${VER}
+	CFLAGS="${FLAGS}" \
+	CXXFLAGS="${FLAGS}" \
 	./configure --prefix=/usr \
 				--localstatedir=/var \
 				--sysconfdir=/etc \

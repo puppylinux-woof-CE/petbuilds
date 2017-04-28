@@ -46,7 +46,7 @@ usage() {
 # is it a sourceforge link?
 echo "$1" | grep 'sourceforge\.net'| grep -q '\/download$' && SF_URL="$1" || SF_URL=
 if [ -n "$SF_URL" ];then # yes
-	TGT=`curl  $SF_URL|grep -o 'http.*'|sed 's/\?.*//'`
+	TGT=`curl  $SF_URL|grep -o 'http*.*'|sed 's/\?.*//'`
 	SOURCE="${TGT##*/}"
 	SRCURL="${TGT%/*}"
 else # no
@@ -88,15 +88,20 @@ CWD=\$(pwd)
 
 ARCH=\$(uname -m)
 case \$ARCH in # set in build.conf
- *64) 	LIBDIR=\$LIBCONF64 ;;
- arm*)	LIBDIR=\$LIBCONFarm;;
- *) 	LIBDIR=\$LIBCONF32 ;;
+ *64) 	LIBDIR=\$LIBCONF64 
+		FLAGS=\$CF64;;
+ arm*)	LIBDIR=\$LIBCONFarm
+		FLAGS="-O2" ;;
+ i686) 	LIBDIR=\$LIBCONF32 
+		FLAGS=\$CF32;;
+	*) 	LIBDIR=\$LIBCONF32 
+		FLAGS="-O2 -march=\$ARCH -mtune=\$ARCH";;
 esac
 
 # main
 retrieve \${PKG}-\${VER}.\${COMP}
 extract \${PKG}-\${VER}.\${COMP}
-build_configure \$PKG \$VER \$LIBDIR
+build_configure \$PKG \$VER \$LIBDIR "\$FLAGS"
 package_std \$PKG \$VER \$ARCH \$DESKTOP "\$DESC" \$DEPS \$CAT
 _PET
 

@@ -6,7 +6,7 @@
 
 URL=https://github.com/MoonchildProductions/Pale-Moon/archive/
 PKG=palemoon
-VER=27.2.1
+VER=27.3.0
 SVER=${VER}_Release
 COMP=tar.gz
 DESC="A lighter weight browser based on Firefox"
@@ -83,13 +83,13 @@ build() {
 	echo "mk_add_options AUTOCONF=autoconf2.13" >> .mozconfig
 	echo "export MOZILLA_OFFICIAL=0" >> .mozconfig
 	for option in $OPTIONS; do echo "ac_add_options $option" >> .mozconfig; done
-	echo "mk_add_options $OPTIMIZE" >> .mozconfig
+	echo "ac_add_options $OPTIMIZE" >> .mozconfig
 	echo -e "export LDFLAGS=\"-Wl,--no-keep-memory -Wl,--reduce-memory-overheads\"" >> .mozconfig
 	ln -sf /usr/share/autoconf/*.m4 .
 	(cd build/autoconf; ln -sf /usr/share/autoconf/*.m4 .)
 	(cd js/src; ln -sf /usr/share/autoconf/*.m4 .)
 	
-	exit # build it
+	# build it
 	make -f client.mk build
 	[ "$?" -eq 0 ] || exit
 	

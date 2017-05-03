@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Samba Simple Management
-Icon=/usr/share/pixmaps/samba/network.png
+Icon=/usr/share/pixmaps/samba/network.svg
 Comment=Samba Simple Management
 Exec=samba.sh
 Terminal=false

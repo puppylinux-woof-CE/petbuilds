@@ -8,7 +8,7 @@
 export THEME="Puppy Flat"
 URL=https://github.com/puppylinux-woof-CE/puppy_flat_theme/archive
 PKG=puppy_flat_theme
-VER=0.4
+VER=0.5
 COMP=tar.gz
 DESC="A light weight flat GTK icon theme"
 DEPS=

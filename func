@@ -7,10 +7,17 @@ check_md5() {
 	MD5_DLD=`md5sum $SRC`
 	MD5_LST=`grep -w "$SRC" ../md5sums.txt`
 	if [ "$MD5_DLD" = "${MD5_LST}" ];then
-		echo "md5 passed"
+		echo "checksum passed"
 	else 
-		echo "md5 failed - IF YOU KNOW IT IS GOOD add the source to ./0sources and run 
-./update_md5_db" && exit 1
+		[ -n "${MD5_LST}" ] && echo "checksum did not match, deleting $SRC" && \
+		 rm $SRC && exit
+		echo "checksum failed, no entry - IF YOU KNOW IT IS GOOD type 'YES' and hit Enter"
+		read check
+		case $check in
+			YES|yes)echo "$MD5_DLD" >> ../md5sums.txt
+				echo "$MD5_DLD is appended to md5sums.txt" && exit;;
+			*) echo "failed: exiting" && exit;;
+		esac
 	fi
 }
 

@@ -191,7 +191,7 @@ export SMBGUI="<window title=\"Samba Simple Management\" icon-name=\"gtk-network
     <input file>/usr/share/pixmaps/samba/samba.png</input>
    </pixmap>
    <text><label>Switch Samba Daemon on or off.</label></text>
-   <button tooltip-text=\"hitting this button when Green will turn off Samba, when Red will turn off Samba\">
+   <button tooltip-text=\"hitting this button when Green will turn off Samba, when Red will turn on Samba\">
      <variable>ARTWORK</variable>
 	 <input file>/tmp/samba.png</input>
 	 <action>togglesamba</action>

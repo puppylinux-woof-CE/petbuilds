@@ -7,7 +7,7 @@
 URL=http://samba.org/samba/ftp/stable
 PKG=samba
 #VER=4.1.20
-VER=4.4.5
+VER=4.4.13
 COMP=tar.gz
 DESC="share files with M.S. Windows"
 DEPS=

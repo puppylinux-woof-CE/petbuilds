@@ -1,11 +1,6 @@
 #!/bin/sh
 # evince
-if [ `pwd` != '/' ];then
-	echo '#! /bin/sh
-exec evince "$@"' > root/Choices/MIME-types/application_pdf
-	chmod 755 root/Choices/MIME-types/application_pdf
-else
-	echo '#! /bin/sh
-exec evince "$@"' > $HOME/Choices/MIME-types/application_pdf
-	chmod 755 $HOME/Choices/MIME-types/application_pdf
-fi
+echo '#! /bin/sh
+exec evince "$@"' > usr/local/bin/defaultpdfviewer
+chmod 755 usr/local/bin/defaultpdfviewer
+echo "set evince to defaultpdfviewer"

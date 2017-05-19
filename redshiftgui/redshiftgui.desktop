@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Auto Screen Brightness - Redshift
+Icon=redshiftgui.svg
+Comment=Auto Screen Brightness - Redshift
+Exec=redshiftgui
+Terminal=false
+Type=Application
+Categories=X-Desktop
+GenericName=Auto Screen Brightness - Redshift

@@ -4,9 +4,11 @@
 . ../func
 . ../build.conf
 
-URL=https://gnome-mplayer.googlecode.com/files
+URL=https://github.com/kdekorte/gnome-mplayer/archive/
+#URL=https://gnome-mplayer.googlecode.com/files
+SRC=v
 PKG=gnome-mplayer
-VER=1.0.9b
+VER=1.0.9
 COMP=tar.gz
 DESC="A light weight graphical front end to MPlayer"
 DEPS=+gmtk,+gtk+2,+mplayer
@@ -44,7 +46,7 @@ build() {
 }
 	
 # main
-retrieve "${PKG}-${VER}.${COMP} --no-check-certificate"
-extract ${PKG}-${VER}.${COMP}
+retrieve "${SRC}${VER}.${COMP} --no-check-certificate"
+extract v${VER}.${COMP}
 build
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

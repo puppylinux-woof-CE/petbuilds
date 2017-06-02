@@ -13,7 +13,7 @@ DESC="A lighter weight browser based on Firefox"
 DEPS=+gtk2+,+zlib
 CAT=Internet
 DESKTOP=palemoon.desktop
-BUILD=
+BUILD=701s_sse
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -26,7 +26,8 @@ case $ARCH in
 		OPTIMIZE='--disable-optimize';;
  arm*)	LIBDIR=$LIBCONFarm;;
  *) 	LIBDIR=$LIBCONF32 
-		OPTIMIZE="--enable-optimize=\"-O3 -march=athlon-xp -pipe -fomit-frame-pointer\"";;
+		#OPTIMIZE="--enable-optimize=\"-O3 -march=athlon-xp -pipe -fomit-frame-pointer\""
+		OPTIMIZE="--enable-optimize=\"-O2 -march=pentium3 -msse -mfpmath=sse -pipe -fomit-frame-pointer\"";;
 esac
 #SPECIAL
 extract_me() {
@@ -83,12 +84,11 @@ build() {
 	echo "mk_add_options AUTOCONF=autoconf2.13" >> .mozconfig
 	echo "export MOZILLA_OFFICIAL=0" >> .mozconfig
 	for option in $OPTIONS; do echo "ac_add_options $option" >> .mozconfig; done
-	echo "ac_add_options $OPTIMIZE" >> .mozconfig
+	echo -e "ac_add_options $OPTIMIZE" >> .mozconfig
 	echo -e "export LDFLAGS=\"-Wl,--no-keep-memory -Wl,--reduce-memory-overheads\"" >> .mozconfig
 	ln -sf /usr/share/autoconf/*.m4 .
 	(cd build/autoconf; ln -sf /usr/share/autoconf/*.m4 .)
 	(cd js/src; ln -sf /usr/share/autoconf/*.m4 .)
-	
 	# build it
 	make -f client.mk build
 	[ "$?" -eq 0 ] || exit

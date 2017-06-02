@@ -43,4 +43,4 @@ Icon=leafpad.png
 Terminal=false
 Type=Application
 MimeType=text/plain
-Categories=Viewer;
+Categories=X-Document-edit;

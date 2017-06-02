@@ -15,4 +15,4 @@ Icon=sylpheed.png
 MimeType=message/rfc822;x-scheme-handler/mailto;
 Terminal=false
 Type=Application
-Categories=GTK;Network;Email;News;
+Categories=Email;

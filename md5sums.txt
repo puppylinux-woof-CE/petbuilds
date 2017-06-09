@@ -286,3 +286,4 @@ acca4e055d8cde5b43150a25e0949873  smplayer-17.4.2.tar.bz2
 799ba7ac2e18880ab09c4d3f390c2395  samba-4.4.13.tar.gz
 ac52ccaec6b06ab0f289d37e8436859b  musl-1.1.16.tar.gz
 61c6425edb8b9ffacc86e38c96e36b13  puppy_flat_theme-0.5.tar.gz
+b64ad17a655c7a0042a58794f1c1cb6f  yad-0.39.0.tar.xz

@@ -5,10 +5,11 @@
 . ../build.conf
 ######http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1/p7zip_9.20.1_src_all.tar.bz2
 #URL=http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1
-URL=http://downloads.sourceforge.net/project/p7zip/p7zip/15.14.1
+#URL=http://downloads.sourceforge.net/project/p7zip/p7zip/15.14.1
+URL=http://downloads.sourceforge.net/project/p7zip/p7zip/16.02
 PKG=p7zip
 #VER=9.20.1
-VER=15.14.1
+VER=16.02
 SRCVER=${PKG}_${VER}_src_all
 COMP=tar.bz2
 DESC="file archiver with the highest compression ratio"

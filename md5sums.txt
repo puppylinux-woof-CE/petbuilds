@@ -289,3 +289,4 @@ ac52ccaec6b06ab0f289d37e8436859b  musl-1.1.16.tar.gz
 b64ad17a655c7a0042a58794f1c1cb6f  yad-0.39.0.tar.xz
 5e68b84e3286b7bbaa95ddc34f0fcace  xvidcore-1.3.4.tar.bz2
 a0128d661cfe7cc8c121e73519c54fbf  p7zip_16.02_src_all.tar.bz2
+b8cd76d54fef7e2a18484b8721fbcb94  v1.0.9.tar.gz

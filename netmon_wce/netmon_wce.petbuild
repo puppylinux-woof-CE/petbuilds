@@ -6,14 +6,14 @@
 
 URL=http://distro.ibiblio.org/puppylinux/sources/n
 PKG=netmon_wce
-VER=3.2
+VER=3.3
 COMP=tar.bz2
 DESC="Network tray monitor - supports wireless and ipv6"
 DEPS=+gtk+,+wireless_tools
 CAT=Network
 DESKTOP=netmon_wce.desktop
 ICONS=light
-BUILD=s700.1
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -49,7 +49,7 @@ package() {
 	if [ "$ICONS" = 'light' ];then
 		for i in `ls Icons|grep -E '[lt]1'` ;do
 			e=`echo $i|sed 's/[lt]1/[lt]/'`
-			cp -af Icons/$i ./${PKG}-install/usr/share/pixmaps/puppy/$e
+			cp -af Icons/$i ./${PKG}-install/usr/share/pixmaps/netmon_wce/$e
 			echo "copying $e"
 		done
 	fi

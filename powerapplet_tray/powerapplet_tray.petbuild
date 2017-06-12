@@ -7,7 +7,7 @@
 
 URL=http://distro.ibiblio.org/puppylinux/sources/p
 PKG=powerapplet_tray
-VER=2.6
+VER=2.7
 COMP=tar.bz2
 DESC="battery tray monitor"
 DEPS=
@@ -32,11 +32,11 @@ build() {
 	cd powerapplet*
 	./compile || exit 1
 	mkdir -p ${CWD}/${PKG}-install/usr/bin
-	mkdir -p ${CWD}/${PKG}-install/usr/share/pixmaps/puppy
+	mkdir -p ${CWD}/${PKG}-install/usr/share/pixmaps/powerapplet
 	mkdir -p ${CWD}/${PKG}-install/root/.config/autostart
 	mkdir -p ${CWD}/${PKG}-install/usr/src/dev/
 	mv -f ${PKG} ${CWD}/${PKG}-install/usr/bin/
-	cp -af *.svg ${CWD}/${PKG}-install/usr/share/pixmaps/puppy/
+	cp -af *.svg ${CWD}/${PKG}-install/usr/share/pixmaps/powerapplet/
 	cp -af $DESKTOP ${CWD}/${PKG}-install/root/.config/autostart/
 	cd -
 }

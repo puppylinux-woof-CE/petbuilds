@@ -174,19 +174,19 @@ static GtkStatusIcon *create_tray_icon() {
     g_signal_connect(G_OBJECT(tray_icon), "popup-menu", G_CALLBACK(tray_icon_on_menu), NULL);
 
     
-    blank_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/blank.svg",&gerror);
-    emptychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/emptychg.svg",&gerror);
-    twentychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/twentychg.svg",&gerror);
-    fortychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/fortychg.svg",&gerror);
-    sixtychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/sixtychg.svg",&gerror);
-    eightychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/eightychg.svg",&gerror);
-    fullchg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/fullchg.svg",&gerror);
-    emptydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/emptydis.svg",&gerror);
-    twentydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/twentydis.svg",&gerror);
-    fortydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/fortydis.svg",&gerror);
-    sixtydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/sixtydis.svg",&gerror);
-    eightydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/eightydis.svg",&gerror);
-    fulldis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/puppy/fulldis.svg",&gerror);
+    blank_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/not.svg",&gerror);
+    emptychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/emptychg.svg",&gerror);
+    twentychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/twentychg.svg",&gerror);
+    fortychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/fortychg.svg",&gerror);
+    sixtychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/sixtychg.svg",&gerror);
+    eightychg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/eightychg.svg",&gerror);
+    fullchg_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/fullchg.svg",&gerror);
+    emptydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/emptydis.svg",&gerror);
+    twentydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/twentydis.svg",&gerror);
+    fortydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/fortydis.svg",&gerror);
+    sixtydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/sixtydis.svg",&gerror);
+    eightydis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/eightydis.svg",&gerror);
+    fulldis_pixbuf=gdk_pixbuf_new_from_file("/usr/share/pixmaps/powerapplet/fulldis.svg",&gerror);
 
     gtk_status_icon_set_from_pixbuf(tray_icon,blank_pixbuf);
     

@@ -3,6 +3,11 @@ netmon_wce
 Forked from Barry's version at 'network_tray-2.5' (2013) including Patriot's 
 'Lame WiFi Tray' features.
 ===============================================================================
+20170611 netmon_wce-3.2
+-----------------------
+improve wireless icons slightly
+add new wired icons
+===============================================================================
 20161003 netmon_wce-3.2
 -----------------------
 bugfixes from mcewanw (William)

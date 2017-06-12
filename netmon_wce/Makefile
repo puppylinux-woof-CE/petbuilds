@@ -27,9 +27,9 @@ install :
 		install -d -m 0755 $(PREFIX)/share/locale/$${k%.gmo}/LC_MESSAGES ; \
 		install -m 0644 $$j $(PREFIX)/share/locale/$${k%.gmo}/LC_MESSAGES/netmon_wce.mo ; \
 	done
-	install -d -m 0755 $(PREFIX)/share/pixmaps/puppy
+	install -d -m 0755 $(PREFIX)/share/pixmaps/netmon_wce
 	for i in Icons/* ; do \
-		install -m 0644 $$i $(PREFIX)/share/pixmaps/puppy/ ; \
+		install -m 0644 $$i $(PREFIX)/share/pixmaps/netmon_wce/ ; \
 	done
 	@echo install complete
 

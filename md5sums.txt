@@ -234,7 +234,6 @@ e050583b7444e1d31f6f48c0d39a7108  sylpheed-3.4.3.tar.gz
 de314c3e421e8d7d4323d819c5010d23  torcs-1.3.7.tar.bz2
 fc602cd8b2cc49b77a76d278754484a6  torcs.tar.gz
 2aff84c29a3c4b51ac5682a89d96bda5  transmission-2.60.tar.xz
-07167658fb48e2901dc3a3a025971b6d  truncate-0.1.tar.gz
 f323fe700edd6ea404c40934ddf32b22  usb-modeswitch-2.2.0.tar.bz2
 ea050e3b44a2b7aa805619042f5448df  usb-modeswitch-2.2.6.tar.bz2
 6e1640db47768bb9012f91b7593116ef  usb-modeswitch-2.4.0.tar.bz2

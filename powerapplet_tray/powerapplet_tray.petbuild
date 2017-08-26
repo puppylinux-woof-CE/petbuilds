@@ -29,7 +29,7 @@ case $ARCH in # set in build.conf
 esac
 
 build() {
-	cd powerapplet*
+	cd powerapplet*-*
 	./compile || exit 1
 	mkdir -p ${CWD}/${PKG}-install/usr/bin
 	mkdir -p ${CWD}/${PKG}-install/usr/share/pixmaps/powerapplet

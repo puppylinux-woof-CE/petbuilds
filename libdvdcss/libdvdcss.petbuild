@@ -4,9 +4,9 @@
 . ../func
 . ../build.conf
 
-URL=http://download.videolan.org/pub/libdvdcss/1.2.13
+URL=http://download.videolan.org/pub/libdvdcss/1.4.0
 PKG=libdvdcss
-VER=1.2.13
+VER=1.4.0 #18-dec-2015
 COMP=tar.bz2
 DESC="library for accessing encryped DVDs"
 DEPS=

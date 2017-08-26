@@ -1,6 +1,16 @@
+#!/bin/bash
 #functions library
 
 . ../build.conf
+
+if [ -z "$DEF_BUILD" -a -f /etc/DISTRO_SPECS ] ; then
+	. /etc/DISTRO_SPECS
+	case $DISTRO_BINARY_COMPAT in
+		slackware*) DEF_BUILD="slack${DISTRO_COMPAT_VERSION}" ;;
+		debian|ubuntu|devuan|raspbian|trisquel) DEF_BUILD="${DISTRO_COMPAT_VERSION}" ;;
+		*) DEF_BUILD="${DISTRO_FILE_PREFIX}${DISTRO_COMPAT_VERSION}" ;;
+	esac
+fi
 
 check_md5() {
 	SRC=$1
@@ -27,7 +37,7 @@ retrieve() {
 	[ "$WC" -eq 2 ] && CERT=${1##* }
 	[ -f ../0sources/"$SRCS" ] &&\
 	cp -a ../0sources/${SRCS} . ||\
-	wget -t0 -c ${URL}/${SRCS} $CERT
+	wget --no-check-certificate -t0 -c ${URL}/${SRCS} $CERT
 	[ "$?" -eq 0 ] || exit 1
 	check_md5 $SRCS
 	sleep 1

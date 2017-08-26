@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # directly pilfered from new2dir
 #support build number
 
@@ -51,62 +51,62 @@ DOCSPLIT=yes
 DEVSPLIT=yes
 EXESPLIT=yes
 
-mkdir "$EXE_TARGETDIR" 2>/dev/null
+mkdir -p "$EXE_TARGETDIR" 2>/dev/null
 
-#cat ${RELPATH}/${EXE_PKGNAME}.files |
 while read ONEFILE
 do
  ONEFILE="../${ONEFILE}"
- ONEBASE="`basename "$ONEFILE"`"
- ONEPATH="`dirname "$ONEFILE"`"
+ ONEBASE=${ONEFILE##*/} #"`basename "$ONEFILE"`"
+ ONEPATH=${ONEFILE%/*}  #"`dirname "$ONEFILE"`"
  echo "Processing ${ONEFILE}"
  #echo $ONEPATH
- NEWPATH="`echo $ONEPATH|sed "s%$tgt%%"`"
+ NEWPATH=${ONEPATH//$tgt/}  #NEWPATH="`echo $ONEPATH|sed "s%$tgt%%"`"
  #echo $NEWPATH
  [ "$ONEFILE" = "$tgt" ] && continue
  #strip the file...
  if [ ! -h "$ONEFILE" ];then #make sure it isn't a symlink
-  file "$ONEFILE" | grep 'ELF' | grep -q 'shared object' && strip --strip-debug "$ONEFILE"
-  file "$ONEFILE" | grep 'ELF' | grep -q 'executable' && strip --strip-unneeded "$ONEFILE"
+   FILE_INFO=$(file "$ONEFILE")
+   case $FILE_INFO in *"ELF"*)
+     case $FILE_INFO in
+       *"shared object"*) strip --strip-debug "$ONEFILE" ;;
+       *"executable"*) strip --strip-unneeded "$ONEFILE" ;;
+     esac
+   esac
  fi
  sync
 
  if [ "$NLSSPLIT" = "yes" ];then
   #find out if this is an international language file...
-  NLSFILE="`echo -n "$ONEFILE" | grep -E '/locale|/nls|/i18n'|grep -v '\.h$'`" #eg 'i18n.h' in glibmm_static
-  if [ "$NLSFILE" ];then
+  case "$ONEFILE" in *"/locale/"*|*"/nls/"*|*"/i18n/"*)
    mkdir -p "${NLS_TARGETDIR}/${NEWPATH}" 2>/dev/null
    cp -af "$ONEFILE" "${NLS_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
-  fi
+  esac
  fi
 
  if [ "$DOCSPLIT" = "yes" ];then
   #find out if this is a documentation file...
-  DOCFILE="`echo "$ONEFILE" | grep -E '/man|/doc|/docs|/info|/gtk-doc|/faq|/manual|/examples|/help|/htdocs'|grep -v '\.h$'`" #eg 'documents.h' in geany
-  if [ "$DOCFILE" != "" ];then
+  case "$ONEFILE" in *"/man/"*|*"/doc/"*|*"/doc-base/"*|*"/docs/"*|*"/info/"*|*"/gtk-doc/"*|*"/faq/"*|*"/manual/"*|*"/examples/"*|*"/help/"*|*"/htdocs/"*)
    mkdir -p "${DOC_TARGETDIR}/${NEWPATH}" 2>/dev/null
    cp -af "$ONEFILE" "${DOC_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
-  fi
+  esac
  fi
 
  if [ "$DEVSPLIT" = "yes" ];then
   #find out if this is development file...
-  DEVFILE="`echo -n "$ONEFILE" | grep -E '/include/|/pkgconfig/|/aclocal|/cvs/|/svn/|/src/'`"
-  if [ "$DEVFILE" ];then
+  case "$ONEFILE" in *"X11/config/"*|*"/include/"*|*"/pkgconfig/"*|*"/aclocal"*|*"/cvs/"*|*"/svn/"*|*"/src/"*)
    mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
    cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
    continue
-  fi
+  esac
   
   #all .a and .la files... and any stray .m4 files...
-  LAFILE="`echo -n "$ONEBASE" | grep --extended-regexp '\.a$|\.la$|\.m4$'`"
-  if [ "$LAFILE" ];then
+  case "$ONEFILE" in *.a|*.la|*.m4)
     mkdir -p "${DEV_TARGETDIR}/${NEWPATH}" 2>/dev/null
     cp -af "$ONEFILE" "${DEV_TARGETDIR}/${NEWPATH}/" 2>/dev/null
-   continue
-  fi  
+    continue
+  esac
  fi
 
  #anything left over goes into the main 'executable' package...

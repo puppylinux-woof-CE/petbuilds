@@ -293,3 +293,4 @@ c3b225fd8ca573787d5f3451b20d4c8a  gmrun-0.9.4w.tar.xz
 2edba36e6af3f0223c4f0454cdf3d159  libdvdcss-1.4.0.tar.bz2
 e9ea4de3bd8f204e61301d407d09f033  libdvdnav-5.0.3.tar.bz2
 58d85700206d9b79ead721a058e114ff  gtkhash-1.1.tar.xz
+cd3993d910c713ae72e94beebd230b22  sudo-1.8.21p2.tar.gz

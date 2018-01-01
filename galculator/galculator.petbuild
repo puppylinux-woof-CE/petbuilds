@@ -4,9 +4,9 @@
 . ../func
 . ../build.conf
 
-URL=http://downloads.sourceforge.net/project/galculator/galculator/2.1.3
+URL=http://galculator.mnim.org/downloads
 PKG=galculator
-VER=2.1.3
+VER=2.1.4 #5 sept 2015
 COMP=tar.bz2
 DESC="Nice light weight calculator"
 DEPS=+gtk=2

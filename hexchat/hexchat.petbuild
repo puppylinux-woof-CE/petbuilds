@@ -6,7 +6,7 @@
 
 URL=https://dl.hexchat.net/hexchat
 PKG=hexchat
-VER=2.10.2
+VER=2.12.4 # 2016-dec-10 
 COMP=tar.xz
 DESC="Graphical IRC chat client"
 DEPS=+gtk+,+openssl,+perl
@@ -51,6 +51,17 @@ build() {
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
-patch_me
+#patch_me
+
+# defaultbrowser
+sed -i 's|firefox -new-window|defaultbrowser|' ${PKG}-${VER}/src/common/hexchat.c
+sed -i 's|Firefox|defaultbrowser|' ${PKG}-${VER}/src/common/hexchat.c
+
+# fix root warning
+sed -i 's|getuid|getpid|' ${PKG}-${VER}/src/common/hexchat.c
+
+# ...
+mkdir -p /usr/local/include
+
 build
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

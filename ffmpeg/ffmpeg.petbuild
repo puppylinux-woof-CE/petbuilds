@@ -10,7 +10,7 @@ PKG=ffmpeg
 VER=2.8.11
 COMP=tar.xz
 DESC="ffmpeg"
-DEPS=+sdl,+x264,+x265,+speex,+libogg,+libvorbis,+fdk-aac,+libvpx,+schroedinger,+libtheora,+lame
+DEPS=+sdl,+x264,+x265,+speex,+libogg,+libvorbis,+fdk-aac,+libvpx,+libtheora,+lame
 CAT=BuildingBlock
 DESKTOP=ffmpeg.desktop
 BUILD=
@@ -57,7 +57,6 @@ build() {
 				--enable-version3 \
 				--enable-runtime-cpudetect \
 				--enable-x11grab \
-				--enable-libschroedinger \
 				--enable-libtheora \
 				--enable-libxvid  \
 				--enable-swscale \

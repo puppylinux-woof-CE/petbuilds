@@ -16,7 +16,7 @@ VER=3.2.4
 SDL=SDL2
 COMP=tar.bz2
 DESC="FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything"
-DEPS=+${SDL},+x264,+x265,+speex,+libogg,+libvorbis,+fdk-aac,+libvpx,+schroedinger,+libtheora,+lame
+DEPS=+${SDL},+x264,+x265,+speex,+libogg,+libvorbis,+fdk-aac,+libvpx,+libtheora,+lame
 CAT=Multimedia
 DESKTOP=ffmpeg.desktop
 BUILD=
@@ -57,7 +57,6 @@ build() {
 				--enable-version3 \
 				--enable-runtime-cpudetect \
 				--enable-x11grab \
-				--enable-libschroedinger \
 				--enable-libtheora \
 				--enable-libxvid  \
 				--enable-swscale \

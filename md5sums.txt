@@ -302,3 +302,4 @@ c75e395d60b5b809970505962ee7579a  geany-1.32.tar.bz2
 1a115d6799dc453a29760e7bd4a56374  galculator-2.1.4.tar.bz2
 8f1ac351752d149a98aa3a77d40e1f7c  hexchat-2.12.4.tar.xz
 335994a755bc655e88a87aeb36bfc0b9  qemu-2.11.0.tar.bz2
+adb1da5e2e2046a3cdfb609ca1334f32  syslinux-4.07.tar.xz

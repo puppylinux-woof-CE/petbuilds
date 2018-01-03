@@ -7,7 +7,7 @@
 
 URL=http://wiki.qemu-project.org/download
 PKG=qemu
-VER=2.4.1
+VER=2.11.0 #2017-dec-13
 COMP=tar.bz2
 DESC="qemu is an emulator and a virtualizer for linux"
 DEPS=
@@ -25,7 +25,7 @@ ARCH=$(uname -m)
 case $ARCH in # set in build.conf
  *64) 	LIBDIR=$LIBCONF64 ; TYPE=x86_64-softmmu;;
  #arm*)	LIBDIR=$LIBCONFarm;;
- *) 	LIBDIR=$LIBCONF32 ; TYPE=i386-softmmu;;
+ *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
 patch_me() {
@@ -36,12 +36,15 @@ patch_me() {
 
 build() {
 	cd ${PKG}-${VER}
-	./configure --prefix=/usr --libdir=/usr/$LIBDIR \
-		--sysconfdir=/etc --localstatedir=/var --source-path=$CWD/${PKG}-${VER} \
-		--target-list="arm-softmmu arm-linux-user $TYPE" \
-		--audio-drv-list="alsa sdl"  \
-		--enable-guest-base --enable-guest-agent \
-		--with-sdlabi=1.2 \
+	./configure --prefix=/usr \
+		--libdir=/usr/$LIBDIR \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--source-path=$CWD/${PKG}-${VER} \
+		--target-list="arm-softmmu arm-linux-user i386-softmmu $TYPE" \
+		--audio-drv-list="alsa sdl" \
+		--disable-docs \
+		--with-gtkabi=2.0 \
 		--disable-strip
 	make $MKFLG || exit
 	make DESTDIR=$CWD/${PKG}-install install
@@ -52,6 +55,6 @@ build() {
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
-patch_me
+#patch_me
 build $PKG $VER $LIBDIR
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

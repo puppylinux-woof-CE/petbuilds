@@ -5,15 +5,14 @@
 . ../func
 . ../build.conf
 
-URL=https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools/+archive
-SPKG=v
+URL=https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools.git/snapshot
 PKG=f2fs-tools
-VER=1.8.0
+VER=1.9.0 #2017-09-21
 COMP=tar.gz
 DESC="tools for f2fs file system"
 DEPS=
 CAT=BuildingBlock
-DESKTOP=v1.8.0.tar.gz.desktop
+DESKTOP=
 BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)
@@ -34,21 +33,15 @@ case $ARCH in # set in build.conf
 		FLAGS="-O2 -march=$ARCH -mtune=$ARCH";;
 esac
 
-retrieve_and_prep() {
-	# no md5check for this
-	mkdir ${PKG}-${VER}
-	[ -e ../0sources/"${PKG}-${VER}.${COMP}" ] && cp -f ../0sources/${PKG}-${VER}.${COMP} ${PKG}-${VER}/ ||\
-	curl ${URL}/${SPKG}${VER}.${COMP} > ${PKG}-${VER}/${PKG}-${VER}.${COMP}
-	(
-	cd ${PKG}-${VER}
-	tar xzvf ${PKG}-${VER}.${COMP} || exit
-	mv ${PKG}-${VER}.${COMP} ../../0sources/
-	autoreconf -i || exit
-	)
-}
-
 # main
-retrieve_and_prep
-prep
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+
+if [ ! -f ${PKG}-${VER}/configure ] ; then
+	cd ${PKG}-${VER}
+	autoreconf -vi
+	cd -
+fi
+
 build_configure $PKG $VER $LIBDIR "$FLAGS"
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

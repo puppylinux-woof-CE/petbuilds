@@ -6,7 +6,7 @@
 
 URL=http://downloads.sourceforge.net/faac
 PKG=faac
-VER=1.28
+VER=1.29.9.2 #2017-11-14
 COMP=tar.gz
 DESC="open source MPEG-4 and MPEG-2 AAC encoder"
 DEPS=

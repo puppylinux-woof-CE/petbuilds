@@ -12,19 +12,13 @@ by `make DESTDIR=/path/to/package install`.
 
 usage
 -----
-- clone this repository and checkout the branch you want. There are 2: tahrpup
-and slacko_141. Say you want to build for tahrpup
-```
-git clone https://github.com/puppylinux-woof-CE/petbuilds.git
-git checkout tahrpup
-```
 - it is suggested if you cloned this repo to copy it somewhere else so 
 you can pull or fetch without issue
-- just cd into the repository and run `./build_all.sh`. Hopefully all packages
+- just cd into `build` and run `./build_all.sh`. Hopefully all packages
 will download and build successfully. The idea is "code goes in, package
 comes out".
-- if you want to build individual packages just append the name of the package
-to the command. EXAMPLE: `./build_all.sh sylpheed`
+- if you want to build individual packages just cd into the package dir
+and run its build recipe.EXAMPLE `sh rox_filer.petbuild`
 
 recipes
 -------

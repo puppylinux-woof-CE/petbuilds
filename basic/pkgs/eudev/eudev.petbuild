@@ -3,6 +3,20 @@
 . ../../func
 . ../../build.conf
 
+if [ -f /usr/lib/pkgconfig/libudev.pc ] ; then
+	udevver=$(grep 'Version: ' /usr/lib/pkgconfig/libudev.pc  | cut -f 2 -d ' ')
+elif [ -f /usr/lib64/pkgconfig/libudev.pc ] ; then
+	udevver=$(grep 'Version: ' /usr/lib64/pkgconfig/libudev.pc  | cut -f 2 -d ' ')
+elif [ -f /usr/share/pkgconfig/udev.pc ] ; then
+	udevver=$(grep 'Version: ' /usr/share/pkgconfig/udev.pc  | cut -f 2 -d ' ')
+fi
+echo $udevver
+if [ "$udevver" != "" -a $udevver -lt 200 ] ; then
+	echo "Not compiling eudev..."
+	sleep 3
+	exit
+fi
+
 URL=https://github.com/gentoo/eudev/archive
 PKG=eudev
 VER=3.2.5
@@ -71,6 +85,7 @@ extract v${VER}.${COMP}
 	[ "$?" -eq 0 ] || exit
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit
+	make install
 	make DESTDIR=$CWD/${PKG}-install install
 	cd -
 #--

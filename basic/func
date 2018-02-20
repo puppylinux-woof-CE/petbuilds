@@ -1,7 +1,12 @@
 #!/bin/bash
 #functions library
 
-if [ -f ../build.conf ] ; then
+if [ -n "$z0base_dir" ] ; then
+	. ${z0base_dir}/build.conf
+	# if z0base_dir has been set,
+	# md5sumstxt, z0sources, z0pets_out, z0logs and MWD
+	# have already been set.
+elif [ -f ../build.conf ] ; then
 	. ../build.conf
 	md5sumstxt=../md5sums.txt
 	z0sources=../0sources

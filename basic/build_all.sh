@@ -2,9 +2,41 @@
 
 # packages can be built individually if you wish
 
-export MWD=`pwd`
 
-. ./build.conf
+REALPATH_BUILD_ALL=$(realpath ${0%build_all.sh})
+if [ "$REALPATH_BUILD_ALL" = "$PWD" ] ; then
+	z0base_dir=""
+else
+	export z0base_dir="$REALPATH_BUILD_ALL"
+fi
+
+if [ -n "$z0base_dir" -a -f ${z0base_dir}/build.conf ] ; then
+	. ${z0base_dir}/build.conf
+	export md5sumstxt=${z0base_dir}/md5sums.txt
+	zORDER=${z0base_dir}/ORDER
+	mkdir -p local-repositories/petbuilds/0sources
+	export z0sources=$(cd local-repositories/petbuilds/0sources ; pwd)
+	mkdir -p petbuilds-out
+	export MWD=$(cd petbuilds-out ; pwd)
+	[ ! -f petbuilds-out/func ] && ln -s ../${0%/build_all.sh}/func petbuilds-out/
+	[ ! -f petbuilds-out/build.conf ] && ln -s ../${0%/build_all.sh}/build.conf petbuilds-out/
+	[ ! -f petbuilds-out/split.sh ] && ln -s ../${0%/build_all.sh}/split.sh petbuilds-out/
+	. /etc/DISTRO_SPECS
+	export z0pets_out=${MWD}/0pets_out/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
+	mkdir -p $z0pets_out
+	z0pets_out_specs=${z0pets_out}/0pets_out.specs
+	export z0logs=${MWD}/0logs/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
+	mkdir -p $z0logs
+elif [ -f ./build.conf ] ; then
+	. ./build.conf
+	export MWD=`pwd`
+	zORDER=ORDER
+	z0pets_out_specs=${MWD}/0pets_out.specs
+else
+	echo "Error: unable to find build.conf"
+	exit 1
+fi
+
 
 usage() {
 	echo
@@ -25,12 +57,12 @@ usage() {
 }
 
 get_specs() {
-	[ -f 0pets_out.specs ] && rm 0pets_out.specs
-	cd 0pets_out
+	[ -f $z0pets_out_specs ] && rm $z0pets_out_specs
+	cd $z0pets_out
 	for pet in *.pet; do 
 		echo -n "$pet "
 		specs=`tar -xvJf "$pet" --no-anchored 'pet.specs' 2>/dev/null`
-		cat $specs >> ../0pets_out.specs
+		cat $specs >> $z0pets_out_specs
 		rm -rf ${pet%.*}
 	done
 	cd -
@@ -69,34 +101,46 @@ build_it() {
 	case "$1" in
 		-h|-help|--help) usage ;;
 	esac
-	[ -d "$1" ] || usage
+	[ -d "pkgs/$1" -o -d "${z0base_dir}/pkgs/$1" ] || usage
 	echo "
 +=============================================================================+
 
 building $pkg"
-	cd pkgs/$pkg
-	sh ${pkg}.petbuild 2>&1 | tee ../../0logs/${pkg}build.log
+	if [ -n "$z0base_dir" ] ; then
+		mkdir -p ${MWD}/pkgs/$pkg
+		cp -a ${z0base_dir}/pkgs/$pkg ${MWD}/pkgs/
+		cd ${MWD}/pkgs/$pkg
+	else
+		cd pkgs/$pkg
+	fi
+	sh ${pkg}.petbuild 2>&1 | tee ${z0logs}/${pkg}build.log
 	cd -
 	echo "done building $pkg"
 	exit
 }
 
 build_all() {
-	for pkg in `cat ORDER`; do
-		pkg_exits=`ls ./0pets_out|grep "^$pkg"|grep "pet$"`
+	for pkg in `cat $zORDER`; do
+		pkg_exits=`ls ${z0pets_out}|grep "^$pkg"|grep "pet$"`
 		if [ "$pkg_exits" ];then
 			echo "$pkg exists ... skipping"
 			sleep 0.5
 			continue
 		fi
 		echo
-		cd pkgs/$pkg
 		echo "
 +=============================================================================+
 
 building $pkg"
 		sleep 1 
-		sh ${pkg}.petbuild 2>&1 | tee ../../0logs/${pkg}build.log
+		if [ -n "$z0base_dir" ] ; then
+			mkdir -p ${MWD}/pkgs/$pkg
+			cp -a ${z0base_dir}/pkgs/$pkg ${MWD}/pkgs/
+			cd ${MWD}/pkgs/$pkg
+		else
+			cd pkgs/$pkg
+		fi
+		sh ${pkg}.petbuild 2>&1 | tee ${z0logs}/${pkg}build.log
 		if [ "$?" -eq 1 ];then 
 			echo "$pkg build failure"
 			case $HALT_ERRS in

@@ -130,7 +130,7 @@ package_std() {
 		| grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
 	# add this recipe
 	install -d -m 0755 ./${PKG}-install/usr/src/dev
-	cat ${PKG}.petbuild > ./${PKG}-install/usr/src/dev/${PKG}-build-recipe
+	#cat ${PKG}.petbuild > ./${PKG}-install/usr/src/dev/${PKG}-build-recipe
 	# add custom .desktop
 	if [ -f "$DESKTOP" ];then
 		install -d -m 0755 ./${PKG}-install/usr/share/applications

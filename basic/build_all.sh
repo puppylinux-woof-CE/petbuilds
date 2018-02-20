@@ -2,7 +2,6 @@
 
 # packages can be built individually if you wish
 
-
 REALPATH_BUILD_ALL=$(realpath ${0%build_all.sh})
 if [ "$REALPATH_BUILD_ALL" = "$PWD" ] ; then
 	z0base_dir=""
@@ -31,6 +30,7 @@ elif [ -f ./build.conf ] ; then
 	. ./build.conf
 	export MWD=`pwd`
 	zORDER=ORDER
+	z0pets_out=${MWD}/0pets_out
 	z0pets_out_specs=${MWD}/0pets_out.specs
 else
 	echo "Error: unable to find build.conf"

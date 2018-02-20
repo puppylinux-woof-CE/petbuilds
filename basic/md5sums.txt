@@ -22,3 +22,4 @@ cd85a82d510d9abf790132fb0da1bf3c  ddrescue-1.23.tar.lz
 d97474ae1954f772c6d2fa386a6f462c  ntfs-3g_ntfsprogs-2017.3.23.tgz
 3c160eab5783c1d2fbf40f86333f7fcf  hdparm-9.54.tar.gz
 3612b9cba7249f28c9760d1cd0b907ea  sdparm-1.10.tar.xz
+42d999990c735d88653627cefcc13b9a  flashrom-1.0.tar.bz2

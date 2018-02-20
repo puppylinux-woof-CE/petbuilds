@@ -8,6 +8,7 @@ eudev
 exfat-utils
 fuse-exfat
 f2fs-tools
+flashrom
 gtkdialog
 gtk-server
 gmrun

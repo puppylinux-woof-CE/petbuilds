@@ -13,6 +13,7 @@ flashrom
 gtkdialog
 gtk-server
 gmrun
+gptfdisk
 hdparm
 libdvdcss
 ncdu

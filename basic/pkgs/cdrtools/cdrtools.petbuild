@@ -1,0 +1,93 @@
+#!/bin/sh
+# cdrtools
+# https://git.archlinux.org/svntogit/community.git/plain/trunk/PKGBUILD?h=packages/cdrtools
+
+. ../../func
+. ../../build.conf
+
+URL=http://downloads.sourceforge.net/cdrtools
+PKG=cdrtools
+VER=3.02a09
+COMP=tar.bz2
+DESC="Original cdrtools supporting CD, DVD and BluRay burning"
+DEPS=
+CAT=BuildingBlock
+DESKTOP=cdrtools.desktop
+BUILD=
+CWD=$(pwd)
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+# comment these 2 below if you use a custom package() function
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not
+
+ARCH=$(uname -m)
+case $ARCH in # set in build.conf
+ *64) 	LIBDIR=$LIBCONF64 
+		FLAGS=$CF64;;
+ arm*)	LIBDIR=$LIBCONFarm
+		FLAGS="-O2" ;;
+ i686) 	LIBDIR=$LIBCONF32 
+		FLAGS=$CF32;;
+	*) 	LIBDIR=$LIBCONF32 
+		FLAGS="-O2 -march=$ARCH -mtune=$ARCH";;
+esac
+
+#======================================================================
+
+build() {
+  cd "$srcdir"
+  sed -i 's|/opt/schily|/usr|g' DEFAULTS/Defaults.linux
+  sed -i 's|DEFINSGRP=.*|DEFINSGRP=root|' DEFAULTS/Defaults.linux
+  # install rscsi to /usr/bin instead of /usr/sbin
+  sed -i 's|INSDIR=.*|INSDIR=bin|' rscsi/Makefile
+  
+  export GMAKE_NOWARN=true
+  make INS_BASE=/usr INS_RBASE=/
+  cd $CWD
+}
+
+check() {
+  cd "$srcdir"
+  make tests
+}
+
+package() {
+
+  cd "$srcdir"
+
+  export GMAKE_NOWARN=true
+  make INS_BASE=/usr INS_RBASE=/ DESTDIR="$pkgdir" install
+
+  # remove unneeded files that may cause conflicts
+  rm -rf "$pkgdir"/usr/include
+  rm -rf "$pkgdir"/usr/lib/{*.a,profiled}
+  rm -rf "$pkgdir"/usr/share/man/man3
+
+  # autoload 'sg' module needed by cdrecord
+  install -d -m755 "$pkgdir"/etc/modprobe.d/
+  echo sg > "$pkgdir"/etc/modprobe.d/cdrecord.conf
+
+  # create symlinks for cdrkit compatibility
+  cd "$pkgdir"/usr/bin
+  ln -s cdrecord wodim
+  ln -s readcd readom
+  ln -s mkisofs genisoimage
+  ln -s cdda2wav icedax
+  cd $CWD
+}
+
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+
+#fix directory name
+mv -f ${PKG}-${VER%%a*} ${PKG}-${VER}
+
+#build_configure $PKG $VER $LIBDIR "$FLAGS"
+srcdir=${PKG}-${VER}
+pkgdir=$CWD/${PKG}-install
+pkgver=$VER
+build
+package
+
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

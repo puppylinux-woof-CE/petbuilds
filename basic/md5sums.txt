@@ -20,3 +20,4 @@ ee3ded0b1f84e5c6e3309bb36d701916  cabextract-1.6.tar.gz
 cd85a82d510d9abf790132fb0da1bf3c  ddrescue-1.23.tar.lz
 8749ba4fbc25d1b13753b79f1f84b69d  e2fsprogs-1.43.9.tar.gz
 d97474ae1954f772c6d2fa386a6f462c  ntfs-3g_ntfsprogs-2017.3.23.tgz
+3c160eab5783c1d2fbf40f86333f7fcf  hdparm-9.54.tar.gz

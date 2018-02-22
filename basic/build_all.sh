@@ -100,6 +100,19 @@ build_it() {
 	pkg=${1/\//} # remove trailing slash if using bash completion
 	case "$1" in
 		-h|-help|--help) usage ;;
+
+		# allow ORDER-* files to be selected from command line
+		*ORDER*)
+			if [ -f "$1" ]; then
+				zORDER="$1"
+				build_all
+				exit
+			elif [ -f "${z0base_dir}/$1" ]; then
+				zORDER="${z0base_dir}/$1"
+				build_all
+				exit
+			fi
+		;;
 	esac
 	[ -d "pkgs/$1" -o -d "${z0base_dir}/pkgs/$1" ] || usage
 	echo "

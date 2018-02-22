@@ -9,6 +9,7 @@ e2fsprogs
 exfat-utils
 fuse-exfat
 f2fs-tools
+f3
 flashrom
 gtkdialog
 gtk-server

@@ -106,10 +106,12 @@ build_it() {
 			if [ -f "$1" ]; then
 				zORDER="$1"
 				build_all
+				get_specs
 				exit
 			elif [ -f "${z0base_dir}/$1" ]; then
 				zORDER="${z0base_dir}/$1"
 				build_all
+				get_specs
 				exit
 			fi
 		;;

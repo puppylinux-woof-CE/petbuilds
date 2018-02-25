@@ -28,7 +28,6 @@ case $ARCH in # set in build.conf
 esac
 
 build() {
-	cp -arf ${PKG}-template ${PKG}-install
 	cd ${PKG}-${VER}
 	./configure --prefix=/usr \
 				--localstatedir=/var \
@@ -37,7 +36,14 @@ build() {
 	[ "$?" -eq 0 ] || exit
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit
-	make DESTDIR=$CWD/${PKG}-install install
+	#make DESTDIR=$CWD/${PKG}-install install
+	sed -i '/xml:lang/d' freedesktop.org.xml
+	install -d $CWD/${PKG}-install/usr/bin
+	install -d $CWD/${PKG}-install/usr/mime/packages
+	install -d $CWD/${PKG}-install/usr/share/pkgconfig
+	install -m 755 update-mime-database $CWD/${PKG}-install/usr/bin
+	install -m 644 freedesktop.org.xml $CWD/${PKG}-install/usr/mime/packages
+	install -m 644 shared-mime-info.pc $CWD/${PKG}-install/usr/share/pkgconfig
 	cd -
 }
 

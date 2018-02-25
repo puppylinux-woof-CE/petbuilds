@@ -15,7 +15,6 @@ CAT=BuildingBlock
 DESKTOP=shared-mime-info.desktop
 BUILD=
 CWD=$(pwd)
-[ -z "$MWD" ] && MWD=$(dirname $CWD)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
 # comment these 2 below if you use a custom package() function
 [ -f "$DESKTOP" ] || DESKTOP=not
@@ -31,7 +30,6 @@ esac
 build() {
 	cp -arf ${PKG}-template ${PKG}-install
 	cd ${PKG}-${VER}
-	patch freedesktop.org.xml.in ../x-sharedlib_fix.patch
 	./configure --prefix=/usr \
 				--localstatedir=/var \
 				--sysconfdir=/etc \

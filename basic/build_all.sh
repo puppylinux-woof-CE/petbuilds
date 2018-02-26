@@ -13,6 +13,7 @@ if [ -n "$z0base_dir" -a -f ${z0base_dir}/build.conf ] ; then
 	. ${z0base_dir}/build.conf
 	export md5sumstxt=${z0base_dir}/md5sums.txt
 	zORDER=${z0base_dir}/ORDER
+	zORDER_noarch=${z0base_dir}/ORDER-noarch
 	mkdir -p local-repositories/petbuilds/0sources
 	export z0sources=$(cd local-repositories/petbuilds/0sources ; pwd)
 	mkdir -p petbuilds-out
@@ -30,6 +31,7 @@ elif [ -f ./build.conf ] ; then
 	. ./build.conf
 	export MWD=`pwd`
 	zORDER=ORDER
+	zORDER_noarch=ORDER-noarch
 	z0pets_out=${MWD}/0pets_out
 	z0pets_out_specs=${MWD}/0pets_out.specs
 else
@@ -121,13 +123,20 @@ build_it() {
 +=============================================================================+
 
 building $pkg"
-	echo -n > ${z0logs}/${pkg}build.log
 	if [ -n "$z0base_dir" ] ; then
 		mkdir -p ${MWD}/pkgs/$pkg
 		cp -a ${z0base_dir}/pkgs/$pkg ${MWD}/pkgs/
+		if [ "`grep "^${pkg}$" "$zORDER_noarch"`" != "" ]; then
+			export z0logs=${MWD}/0logs/noarch
+			export z0pets_out=${MWD}/0pets_out/noarch
+			mkdir -p $z0logs
+			mkdir -p $z0pets_out
+		fi
+		echo -n > ${z0logs}/${pkg}build.log
 		[ "`which git`" != "" ] && echo "building $pkg from petbuild commit $(cd ${z0base_dir}/pkgs ; git log -1 $pkg | grep commit | cut -f 2 -d ' ' | cut -c -7)" >> ${z0logs}/${pkg}build.log
 		cd ${MWD}/pkgs/$pkg
 	else
+		echo -n > ${z0logs}/${pkg}build.log
 		[ "`which git`" != "" ] && echo "building $pkg from petbuild commit $(cd pkgs ; git log -1 $pkg | grep commit | cut -f 2 -d ' ' | cut -c -7)" >> ${z0logs}/${pkg}build.log
 		cd pkgs/$pkg
 	fi
@@ -138,7 +147,22 @@ building $pkg"
 }
 
 build_all() {
+
+	if [ -n "$z0base_dir" -a "$zORDER" = "$zORDER_noarch" ]; then
+		export z0logs=${MWD}/0logs/noarch
+		export z0pets_out=${MWD}/0pets_out/noarch
+		mkdir -p $z0logs
+		mkdir -p $z0pets_out
+		z0pets_out_specs=${z0pets_out}/0pets_out.specs
+	fi
+
 	for pkg in `cat $zORDER`; do
+		if [ -n "$z0base_dir" -a "$zORDER" != "$zORDER_noarch" ]; then
+			if [ "`grep "^${pkg}$" "$zORDER_noarch"`" != "" ]; then
+				echo "Error: ${pkg} listed in both $zORDER and $zORDER_noarch"
+				exit 1
+			fi
+		fi
 		pkg_exits=`ls ${z0pets_out}|grep "^$pkg"|grep "pet$"`
 		if [ "$pkg_exits" ];then
 			echo "$pkg exists ... skipping"

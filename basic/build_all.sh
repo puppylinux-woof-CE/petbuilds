@@ -22,11 +22,16 @@ if [ -n "$z0base_dir" -a -f ${z0base_dir}/build.conf ] ; then
 	[ ! -f petbuilds-out/build.conf ] && ln -s ../${0%/build_all.sh}/build.conf petbuilds-out/
 	[ ! -f petbuilds-out/split.sh ] && ln -s ../${0%/build_all.sh}/split.sh petbuilds-out/
 	. /etc/DISTRO_SPECS
-	export z0pets_out=${MWD}/0pets_out/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
+	if [ "${DISTRO_DB_SUBNAME#common}" != "${DISTRO_DB_SUBNAME}" ]; then
+		export z0pets_out=${MWD}/0pets_out/${DISTRO_TARGETARCH}/${DISTRO_DB_SUBNAME}
+		export z0logs=${MWD}/0logs/${DISTRO_TARGETARCH}/${DISTRO_DB_SUBNAME}
+	else
+		export z0pets_out=${MWD}/0pets_out/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
+		export z0logs=${MWD}/0logs/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
+	fi
+	mkdir -p $z0logs
 	mkdir -p $z0pets_out
 	z0pets_out_specs=${z0pets_out}/0pets_out.specs
-	export z0logs=${MWD}/0logs/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
-	mkdir -p $z0logs
 elif [ -f ./build.conf ] ; then
 	. ./build.conf
 	export MWD=`pwd`

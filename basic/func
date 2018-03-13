@@ -29,6 +29,9 @@ if [ -z "$DEF_BUILD" -a -f /etc/DISTRO_SPECS ] ; then
 		debian|ubuntu|devuan|raspbian|trisquel) DEF_BUILD="${DISTRO_COMPAT_VERSION}" ;;
 		*) DEF_BUILD="${DISTRO_FILE_PREFIX}${DISTRO_COMPAT_VERSION}" ;;
 	esac
+	if [ "${DISTRO_DB_SUBNAME#common}" != "${DISTRO_DB_SUBNAME}" ]; then
+		DEF_BUILD="${DISTRO_DB_SUBNAME}"
+	fi
 fi
 
 check_md5() {

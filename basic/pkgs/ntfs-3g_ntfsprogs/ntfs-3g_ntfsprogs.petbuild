@@ -35,6 +35,7 @@ esac
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+mkdir -p ${PKG}-install/${LIBDIR}
 EXTRA_CONFIG_OPTS=--disable-static
 build_configure $PKG $VER $LIBDIR "$FLAGS"
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

@@ -41,22 +41,37 @@ build() {
   # install rscsi to /usr/bin instead of /usr/sbin
   sed -i 's|INSDIR=.*|INSDIR=bin|' rscsi/Makefile
   
-  export GMAKE_NOWARN=true
-  make INS_BASE=/usr INS_RBASE=/
+  if [ "`which smake`" != "" ]; then
+    export MAKE=smake
+    smake INS_BASE=/usr INS_RBASE=/
+  else
+    export GMAKE_NOWARN=true
+    make INS_BASE=/usr INS_RBASE=/
+  fi
   cd $CWD
 }
 
 check() {
   cd "$srcdir"
-  make tests
+  if [ "`which smake`" != "" ]; then
+    export MAKE=smake
+    smake tests
+  else
+    make tests
+  fi
 }
 
 package() {
 
   cd "$srcdir"
 
-  export GMAKE_NOWARN=true
-  make INS_BASE=/usr INS_RBASE=/ DESTDIR="$pkgdir" install
+  if [ "`which smake`" != "" ]; then
+    export MAKE=smake
+    smake INS_BASE=/usr INS_RBASE=/ DESTDIR="$pkgdir" install
+  else
+    export GMAKE_NOWARN=true
+    make INS_BASE=/usr INS_RBASE=/ DESTDIR="$pkgdir" install
+  fi
 
   # remove unneeded files that may cause conflicts
   rm -rf "$pkgdir"/usr/include

@@ -37,7 +37,7 @@ retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 
 #-
-EXTRA_CONFIG_OPTS='--prefix=/ --enable-compat-symlinks'
+EXTRA_CONFIG_OPTS='--prefix=/ --enable-compat-symlinks --without-udev'
 #-
 
 build_configure $PKG $VER $LIBDIR "$FLAGS"

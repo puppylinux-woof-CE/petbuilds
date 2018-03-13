@@ -178,11 +178,15 @@ building $pkg"
 		if [ -n "$z0base_dir" ] ; then
 			mkdir -p ${MWD}/pkgs/$pkg
 			cp -a ${z0base_dir}/pkgs/$pkg ${MWD}/pkgs/
+			echo -n > ${z0logs}/${pkg}build.log
+			[ "`which git`" != "" ] && echo "building $pkg from petbuild commit $(cd ${z0base_dir}/pkgs ; git log -1 $pkg | grep commit | cut -f 2 -d ' ' | cut -c -7)" >> ${z0logs}/${pkg}build.log
 			cd ${MWD}/pkgs/$pkg
 		else
+			echo -n > ${z0logs}/${pkg}build.log
+			[ "`which git`" != "" ] && echo "building $pkg from petbuild commit $(cd pkgs ; git log -1 $pkg | grep commit | cut -f 2 -d ' ' | cut -c -7)" >> ${z0logs}/${pkg}build.log
 			cd pkgs/$pkg
 		fi
-		sh ${pkg}.petbuild 2>&1 | tee ${z0logs}/${pkg}build.log
+		sh ${pkg}.petbuild 2>&1 | tee -a ${z0logs}/${pkg}build.log
 		if [ "$?" -eq 1 ];then 
 			echo "$pkg build failure"
 			case $HALT_ERRS in

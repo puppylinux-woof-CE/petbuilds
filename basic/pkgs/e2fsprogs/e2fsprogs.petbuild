@@ -3,6 +3,10 @@
 . ../../func
 . ../../build.conf
 
+. /etc/DISTRO_SPECS
+[ "${DISTRO_DB_SUBNAME#common}" != "${DISTRO_DB_SUBNAME}" ] && \
+	export LDFLAGS=-lrt
+
 VER=1.43.9
 URL=https://sourceforge.net/projects/e2fsprogs/files/e2fsprogs/v${VER}
 PKG=e2fsprogs

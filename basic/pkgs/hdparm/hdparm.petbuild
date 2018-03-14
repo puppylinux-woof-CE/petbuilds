@@ -39,7 +39,7 @@ extract ${PKG}-${VER}.${COMP}
 #build_configure $PKG $VER $LIBDIR "$FLAGS"
 cd $PKG-$VER
 	make install
-	make DESTDIR=${PKG}-install install
+	make DESTDIR=../${PKG}-install install
 cd -
 
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

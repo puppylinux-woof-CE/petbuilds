@@ -67,10 +67,12 @@ get_specs() {
 	[ -f $z0pets_out_specs ] && rm $z0pets_out_specs
 	cd $z0pets_out
 	for pet in *.pet; do 
-		echo -n "$pet "
-		specs=`tar -xvJf "$pet" --no-anchored 'pet.specs' 2>/dev/null`
-		cat $specs >> $z0pets_out_specs
-		rm -rf ${pet%.*}
+		if [ -f "${pet}" ]; then
+			echo -n "$pet "
+			specs=`tar -xvJf "$pet" --no-anchored 'pet.specs' 2>/dev/null`
+			cat $specs >> $z0pets_out_specs
+			rm -rf ${pet%.*}
+		fi
 	done
 	cd -
 }

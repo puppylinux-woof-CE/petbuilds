@@ -102,6 +102,19 @@ if [ "${HOSTARCH}" = "x86_64" ]; then
 fi
 
 
+# download any missing sources
+echo -n > /tmp/petbuilds_download_errors.txt
+export DOWNLOAD_ONLY="yes"
+petbuilds/basic/build_all.sh "${1}"
+export DOWNLOAD_ONLY=""
+if [ -s /tmp/petbuilds_download_errors.txt ]; then
+	echo "Error downloading sources."
+	exit 1
+else
+	rm /tmp/petbuilds_download_errors.txt
+fi
+
+
 # run the build once in each compatible distro
 if [ "${HOSTARCH#x86}" != "${HOSTARCH}" ]; then
 	[ -n "${COMMON32_ISO_URL}" -a -n "${COMMON32_DEVX_URL}" ] && \

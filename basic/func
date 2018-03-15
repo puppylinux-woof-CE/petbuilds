@@ -41,14 +41,24 @@ check_md5() {
 	if [ "$MD5_DLD" = "${MD5_LST}" ];then
 		echo "checksum passed"
 	else 
-		[ -n "${MD5_LST}" ] && echo "checksum did not match, deleting $SRC" && \
-		 rm $SRC && exit
+		if [ -n "${MD5_LST}" ]; then
+			echo "checksum did not match, deleting $SRC"
+			rm "${SRC}"
+			echo "${SRC}" >> /tmp/petbuilds_download_errors.txt
+			exit 1
+		fi
 		echo "checksum failed, no entry - IF YOU KNOW IT IS GOOD type 'YES' and hit Enter"
 		read check
 		case $check in
-			YES|yes)echo "$MD5_DLD" >> $md5sumstxt
-				echo "$MD5_DLD is appended to md5sums.txt" && exit;;
-			*) echo "failed: exiting" && exit;;
+			YES|yes|Y|y)
+				echo "$MD5_DLD" >> $md5sumstxt
+				echo "$MD5_DLD is appended to md5sums.txt"
+				;;
+			*)
+				echo "failed: exiting"
+				echo "${SRC}" >> /tmp/petbuilds_download_errors.txt
+				exit 1
+				;;
 		esac
 	fi
 }
@@ -60,10 +70,13 @@ retrieve() {
 	[ -f ${z0sources}/"$SRCS" ] &&\
 	cp -a ${z0sources}/${SRCS} . ||\
 	wget --no-check-certificate -t0 -c ${URL}/${SRCS} $CERT
-	[ "$?" -eq 0 ] || exit 1
+	if [ "$?" != "0" ]; then
+		echo "${SRCS}" >> /tmp/petbuilds_download_errors.txt
+		exit 1
+	fi
 	check_md5 $SRCS
 	sleep 1
-	if [ "$DLD_ONLY" -eq 0 ];then
+	if [ "$DLD_ONLY" -eq 0 -o "$DOWNLOAD_ONLY" = "yes" ]; then
 		mv -f ${SRCS} ${z0sources}
 		exit 0
 	fi

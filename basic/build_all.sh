@@ -22,16 +22,28 @@ if [ -n "$z0base_dir" -a -f ${z0base_dir}/build.conf ] ; then
 	[ ! -f petbuilds-out/build.conf ] && ln -s ../${0%/build_all.sh}/build.conf petbuilds-out/
 	[ ! -f petbuilds-out/split.sh ] && ln -s ../${0%/build_all.sh}/split.sh petbuilds-out/
 	. /etc/DISTRO_SPECS
-	if [ "${DISTRO_DB_SUBNAME#common}" != "${DISTRO_DB_SUBNAME}" ]; then
-		export z0pets_out=${MWD}/0pets_out/${DISTRO_TARGETARCH}/${DISTRO_DB_SUBNAME}
-		export z0logs=${MWD}/0logs/${DISTRO_TARGETARCH}/${DISTRO_DB_SUBNAME}
+	if [ "${USE_PUPPYLINUX_REPO_FORMAT}" = "yes" ]; then
+		if [ "${DISTRO_TARGETARCH}" = "arm" ]; then
+			export z0pets_out=${MWD}/puppylinux/arm/pet_packages-${DISTRO_DB_SUBNAME}
+			export z0logs=${MWD}/0logs/arm/${DISTRO_DB_SUBNAME}
+			z0pets_out_specs=${MWD}/puppylinux/arm/Packages-puppy-${DISTRO_DB_SUBNAME}-official
+		else
+			export z0pets_out=${MWD}/puppylinux/pet_packages-${DISTRO_DB_SUBNAME}
+			export z0logs=${MWD}/0logs/${DISTRO_DB_SUBNAME}
+			z0pets_out_specs=${MWD}/puppylinux/Packages-puppy-${DISTRO_DB_SUBNAME}-official
+		fi
 	else
-		export z0pets_out=${MWD}/0pets_out/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
-		export z0logs=${MWD}/0logs/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
+		if [ "${DISTRO_DB_SUBNAME#common}" != "${DISTRO_DB_SUBNAME}" ]; then
+			export z0pets_out=${MWD}/0pets_out/${DISTRO_TARGETARCH}/${DISTRO_DB_SUBNAME}
+			export z0logs=${MWD}/0logs/${DISTRO_TARGETARCH}/${DISTRO_DB_SUBNAME}
+		else
+			export z0pets_out=${MWD}/0pets_out/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
+			export z0logs=${MWD}/0logs/${DISTRO_TARGETARCH}/${DISTRO_BINARY_COMPAT}/${DISTRO_DB_SUBNAME}
+		fi
+		z0pets_out_specs=${z0pets_out}/0pets_out.specs
 	fi
 	mkdir -p $z0logs
 	mkdir -p $z0pets_out
-	z0pets_out_specs=${z0pets_out}/0pets_out.specs
 elif [ -f ./build.conf ] ; then
 	. ./build.conf
 	export MWD=`pwd`
@@ -134,8 +146,12 @@ building $pkg"
 		mkdir -p ${MWD}/pkgs/$pkg
 		cp -a ${z0base_dir}/pkgs/$pkg ${MWD}/pkgs/
 		if [ "`grep "^${pkg}$" "$zORDER_noarch"`" != "" ]; then
+			if [ "${USE_PUPPYLINUX_REPO_FORMAT}" = "yes" ]; then
+				export z0pets_out=${MWD}/puppylinux/pet_packages-noarch
+			else
+				export z0pets_out=${MWD}/0pets_out/noarch
+			fi
 			export z0logs=${MWD}/0logs/noarch
-			export z0pets_out=${MWD}/0pets_out/noarch
 			mkdir -p $z0logs
 			mkdir -p $z0pets_out
 		fi
@@ -156,18 +172,36 @@ building $pkg"
 build_all() {
 
 	if [ -n "$z0base_dir" -a "$zORDER" = "$zORDER_noarch" ]; then
+		if [ "${USE_PUPPYLINUX_REPO_FORMAT}" = "yes" ]; then
+			export z0pets_out=${MWD}/puppylinux/pet_packages-noarch
+			z0pets_out_specs=${MWD}/puppylinux/Packages-puppy-noarch-official
+		else
+			export z0pets_out=${MWD}/0pets_out/noarch
+			z0pets_out_specs=${z0pets_out}/0pets_out.specs
+		fi
 		export z0logs=${MWD}/0logs/noarch
-		export z0pets_out=${MWD}/0pets_out/noarch
 		mkdir -p $z0logs
 		mkdir -p $z0pets_out
-		z0pets_out_specs=${z0pets_out}/0pets_out.specs
 	fi
 
 	for pkg in `cat $zORDER`; do
 		if [ -n "$z0base_dir" -a "$zORDER" != "$zORDER_noarch" ]; then
 			if [ "`grep "^${pkg}$" "$zORDER_noarch"`" != "" ]; then
-				echo "Error: ${pkg} listed in both $zORDER and $zORDER_noarch"
-				exit 1
+				ORIGINAL_z0pets_out=${z0pets_out}
+				ORIGINAL_z0logs=${z0logs}
+				if [ "${USE_PUPPYLINUX_REPO_FORMAT}" = "yes" ]; then
+					export z0pets_out=${MWD}/puppylinux/pet_packages-noarch
+				else
+					export z0pets_out=${MWD}/0pets_out/noarch
+				fi
+				export z0logs=${MWD}/0logs/noarch
+				mkdir -p $z0logs
+				mkdir -p $z0pets_out
+			elif [ -n "${ORIGINAL_z0pets_out}" -o -n "${ORIGINAL_z0logs}" ]; then
+				export z0pets_out=${ORIGINAL_z0pets_out}
+				export z0logs=${ORIGINAL_z0logs}
+				ORIGINAL_z0pets_out=""
+				ORIGINAL_z0logs=""
 			fi
 		fi
 		pkg_exits=`ls ${z0pets_out}|grep "^$pkg"|grep "pet$"`

@@ -6,8 +6,7 @@ if [ "`which git`" = "" ]; then
 	exit 1
 fi
 
-REALPATH_CHECK_STATUS=$(realpath ${0%check-status.sh})
-if [ "$REALPATH_CHECK_STATUS" = "$PWD" ] ; then
+if [ "${PWD##*/}" = petbuilds ] ; then
 	if [ -d pkgs ]; then
 		z0base_dir=""
 	elif [ -d basic/pkgs ]; then
@@ -18,10 +17,10 @@ if [ "$REALPATH_CHECK_STATUS" = "$PWD" ] ; then
 		exit 1
 	fi
 else
-	if [ -d "${REALPATH_CHECK_STATUS}/pkgs" ]; then
-		z0base_dir="$REALPATH_CHECK_STATUS"
-	elif [ -d "${REALPATH_CHECK_STATUS}/basic/pkgs" ]; then
-		z0base_dir="${REALPATH_CHECK_STATUS}/basic"
+	if [ -d "../petbuilds/pkgs" ]; then
+		z0base_dir="../petbuilds"
+	elif [ -d "../petbuilds/basic/pkgs" ]; then
+		z0base_dir="../petbuilds/basic"
 	else
 		echo "Cannot find 'pkgs' directory."
 		exit 1
@@ -74,9 +73,19 @@ do
 			PET_PATH=${ONE_LOG//0logs\/}
 			PET_PATH=${PET_PATH%\/*}
 			#echo "$PET_PATH"
+			#echo "${PET_PATH##*/}"
 
-			FOUND_PETS=`find "0pets_out/$PET_PATH" -iname "${PKG}*.pet"`
-			echo -e "These pets are out of date:\n${FOUND_PETS}\n"
+			if [ -d "0pets_out/${PET_PATH}" ]; then
+				FOUND_PETS=`find "0pets_out/${PET_PATH}" -iname "${PKG}*.pet"`
+			else
+				FOUND_PETS=`find "puppylinux/pet_packages-${PET_PATH##*/}" -iname "${PKG}*.pet"`
+			fi
+
+			if [ -n "${FOUND_PETS}" ]; then
+				echo -e "\nThese pets are out of date:\n${FOUND_PETS}\n"
+			else
+				echo "Missing pets for ${ONE_LOG}"
+			fi
 		fi
 
 	done

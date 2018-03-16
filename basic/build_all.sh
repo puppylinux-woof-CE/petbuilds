@@ -205,6 +205,16 @@ build_all() {
 				ORIGINAL_z0logs=""
 			fi
 		fi
+		if [ "${DOWNLOAD_ONLY}" = "yes" ]; then
+			if [ -n "$z0base_dir" ] ; then
+				cd ${z0base_dir}/pkgs/$pkg
+			else
+				cd pkgs/$pkg
+			fi
+			sh ${pkg}.petbuild
+			cd - >/dev/null
+			continue
+		fi
 		pkg_exits=`ls ${z0pets_out}|grep "^$pkg"|grep "pet$"`
 		if [ "$pkg_exits" ];then
 			echo "$pkg exists ... skipping"

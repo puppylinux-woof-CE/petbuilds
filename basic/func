@@ -67,9 +67,12 @@ retrieve() {
 	SRCS=${1%% *}
 	WC=`echo "$1" | wc -w`
 	[ "$WC" -eq 2 ] && CERT=${1##* }
-	[ -f ${z0sources}/"$SRCS" ] &&\
-	cp -a ${z0sources}/${SRCS} . ||\
-	wget --no-check-certificate -t0 -c ${URL}/${SRCS} $CERT
+	if [ -f ${z0sources}/"$SRCS" ]; then
+		[ "$DOWNLOAD_ONLY" = "yes" ] && exit 0
+		cp -a ${z0sources}/${SRCS} .
+	else
+		wget --no-check-certificate -t0 -c ${URL}/${SRCS} $CERT
+	fi
 	if [ "$?" != "0" ]; then
 		echo "${SRCS}" >> /tmp/petbuilds_download_errors.txt
 		exit 1

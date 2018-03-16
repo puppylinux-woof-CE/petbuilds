@@ -21,6 +21,7 @@ if [ -n "$z0base_dir" -a -f ${z0base_dir}/build.conf ] ; then
 	[ ! -f petbuilds-out/func ] && ln -s ../${0%/build_all.sh}/func petbuilds-out/
 	[ ! -f petbuilds-out/build.conf ] && ln -s ../${0%/build_all.sh}/build.conf petbuilds-out/
 	[ ! -f petbuilds-out/split.sh ] && ln -s ../${0%/build_all.sh}/split.sh petbuilds-out/
+	[ ! -f petbuilds-out/check-status.sh ] && ln -s ../petbuilds/check-status.sh petbuilds-out/
 	. /etc/DISTRO_SPECS
 	if [ "${USE_PUPPYLINUX_REPO_FORMAT}" = "yes" ]; then
 		if [ "${DISTRO_TARGETARCH}" = "arm" ]; then
@@ -203,6 +204,16 @@ build_all() {
 				ORIGINAL_z0pets_out=""
 				ORIGINAL_z0logs=""
 			fi
+		fi
+		if [ "${DOWNLOAD_ONLY}" = "yes" ]; then
+			if [ -n "$z0base_dir" ] ; then
+				cd ${z0base_dir}/pkgs/$pkg
+			else
+				cd pkgs/$pkg
+			fi
+			sh ${pkg}.petbuild
+			cd - >/dev/null
+			continue
 		fi
 		pkg_exits=`ls ${z0pets_out}|grep "^$pkg"|grep "pet$"`
 		if [ "$pkg_exits" ];then

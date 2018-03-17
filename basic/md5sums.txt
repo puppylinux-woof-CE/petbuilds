@@ -11,7 +11,6 @@ b89d031139f24fdc0136d0d39756521b  f2fs-tools-1.10.0.tar.gz
 426ff7adf6ce29732d3d44ad1cb05af9  gtk-server-2.4.4.tar.gz
 904948bd091b8f6b28eeb164bc0a986f  dosfstools-4.1.tar.gz
 800ed5f9fdebcf99874b7ec95e41a643  fuse-exfat-1.2.8.tar.gz
-82d458a2e1695dd0709f71ad26109812  yad-0.40.0.tar.xz
 67239592ac41f42290f52ab89ff198be  ncdu-1.13.tar.gz
 47e7cb46fe3a5e53bec1356423b0b534  libdvdcss-1.4.1.tar.bz2
 ee3ded0b1f84e5c6e3309bb36d701916  cabextract-1.6.tar.gz
@@ -28,6 +27,6 @@ d97474ae1954f772c6d2fa386a6f462c  ntfs-3g_ntfsprogs-2017.3.23.tgz
 9ae2c6e7131cd2813edcc65cbe5f223f  smartmontools-6.6.tar.gz
 e144e4662ebe4ca5091df37352b82d28  gtkdialog-0.8.4.tar.xz
 d3501d47064c28ac962f4043e582c144  v7.0.tar.gz
-8f90f3f2b8478fa47e70678d34013f99  shared-mime-info-1.2.tar.xz
 45103889b91242850aa47f09325e798b  shared-mime-info-1.9.tar.xz
 8193fc61d78cbdb948cf381d3fdf5155  smake-1.2.5.tar.gz
+daeba7bbd18ecb1c64bfa33ccd5a545f  yad-0.40.3.tar.gz

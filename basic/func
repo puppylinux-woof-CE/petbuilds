@@ -7,19 +7,19 @@ if [ -n "$z0base_dir" ] ; then
 	# md5sumstxt, z0sources, z0pets_out, z0logs and MWD
 	# have already been set.
 elif [ -f ../build.conf ] ; then
-	. ../build.conf
-	md5sumstxt=../md5sums.txt
-	z0sources=../0sources
-	z0pets_out=../0pets_out
-	z0logs=../0logs
 	MWD=$(cd .. ; pwd)
+	. ${MWD}/build.conf
+	md5sumstxt=${MWD}/md5sums.txt
+	z0sources=${MWD}/0sources
+	z0pets_out=${MWD}/0pets_out
+	z0logs=${MWD}/0logs
 else
-	. ../../build.conf
-	md5sumstxt=../../md5sums.txt
-	z0sources=../../0sources
-	z0pets_out=../../0pets_out
-	z0logs=../../0logs
 	MWD=$(cd ../.. ; pwd)
+	. ${MWD}/build.conf
+	md5sumstxt=${MWD}/md5sums.txt
+	z0sources=${MWD}/0sources
+	z0pets_out=${MWD}/0pets_out
+	z0logs=${MWD}/0logs
 fi
 
 if [ -z "$DEF_BUILD" -a -f /etc/DISTRO_SPECS ] ; then
@@ -63,32 +63,54 @@ check_md5() {
 	fi
 }
 
+# $1: URL (includes output filename)
+# $2: override output filename
 retrieve() {
-	SRCS=${1%% *}
+	SOURCE=${1%% *}
 	WC=`echo "$1" | wc -w`
 	[ "$WC" -eq 2 ] && CERT=${1##* }
-	if [ -f ${z0sources}/"$SRCS" ]; then
-		[ "$DOWNLOAD_ONLY" = "yes" ] && exit 0
-		cp -a ${z0sources}/${SRCS} .
+	local FILE=$SOURCE
+	case $SOURCE in http*|ftp*)
+		local URL=${SOURCE%/*}
+		local FILE=${SOURCE##*/}
+	esac
+	#--
+	ZZDL=1
+	if [ "$2" != "" ] ; then
+		[ -f ${z0sources}/${2} ] && ZZDL=0
+		zzoutfile="${z0sources}/${2}"
 	else
-		wget --no-check-certificate -t0 -c ${URL}/${SRCS} $CERT
+		[ -f ${z0sources}/${FILE} ] && ZZDL=0
+		zzoutfile="${z0sources}/${FILE}"
 	fi
-	if [ "$?" != "0" ]; then
-		echo "${SRCS}" >> /tmp/petbuilds_download_errors.txt
-		exit 1
+	zzoutname=$(basename $zzoutfile)
+	#--
+	if [ $ZZDL -eq 0 ] ; then
+		if [ "$DLD_ONLY" -eq 0 -o "$DOWNLOAD_ONLY" = "yes" ]; then
+			echo "Already downloaded ${zzoutname}"
+			exit
+		fi
+	else
+		echo "Downloading ${URL}/${FILE}"
+		wget -O ${zzoutfile} -c --no-check-certificate "${URL}/${FILE}" $CERT
+		if [ $? -ne 0 ]; then
+			echo ${zzoutname} >> /tmp/petbuilds_download_errors.txt
+			exit 1
+		fi
 	fi
-	check_md5 $SRCS
+	cp -a ${zzoutfile} ${zzoutname}
+	check_md5 ${zzoutname}
 	sleep 1
-	if [ "$DLD_ONLY" -eq 0 -o "$DOWNLOAD_ONLY" = "yes" ]; then
-		mv -f ${SRCS} ${z0sources}
-		exit 0
-	fi
 }
 
+# $1: tar file
 extract() {
-	tar -xvf ${1}
-	[ "$?" -eq 0 ] || exit
-	mv -f ${1} ${z0sources}
+	if [ -f ${1} ] ; then
+		tar -xvf ${1} || exit
+		mv -f ${1} ${z0sources}
+	elif [ -f ${z0sources}/${1} ] ; then
+		tar -xvf ${z0sources}/${1} || exit
+	fi
 }
 
 alert () {

@@ -28,7 +28,7 @@ esac
 
 # main
 retrieve v${VER}.${COMP} ${PKG}-${VER}.${COMP}
-extract v${VER}.${COMP} 
+extract ${PKG}-${VER}.${COMP}
 
 if [ ! -f ${PKG}-${VER}/configure ] ; then
 	(

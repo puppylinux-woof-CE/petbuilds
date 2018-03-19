@@ -98,6 +98,7 @@ retrieve() {
 			exit 1
 		fi
 	fi
+	[ "$DLD_ONLY" -eq 0 -o "$DOWNLOAD_ONLY" = "yes" ] && exit 0
 	cp -a ${zzoutfile} ${zzoutname}
 	check_md5 ${zzoutname}
 	sleep 1

@@ -12,7 +12,6 @@ DESC="HUG - High Level Universal GUI library for BaCon"
 DEPS=+bacon,+gtk+2
 CAT=BuildingBlock
 DESKTOP=
-BUILD=slk600
 CWD=`pwd`
 HUG_IMPORT=hug_imports.bac
 GTK=gtk.bac

@@ -137,6 +137,8 @@ xarchive
 xarchiver
 xdelta
 Xdialog
+libxkbcommon
+xdotool
 xfdiff-cut
 xinvaders3d
 xlockmore

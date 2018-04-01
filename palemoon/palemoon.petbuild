@@ -13,7 +13,6 @@ DESC="A lighter weight browser based on Firefox"
 DEPS=+gtk2+,+zlib
 CAT=Internet
 DESKTOP=palemoon.desktop
-BUILD=701s_sse
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD

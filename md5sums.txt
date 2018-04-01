@@ -307,3 +307,9 @@ f35cfdee1dc616f226fff96a56974d8c  f2fs-tools-1.9.0.tar.gz
 2b58d621fad8fda879f07b7cad8bfe10  faac-1.29.9.2.tar.gz
 aa432d28801878ed920a85d4af04d74b  udftools-2.0.tar.gz
 a33f0ca96d0ba2688503183b74a86568  ms-sys-2.5.3.tar.gz
+509dc27107c21bcd9fbf2f95f5669563  libdaemon-0.14.tar.gz
+f000e519918682ee6b65090352177d4a  pure-ftpd-1.0.47.tar.gz
+bb59d25ee2643db20f212eec539429f1  busybox-1.26.2.tar.bz2
+5f7cd09e193c4edb937d9ca54fbb0aed  xdotool-3.20150503.1.tar.gz
+7d0e4c4a137d0ac45bf6b328c84c3a81  libxkbcommon-0.8.0.tar.xz
+5db059384469827ab19dac69d3fcd092  busybox-1.28.2.tar.bz2

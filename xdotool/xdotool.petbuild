@@ -5,9 +5,9 @@
 . ../func
 . ../build.conf
 
-URL=http://semicomplete.googlecode.com/files
+URL=https://github.com/jordansissel/xdotool/releases/download/v3.20150503.1
 PKG=xdotool
-VER=2.20110530.1
+VER=3.20150503.1
 COMP=tar.gz
 DESC="commandline tool for fake button and key presses"
 DEPS=

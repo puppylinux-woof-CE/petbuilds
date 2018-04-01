@@ -12,7 +12,6 @@ DESC="A light weight Gtk word processor"
 DEPS=+goffice,+gtk+2,+glib2
 CAT=Document
 DESKTOP=abiword.desktop
-BUILD=s701
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD

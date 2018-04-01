@@ -12,7 +12,6 @@ COMP=tar.xz
 DESC="Joes Window Manager for X"
 DEPS=+cairo,+rsvg,+libpng,+libjpeg,+xpm,+fribidi
 CAT=Desktop
-BUILD=s701
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD

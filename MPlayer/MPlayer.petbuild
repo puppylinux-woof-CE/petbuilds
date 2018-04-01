@@ -12,7 +12,6 @@ DESC="Media player for audio and video"
 DEPS=+ffmpeg
 CAT=Multimedia
 DESKTOP=MPlayer.desktop
-BUILD=s701
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -30,6 +29,7 @@ build() {
 	cd ${PKG}-${VER}
 	./configure --prefix=/usr \
 		--enable-runtime-cpudetection \
+		--disable-libschroedinger-lavc \
 		--confdir=/etc \
 		--disable-smb \
 		--disable-mencoder

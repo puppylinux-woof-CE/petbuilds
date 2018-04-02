@@ -22,6 +22,7 @@ if [ -n "$z0base_dir" -a -f ${z0base_dir}/build.conf ] ; then
 	[ ! -f petbuilds-out/build.conf ] && ln -s ../${0%/build_all.sh}/build.conf petbuilds-out/
 	[ ! -f petbuilds-out/split.sh ] && ln -s ../${0%/build_all.sh}/split.sh petbuilds-out/
 	[ ! -f petbuilds-out/check-status.sh ] && ln -s ../petbuilds/check-status.sh petbuilds-out/
+	[ ! -f petbuilds-out/mk-tar.sh ] && ln -s ../petbuilds/mk-tar.sh petbuilds-out/
 	. /etc/DISTRO_SPECS
 	if [ "${USE_PUPPYLINUX_REPO_FORMAT}" = "yes" ]; then
 		if [ "${DISTRO_TARGETARCH}" = "arm" ]; then

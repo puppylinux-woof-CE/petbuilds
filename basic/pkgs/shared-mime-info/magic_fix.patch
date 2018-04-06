@@ -1,5 +1,5 @@
 --- freedesktop.org.xml.in.original	2017-09-06 20:15:45.000000000 -0500
-+++ freedesktop.org.xml.in	2018-03-14 11:43:37.549544858 -0500
++++ freedesktop.org.xml.in	2018-04-06 13:55:27.290324148 -0500
 @@ -3489,7 +3489,7 @@
    </mime-type>
    <mime-type type="application/x-sharedlib">
@@ -9,7 +9,7 @@
        <match type="string" value="\177ELF" offset="0">
          <match type="byte" value="1" offset="5">
            <match type="little16" value="3" offset="16"/>
-@@ -3504,8 +3504,9 @@
+@@ -3504,8 +3504,19 @@
          <match type="little16" mask="030000" value="020000" offset="22"/>
        </match>
        <match type="string" mask="0xffffffff000000000000000000000000ff" value="\177ELF            \003" offset="0"/>
@@ -17,10 +17,20 @@
 +    </magic> -->
      <glob pattern="*.so"/>
 +    <glob pattern="*.so.*"/>
++  </mime-type>
++  <mime-type type="text/ld-conf">
++	<_comment>plain text document</_comment>
++	<sub-class-of type="text/plain"/>
++	<glob pattern="*.so.conf"/>
++  </mime-type>
++  <mime-type type="application/ld-cache">
++    <_comment>unknown</_comment>
++	<sub-class-of type="application/octet-stream"/>
++	<glob pattern="*.so.cache"/>
    </mime-type>
    <mime-type type="application/x-shellscript">
      <_comment>shell script</_comment>
-@@ -7109,13 +7110,13 @@
+@@ -7109,13 +7120,13 @@
    <!-- 3D models and GCODEs -->
    <mime-type type="model/x.stl-binary">
      <_comment>STL 3D model (binary)</_comment>

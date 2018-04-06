@@ -13,7 +13,7 @@ DESC="mimetype information"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=shared-mime-info.desktop
-BUILD=
+BUILD=1
 CWD=$(pwd)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
 # comment these 2 below if you use a custom package() function

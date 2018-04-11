@@ -1,0 +1,52 @@
+Patch to make rox-filer display Comment[$LANG] for desktop files.
+Originally prepared by mikeb, re-written by James.
+
+mikeb/james 2015
+diff -ur rox-git/ROX-Filer/src/filer.c rox-git-new/ROX-Filer/src/filer.c
+--- rox-git/ROX-Filer/src/filer.c	2013-06-02 15:11:26.000000000 +0700
++++ rox-git-new/ROX-Filer/src/filer.c	2015-04-07 22:14:51.980520245 +0700
+@@ -64,6 +64,8 @@
+ #include "action.h"
+ #include "bookmarks.h"
+ #include "xtypes.h"
++/* added for international desktop file comments */
++#include "i18n.h"
+ 
+ static XMLwrapper *groups = NULL;
+ 
+@@ -3619,9 +3621,33 @@
+ {
+ 	GError *error = NULL;
+ 	char *comment = NULL;
++	
++	char *comment_key = NULL; 
++	char *next;
++
++	/* attempt all variations of Comment[fr_FR], Comment[fr], and Comment */
++	/* start with full pattern first; there will always be current_lang */
++	comment_key = g_strconcat("Comment[",current_lang,"]",NULL);	
++	do {
++		comment = get_value_from_desktop_file(full_path, "Desktop Entry", comment_key, &error);
++
++		/* drop the region: fr_FR becomes fr */
++		next = strchr(comment_key, '_');
++		if (next) {
++			*next = ']'; 
++			next++;
++		}
++		/* drop the lang altogether */
++		else 
++			next = strchr(comment_key, '[');
++
++		/* update comment key */
++		if (next) 
++			*next = 0;
++
++	} while (comment == NULL && next != NULL && error == NULL);
++	g_free(comment_key);	
+ 
+-	comment = get_value_from_desktop_file(full_path,
+-			"Desktop Entry", "Comment", &error);
+ 	if (error)
+ 	{
+ 		delayed_error("Failed to parse .desktop file '%s':\n%s",

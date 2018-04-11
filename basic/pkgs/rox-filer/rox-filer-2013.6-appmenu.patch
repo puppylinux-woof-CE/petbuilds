@@ -1,0 +1,84 @@
+This patch enables rox-filer to use both system XDG_CONFIG_DIRs and per-user XDG_CONFIG_HOME
+for the right-click app menu. It now uses a method similar to the full "sendto" menu.
+
+James 2014
+
+diff -ur rox-filer-2013.6/ROX-Filer/src/appmenu.c rox-filer-2013.6-new/ROX-Filer/src/appmenu.c
+--- rox-filer-2013.6/ROX-Filer/src/appmenu.c	2013-06-02 15:11:26.000000000 +0700
++++ rox-filer-2013.6-new/ROX-Filer/src/appmenu.c	2014-05-22 20:50:16.892560608 +0700
+@@ -323,41 +323,50 @@
+ 
+ static void build_menu_for_type(MIME_type *type)
+ {
+-	GPtrArray *names;
+-	char *path;
+-	int i;
++	GPtrArray *names, *paths;
++	char *searchdir;
++	int i,j;
+ 	char *leaf;
+ 	GtkWidget *item;
+ 	DirItem *ditem;
+ 
+-	leaf = g_strconcat(".", type->media_type, "_", type->subtype, NULL);
+-	path = choices_find_xdg_path_load(leaf, "SendTo", SITE);
+-
+-	if (!path)
++	if (type->subtype)
++		searchdir = g_strdup_printf("SendTo/.%s_%s", type->media_type, type->subtype);
++	else if (type->media_type)
++		searchdir = g_strdup_printf("SendTo/.%s", type->media_type);
++	else
++		searchdir = g_strdup("SendTo");
++
++	paths = choices_list_xdg_dirs(searchdir, SITE);
++	g_free(searchdir);
++	
++	if (!paths || paths->len==0)
+ 		goto out;
+ 
+-	names = list_dir(path);
+-
+-	ditem = diritem_new("");
+-
+-	for (i = 0; i < names->len; i++)
++	for (j = 0; j < paths->len; j++) 
+ 	{
+-		char	*leaf = names->pdata[i];
+-		char	*full_path;
++		names = list_dir(paths->pdata[j]);
++		ditem = diritem_new("");
+ 
+-		full_path = g_build_filename(path, leaf, NULL);
+-		diritem_restat(full_path, ditem, NULL);
+-		
+-		item = make_send_to_item(ditem, leaf, MIS_SMALL);
+-		current_items = g_list_prepend(current_items, item);
+-		gtk_widget_show(item);
+-		g_signal_connect_data(item, "activate", G_CALLBACK(send_to),
+-				full_path, (GClosureNotify) g_free, 0);
+-	}
++		for (i = 0; i < names->len; i++)
++		{
++			char	*leaf = names->pdata[i];
++			char	*full_path;
++
++			full_path = g_build_filename(paths->pdata[j], leaf, NULL);
++			diritem_restat(full_path, ditem, NULL);
++			
++			item = make_send_to_item(ditem, leaf, MIS_SMALL);
++			current_items = g_list_prepend(current_items, item);
++			gtk_widget_show(item);
++			g_signal_connect_data(item, "activate", G_CALLBACK(send_to),
++					full_path, (GClosureNotify) g_free, 0);
++		}
+ 
+-	g_ptr_array_free(names, TRUE);
++		g_ptr_array_free(names, TRUE);
++	}
+ 
+-	g_free(path);
++	g_ptr_array_free(paths, TRUE);
+ 
+ out:
+ 	item = gtk_menu_item_new_with_label(_("Customise Menu..."));

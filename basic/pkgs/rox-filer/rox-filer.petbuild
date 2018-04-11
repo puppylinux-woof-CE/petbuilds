@@ -1,0 +1,110 @@
+# rox-filer
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+# requires shared-mime-info
+
+. ../../func
+. ../../build.conf
+
+URL=http://distro.ibiblio.org/fatdog/source/700/
+PKG=rox-filer
+VER=2015.02
+COMP=tar.bz2
+DESC="Light weight gtk file manager"
+DEPS=+gtk+2
+CAT=Filesystem
+DESKTOP=ROX-Filer-file-manager.desktop
+CWD=$(pwd)
+[ -z "$MWD" ] && MWD=$(dirname $CWD)	
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
+
+ARCH=$(uname -m)
+case $ARCH in
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
+esac
+
+patch_and_move(){
+	mv rox-git $PKG
+	cd $PKG
+	for i in ../*.patch; do
+		echo "applying $i"
+		patch -p1 < $i
+		[ $? -ne 0 ] && echo "failed to apply $i" #&& exit 1
+	done
+	for i in ../*.diff; do
+		echo "applying $i"
+		patch -R -p1 < $i
+		[ $? -ne 0 ] && echo "failed to apply $i" #&& exit 1
+	done
+	cd -
+}
+
+build() {
+	cd ${PKG}
+	#./ROX-Filer/AppRun
+	#[ "$?" -eq 0 ] || exit 1
+
+	APP_DIR=$(realpath ROX-Filer)
+	if [ ! -x "$APP_DIR/src/configure" ]; then
+		echo "No 'configure' script! Trying to run autoconf..."
+		(cd "$APP_DIR/src"; autoconf)
+	fi
+	BUILDDIR="$APP_DIR/build"
+	[ ! -d "$BUILDDIR" ] && mkdir "$BUILDDIR"
+		rm -f "$BUILDDIR/config.cache"
+		rm -f "$APP_DIR/src/config.h"	# (for upgrading)
+		cd "$BUILDDIR" && "$APP_DIR/src/configure" "$@" \
+			&& $MAKE clean && $MAKE && echo Done >&2
+
+	cd ${CWD}
+	EXEC=`find ./${PKG}/ROX-Filer -type f -name 'ROX-Filer'`
+	if [ "$EXEC" ];then 
+		strip --strip-unneeded $EXEC
+		cp -arf rox-filer-template ${PKG}-${VER}-${ARCH}_${BUILD}
+		cp -af $EXEC ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		chmod 755 ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/ROX-Filer
+	else
+		exit 1
+	fi
+	
+	rm -r $PKG #clean up
+}
+	
+package() {
+	# add this recipe
+	install -d -m 0755 ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev
+	cat ${PKG}.petbuild > ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev/$PKG-build-recipe
+	if [ "$DESKTOP" ];then
+		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
+		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP
+	fi
+	# delete any icon cache or library cache
+	find ./${PKG}-${VER}-${ARCH}_${BUILD} -type f -name '*cache' -delete
+	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
+	### AT THIS POINT you could add custom puppypin or mime types/icons ###
+	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+		case $p in
+			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
+			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
+			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+		esac	
+		echo "packaging $p"	
+		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null
+		rm -r $p
+		mv ${p}.pet ${z0pets_out}
+	done
+	rm -r ${PKG}-${VER} 2>/dev/null
+	rm *.files 2>/dev/null
+	echo "done!"
+}
+
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+patch_and_move
+build
+package	

@@ -13,6 +13,7 @@ DESC="Light weight gtk file manager"
 DEPS=+gtk+2
 CAT=Filesystem
 DESKTOP=ROX-Filer-file-manager.desktop
+BUILD=1
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -74,9 +75,9 @@ build() {
 }
 	
 package() {
-	# add this recipe
-	install -d -m 0755 ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev
-	cat ${PKG}.petbuild > ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev/$PKG-build-recipe
+	## add this recipe
+	#install -d -m 0755 ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev
+	#cat ${PKG}.petbuild > ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev/$PKG-build-recipe
 	if [ "$DESKTOP" ];then
 		install -d -m 0755 ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications
 		cat $DESKTOP > ./${PKG}-${VER}-${ARCH}_${BUILD}/usr/share/applications/$DESKTOP

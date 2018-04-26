@@ -37,7 +37,12 @@ retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 
 cd $PKG-$VER
-	make
+	if [ "`which smake`" != "" ]; then
+		export MAKE=smake
+		smake
+	else
+		make
+	fi
 	SM=$(find smake -type f -name smake)
 	if [ "$SM" ] ; then
 		cp -fv $SM /usr/bin/

@@ -13,7 +13,7 @@ DESC="mimetype information"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=shared-mime-info.desktop
-BUILD=1
+BUILD=2
 CWD=$(pwd)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
 # comment these 2 below if you use a custom package() function
@@ -41,10 +41,10 @@ build() {
 	sed -i '/xml:lang/d' freedesktop.org.xml
 	install -d $CWD/${PKG}-install/usr/bin
 	install -d $CWD/${PKG}-install/usr/share/mime/packages
-	install -d $CWD/${PKG}-install/usr/share/pkgconfig
+	install -d $CWD/${PKG}-install/usr/${LIBDIR}/pkgconfig
 	install -m 755 update-mime-database $CWD/${PKG}-install/usr/bin
 	install -m 644 freedesktop.org.xml $CWD/${PKG}-install/usr/share/mime/packages
-	install -m 644 shared-mime-info.pc $CWD/${PKG}-install/usr/share/pkgconfig
+	install -m 644 shared-mime-info.pc $CWD/${PKG}-install/usr/${LIBDIR}/pkgconfig
 	cd -
 }
 

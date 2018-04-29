@@ -5,15 +5,15 @@
 . ../../func
 . ../../build.conf
 
-URL=http://distro.ibiblio.org/fatdog/source/700/
+URL=https://github.com/woodenshoe-wi/rox-filer/archive/
 PKG=rox-filer
-VER=2015.02
-COMP=tar.bz2
+VER=woodenshoe-1
+COMP=tar.gz
 DESC="Light weight gtk file manager"
 DEPS=+gtk+2
 CAT=Filesystem
 DESKTOP=ROX-Filer-file-manager.desktop
-BUILD=1
+BUILD=
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)	
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -27,23 +27,9 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
-patch_and_move(){
-	mv rox-git $PKG
-	cd $PKG
-	for i in ../*.patch; do
-		echo "applying $i"
-		patch -p1 < $i
-		[ $? -ne 0 ] && echo "failed to apply $i" #&& exit 1
-	done
-	for i in ../*.diff; do
-		echo "applying $i"
-		patch -R -p1 < $i
-		[ $? -ne 0 ] && echo "failed to apply $i" #&& exit 1
-	done
-	cd -
-}
 
 build() {
+	mv ${PKG}-${PKG}-${VER} ${PKG}
 	cd ${PKG}
 	#./ROX-Filer/AppRun
 	#[ "$?" -eq 0 ] || exit 1
@@ -65,6 +51,19 @@ build() {
 	if [ "$EXEC" ];then 
 		strip --strip-unneeded $EXEC
 		cp -arf rox-filer-template ${PKG}-${VER}-${ARCH}_${BUILD}
+
+		cp -arf ${PKG}/ROX-Filer/Help ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -arf ${PKG}/ROX-Filer/images  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -arf ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -af ${PKG}/ROX-Filer/AppInfo.xml ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -af ${PKG}/ROX-Filer/AppRun ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -af ${PKG}/ROX-Filer/.DirIcon ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -af ${PKG}/ROX-Filer/Options.xml ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -af ${PKG}/ROX-Filer/style.css ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -af ${PKG}/ROX-Filer/subclasses ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -af ${PKG}/ROX-Filer/Templates.glade ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -af ${PKG}/ROX-Filer/Templates.ui ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+
 		cp -af $EXEC ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
 		chmod 755 ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/ROX-Filer
 	else
@@ -106,6 +105,5 @@ package() {
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
-patch_and_move
 build
 package	

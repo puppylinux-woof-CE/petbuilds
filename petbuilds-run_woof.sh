@@ -1,10 +1,10 @@
 #!/bin/sh
 
-COMMON32_ISO_URL="https://github.com/woodenshoe-wi/common32/releases/download/v0.0.1-alpha/common32-0.0.1.iso"
-COMMON32_DEVX_URL="https://github.com/woodenshoe-wi/common32/releases/download/v0.0.1-alpha/devx_common32_0.0.1.sfs"
+COMMON32_ISO_URL="https://github.com/woodenshoe-wi/common32/releases/download/v0.0.2/common32-0.0.2.iso"
+COMMON32_DEVX_URL="https://github.com/woodenshoe-wi/common32/releases/download/v0.0.2/devx_common32_0.0.2.sfs"
 
-COMMON64_ISO_URL="https://github.com/woodenshoe-wi/common64/releases/download/v0.0.1/common64-0.0.1.iso"
-COMMON64_DEVX_URL="https://github.com/woodenshoe-wi/common64/releases/download/v0.0.1/devx_common64_0.0.1.sfs"
+COMMON64_ISO_URL="https://github.com/woodenshoe-wi/common64/releases/download/v0.0.2/common64-0.0.2.iso"
+COMMON64_DEVX_URL="https://github.com/woodenshoe-wi/common64/releases/download/v0.0.2/devx_common64_0.0.2.sfs"
 
 # autodetect HOSTARCH - how hard can it be?
 case `uname -m` in

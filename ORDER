@@ -12,7 +12,6 @@ acpid
 align
 alsaequal
 automake
-bbc_provided
 bcrypt
 busybox
 caps

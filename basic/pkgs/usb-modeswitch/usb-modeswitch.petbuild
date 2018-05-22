@@ -31,7 +31,7 @@ build() {
 	sed -i 's%EnableLogging=.*%EnableLogging=1%' ./usb_modeswitch.conf
 	make $MKFLG
 	[ "$?" -eq 0 ] || exit
-	make DESTDIR=$CWD/${PKG}-install install
+	make DESTDIR=$CWD/${PKG}-install install-static
 	cd -
 }
 	

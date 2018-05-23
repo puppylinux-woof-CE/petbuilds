@@ -28,11 +28,11 @@ if [ -n "$z0base_dir" -a -f ${z0base_dir}/build.conf ] ; then
 		if [ "${DISTRO_TARGETARCH}" = "arm" ]; then
 			export z0pets_out=${MWD}/puppylinux/arm/pet_packages-${DISTRO_DB_SUBNAME}
 			export z0logs=${MWD}/0logs/arm/${DISTRO_DB_SUBNAME}
-			z0pets_out_specs=${MWD}/puppylinux/arm/Packages-puppy-${DISTRO_DB_SUBNAME}-official
+			z0pets_out_specs=${MWD}/puppylinux/arm/Packages-puppy-${DISTRO_DB_SUBNAME}-${PACKAGE_LIST_LAST_NAME}
 		else
 			export z0pets_out=${MWD}/puppylinux/pet_packages-${DISTRO_DB_SUBNAME}
 			export z0logs=${MWD}/0logs/${DISTRO_DB_SUBNAME}
-			z0pets_out_specs=${MWD}/puppylinux/Packages-puppy-${DISTRO_DB_SUBNAME}-official
+			z0pets_out_specs=${MWD}/puppylinux/Packages-puppy-${DISTRO_DB_SUBNAME}-${PACKAGE_LIST_LAST_NAME}
 		fi
 	else
 		if [ "${DISTRO_DB_SUBNAME#common}" != "${DISTRO_DB_SUBNAME}" ]; then
@@ -176,7 +176,7 @@ build_all() {
 	if [ -n "$z0base_dir" -a "$zORDER" = "$zORDER_noarch" ]; then
 		if [ "${USE_PUPPYLINUX_REPO_FORMAT}" = "yes" ]; then
 			export z0pets_out=${MWD}/puppylinux/pet_packages-noarch
-			z0pets_out_specs=${MWD}/puppylinux/Packages-puppy-noarch-official
+			z0pets_out_specs=${MWD}/puppylinux/Packages-puppy-noarch-${PACKAGE_LIST_LAST_NAME}
 		else
 			export z0pets_out=${MWD}/0pets_out/noarch
 			z0pets_out_specs=${z0pets_out}/0pets_out.specs

@@ -30,4 +30,4 @@ d3501d47064c28ac962f4043e582c144  v7.0.tar.gz
 45103889b91242850aa47f09325e798b  shared-mime-info-1.9.tar.xz
 8193fc61d78cbdb948cf381d3fdf5155  smake-1.2.5.tar.gz
 daeba7bbd18ecb1c64bfa33ccd5a545f  yad-0.40.3.tar.gz
-4f4f43f1aab91e5e9047b6ef60334955  rox-filer-woodenshoe-4.tar.gz
+c7417d5fe0978b73baaffe6668a56a1f  rox-filer-woodenshoe-5.tar.gz

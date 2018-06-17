@@ -24,7 +24,6 @@ disktype
 djvulibre
 dropbear
 dunst
-elspci
 enchant
 evince
 f2fs-tools
@@ -51,7 +50,6 @@ gpicview
 gtkdialog
 gtklp
 gtksourceview
-guess_fstype
 gxmessage
 hardinfo
 hexchat
@@ -85,7 +83,6 @@ libvpx
 libxdg-basedir
 mdview
 mhwaveedit
-mingetty
 minidlna
 mkwallpaper
 mpscan

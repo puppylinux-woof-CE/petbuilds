@@ -15,7 +15,6 @@ automake
 bcrypt
 busybox
 caps
-cddetect
 curlftpfs
 ddcprobe
 dictd
@@ -110,7 +109,6 @@ rubix
 rxvt-unicode
 samba
 sane-backends
-sfontview
 speex
 squashfs
 streamripper

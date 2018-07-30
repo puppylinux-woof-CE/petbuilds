@@ -31,3 +31,4 @@ d3501d47064c28ac962f4043e582c144  v7.0.tar.gz
 8193fc61d78cbdb948cf381d3fdf5155  smake-1.2.5.tar.gz
 daeba7bbd18ecb1c64bfa33ccd5a545f  yad-0.40.3.tar.gz
 30f98a9a53f5f589a42471bbb3ee7afc  rox-filer-6woodenshoe.tar.gz
+f737c5ea7e0de92b84b4f6df9684e705  pmusic_PLUGIN_trayapp-0.5-source.tar.gz

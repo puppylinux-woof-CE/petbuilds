@@ -7,7 +7,7 @@
 
 URL=https://github.com/woodenshoe-wi/rox-filer/archive/
 PKG=rox-filer
-VER=6woodenshoe
+VER=8woodenshoe
 COMP=tar.gz
 DESC="Light weight gtk file manager"
 DEPS=+gtk+2
@@ -50,8 +50,8 @@ build() {
 	EXEC=`find ./${PKG}/ROX-Filer -type f -name 'ROX-Filer'`
 	if [ "$EXEC" ];then 
 		strip --strip-unneeded $EXEC
-		cp -arf rox-filer-template ${PKG}-${VER}-${ARCH}_${BUILD}
 
+		mkdir -p ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
 		cp -arf ${PKG}/ROX-Filer/Help ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
 		cp -arf ${PKG}/ROX-Filer/images  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
 		cp -arf ${PKG}/ROX-Filer/ROX  ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/

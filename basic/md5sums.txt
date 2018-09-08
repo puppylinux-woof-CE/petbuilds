@@ -32,3 +32,4 @@ d3501d47064c28ac962f4043e582c144  v7.0.tar.gz
 daeba7bbd18ecb1c64bfa33ccd5a545f  yad-0.40.3.tar.gz
 f737c5ea7e0de92b84b4f6df9684e705  pmusic_PLUGIN_trayapp-0.5-source.tar.gz
 95eb897946818d5dcb58f83c7656121a  rox-filer-9woodenshoe.tar.gz
+92a253df9211e9c20172796ecf388f13  syslinux-6.03.tar.xz

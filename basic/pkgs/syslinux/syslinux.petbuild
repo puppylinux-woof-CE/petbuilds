@@ -6,9 +6,9 @@
 . ../../func
 . ../../build.conf
 
-URL=https://www.kernel.org/pub/linux/utils/boot/syslinux
+URL=https://github.com/woodenshoe-wi/syslinux/releases/download/syslinux-6.04-pre1-patched/
 PKG=syslinux
-VER=6.03
+VER=6.04-pre1-patched
 COMP=tar.xz
 DESC="lighweight bootloaders"
 DEPS=
@@ -40,7 +40,7 @@ retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 
 cd ${PKG}-${VER}
-make cleam
+make clean
 make installer
 cd -
 

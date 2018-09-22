@@ -14,7 +14,7 @@ DESC="lighweight bootloaders"
 DEPS=
 CAT=BuildingBlock
 DESKTOP=syslinux.desktop
-BUILD=
+BUILD=1
 CWD=$(pwd)
 [ -z "$MWD" ] && MWD=$(dirname $CWD)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -42,40 +42,7 @@ extract ${PKG}-${VER}.${COMP}
 cd ${PKG}-${VER}
 make clean
 make installer
+INSTALLROOT=${CWD}/${PKG}-install make installer install
 cd -
-
-origin=${PKG}-${VER}
-installdir=${PKG}-install
-
-mkdir -p ${installdir}/usr/bin
-mkdir -p ${installdir}/usr/lib
-mkdir -p ${installdir}/usr/share/syslinux
-ln -s ../../usr/share/syslinux ${installdir}/usr/lib/syslinux
-
-find ${origin} -name '*.c32' | grep -v samples | \
-while read f ; do
-	install -v $f ${installdir}/usr/share/syslinux
-done
-
-find ${origin} -name '*.bin' -o -name '*.sys' -o -name '*.mbr' -o -name '*.bss' | \
-while read f ; do
-	install -v $f ${installdir}/usr/share/syslinux
-done
-
-install -v -m 0755 ${origin}/bios/extlinux/extlinux ${installdir}/usr/bin/
-install -v -m 0755 ${origin}/bios/linux/syslinux ${installdir}/usr/bin/
-install -v -m 0755 ${origin}/bios/linux/syslinux-nomtools ${installdir}/usr/bin/
-
-install -v ${origin}/utils/* ${installdir}/usr/bin/
-chmod +x ${installdir}/usr/bin/*
-rm -f ${installdir}/usr/bin/*.c
-rm -f ${installdir}/usr/bin/*.h
-rm -f ${installdir}/usr/bin/*.in
-rm -f ${installdir}/usr/bin/*.o
-rm -f ${installdir}/usr/bin/Makefile*
-
-install -v ${origin}/bios/memdisk/memdisk ${installdir}/usr/share/syslinux/
-install -v ${origin}/bios/gpxe/gpxelinux.0 ${installdir}/usr/share/syslinux/
-install -v ${origin}/bios/gpxe/gpxelinuxk.0 ${installdir}/usr/share/syslinux/
 
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

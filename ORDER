@@ -9,7 +9,6 @@ pangomm_static
 915resolution
 abiword
 acpid
-align
 alsaequal
 automake
 bcrypt
@@ -91,7 +90,6 @@ netmon_wce
 netpbm
 notecase
 npapi-sdk
-ntpdate
 numlockx
 openal-soft
 opencore-amr

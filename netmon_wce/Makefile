@@ -2,7 +2,7 @@ CC=gcc
 PREFIX=$(DESTDIR)/usr
 GTKFLAGS=gtk+-2.0
 CFLAGS=-Wall -pedantic -std=gnu99 -g -I/usr/include `pkg-config --cflags $(GTKFLAGS)`
-LDFLAGS=-Wall -s -Os `pkg-config --libs $(GTKFLAGS)` -liw
+LDFLAGS=-Wall -s -Os `pkg-config --libs $(GTKFLAGS)` -liw -lm
 SYMLINK=netmon_wpoll
 
 all : netmon_wce

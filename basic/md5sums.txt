@@ -32,7 +32,7 @@ d3501d47064c28ac962f4043e582c144  v7.0.tar.gz
 daeba7bbd18ecb1c64bfa33ccd5a545f  yad-0.40.3.tar.gz
 f737c5ea7e0de92b84b4f6df9684e705  pmusic_PLUGIN_trayapp-0.5-source.tar.gz
 b1350c270f488a19db80c0e6a0080f16  syslinux-6.04-pre1-patched.tar.xz
-cfe2a3bcd04b371d90fd49a903bca211  rox-filer-14woodenshoe.tar.gz
 eb2b39e68a04ea5b9c92bcb7d9401e80  grsync-1.2.6.tar.gz
 17c6513483d23590cbce6957ec6d1e66  cmake-2.8.12.2.tar.gz
 9745e6ee3391f44a30c6a7642de19186  apulse-0.1.12.tar.gz
+6fb57676ed8cdc1eb34cefa72de3bbc7  rox-filer-15woodenshoe.tar.gz

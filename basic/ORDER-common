@@ -4,13 +4,10 @@ lzip
 ddrescue
 dmidecode
 dosfstools
-e2fsprogs
 exfat-utils
 fuse-exfat
-f2fs-tools
 flashrom
 gtkdialog
-gtk-server
 gmrun
 gptfdisk
 grsync
@@ -22,8 +19,6 @@ ms-sys
 sdparm
 shared-mime-info
 rox-filer
-sudo
 udftools
-usb-modeswitch
 usb-modeswitch-data
 yad

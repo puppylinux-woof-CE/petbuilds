@@ -7,7 +7,7 @@
 
 URL=https://github.com/woodenshoe-wi/rox-filer/archive/
 PKG=rox-filer
-VER=15woodenshoe
+VER=16woodenshoe
 COMP=tar.gz
 DESC="Light weight gtk file manager"
 DEPS=+gtk+2
@@ -68,11 +68,18 @@ build() {
 		chmod 755 ${PKG}-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/ROX-Filer
 
 		if [ "`which python`" != "" ]; then
-			mkdir -p ${PKG}_NLS-${VER}-${ARCH}_${BUILD}/usr/share/doc/nls/ROX-Filer/
+			mkdir -p ${PKG}-translations-${VER}-noarch_${BUILD}/usr/share/doc/nls/ROX-Filer/
 			(cd "${PKG}/ROX-Filer/src/po/"; ./update-po)
-			cp -arf ${PKG}/ROX-Filer/src/po/*.po ${PKG}_NLS-${VER}-${ARCH}_${BUILD}/usr/share/doc/nls/ROX-Filer/
-			cp -af ${PKG}/ROX-Filer/src/messages.pot ${PKG}_NLS-${VER}-${ARCH}_${BUILD}/usr/share/doc/nls/ROX-Filer/ROX-Filer.pot
+			cp -arf ${PKG}/ROX-Filer/src/po/*.po ${PKG}-translations-${VER}-noarch_${BUILD}/usr/share/doc/nls/ROX-Filer/
+			cp -af ${PKG}/ROX-Filer/src/messages.pot ${PKG}-translations-${VER}-noarch_${BUILD}/usr/share/doc/nls/ROX-Filer/ROX-Filer.pot
 		fi
+		(cd "${PKG}/ROX-Filer/src/po/"
+			./make-mo de
+			./make-mo fr
+		)
+		mkdir -p ${PKG}_NLS-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+		cp -arf ${PKG}/ROX-Filer/Messages ${PKG}_NLS-${VER}-${ARCH}_${BUILD}/usr/local/apps/ROX-Filer/
+
 	else
 		exit 1
 	fi
@@ -93,11 +100,12 @@ package() {
 	[ -f ./pinstall.sh ] && install -m 0755 pinstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
 	[ -f ./puninstall.sh ] && install -m 0755 puninstall.sh ./${PKG}-${VER}-${ARCH}_${BUILD}/
 	### AT THIS POINT you could add custom puppypin or mime types/icons ###
-	for p in `ls|grep "\-${ARCH}"|grep -v "files$"` ; do
+	for p in `ls|grep -E "\-${ARCH}|\-noarch"|grep -v "files$"` ; do
 		case $p in
 			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
 			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
 			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
+			*-translations-*) DESC="$PKG pot and po files"; DEPS=+${PKG} ;;
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c=$CAT -p=${p} 2>&1 >/dev/null

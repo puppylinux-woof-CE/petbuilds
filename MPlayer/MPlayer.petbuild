@@ -6,10 +6,10 @@
 
 URL=http://www.mplayerhq.hu/MPlayer/releases
 PKG=MPlayer
-VER=1.3.0
+VER=1.4
 COMP=tar.xz
 DESC="Media player for audio and video"
-DEPS=+ffmpeg
+DEPS=
 CAT=Multimedia
 DESKTOP=MPlayer.desktop
 CWD=$(pwd)
@@ -29,7 +29,6 @@ build() {
 	cd ${PKG}-${VER}
 	./configure --prefix=/usr \
 		--enable-runtime-cpudetection \
-		--disable-libschroedinger-lavc \
 		--confdir=/etc \
 		--disable-smb \
 		--disable-mencoder

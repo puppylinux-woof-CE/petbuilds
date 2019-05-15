@@ -6,9 +6,9 @@
 . ../../func
 . ../../build.conf
 
-URL=https://github.com/woodenshoe-wi/syslinux/releases/download/syslinux-6.04-pre1-patched/
+URL=https://www.zytor.com/pub/syslinux/Testing/6.04
 PKG=syslinux
-VER=6.04-pre1-patched
+VER=6.04-pre3
 COMP=tar.xz
 DESC="lighweight bootloaders"
 DEPS=

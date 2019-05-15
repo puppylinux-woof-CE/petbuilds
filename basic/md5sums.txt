@@ -36,3 +36,4 @@ eb2b39e68a04ea5b9c92bcb7d9401e80  grsync-1.2.6.tar.gz
 17c6513483d23590cbce6957ec6d1e66  cmake-2.8.12.2.tar.gz
 9745e6ee3391f44a30c6a7642de19186  apulse-0.1.12.tar.gz
 c6404286149ae761f55232b41fd7a9c8  rox-filer-16woodenshoe.tar.gz
+bac9cc973865e9124202e871ddaba4e9  syslinux-6.04-pre3.tar.xz

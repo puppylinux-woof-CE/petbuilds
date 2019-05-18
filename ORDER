@@ -24,7 +24,6 @@ dropbear
 dunst
 enchant
 evince
-f2fs-tools
 faac
 faad2
 flsynclient
@@ -49,12 +48,10 @@ gtklp
 gtksourceview
 hardinfo
 hexchat
-hotplug2stdout
 htop
 hunspell
 inkscapelite
 isomaster
-jimtcl
 jwm
 lame
 leafpad
@@ -110,8 +107,6 @@ switch2
 sylpheed
 sysvinit
 transmission
-usb-modeswitch
-usb-modeswitch-data
 usbutils
 util-linux
 vamps
@@ -123,7 +118,6 @@ x264
 xarchive
 xarchiver
 xdelta
-Xdialog
 libxkbcommon
 xdotool
 xfdiff-cut

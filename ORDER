@@ -45,10 +45,8 @@ gparted
 gphoto2
 gphotofs
 gpicview
-gtkdialog
 gtklp
 gtksourceview
-gxmessage
 hardinfo
 hexchat
 hotplug2stdout
@@ -99,7 +97,6 @@ parcellite
 pipepanic
 pmcputemp
 retrovol
-rox-filer
 rp-pppoe
 rtmpdump
 rubix

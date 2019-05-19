@@ -38,3 +38,4 @@ eb2b39e68a04ea5b9c92bcb7d9401e80  grsync-1.2.6.tar.gz
 c6404286149ae761f55232b41fd7a9c8  rox-filer-16woodenshoe.tar.gz
 bac9cc973865e9124202e871ddaba4e9  syslinux-6.04-pre3.tar.xz
 b6b1142ae15206912e178d33277e2afe  yad-0.42.0.tar.gz
+d448bd3c8905d47674256a0d2b123185  udftools-2.1.tar.gz

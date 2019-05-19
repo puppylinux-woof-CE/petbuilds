@@ -9,9 +9,9 @@
 [ "${DISTRO_DB_SUBNAME#common}" != "${DISTRO_DB_SUBNAME}" ] && \
 	export LDFLAGS=-ltermcap
 
-URL=https://github.com/pali/udftools/releases/download/2.0
+URL=https://github.com/pali/udftools/releases/download/2.1
 PKG=udftools
-VER=2.0 #2017-12-29
+VER=2.1 #2018-12-28
 COMP=tar.gz
 DESC="tools for UDF filesystems and optical drives"
 DEPS=

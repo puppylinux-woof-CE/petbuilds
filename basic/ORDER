@@ -19,6 +19,7 @@ gcolor2
 gtkdialog
 gdmap
 getcurpos
+gexec
 gtk-server
 gmrun
 gptfdisk

@@ -1,0 +1,44 @@
+# gexec
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+# gtk2
+
+. ../../func
+. ../../build.conf
+
+URL=http://distro.ibiblio.org/puppylinux/sources/g/
+PKG=gexec
+VER=0.4-patched1
+COMP=tar.gz
+DESC="utility to launch programs"
+DEPS=+gtk+2
+CAT=
+DESKTOP=gexec.desktop
+BUILD=
+CWD=$(pwd)
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
+
+ARCH=$(uname -m)
+case $ARCH in
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
+esac
+
+build() {
+	cd ${PKG}-${VER}
+	make
+	[ "$?" -eq 0 ] || exit
+	install -d -m 0755 $CWD/${PKG}-install/usr/bin
+	install -m 0755 $PKG $CWD/${PKG}-install/usr/bin
+	strip --strip-unneeded $CWD/${PKG}-install/usr/bin/*
+	make clean
+	cd -
+}
+
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+build	
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

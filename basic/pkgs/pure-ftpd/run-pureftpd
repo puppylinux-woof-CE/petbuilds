@@ -1,0 +1,32 @@
+#!/bin/sh
+
+#Add to /etc/rc.d/rc.local for auto startup: pure-ftpd -EbBADHk 90
+if [ "$(ps | grep $(cat /var/run/pure-ftpd.pid) | grep pure-ftpd)" != "" ] ; then
+
+Xdialog --wmclass "pure-ftpd" --title "Start/Stop PureFTPD" --stdout --ok-label "Stop Server" --cancel-label "Cancel" --yesno "Pure-FTPD is running. \n Would you like to stop the server?" 0 0
+
+ if  [ "$?" = "1" ] ;then  
+ exit
+ fi
+ kill -9 $(cat /var/run/pure-ftpd.pid)
+ exit
+fi
+vMsgH=15 ; vMsg=''
+	vMsgW=40
+	cfg=`Xdialog --title "$vServerTitle Start/Stop Pure-FTPD." \
+			--backtitle "Pure-ftpd is currently not Running." \
+			--left --separator \  \
+			--ok-label "Start Pure-ftpd" \
+			--checklist " " \
+		15 85 4 \
+		'-u 1' "Prevent user root connections." off \
+		'-E' "Prevent anonymous connections." on \
+		2>&1 || echo .`
+	[ "$cfg" == "." ] && exit
+		
+pure-ftpd -bBADHk 90 $cfg
+ 
+Xdialog --wmclass "pure-ftpd" --title "Start/Stop PureFTPD" --stdout --ok-label "OK" --infobox "Pure-ftpd is started. \n If you allowed anonymous connections, web browsers will connect as user ftp. \n User ftp's home directory is at /root/ftpd. \n If you allowed root logins you should set a root password. \n To set a password for root, open a terminal and type passwd. \n To stop the server run this script again." 0 0 90000
+
+
+ 

@@ -7,7 +7,7 @@
 
 URL=https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools.git/snapshot
 PKG=f2fs-tools
-VER=1.10.0 #2018-01-30
+VER=1.12.0 #2018-11-22
 COMP=tar.gz
 DESC="tools for f2fs file system"
 DEPS=

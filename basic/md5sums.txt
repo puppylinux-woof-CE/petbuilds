@@ -65,3 +65,4 @@ a1f28d5e3fffc78bf5c70a99287ce443  fpm2-0.79.tar.bz2
 4e32df9cf0c5b48a020682f6857a3f52  getcurpos-0.1.tar.bz2
 1159779a51f06fe2014186797aeb1a1c  gexec-0.4-patched1.tar.gz
 c339b9631da00c869b4d65b94fb662c9  zarfy-0.1.0.tar.bz2
+1b4cd37a6af03afc957a8e307417e8d0  xarchiver-0.5.4.tar.bz2

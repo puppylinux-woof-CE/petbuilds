@@ -4,6 +4,7 @@ smake
 cdrtools
 lzip
 ddrescue
+disktype
 dmidecode
 dosfstools
 e2fsprogs

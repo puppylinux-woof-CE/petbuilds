@@ -49,3 +49,4 @@ f8928571b152455e828ca0bd42af8b73  exfat-utils-1.3.0.tar.gz
 7b74f2e142b13c9de6dc8d807ab912d4  libdvdcss-1.4.2.tar.bz2
 5f7cd09e193c4edb937d9ca54fbb0aed  xdotool-3.20150503.1.tar.gz
 544632cc2cf7383bc44425c25ee0650a  xdotool-3.20160805.1.tar.gz
+2f51ec3bd5eb896f58a4fd45cfe1b735  disktype-9-patched_pardus_bk.tar.gz

@@ -17,6 +17,7 @@ gtk-server
 gmrun
 gptfdisk
 grsync
+gxmessage
 hdparm
 libdvdcss
 ncdu
@@ -27,4 +28,5 @@ sudo
 udftools
 usb-modeswitch
 usb-modeswitch-data
+Xdialog
 yad

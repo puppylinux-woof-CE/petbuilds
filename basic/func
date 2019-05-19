@@ -77,9 +77,11 @@ retrieve() {
 	#--
 	ZZDL=1
 	if [ "$2" != "" ] ; then
+		[ ! -s ${z0sources}/${2} ] && rm -f ${z0sources}/${2} # empty
 		[ -f ${z0sources}/${2} ] && ZZDL=0
 		zzoutfile="${z0sources}/${2}"
 	else
+		[ ! -s ${z0sources}/${FILE} ] && rm -f ${z0sources}/${FILE} # empty
 		[ -f ${z0sources}/${FILE} ] && ZZDL=0
 		zzoutfile="${z0sources}/${FILE}"
 	fi

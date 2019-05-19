@@ -41,3 +41,4 @@ b6b1142ae15206912e178d33277e2afe  yad-0.42.0.tar.gz
 d448bd3c8905d47674256a0d2b123185  udftools-2.1.tar.gz
 fe5c128e16ec36669c00a64d7fbab9fa  Xdialog-2016.12.tar.bz2
 dbef00c5e9dd1fb3463b08044be7ae8e  gxmessage-2.20.4.tar.gz
+f7e19d3e976fecdc1ea36cd39e39900d  xclip-0.12.tar.gz

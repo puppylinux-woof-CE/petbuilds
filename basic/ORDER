@@ -1,3 +1,4 @@
+apulse
 eudev
 cabextract
 smake
@@ -7,7 +8,6 @@ ddrescue
 disktype
 dmidecode
 dosfstools
-e2fsprogs
 exfat-utils
 fuse-exfat
 f2fs-tools
@@ -17,6 +17,7 @@ fpm2
 galculator
 gcolor2
 gtkdialog
+gtkhash
 gdmap
 getcurpos
 gexec
@@ -31,13 +32,16 @@ libdvdcss
 mdview
 mpscan
 ncdu
-ntfs-3g_ntfsprogs
 ms-sys
 p7zip
+pmusic_PLUGIN_trayapp
 pure-ftpd
+rox-filer
 sdparm
+shared-mime-info
 sudo
 switch2
+syslinux
 udftools
 usb-modeswitch
 usb-modeswitch-data

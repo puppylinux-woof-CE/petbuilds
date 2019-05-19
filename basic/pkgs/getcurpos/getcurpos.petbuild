@@ -1,5 +1,6 @@
 # getcurpos
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
+# X11 Xorg xorg
 
 . ../../func
 . ../../build.conf

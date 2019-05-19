@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GtkHash
+GenericName=Checksum Calculator
+Comment=Calculate message digests or checksums
+Exec=gtkhash
+Icon=gtkhash.png
+Terminal=false
+Type=Application
+Categories=Utility

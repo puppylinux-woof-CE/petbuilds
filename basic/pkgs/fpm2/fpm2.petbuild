@@ -1,0 +1,48 @@
+# fpm2
+# Builds from https://github.com/puppylinux-woof-CE/petbuilds
+# gtk2
+
+. ../../func
+. ../../build.conf
+
+URL=https://als.regnet.cz/fpm2/download
+PKG=fpm2
+VER=0.79
+COMP=tar.bz2
+DESC="lightweigt password manager"
+DEPS=
+CAT=Personal
+DESKTOP=fpm2.desktop
+BUILD=
+CWD=$(pwd)
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not	
+
+ARCH=$(uname -m)
+case $ARCH in
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
+esac
+
+build() {
+	cd ${PKG}-${VER}
+	LIBS="-lX11 -lm" ./configure --prefix=/usr \
+				--localstatedir=/var \
+				--sysconfdir=/etc \
+				--libdir=/usr/${LIBDIR}
+	[ "$?" -eq 0 ] || exit
+	make $MKFLG
+	[ "$?" -eq 0 ] || exit
+	make DESTDIR=$CWD/${PKG}-install install
+	install -d -m 0755 $CWD/${PKG}-install/usr/share/pixmaps
+	install -m 0644 $CWD/${PKG}.png $CWD/${PKG}-install/usr/share/pixmaps/
+	cd -
+}
+	
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+build
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

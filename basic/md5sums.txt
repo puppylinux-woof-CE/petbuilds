@@ -61,3 +61,4 @@ f000e519918682ee6b65090352177d4a  pure-ftpd-1.0.47.tar.gz
 7cc0f000f39328c34f87663c3542edd6  switch2-2.1.0.tar.gz
 a76308bf3b2588a2075c44cacb80da85  xarchive-0.2.8-6-i18n.tar.gz
 88f735ccd051093ff40dab4597bc586e  vobcopy-1.2.0.tar.bz2
+a1f28d5e3fffc78bf5c70a99287ce443  fpm2-0.79.tar.bz2

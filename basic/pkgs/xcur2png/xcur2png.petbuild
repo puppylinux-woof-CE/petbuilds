@@ -1,0 +1,32 @@
+# xcur2png
+
+. ../../func
+. ../../build.conf
+
+URL=http://distro.ibiblio.org/quirky/quirky6/sources/t2/april
+PKG=xcur2png
+VER=0.7.0
+COMP=tar.bz2
+DESC="converts cursor images to PNG format"
+DEPS=
+CAT=BuildingBlock
+DESKTOP=xcur2png.desktop
+BUILD=
+CWD=$(pwd)
+[ -z "$BUILD" ] && BUILD=$DEF_BUILD
+# comment these 2 below if you use a custom package() function
+[ -f "$DESKTOP" ] || DESKTOP=not
+[ -z "$DEPS" ] && DEPS=not
+
+ARCH=$(uname -m)
+case $ARCH in # set in build.conf
+ *64) 	LIBDIR=$LIBCONF64 ;;
+ arm*)	LIBDIR=$LIBCONFarm;;
+ *) 	LIBDIR=$LIBCONF32 ;;
+esac
+
+# main
+retrieve ${PKG}-${VER}.${COMP}
+extract ${PKG}-${VER}.${COMP}
+build_configure $PKG $VER $LIBDIR
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

@@ -43,7 +43,9 @@ extract ${PKG}-${VER}.${COMP}
 #build_configure $PKG $VER $LIBDIR "$FLAGS"
 cd ${PKG}-${VER}
 sed -i 's|/usr/local|/usr|' Makefile
+
 make DESTDIR=$CWD/${PKG}-install install
+[ -f flashrom ] || exit 1
 cd -
 
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

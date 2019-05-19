@@ -32,34 +32,13 @@ build() {
 	cd ${PKG}-${VER}
 	make
 	[ ! -x mdview ] && exit
-	install -d -m 0755 ../${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin
-	install -s -m 0755 ${PKG} ../${PKG}-${VER}-${ARCH}_${BUILD}/usr/bin/
+	mkdir -p $CWD/${PKG}-install/usr/bin
+	cp mdview $CWD/${PKG}-install/usr/bin
 	cd -
 }
 	
-package() {
-	# add this recipe
-	install -d -m 0755 ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev
-	cat ${PKG}.petbuild > ./${PKG}_DEV-${VER}-${ARCH}_${BUILD}/usr/src/dev/${PKG}-build-recipe
-	for p in $(ls|grep "\-${ARCH}"|grep -v "files$") ; do
-		case $p in
-			*_DEV*) DESC="$PKG development"; DEPS=+${PKG} ;;
-			*_DOC*) DESC="$PKG documentation"; DEPS=+${PKG} ;;
-			*_NLS*) DESC="$PKG locales"; DEPS=+${PKG} ;;
-		esac	
-		echo "packaging $p"	
-		dir2pet -x -s -w="$DESC" -d="$DEPS" -c="$CAT" -p=${p} 2>&1 >/dev/null
-		rm -r $p
-		mv ${p}.pet ../0pets_out
-	done
-	#rm -r ${PKG}-install
-	rm -r ${PKG}-*
-	#mv -f *.files ../0logs
-	echo "done!"
-}
-
 # main
 retrieve ${PKG}-${PKGVER}.${COMP}
 extract ${PKG}-${PKGVER}.${COMP}
 build
-package	
+package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

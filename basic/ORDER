@@ -1,8 +1,8 @@
 apulse
-eudev
+#eudev
 cabextract
-smake
-cdrtools
+#smake
+#cdrtools
 lzip
 ddrescue
 disktype
@@ -12,7 +12,7 @@ exfat-utils
 fuse-exfat
 f2fs-tools
 f3
-flashrom
+#flashrom#usb.h#
 fpm2
 galculator
 gcolor2
@@ -21,7 +21,7 @@ gtkhash
 gdmap
 getcurpos
 gexec
-gtk-server
+#gtk-server#requires#libffi
 gmrun
 gptfdisk
 grsync
@@ -42,7 +42,7 @@ shared-mime-info
 sudo
 switch2
 syslinux
-udftools
+#udftools#UDEV#DIR
 usb-modeswitch
 usb-modeswitch-data
 vobcopy

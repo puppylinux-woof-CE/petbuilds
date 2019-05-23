@@ -74,3 +74,4 @@ f80567fdd8c4435e03b837d54f38f1bb  gtkhash-0.7.0.tar.xz
 9cc2e27e74ade740a25b1aaf0412461b  dmidecode-3.2.tar.xz
 8ac89f833c0df221723e33b447e230fe  ddrescue-1.24.tar.lz
 aa5efe0be60a9e1875a3781b81db3955  gmrun-0.9.5w.tar.xz
+185c4ceeb4dbef27f03f41e2d719f48c  gcolor2-0.4.1w.tar.xz

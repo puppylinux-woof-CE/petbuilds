@@ -4,11 +4,11 @@
 . ../../func
 . ../../build.conf
 
-URL=http://downloads.sourceforge.net/project/gcolor2/gcolor2/0.4/
+VER=0.4.1w
+URL=https://github.com/wdlkmpx/gcolor2/releases/download/$VER
 PKG=gcolor2
-VER=0.4
 SRCV=gcolor2
-COMP=tar.bz2
+COMP=tar.xz
 DESC="gtk color picker"
 DEPS=+gtk+2
 CAT=Graphic
@@ -26,19 +26,11 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
-patch_me() {
-	for i in *.patch; do 
-		echo "applying $i"
-		patch -p0 --verbose < $i
-	done
-}
-
 build() {
 	cd ${SRCV}-${VER}
 	# fix configure 
 	sed -i~ '/gentoo_ltmain_version/s/\[:space:\]/[&]/g' configure
-	./configure \
-		--prefix=/usr
+	./configure --prefix=/usr
 	[ "$?" -eq 0 ] || exit
 	make
 	[ "$?" -eq 0 ] || exit
@@ -49,6 +41,5 @@ build() {
 # main
 retrieve ${SRCV}-${VER}.${COMP}
 extract ${SRCV}-${VER}.${COMP}
-patch_me
 build
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

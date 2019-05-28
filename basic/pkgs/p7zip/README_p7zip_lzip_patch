@@ -1,0 +1,21 @@
+https://download-mirror.savannah.gnu.org/releases/lzip/
+
+This patch adds lzip decompression (extract) support to p7zip.
+
+To apply the patch, first unpack the archive containing the patch (if
+you have not done so already):
+
+  $ tar -xf p7zip_16.02_lzip-1.tar.bz2
+
+Then copy the file '7za.exe.lz' to the 'check/test' directory in the
+p7zip_16.02 source:
+
+  $ cp p7zip_16.02_lzip-1/7za.exe.lz p7zip_16.02/check/test/7za.exe.lz
+
+Then change to the directory containing the p7zip_16.02 source and apply
+the patch like this:
+
+  $ cd p7zip_16.02
+  $ patch -p1 < ../p7zip_16.02_lzip-1/p7zip_16.02_lzip-1.diff
+
+Now you can run 'make' and, optionally, 'make test'.

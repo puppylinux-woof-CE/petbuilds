@@ -12,7 +12,7 @@ COMP=tar.bz2
 DESC="file archiver with the highest compression ratio"
 DEPS=
 CAT=BuildingBlock
-DESKTOP= #p7zip_9.20.1_src_all.tar.bz2.desktop
+DESKTOP=
 BUILD=
 CWD=$(pwd)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
@@ -30,6 +30,9 @@ build() {
 	mkdir -p $CWD/${PKG}-install/usr/libexec/$PRGNAM
 	mv -f ${PKG}_${VER} ${PKG}-${VER}
 	cd ${PKG}-${VER}
+	#===
+	patch -p1 < ../p7zip_16.02_lzip-1.diff
+	#===
 	cp makefile.linux_any_cpu makefile.machine
 	# "Stolen" from gentoo
 	sed -i -e "s:OPTFLAGS=-O:OPTFLAGS=${CXXFLAGS}:" -e 's:-s ::' makefile*
@@ -53,7 +56,7 @@ EOF
 	chmod 755 $CWD/${PKG}-install/usr/libexec/*
 	cd -
 }
-	
+
 # main
 retrieve ${SRCVER}.${COMP}
 extract ${SRCVER}.${COMP}

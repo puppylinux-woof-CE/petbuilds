@@ -1,0 +1,916 @@
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/Archive/LzHandler.cpp p7zip_16.02.new/CPP/7zip/Archive/LzHandler.cpp
+--- p7zip_16.02/CPP/7zip/Archive/LzHandler.cpp	1970-01-01 01:00:00.000000000 +0100
++++ p7zip_16.02.new/CPP/7zip/Archive/LzHandler.cpp	2016-10-06 13:20:45.000000000 +0200
+@@ -0,0 +1,460 @@
++// LzHandler.cpp
++
++#include "StdAfx.h"
++
++#include "../../../C/CpuArch.h"
++
++#include "../../Common/ComTry.h"
++#include "../../Common/IntToString.h"
++
++#include "../../Windows/PropVariant.h"
++
++#include "../Common/ProgressUtils.h"
++#include "../Common/RegisterArc.h"
++#include "../Common/StreamUtils.h"
++
++#include "../Compress/LzmaDecoder.h"
++
++#include "Common/OutStreamWithCRC.h"
++
++using namespace NWindows;
++
++namespace NArchive {
++namespace NLz {
++
++static const Byte kProps[] =
++{
++  kpidSize,
++  kpidPackSize,
++};
++
++static const Byte kArcProps[] =
++{
++  kpidNumStreams
++};
++
++static const Byte k_Signature[5] = { 'L', 'Z', 'I', 'P', 1 };
++enum { k_SignatureSize = 5 };
++
++struct CHeader
++{
++  Byte data[6];		// 0-3 magic bytes, 4 version, 5 coded_dict_size
++  enum { size = 6 };
++  enum { min_dictionary_size = 1 << 12, max_dictionary_size = 1 << 29 };
++  unsigned DicSize;
++  Byte LzmaProps[5];
++
++  bool Parse();
++};
++
++struct CTrailer
++{
++  Byte data[20];	//  0-3  CRC32 of the uncompressed data
++			//  4-11 size of the uncompressed data
++			// 12-19 member size including header and trailer
++  enum { size = 20 };
++
++  unsigned data_crc() const
++    {
++    unsigned tmp = 0;
++    for( int i = 3; i >= 0; --i ) { tmp <<= 8; tmp += data[i]; }
++    return tmp;
++    }
++
++  UInt64 data_size() const
++    {
++    UInt64 tmp = 0;
++    for( int i = 11; i >= 4; --i ) { tmp <<= 8; tmp += data[i]; }
++    return tmp;
++    }
++
++  UInt64 member_size() const
++    {
++    UInt64 tmp = 0;
++    for( int i = 19; i >= 12; --i ) { tmp <<= 8; tmp += data[i]; }
++    return tmp;
++    }
++};
++
++class CDecoder
++{
++  CMyComPtr<ICompressCoder> _lzmaDecoder;
++public:
++  NCompress::NLzma::CDecoder *_lzmaDecoderSpec;
++
++  ~CDecoder();
++  HRESULT Create(ISequentialInStream *inStream);
++
++  HRESULT Code(const CHeader &header, ISequentialOutStream *outStream, ICompressProgressInfo *progress);
++
++  UInt64 GetInputProcessedSize() const { return _lzmaDecoderSpec->GetInputProcessedSize(); }
++
++  void ReleaseInStream() { if (_lzmaDecoder) _lzmaDecoderSpec->ReleaseInStream(); }
++
++  HRESULT ReadInput(Byte *data, UInt32 size, UInt32 *processedSize)
++    { return _lzmaDecoderSpec->ReadFromInputStream(data, size, processedSize); }
++};
++
++HRESULT CDecoder::Create(ISequentialInStream *inStream)
++{
++  if (!_lzmaDecoder)
++  {
++    _lzmaDecoderSpec = new NCompress::NLzma::CDecoder;
++    _lzmaDecoderSpec->FinishStream = true;
++    _lzmaDecoder = _lzmaDecoderSpec;
++  }
++
++  return _lzmaDecoderSpec->SetInStream(inStream);
++}
++
++CDecoder::~CDecoder()
++{
++  ReleaseInStream();
++}
++
++HRESULT CDecoder::Code(const CHeader &header, ISequentialOutStream *outStream,
++    ICompressProgressInfo *progress)
++{
++  {
++    CMyComPtr<ICompressSetDecoderProperties2> setDecoderProperties;
++    _lzmaDecoder.QueryInterface(IID_ICompressSetDecoderProperties2, &setDecoderProperties);
++    if (!setDecoderProperties)
++      return E_NOTIMPL;
++    RINOK(setDecoderProperties->SetDecoderProperties2(header.LzmaProps, 5));
++  }
++
++  RINOK(_lzmaDecoderSpec->CodeResume(outStream, NULL, progress));
++
++  return S_OK;
++}
++
++
++class CHandler:
++  public IInArchive,
++  public IArchiveOpenSeq,
++  public CMyUnknownImp
++{
++  CHeader _header;
++  CMyComPtr<IInStream> _stream;
++  CMyComPtr<ISequentialInStream> _seqStream;
++
++  bool _isArc;
++  bool _needSeekToStart;
++  bool _dataAfterEnd;
++  bool _needMoreInput;
++
++  bool _packSize_Defined;
++  bool _unpackSize_Defined;
++  bool _numStreams_Defined;
++
++  bool _dataError;
++
++  UInt64 _packSize;
++  UInt64 _unpackSize;
++  UInt64 _numStreams;
++
++public:
++  MY_UNKNOWN_IMP2(IInArchive, IArchiveOpenSeq)
++
++  INTERFACE_IInArchive(;)
++  STDMETHOD(OpenSeq)(ISequentialInStream *stream);
++
++  CHandler() { }
++};
++
++IMP_IInArchive_Props
++IMP_IInArchive_ArcProps
++
++STDMETHODIMP CHandler::GetArchiveProperty(PROPID propID, PROPVARIANT *value)
++{
++  NCOM::CPropVariant prop;
++  switch (propID)
++  {
++    case kpidPhySize: if (_packSize_Defined) prop = _packSize; break;
++    case kpidUnpackSize: if (_unpackSize_Defined) prop = _unpackSize; break;
++    case kpidNumStreams: if (_numStreams_Defined) prop = _numStreams; break;
++    case kpidErrorFlags:
++    {
++      UInt32 v = 0;
++      if (!_isArc) v |= kpv_ErrorFlags_IsNotArc;;
++      if (_needMoreInput) v |= kpv_ErrorFlags_UnexpectedEnd;
++      if (_dataAfterEnd) v |= kpv_ErrorFlags_DataAfterEnd;
++      if (_dataError) v |= kpv_ErrorFlags_DataError;
++      prop = v;
++    }
++  }
++  prop.Detach(value);
++  return S_OK;
++}
++
++STDMETHODIMP CHandler::GetNumberOfItems(UInt32 *numItems)
++{
++  *numItems = 1;
++  return S_OK;
++}
++
++STDMETHODIMP CHandler::GetProperty(UInt32 /* index */, PROPID propID, PROPVARIANT *value)
++{
++  NCOM::CPropVariant prop;
++  switch (propID)
++  {
++    case kpidSize: if (_unpackSize_Defined) prop = _unpackSize; break;
++    case kpidPackSize: if (_packSize_Defined) prop = _packSize; break;
++  }
++  prop.Detach(value);
++  return S_OK;
++}
++
++API_FUNC_static_IsArc IsArc_Lz(const Byte *p, size_t size)
++{
++  if (size < k_SignatureSize)
++    return k_IsArc_Res_NEED_MORE;
++  for( int i = 0; i < k_SignatureSize; ++i )
++    if( p[i] != k_Signature[i] )
++      return k_IsArc_Res_NO;
++  return k_IsArc_Res_YES;
++}
++}
++
++bool CHeader::Parse()
++{
++  if (IsArc_Lz(data, k_SignatureSize) == k_IsArc_Res_NO)
++    return false;
++  DicSize = ( 1 << ( data[5] & 0x1F ) );
++  if( DicSize > min_dictionary_size )
++    DicSize -= ( DicSize / 16 ) * ( ( data[5] >> 5 ) & 7 );
++  LzmaProps[0] = 93;			/* (45 * 2) + (9 * 0) + 3 */
++  unsigned ds = DicSize;
++  for( int i = 1; i <= 4; ++i ) { LzmaProps[i] = ds & 0xFF; ds >>= 8; }
++  return (DicSize >= min_dictionary_size && DicSize <= max_dictionary_size);
++}
++
++STDMETHODIMP CHandler::Open(IInStream *inStream, const UInt64 *, IArchiveOpenCallback *)
++{
++  Close();
++
++  RINOK(ReadStream_FALSE(inStream, _header.data, CHeader::size));
++
++  if (!_header.Parse())
++    return S_FALSE;
++
++  RINOK(inStream->Seek(0, STREAM_SEEK_END, &_packSize));
++  if (_packSize < 36)
++    return S_FALSE;
++  _isArc = true;
++  _stream = inStream;
++  _seqStream = inStream;
++  _needSeekToStart = true;
++  return S_OK;
++}
++
++STDMETHODIMP CHandler::OpenSeq(ISequentialInStream *stream)
++{
++  Close();
++  _isArc = true;
++  _seqStream = stream;
++  return S_OK;
++}
++
++STDMETHODIMP CHandler::Close()
++{
++  _isArc = false;
++  _packSize_Defined = false;
++  _unpackSize_Defined = false;
++  _numStreams_Defined = false;
++
++  _dataAfterEnd = false;
++  _needMoreInput = false;
++  _dataError = false;
++
++  _packSize = 0;
++
++  _needSeekToStart = false;
++
++  _stream.Release();
++  _seqStream.Release();
++   return S_OK;
++}
++
++class CCompressProgressInfoImp:
++  public ICompressProgressInfo,
++  public CMyUnknownImp
++{
++  CMyComPtr<IArchiveOpenCallback> Callback;
++public:
++  UInt64 Offset;
++
++  MY_UNKNOWN_IMP1(ICompressProgressInfo)
++  STDMETHOD(SetRatioInfo)(const UInt64 *inSize, const UInt64 *outSize);
++  void Init(IArchiveOpenCallback *callback) { Callback = callback; }
++};
++
++STDMETHODIMP CCompressProgressInfoImp::SetRatioInfo(const UInt64 *inSize, const UInt64 * /* outSize */)
++{
++  if (Callback)
++  {
++    UInt64 files = 0;
++    UInt64 value = Offset + *inSize;
++    return Callback->SetCompleted(&files, &value);
++  }
++  return S_OK;
++}
++
++STDMETHODIMP CHandler::Extract(const UInt32 *indices, UInt32 numItems,
++    Int32 testMode, IArchiveExtractCallback *extractCallback)
++{
++  COM_TRY_BEGIN
++  if (numItems == 0)
++    return S_OK;
++  if (numItems != (UInt32)(Int32)-1 && (numItems != 1 || indices[0] != 0))
++    return E_INVALIDARG;
++
++  if (_packSize_Defined)
++    extractCallback->SetTotal(_packSize);
++
++  CMyComPtr<ISequentialOutStream> realOutStream;
++  Int32 askMode = testMode ?
++      NExtract::NAskMode::kTest :
++      NExtract::NAskMode::kExtract;
++  RINOK(extractCallback->GetStream(0, &realOutStream, askMode));
++  if (!testMode && !realOutStream)
++    return S_OK;
++
++  extractCallback->PrepareOperation(askMode);
++
++  COutStreamWithCRC *outStreamSpec = new COutStreamWithCRC;
++  CMyComPtr<ISequentialOutStream> outStream(outStreamSpec);
++  outStreamSpec->SetStream(realOutStream);
++  outStreamSpec->Init();
++  realOutStream.Release();
++
++  CLocalProgress *lps = new CLocalProgress;
++  CMyComPtr<ICompressProgressInfo> progress = lps;
++  lps->Init(extractCallback, true);
++
++  if (_needSeekToStart)
++  {
++    if (!_stream)
++      return E_FAIL;
++    RINOK(_stream->Seek(0, STREAM_SEEK_SET, NULL));
++  }
++  else
++    _needSeekToStart = true;
++
++  CDecoder decoder;
++  HRESULT result = decoder.Create(_seqStream);
++  RINOK(result);
++
++  bool firstItem = true;
++
++  UInt64 packSize = 0;
++  UInt64 unpackSize = 0;
++  UInt64 numStreams = 0;
++
++  bool crcError = false;
++  bool dataAfterEnd = false;
++
++  for (;;)
++  {
++    lps->InSize = packSize;
++    lps->OutSize = unpackSize;
++    RINOK(lps->SetCur());
++
++    CHeader st;
++    UInt32 processed;
++    RINOK(decoder.ReadInput(st.data, CHeader::size, &processed));
++    if (processed != CHeader::size)
++    {
++      if (processed != 0)
++        dataAfterEnd = true;
++      break;
++    }
++
++    if (!st.Parse())
++    {
++      dataAfterEnd = true;
++      break;
++    }
++    numStreams++;
++    firstItem = false;
++    outStreamSpec->InitCRC();
++
++    result = decoder.Code(st, outStream, progress);
++
++    UInt64 member_size = decoder.GetInputProcessedSize() - packSize;
++    packSize += member_size;
++    UInt64 data_size = outStreamSpec->GetSize() - unpackSize;
++    unpackSize += data_size;
++
++    if (result == S_OK)
++    {
++      CTrailer trailer;
++      RINOK(decoder.ReadInput(trailer.data, CTrailer::size, &processed));
++      packSize += processed; member_size += processed;
++      if (processed != CTrailer::size ||
++          trailer.data_crc() != outStreamSpec->GetCRC() ||
++          trailer.data_size() != data_size ||
++          trailer.member_size() != member_size)
++      {
++        crcError = true;
++        result = S_FALSE;
++        break;
++      }
++    }
++    if (result == S_FALSE)
++      break;
++    RINOK(result);
++  }
++
++  if (firstItem)
++  {
++    _isArc = false;
++    result = S_FALSE;
++  }
++  else if (result == S_OK || result == S_FALSE)
++  {
++    if (dataAfterEnd)
++      _dataAfterEnd = true;
++    else if (decoder._lzmaDecoderSpec->NeedMoreInput)
++      _needMoreInput = true;
++
++    _packSize = packSize;
++    _unpackSize = unpackSize;
++    _numStreams = numStreams;
++
++    _packSize_Defined = true;
++    _unpackSize_Defined = true;
++    _numStreams_Defined = true;
++  }
++
++  Int32 opResult = NExtract::NOperationResult::kOK;
++
++  if (!_isArc)
++    opResult = NExtract::NOperationResult::kIsNotArc;
++  else if (_needMoreInput)
++    opResult = NExtract::NOperationResult::kUnexpectedEnd;
++  else if (crcError)
++    opResult = NExtract::NOperationResult::kCRCError;
++  else if (_dataAfterEnd)
++    opResult = NExtract::NOperationResult::kDataAfterEnd;
++  else if (result == S_FALSE)
++    opResult = NExtract::NOperationResult::kDataError;
++  else if (result == S_OK)
++    opResult = NExtract::NOperationResult::kOK;
++  else
++    return result;
++
++  outStream.Release();
++  return extractCallback->SetOperationResult(opResult);
++
++  COM_TRY_END
++}
++
++REGISTER_ARC_I(
++  "lzip", "lz tlz", "* .tar", 0xC6,
++  k_Signature,
++  0,
++  NArcInfoFlags::kKeepName,
++  IsArc_Lz)
++
++}}
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/Bundles/Alone/makefile.list p7zip_16.02.new/CPP/7zip/Bundles/Alone/makefile.list
+--- p7zip_16.02/CPP/7zip/Bundles/Alone/makefile.list	2016-03-10 08:27:16.000000000 +0100
++++ p7zip_16.02.new/CPP/7zip/Bundles/Alone/makefile.list	2016-10-04 23:58:30.000000000 +0200
+@@ -48,6 +48,7 @@
+   ../../../../CPP/7zip/Archive/Common/ParseProperties.cpp \
+   ../../../../CPP/7zip/Archive/DeflateProps.cpp \
+   ../../../../CPP/7zip/Archive/GzHandler.cpp \
++  ../../../../CPP/7zip/Archive/LzHandler.cpp \
+   ../../../../CPP/7zip/Archive/LzmaHandler.cpp \
+   ../../../../CPP/7zip/Archive/PpmdHandler.cpp \
+   ../../../../CPP/7zip/Archive/SplitHandler.cpp \
+@@ -376,6 +377,8 @@
+ 	$(CXX) $(CXXFLAGS) ../../../../CPP/7zip/Archive/DeflateProps.cpp
+ GzHandler.o : ../../../../CPP/7zip/Archive/GzHandler.cpp
+ 	$(CXX) $(CXXFLAGS) ../../../../CPP/7zip/Archive/GzHandler.cpp
++LzHandler.o : ../../../../CPP/7zip/Archive/LzHandler.cpp
++	$(CXX) $(CXXFLAGS) ../../../../CPP/7zip/Archive/LzHandler.cpp
+ LzmaHandler.o : ../../../../CPP/7zip/Archive/LzmaHandler.cpp
+ 	$(CXX) $(CXXFLAGS) ../../../../CPP/7zip/Archive/LzmaHandler.cpp
+ PpmdHandler.o : ../../../../CPP/7zip/Archive/PpmdHandler.cpp
+@@ -744,6 +747,7 @@
+  ParseProperties.o \
+  DeflateProps.o \
+  GzHandler.o \
++ LzHandler.o \
+  LzmaHandler.o \
+  PpmdHandler.o \
+  SplitHandler.o \
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/Bundles/AloneGCOV/makefile p7zip_16.02.new/CPP/7zip/Bundles/AloneGCOV/makefile
+--- p7zip_16.02/CPP/7zip/Bundles/AloneGCOV/makefile	2015-11-06 17:12:04.000000000 +0100
++++ p7zip_16.02.new/CPP/7zip/Bundles/AloneGCOV/makefile	2016-10-06 16:24:49.000000000 +0200
+@@ -79,6 +79,7 @@
+   ../../../../CPP/7zip/Archive/Common/ParseProperties.cpp \
+   ../../../../CPP/7zip/Archive/DeflateProps.cpp \
+   ../../../../CPP/7zip/Archive/GzHandler.cpp \
++  ../../../../CPP/7zip/Archive/LzHandler.cpp \
+   ../../../../CPP/7zip/Archive/LzmaHandler.cpp \
+   ../../../../CPP/7zip/Archive/PpmdHandler.cpp \
+   ../../../../CPP/7zip/Archive/SplitHandler.cpp \
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/Bundles/Format7zFree/makefile.list p7zip_16.02.new/CPP/7zip/Bundles/Format7zFree/makefile.list
+--- p7zip_16.02/CPP/7zip/Bundles/Format7zFree/makefile.list	2016-03-10 08:27:16.000000000 +0100
++++ p7zip_16.02.new/CPP/7zip/Bundles/Format7zFree/makefile.list	2016-10-06 16:43:23.000000000 +0200
+@@ -73,6 +73,7 @@
+   ../../../../CPP/7zip/Archive/Iso/IsoHeader.cpp \
+   ../../../../CPP/7zip/Archive/Iso/IsoIn.cpp \
+   ../../../../CPP/7zip/Archive/Iso/IsoRegister.cpp \
++  ../../../../CPP/7zip/Archive/LzHandler.cpp \
+   ../../../../CPP/7zip/Archive/LzhHandler.cpp \
+   ../../../../CPP/7zip/Archive/LzmaHandler.cpp \
+   ../../../../CPP/7zip/Archive/MachoHandler.cpp \
+@@ -457,6 +458,8 @@
+ 	$(CXX) $(CXXFLAGS) ../../../../CPP/7zip/Archive/Iso/IsoIn.cpp
+ IsoRegister.o : ../../../../CPP/7zip/Archive/Iso/IsoRegister.cpp
+ 	$(CXX) $(CXXFLAGS) ../../../../CPP/7zip/Archive/Iso/IsoRegister.cpp
++LzHandler.o : ../../../../CPP/7zip/Archive/LzHandler.cpp
++	$(CXX) $(CXXFLAGS) ../../../../CPP/7zip/Archive/LzHandler.cpp
+ LzhHandler.o : ../../../../CPP/7zip/Archive/LzhHandler.cpp
+ 	$(CXX) $(CXXFLAGS) ../../../../CPP/7zip/Archive/LzhHandler.cpp
+ LzmaHandler.o : ../../../../CPP/7zip/Archive/LzmaHandler.cpp
+@@ -855,6 +858,7 @@
+  IsoHeader.o \
+  IsoIn.o \
+  IsoRegister.o \
++ LzHandler.o \
+  LzhHandler.o \
+  LzmaHandler.o \
+  MachoHandler.o \
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/CMAKE/Format7zFree/CMakeLists.txt p7zip_16.02.new/CPP/7zip/CMAKE/Format7zFree/CMakeLists.txt
+--- p7zip_16.02/CPP/7zip/CMAKE/Format7zFree/CMakeLists.txt	2016-03-10 08:27:16.000000000 +0100
++++ p7zip_16.02.new/CPP/7zip/CMAKE/Format7zFree/CMakeLists.txt	2016-10-06 16:43:23.000000000 +0200
+@@ -112,6 +112,7 @@
+   "../../../../CPP/7zip/Archive/Iso/IsoHeader.cpp"
+   "../../../../CPP/7zip/Archive/Iso/IsoIn.cpp"
+   "../../../../CPP/7zip/Archive/Iso/IsoRegister.cpp"
++  "../../../../CPP/7zip/Archive/LzHandler.cpp"
+   "../../../../CPP/7zip/Archive/LzhHandler.cpp"
+   "../../../../CPP/7zip/Archive/LzmaHandler.cpp"
+   "../../../../CPP/7zip/Archive/MachoHandler.cpp"
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/Guid.txt p7zip_16.02.new/CPP/7zip/Guid.txt
+--- p7zip_16.02/CPP/7zip/Guid.txt	2015-10-03 10:49:16.000000000 +0200
++++ p7zip_16.02.new/CPP/7zip/Guid.txt	2016-10-04 23:58:30.000000000 +0200
+@@ -163,6 +163,7 @@
+   0C xz
+   0D ppmd
+ 
++  C6 Lzip
+   C7 Ext
+   C8 VMDK
+   C9 VDI
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/PREMAKE/premake4.lua p7zip_16.02.new/CPP/7zip/PREMAKE/premake4.lua
+--- p7zip_16.02/CPP/7zip/PREMAKE/premake4.lua	2016-03-10 08:27:16.000000000 +0100
++++ p7zip_16.02.new/CPP/7zip/PREMAKE/premake4.lua	2016-10-06 16:24:49.000000000 +0200
+@@ -97,6 +97,7 @@
+       "../../../../CPP/7zip/Archive/Common/ParseProperties.cpp",
+       "../../../../CPP/7zip/Archive/DeflateProps.cpp",
+       "../../../../CPP/7zip/Archive/GzHandler.cpp",
++      "../../../../CPP/7zip/Archive/LzHandler.cpp",
+       "../../../../CPP/7zip/Archive/LzmaHandler.cpp",
+       "../../../../CPP/7zip/Archive/PpmdHandler.cpp",
+       "../../../../CPP/7zip/Archive/SplitHandler.cpp",
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/QMAKE/Format7zFree/Format7zFree.pro p7zip_16.02.new/CPP/7zip/QMAKE/Format7zFree/Format7zFree.pro
+--- p7zip_16.02/CPP/7zip/QMAKE/Format7zFree/Format7zFree.pro	2016-03-10 08:27:16.000000000 +0100
++++ p7zip_16.02.new/CPP/7zip/QMAKE/Format7zFree/Format7zFree.pro	2016-10-06 16:43:23.000000000 +0200
+@@ -123,6 +123,7 @@
+   ../../../../CPP/7zip/Archive/Iso/IsoHeader.cpp \
+   ../../../../CPP/7zip/Archive/Iso/IsoIn.cpp \
+   ../../../../CPP/7zip/Archive/Iso/IsoRegister.cpp \
++  ../../../../CPP/7zip/Archive/LzHandler.cpp \
+   ../../../../CPP/7zip/Archive/LzhHandler.cpp \
+   ../../../../CPP/7zip/Archive/LzmaHandler.cpp \
+   ../../../../CPP/7zip/Archive/MachoHandler.cpp \
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/UI/Common/OpenArchive.cpp p7zip_16.02.new/CPP/7zip/UI/Common/OpenArchive.cpp
+--- p7zip_16.02/CPP/7zip/UI/Common/OpenArchive.cpp	2016-06-11 10:53:41.000000000 +0200
++++ p7zip_16.02.new/CPP/7zip/UI/Common/OpenArchive.cpp	2016-10-06 13:04:10.000000000 +0200
+@@ -1066,6 +1066,7 @@
+   , "rar"
+   , "bzip2"
+   , "gzip"
++  , "lzip"
+   , "cab"
+   , "wim"
+   , "rpm"
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/7zip/UI/GUI/CompressDialog.h p7zip_16.02.new/CPP/7zip/UI/GUI/CompressDialog.h
+--- p7zip_16.02/CPP/7zip/UI/GUI/CompressDialog.h	2015-06-19 20:38:38.000000000 +0200
++++ p7zip_16.02.new/CPP/7zip/UI/GUI/CompressDialog.h	2016-10-06 13:04:10.000000000 +0200
+@@ -183,7 +183,7 @@
+   CUIntVector ArcIndices; // can not be empty, must contain Info.FormatIndex, if Info.FormatIndex >= 0
+ 
+   NCompressDialog::CInfo Info;
+-  UString OriginalFileName; // for bzip2, gzip2
++  UString OriginalFileName; // for bzip2, gzip, lzip
+   bool CurrentDirWasChanged;
+ 
+   INT_PTR Create(HWND wndParent = 0)
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/CPP/ANDROID/Format7zFree/jni/Android.mk p7zip_16.02.new/CPP/ANDROID/Format7zFree/jni/Android.mk
+--- p7zip_16.02/CPP/ANDROID/Format7zFree/jni/Android.mk	2016-03-10 08:27:16.000000000 +0100
++++ p7zip_16.02.new/CPP/ANDROID/Format7zFree/jni/Android.mk	2016-10-06 16:24:49.000000000 +0200
+@@ -77,6 +77,7 @@
+   ../../../../CPP/7zip/Archive/Iso/IsoHeader.cpp \
+   ../../../../CPP/7zip/Archive/Iso/IsoIn.cpp \
+   ../../../../CPP/7zip/Archive/Iso/IsoRegister.cpp \
++  ../../../../CPP/7zip/Archive/LzHandler.cpp \
+   ../../../../CPP/7zip/Archive/LzhHandler.cpp \
+   ../../../../CPP/7zip/Archive/LzmaHandler.cpp \
+   ../../../../CPP/7zip/Archive/MachoHandler.cpp \
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/DOC/MANUAL/cmdline/index.htm p7zip_16.02.new/DOC/MANUAL/cmdline/index.htm
+--- p7zip_16.02/DOC/MANUAL/cmdline/index.htm	2016-05-10 11:50:08.000000000 +0200
++++ p7zip_16.02.new/DOC/MANUAL/cmdline/index.htm	2016-10-06 13:20:45.000000000 +0200
+@@ -15,7 +15,7 @@
+ from the 7-Zip package. 7z.dll is used by the 7-Zip File Manager also.</LI>
+ 
+ <P>7za.exe (a = alone) is a standalone version of 7-Zip.
+-7za.exe supports only 7z, lzma, cab, zip, gzip, bzip2, Z and tar formats.
++7za.exe supports only 7z, lzma, cab, zip, gzip, bzip2, lzip, Z and tar formats.
+ 7za.exe doesn't use external modules.</LI>
+ 
+ <UL>
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/DOC/MANUAL/cmdline/switches/stdin.htm p7zip_16.02.new/DOC/MANUAL/cmdline/switches/stdin.htm
+--- p7zip_16.02/DOC/MANUAL/cmdline/switches/stdin.htm	2016-05-10 11:50:08.000000000 +0200
++++ p7zip_16.02.new/DOC/MANUAL/cmdline/switches/stdin.htm	2016-10-06 15:22:05.000000000 +0200
+@@ -24,7 +24,7 @@
+     If file_name is not specified, data will be stored without a name.</DD>
+ </DL>
+ 
+-<P>Note: The current version of 7-Zip support reading of archives from stdin only for xz, lzma, tar, gzip and bzip2 archives.</P>
++<P>Note: The current version of 7-Zip supports reading of archives from stdin only for xz, lzma, tar, gzip, bzip2 and lzip archives.</P>
+ 
+ <H4>Examples</H4>
+ 
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/DOC/MANUAL/cmdline/switches/stx.htm p7zip_16.02.new/DOC/MANUAL/cmdline/switches/stx.htm
+--- p7zip_16.02/DOC/MANUAL/cmdline/switches/stx.htm	2016-05-10 11:50:08.000000000 +0200
++++ p7zip_16.02.new/DOC/MANUAL/cmdline/switches/stx.htm	2016-10-06 13:52:43.000000000 +0200
+@@ -22,7 +22,7 @@
+ 
+ <DL>
+   <DT>{archive_type}</DT>
+-    <DD> Specifies the type of archive. It can be: 7z, xz, split, zip, gzip, bzip2, tar, ....
++    <DD> Specifies the type of archive. It can be: 7z, xz, split, zip, gzip, bzip2, lzip, tar, ....
+     </DD>
+ </DL>
+ 
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/DOC/MANUAL/cmdline/switches/type.htm p7zip_16.02.new/DOC/MANUAL/cmdline/switches/type.htm
+--- p7zip_16.02/DOC/MANUAL/cmdline/switches/type.htm	2016-05-19 15:53:29.000000000 +0200
++++ p7zip_16.02.new/DOC/MANUAL/cmdline/switches/type.htm	2016-10-06 13:52:43.000000000 +0200
+@@ -20,7 +20,7 @@
+ 
+ <DL>
+   <DT>{archive_type}</DT>
+-    <DD> Specifies the type of archive. It can be: *, #, 7z, xz, split, zip, gzip, bzip2, tar, ....
++    <DD> Specifies the type of archive. It can be: *, #, 7z, xz, split, zip, gzip, bzip2, lzip, tar, ....
+     </DD>
+ 
+   <DT>*:r</DT>
+@@ -65,7 +65,7 @@
+ levels in one step. If you want to open/extract just top 
+ level archive, use <SPAN class="filename">-t*</SPAN> switch.</P>
+ 
+-<P>Note: xz, gzip and bzip2 formats support only one file per archive.
++<P>Note: xz, gzip, bzip2 and lzip formats support only one file per archive.
+ If you want to compress more than one file to these formats,
+ create a tar archive at first, and then compress it with your selected format.</P>
+ 
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/DOC/MANUAL/general/formats.htm p7zip_16.02.new/DOC/MANUAL/general/formats.htm
+--- p7zip_16.02/DOC/MANUAL/general/formats.htm	2016-05-10 11:50:08.000000000 +0200
++++ p7zip_16.02.new/DOC/MANUAL/general/formats.htm	2016-10-06 15:12:41.000000000 +0200
+@@ -40,13 +40,13 @@
+   <TR> <TD align="center">iHEX</TD> <TD></TD> <TD>ihex</TD> </TR>
+   <TR> <TD align="center">ISO</TD> <TD></TD> <TD>iso img</TD> </TR>
+   <TR> <TD align="center"><A href="#lzh">LZH</A></TD> <TD></TD> <TD>lzh lha</TD></TR>
++  <TR> <TD align="center">LZIP</TD> <TD></TD> <TD>lz tlz</TD> </TR>
+   <TR> <TD align="center">LZMA</TD> <TD></TD> <TD>lzma</TD> </TR>
+   <TR> <TD align="center">MBR</TD> <TD></TD> <TD>mbr</TD> </TR>
+   <TR> <TD align="center">MsLZ</TD> <TD></TD> <TD>mslz</TD> </TR>
+   <TR> <TD align="center">Mub</TD> <TD></TD> <TD>mub</TD> </TR>
+   <TR> <TD align="center">NSIS</TD> <TD></TD> <TD>nsis</TD> </TR>
+   <TR> <TD align="center">NTFS</TD> <TD></TD> <TD>ntfs img</TD> </TR>
+-  <TR> <TD align="center">MBR</TD> <TD></TD> <TD>mbr</TD> </TR>
+   <TR> <TD align="center">RAR</TD> <TD></TD> <TD>rar r00</TD> </TR>
+   <TR> <TD align="center">RPM</TD>  <TD></TD> <TD>rpm</TD></TR>
+   <TR> <TD align="center">PPMD</TD> <TD></TD> <TD>ppmd</TD> </TR>
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/DOC/readme.txt p7zip_16.02.new/DOC/readme.txt
+--- p7zip_16.02/DOC/readme.txt	2016-06-11 10:08:07.000000000 +0200
++++ p7zip_16.02.new/DOC/readme.txt	2016-10-06 14:04:20.000000000 +0200
+@@ -123,7 +123,7 @@
+ 
+   Bundle          Modules that are bundles of other modules (files)
+ 
+-    Alone         7za.exe: Standalone version of 7-Zip console that supports only 7z/xz/cab/zip/gzip/bzip2/tar.
++    Alone         7za.exe: Standalone version of 7-Zip console that supports only 7z/xz/cab/zip/gzip/bzip2/lzip/tar
+     Alone7z       7zr.exe: Standalone version of 7-Zip console that supports only 7z (reduced version)
+     Fm            Standalone version of 7-Zip File Manager
+     Format7z            7za.dll:  .7z support
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/Contents/Info.plist p7zip_16.02.new/GUI/Contents/Info.plist
+--- p7zip_16.02/GUI/Contents/Info.plist	2010-04-04 21:00:16.000000000 +0200
++++ p7zip_16.02.new/GUI/Contents/Info.plist	2016-10-06 16:03:43.000000000 +0200
+@@ -142,6 +142,44 @@
+ 		<dict>
+ 			<key>CFBundleTypeExtensions</key>
+ 			<array>
++				<string>lz</string>
++				<string>LZ</string>
++				<string>lzip</string>
++				<string>LZIP</string>
++			</array>
++			<key>CFBundleTypeIconFile</key>
++			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-lz.icns</string>
++			<key>CFBundleTypeName</key>
++			<string>LZip</string>
++			<key>CFBundleTypeRole</key>
++			<string>Viewer</string>
++			<key>LSTypeIsPackage</key>
++			<false/>
++			<key>NSPersistentStoreTypeKey</key>
++			<string>XML</string>
++		</dict>
++		<dict>
++			<key>CFBundleTypeExtensions</key>
++			<array>
++				<string>tlz</string>
++				<string>TLZ</string>
++				<string>tlzip</string>
++				<string>TLZIP</string>
++			</array>
++			<key>CFBundleTypeIconFile</key>
++			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-tlz.icns</string>
++			<key>CFBundleTypeName</key>
++			<string>TLZip</string>
++			<key>CFBundleTypeRole</key>
++			<string>Viewer</string>
++			<key>LSTypeIsPackage</key>
++			<false/>
++			<key>NSPersistentStoreTypeKey</key>
++			<string>XML</string>
++		</dict>
++		<dict>
++			<key>CFBundleTypeExtensions</key>
++			<array>
+ 				<string>tar</string>
+ 				<string>TAR</string>
+ 			</array>
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/kde3/p7zip_extract.desktop p7zip_16.02.new/GUI/kde3/p7zip_extract.desktop
+--- p7zip_16.02/GUI/kde3/p7zip_extract.desktop	2011-02-24 21:13:08.000000000 +0100
++++ p7zip_16.02.new/GUI/kde3/p7zip_extract.desktop	2016-10-06 16:03:43.000000000 +0200
+@@ -1,7 +1,7 @@
+ [Desktop Entry]
+ X-SuSE-translate=true
+ Encoding=UTF-8
+-ServiceTypes=application/x-gzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
++ServiceTypes=application/x-gzip,application/x-lzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tlz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
+ Actions=extractHere
+ 
+ [Desktop Action extractHere]
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/kde3/p7zip_extract_subdir.desktop p7zip_16.02.new/GUI/kde3/p7zip_extract_subdir.desktop
+--- p7zip_16.02/GUI/kde3/p7zip_extract_subdir.desktop	2011-02-24 21:13:08.000000000 +0100
++++ p7zip_16.02.new/GUI/kde3/p7zip_extract_subdir.desktop	2016-10-06 16:03:43.000000000 +0200
+@@ -1,7 +1,7 @@
+ [Desktop Entry]
+ X-SuSE-translate=true
+ Encoding=UTF-8
+-ServiceTypes=application/x-gzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
++ServiceTypes=application/x-gzip,application/x-lzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tlz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
+ Actions=ExtractSubdir
+ 
+ [Desktop Action ExtractSubdir]
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/kde3/p7zip_extract_to.desktop p7zip_16.02.new/GUI/kde3/p7zip_extract_to.desktop
+--- p7zip_16.02/GUI/kde3/p7zip_extract_to.desktop	2011-02-24 21:13:08.000000000 +0100
++++ p7zip_16.02.new/GUI/kde3/p7zip_extract_to.desktop	2016-10-06 16:03:43.000000000 +0200
+@@ -1,7 +1,7 @@
+ [Desktop Entry]
+ X-SuSE-translate=true
+ Encoding=UTF-8
+-ServiceTypes=application/x-gzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
++ServiceTypes=application/x-gzip,application/x-lzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tlz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
+ Actions=ExtractTo
+ 
+ [Desktop Action ExtractTo]
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/kde3/p7zip_test.desktop p7zip_16.02.new/GUI/kde3/p7zip_test.desktop
+--- p7zip_16.02/GUI/kde3/p7zip_test.desktop	2011-02-24 21:13:08.000000000 +0100
++++ p7zip_16.02.new/GUI/kde3/p7zip_test.desktop	2016-10-06 16:03:43.000000000 +0200
+@@ -1,7 +1,7 @@
+ [Desktop Entry]
+ X-SuSE-translate=true
+ Encoding=UTF-8
+-ServiceTypes=application/x-gzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
++ServiceTypes=application/x-gzip,application/x-lzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tlz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
+ Actions=test
+ 
+ [Desktop Action test]
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/kde4/p7zip_extract.desktop p7zip_16.02.new/GUI/kde4/p7zip_extract.desktop
+--- p7zip_16.02/GUI/kde4/p7zip_extract.desktop	2011-02-24 21:52:16.000000000 +0100
++++ p7zip_16.02.new/GUI/kde4/p7zip_extract.desktop	2016-10-06 16:03:43.000000000 +0200
+@@ -1,5 +1,5 @@
+ [Desktop Entry]
+-ServiceTypes=application/x-gzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
++ServiceTypes=application/x-gzip,application/x-lzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tlz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
+ Actions=extractHere;
+ Type=Service
+ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/kde4/p7zip_extract_subdir.desktop p7zip_16.02.new/GUI/kde4/p7zip_extract_subdir.desktop
+--- p7zip_16.02/GUI/kde4/p7zip_extract_subdir.desktop	2011-02-24 21:52:20.000000000 +0100
++++ p7zip_16.02.new/GUI/kde4/p7zip_extract_subdir.desktop	2016-10-06 16:03:43.000000000 +0200
+@@ -1,5 +1,5 @@
+ [Desktop Entry]
+-ServiceTypes=application/x-gzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
++ServiceTypes=application/x-gzip,application/x-lzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tlz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
+ Actions=ExtractSubdir;
+ Type=Service
+ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/kde4/p7zip_extract_to.desktop p7zip_16.02.new/GUI/kde4/p7zip_extract_to.desktop
+--- p7zip_16.02/GUI/kde4/p7zip_extract_to.desktop	2011-02-24 21:52:28.000000000 +0100
++++ p7zip_16.02.new/GUI/kde4/p7zip_extract_to.desktop	2016-10-06 16:03:43.000000000 +0200
+@@ -1,5 +1,5 @@
+ [Desktop Entry]
+-ServiceTypes=application/x-gzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
++ServiceTypes=application/x-gzip,application/x-lzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tlz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
+ Actions=ExtractTo;
+ Type=Service
+ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/GUI/kde4/p7zip_test.desktop p7zip_16.02.new/GUI/kde4/p7zip_test.desktop
+--- p7zip_16.02/GUI/kde4/p7zip_test.desktop	2011-02-24 21:52:42.000000000 +0100
++++ p7zip_16.02.new/GUI/kde4/p7zip_test.desktop	2016-10-06 16:03:43.000000000 +0200
+@@ -1,5 +1,5 @@
+ [Desktop Entry]
+-ServiceTypes=application/x-gzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
++ServiceTypes=application/x-gzip,application/x-lzip,application/x-lha,application/x-tar,application/x-tgz,application/x-tlz,application/x-tbz,application/x-tbz2,application/x-zip,application/x-bzip,application/x-tzo,application/x-lzop,application/x-rar,application/x-rar-compressed,application/x-zoo,application/x-tarz,application/x-archive,application/x-bzip2,application/x-jar,application/x-deb,application/x-ace,application/x-7z,application/x-arc,application/x-arj,application/x-compress,application/x-cpio,application/x-pak
+ Actions=test;
+ Type=Service
+ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/Utils/file_7z_so.py p7zip_16.02.new/Utils/file_7z_so.py
+--- p7zip_16.02/Utils/file_7z_so.py	2015-11-06 17:10:10.000000000 +0100
++++ p7zip_16.02.new/Utils/file_7z_so.py	2016-10-06 16:24:49.000000000 +0200
+@@ -97,6 +97,7 @@
+  'CPP/7zip/Archive/Iso/IsoHeader.cpp',
+  'CPP/7zip/Archive/Iso/IsoIn.cpp',
+  'CPP/7zip/Archive/Iso/IsoRegister.cpp',
++ 'CPP/7zip/Archive/LzHandler.cpp',
+  'CPP/7zip/Archive/LzhHandler.cpp',
+  'CPP/7zip/Archive/LzmaHandler.cpp',
+  'CPP/7zip/Archive/MachoHandler.cpp',
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/Utils/file_7za.py p7zip_16.02.new/Utils/file_7za.py
+--- p7zip_16.02/Utils/file_7za.py	2015-11-06 17:10:32.000000000 +0100
++++ p7zip_16.02.new/Utils/file_7za.py	2016-10-04 23:58:30.000000000 +0200
+@@ -71,6 +71,7 @@
+  'CPP/7zip/Archive/Common/ParseProperties.cpp',
+  'CPP/7zip/Archive/DeflateProps.cpp',
+  'CPP/7zip/Archive/GzHandler.cpp',
++ 'CPP/7zip/Archive/LzHandler.cpp',
+  'CPP/7zip/Archive/LzmaHandler.cpp',
+  'CPP/7zip/Archive/PpmdHandler.cpp',
+  'CPP/7zip/Archive/SplitHandler.cpp',
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/check/check.sh p7zip_16.02.new/check/check.sh
+--- p7zip_16.02/check/check.sh	2015-10-20 20:47:50.000000000 +0200
++++ p7zip_16.02.new/check/check.sh	2016-10-06 17:13:56.000000000 +0200
+@@ -122,6 +122,16 @@
+ sure diff -r 7za433_ref 7za433_7zip_bzip2
+ 
+ echo ""
++echo "# EXTRACTING (LZIP) ..."
++echo "#######################"
++
++rm -f 7za.exe
++
++sure ${P7ZIP} x ../test/7za.exe.lz
++sure diff 7za.exe 7za433_ref/bin/7za.exe
++sure rm -f 7za.exe
++
++echo ""
+ echo "# EXTRACTING (LZMA) ..."
+ echo "#######################"
+ 
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/man1/7z.1 p7zip_16.02.new/man1/7z.1
+--- p7zip_16.02/man1/7z.1	2007-09-21 20:53:12.000000000 +0200
++++ p7zip_16.02.new/man1/7z.1	2016-10-06 16:03:43.000000000 +0200
+@@ -82,7 +82,7 @@
+ Sets technical mode for l (list) command
+ .TP
+ .B \-t{Type}
+-Type of archive (7z, zip, gzip, bzip2 or tar. 7z format is default)
++Type of archive (7z, zip, gzip, bzip2, lzip or tar. 7z format is default)
+ .TP
+ .B \-v{Size}[b|k|m|g]
+ Create volumes
+@@ -165,7 +165,7 @@
+ 7z a \-mhe=on \-pmy_password archive.7z a_directory
+ add all files from directory "a_directory" to the archive "archive.7z" (with data and header archive encryption on)
+ .SH "SEE ALSO"
+-7za(1), 7zr(1), bzip2(1), gzip(1), zip(1)
++7za(1), 7zr(1), bzip2(1), gzip(1), lzip(1), zip(1)
+ .PP
+ .SH "HTML Documentation"
+ {DEST_SHARE_DOC}/MANUAL/index.htm
+diff -urdN '-x*.o' '-x*.lz' -x7zCon.sfx -x7za p7zip_16.02/man1/7za.1 p7zip_16.02.new/man1/7za.1
+--- p7zip_16.02/man1/7za.1	2007-09-21 20:53:24.000000000 +0200
++++ p7zip_16.02.new/man1/7za.1	2016-10-06 16:03:43.000000000 +0200
+@@ -82,7 +82,7 @@
+ Sets technical mode for l (list) command
+ .TP
+ .B \-t{Type}
+-Type of archive (7z, zip, gzip, bzip2 or tar. 7z format is default)
++Type of archive (7z, zip, gzip, bzip2, lzip or tar. 7z format is default)
+ .TP
+ .B \-v{Size}[b|k|m|g]
+ Create volumes
+@@ -165,7 +165,7 @@
+ 7za a \-mhe=on \-pmy_password archive.7z a_directory
+ add all files from directory "a_directory" to the archive "archive.7z" (with data and header archive encryption on)
+ .SH "SEE ALSO"
+-7z(1), 7zr(1), bzip2(1), gzip(1), zip(1)
++7z(1), 7zr(1), bzip2(1), gzip(1), lzip(1), zip(1)
+ .PP
+ .SH "HTML Documentation"
+ {DEST_SHARE_DOC}/MANUAL/index.htm

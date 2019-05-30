@@ -29,5 +29,12 @@ esac
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+(
+	cd ${PKG}-${VER}
+	for i in ../*.patch
+	do
+		patch -p1 < $i
+	done
+)
 build_configure $PKG $VER $LIBDIR
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT	

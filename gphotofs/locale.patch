@@ -1,0 +1,11 @@
+diff -Naur gphotofs-0.5/gphotofs.c gphotofs-0.5-patched/gphotofs.c
+--- gphotofs-0.5/gphotofs.c	2012-07-10 15:46:32.000000000 +0800
++++ gphotofs-0.5-patched/gphotofs.c	2019-05-30 12:05:36.129999120 +0800
+@@ -26,6 +26,7 @@
+ #include <errno.h>
+ #include <fcntl.h>
+ #include <sys/time.h>
++#include <locale.h>
+ 
+ /*
+  * Static variables set by command line arguments.

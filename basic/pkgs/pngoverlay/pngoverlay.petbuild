@@ -29,6 +29,7 @@ build() {
 	cd ${PKG}-${VER}
 	make && mkdir -p $CWD/$PKG-install/usr/sbin
 	make DESTDIR=$CWD/$PKG-install install
+	ln -sv pngoverlay-cairo $CWD/$PKG-install/usr/sbin/pngoverlay
 	cd -
 }
 

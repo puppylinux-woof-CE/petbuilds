@@ -7,7 +7,7 @@ location:
 
 compile:
 	gcc -no-pie `pkg-config gtk+-2.0 --cflags --libs` -o /usr/sbin/pngoverlay-gtk2 pngoverlay-gtk2.c
-	strip pngoverlay
+	strip pngoverlay-gtk2
 
 */
 
@@ -17,9 +17,6 @@ compile:
 #include <gtk/gtk.h>
 //#include <gdk-pixbuf/gdk-pixbuf.h>
 
-//#define GDK_INTERP_BILINEAR 2
-//#define GDK_INTERP_HYPER 3
-//#define GTK_WINDOW_TOPLEVEL 0
 #define OVERALL_ALPHA 255
 
 // ===========================================================================

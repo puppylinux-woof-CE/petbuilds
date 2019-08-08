@@ -197,8 +197,19 @@ package_std() {
 		esac	
 		echo "packaging $p"	
 		dir2pet -x -s -w="$DESC" -d="$DEPS" -c="$CAT" -p=${p} 2>&1 >/dev/null
+		if [ -f ${p}.pet ] ; then
+			mv ${p}.pet ${z0pets_out}/
+		elif [ -f ${p}.pet.tar.xz ] ; then
+			mv ${p}.pet.tar.xz ${z0pets_out}/
+		elif [ -f ${p}.pet.tar.gz ] ; then
+			mv ${p}.pet.tar.gz ${z0pets_out}/
+		else
+			echo "Package not found"
+			return 1
+		fi
+		sync
 		rm -r $p
-		mv ${p}.pet ${z0pets_out}/
+		sync
 	done
 	rm -r ${PKG}-install
 	rm -r ${PKG}-${VER}

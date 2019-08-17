@@ -5,9 +5,11 @@
 . ../../func
 . ../../build.conf
 
+## https://github.com/i-rinat/apulse/releases
+
 URL=https://github.com/i-rinat/apulse/archive
 PKG=apulse
-VER=0.1.12
+VER=0.1.12 #2018-05-20
 COMP=tar.gz
 DESC="PulseAudio emulation for ALSA"
 DEPS=

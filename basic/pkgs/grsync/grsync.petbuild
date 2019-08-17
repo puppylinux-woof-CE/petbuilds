@@ -7,7 +7,7 @@
 
 URL=https://sourceforge.net/projects/grsync/files
 PKG=grsync
-VER=1.2.6
+VER=1.2.6 #2016-03-05
 COMP=tar.gz
 DESC="rsync frontend"
 DEPS=+rsync

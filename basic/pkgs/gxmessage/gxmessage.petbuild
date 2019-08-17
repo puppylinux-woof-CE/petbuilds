@@ -6,7 +6,7 @@
 
 URL=https://ftp.gnu.org/gnu/gxmessage/
 PKG=gxmessage
-VER=2.20.4
+VER=2.20.4 #2015-05-24 (LAST GTK2)
 COMP=tar.gz
 DESC="gxmessage is designed to be a drop in replacement for xmessage"
 DEPS=+gtk+2

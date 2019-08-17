@@ -5,9 +5,9 @@
 . ../../func
 . ../../build.conf
 
-URL=https://sourceforge.net/projects/smartmontools/files/smartmontools/6.6
+VER=7.0
+URL=https://sourceforge.net/projects/smartmontools/files/smartmontools/${VER}
 PKG=smartmontools
-VER=6.6
 COMP=tar.gz
 DESC="disk inspection and monitoring"
 DEPS=
@@ -35,6 +35,8 @@ esac
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+
+EXTRA_CONFIG_OPTS='--with-libsystemd=no'
 build_configure $PKG $VER $LIBDIR "$FLAGS"
 
 rm -rf ${PKG}-install/etc/rc.d/

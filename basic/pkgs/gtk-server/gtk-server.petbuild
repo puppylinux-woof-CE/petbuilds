@@ -7,7 +7,7 @@
 
 URL=http://www.gtk-server.org/stable
 PKG=gtk-server
-VER=2.4.4
+VER=2.4.5 #2019-06-30
 COMP=tar.gz
 DESC="gtk-server"
 DEPS=

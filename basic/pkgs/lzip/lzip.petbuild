@@ -7,7 +7,7 @@
 
 URL=http://download.savannah.gnu.org/releases/lzip
 PKG=lzip
-VER=1.21
+VER=1.21 #2019-01-12
 COMP=tar.gz
 DESC="lzip file format is designed for data sharing and long-term archiving, taking into account both data integrity and decoder availability"
 DEPS=

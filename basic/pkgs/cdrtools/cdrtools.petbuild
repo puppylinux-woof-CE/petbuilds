@@ -7,7 +7,7 @@
 
 URL=http://downloads.sourceforge.net/cdrtools
 PKG=cdrtools
-VER=3.02a09
+VER=3.02a09 #2017-12-14
 COMP=tar.bz2
 DESC="Original cdrtools supporting CD, DVD and BluRay burning"
 DEPS=

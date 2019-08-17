@@ -28,5 +28,6 @@ esac
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+
 build_configure $PKG $VER $LIBDIR
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Process Manager
+Name[es]=Administrador de Procesos
+Name[fr]=Gestion des processus
+Name[hu_HU]=folyamatkezelő
+Name[ja]=プロセスの管理
+Name[zh_CN]=进程管理器
+Icon=/usr/share/pixmaps/puppy/execute.svg
+Comment=process manager
+Exec=lxtask
+Terminal=false
+Type=Application
+Categories=System
+GenericName=process manager

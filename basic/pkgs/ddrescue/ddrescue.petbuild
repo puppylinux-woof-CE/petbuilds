@@ -7,7 +7,7 @@
 
 URL=http://ftp.gnu.org/gnu/ddrescue
 PKG=ddrescue
-VER=1.24
+VER=1.24 #2019-02-25
 COMP=tar.lz
 DESC="a data recovery tool"
 DEPS=

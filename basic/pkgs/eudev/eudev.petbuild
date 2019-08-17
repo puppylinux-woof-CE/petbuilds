@@ -10,7 +10,7 @@ elif [ -f /usr/lib64/pkgconfig/libudev.pc ] ; then
 elif [ -f /usr/share/pkgconfig/udev.pc ] ; then
 	udevver=$(grep 'Version: ' /usr/share/pkgconfig/udev.pc  | cut -f 2 -d ' ')
 fi
-echo $udevver
+
 if [ "$udevver" != "" -a $udevver -lt 200 ] ; then
 	echo "Not compiling eudev..."
 	sleep 3
@@ -19,7 +19,7 @@ fi
 
 URL=https://github.com/gentoo/eudev/archive
 PKG=eudev
-VER=3.2.5
+VER=3.2.8
 COMP=tar.gz
 DESC="programs for dynamic creation of device nodes."
 DEPS=

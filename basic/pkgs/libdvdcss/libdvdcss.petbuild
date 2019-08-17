@@ -6,7 +6,7 @@
 
 VER=1.4.2
 URL=http://download.videolan.org/pub/libdvdcss/${VER}
-PKG=libdvdcss
+PKG=libdvdcss # 2018 Mar 23
 COMP=tar.bz2
 DESC="library for accessing encryped DVDs"
 DEPS=

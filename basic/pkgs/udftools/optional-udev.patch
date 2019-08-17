@@ -1,0 +1,33 @@
+diff --git a/configure.ac b/configure.ac
+index 63bef62..d71fee8 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -25,7 +25,8 @@ AC_C_BIGENDIAN
+ AC_SYS_LARGEFILE
+ 
+ PKG_PROG_PKG_CONFIG
+-PKG_CHECK_MODULES(UDEV, [udev], [ac_cv_udevdir=`$PKG_CONFIG --variable=udevdir udev`])
++PKG_CHECK_MODULES(UDEV, [udev], [ac_cv_udevdir=`$PKG_CONFIG --variable=udevdir udev`], [ac_cv_udevdir=""])
++AM_CONDITIONAL(UDEVDIR, [test "$ac_cv_udevdir" != ""])
+ AC_SUBST(UDEVDIR, $ac_cv_udevdir)
+ 
+ dnl Checks for library functions.
+diff --git a/pktsetup/Makefile.am b/pktsetup/Makefile.am
+index 0c5fd1c..2d0882f 100644
+--- a/pktsetup/Makefile.am
++++ b/pktsetup/Makefile.am
+@@ -2,9 +2,13 @@ sbin_PROGRAMS = pktsetup
+ pktsetup_SOURCES = pktsetup.c
+ EXTRA_DIST = pktsetup.rules
+ 
++if UDEVDIR
++
+ install-data-local:
+ 	mkdir -p "$(DESTDIR)$(UDEVDIR)/rules.d"
+ 	$(INSTALL_DATA) "$(srcdir)/pktsetup.rules" "$(DESTDIR)$(UDEVDIR)/rules.d/80-pktsetup.rules"
+ 
+ uninstall-local:
+-	rm -f "$(DESTDIR)$(UDEVDIR)/rules.d/80-pktsetup.rules"
++	$(RM) "$(DESTDIR)$(UDEVDIR)/rules.d/80-pktsetup.rules"
++
++endif

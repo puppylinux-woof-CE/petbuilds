@@ -7,7 +7,7 @@
 
 URL=https://github.com/dosfstools/dosfstools/releases/download/v4.1
 PKG=dosfstools
-VER=4.1
+VER=4.1 #jan 24 2017
 COMP=tar.gz
 DESC="dosfstools"
 DEPS=

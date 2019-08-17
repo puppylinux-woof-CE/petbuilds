@@ -7,7 +7,7 @@
 
 URL=https://sourceforge.net/projects/hdparm/files/hdparm
 PKG=hdparm
-VER=9.54
+VER=9.58
 COMP=tar.gz
 DESC="tune hard disk paramters for high performance"
 DEPS=

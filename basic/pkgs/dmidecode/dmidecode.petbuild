@@ -7,7 +7,7 @@
 
 URL=http://download.savannah.gnu.org/releases/dmidecode
 PKG=dmidecode
-VER=3.2
+VER=3.2 #2018-09-14
 COMP=tar.xz
 DESC="SMBIOS/DMI info"
 DEPS=

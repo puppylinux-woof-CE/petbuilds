@@ -6,7 +6,6 @@ glibmm_static
 cairomm_static
 gtkmm_static
 pangomm_static
-915resolution
 abiword
 acpid
 alsaequal
@@ -93,7 +92,6 @@ speex
 squashfs
 streamripper
 sylpheed
-sysvinit
 transmission
 usbutils
 util-linux

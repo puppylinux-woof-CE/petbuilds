@@ -1,12 +1,10 @@
 apulse
 #eudev
-cabextract
 smake
 cdrtools
 lzip
 ddrescue
 disktype
-dmidecode
 dosfstools
 exfat-utils
 fuse-exfat

@@ -36,4 +36,9 @@ esac
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 build_configure $PKG $VER $LIBDIR "$FLAGS"
+
+# fix Category
+sed -i 's%^Categories=.*%Categories=TerminalEmulator%' \
+	${PKG}-install/usr/share/applications/lxterminal.desktop
+
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

@@ -1,0 +1,14 @@
+diff -Naur gpicview-0.2.5/configure.ac gpicview-0.2.5-patched/configure.ac
+--- gpicview-0.2.5/configure.ac	2016-02-21 06:40:20.000000000 +0800
++++ gpicview-0.2.5-patched/configure.ac	2019-08-28 02:36:06.396644207 +0800
+@@ -57,10 +57,6 @@
+ pkg_modules="x11"
+ 
+ PKG_CHECK_MODULES(X11, [$pkg_modules])
+-AC_CHECK_LIB(jpeg, jpeg_start_decompress, [],
+-	     [AC_MSG_ERROR([libjpeg not found])], -lm)
+-AC_CHECK_HEADER(jpeglib.h, , [AC_MSG_ERROR([libjpeg not found])])
+-LIBJPEG='-ljpeg'
+ 
+ AC_SUBST(X11_CFLAGS)
+ AC_SUBST(X11_LIBS)

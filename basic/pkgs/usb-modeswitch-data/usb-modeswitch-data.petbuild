@@ -1,15 +1,16 @@
 # usb-modeswitch-data
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=http://www.draisberghof.de/usb_modeswitch
 PKG=usb-modeswitch-data
-VER=20170806
+VER=$usb_modeswitch_data_ver
 COMP=tar.bz2
 DESC="Data for usb_modeswitch"
-DEPS=+usb-modeswitch,+jimtcl
+DEPS=+usb-modeswitch
 CAT=BuildingBlock
 DESKTOP=usb-modeswitch-data.desktop
 BUILD=noarch

@@ -1,6 +1,7 @@
 # disktype
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 

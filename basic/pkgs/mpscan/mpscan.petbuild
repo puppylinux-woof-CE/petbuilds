@@ -2,12 +2,13 @@
 
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=http://distro.ibiblio.org/puppylinux/sources/m/
 PKG=mpscan
-VER=0.1.0-kirk
+VER=$mpscan_ver
 COMP=tar.gz
 DESC="network scan utility"
 DEPS=

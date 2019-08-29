@@ -1,15 +1,16 @@
 # usb-modeswitch
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=http://www.draisberghof.de/usb_modeswitch
 PKG=usb-modeswitch
-VER=2.5.2
+VER=$usb_modeswitch_ver
 COMP=tar.bz2
 DESC="Utility for switching usb modems"
-DEPS=+jimtcl
+DEPS=
 CAT=BuildingBlock
 DESKTOP=usb-modeswitch.desktop
 BUILD=

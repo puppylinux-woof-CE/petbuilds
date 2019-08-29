@@ -1,10 +1,11 @@
 # gcolor2
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
-VER=0.4.1w
+VER=${gcolor2_ver}
 URL=https://github.com/wdlkmpx/gcolor2/releases/download/$VER
 PKG=gcolor2
 SRCV=gcolor2

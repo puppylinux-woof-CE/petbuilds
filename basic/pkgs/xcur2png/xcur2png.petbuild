@@ -1,5 +1,6 @@
 # xcur2png
 
+. ../versions
 . ../../func
 . ../../build.conf
 

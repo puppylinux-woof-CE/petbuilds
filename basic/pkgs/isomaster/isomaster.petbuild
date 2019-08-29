@@ -1,12 +1,13 @@
 # isomaster
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=http://littlesvr.ca/isomaster/releases
 PKG=isomaster
-VER=1.3.14
+VER=$isomaster_ver
 COMP=tar.bz2
 DESC="A utility to deconstruct and reconstruct an ISO image - cd - dvd file"
 DEPS=

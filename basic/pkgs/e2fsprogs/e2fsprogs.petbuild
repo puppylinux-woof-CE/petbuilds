@@ -1,5 +1,6 @@
 # e2fsprogs
 
+. ../versions
 . ../../func
 . ../../build.conf
 
@@ -7,7 +8,7 @@
 [ "${DISTRO_DB_SUBNAME#common}" != "${DISTRO_DB_SUBNAME}" ] && \
 	export LDFLAGS=-lrt
 
-VER=1.43.9
+VER="$e2fsprogs_ver"
 URL=https://sourceforge.net/projects/e2fsprogs/files/e2fsprogs/v${VER}
 PKG=e2fsprogs
 COMP=tar.gz

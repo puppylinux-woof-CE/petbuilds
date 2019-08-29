@@ -1,5 +1,6 @@
 #!/bin/sh
 
+. ../versions
 . ../../func
 . ../../build.conf
 
@@ -19,7 +20,7 @@ fi
 
 URL=https://github.com/gentoo/eudev/archive
 PKG=eudev
-VER=3.2.8
+VER=${eudev_ver}
 COMP=tar.gz
 DESC="programs for dynamic creation of device nodes."
 DEPS=

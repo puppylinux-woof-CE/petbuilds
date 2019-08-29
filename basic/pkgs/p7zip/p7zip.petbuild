@@ -1,12 +1,13 @@
 # p7zip
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
-URL=http://downloads.sourceforge.net/project/p7zip/p7zip/16.02
+VER=$p7zip_ver
+URL=https://sourceforge.net/projects/p7zip/files/p7zip/${VER}
 PKG=p7zip
-VER=16.02
 SRCVER=${PKG}_${VER}_src_all
 COMP=tar.bz2
 DESC="file archiver with the highest compression ratio"

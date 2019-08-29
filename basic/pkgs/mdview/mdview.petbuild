@@ -1,13 +1,14 @@
 # petbuild
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=http://distro.ibiblio.org/fatdog/source/800
 PKG=mdview
 PKGVER=2016-06-22
-VER=2016.06
+VER=$mdview_ver
 COMP=tar.bz2
 DESC="lightweight MD file viewer"
 DEPS=+gtk2+

@@ -1,10 +1,11 @@
 # libdvdcss
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
-VER=1.4.2
+VER=$libdvdcss_ver
 URL=http://download.videolan.org/pub/libdvdcss/${VER}
 PKG=libdvdcss # 2018 Mar 23
 COMP=tar.bz2

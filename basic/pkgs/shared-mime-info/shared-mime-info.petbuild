@@ -8,7 +8,7 @@
 
 URL=http://freedesktop.org/~hadess
 PKG=shared-mime-info
-VER=1.10
+VER=$shared_mime_info_ver
 COMP=tar.xz
 DESC="mimetype information"
 DEPS=

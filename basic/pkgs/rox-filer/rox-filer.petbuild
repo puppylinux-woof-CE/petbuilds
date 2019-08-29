@@ -2,12 +2,13 @@
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 # requires shared-mime-info
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=https://github.com/woodenshoe-wi/rox-filer/archive/
 PKG=rox-filer
-VER=16woodenshoe
+VER=${rox_filer_ver}
 COMP=tar.gz
 DESC="Light weight gtk file manager"
 DEPS=+gtk+2

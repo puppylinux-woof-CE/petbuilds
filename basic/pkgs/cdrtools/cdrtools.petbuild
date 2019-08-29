@@ -2,12 +2,13 @@
 # cdrtools
 # https://git.archlinux.org/svntogit/community.git/plain/trunk/PKGBUILD?h=packages/cdrtools
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=http://downloads.sourceforge.net/cdrtools
 PKG=cdrtools
-VER=3.02a09 #2017-12-14
+VER=${cdrtools_ver}
 COMP=tar.bz2
 DESC="Original cdrtools supporting CD, DVD and BluRay burning"
 DEPS=

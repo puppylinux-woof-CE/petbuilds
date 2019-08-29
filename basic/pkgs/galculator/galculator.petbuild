@@ -1,12 +1,13 @@
 # galculator
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=http://galculator.mnim.org/downloads
 PKG=galculator
-VER=2.1.4 #5 sept 2015
+VER=$galculator_ver
 COMP=tar.bz2
 DESC="Nice light weight calculator"
 DEPS=+gtk=2

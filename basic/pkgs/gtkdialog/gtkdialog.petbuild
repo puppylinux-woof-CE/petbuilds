@@ -1,12 +1,13 @@
 # gtkdialog
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=http://distro.ibiblio.org/puppylinux/sources/g/
 PKG=gtkdialog
-VER=0.8.4
+VER=$gtkdialog_ver
 COMP=tar.xz
 DESC="gtkialog is a small utility for fast and easy GUI building"
 DEPS=+gtk+2
@@ -40,7 +41,7 @@ build() {
 	make DESTDIR=$CWD/$PKG-install install
 	cd -
 }
-	
+
 package_ext() {
 	EXAMPLES=`find . -type d -name 'examples'`
 	DOCS=`find . -type d -name 'reference'`

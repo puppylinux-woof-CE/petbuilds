@@ -1,5 +1,6 @@
 # Xdialog
 
+. ../versions
 . ../../func
 . ../../build.conf
 

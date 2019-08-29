@@ -4,7 +4,7 @@
 . ../../func
 . ../../build.conf
 
-VER=0.13
+VER=$xclip_ver
 
 URL=https://github.com/astrand/xclip/archive
 PKG=xclip

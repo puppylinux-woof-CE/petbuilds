@@ -1,12 +1,13 @@
 #!/bin/sh
 # yad
 
+. ../versions
 . ../../func
 . ../../build.conf
 
 URL=https://github.com/v1cont/yad/archive
 PKG=yad
-VER=0.42.1 # last gtk2 version
+VER=$yad_ver
 COMP=tar.gz
 DESC="Yet Another Dialog"
 DEPS=

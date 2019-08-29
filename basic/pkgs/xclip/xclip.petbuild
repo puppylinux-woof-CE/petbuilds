@@ -1,11 +1,13 @@
 # xclip
 
+. ../versions
 . ../../func
 . ../../build.conf
 
-URL=http://downloads.sourceforge.net/project/xclip/xclip/0.12
+VER=0.13
+
+URL=https://github.com/astrand/xclip/archive
 PKG=xclip
-VER=0.12
 COMP=tar.gz
 DESC="cli clipboard tool"
 DEPS=
@@ -26,7 +28,10 @@ case $ARCH in # set in build.conf
 esac
 
 # main
-retrieve ${PKG}-${VER}.${COMP}
+retrieve ${VER}.${COMP} ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
+
+( cd ${PKG}-${VER} ; ./bootstrap )
+
 build_configure $PKG $VER $LIBDIR
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT

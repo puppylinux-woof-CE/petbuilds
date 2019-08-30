@@ -99,3 +99,4 @@ b2a80e4789af23d67dfe1e88a997abbf  smartmontools-7.0.tar.gz
 0247b6a7b314f8edeb618159fa95f9cb  parted-3.2.tar.xz
 418c2ced9dc4dd5ca8b06a755e6d64e9  shared-mime-info-1.10.tar.xz
 81e49f56288f299e3389a019f2550ad2  xclip-0.13.tar.gz
+1734a02dde79377831f0275adc13a46d  gnome-mplayer-1.1.2w.tar.xz

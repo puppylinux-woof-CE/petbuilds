@@ -7,7 +7,6 @@ cairomm_static
 gtkmm_static
 pangomm_static
 abiword
-acpid
 alsaequal
 automake
 bcrypt

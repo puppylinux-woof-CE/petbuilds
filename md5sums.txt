@@ -310,3 +310,4 @@ bb59d25ee2643db20f212eec539429f1  busybox-1.26.2.tar.bz2
 5f7cd09e193c4edb937d9ca54fbb0aed  xdotool-3.20150503.1.tar.gz
 7d0e4c4a137d0ac45bf6b328c84c3a81  libxkbcommon-0.8.0.tar.xz
 5db059384469827ab19dac69d3fcd092  busybox-1.28.2.tar.bz2
+5a2114f2a6f348bdab5bf52b994811db  SDL2-2.0.10.tar.gz

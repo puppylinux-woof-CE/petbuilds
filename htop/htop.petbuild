@@ -5,7 +5,7 @@
 . ../build.conf
 
 PKG=htop
-VER=2.0.1
+VER=2.2.0
 URL=http://hisham.hm/htop/releases/$VER
 COMP=tar.gz
 DESC="an interactive process viewer for Linux"

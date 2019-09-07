@@ -4,9 +4,9 @@
 . ../func
 . ../build.conf
 
-URL=http://downloads.sourceforge.net/project/lame/lame/3.99
+URL=http://downloads.sourceforge.net/project/lame/lame/3.100
 PKG=lame
-VER=3.99.5
+VER=3.100
 COMP=tar.gz
 DESC="the best mp3 encoder"
 DEPS=+ncurses

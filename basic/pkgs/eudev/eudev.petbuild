@@ -4,20 +4,6 @@
 . ../../func
 . ../../build.conf
 
-if [ -f /usr/lib/pkgconfig/libudev.pc ] ; then
-	udevver=$(grep 'Version: ' /usr/lib/pkgconfig/libudev.pc  | cut -f 2 -d ' ')
-elif [ -f /usr/lib64/pkgconfig/libudev.pc ] ; then
-	udevver=$(grep 'Version: ' /usr/lib64/pkgconfig/libudev.pc  | cut -f 2 -d ' ')
-elif [ -f /usr/share/pkgconfig/udev.pc ] ; then
-	udevver=$(grep 'Version: ' /usr/share/pkgconfig/udev.pc  | cut -f 2 -d ' ')
-fi
-
-if [ "$udevver" != "" -a $udevver -lt 200 ] ; then
-	echo "Not compiling eudev..."
-	sleep 3
-	exit
-fi
-
 URL=https://github.com/gentoo/eudev/archive
 PKG=eudev
 VER=${eudev_ver}
@@ -93,7 +79,24 @@ extract v${VER}.${COMP}
 
 #fix pkgconfig location
 mkdir -p ${PKG}-install/usr/lib
-mv -f ${PKG}-install/lib/pkgconfig ${PKG}-install/usr/lib
+mv -f ${PKG}-install/lib/pkgconfig ${PKG}-install/usr/lib/
+
+(
+	if [ -d ${PKG}-install/lib64 ] ; then
+		cd ${PKG}-install/lib64
+	else
+		cd ${PKG}-install/lib
+	fi
+	ln -sv libudev.so.1 libudev.so.0 
+)
+
+if [ -f ${PKG}-install/lib/libudev.la ] ; then
+	mv ${PKG}-install/lib/libudev.la ${PKG}-install/usr/lib/
+fi
+
+if [ -f ${PKG}-install/lib64/libudev.la ] ; then
+	mv ${PKG}-install/lib64/libudev.la ${PKG}-install/usr/lib64/
+fi
 
 package_std $PKG $VER $ARCH $DESKTOP "$DESC" $DEPS $CAT
 

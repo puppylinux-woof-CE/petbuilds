@@ -25,7 +25,11 @@
 E_UNSUPPORTED=65
 
 # Supported file extentions for 7z
-EXTS="rar cbr cbz"
+if [ -f /usr/lib/p7zip/Codecs/Rar.so -o -f /usr/libexec/Codecs/Rar.so ] ; then
+	RAR_EXT='rar cbr'
+fi
+
+EXTS="$RAR_EXT 7z cbz apm ar arj cab chm cramfs dmg exe iso img lha lzh udf vdi vhd vmdk wim swm esd xar z0 zipx epub"
 
 # Programs to wrap
 P7Z_PROG="7z"

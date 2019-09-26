@@ -124,13 +124,41 @@ case "$opt" in
 
     -e) # extract: from archive passed files 
         # convert deb to a temporary tar file
-        tmptar="$(mktemp -t tartmp.XXXXXX)"
-        $DEB_PROG $CONVERT_OPTS "$archive" > "$tmptar"
-        # extract files from the temporary tar
-        $TAR_PROG $TAR_EXTRACT_OPTS "$tmptar" "$@"
-        wrapper_status=$?
-        # remove temporary tar
-        rm "$tmptar"
+        DP=$(which $DEB_PROG 2>/dev/null)
+        if [ -L $DEB_PROG ] ; then
+            # busybox
+            if type ar >/dev/null 2>&1 ; then
+              AR_P='ar'
+            else
+              AR_P='busybox ar'
+            fi
+            archive=$(realpath "$archive")
+            tmptar="/tmp/deb-wrap$$"
+            mkdir -p "$tmptar"
+            DAT=$(
+              cd "$tmptar"
+              ${AR_P} -x "$archive"
+              if [ -f data.tar.xz ] ; then
+                echo 'data.tar.xz'
+              elif [ -f data.tar.gz ] ; then
+                echo 'data.tar.gz'
+              elif [ -f data.tar.bz2 ] ; then
+                echo 'data.tar.bz2'
+              fi
+            )
+            # extract files from the temporary tar
+            $TAR_PROG $TAR_EXTRACT_OPTS "$tmptar/$DAT" "$@"
+            wrapper_status=$?
+            rm -rf "$tmptar"
+        else
+           tmptar="$(mktemp -t tartmp.XXXXXX)"
+           $DEB_PROG $CONVERT_OPTS "$archive" > "$tmptar"
+           # extract files from the temporary tar
+           $TAR_PROG $TAR_EXTRACT_OPTS "$tmptar" "$@"
+           wrapper_status=$?
+           # remove temporary tar
+           rm -f "$tmptar"
+        fi
         exit $wrapper_status
         ;;
 

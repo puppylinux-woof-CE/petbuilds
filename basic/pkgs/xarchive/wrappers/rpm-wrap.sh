@@ -72,11 +72,23 @@ case "$opt" in
         ;;
 
     -o) # open: mangle output of rpm cmd for xarchive 
-        # format of output:
-        # usr grp attr size time(epoch) name 
-        # 1   2   3    4    5           6
-        $RPM_PROG -q --qf '[%{FILEUSERNAME} %{FILEGROUPNAME} %{FILEMODES:perms} %{FILESIZES} %{FILEMTIMES} %{FILENAMES}\n]' -p "$archive" | $AWK_PROG '
-        {
+        RP=$(which $RPM_PROG 2>/dev/null)
+        if [ -L $RP ] ; then
+          # busybox
+          $RPM_PROG -qpl "$archive" |
+          while read file
+          do
+             #name,size,attr,uid,gid,date,time,link
+             echo "$file;?;?;?;?;?;?;?"
+          done
+          exit
+
+        else
+          # format of output:
+          # usr grp attr size time(epoch) name 
+          # 1   2   3    4    5           6
+          $RPM_PROG -q --qf '[%{FILEUSERNAME} %{FILEGROUPNAME} %{FILEMODES:perms} %{FILESIZES} %{FILEMTIMES} %{FILENAMES}\n]' -p "$archive" | $AWK_PROG '
+          {
           uid=$1
           gid=$2
           attr=$3
@@ -92,10 +104,10 @@ case "$opt" in
           name=linesplit[2] 
           link="-"          
           printf "%s;%s;%s;%s;%s;%s;%s;%s\n",name,size,attr,uid,gid,date,time,link
-        }'
+          }'
+        fi
         exit
         ;;
-
     -a) # adding to archive unsupported
         # use appropriate rpm tools to build rpms
         exit $E_UNSUPPORTED

@@ -17,7 +17,6 @@ gcolor2
 gtkdialog
 #gtkhash#problem_with_libpng
 gdmap
-getcurpos
 gexec
 #gtk-server#requires#libffi
 gmrun
@@ -27,7 +26,6 @@ gxmessage
 isomaster
 libdvdcss
 mdview
-mpscan
 ncdu
 ms-sys
 p7zip

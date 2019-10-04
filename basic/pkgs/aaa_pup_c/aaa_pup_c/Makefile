@@ -10,6 +10,7 @@ X11_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config x11 --libs)
 all: getcurpos \
 	gtksplash \
 	mkwallpaper \
+	mpscan \
 	pm13tray \
 	pmusic_trayapp \
 	pngoverlay-cairo \
@@ -25,6 +26,9 @@ gtksplash:
 
 mkwallpaper:
 	$(CC) -o mkwallpaper $(CFLAFS) $(PANGOCAIRO_FLAGS) gtk/mkwallpaper.c
+
+mpscan:
+	$(CC) -o mpscan $(CFLAFS) cli/mpscan.c
 
 pm13tray:
 	$(CC) -o pm13tray $(CFLAFS) $(GTK2_FLAGS) gtk/pngoverlay-gtk2.c
@@ -48,6 +52,7 @@ install:
 	install -s -m 0755 getcurpos $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 gtksplash $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 mkwallpaper $(DESTDIR)$(INSTALL_PATH)
+	install -s -m 0755 mpscan $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pm13tray $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pmusic_trayapp $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay-cairo $(DESTDIR)$(INSTALL_PATH)
@@ -60,6 +65,7 @@ uninstall:
 	rm $(INSTALL_PATH)/gtksplash
 	rm $(INSTALL_PATH)/mkwallpaper
 	rm $(INSTALL_PATH)/pm13tray
+	rm $(INSTALL_PATH)/mpscan
 	rm $(INSTALL_PATH)/pmusic_trayapp
 	rm $(INSTALL_PATH)/pngoverlay-cairo
 	rm $(INSTALL_PATH)/pngoverlay-gtk2
@@ -72,6 +78,7 @@ clean:
 	gtksplash \
 	mkwallpaper \
 	pm13tray \
+	mpscan \
 	pmusic_trayapp \
 	pngoverlay \
 	pngoverlay-gtk2 \

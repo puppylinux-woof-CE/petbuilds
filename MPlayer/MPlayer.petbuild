@@ -1,3 +1,4 @@
+#!/bin/sh
 # MPlayer
 # Builds from https://github.com/puppylinux-woof-CE/petbuilds
 
@@ -25,13 +26,87 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
+DISABLED_AUDIO_OUTPUT='
+	--disable-ossaudio
+	--disable-arts
+	--disable-esd
+	--disable-jack
+	--disable-openal
+	--disable-nas
+	--disable-sgiaudio
+	--disable-sndio
+	--disable-sunaudio
+	--disable-kai
+	--disable-dart
+	--disable-win32waveout
+	--disable-coreaudio
+'
+
+DISABLED_VIDEO_OUTPUT='
+	--disable-aa
+	--disable-caca
+	--disable-matrixview
+	--disable-dga1
+	--disable-dga2
+	--disable-svga
+	--disable-vidix
+	--disable-mng
+	--disable-md5sum
+	--disable-tga
+	--disable-pnm
+	--disable-yuv4mpeg
+	--disable-directfb
+	--disable-vdpau
+'
+
+#EXTREME='
+#	--disable-jpeg
+#	--disable-png
+#	--disable-vdpau
+#	--disable-enca
+#	--disable-librtmp
+#	--disable-bluray
+#'
+
 build() {
 	cd ${PKG}-${VER}
-	./configure --prefix=/usr \
+	./configure \
+		--prefix=/usr \
 		--enable-runtime-cpudetection \
 		--confdir=/etc \
 		--disable-smb \
-		--disable-mencoder
+		--disable-faad \
+		--disable-faac \
+		--disable-libdca \
+		--disable-liba52 \
+		--disable-libgsm \
+		--disable-libopencore_amrnb \
+		--disable-libopencore_amrwb \
+		--disable-libopus \
+		--disable-libvorbis \
+		--disable-libgsm \
+		--disable-theora \
+		--disable-mad \
+		--disable-mp3lame \
+		--disable-mp3lame-lavc \
+		--disable-mpg123 \
+		--disable-toolame \
+		--disable-twolame \
+		--disable-musepack \
+		--disable-libvpx-lavc \
+		--disable-xvid \
+		--disable-libmpeg2
+		--enable-libmpeg2-internal \
+		--enable-ass-internal \
+		--disable-gif \
+		--disable-mng \
+		--disable-jpeg \
+		--disable-libopenjpeg \
+		--disable-liblzo \
+		--disable-libbs2b \
+		${DISABLED_VIDEO_OUTPUT} \
+		${DISABLED_AUDIO_OUTPUT} \
+		${EXTREME} --disable-mencoder
 	[ "$?" -eq 0 ] || exit
 	
 	make $MKFLG
@@ -39,7 +114,7 @@ build() {
 	make DESTDIR=$CWD/${PKG}-install install
 	cd -
 }
-	
+
 # main
 retrieve ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}

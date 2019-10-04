@@ -8,6 +8,7 @@ GTK3_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config gtk+-3.0 --cflags --lib
 
 all: gtksplash \
 	mkwallpaper \
+	pm13tray \
 	pngoverlay-cairo \
 	pngoverlay-gtk2 \
 	pngoverlay \
@@ -18,6 +19,9 @@ gtksplash:
 
 mkwallpaper:
 	$(CC) -o mkwallpaper $(CFLAFS) $(PANGOCAIRO_FLAGS) gtk/mkwallpaper.c
+
+pm13tray:
+	$(CC) -o pm13tray $(CFLAFS) $(GTK2_FLAGS) gtk/pngoverlay-gtk2.c
 
 pngoverlay-cairo:
 	$(CC) -o pngoverlay-cairo $(CFLAFS) $(CAIRO_FLAGS) gtk/pngoverlay-cairo.c
@@ -34,6 +38,7 @@ picscale:
 install:
 	install -s -m 0755 gtksplash $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 mkwallpaper $(DESTDIR)$(INSTALL_PATH)
+	install -s -m 0755 pm13tray $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay-cairo $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay-gtk2 $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay $(DESTDIR)$(INSTALL_PATH)
@@ -42,6 +47,7 @@ install:
 uninstall:
 	rm $(INSTALL_PATH)/gtksplash
 	rm $(INSTALL_PATH)/mkwallpaper
+	rm $(INSTALL_PATH)/pm13tray
 	rm $(INSTALL_PATH)/pngoverlay-cairo
 	rm $(INSTALL_PATH)/pngoverlay-gtk2
 	rm $(INSTALL_PATH)/pngoverlay
@@ -51,6 +57,7 @@ clean:
 	-find -name '*.o' -delete
 	-rm -f gtksplash \
 	mkwallpaper \
+	pm13tray \
 	pngoverlay \
 	pngoverlay-gtk2 \
 	pngoverlay-cairo \

@@ -1,0 +1,6 @@
+export PLUGIN_AUTHOR="iguleder"
+export PLUGIN_EXEC=pmusic_trayapp
+export PLUGIN_NAME="Tray app"
+export PLUGIN_IMAGE="/usr/share/icons/hicolor/scalable/apps/pmusic.svg"
+export PLUGIN_DESCRIPTION="Click on icon in traybar to open navigation menu."
+export PLUGIN_RUN_AT_START=true

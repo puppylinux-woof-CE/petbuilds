@@ -6,7 +6,7 @@
 
 URL=
 PKG=aaa_pup_c
-VER=0.3
+VER=0.4
 COMP=tar.gz
 DESC="pngoverlay"
 DEPS=+cairo

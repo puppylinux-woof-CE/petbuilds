@@ -5,10 +5,14 @@ CAIRO_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config cairo --cflags --libs)
 GTK2_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config gtk+-2.0 --cflags --libs)
 GTK3_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config gtk+-3.0 --cflags --libs)
 
-all: pngoverlay-cairo \
+all: gtksplash \
+	pngoverlay-cairo \
 	pngoverlay-gtk2 \
 	pngoverlay \
 	picscale
+
+gtksplash:
+	$(CC) -o gtksplash $(CFLAFS) $(GTK2_FLAGS) gtk/gtksplash.c
 
 pngoverlay-cairo:
 	$(CC) -o pngoverlay-cairo $(CFLAFS) $(CAIRO_FLAGS) gtk/pngoverlay-cairo.c
@@ -23,12 +27,14 @@ picscale:
 	$(CC) -o picscale $(CFLAFS) $(GTK2_FLAGS) gtk/picscale.c
 
 install:
+	install -s -m 0755 gtksplash $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay-cairo $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay-gtk2 $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 picscale $(DESTDIR)$(INSTALL_PATH)
 
 uninstall:
+	rm $(INSTALL_PATH)/gtksplash
 	rm $(INSTALL_PATH)/pngoverlay-cairo
 	rm $(INSTALL_PATH)/pngoverlay-gtk2
 	rm $(INSTALL_PATH)/pngoverlay
@@ -36,4 +42,8 @@ uninstall:
 
 clean:
 	-find -name '*.o' -delete
-	-rm -f pngoverlay pngoverlay-gtk2 pngoverlay-cairo picscale
+	-rm -f gtksplash \
+	pngoverlay \
+	pngoverlay-gtk2 \
+	pngoverlay-cairo \
+	picscale

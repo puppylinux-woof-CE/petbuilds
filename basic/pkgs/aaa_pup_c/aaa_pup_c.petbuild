@@ -6,7 +6,7 @@
 
 URL=
 PKG=aaa_pup_c
-VER=0.7
+VER=0.8
 COMP=tar.gz
 DESC="basic pup apps"
 DEPS=+cairo

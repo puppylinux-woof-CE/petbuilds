@@ -5,8 +5,10 @@ CAIRO_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config cairo --cflags --libs)
 PANGOCAIRO_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config pangocairo --cflags --libs)
 GTK2_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config gtk+-2.0 --cflags --libs)
 GTK3_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config gtk+-3.0 --cflags --libs)
+X11_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config x11 --libs)
 
-all: gtksplash \
+all: getcurpos \
+	gtksplash \
 	mkwallpaper \
 	pm13tray \
 	pmusic_trayapp \
@@ -14,6 +16,9 @@ all: gtksplash \
 	pngoverlay-gtk2 \
 	pngoverlay \
 	picscale
+
+getcurpos:
+	$(CC) -o getcurpos $(CFLAFS) $(X11_FLAGS) x/getcurpos.c
 
 gtksplash:
 	$(CC) -o gtksplash $(CFLAFS) $(GTK2_FLAGS) gtk/gtksplash.c
@@ -40,6 +45,7 @@ picscale:
 	$(CC) -o picscale $(CFLAFS) $(GTK2_FLAGS) gtk/picscale.c
 
 install:
+	install -s -m 0755 getcurpos $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 gtksplash $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 mkwallpaper $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pm13tray $(DESTDIR)$(INSTALL_PATH)
@@ -50,6 +56,7 @@ install:
 	install -s -m 0755 picscale $(DESTDIR)$(INSTALL_PATH)
 
 uninstall:
+	rm $(INSTALL_PATH)/getcurpos
 	rm $(INSTALL_PATH)/gtksplash
 	rm $(INSTALL_PATH)/mkwallpaper
 	rm $(INSTALL_PATH)/pm13tray
@@ -61,7 +68,8 @@ uninstall:
 
 clean:
 	-find -name '*.o' -delete
-	-rm -f gtksplash \
+	-rm -f getcurpos \
+	gtksplash \
 	mkwallpaper \
 	pm13tray \
 	pmusic_trayapp \

@@ -9,6 +9,7 @@ GTK3_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config gtk+-3.0 --cflags --lib
 all: gtksplash \
 	mkwallpaper \
 	pm13tray \
+	pmusic_trayapp \
 	pngoverlay-cairo \
 	pngoverlay-gtk2 \
 	pngoverlay \
@@ -22,6 +23,9 @@ mkwallpaper:
 
 pm13tray:
 	$(CC) -o pm13tray $(CFLAFS) $(GTK2_FLAGS) gtk/pngoverlay-gtk2.c
+
+pmusic_trayapp:
+	$(CC) -o pmusic_trayapp $(CFLAFS) $(GTK2_FLAGS) gtk/pmusic_trayapp.c
 
 pngoverlay-cairo:
 	$(CC) -o pngoverlay-cairo $(CFLAFS) $(CAIRO_FLAGS) gtk/pngoverlay-cairo.c
@@ -39,6 +43,7 @@ install:
 	install -s -m 0755 gtksplash $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 mkwallpaper $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pm13tray $(DESTDIR)$(INSTALL_PATH)
+	install -s -m 0755 pmusic_trayapp $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay-cairo $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay-gtk2 $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay $(DESTDIR)$(INSTALL_PATH)
@@ -48,6 +53,7 @@ uninstall:
 	rm $(INSTALL_PATH)/gtksplash
 	rm $(INSTALL_PATH)/mkwallpaper
 	rm $(INSTALL_PATH)/pm13tray
+	rm $(INSTALL_PATH)/pmusic_trayapp
 	rm $(INSTALL_PATH)/pngoverlay-cairo
 	rm $(INSTALL_PATH)/pngoverlay-gtk2
 	rm $(INSTALL_PATH)/pngoverlay
@@ -58,6 +64,7 @@ clean:
 	-rm -f gtksplash \
 	mkwallpaper \
 	pm13tray \
+	pmusic_trayapp \
 	pngoverlay \
 	pngoverlay-gtk2 \
 	pngoverlay-cairo \

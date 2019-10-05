@@ -1,6 +1,7 @@
 CC=gcc
 INSTALL_PATH=/usr/sbin
 INSTALL_PATH2=/usr/bin
+INSTALL_XDG_START=/root/.config/autostart
 
 CAIRO_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config cairo --cflags --libs)
 PANGOCAIRO_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config pangocairo --cflags --libs)
@@ -8,7 +9,8 @@ GTK2_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config gtk+-2.0 --cflags --lib
 GTK3_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config gtk+-3.0 --cflags --libs)
 X11_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config x11 --libs)
 
-all: getcurpos \
+all: freememapplet \
+	getcurpos \
 	gtksplash \
 	mkwallpaper \
 	mpscan \
@@ -19,6 +21,10 @@ all: getcurpos \
 	pngoverlay \
 	picscale \
 	switch2
+
+freememapplet:
+	xgettext --keyword="_" gtk/freememapplet/freememapplet.c -o freememapplet.pot
+	$(CC) -o freememapplet $(CFLAFS) $(GTK2_FLAGS) gtk/freememapplet/freememapplet.c
 
 getcurpos:
 	$(CC) -o getcurpos $(CFLAFS) $(X11_FLAGS) x/getcurpos.c
@@ -54,6 +60,14 @@ switch2:
 	$(CC) -o switch2 $(CFLAFS) $(GTK2_FLAGS) gtk/switch2.c
 
 install:
+	#--
+	install -d $(DESTDIR)$(INSTALL_PATH)
+	install -s -m 0755 freememapplet $(DESTDIR)$(INSTALL_PATH)
+	install -m 0755 gtk/freememapplet/freememappletshell $(DESTDIR)$(INSTALL_PATH)
+	ln -snf freememappletshell $(DESTDIR)$(INSTALL_PATH)/freememapplet_tray
+	install -d $(DESTDIR)$(INSTALL_XDG_START)
+	install -m 0644 gtk/freememapplet/freememapplet_tray.desktop $(DESTDIR)$(INSTALL_XDG_START)
+	#--
 	install -s -m 0755 getcurpos $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 gtksplash $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 mkwallpaper $(DESTDIR)$(INSTALL_PATH)
@@ -67,6 +81,12 @@ install:
 	install -s -m 0755 switch2 $(DESTDIR)$(INSTALL_PATH)
 
 uninstall:
+	#--
+	rm $(INSTALL_PATH)/freememapplet
+	rm $(INSTALL_PATH)/freememapplet_tray
+	rm $(INSTALL_PATH)/freememappletshell
+	rm $(INSTALL_XDG_START)/freememapplet_tray.desktop
+	#--
 	rm $(INSTALL_PATH)/getcurpos
 	rm $(INSTALL_PATH)/gtksplash
 	rm $(INSTALL_PATH)/mkwallpaper
@@ -81,7 +101,8 @@ uninstall:
 
 clean:
 	-find -name '*.o' -delete
-	-rm -f getcurpos \
+	-rm -f freememapplet* \
+	getcurpos \
 	gtksplash \
 	mkwallpaper \
 	pm13tray \

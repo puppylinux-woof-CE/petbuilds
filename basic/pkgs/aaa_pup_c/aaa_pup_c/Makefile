@@ -18,7 +18,6 @@ all: freememapplet \
 	pmusic_trayapp \
 	pngoverlay-cairo \
 	pngoverlay-gtk2 \
-	pngoverlay \
 	picscale \
 	switch2
 

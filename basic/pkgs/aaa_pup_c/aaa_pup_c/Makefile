@@ -1,5 +1,6 @@
 CC=gcc
 INSTALL_PATH=/usr/sbin
+INSTALL_PATH2=/usr/bin
 
 CAIRO_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config cairo --cflags --libs)
 PANGOCAIRO_FLAGS=-Wall -pedantic -std=gnu99 $(shell pkg-config pangocairo --cflags --libs)
@@ -16,7 +17,8 @@ all: getcurpos \
 	pngoverlay-cairo \
 	pngoverlay-gtk2 \
 	pngoverlay \
-	picscale
+	picscale \
+	switch2
 
 getcurpos:
 	$(CC) -o getcurpos $(CFLAFS) $(X11_FLAGS) x/getcurpos.c
@@ -48,6 +50,9 @@ pngoverlay:
 picscale:
 	$(CC) -o picscale $(CFLAFS) $(GTK2_FLAGS) gtk/picscale.c
 
+switch2:
+	$(CC) -o switch2 $(CFLAFS) $(GTK2_FLAGS) gtk/switch2.c
+
 install:
 	install -s -m 0755 getcurpos $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 gtksplash $(DESTDIR)$(INSTALL_PATH)
@@ -59,6 +64,7 @@ install:
 	install -s -m 0755 pngoverlay-gtk2 $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pngoverlay $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 picscale $(DESTDIR)$(INSTALL_PATH)
+	install -s -m 0755 switch2 $(DESTDIR)$(INSTALL_PATH)
 
 uninstall:
 	rm $(INSTALL_PATH)/getcurpos
@@ -71,6 +77,7 @@ uninstall:
 	rm $(INSTALL_PATH)/pngoverlay-gtk2
 	rm $(INSTALL_PATH)/pngoverlay
 	rm $(INSTALL_PATH)/picscale
+	rm $(INSTALL_PATH)/switch2
 
 clean:
 	-find -name '*.o' -delete
@@ -83,4 +90,5 @@ clean:
 	pngoverlay \
 	pngoverlay-gtk2 \
 	pngoverlay-cairo \
-	picscale
+	picscale \
+	switch2

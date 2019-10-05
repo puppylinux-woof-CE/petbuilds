@@ -6,7 +6,7 @@
 
 URL=
 PKG=aaa_pup_c
-VER=1.0
+VER=1.1
 COMP=tar.gz
 DESC="basic pup apps"
 DEPS=+cairo
@@ -30,8 +30,8 @@ build() {
 
 	# pmusic_trayapp
 	mkdir -p ../${PKG}-install/usr/local/pmusic/plugins
-	mv ../${PKG}-install/usr/sbin/pmusic_trayapp ../${PKG}-install/usr/local/pmusic/plugins/
-	mv ../aaa_pup_c/gtk/pmusic_trayapp.rc ../${PKG}-install/usr/local/pmusic/plugins/
+	cp ../${PKG}-install/usr/sbin/pmusic_trayapp ../${PKG}-install/usr/local/pmusic/plugins/
+	cp ../aaa_pup_c/gtk/pmusic_trayapp.rc ../${PKG}-install/usr/local/pmusic/plugins/
 	#---
 	cd -
 }

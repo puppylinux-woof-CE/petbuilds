@@ -27,12 +27,6 @@ build() {
 	cd ${PKG}-${VER}
 	make && mkdir -p $CWD/$PKG-install/usr/sbin
 	make DESTDIR=$CWD/$PKG-install install
-
-	# pmusic_trayapp
-	mkdir -p ../${PKG}-install/usr/local/pmusic/plugins
-	cp ../${PKG}-install/usr/sbin/pmusic_trayapp ../${PKG}-install/usr/local/pmusic/plugins/
-	cp ../aaa_pup_c/gtk/pmusic_trayapp.rc ../${PKG}-install/usr/local/pmusic/plugins/
-	#---
 	cd -
 }
 

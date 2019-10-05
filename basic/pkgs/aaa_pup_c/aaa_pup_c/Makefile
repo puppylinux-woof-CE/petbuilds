@@ -71,7 +71,10 @@ install:
 	install -s -m 0755 mkwallpaper $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 mpscan $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pm13tray $(DESTDIR)$(INSTALL_PATH)
-	install -s -m 0755 pmusic_trayapp $(DESTDIR)$(INSTALL_PATH)
+	#--
+	install -d $(DESTDIR)/usr/local/pmusic/plugins
+	install -s -m 0755 pmusic_trayapp $(DESTDIR)/usr/local/pmusic/plugins
+	install -m 644 gtk/pmusic_trayapp.rc $(DESTDIR)/usr/local/pmusic/plugins
 	#--
 	install -s -m 0755 pngoverlay-cairo $(DESTDIR)$(INSTALL_PATH)
 	ln -snf pngoverlay-cairo $(DESTDIR)$(INSTALL_PATH)/pngoverlay

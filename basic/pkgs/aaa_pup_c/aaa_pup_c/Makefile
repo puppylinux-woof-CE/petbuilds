@@ -48,10 +48,8 @@ pngoverlay-cairo:
 	$(CC) -o pngoverlay-cairo $(CFLAFS) $(CAIRO_FLAGS) gtk/pngoverlay-cairo.c
 
 pngoverlay-gtk2:
-	$(CC) -o pngoverlay-gtk2 $(CFLAFS) $(GTK2_FLAGS) gtk/pngoverlay-gtk2.c
-
-pngoverlay:
 	ln -snf pngoverlay-cairo pngoverlay
+	$(CC) -o pngoverlay-gtk2 $(CFLAFS) $(GTK2_FLAGS) gtk/pngoverlay-gtk2.c
 
 picscale:
 	$(CC) -o picscale $(CFLAFS) $(GTK2_FLAGS) gtk/picscale.c
@@ -74,9 +72,11 @@ install:
 	install -s -m 0755 mpscan $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pm13tray $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 pmusic_trayapp $(DESTDIR)$(INSTALL_PATH)
+	#--
 	install -s -m 0755 pngoverlay-cairo $(DESTDIR)$(INSTALL_PATH)
+	ln -snf pngoverlay-cairo $(DESTDIR)$(INSTALL_PATH)/pngoverlay
+	#--
 	install -s -m 0755 pngoverlay-gtk2 $(DESTDIR)$(INSTALL_PATH)
-	install -s -m 0755 pngoverlay $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 picscale $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 switch2 $(DESTDIR)$(INSTALL_PATH)
 

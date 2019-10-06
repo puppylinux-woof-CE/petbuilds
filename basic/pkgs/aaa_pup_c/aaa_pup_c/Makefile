@@ -19,6 +19,7 @@ all: freememapplet \
 	pngoverlay-cairo \
 	pngoverlay-gtk2 \
 	picscale \
+	setvol \
 	switch2
 
 freememapplet:
@@ -53,6 +54,9 @@ pngoverlay-gtk2:
 picscale:
 	$(CC) -o picscale $(CFLAFS) $(GTK2_FLAGS) gtk/picscale.c
 
+setvol:
+	$(CC) -o setvol $(CFLAFS) $(GTK2_FLAGS) cli/setvol.c
+
 switch2:
 	$(CC) -o switch2 $(CFLAFS) $(GTK2_FLAGS) gtk/switch2.c
 
@@ -80,6 +84,7 @@ install:
 	#--
 	install -s -m 0755 pngoverlay-gtk2 $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 picscale $(DESTDIR)$(INSTALL_PATH)
+	install -s -m 0755 setvol $(DESTDIR)$(INSTALL_PATH)
 	install -s -m 0755 switch2 $(DESTDIR)$(INSTALL_PATH)
 
 uninstall:
@@ -99,6 +104,7 @@ uninstall:
 	rm $(INSTALL_PATH)/pngoverlay-gtk2
 	rm $(INSTALL_PATH)/pngoverlay
 	rm $(INSTALL_PATH)/picscale
+	rm $(INSTALL_PATH)/setvol
 	rm $(INSTALL_PATH)/switch2
 
 clean:
@@ -114,4 +120,5 @@ clean:
 	pngoverlay-gtk2 \
 	pngoverlay-cairo \
 	picscale \
+	setvol \
 	switch2

@@ -6,7 +6,7 @@ GdkPixbuf *pixbuf;
 
 /* XPM */
 static char *floppy_xpm[] = {
-"26 26 62 1",
+"28 28 62 1",
 " 	c None",
 "A	c #2B2B2B",
 "B	c #424242",
@@ -69,32 +69,34 @@ static char *floppy_xpm[] = {
 "6	c #6D6D6D",
 "7	c #4D4D4D",
 "8	c #2D2D2D",
-"                          ",
-"  BCCDDDDDDDDDDDDDDDDCCE  ",
-" BGHHIJJJJJJJJJJJJJJIHHKL ",
-" MNOPQRRRRRRRRRRRRRRQSSTM ",
-" MUVWXYYYYYYYYYYYYYYXSSTM ",
-" MTSSZaaaaaaaaaaaaaaZSSTM ",
-" MTSSZbccccccccccccbZSSTM ",
-" MTSSZaaaaaaaaaaaaaaZSSTM ",
-" MTSSZaaaaaaaaaaaaaaZSSTM ",
-" MTSSZbccccccccccccbZSSTM ",
-" MTSSZaaaaaaaaaaaaaaZSSTM ",
-" MTSSZaaaaaaaaaaaaaaZSSTM ",
-" MTSSZbccccccccccccbZSSTM ",
-" MTSSZaaaaaaaaaaaaaaZSSTM ",
-" MTSSdeeeeeeeeeeeeeedSSTM ",
-" MTSSSSfggggggggggSSSSSTM ",
-" MTSSShijklmjjjjjjnoSSSTM ",
-" MTSSSpqrstuqqqqqqqpSSSTM ",
-" MTSSSpqvwSxqqqqqqqpSSSTM ",
-" MTSSSpqvwSxqqqqqqqpSSSTM ",
-" MTSSSpqvwSxqqqqqqqpSSSTM ",
-" MHSSSpqvwSyqqqqqqqpSSSTM ",
-" z01SSpq2Nx3qqqqqqqpSSSTM ",
-"  5u6HuqqqqqqqqqqqquHHHGV ",
-"   zCC7pppppppppppp7CCCV  ",
-"                          "
+"                            ",
+"                            ",
+"   BCCDDDDDDDDDDDDDDDDCCE   ",
+"  BGHHIJJJJJJJJJJJJJJIHHKL  ",
+"  MNOPQRRRRRRRRRRRRRRQSSTM  ",
+"  MUVWXYYYYYYYYYYYYYYXSSTM  ",
+"  MTSSZaaaaaaaaaaaaaaZSSTM  ",
+"  MTSSZbccccccccccccbZSSTM  ",
+"  MTSSZaaaaaaaaaaaaaaZSSTM  ",
+"  MTSSZaaaaaaaaaaaaaaZSSTM  ",
+"  MTSSZbccccccccccccbZSSTM  ",
+"  MTSSZaaaaaaaaaaaaaaZSSTM  ",
+"  MTSSZaaaaaaaaaaaaaaZSSTM  ",
+"  MTSSZbccccccccccccbZSSTM  ",
+"  MTSSZaaaaaaaaaaaaaaZSSTM  ",
+"  MTSSdeeeeeeeeeeeeeedSSTM  ",
+"  MTSSSSfggggggggggSSSSSTM  ",
+"  MTSSShijklmjjjjjjnoSSSTM  ",
+"  MTSSSpqrstuqqqqqqqpSSSTM  ",
+"  MTSSSpqvwSxqqqqqqqpSSSTM  ",
+"  MTSSSpqvwSxqqqqqqqpSSSTM  ",
+"  MTSSSpqvwSxqqqqqqqpSSSTM  ",
+"  MHSSSpqvwSyqqqqqqqpSSSTM  ",
+"  z01SSpq2Nx3qqqqqqqpSSSTM  ",
+"   5u6HuqqqqqqqqqqqquHHHGV  ",
+"    zCC7pppppppppppp7CCCV   ",
+"                            ",
+"                            "
 };
 
 void tray_icon_on_click(GtkStatusIcon *status_icon, gpointer user_data) {
@@ -109,7 +111,6 @@ static GtkStatusIcon *create_tray_icon() {
 
 	g_signal_connect(G_OBJECT(tray_icon), "activate", G_CALLBACK(tray_icon_on_click), NULL);
 	pixbuf = gdk_pixbuf_new_from_xpm_data ((const char **)floppy_xpm);
-	//gtk_status_icon_set_from_file(tray_icon,"/root/raspi-icons/floppy.xpm" );
 	gtk_status_icon_set_from_pixbuf (tray_icon, pixbuf);
 	gtk_status_icon_set_tooltip(tray_icon, "Pupmode 13 - press for settings");
 	

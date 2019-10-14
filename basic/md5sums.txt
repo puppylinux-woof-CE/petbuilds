@@ -103,3 +103,4 @@ b2a80e4789af23d67dfe1e88a997abbf  smartmontools-7.0.tar.gz
 3e7c1c18c040a6e83f69e248579d78ba  unrarsrc-5.8.1.tar.gz
 91bab6c072e38a493bb4eb673e4fe0d6  flashrom-v1.1.tar.bz2
 c1572704a6211ecfe05c7f6ae362d09c  simple-mtpfs-0.3.0.tar.gz
+ed8dc48d7a3794e462e8e589a21746ce  rox-filer-17w.tar.gz

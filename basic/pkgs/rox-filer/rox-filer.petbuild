@@ -6,7 +6,7 @@
 . ../../func
 . ../../build.conf
 
-URL=https://github.com/woodenshoe-wi/rox-filer/archive/
+URL=https://github.com/puppylinux-woof-CE/rox-filer/archive/
 PKG=rox-filer
 VER=${rox_filer_ver}
 COMP=tar.gz
@@ -28,12 +28,10 @@ case $ARCH in
  *) 	LIBDIR=$LIBCONF32 ;;
 esac
 
-
 build() {
+	rm -rf ${PKG}
 	mv ${PKG}-${PKG}-${VER} ${PKG}
 	cd ${PKG}
-	#./ROX-Filer/AppRun
-	#[ "$?" -eq 0 ] || exit 1
 
 	APP_DIR=$(realpath ROX-Filer)
 	if [ ! -x "$APP_DIR/src/configure" ]; then
@@ -45,7 +43,7 @@ build() {
 		rm -f "$BUILDDIR/config.cache"
 		rm -f "$APP_DIR/src/config.h"	# (for upgrading)
 		cd "$BUILDDIR" && "$APP_DIR/src/configure" "$@" \
-			&& $MAKE clean && $MAKE && echo Done >&2
+			&& make clean && make && echo Done >&2
 
 	cd ${CWD}
 	EXEC=`find ./${PKG}/ROX-Filer -type f -name 'ROX-Filer'`

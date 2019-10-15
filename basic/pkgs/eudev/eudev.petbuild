@@ -4,6 +4,9 @@
 . ../../func
 . ../../build.conf
 
+[ -z "$BUILD" ] && BUILD=${DEF_BUILD}
+BUILD=${BUILD}-${eudev_rev} #versions
+
 URL=https://github.com/gentoo/eudev/archive
 PKG=eudev
 VER=${eudev_ver}
@@ -12,9 +15,7 @@ DESC="programs for dynamic creation of device nodes."
 DEPS=
 CAT=BuildingBlock
 DESKTOP=eudev.desktop
-BUILD=
 CWD=$(pwd)
-[ -z "$BUILD" ] && BUILD=$DEF_BUILD
 # comment these 2 below if you use a custom package() function
 [ -f "$DESKTOP" ] || DESKTOP=not
 [ -z "$DEPS" ] && DEPS=not
@@ -37,6 +38,9 @@ prepare() {
 }
 
 build() {
+	# avoid hours of waiting
+	sed -i 's%XSLTPROC=.*%XSLTPROC=echo%' man/make.sh 
+	#--
 	./autogen.sh
 	CFLAGS="${FLAGS}" \
 	CXXFLAGS="${FLAGS}" \
@@ -45,7 +49,7 @@ build() {
 		--bindir=/bin \
 		--with-rootprefix=/usr \
 		--sysconfdir=/etc \
-		--libdir=/lib \
+		--libdir=/${LIBDIR} \
 		--sbindir=/sbin \
 		--disable-static \
 		--disable-introspection \
@@ -77,9 +81,15 @@ extract v${VER}.${COMP}
 	cd -
 #--
 
-#fix pkgconfig location
+# fix pkgconfig location
 mkdir -p ${PKG}-install/usr/lib
 mv -f ${PKG}-install/lib/pkgconfig ${PKG}-install/usr/lib/
+
+# fix /lib/udev/... location
+if [ -d ${PKG}-install/lib64/udev ] ; then
+	mkdir -p ${PKG}-install/lib
+	mv -f ${PKG}-install/lib64/udev ${PKG}-install/lib/
+fi
 
 (
 	if [ -d ${PKG}-install/lib64 ] ; then

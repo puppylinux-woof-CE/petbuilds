@@ -82,8 +82,14 @@ extract v${VER}.${COMP}
 #--
 
 # fix pkgconfig location
-mkdir -p ${PKG}-install/usr/lib
-mv -f ${PKG}-install/lib/pkgconfig ${PKG}-install/usr/lib/
+if [ -d ${PKG}-install/lib/pkgconfig ] ; then
+	mkdir -p ${PKG}-install/usr/lib
+	mv -f ${PKG}-install/lib/pkgconfig ${PKG}-install/usr/lib/
+fi
+if [ -d ${PKG}-install/lib64/pkgconfig ] ; then
+	mkdir -p ${PKG}-install/usr/lib64
+	mv -f ${PKG}-install/lib64/pkgconfig ${PKG}-install/usr/lib64/
+fi
 
 # fix /lib/udev/... location
 if [ -d ${PKG}-install/lib64/udev ] ; then

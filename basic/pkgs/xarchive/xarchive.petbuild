@@ -5,6 +5,9 @@
 . ../../func
 . ../../build.conf
 
+#reset this when a new version is released
+BUILD=rev2 
+
 URL=http://distro.ibiblio.org/puppylinux/sources/x/
 PKG=xarchive
 VER=${xarchive_ver}
@@ -13,7 +16,6 @@ DESC="A GTK+ front-end for command line archiving tools"
 DEPS=+gtk+2
 CAT=Utility
 DESKTOP=${PKG}.desktop
-BUILD=
 CWD=$(pwd)
 [ -z "$BUILD" ] && BUILD=$DEF_BUILD
 [ -f "$DESKTOP" ] || DESKTOP=not

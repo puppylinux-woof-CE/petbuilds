@@ -6,7 +6,7 @@
 . ../../build.conf
 
 #reset this when a new version is released
-BUILD=rev2 
+BUILD=rev3 
 
 URL=http://distro.ibiblio.org/puppylinux/sources/x/
 PKG=xarchive

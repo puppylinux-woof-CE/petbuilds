@@ -31,6 +31,7 @@ BZIP2_EXTS="tar.bz tbz tar.bz2 tbz2"
 COMPRESS_EXTS="tar.z"
 XZ_EXTS="tar.xz txz"
 LZMA_EXTS="tar.lzma tar.lz tlz"
+ZST_EXTS="tar.zst"
 
 # Setup awk program
 AWK_PROGS="mawk gawk awk"
@@ -90,6 +91,13 @@ for ext in $LZMA_EXTS; do
         DECOMPRESS="lzma -dc"
         COMPRESS="lzma -ze9c"
         TAR_COMPRESS_OPT="-a"
+    fi
+done
+for ext in $ZST_EXTS; do
+    if [ $(expr "$lc_archive" : ".*\."$ext"$") -gt 0 ]; then
+        DECOMPRESS="--zstd -xf"
+        COMPRESS="zstd -vcf"
+        TAR_COMPRESS_OPT="--zstd"
     fi
 done
 
@@ -175,6 +183,14 @@ case "$opt" in
                     printf "%s;" $ext
                 else
                     echo compress and uncompress not found >> /dev/stderr 
+                    echo extention $ext ignored >> /dev/stderr
+                fi
+            done
+            for ext in $ZST_EXTS; do
+                if [ "$(which zstd)" ]; then
+                    printf "%s;" $ext
+                else
+                    echo zstd not found >> /dev/stderr 
                     echo extention $ext ignored >> /dev/stderr
                 fi
             done

@@ -1,5 +1,6 @@
 #!/bin/sh
 #8.06.11 rodin.s: i18n
+#22.04.2020 add wireless option ozsouth/peebee
 
 export TEXTDOMAIN=xsaneshell #usr_sbin2
 export TEXTDOMAINDIR=/usr/share/locale
@@ -93,6 +94,11 @@ old_scanner() {
 	      <label>SCSI</label>
 	      <action>EXIT:12</action>
 	    </button>
+	    <button image-position="2">
+	      '"`/usr/lib/gtkdialog/xml_button-icon wifi_open.svg huge`"'
+	      <label>WIFI</label>
+	      <action>EXIT:13</action>
+	    </button>
 	    </hbox>
 	  </frame>
 	  <hbox space-expand="false" space-fill="false">
@@ -119,6 +125,9 @@ old_scanner() {
 	  ;;
 	 *12*)
 	  modprobe sg
+	  ;;
+	 *13*)
+	  echo
 	  ;;
 	 *)
 	  exit

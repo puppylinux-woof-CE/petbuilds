@@ -30,7 +30,7 @@ esac
 
 build() {
 	rm -rf ${PKG}
-	mv ${PKG}-${PKG}-${VER} ${PKG}
+	mv ${PKG}-${VER} ${PKG}
 	cd ${PKG}
 
 	APP_DIR=$(realpath ROX-Filer)
@@ -117,7 +117,8 @@ package() {
 }
 
 # main
-retrieve ${PKG}-${VER}.${COMP}
-extract ${PKG}-${VER}.${COMP}
+retrieve ${VER}.${COMP}
+extract ${VER}.${COMP}
+sleep 2
 build
 package	

@@ -5,7 +5,7 @@
 . ../../func
 . ../../build.conf
 
-URL=https://github.com/v1cont/yad/archive
+URL=https://github.com/step-/yad/archive
 PKG=yad
 VER=$yad_ver
 COMP=tar.gz
@@ -28,7 +28,7 @@ case $ARCH in # set in build.conf
 esac
 
 # main
-retrieve v${VER}.${COMP} ${PKG}-${VER}.${COMP}
+retrieve ${VER}.${COMP} ${PKG}-${VER}.${COMP}
 extract ${PKG}-${VER}.${COMP}
 
 if [ ! -f ${PKG}-${VER}/configure ] ; then

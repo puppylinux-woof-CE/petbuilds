@@ -105,3 +105,4 @@ b2a80e4789af23d67dfe1e88a997abbf  smartmontools-7.0.tar.gz
 c1572704a6211ecfe05c7f6ae362d09c  simple-mtpfs-0.3.0.tar.gz
 ed8dc48d7a3794e462e8e589a21746ce  rox-filer-17w.tar.gz
 d71720db03dfd02dfddfb4b2978e05f2  17wi.tar.gz
+f629e1783a62156a1efd0a24947bb87f  yad-0.42.39.tar.gz

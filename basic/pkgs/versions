@@ -64,6 +64,6 @@ xclip_ver=0.13              # 2016-09-13   https://github.com/astrand/xclip/rele
 xcur2png_ver=0.7.0          # unchanging - old
 Xdialog_ver=2016.12         # unchanging
 xdotool_ver=                # -- requires libxkbcommon
-yad_ver=0.42.39             # maintained gtk2 version - https://github.com/step-/yad/releases
+yad_ver=0.42.43             # maintained gtk2 version - https://github.com/step-/yad/releases
 zarfy_ver=0.1.0             # unchaning  - old
 
